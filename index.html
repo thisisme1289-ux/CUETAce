@@ -3511,22 +3511,85 @@ function selectChaptersWeighted(weights, totalSlots) {
 }
 
 function buildQuestionsFromBank(bank, testName, mode, limit) {
-  const chapterLimit = limit !== null && limit !== undefined
+  const chapterLimit = (limit !== null && limit !== undefined)
     ? limit
     : (mode === 'chapter' ? 200 : mode === 'mock' ? 50 : 999);
 
-  // ── CHAPTER MODE — unchanged logic ──
+  // ── 1. SAFETY CHECK ──
+  if (!bank || !bank.chapters) return [];
+
+  // ── 2. CHAPTER MODE (Unchanged as requested) ──
   if (mode === 'chapter') {
     const matched = bank.chapters.find(ch => (ch.chapter || ch.chapter_name) === testName);
     const all = [];
     bank.chapters.forEach(ch => {
-      const chName = ch.chapter || ch.chapter_name || 'General';
-      ch.questions.forEach(q => all.push({
-        section: chName, text: q.question, passage: q.passage || '',
+      // Safety check for questions array
+      if (ch.questions && Array.isArray(ch.questions)) {
+        const chName = ch.chapter || ch.chapter_name || 'General';
+        ch.questions.forEach(q => all.push({
+          section: chName, text: q.question, passage: q.passage || '',
+          options: q.options, correct: q.correct, explanation: q.explanation || '',
+          type: q.type || 'MCQ', level: q.level || 'L1'
+        }));
+      }
+    });
+    if (matched && matched.questions) {
+      const matchedName = matched.chapter || matched.chapter_name;
+      const chQs = shuffleArray(matched.questions.map(q => ({
+        section: matchedName, text: q.question, passage: q.passage || '',
         options: q.options, correct: q.correct, explanation: q.explanation || '',
         type: q.type || 'MCQ', level: q.level || 'L1'
-      }));
+      })));
+      if (chQs.length >= chapterLimit) return chQs.slice(0, chapterLimit);
+      const extras = shuffleArray(all.filter(q => q.section !== matchedName))
+                       .slice(0, chapterLimit - chQs.length);
+      return shuffleArray([...chQs, ...extras]);
+    }
+    return shuffleArray(all).slice(0, chapterLimit);
+  }
+
+  // ── 3. MOCK MODE (New Random 10/30/60 Logic) ──
+  if (mode === 'mock') {
+    const targets = { L1: 5, L2: 15, L3: 30 }; // 10%, 30%, 60% of 50
+    let pools = { L1: [], L2: [], L3: [] };
+    let selected = [];
+
+    // Gather questions from ALL chapters into difficulty pools
+    bank.chapters.forEach(ch => {
+      if (ch.questions && Array.isArray(ch.questions)) {
+        const chName = ch.chapter || ch.chapter_name || 'General';
+        ch.questions.forEach(q => {
+          const lvl = (q.level || 'L1').toUpperCase();
+          const poolKey = pools[lvl] ? lvl : 'L1';
+          pools[poolKey].push({
+            section: chName, text: q.question, passage: q.passage || '',
+            options: q.options, correct: q.correct, explanation: q.explanation || '',
+            type: q.type || 'MCQ', level: lvl
+          });
+        });
+      }
     });
+
+    // Randomly pick based on your percentages
+    Object.keys(targets).forEach(lvl => {
+      const countNeeded = targets[lvl];
+      const picked = shuffleArray([...pools[lvl]]).slice(0, countNeeded);
+      selected = selected.concat(picked);
+    });
+
+    // Fallback: If any pool was too small, fill up to 50 with any remaining questions
+    if (selected.length < 50) {
+      let allRemaining = [...pools.L1, ...pools.L2, ...pools.L3]
+        .filter(q => !selected.includes(q));
+      selected = selected.concat(shuffleArray(allRemaining).slice(0, 50 - selected.length));
+    }
+
+    return shuffleArray(selected);
+  }
+
+  return [];
+}
+  
     if (matched) {
       const matchedName = matched.chapter || matched.chapter_name;
       const chQs = shuffleArray(matched.questions.map(q => ({
