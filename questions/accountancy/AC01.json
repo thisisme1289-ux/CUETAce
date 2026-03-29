@@ -1,4 +1,4 @@
-
+[
 {
   "subject": "Accountancy",
   "subject_code": "301",
@@ -739,5 +739,6 @@
 "correct": 1,
 "explanation": "IOC: X = ₹80,000; Y = ₹60,000; Z = ₹60,000. Total = ₹2,00,000. Y's salary = ₹96,000; Z's salary = ₹72,000. Total = ₹1,68,000. Total appropriations = ₹3,68,000. Residual = ₹5,00,000 − ₹3,68,000 = ₹1,32,000. In 4:3:3: X = ₹52,800; Y = ₹39,600; Z = ₹39,600. Z's total = IOC ₹60,000 + salary ₹72,000 + share ₹39,600 = ₹1,71,600 < guarantee ₹1,80,000. Deficit = ₹8,400 borne by X. X's current account: ₹80,000 + ₹52,800 − ₹8,400 = ₹1,24,400 Cr. Closest option ₹1,52,000. Exact = ₹1,24,400."
 }
-]
+
 }
+]
