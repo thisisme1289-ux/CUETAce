@@ -1,0 +1,3209 @@
+{
+  "subject": "English",
+  "subject_code": "101",
+  "section_code": "EN-S5",
+  "section": "EN-S5 — Vocabulary",
+  "total_questions": 200,
+  "questions": [
+    {
+      "id": "EN-S5Q001",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'meticulous' in the given context.",
+      "sentence": "She was meticulous in planning the event, leaving no detail unattended.",
+      "options": [
+        "precise",
+        "careful",
+        "casual",
+        "vague"
+      ],
+      "correct": 1,
+      "explanation": "'Meticulous' means 'precise' in this context.\nThe sentence shows exact, detail-focused work.\nThe other options do not convey the same carefulness and accuracy."
+    },
+    {
+      "id": "EN-S5Q002",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'meticulous' as used in the sentence.",
+      "sentence": "She was meticulous in planning the event, leaving no detail unattended.",
+      "options": [
+        "precise",
+        "careless",
+        "careful",
+        "exact"
+      ],
+      "correct": 2,
+      "explanation": "The opposite of 'meticulous' here is 'careless'.\nThe sentence suggests extreme attention to detail, so the antonym must express lack of care.\nThe other options are too close in meaning or still positive."
+    },
+    {
+      "id": "EN-S5Q003",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "She was ____ in planning the event, leaving no detail unattended.",
+      "options": [
+        "casual",
+        "meticulous",
+        "hasty",
+        "vague"
+      ],
+      "correct": 2,
+      "explanation": "'Meticulous' fits the sentence naturally and preserves the intended meaning.\nIt conveys careful, thorough attention to detail.\nThe other options weaken or distort the sense of the sentence."
+    },
+    {
+      "id": "EN-S5Q004",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'meticulous'?",
+      "sentence": "The word 'meticulous' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "precise",
+        "meticulous",
+        "careless",
+        "careful"
+      ],
+      "correct": 3,
+      "explanation": "'Meticulous' is aligned with 'precise' and 'careful'.\n'Careless' does not share that meaning and is the odd one out.\nThat is why it is the correct choice here."
+    },
+    {
+      "id": "EN-S5Q005",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'candid' in the given context.",
+      "sentence": "His candid answer made the issue clearer than before.",
+      "options": [
+        "frank",
+        "evasive",
+        "reserved",
+        "doubtful"
+      ],
+      "correct": 1,
+      "explanation": "'Candid' means 'frank' here.\nThe sentence shows openness and honesty in the response.\nThe other options suggest secrecy, hesitation, or uncertainty."
+    },
+    {
+      "id": "EN-S5Q006",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'candid' as used in the sentence.",
+      "sentence": "His candid answer made the issue clearer than before.",
+      "options": [
+        "frank",
+        "evasive",
+        "direct",
+        "open"
+      ],
+      "correct": 2,
+      "explanation": "The opposite of 'candid' here is 'evasive'.\nThe sentence presents a clear and honest answer, so the antonym should show avoidance.\nThe other options are too close to openness or directness."
+    },
+    {
+      "id": "EN-S5Q007",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "His ____ answer made the issue clearer than before.",
+      "options": [
+        "frank",
+        "vague",
+        "candid",
+        "careless"
+      ],
+      "correct": 3,
+      "explanation": "'Candid' fits the sentence naturally and keeps the meaning of honesty and openness.\nIt is the best contextual choice.\nThe other options do not preserve the same nuance."
+    },
+    {
+      "id": "EN-S5Q008",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'candid'?",
+      "sentence": "The word 'candid' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "frank",
+        "evasive",
+        "candid",
+        "open"
+      ],
+      "correct": 2,
+      "explanation": "'Candid' is linked with 'frank' and 'open'.\n'Evasive' does not share that meaning and is the odd one out.\nIt therefore answers the question correctly."
+    },
+    {
+      "id": "EN-S5Q009",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'terse' in the given context.",
+      "sentence": "The manager's terse reply ended the discussion quickly.",
+      "options": [
+        "brief",
+        "verbose",
+        "long-winded",
+        "unclear"
+      ],
+      "correct": 1,
+      "explanation": "'Terse' means 'brief' in this sentence.\nThe reply is short and to the point.\nThe other options suggest length, confusion, or unnecessary detail."
+    },
+    {
+      "id": "EN-S5Q010",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'terse' as used in the sentence.",
+      "sentence": "The manager's terse reply ended the discussion quickly.",
+      "options": [
+        "brief",
+        "concise",
+        "verbose",
+        "short"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'terse' here is 'verbose'.\nThe sentence contrasts a short reply with an overly wordy one.\nThe other options still reflect brevity rather than its opposite."
+    },
+    {
+      "id": "EN-S5Q011",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The manager's ____ reply ended the discussion quickly.",
+      "options": [
+        "verbose",
+        "terse",
+        "detailed",
+        "hasty"
+      ],
+      "correct": 2,
+      "explanation": "'Terse' fits because the reply is short and sharp.\nIt matches the quick closure of the discussion.\nThe other options do not capture that tight, clipped tone."
+    },
+    {
+      "id": "EN-S5Q012",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'terse'?",
+      "sentence": "The word 'terse' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "brief",
+        "terse",
+        "verbose",
+        "concise"
+      ],
+      "correct": 3,
+      "explanation": "'Terse' is close to 'brief' and 'concise'.\n'Verbose' means wordy and is therefore not a synonym.\nIt is the odd one out in the list."
+    },
+    {
+      "id": "EN-S5Q013",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'evasive' in the given context.",
+      "sentence": "The witness gave an evasive reply to every difficult question.",
+      "options": [
+        "elusive",
+        "direct",
+        "clear",
+        "frank"
+      ],
+      "correct": 1,
+      "explanation": "'Evasive' means 'elusive' here.\nThe witness avoids answering directly.\nThe other options imply openness and clarity, which do not fit the sentence."
+    },
+    {
+      "id": "EN-S5Q014",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'evasive' as used in the sentence.",
+      "sentence": "The witness gave an evasive reply to every difficult question.",
+      "options": [
+        "elusive",
+        "direct",
+        "indirect",
+        "uncertain"
+      ],
+      "correct": 2,
+      "explanation": "The opposite of 'evasive' here is 'direct'.\nThe sentence shows avoidance of a clear reply, so the antonym must indicate openness.\nThe remaining choices do not fully reverse the meaning."
+    },
+    {
+      "id": "EN-S5Q015",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The witness gave an ____ reply to every difficult question.",
+      "options": [
+        "direct",
+        "evasive",
+        "open",
+        "candid"
+      ],
+      "correct": 2,
+      "explanation": "'Evasive' fits perfectly because it suggests avoidance of direct answers.\nThe context clearly calls for that meaning.\nThe other options do not express the same reluctance to answer."
+    },
+    {
+      "id": "EN-S5Q016",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'evasive'?",
+      "sentence": "The word 'evasive' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "elusive",
+        "direct",
+        "evasive",
+        "indirect"
+      ],
+      "correct": 2,
+      "explanation": "'Evasive' is associated with 'elusive' and 'indirect'.\n'Direct' does not share that meaning and stands apart.\nHence it is the correct answer."
+    },
+    {
+      "id": "EN-S5Q017",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'benevolent' in the given context.",
+      "sentence": "The benevolent donor supported several students anonymously.",
+      "options": [
+        "kind",
+        "cruel",
+        "stingy",
+        "harsh"
+      ],
+      "correct": 1,
+      "explanation": "'Benevolent' means 'kind' here.\nThe sentence describes generosity and goodwill.\nThe other options express the opposite or an unrelated attitude."
+    },
+    {
+      "id": "EN-S5Q018",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'benevolent' as used in the sentence.",
+      "sentence": "The benevolent donor supported several students anonymously.",
+      "options": [
+        "kind",
+        "cruel",
+        "helpful",
+        "generous"
+      ],
+      "correct": 2,
+      "explanation": "The opposite of 'benevolent' is 'cruel'.\nThe sentence shows kindness and support, so the antonym must indicate harshness.\nThe other options still suggest positive intent."
+    },
+    {
+      "id": "EN-S5Q019",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The ____ donor supported several students anonymously.",
+      "options": [
+        "cruel",
+        "benevolent",
+        "stingy",
+        "careless"
+      ],
+      "correct": 2,
+      "explanation": "'Benevolent' fits because it means kind and generous.\nThe anonymous support in the sentence confirms that sense.\nThe other options do not align with the positive tone."
+    },
+    {
+      "id": "EN-S5Q020",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'benevolent'?",
+      "sentence": "The word 'benevolent' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "kind",
+        "benevolent",
+        "cruel",
+        "charitable"
+      ],
+      "correct": 3,
+      "explanation": "'Benevolent' is close to 'kind' and 'charitable'.\n'Cruel' is not a synonym and is the odd one out.\nThat makes it the correct response."
+    },
+    {
+      "id": "EN-S5Q021",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'detrimental' in the given context.",
+      "sentence": "Excessive screen time can be detrimental to sleep quality.",
+      "options": [
+        "harmful",
+        "useful",
+        "beneficial",
+        "neutral"
+      ],
+      "correct": 1,
+      "explanation": "'Detrimental' means 'harmful' here.\nThe sentence shows a negative effect on sleep quality.\nThe other choices suggest positive or neutral effects."
+    },
+    {
+      "id": "EN-S5Q022",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'detrimental' as used in the sentence.",
+      "sentence": "Excessive screen time can be detrimental to sleep quality.",
+      "options": [
+        "harmful",
+        "useful",
+        "damaging",
+        "injurious"
+      ],
+      "correct": 2,
+      "explanation": "The opposite of 'detrimental' is 'useful' or beneficial in sense.\nThe sentence describes a harmful effect, so the antonym must show advantage.\nThe other options still express harm."
+    },
+    {
+      "id": "EN-S5Q023",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "Excessive screen time can be ____ to sleep quality.",
+      "options": [
+        "beneficial",
+        "detrimental",
+        "helpful",
+        "harmless"
+      ],
+      "correct": 2,
+      "explanation": "'Detrimental' fits the sentence exactly.\nIt conveys harm, which is the meaning intended by the context.\nThe other options soften or reverse that meaning."
+    },
+    {
+      "id": "EN-S5Q024",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'detrimental'?",
+      "sentence": "The word 'detrimental' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "harmful",
+        "detrimental",
+        "beneficial",
+        "injurious"
+      ],
+      "correct": 3,
+      "explanation": "'Detrimental' is close to 'harmful' and 'injurious'.\n'Beneficial' means helpful and is therefore not a synonym.\nIt is the odd one out here."
+    },
+    {
+      "id": "EN-S5Q025",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'alleviate' in the given context.",
+      "sentence": "The medicine helped alleviate the pain within an hour.",
+      "options": [
+        "relieve",
+        "aggravate",
+        "increase",
+        "intensify"
+      ],
+      "correct": 1,
+      "explanation": "'Alleviate' means 'relieve' here.\nThe medicine reduces pain rather than increasing it.\nThe other choices suggest the opposite effect."
+    },
+    {
+      "id": "EN-S5Q026",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'alleviate' as used in the sentence.",
+      "sentence": "The medicine helped alleviate the pain within an hour.",
+      "options": [
+        "relieve",
+        "lessen",
+        "aggravate",
+        "reduce"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'alleviate' is 'aggravate'.\nThe sentence suggests reducing pain, so the antonym must mean making it worse.\nThe remaining options all move in the direction of relief."
+    },
+    {
+      "id": "EN-S5Q027",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The medicine helped ____ the pain within an hour.",
+      "options": [
+        "aggravate",
+        "alleviate",
+        "intensify",
+        "prolong"
+      ],
+      "correct": 2,
+      "explanation": "'Alleviate' is the best fit because it means lessen or ease.\nThat matches the effect of the medicine in the sentence.\nThe other options contradict the intended meaning."
+    },
+    {
+      "id": "EN-S5Q028",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'alleviate'?",
+      "sentence": "The word 'alleviate' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "relieve",
+        "alleviate",
+        "aggravate",
+        "ease"
+      ],
+      "correct": 3,
+      "explanation": "'Alleviate' is close to 'relieve' and 'ease'.\n'Aggravate' means to worsen, so it is not a synonym.\nThat makes it the correct choice."
+    },
+    {
+      "id": "EN-S5Q029",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'arduous' in the given context.",
+      "sentence": "Climbing the steep ridge was an arduous task.",
+      "options": [
+        "difficult",
+        "easy",
+        "simple",
+        "effortless"
+      ],
+      "correct": 1,
+      "explanation": "'Arduous' means 'difficult' here.\nThe steep climb required great effort.\nThe other choices suggest the opposite idea."
+    },
+    {
+      "id": "EN-S5Q030",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'arduous' as used in the sentence.",
+      "sentence": "Climbing the steep ridge was an arduous task.",
+      "options": [
+        "difficult",
+        "challenging",
+        "easy",
+        "hard"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'arduous' is 'easy'.\nThe sentence stresses difficulty, so the antonym must suggest little effort.\nThe other options still imply struggle."
+    },
+    {
+      "id": "EN-S5Q031",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "Climbing the steep ridge was an ____ task.",
+      "options": [
+        "arduous",
+        "easy",
+        "simple",
+        "brief"
+      ],
+      "correct": 1,
+      "explanation": "'Arduous' fits because it means demanding and effortful.\nIt matches the physical challenge described in the sentence.\nThe other words weaken or change the meaning."
+    },
+    {
+      "id": "EN-S5Q032",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'arduous'?",
+      "sentence": "The word 'arduous' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "difficult",
+        "arduous",
+        "easy",
+        "challenging"
+      ],
+      "correct": 3,
+      "explanation": "'Arduous' is close to 'difficult' and 'challenging'.\n'Easy' is the opposite and therefore not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q033",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'amiable' in the given context.",
+      "sentence": "She remained amiable even during the tense meeting.",
+      "options": [
+        "friendly",
+        "hostile",
+        "cold",
+        "rude"
+      ],
+      "correct": 1,
+      "explanation": "'Amiable' means 'friendly' here.\nThe sentence presents a pleasant, agreeable attitude.\nThe other options describe hostility or rudeness."
+    },
+    {
+      "id": "EN-S5Q034",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'amiable' as used in the sentence.",
+      "sentence": "She remained amiable even during the tense meeting.",
+      "options": [
+        "friendly",
+        "cordial",
+        "hostile",
+        "pleasant"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'amiable' is 'hostile'.\nThe sentence shows warmth and pleasantness, so the antonym must show antagonism.\nThe remaining options still suggest friendliness."
+    },
+    {
+      "id": "EN-S5Q035",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "She remained ____ even during the tense meeting.",
+      "options": [
+        "hostile",
+        "amiable",
+        "rude",
+        "sharp"
+      ],
+      "correct": 2,
+      "explanation": "'Amiable' fits because it means friendly and pleasant.\nThe sentence contrasts tension with a calm, agreeable manner.\nThe other options do not suit the positive tone."
+    },
+    {
+      "id": "EN-S5Q036",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'amiable'?",
+      "sentence": "The word 'amiable' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "friendly",
+        "amiable",
+        "hostile",
+        "pleasant"
+      ],
+      "correct": 3,
+      "explanation": "'Amiable' is close to 'friendly' and 'pleasant'.\n'Hostile' does not share that meaning and is the odd one out.\nIt is therefore the correct answer."
+    },
+    {
+      "id": "EN-S5Q037",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'meager' in the given context.",
+      "sentence": "The village survived on meager supplies after the storm.",
+      "options": [
+        "scanty",
+        "abundant",
+        "rich",
+        "plentiful"
+      ],
+      "correct": 1,
+      "explanation": "'Meager' means 'scanty' here.\nThe supplies were small and inadequate after the storm.\nThe other options suggest plenty rather than scarcity."
+    },
+    {
+      "id": "EN-S5Q038",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'meager' as used in the sentence.",
+      "sentence": "The village survived on meager supplies after the storm.",
+      "options": [
+        "scanty",
+        "limited",
+        "abundant",
+        "small"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'meager' is 'abundant'.\nThe sentence emphasizes scarcity, so the antonym must mean plenty.\nThe remaining choices still suggest limited quantity."
+    },
+    {
+      "id": "EN-S5Q039",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The village survived on ____ supplies after the storm.",
+      "options": [
+        "abundant",
+        "meager",
+        "ample",
+        "rich"
+      ],
+      "correct": 2,
+      "explanation": "'Meager' is the best choice because it means scanty or insufficient.\nThat matches the crisis after the storm.\nThe other options imply abundance, which would contradict the context."
+    },
+    {
+      "id": "EN-S5Q040",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'meager'?",
+      "sentence": "The word 'meager' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "scanty",
+        "meager",
+        "abundant",
+        "sparse"
+      ],
+      "correct": 3,
+      "explanation": "'Meager' is close to 'scanty' and 'sparse'.\n'Abundant' means plentiful and is not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q041",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'profound' in the given context.",
+      "sentence": "The speaker made a profound observation about human nature.",
+      "options": [
+        "deep",
+        "superficial",
+        "trivial",
+        "shallow"
+      ],
+      "correct": 1,
+      "explanation": "'Profound' means 'deep' here.\nThe observation goes beyond the surface and has real depth.\nThe other options suggest the opposite or a weaker idea."
+    },
+    {
+      "id": "EN-S5Q042",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'profound' as used in the sentence.",
+      "sentence": "The speaker made a profound observation about human nature.",
+      "options": [
+        "deep",
+        "meaningful",
+        "superficial",
+        "thoughtful"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'profound' is 'superficial'.\nThe sentence values depth of thought, so the antonym should mean surface-level.\nThe other choices are still positive or thoughtful."
+    },
+    {
+      "id": "EN-S5Q043",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The speaker made a ____ observation about human nature.",
+      "options": [
+        "superficial",
+        "profound",
+        "trivial",
+        "empty"
+      ],
+      "correct": 2,
+      "explanation": "'Profound' fits because it means deep and insightful.\nIt matches the seriousness of the observation.\nThe other options weaken the sense of depth."
+    },
+    {
+      "id": "EN-S5Q044",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'profound'?",
+      "sentence": "The word 'profound' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "deep",
+        "superficial",
+        "profound",
+        "thoughtful"
+      ],
+      "correct": 2,
+      "explanation": "'Profound' is close to 'deep' and often to 'thoughtful'.\n'No placeholder' not applicable; the odd choice is 'superficial'.\nIt does not share the meaning of depth and insight."
+    },
+    {
+      "id": "EN-S5Q045",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'obscure' in the given context.",
+      "sentence": "The poem's meaning is obscure to many first-time readers.",
+      "options": [
+        "unclear",
+        "obvious",
+        "plain",
+        "evident"
+      ],
+      "correct": 1,
+      "explanation": "'Obscure' means 'unclear' here.\nThe meaning is difficult to grasp at first reading.\nThe other options all suggest obviousness or clarity."
+    },
+    {
+      "id": "EN-S5Q046",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'obscure' as used in the sentence.",
+      "sentence": "The poem's meaning is obscure to many first-time readers.",
+      "options": [
+        "unclear",
+        "hidden",
+        "obvious",
+        "dark"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'obscure' is 'obvious'.\nThe sentence says the meaning is difficult to understand, so the antonym should indicate clarity.\nThe other options do not fully reverse the sense."
+    },
+    {
+      "id": "EN-S5Q047",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The poem's meaning is ____ to many first-time readers.",
+      "options": [
+        "obvious",
+        "obscure",
+        "clear",
+        "simple"
+      ],
+      "correct": 2,
+      "explanation": "'Obscure' fits the sentence best.\nIt indicates the meaning is not easily understood.\nThe other options would make the sentence inconsistent."
+    },
+    {
+      "id": "EN-S5Q048",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'obscure'?",
+      "sentence": "The word 'obscure' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "unclear",
+        "obvious",
+        "obscure",
+        "hidden"
+      ],
+      "correct": 2,
+      "explanation": "'Obscure' is close to 'unclear' and sometimes 'hidden'.\n'Obvious' is the opposite and therefore not a synonym.\nThat makes it the correct answer."
+    },
+    {
+      "id": "EN-S5Q049",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'vigilant' in the given context.",
+      "sentence": "Parents were vigilant while the children played near the road.",
+      "options": [
+        "watchful",
+        "careless",
+        "sleepy",
+        "reckless"
+      ],
+      "correct": 1,
+      "explanation": "'Vigilant' means 'watchful' here.\nThe parents are alert and attentive near danger.\nThe other options imply negligence or lack of attention."
+    },
+    {
+      "id": "EN-S5Q050",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'vigilant' as used in the sentence.",
+      "sentence": "Parents were vigilant while the children played near the road.",
+      "options": [
+        "alert",
+        "watchful",
+        "careless",
+        "careful"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'vigilant' is 'careless'.\nThe sentence stresses alertness, so the antonym must show lack of caution.\nThe remaining choices still suggest attention."
+    },
+    {
+      "id": "EN-S5Q051",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "Parents were ____ while the children played near the road.",
+      "options": [
+        "careless",
+        "vigilant",
+        "reckless",
+        "idle"
+      ],
+      "correct": 2,
+      "explanation": "'Vigilant' fits because it means alert and watchful.\nThat matches the safety-conscious behavior in the sentence.\nThe other options do not convey careful attention."
+    },
+    {
+      "id": "EN-S5Q052",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'vigilant'?",
+      "sentence": "The word 'vigilant' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "watchful",
+        "vigilant",
+        "careless",
+        "alert"
+      ],
+      "correct": 3,
+      "explanation": "'Vigilant' is close to 'watchful' and 'alert'.\n'Careless' is the opposite and is not a synonym.\nIt is the odd word out."
+    },
+    {
+      "id": "EN-S5Q053",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'fervent' in the given context.",
+      "sentence": "He delivered a fervent appeal for justice and fairness.",
+      "options": [
+        "passionate",
+        "indifferent",
+        "cold",
+        "flat"
+      ],
+      "correct": 1,
+      "explanation": "'Fervent' means 'passionate' here.\nThe appeal is intense and emotionally strong.\nThe other options suggest a lack of feeling."
+    },
+    {
+      "id": "EN-S5Q054",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'fervent' as used in the sentence.",
+      "sentence": "He delivered a fervent appeal for justice and fairness.",
+      "options": [
+        "passionate",
+        "warm",
+        "indifferent",
+        "earnest"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'fervent' is 'indifferent'.\nThe sentence shows strong feeling, so the antonym must show lack of concern.\nThe remaining options still suggest interest or intensity."
+    },
+    {
+      "id": "EN-S5Q055",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "He delivered a ____ appeal for justice and fairness.",
+      "options": [
+        "indifferent",
+        "fervent",
+        "cold",
+        "mild"
+      ],
+      "correct": 2,
+      "explanation": "'Fervent' is the best fit because it means strongly felt and passionate.\nIt matches the force of the appeal.\nThe other options reduce the emotional intensity."
+    },
+    {
+      "id": "EN-S5Q056",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'fervent'?",
+      "sentence": "The word 'fervent' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "passionate",
+        "fervent",
+        "indifferent",
+        "earnest"
+      ],
+      "correct": 3,
+      "explanation": "'Fervent' is close to 'passionate' and 'earnest'.\n'Indifferent' does not share that meaning and is the odd one out.\nTherefore, it is correct."
+    },
+    {
+      "id": "EN-S5Q057",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'resilient' in the given context.",
+      "sentence": "The resilient plant recovered after weeks of neglect.",
+      "options": [
+        "hardy",
+        "fragile",
+        "weak",
+        "delicate"
+      ],
+      "correct": 1,
+      "explanation": "'Resilient' means 'hardy' here.\nThe plant bounces back after poor conditions.\nThe other options suggest weakness or fragility."
+    },
+    {
+      "id": "EN-S5Q058",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'resilient' as used in the sentence.",
+      "sentence": "The resilient plant recovered after weeks of neglect.",
+      "options": [
+        "hardy",
+        "fragile",
+        "strong",
+        "healthy"
+      ],
+      "correct": 2,
+      "explanation": "The opposite of 'resilient' is 'fragile'.\nThe sentence highlights recovery and strength, so the antonym must show weakness.\nThe other choices still indicate robustness."
+    },
+    {
+      "id": "EN-S5Q059",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The ____ plant recovered after weeks of neglect.",
+      "options": [
+        "fragile",
+        "resilient",
+        "delicate",
+        "sickly"
+      ],
+      "correct": 2,
+      "explanation": "'Resilient' fits because it means able to recover quickly.\nThat is exactly what the sentence describes.\nThe other options do not capture the idea of bounce-back strength."
+    },
+    {
+      "id": "EN-S5Q060",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'resilient'?",
+      "sentence": "The word 'resilient' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "hardy",
+        "resilient",
+        "fragile",
+        "strong"
+      ],
+      "correct": 3,
+      "explanation": "'Resilient' is close to 'hardy' and 'strong'.\n'Fragile' is the opposite and therefore not a synonym.\nIt is the odd choice."
+    },
+    {
+      "id": "EN-S5Q061",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'pragmatic' in the given context.",
+      "sentence": "Her pragmatic approach solved the issue without delay.",
+      "options": [
+        "practical",
+        "idealistic",
+        "theoretical",
+        "dreamy"
+      ],
+      "correct": 1,
+      "explanation": "'Pragmatic' means 'practical' here.\nThe approach focuses on what works in real life.\nThe other options are more abstract or unrealistic."
+    },
+    {
+      "id": "EN-S5Q062",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'pragmatic' as used in the sentence.",
+      "sentence": "Her pragmatic approach solved the issue without delay.",
+      "options": [
+        "practical",
+        "realistic",
+        "idealistic",
+        "sensible"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'pragmatic' is 'idealistic'.\nThe sentence values practical action, so the antonym must imply a more theory-driven stance.\nThe other options remain close to practicality."
+    },
+    {
+      "id": "EN-S5Q063",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "Her ____ approach solved the issue without delay.",
+      "options": [
+        "idealistic",
+        "pragmatic",
+        "theoretical",
+        "dreamy"
+      ],
+      "correct": 2,
+      "explanation": "'Pragmatic' is the best fit because it means sensible and practical.\nIt matches the quick solution in the sentence.\nThe other options do not reflect real-world usefulness."
+    },
+    {
+      "id": "EN-S5Q064",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'pragmatic'?",
+      "sentence": "The word 'pragmatic' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "practical",
+        "pragmatic",
+        "idealistic",
+        "sensible"
+      ],
+      "correct": 3,
+      "explanation": "'Pragmatic' is close to 'practical' and 'sensible'.\n'Idealistic' does not share that meaning and is the odd one out.\nHence it is correct."
+    },
+    {
+      "id": "EN-S5Q065",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'frugal' in the given context.",
+      "sentence": "They adopted a frugal lifestyle to save for the future.",
+      "options": [
+        "economical",
+        "extravagant",
+        "wasteful",
+        "lavish"
+      ],
+      "correct": 1,
+      "explanation": "'Frugal' means 'economical' here.\nThe family uses resources carefully to save money.\nThe other options suggest spending freely or wastefully."
+    },
+    {
+      "id": "EN-S5Q066",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'frugal' as used in the sentence.",
+      "sentence": "They adopted a frugal lifestyle to save for the future.",
+      "options": [
+        "economical",
+        "thrifty",
+        "extravagant",
+        "careful"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'frugal' is 'extravagant'.\nThe sentence shows careful spending, so the antonym must imply excess.\nThe other options still suggest restraint."
+    },
+    {
+      "id": "EN-S5Q067",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "They adopted a ____ lifestyle to save for the future.",
+      "options": [
+        "extravagant",
+        "frugal",
+        "lavish",
+        "wasteful"
+      ],
+      "correct": 2,
+      "explanation": "'Frugal' fits because it means careful in spending.\nThat matches the goal of saving for the future.\nThe other options directly contradict the context."
+    },
+    {
+      "id": "EN-S5Q068",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'frugal'?",
+      "sentence": "The word 'frugal' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "economical",
+        "frugal",
+        "extravagant",
+        "thrifty"
+      ],
+      "correct": 3,
+      "explanation": "'Frugal' is close to 'economical' and 'thrifty'.\n'Extravagant' is the opposite and therefore not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q069",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'boisterous' in the given context.",
+      "sentence": "The boisterous crowd filled the stadium with energy.",
+      "options": [
+        "noisy",
+        "quiet",
+        "silent",
+        "calm"
+      ],
+      "correct": 1,
+      "explanation": "'Boisterous' means 'noisy' here.\nThe crowd is loud and energetic.\nThe other choices suggest the opposite atmosphere."
+    },
+    {
+      "id": "EN-S5Q070",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'boisterous' as used in the sentence.",
+      "sentence": "The boisterous crowd filled the stadium with energy.",
+      "options": [
+        "noisy",
+        "lively",
+        "quiet",
+        "rowdy"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'boisterous' is 'quiet'.\nThe sentence describes loud energy, so the antonym must indicate calmness.\nThe other options still imply noise or excitement."
+    },
+    {
+      "id": "EN-S5Q071",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The ____ crowd filled the stadium with energy.",
+      "options": [
+        "quiet",
+        "boisterous",
+        "silent",
+        "dull"
+      ],
+      "correct": 2,
+      "explanation": "'Boisterous' fits because it means lively and noisy.\nThat matches the atmosphere of an energetic crowd.\nThe other options contradict the sentence."
+    },
+    {
+      "id": "EN-S5Q072",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'boisterous'?",
+      "sentence": "The word 'boisterous' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "noisy",
+        "boisterous",
+        "quiet",
+        "lively"
+      ],
+      "correct": 3,
+      "explanation": "'Boisterous' is close to 'noisy' and 'lively'.\n'Quiet' does not share that meaning and is the odd one out.\nIt is therefore the correct answer."
+    },
+    {
+      "id": "EN-S5Q073",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'transient' in the given context.",
+      "sentence": "Their stay in the city was transient, lasting only two weeks.",
+      "options": [
+        "temporary",
+        "permanent",
+        "lasting",
+        "enduring"
+      ],
+      "correct": 1,
+      "explanation": "'Transient' means 'temporary' here.\nThe stay is short and not meant to last.\nThe other options suggest permanence or endurance."
+    },
+    {
+      "id": "EN-S5Q074",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'transient' as used in the sentence.",
+      "sentence": "Their stay in the city was transient, lasting only two weeks.",
+      "options": [
+        "temporary",
+        "brief",
+        "permanent",
+        "short-term"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'transient' is 'permanent'.\nThe sentence stresses a short duration, so the antonym must indicate something lasting.\nThe other options still mean short-lived."
+    },
+    {
+      "id": "EN-S5Q075",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "Their stay in the city was ____, lasting only two weeks.",
+      "options": [
+        "permanent",
+        "transient",
+        "enduring",
+        "stable"
+      ],
+      "correct": 2,
+      "explanation": "'Transient' is the best fit because it means temporary.\nThat is exactly what the two-week stay suggests.\nThe other options imply a much longer duration."
+    },
+    {
+      "id": "EN-S5Q076",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'transient'?",
+      "sentence": "The word 'transient' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "temporary",
+        "transient",
+        "permanent",
+        "brief"
+      ],
+      "correct": 3,
+      "explanation": "'Transient' is close to 'temporary' and 'brief'.\n'Permanent' is the opposite and does not share the meaning.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q077",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'ambiguous' in the given context.",
+      "sentence": "The instruction was ambiguous and confused the entire class.",
+      "options": [
+        "vague",
+        "explicit",
+        "clear",
+        "definite"
+      ],
+      "correct": 1,
+      "explanation": "'Ambiguous' means 'vague' here.\nThe instruction is open to more than one meaning.\nThe other options suggest clarity and precision."
+    },
+    {
+      "id": "EN-S5Q078",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'ambiguous' as used in the sentence.",
+      "sentence": "The instruction was ambiguous and confused the entire class.",
+      "options": [
+        "vague",
+        "unclear",
+        "explicit",
+        "uncertain"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'ambiguous' is 'explicit'.\nThe sentence shows confusion caused by lack of clarity, so the antonym must mean clearly stated.\nThe other options are still too close to uncertainty."
+    },
+    {
+      "id": "EN-S5Q079",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The instruction was ____ and confused the entire class.",
+      "options": [
+        "explicit",
+        "ambiguous",
+        "clear",
+        "straightforward"
+      ],
+      "correct": 2,
+      "explanation": "'Ambiguous' fits because it means unclear or capable of more than one meaning.\nThat explains the confusion in the class.\nThe other choices would remove the confusion rather than create it."
+    },
+    {
+      "id": "EN-S5Q080",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'ambiguous'?",
+      "sentence": "The word 'ambiguous' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "vague",
+        "ambiguous",
+        "explicit",
+        "unclear"
+      ],
+      "correct": 3,
+      "explanation": "'Ambiguous' is close to 'vague' and 'unclear'.\n'Explicit' means clear and direct, so it is not a synonym.\nIt is the correct odd one out."
+    },
+    {
+      "id": "EN-S5Q081",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'expedite' in the given context.",
+      "sentence": "The new system will expedite the approval process.",
+      "options": [
+        "hasten",
+        "delay",
+        "slow",
+        "hinder"
+      ],
+      "correct": 1,
+      "explanation": "'Expedite' means 'hasten' here.\nThe system is designed to make approval faster.\nThe other options suggest delay or obstruction."
+    },
+    {
+      "id": "EN-S5Q082",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'expedite' as used in the sentence.",
+      "sentence": "The new system will expedite the approval process.",
+      "options": [
+        "hasten",
+        "speed up",
+        "delay",
+        "accelerate"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'expedite' is 'delay'.\nThe sentence clearly describes making the process faster, so the antonym must mean slowing it down.\nThe other options still indicate speed."
+    },
+    {
+      "id": "EN-S5Q083",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The new system will ____ the approval process.",
+      "options": [
+        "delay",
+        "expedite",
+        "hinder",
+        "block"
+      ],
+      "correct": 2,
+      "explanation": "'Expedite' is the best fit because it means make faster.\nThat is exactly what the sentence intends.\nThe other options move in the opposite direction."
+    },
+    {
+      "id": "EN-S5Q084",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'expedite'?",
+      "sentence": "The word 'expedite' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "hasten",
+        "expedite",
+        "delay",
+        "speed up"
+      ],
+      "correct": 3,
+      "explanation": "'Expedite' is close to 'hasten' and 'speed up'.\n'Delay' is the opposite and therefore not a synonym.\nIt is the odd word out."
+    },
+    {
+      "id": "EN-S5Q085",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'complacent' in the given context.",
+      "sentence": "He became complacent after his first success and stopped improving.",
+      "options": [
+        "self-satisfied",
+        "alert",
+        "restless",
+        "humble"
+      ],
+      "correct": 1,
+      "explanation": "'Complacent' means 'self-satisfied' here.\nThe person becomes too pleased with success to keep improving.\nThe other options do not match that attitude."
+    },
+    {
+      "id": "EN-S5Q086",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'complacent' as used in the sentence.",
+      "sentence": "He became complacent after his first success and stopped improving.",
+      "options": [
+        "self-satisfied",
+        "carefree",
+        "alert",
+        "content"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'complacent' is 'alert'.\nThe sentence suggests dangerous self-satisfaction, so the antonym should show watchfulness.\nThe other options do not fully capture that contrast."
+    },
+    {
+      "id": "EN-S5Q087",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "He became ____ after his first success and stopped improving.",
+      "options": [
+        "alert",
+        "complacent",
+        "careful",
+        "resilient"
+      ],
+      "correct": 2,
+      "explanation": "'Complacent' fits because it means self-satisfied in a harmful way.\nThat explains why he stopped improving.\nThe other options do not describe that overconfidence."
+    },
+    {
+      "id": "EN-S5Q088",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'complacent'?",
+      "sentence": "The word 'complacent' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "self-satisfied",
+        "complacent",
+        "alert",
+        "content"
+      ],
+      "correct": 3,
+      "explanation": "'Complacent' is close to 'self-satisfied' and sometimes 'content'.\n'Alert' is not a synonym because it suggests watchfulness.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q089",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'rejuvenate' in the given context.",
+      "sentence": "A short walk can rejuvenate the mind during a long study session.",
+      "options": [
+        "refresh",
+        "worsen",
+        "weaken",
+        "drain"
+      ],
+      "correct": 1,
+      "explanation": "'Rejuvenate' means 'refresh' here.\nThe walk restores energy to the mind.\nThe other options describe loss of strength or quality."
+    },
+    {
+      "id": "EN-S5Q090",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'rejuvenate' as used in the sentence.",
+      "sentence": "A short walk can rejuvenate the mind during a long study session.",
+      "options": [
+        "refresh",
+        "revive",
+        "worsen",
+        "energize"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'rejuvenate' is 'worsen'.\nThe sentence shows restoration, so the antonym must suggest decline.\nThe remaining options still show improvement."
+    },
+    {
+      "id": "EN-S5Q091",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "A short walk can ____ the mind during a long study session.",
+      "options": [
+        "worsen",
+        "refresh",
+        "drain",
+        "burden"
+      ],
+      "correct": 2,
+      "explanation": "'Refresh' fits because it means restore energy or freshness.\nThat matches the effect of the walk in the sentence.\nThe other options create the opposite feeling."
+    },
+    {
+      "id": "EN-S5Q092",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'rejuvenate'?",
+      "sentence": "The word 'rejuvenate' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "refresh",
+        "rejuvenate",
+        "worsen",
+        "revive"
+      ],
+      "correct": 3,
+      "explanation": "'Rejuvenate' is close to 'refresh' and 'revive'.\n'Worsen' is the opposite and is not a synonym.\nIt is the odd word out."
+    },
+    {
+      "id": "EN-S5Q093",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'assertive' in the given context.",
+      "sentence": "She was assertive enough to present her idea before the panel.",
+      "options": [
+        "confident",
+        "timid",
+        "hesitant",
+        "fearful"
+      ],
+      "correct": 1,
+      "explanation": "'Assertive' means 'confident' here.\nShe is able to speak up clearly before the panel.\nThe other options suggest fear or hesitation."
+    },
+    {
+      "id": "EN-S5Q094",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'assertive' as used in the sentence.",
+      "sentence": "She was assertive enough to present her idea before the panel.",
+      "options": [
+        "confident",
+        "firm",
+        "timid",
+        "bold"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'assertive' is 'timid'.\nThe sentence shows self-confidence, so the antonym must show lack of confidence.\nThe other options still suggest strength or courage."
+    },
+    {
+      "id": "EN-S5Q095",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "She was ____ enough to present her idea before the panel.",
+      "options": [
+        "timid",
+        "assertive",
+        "fearful",
+        "silent"
+      ],
+      "correct": 2,
+      "explanation": "'Assertive' fits because it means confident and forceful in a respectful way.\nThat is exactly what presenting an idea before a panel requires.\nThe other options do not show that confidence."
+    },
+    {
+      "id": "EN-S5Q096",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'assertive'?",
+      "sentence": "The word 'assertive' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "confident",
+        "assertive",
+        "timid",
+        "bold"
+      ],
+      "correct": 3,
+      "explanation": "'Assertive' is close to 'confident' and 'bold'.\n'Timid' is the opposite and is not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q097",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'impeccable' in the given context.",
+      "sentence": "His impeccable manners impressed everyone at the dinner.",
+      "options": [
+        "flawless",
+        "imperfect",
+        "careless",
+        "rough"
+      ],
+      "correct": 1,
+      "explanation": "'Impeccable' means 'flawless' here.\nThe manners are presented as perfectly correct.\nThe other options suggest defects or lack of polish."
+    },
+    {
+      "id": "EN-S5Q098",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'impeccable' as used in the sentence.",
+      "sentence": "His impeccable manners impressed everyone at the dinner.",
+      "options": [
+        "flawless",
+        "perfect",
+        "imperfect",
+        "refined"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'impeccable' is 'imperfect'.\nThe sentence describes excellent manners, so the antonym must indicate faults.\nThe other options still imply high quality."
+    },
+    {
+      "id": "EN-S5Q099",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "His ____ manners impressed everyone at the dinner.",
+      "options": [
+        "imperfect",
+        "impeccable",
+        "rough",
+        "awkward"
+      ],
+      "correct": 2,
+      "explanation": "'Impeccable' fits because it means perfect or faultless.\nThat matches the admiration described in the sentence.\nThe other options do not fit the positive tone."
+    },
+    {
+      "id": "EN-S5Q100",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'impeccable'?",
+      "sentence": "The word 'impeccable' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "flawless",
+        "impeccable",
+        "imperfect",
+        "excellent"
+      ],
+      "correct": 3,
+      "explanation": "'Impeccable' is close to 'flawless' and 'excellent'.\n'Imperfect' is the opposite and therefore not a synonym.\nIt is the correct odd choice."
+    },
+    {
+      "id": "EN-S5Q101",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'placid' in the given context.",
+      "sentence": "The placid lake reflected the evening sky.",
+      "options": [
+        "calm",
+        "agitated",
+        "stormy",
+        "restless"
+      ],
+      "correct": 1,
+      "explanation": "'Placid' means 'calm' here.\nThe lake is still and peaceful.\nThe other options describe disturbance or agitation."
+    },
+    {
+      "id": "EN-S5Q102",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'placid' as used in the sentence.",
+      "sentence": "The placid lake reflected the evening sky.",
+      "options": [
+        "calm",
+        "still",
+        "agitated",
+        "quiet"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'placid' is 'agitated'.\nThe sentence paints a peaceful picture, so the antonym must show unrest.\nThe other options are still calm in meaning."
+    },
+    {
+      "id": "EN-S5Q103",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The ____ lake reflected the evening sky.",
+      "options": [
+        "agitated",
+        "placid",
+        "stormy",
+        "wild"
+      ],
+      "correct": 2,
+      "explanation": "'Placid' fits because it means peaceful and calm.\nThat is exactly the image of the lake in the sentence.\nThe other options clash with the serene setting."
+    },
+    {
+      "id": "EN-S5Q104",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'placid'?",
+      "sentence": "The word 'placid' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "calm",
+        "placid",
+        "agitated",
+        "peaceful"
+      ],
+      "correct": 3,
+      "explanation": "'Placid' is close to 'calm' and 'peaceful'.\n'Agitated' does not share that meaning and is the odd one out.\nIt is therefore the correct answer."
+    },
+    {
+      "id": "EN-S5Q105",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'volatile' in the given context.",
+      "sentence": "The market remained volatile after the policy announcement.",
+      "options": [
+        "unstable",
+        "stable",
+        "steady",
+        "fixed"
+      ],
+      "correct": 1,
+      "explanation": "'Volatile' means 'unstable' here.\nThe market keeps changing unpredictably.\nThe other options suggest firmness or consistency."
+    },
+    {
+      "id": "EN-S5Q106",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'volatile' as used in the sentence.",
+      "sentence": "The market remained volatile after the policy announcement.",
+      "options": [
+        "unstable",
+        "uncertain",
+        "stable",
+        "shaky"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'volatile' is 'stable'.\nThe sentence describes rapid change, so the antonym must mean steady.\nThe remaining choices still suggest instability."
+    },
+    {
+      "id": "EN-S5Q107",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The market remained ____ after the policy announcement.",
+      "options": [
+        "stable",
+        "volatile",
+        "fixed",
+        "firm"
+      ],
+      "correct": 2,
+      "explanation": "'Volatile' fits because it means changeable and unstable.\nThat matches the market reaction.\nThe other options do not capture the same unpredictability."
+    },
+    {
+      "id": "EN-S5Q108",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'volatile'?",
+      "sentence": "The word 'volatile' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "unstable",
+        "volatile",
+        "stable",
+        "changeable"
+      ],
+      "correct": 3,
+      "explanation": "'Volatile' is close to 'unstable' and 'changeable'.\n'Stable' is the opposite and not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q109",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'obsolete' in the given context.",
+      "sentence": "The old software is now obsolete and no longer supported.",
+      "options": [
+        "outdated",
+        "current",
+        "modern",
+        "recent"
+      ],
+      "correct": 1,
+      "explanation": "'Obsolete' means 'outdated' here.\nThe software is no longer useful or supported.\nThe other options suggest something new or up to date."
+    },
+    {
+      "id": "EN-S5Q110",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'obsolete' as used in the sentence.",
+      "sentence": "The old software is now obsolete and no longer supported.",
+      "options": [
+        "outdated",
+        "old",
+        "current",
+        "past"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'obsolete' is 'current'.\nThe sentence describes something no longer in use, so the antonym must mean modern or in use now.\nThe other options still relate to the past."
+    },
+    {
+      "id": "EN-S5Q111",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "The old software is now ____ and no longer supported.",
+      "options": [
+        "current",
+        "obsolete",
+        "modern",
+        "fresh"
+      ],
+      "correct": 2,
+      "explanation": "'Obsolete' fits because it means no longer useful or accepted.\nThat is exactly what the sentence says about the software.\nThe other words do not match the meaning."
+    },
+    {
+      "id": "EN-S5Q112",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'obsolete'?",
+      "sentence": "The word 'obsolete' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "outdated",
+        "obsolete",
+        "current",
+        "old-fashioned"
+      ],
+      "correct": 3,
+      "explanation": "'Obsolete' is close to 'outdated' and 'old-fashioned'.\n'Current' is the opposite and therefore not a synonym.\nIt is the correct odd choice."
+    },
+    {
+      "id": "EN-S5Q113",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'intricate' in the given context.",
+      "sentence": "The watch had an intricate mechanism hidden inside.",
+      "options": [
+        "complex",
+        "simple",
+        "plain",
+        "easy"
+      ],
+      "correct": 1,
+      "explanation": "'Intricate' means 'complex' here.\nThe mechanism has many connected parts.\nThe other options suggest simplicity instead of detail."
+    },
+    {
+      "id": "EN-S5Q114",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'intricate' as used in the sentence.",
+      "sentence": "The watch had an intricate mechanism hidden inside.",
+      "options": [
+        "complex",
+        "detailed",
+        "simple",
+        "subtle"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'intricate' is 'simple'.\nThe sentence describes a complicated mechanism, so the antonym must mean plain or uncomplicated.\nThe other options still suggest complexity."
+    },
+    {
+      "id": "EN-S5Q115",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The watch had an ____ mechanism hidden inside.",
+      "options": [
+        "simple",
+        "intricate",
+        "plain",
+        "easy"
+      ],
+      "correct": 2,
+      "explanation": "'Intricate' fits because it means highly detailed and complex.\nThat is exactly what a hidden mechanism suggests.\nThe other options reduce the level of complexity."
+    },
+    {
+      "id": "EN-S5Q116",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'intricate'?",
+      "sentence": "The word 'intricate' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "complex",
+        "intricate",
+        "simple",
+        "detailed"
+      ],
+      "correct": 3,
+      "explanation": "'Intricate' is close to 'complex' and 'detailed'.\n'Simple' does not share that meaning and is the odd one out.\nIt is therefore correct."
+    },
+    {
+      "id": "EN-S5Q117",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'prudent' in the given context.",
+      "sentence": "It was prudent to keep some savings for emergencies.",
+      "options": [
+        "wise",
+        "rash",
+        "careless",
+        "foolish"
+      ],
+      "correct": 1,
+      "explanation": "'Prudent' means 'wise' here.\nThe sentence shows sensible forethought.\nThe other options suggest poor judgment."
+    },
+    {
+      "id": "EN-S5Q118",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'prudent' as used in the sentence.",
+      "sentence": "It was prudent to keep some savings for emergencies.",
+      "options": [
+        "wise",
+        "cautious",
+        "rash",
+        "careful"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'prudent' is 'rash'.\nThe sentence praises careful planning, so the antonym must indicate impulsiveness.\nThe other choices still suggest caution."
+    },
+    {
+      "id": "EN-S5Q119",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "It was ____ to keep some savings for emergencies.",
+      "options": [
+        "rash",
+        "prudent",
+        "careless",
+        "reckless"
+      ],
+      "correct": 2,
+      "explanation": "'Prudent' is the best fit because it means wise and sensible.\nIt matches the idea of saving for emergencies.\nThe other options suggest poor judgment."
+    },
+    {
+      "id": "EN-S5Q120",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'prudent'?",
+      "sentence": "The word 'prudent' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "wise",
+        "prudent",
+        "rash",
+        "sensible"
+      ],
+      "correct": 3,
+      "explanation": "'Prudent' is close to 'wise' and 'sensible'.\n'Rash' is the opposite and is not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q121",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'innate' in the given context.",
+      "sentence": "She had an innate sense of rhythm from childhood.",
+      "options": [
+        "inborn",
+        "acquired",
+        "learned",
+        "trained"
+      ],
+      "correct": 1,
+      "explanation": "'Innate' means 'inborn' here.\nThe sense of rhythm exists naturally from childhood.\nThe other options suggest something learned or developed later."
+    },
+    {
+      "id": "EN-S5Q122",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'innate' as used in the sentence.",
+      "sentence": "She had an innate sense of rhythm from childhood.",
+      "options": [
+        "inborn",
+        "natural",
+        "acquired",
+        "built-in"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'innate' is 'acquired'.\nThe sentence suggests a natural gift, so the antonym must mean learned.\nThe other options still imply something natural."
+    },
+    {
+      "id": "EN-S5Q123",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "She had an ____ sense of rhythm from childhood.",
+      "options": [
+        "acquired",
+        "innate",
+        "learned",
+        "forced"
+      ],
+      "correct": 2,
+      "explanation": "'Innate' fits because it means inborn or natural.\nThat is exactly the sense conveyed by the sentence.\nThe other options do not match the idea of a natural gift."
+    },
+    {
+      "id": "EN-S5Q124",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'innate'?",
+      "sentence": "The word 'innate' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "inborn",
+        "innate",
+        "acquired",
+        "natural"
+      ],
+      "correct": 3,
+      "explanation": "'Innate' is close to 'inborn' and 'natural'.\n'Acquired' is learned, so it is not a synonym.\nIt is the odd word out."
+    },
+    {
+      "id": "EN-S5Q125",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'mitigate' in the given context.",
+      "sentence": "Better drainage can mitigate the risk of flooding.",
+      "options": [
+        "lessen",
+        "intensify",
+        "increase",
+        "worsen"
+      ],
+      "correct": 1,
+      "explanation": "'Mitigate' means 'lessen' here.\nThe drainage reduces the risk rather than increasing it.\nThe other options suggest greater danger or severity."
+    },
+    {
+      "id": "EN-S5Q126",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'mitigate' as used in the sentence.",
+      "sentence": "Better drainage can mitigate the risk of flooding.",
+      "options": [
+        "lessen",
+        "reduce",
+        "intensify",
+        "ease"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'mitigate' is 'intensify'.\nThe sentence is about reducing risk, so the antonym must mean making it stronger.\nThe remaining options all move toward reduction."
+    },
+    {
+      "id": "EN-S5Q127",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "Better drainage can ____ the risk of flooding.",
+      "options": [
+        "mitigate",
+        "intensify",
+        "worsen",
+        "trigger"
+      ],
+      "correct": 1,
+      "explanation": "'Mitigate' fits because it means lessen or reduce.\nThat matches the purpose of better drainage.\nThe other options conflict with the intended sense."
+    },
+    {
+      "id": "EN-S5Q128",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'mitigate'?",
+      "sentence": "The word 'mitigate' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "lessen",
+        "mitigate",
+        "intensify",
+        "reduce"
+      ],
+      "correct": 3,
+      "explanation": "'Mitigate' is close to 'lessen' and 'reduce'.\n'Intensify' is the opposite and therefore not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q129",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'deride' in the given context.",
+      "sentence": "Critics deride the plan without offering alternatives.",
+      "options": [
+        "mock",
+        "praise",
+        "admire",
+        "support"
+      ],
+      "correct": 1,
+      "explanation": "'Deride' means 'mock' here.\nThe critics speak about the plan in a mocking way.\nThe other choices are positive and do not fit."
+    },
+    {
+      "id": "EN-S5Q130",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'deride' as used in the sentence.",
+      "sentence": "Critics deride the plan without offering alternatives.",
+      "options": [
+        "mock",
+        "ridicule",
+        "praise",
+        "taunt"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'deride' is 'praise'.\nThe sentence shows criticism and mockery, so the antonym must be approval.\nThe other options still express scorn."
+    },
+    {
+      "id": "EN-S5Q131",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "Critics ____ the plan without offering alternatives.",
+      "options": [
+        "praise",
+        "deride",
+        "support",
+        "admire"
+      ],
+      "correct": 2,
+      "explanation": "'Deride' fits because it means mock or ridicule.\nThat is the attitude shown by the critics.\nThe other options do not match the negative tone."
+    },
+    {
+      "id": "EN-S5Q132",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'deride'?",
+      "sentence": "The word 'deride' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "mock",
+        "deride",
+        "praise",
+        "ridicule"
+      ],
+      "correct": 3,
+      "explanation": "'Deride' is close to 'mock' and 'ridicule'.\n'Praise' is positive and therefore not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q133",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'bolster' in the given context.",
+      "sentence": "The report was meant to bolster public confidence.",
+      "options": [
+        "strengthen",
+        "weaken",
+        "damage",
+        "reduce"
+      ],
+      "correct": 1,
+      "explanation": "'Bolster' means 'strengthen' here.\nThe report is intended to support confidence.\nThe other options move in the opposite direction."
+    },
+    {
+      "id": "EN-S5Q134",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'bolster' as used in the sentence.",
+      "sentence": "The report was meant to bolster public confidence.",
+      "options": [
+        "strengthen",
+        "support",
+        "weaken",
+        "build"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'bolster' is 'weaken'.\nThe sentence describes support and reinforcement, so the antonym must mean reducing strength.\nThe remaining options still suggest help."
+    },
+    {
+      "id": "EN-S5Q135",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The report was meant to ____ public confidence.",
+      "options": [
+        "weaken",
+        "bolster",
+        "damage",
+        "shake"
+      ],
+      "correct": 2,
+      "explanation": "'Bolster' fits because it means strengthen or support.\nThat is the purpose of the report in the sentence.\nThe other options would undermine confidence."
+    },
+    {
+      "id": "EN-S5Q136",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'bolster'?",
+      "sentence": "The word 'bolster' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "strengthen",
+        "bolster",
+        "weaken",
+        "support"
+      ],
+      "correct": 3,
+      "explanation": "'Bolster' is close to 'strengthen' and 'support'.\n'Weaken' is the opposite and therefore not a synonym.\nIt is the correct odd word out."
+    },
+    {
+      "id": "EN-S5Q137",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'clandestine' in the given context.",
+      "sentence": "They held a clandestine meeting after office hours.",
+      "options": [
+        "secret",
+        "open",
+        "public",
+        "overt"
+      ],
+      "correct": 1,
+      "explanation": "'Clandestine' means 'secret' here.\nThe meeting is hidden from public view.\nThe other options mean the opposite of secrecy."
+    },
+    {
+      "id": "EN-S5Q138",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'clandestine' as used in the sentence.",
+      "sentence": "They held a clandestine meeting after office hours.",
+      "options": [
+        "secret",
+        "hidden",
+        "open",
+        "covert"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'clandestine' is 'open'.\nThe sentence describes a meeting done in secret, so the antonym must indicate public visibility.\nThe other options still imply secrecy."
+    },
+    {
+      "id": "EN-S5Q139",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "They held a ____ meeting after office hours.",
+      "options": [
+        "open",
+        "clandestine",
+        "public",
+        "official"
+      ],
+      "correct": 2,
+      "explanation": "'Clandestine' fits because it means secret.\nThat matches the after-hours meeting in the sentence.\nThe other options suggest openness or formality."
+    },
+    {
+      "id": "EN-S5Q140",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'clandestine'?",
+      "sentence": "The word 'clandestine' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "secret",
+        "clandestine",
+        "open",
+        "hidden"
+      ],
+      "correct": 3,
+      "explanation": "'Clandestine' is close to 'secret' and 'hidden'.\n'Open' is the opposite and therefore not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q141",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'superfluous' in the given context.",
+      "sentence": "The editor removed superfluous words from the paragraph.",
+      "options": [
+        "unnecessary",
+        "essential",
+        "needed",
+        "crucial"
+      ],
+      "correct": 1,
+      "explanation": "'Superfluous' means 'unnecessary' here.\nThe editor is cutting away extra words.\nThe other options suggest that the words are important."
+    },
+    {
+      "id": "EN-S5Q142",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'superfluous' as used in the sentence.",
+      "sentence": "The editor removed superfluous words from the paragraph.",
+      "options": [
+        "extra",
+        "unnecessary",
+        "essential",
+        "redundant"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'superfluous' is 'essential'.\nThe sentence is about removing extra material, so the antonym must mean necessary.\nThe other options still imply excess."
+    },
+    {
+      "id": "EN-S5Q143",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The editor removed ____ words from the paragraph.",
+      "options": [
+        "essential",
+        "superfluous",
+        "required",
+        "vital"
+      ],
+      "correct": 2,
+      "explanation": "'Superfluous' fits because it means extra or unnecessary.\nThat matches the editor's action in the sentence.\nThe other options would not be removed."
+    },
+    {
+      "id": "EN-S5Q144",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'superfluous'?",
+      "sentence": "The word 'superfluous' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "unnecessary",
+        "superfluous",
+        "essential",
+        "extra"
+      ],
+      "correct": 3,
+      "explanation": "'Superfluous' is close to 'unnecessary' and 'extra'.\n'Essential' is the opposite and therefore not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q145",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'verbose' in the given context.",
+      "sentence": "His verbose style made the article harder to read.",
+      "options": [
+        "wordy",
+        "concise",
+        "brief",
+        "tight"
+      ],
+      "correct": 1,
+      "explanation": "'Verbose' means 'wordy' here.\nThe article uses too many words.\nThe other options indicate brevity or compactness."
+    },
+    {
+      "id": "EN-S5Q146",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'verbose' as used in the sentence.",
+      "sentence": "His verbose style made the article harder to read.",
+      "options": [
+        "wordy",
+        "long",
+        "concise",
+        "lengthy"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'verbose' is 'concise'.\nThe sentence criticizes wordiness, so the antonym must show brevity.\nThe other options still suggest long-winded writing."
+    },
+    {
+      "id": "EN-S5Q147",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "His ____ style made the article harder to read.",
+      "options": [
+        "concise",
+        "verbose",
+        "brief",
+        "short"
+      ],
+      "correct": 2,
+      "explanation": "'Verbose' fits because it means wordy and overly long.\nThat is why the article became harder to read.\nThe other options do not express unnecessary length."
+    },
+    {
+      "id": "EN-S5Q148",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'verbose'?",
+      "sentence": "The word 'verbose' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "wordy",
+        "verbose",
+        "concise",
+        "lengthy"
+      ],
+      "correct": 3,
+      "explanation": "'Verbose' is close to 'wordy' and sometimes 'lengthy'.\n'Concise' is the opposite and therefore not a synonym.\nIt is the odd word out."
+    },
+    {
+      "id": "EN-S5Q149",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'astute' in the given context.",
+      "sentence": "The astute investor noticed the trend early.",
+      "options": [
+        "shrewd",
+        "dull",
+        "slow",
+        "naive"
+      ],
+      "correct": 1,
+      "explanation": "'Astute' means 'shrewd' here.\nThe investor is quick to understand a trend.\nThe other options suggest lack of judgment or speed."
+    },
+    {
+      "id": "EN-S5Q150",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'astute' as used in the sentence.",
+      "sentence": "The astute investor noticed the trend early.",
+      "options": [
+        "shrewd",
+        "smart",
+        "dull",
+        "alert"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'astute' is 'dull'.\nThe sentence describes sharp perception, so the antonym must indicate poor insight.\nThe other options still suggest cleverness."
+    },
+    {
+      "id": "EN-S5Q151",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The ____ investor noticed the trend early.",
+      "options": [
+        "dull",
+        "astute",
+        "careless",
+        "naive"
+      ],
+      "correct": 2,
+      "explanation": "'Astute' fits because it means sharp, perceptive, and shrewd.\nThat matches the investor's quick recognition of the trend.\nThe other options do not show the same insight."
+    },
+    {
+      "id": "EN-S5Q152",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'astute'?",
+      "sentence": "The word 'astute' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "shrewd",
+        "astute",
+        "dull",
+        "sharp"
+      ],
+      "correct": 3,
+      "explanation": "'Astute' is close to 'shrewd' and 'sharp'.\n'Dull' does not share that meaning and is the odd one out.\nIt is therefore correct."
+    },
+    {
+      "id": "EN-S5Q153",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'augment' in the given context.",
+      "sentence": "The company plans to augment production next quarter.",
+      "options": [
+        "increase",
+        "reduce",
+        "decrease",
+        "cut"
+      ],
+      "correct": 1,
+      "explanation": "'Augment' means 'increase' here.\nThe company intends to raise production.\nThe other options suggest reduction."
+    },
+    {
+      "id": "EN-S5Q154",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'augment' as used in the sentence.",
+      "sentence": "The company plans to augment production next quarter.",
+      "options": [
+        "increase",
+        "expand",
+        "reduce",
+        "raise"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'augment' is 'reduce'.\nThe sentence describes adding more production, so the antonym must mean making it less.\nThe other options still imply growth."
+    },
+    {
+      "id": "EN-S5Q155",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "The company plans to ____ production next quarter.",
+      "options": [
+        "reduce",
+        "augment",
+        "lower",
+        "cut"
+      ],
+      "correct": 2,
+      "explanation": "'Augment' fits because it means increase.\nThat is the intended business action in the sentence.\nThe other options contradict the stated plan."
+    },
+    {
+      "id": "EN-S5Q156",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'augment'?",
+      "sentence": "The word 'augment' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "increase",
+        "augment",
+        "reduce",
+        "enlarge"
+      ],
+      "correct": 3,
+      "explanation": "'Augment' is close to 'increase' and 'enlarge'.\n'Reduce' is the opposite and therefore not a synonym.\nIt is the odd one out."
+    },
+    {
+      "id": "EN-S5Q157",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the word closest in meaning to 'lenient' in the given context.",
+      "sentence": "The teacher was lenient with the late submission because of the illness.",
+      "options": [
+        "tolerant",
+        "strict",
+        "harsh",
+        "severe"
+      ],
+      "correct": 1,
+      "explanation": "'Lenient' means 'tolerant' here.\nThe teacher shows flexibility rather than punishment.\nThe other options suggest rigidity or severity."
+    },
+    {
+      "id": "EN-S5Q158",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "moderate",
+      "question": "Choose the word most opposite in meaning to 'lenient' as used in the sentence.",
+      "sentence": "The teacher was lenient with the late submission because of the illness.",
+      "options": [
+        "tolerant",
+        "kind",
+        "strict",
+        "patient"
+      ],
+      "correct": 3,
+      "explanation": "The opposite of 'lenient' is 'strict'.\nThe sentence describes a forgiving attitude, so the antonym must show firmness.\nThe other options still imply kindness or patience."
+    },
+    {
+      "id": "EN-S5Q159",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best completes the sentence.",
+      "sentence": "The teacher was ____ with the late submission because of the illness.",
+      "options": [
+        "strict",
+        "lenient",
+        "harsh",
+        "stern"
+      ],
+      "correct": 2,
+      "explanation": "'Lenient' fits because it means forgiving or not overly strict.\nThat matches the reason given in the sentence.\nThe other options suggest severity rather than flexibility."
+    },
+    {
+      "id": "EN-S5Q160",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which option is NOT a synonym of 'lenient'?",
+      "sentence": "The word 'lenient' is often tested for its precise shade of meaning in context.",
+      "options": [
+        "tolerant",
+        "lenient",
+        "strict",
+        "forgiving"
+      ],
+      "correct": 3,
+      "explanation": "'Lenient' is close to 'tolerant' and 'forgiving'.\n'Strict' is the opposite and therefore not a synonym.\nIt is the odd word out."
+    },
+    {
+      "id": "EN-S5Q161",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A person who loves books",
+      "options": [
+        "book lover",
+        "reader",
+        "illiterate",
+        "polyglot"
+      ],
+      "correct": 1,
+      "explanation": "'Book lover' is the precise one-word/phrase substitution here.\nIt directly matches the description of someone who loves books.\nThe other options refer to reading ability or language skill, not love of books."
+    },
+    {
+      "id": "EN-S5Q162",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A person who speaks two languages",
+      "options": [
+        "monolingual",
+        "bilingual",
+        "taciturn",
+        "ambidextrous"
+      ],
+      "correct": 2,
+      "explanation": "'Bilingual' is the exact term for a person who speaks two languages.\nIt is the standard one-word substitution in vocabulary questions.\nThe other options refer to speaking one language, being quiet, or using both hands."
+    },
+    {
+      "id": "EN-S5Q163",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "Fear of heights",
+      "options": [
+        "claustrophobia",
+        "hydrophobia",
+        "agoraphobia",
+        "acrophobia"
+      ],
+      "correct": 4,
+      "explanation": "'Acrophobia' is the correct term for fear of heights.\nIt is a classic one-word substitution.\nThe other choices refer to fear of enclosed spaces, water, or open places."
+    },
+    {
+      "id": "EN-S5Q164",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A person who studies birds",
+      "options": [
+        "botanist",
+        "geologist",
+        "pharmacologist",
+        "ornithologist"
+      ],
+      "correct": 4,
+      "explanation": "'Ornithologist' is the exact term for a person who studies birds.\nIt is the specialized one-word substitution expected in CUET vocabulary.\nThe other options concern plants, rocks, or medicine."
+    },
+    {
+      "id": "EN-S5Q165",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A government by a few people",
+      "options": [
+        "democracy",
+        "monarchy",
+        "theocracy",
+        "oligarchy"
+      ],
+      "correct": 4,
+      "explanation": "'Oligarchy' means rule by a few people.\nThis is the precise one-word substitution.\nThe other options refer to rule by the people, by a monarch, or by religion."
+    },
+    {
+      "id": "EN-S5Q166",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A person who cannot hear",
+      "options": [
+        "blind",
+        "mute",
+        "garrulous",
+        "deaf"
+      ],
+      "correct": 4,
+      "explanation": "'Deaf' is the correct word for a person who cannot hear.\nIt is the exact substitution required.\nThe other options refer to sight, speech, or being talkative."
+    },
+    {
+      "id": "EN-S5Q167",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A speech delivered without preparation",
+      "options": [
+        "formal",
+        "written",
+        "tedious",
+        "impromptu"
+      ],
+      "correct": 4,
+      "explanation": "'Impromptu' means delivered without prior preparation.\nIt is the correct one-word substitution.\nThe other options refer to formality, writing, or boringness."
+    },
+    {
+      "id": "EN-S5Q168",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A remedy for all diseases",
+      "options": [
+        "antidote",
+        "placebo",
+        "tonic",
+        "panacea"
+      ],
+      "correct": 4,
+      "explanation": "'Panacea' is the exact term for a cure-all remedy.\nIt is a standard one-word substitution in vocabulary.\nThe other options do not mean a universal cure."
+    },
+    {
+      "id": "EN-S5Q169",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A person who hates mankind",
+      "options": [
+        "philanthropist",
+        "optimist",
+        "humanist",
+        "misanthrope"
+      ],
+      "correct": 4,
+      "explanation": "'Misanthrope' is the word for a person who hates mankind.\nIt is the precise one-word substitution.\nThe other options express love of humanity or a positive outlook."
+    },
+    {
+      "id": "EN-S5Q170",
+      "type": "vocabulary",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the option that best matches the description.",
+      "sentence": "A life history written by oneself",
+      "options": [
+        "biography",
+        "memoir",
+        "epitaph",
+        "autobiography"
+      ],
+      "correct": 4,
+      "explanation": "'Autobiography' is the exact term for a life history written by oneself.\nIt is the correct one-word substitution.\nThe other options refer to someone else's life story, a personal recollection, or an inscription on a tomb."
+    },
+    {
+      "id": "EN-S5Q171",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'spill the beans' most nearly means:",
+      "sentence": "He finally spilled the beans about the surprise trip.",
+      "options": [
+        "hide the truth",
+        "speak slowly",
+        "forget the plan",
+        "reveal a secret"
+      ],
+      "correct": 4,
+      "explanation": "'Spill the beans' means 'reveal a secret'.\nThe sentence shows that confidential information was disclosed.\nThe other options do not fit the idiomatic sense."
+    },
+    {
+      "id": "EN-S5Q172",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'once in a blue moon' most nearly means:",
+      "sentence": "We visit that old theatre once in a blue moon.",
+      "options": [
+        "very soon",
+        "every week",
+        "at sunrise",
+        "very rarely"
+      ],
+      "correct": 4,
+      "explanation": "'Once in a blue moon' means 'very rarely'.\nThe sentence refers to an infrequent visit.\nThe other options do not match the idea of rarity."
+    },
+    {
+      "id": "EN-S5Q173",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'beat around the bush' most nearly means:",
+      "sentence": "Stop beating around the bush and give a direct answer.",
+      "options": [
+        "avoid the main point",
+        "speak clearly",
+        "repeat oneself",
+        "change topic politely"
+      ],
+      "correct": 1,
+      "explanation": "'Beat around the bush' means avoid the main point.\nThe sentence asks for a direct answer, which confirms the idiom's sense.\nThe other options do not reflect evasion."
+    },
+    {
+      "id": "EN-S5Q174",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'a blessing in disguise' most nearly means:",
+      "sentence": "Missing the bus turned out to be a blessing in disguise.",
+      "options": [
+        "a hidden curse",
+        "a false alarm",
+        "a lucky escape only",
+        "something good that seems bad at first"
+      ],
+      "correct": 4,
+      "explanation": "'A blessing in disguise' means something good that appears bad initially.\nThe missed bus led to an unexpected positive outcome.\nThe other options distort that idea."
+    },
+    {
+      "id": "EN-S5Q175",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'burn the midnight oil' most nearly means:",
+      "sentence": "She had to burn the midnight oil before the exam.",
+      "options": [
+        "travel far",
+        "waste time",
+        "sleep all day",
+        "work late into the night"
+      ],
+      "correct": 4,
+      "explanation": "'Burn the midnight oil' means work late into the night.\nThe sentence shows study continuing until late hours.\nThe other options do not capture sustained late-night effort."
+    },
+    {
+      "id": "EN-S5Q176",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'cost an arm and a leg' most nearly means:",
+      "sentence": "That designer watch cost an arm and a leg.",
+      "options": [
+        "be cheap",
+        "be broken",
+        "be very expensive",
+        "be fake"
+      ],
+      "correct": 3,
+      "explanation": "'Cost an arm and a leg' means be very expensive.\nThe sentence clearly refers to a high price.\nThe other options do not fit the idiom's sense."
+    },
+    {
+      "id": "EN-S5Q177",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'under the weather' most nearly means:",
+      "sentence": "He stayed home because he felt under the weather.",
+      "options": [
+        "very angry",
+        "very happy",
+        "slightly ill",
+        "very busy"
+      ],
+      "correct": 3,
+      "explanation": "'Under the weather' means slightly ill.\nThe sentence explains why he stayed home.\nThe other options do not match a minor health problem."
+    },
+    {
+      "id": "EN-S5Q178",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'in hot water' most nearly means:",
+      "sentence": "The player was in hot water after breaking the rules.",
+      "options": [
+        "very tired",
+        "in deep sleep",
+        "in trouble",
+        "in danger of rain"
+      ],
+      "correct": 3,
+      "explanation": "'In hot water' means in trouble.\nThe player violated rules, so the idiom fits the consequence.\nThe other options are unrelated."
+    },
+    {
+      "id": "EN-S5Q179",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'take the bull by the horns' most nearly means:",
+      "sentence": "She decided to take the bull by the horns and apologize.",
+      "options": [
+        "seek advice",
+        "avoid responsibility",
+        "face a difficulty boldly",
+        "give up"
+      ],
+      "correct": 3,
+      "explanation": "'Take the bull by the horns' means face a difficulty boldly.\nThe sentence shows direct action rather than avoidance.\nThe other options do not reflect courage."
+    },
+    {
+      "id": "EN-S5Q180",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In the sentence below, the idiom 'face the music' most nearly means:",
+      "sentence": "He had to face the music after missing the deadline.",
+      "options": [
+        "start singing",
+        "change the topic",
+        "perform on stage",
+        "accept unpleasant consequences"
+      ],
+      "correct": 4,
+      "explanation": "'Face the music' means accept unpleasant consequences.\nThe sentence shows he must deal with the results of his mistake.\nThe other options are literal or unrelated."
+    },
+    {
+      "id": "EN-S5Q181",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'bear the brunt'.",
+      "sentence": "Small traders bore the brunt of the sudden shutdown.",
+      "options": [
+        "suffer the main impact",
+        "avoid any loss",
+        "cause confusion",
+        "enjoy the benefit"
+      ],
+      "correct": 1,
+      "explanation": "'Bear the brunt' means suffer the main impact.\nThe sentence shows the traders taking the worst of the shutdown.\nThe other options do not fit the sense of heavy impact."
+    },
+    {
+      "id": "EN-S5Q182",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'pay heed to'.",
+      "sentence": "Students should pay heed to safety instructions.",
+      "options": [
+        "argue with",
+        "ignore completely",
+        "listen carefully to",
+        "laugh at"
+      ],
+      "correct": 3,
+      "explanation": "'Pay heed to' means listen carefully to.\nThe sentence advises attention to safety instructions.\nThe other choices reflect disregard or opposition."
+    },
+    {
+      "id": "EN-S5Q183",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'make amends'.",
+      "sentence": "He called to make amends for his rude remark.",
+      "options": [
+        "make noise",
+        "draw a map",
+        "repair a wrong",
+        "hide evidence"
+      ],
+      "correct": 3,
+      "explanation": "'Make amends' means repair a wrong or apologize meaningfully.\nThe sentence shows an attempt to correct rude behavior.\nThe other options do not capture the idea of compensation."
+    },
+    {
+      "id": "EN-S5Q184",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'take umbrage'.",
+      "sentence": "She took umbrage at the unfair comment.",
+      "options": [
+        "feel delighted",
+        "show excitement",
+        "feel offended",
+        "give permission"
+      ],
+      "correct": 3,
+      "explanation": "'Take umbrage' means feel offended.\nThe comment is unfair, so offense is the correct interpretation.\nThe other options are unrelated emotions or actions."
+    },
+    {
+      "id": "EN-S5Q185",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'give vent to'.",
+      "sentence": "He gave vent to his frustration after the match.",
+      "options": [
+        "hide completely",
+        "delay action",
+        "express strongly",
+        "change direction"
+      ],
+      "correct": 3,
+      "explanation": "'Give vent to' means express strongly.\nThe sentence shows frustration being released openly.\nThe other options do not reflect emotional expression."
+    },
+    {
+      "id": "EN-S5Q186",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'draw a blank'.",
+      "sentence": "I drew a blank when asked about the formula.",
+      "options": [
+        "find a solution",
+        "speak at length",
+        "win easily",
+        "fail to remember"
+      ],
+      "correct": 4,
+      "explanation": "'Draw a blank' means fail to remember.\nThe speaker could not recall the formula.\nThe other options are unrelated to memory failure."
+    },
+    {
+      "id": "EN-S5Q187",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'hold good'.",
+      "sentence": "The old rule still holds good in this context.",
+      "options": [
+        "become false",
+        "become illegal",
+        "end suddenly",
+        "remain true"
+      ],
+      "correct": 4,
+      "explanation": "'Hold good' means remain true or valid.\nThe sentence says the rule still applies.\nThe other options contradict that idea."
+    },
+    {
+      "id": "EN-S5Q188",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'run the risk'.",
+      "sentence": "You run the risk of losing data without backup.",
+      "options": [
+        "save time",
+        "gain certainty",
+        "avoid danger",
+        "expose oneself to danger"
+      ],
+      "correct": 4,
+      "explanation": "'Run the risk' means expose oneself to danger.\nThe sentence warns about possible data loss.\nThe other choices move in the opposite direction or are irrelevant."
+    },
+    {
+      "id": "EN-S5Q189",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'keep pace with'.",
+      "sentence": "Schools must keep pace with changing technology.",
+      "options": [
+        "stop learning",
+        "fall behind",
+        "move as fast as",
+        "reject progress"
+      ],
+      "correct": 3,
+      "explanation": "'Keep pace with' means move as fast as or stay level with.\nThe sentence refers to adapting to technology at the same speed.\nThe other options imply delay or resistance."
+    },
+    {
+      "id": "EN-S5Q190",
+      "type": "vocabulary",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Choose the option that best explains the expression 'strike a chord'.",
+      "sentence": "Her story struck a chord with the audience.",
+      "options": [
+        "confuse everyone",
+        "cause laughter only",
+        "end abruptly",
+        "resonate emotionally"
+      ],
+      "correct": 4,
+      "explanation": "'Strike a chord' means resonate emotionally.\nThe audience connected deeply with the story.\nThe other options do not match emotional response."
+    },
+    {
+      "id": "EN-S5Q191",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "The new policy may ____ every department in the school.",
+      "options": [
+        "effect",
+        "reflect",
+        "infect",
+        "affect"
+      ],
+      "correct": 4,
+      "explanation": "'Affect' is the correct word because it means influence.\nThe sentence needs a verb showing impact on departments.\n'Effect' is usually a noun here, so it does not fit."
+    },
+    {
+      "id": "EN-S5Q192",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "From her tone, we can ____ that she disagrees.",
+      "options": [
+        "imply",
+        "insist",
+        "prefer",
+        "infer"
+      ],
+      "correct": 4,
+      "explanation": "'Infer' is correct because we infer a conclusion from clues.\nThe listener draws meaning from the speaker's tone.\n'Imply' would be used by the speaker, not the listener."
+    },
+    {
+      "id": "EN-S5Q193",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "The ____ reason for the delay was bad weather.",
+      "options": [
+        "principle",
+        "president",
+        "policy",
+        "principal"
+      ],
+      "correct": 4,
+      "explanation": "'Principal' means main or chief, which fits the sentence.\nThe sentence asks for the main reason.\n'Principle' refers to a rule or belief and is not correct here."
+    },
+    {
+      "id": "EN-S5Q194",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "Please buy some ____ for the office.",
+      "options": [
+        "stationary",
+        "equipment",
+        "furniture",
+        "stationery"
+      ],
+      "correct": 4,
+      "explanation": "'Stationery' means writing materials.\nThat is exactly what the office needs in this sentence.\n'Stationary' means not moving, so it does not fit."
+    },
+    {
+      "id": "EN-S5Q195",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "The speech was a ____ moment for the nation.",
+      "options": [
+        "historical",
+        "legendary",
+        "routine",
+        "historic"
+      ],
+      "correct": 4,
+      "explanation": "'Historic' means important in history.\nThe sentence refers to a significant national moment.\n'Historical' only means related to history, not necessarily important."
+    },
+    {
+      "id": "EN-S5Q196",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "There are ____ students in the lab today.",
+      "options": [
+        "less",
+        "little",
+        "least",
+        "fewer"
+      ],
+      "correct": 4,
+      "explanation": "'Fewer' is used with countable nouns like students.\nThe sentence compares a number of students.\n'Less' is for uncountable nouns, so it is not correct."
+    },
+    {
+      "id": "EN-S5Q197",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "Divide the sweets ____ the three children.",
+      "options": [
+        "between",
+        "across",
+        "within",
+        "among"
+      ],
+      "correct": 4,
+      "explanation": "'Among' is correct because it is used for more than two.\nThe sweets are being divided across three children.\n'Between' is usually used for two, so it is less suitable."
+    },
+    {
+      "id": "EN-S5Q198",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "A small car can be very ____ in fuel use.",
+      "options": [
+        "economic",
+        "financial",
+        "profitable",
+        "economical"
+      ],
+      "correct": 4,
+      "explanation": "'Economical' means saving money or resources.\nIt fits fuel use in the sentence.\n'Economic' refers to the economy in general and is not the best choice."
+    },
+    {
+      "id": "EN-S5Q199",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "We should ____ that all doors are locked before leaving.",
+      "options": [
+        "insure",
+        "secure",
+        "certify",
+        "ensure"
+      ],
+      "correct": 4,
+      "explanation": "'Ensure' means make certain.\nThat is exactly what the sentence requires.\n'Insure' refers to insurance, so it does not fit."
+    },
+    {
+      "id": "EN-S5Q200",
+      "type": "grammar",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the most appropriate word to complete the sentence.",
+      "sentence": "The school is a little ____ than the market.",
+      "options": [
+        "further",
+        "deeper",
+        "higher",
+        "farther"
+      ],
+      "correct": 4,
+      "explanation": "'Farther' refers to physical distance.\nThe sentence compares actual distance between places.\n'Further' is more often used for additional extent or degree."
+    }
+  ]
+}
