@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://thisisme1289-ux.github.io/CUETAce/sitemap.xml
-
-# Block exam screen (no indexable content)
-Disallow: /examscreen
