@@ -1,0 +1,3009 @@
+{
+  "subject": "Business Studies",
+  "subject_code": "305",
+  "chapter_id": "BS04",
+  "chapter": "BS04 — Planning (Meaning, Features, Importance, Limitations, Process, Types of Plans)",
+  "total_questions": 200,
+  "questions": [
+    {
+      "id": "BS04Q01",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a bakery chain, Riya writes the sales target first, compares alternatives, and then decides the way forward to guide future action. What is this practice called? (Example BS04Q01) (BS04Q01)",
+      "options": [
+        "Planning",
+        "Controlling",
+        "Staffing",
+        "Directing"
+      ],
+      "correct": 1,
+      "explanation": "Planning means deciding in advance what to do and how to do it.\nThe case includes setting a target and choosing a course of action before execution.\nThe other options are related managerial functions, but they do not primarily deal with selecting future action."
+    },
+    {
+      "id": "BS04Q02",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager in a mobile accessories store says planning is useful because it gives the team a common path and to improve control. Which feature of planning is highlighted here? (BS04Q02)",
+      "options": [
+        "Planning is goal-oriented and provides direction",
+        "Planning eliminates the need for supervision",
+        "Planning works only in emergencies",
+        "Planning is a one-time activity"
+      ],
+      "correct": 1,
+      "explanation": "Planning is goal-oriented because it starts with desired objectives and then chooses actions to achieve them.\nIt also gives direction by making everyone work toward the same future path.\nThe other options confuse features with myths or incorrect assumptions about planning."
+    },
+    {
+      "id": "BS04Q03",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Karan runs a garment exporter and notices a price hike in inputs. Before spending money, the firm estimates demand, cash needs, and staffing. Which importance of planning is best shown? (BS04Q03)",
+      "options": [
+        "It helps reduce the risk of uncertainty and prepares the firm for future changes",
+        "It removes all external risks completely",
+        "It replaces the need for objectives",
+        "It works only for government departments"
+      ],
+      "correct": 1,
+      "explanation": "Planning is important because it helps a business anticipate uncertainty and make preparation for future conditions.\nThe case shows forecasting demand, cash needs, and staffing before action is taken.\nPlanning cannot remove risk completely, but it can reduce its impact through advance preparation."
+    },
+    {
+      "id": "BS04Q04",
+      "type": "not_type",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT a limitation of planning in relation to features and importance? (Identify the odd one out in BS04Q04) (BS04Q04)",
+      "options": [
+        "It ensures certainty in the external environment",
+        "It may create rigidity in action",
+        "It can involve time and cost",
+        "It can suffer from inaccurate assumptions"
+      ],
+      "correct": 1,
+      "explanation": "A limitation of planning is a drawback, not a benefit.\nCertainty in the environment is never assured by planning; that statement is therefore not a limitation but an unrealistic claim.\nRigidity, time consumption, and wrong assumptions are accepted limitations of planning."
+    },
+    {
+      "id": "BS04Q05",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Planning is a primary function of management because it sets the direction for other functions.\nReason (R): Without planning, organising and controlling become easier because the firm can act spontaneously.\n(Case reference: BS04Q05 in a school stationery business) (BS04Q05)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "Planning is indeed the primary function because it provides direction to all later managerial functions.\nThe reason is false: without planning, organising and controlling usually become harder, not easier.\nHence A is true and R is false."
+    },
+    {
+      "id": "BS04Q06",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning:\n1. It is a mental exercise that involves decision-making.\n2. It eliminates all uncertainty in business.\n3. It is continuous because plans may need revision.\nWhich of the statements are correct?\n(Case reference: BS04Q06 in a rice mill) (BS04Q06)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning involves thinking, deciding, and selecting among alternatives, so statement 1 is correct.\nIt does not eliminate uncertainty completely, so statement 2 is incorrect.\nPlans can change with conditions, making planning a continuous activity; therefore statement 3 is correct."
+    },
+    {
+      "id": "BS04Q07",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm in a logistics firm believes planning is useless because tomorrow may bring surprises. Which counterargument best reflects the importance of planning and its limitation? (BS04Q07)",
+      "options": [
+        "Planning cannot prevent surprises, but it improves preparedness and decision quality",
+        "Planning removes the need for management judgment",
+        "Planning works only when the market is stable",
+        "Planning is identical to controlling"
+      ],
+      "correct": 1,
+      "explanation": "The strongest counterargument is balanced: planning does not control the future, but it prepares the firm for it.\nThis reflects both the importance of planning and its limitation that uncertainty cannot be fully removed.\nThe other options are either extreme or incorrect comparisons."
+    },
+    {
+      "id": "BS04Q08",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Before launching a new product, Ishita's team lists goals, estimates sales, decides resources, and then chooses the best course of action. Which combination is most accurate? (BS04Q08)",
+      "options": [
+        "Planning is goal-setting plus choosing a course of action",
+        "Planning is only record-keeping",
+        "Planning is the same as inspecting results",
+        "Planning is mainly appointment of staff"
+      ],
+      "correct": 1,
+      "explanation": "Planning begins with deciding the objective and then selecting the best action to achieve it.\nThe case shows goals, forecasting, and choosing resources before launch.\nThat is why planning is more than record-keeping, inspection, or staffing."
+    },
+    {
+      "id": "BS04Q09",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about the features of planning:\n1. It is future-oriented.\n2. It is based on intuition alone and ignores facts.\n3. It is pervasive in all levels of management.\nWhich of the statements are correct?\n(Case reference: BS04Q09 in an event management firm) (BS04Q09)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning is future-oriented because it prepares the organisation for upcoming action.\nIt is also pervasive since managers at every level plan in some form.\nStatement 2 is incorrect because planning uses information and analysis, not intuition alone."
+    },
+    {
+      "id": "BS04Q10",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Planning can reduce confusion and waste of resources.\nReason (R): Planning helps managers select the best alternative before action begins.\n(Case reference: BS04Q10 in a bakery chain) (BS04Q10)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Planning improves resource use because it makes managers compare alternatives before acting.\nWhen a better alternative is chosen in advance, confusion and waste are reduced.\nThus the reason correctly explains the assertion."
+    },
+    {
+      "id": "BS04Q11",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a furniture workshop, Vivek writes the sales target first, compares alternatives, and then decides the way forward to reduce waste. What is this practice called? (Example BS04Q11) (BS04Q11)",
+      "options": [
+        "Planning",
+        "Controlling",
+        "Staffing",
+        "Directing"
+      ],
+      "correct": 1,
+      "explanation": "Planning means deciding in advance what to do and how to do it.\nThe case includes setting a target and choosing a course of action before execution.\nThe other options are related managerial functions, but they do not primarily deal with selecting future action."
+    },
+    {
+      "id": "BS04Q12",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager in a cosmetics brand says planning is useful because it gives the team a common path and to use limited resources wisely. Which feature of planning is highlighted here? (BS04Q12)",
+      "options": [
+        "Planning is goal-oriented and provides direction",
+        "Planning eliminates the need for supervision",
+        "Planning works only in emergencies",
+        "Planning is a one-time activity"
+      ],
+      "correct": 1,
+      "explanation": "Planning is goal-oriented because it starts with desired objectives and then chooses actions to achieve them.\nIt also gives direction by making everyone work toward the same future path.\nThe other options confuse features with myths or incorrect assumptions about planning."
+    },
+    {
+      "id": "BS04Q13",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Riya runs a textile mill and notices a price hike in inputs. Before spending money, the firm estimates demand, cash needs, and staffing. Which importance of planning is best shown? (BS04Q13)",
+      "options": [
+        "It helps reduce the risk of uncertainty and prepares the firm for future changes",
+        "It removes all external risks completely",
+        "It replaces the need for objectives",
+        "It works only for government departments"
+      ],
+      "correct": 1,
+      "explanation": "Planning is important because it helps a business anticipate uncertainty and make preparation for future conditions.\nThe case shows forecasting demand, cash needs, and staffing before action is taken.\nPlanning cannot remove risk completely, but it can reduce its impact through advance preparation."
+    },
+    {
+      "id": "BS04Q14",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a limitation of planning in relation to features and importance? (Identify the odd one out in BS04Q14) (BS04Q14)",
+      "options": [
+        "It ensures certainty in the external environment",
+        "It may create rigidity in action",
+        "It can involve time and cost",
+        "It can suffer from inaccurate assumptions"
+      ],
+      "correct": 1,
+      "explanation": "A limitation of planning is a drawback, not a benefit.\nCertainty in the environment is never assured by planning; that statement is therefore not a limitation but an unrealistic claim.\nRigidity, time consumption, and wrong assumptions are accepted limitations of planning."
+    },
+    {
+      "id": "BS04Q15",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Planning is a primary function of management because it sets the direction for other functions.\nReason (R): Without planning, organising and controlling become easier because the firm can act spontaneously.\n(Case reference: BS04Q15 in a school stationery business) (BS04Q15)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "Planning is indeed the primary function because it provides direction to all later managerial functions.\nThe reason is false: without planning, organising and controlling usually become harder, not easier.\nHence A is true and R is false."
+    },
+    {
+      "id": "BS04Q16",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning:\n1. It is a mental exercise that involves decision-making.\n2. It eliminates all uncertainty in business.\n3. It is continuous because plans may need revision.\nWhich of the statements are correct?\n(Case reference: BS04Q16 in a rice mill) (BS04Q16)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning involves thinking, deciding, and selecting among alternatives, so statement 1 is correct.\nIt does not eliminate uncertainty completely, so statement 2 is incorrect.\nPlans can change with conditions, making planning a continuous activity; therefore statement 3 is correct."
+    },
+    {
+      "id": "BS04Q17",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm in a fitness studio chain believes planning is useless because tomorrow may bring surprises. Which counterargument best reflects the importance of planning and its limitation? (BS04Q17)",
+      "options": [
+        "Planning cannot prevent surprises, but it improves preparedness and decision quality",
+        "Planning removes the need for management judgment",
+        "Planning works only when the market is stable",
+        "Planning is identical to controlling"
+      ],
+      "correct": 1,
+      "explanation": "The strongest counterargument is balanced: planning does not control the future, but it prepares the firm for it.\nThis reflects both the importance of planning and its limitation that uncertainty cannot be fully removed.\nThe other options are either extreme or incorrect comparisons."
+    },
+    {
+      "id": "BS04Q18",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Before launching a new product, Sana's team lists goals, estimates sales, decides resources, and then chooses the best course of action. Which combination is most accurate? (BS04Q18)",
+      "options": [
+        "Planning is goal-setting plus choosing a course of action",
+        "Planning is only record-keeping",
+        "Planning is the same as inspecting results",
+        "Planning is mainly appointment of staff"
+      ],
+      "correct": 1,
+      "explanation": "Planning begins with deciding the objective and then selecting the best action to achieve it.\nThe case shows goals, forecasting, and choosing resources before launch.\nThat is why planning is more than record-keeping, inspection, or staffing."
+    },
+    {
+      "id": "BS04Q19",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about the features of planning:\n1. It is future-oriented.\n2. It is based on intuition alone and ignores facts.\n3. It is pervasive in all levels of management.\nWhich of the statements are correct?\n(Case reference: BS04Q19 in an event management firm) (BS04Q19)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning is future-oriented because it prepares the organisation for upcoming action.\nIt is also pervasive since managers at every level plan in some form.\nStatement 2 is incorrect because planning uses information and analysis, not intuition alone."
+    },
+    {
+      "id": "BS04Q20",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Planning can reduce confusion and waste of resources.\nReason (R): Planning helps managers select the best alternative before action begins.\n(Case reference: BS04Q20 in a bakery chain) (BS04Q20)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Planning improves resource use because it makes managers compare alternatives before acting.\nWhen a better alternative is chosen in advance, confusion and waste are reduced.\nThus the reason correctly explains the assertion."
+    },
+    {
+      "id": "BS04Q21",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a dairy brand, Arjun writes the sales target first, compares alternatives, and then decides the way forward to ensure consistency. What is this practice called? (Example BS04Q21) (BS04Q21)",
+      "options": [
+        "Planning",
+        "Controlling",
+        "Staffing",
+        "Directing"
+      ],
+      "correct": 1,
+      "explanation": "Planning means deciding in advance what to do and how to do it.\nThe case includes setting a target and choosing a course of action before execution.\nThe other options are related managerial functions, but they do not primarily deal with selecting future action."
+    },
+    {
+      "id": "BS04Q22",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager in a home decor label says planning is useful because it gives the team a common path and to coordinate departments. Which feature of planning is highlighted here? (BS04Q22)",
+      "options": [
+        "Planning is goal-oriented and provides direction",
+        "Planning eliminates the need for supervision",
+        "Planning works only in emergencies",
+        "Planning is a one-time activity"
+      ],
+      "correct": 1,
+      "explanation": "Planning is goal-oriented because it starts with desired objectives and then chooses actions to achieve them.\nIt also gives direction by making everyone work toward the same future path.\nThe other options confuse features with myths or incorrect assumptions about planning."
+    },
+    {
+      "id": "BS04Q23",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Vivek runs a printing press and notices a price hike in inputs. Before spending money, the firm estimates demand, cash needs, and staffing. Which importance of planning is best shown? (BS04Q23)",
+      "options": [
+        "It helps reduce the risk of uncertainty and prepares the firm for future changes",
+        "It removes all external risks completely",
+        "It replaces the need for objectives",
+        "It works only for government departments"
+      ],
+      "correct": 1,
+      "explanation": "Planning is important because it helps a business anticipate uncertainty and make preparation for future conditions.\nThe case shows forecasting demand, cash needs, and staffing before action is taken.\nPlanning cannot remove risk completely, but it can reduce its impact through advance preparation."
+    },
+    {
+      "id": "BS04Q24",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a limitation of planning in relation to features and importance? (Identify the odd one out in BS04Q24) (BS04Q24)",
+      "options": [
+        "It ensures certainty in the external environment",
+        "It may create rigidity in action",
+        "It can involve time and cost",
+        "It can suffer from inaccurate assumptions"
+      ],
+      "correct": 1,
+      "explanation": "A limitation of planning is a drawback, not a benefit.\nCertainty in the environment is never assured by planning; that statement is therefore not a limitation but an unrealistic claim.\nRigidity, time consumption, and wrong assumptions are accepted limitations of planning."
+    },
+    {
+      "id": "BS04Q25",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Planning is a primary function of management because it sets the direction for other functions.\nReason (R): Without planning, organising and controlling become easier because the firm can act spontaneously.\n(Case reference: BS04Q25 in a school stationery business) (BS04Q25)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "Planning is indeed the primary function because it provides direction to all later managerial functions.\nThe reason is false: without planning, organising and controlling usually become harder, not easier.\nHence A is true and R is false."
+    },
+    {
+      "id": "BS04Q26",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning:\n1. It is a mental exercise that involves decision-making.\n2. It eliminates all uncertainty in business.\n3. It is continuous because plans may need revision.\nWhich of the statements are correct?\n(Case reference: BS04Q26 in a rice mill) (BS04Q26)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning involves thinking, deciding, and selecting among alternatives, so statement 1 is correct.\nIt does not eliminate uncertainty completely, so statement 2 is incorrect.\nPlans can change with conditions, making planning a continuous activity; therefore statement 3 is correct."
+    },
+    {
+      "id": "BS04Q27",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm in a cold-pressed juice brand believes planning is useless because tomorrow may bring surprises. Which counterargument best reflects the importance of planning and its limitation? (BS04Q27)",
+      "options": [
+        "Planning cannot prevent surprises, but it improves preparedness and decision quality",
+        "Planning removes the need for management judgment",
+        "Planning works only when the market is stable",
+        "Planning is identical to controlling"
+      ],
+      "correct": 1,
+      "explanation": "The strongest counterargument is balanced: planning does not control the future, but it prepares the firm for it.\nThis reflects both the importance of planning and its limitation that uncertainty cannot be fully removed.\nThe other options are either extreme or incorrect comparisons."
+    },
+    {
+      "id": "BS04Q28",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Before launching a new product, Neha's team lists goals, estimates sales, decides resources, and then chooses the best course of action. Which combination is most accurate? (BS04Q28)",
+      "options": [
+        "Planning is goal-setting plus choosing a course of action",
+        "Planning is only record-keeping",
+        "Planning is the same as inspecting results",
+        "Planning is mainly appointment of staff"
+      ],
+      "correct": 1,
+      "explanation": "Planning begins with deciding the objective and then selecting the best action to achieve it.\nThe case shows goals, forecasting, and choosing resources before launch.\nThat is why planning is more than record-keeping, inspection, or staffing."
+    },
+    {
+      "id": "BS04Q29",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about the features of planning:\n1. It is future-oriented.\n2. It is based on intuition alone and ignores facts.\n3. It is pervasive in all levels of management.\nWhich of the statements are correct?\n(Case reference: BS04Q29 in an event management firm) (BS04Q29)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning is future-oriented because it prepares the organisation for upcoming action.\nIt is also pervasive since managers at every level plan in some form.\nStatement 2 is incorrect because planning uses information and analysis, not intuition alone."
+    },
+    {
+      "id": "BS04Q30",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Planning can reduce confusion and waste of resources.\nReason (R): Planning helps managers select the best alternative before action begins.\n(Case reference: BS04Q30 in a bakery chain) (BS04Q30)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Planning improves resource use because it makes managers compare alternatives before acting.\nWhen a better alternative is chosen in advance, confusion and waste are reduced.\nThus the reason correctly explains the assertion."
+    },
+    {
+      "id": "BS04Q31",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a bakery chain, Kabir writes the sales target first, compares alternatives, and then decides the way forward to face uncertainty better. What is this practice called? (Example BS04Q31) (BS04Q31)",
+      "options": [
+        "Planning",
+        "Controlling",
+        "Staffing",
+        "Directing"
+      ],
+      "correct": 1,
+      "explanation": "Planning means deciding in advance what to do and how to do it.\nThe case includes setting a target and choosing a course of action before execution.\nThe other options are related managerial functions, but they do not primarily deal with selecting future action."
+    },
+    {
+      "id": "BS04Q32",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager in a mobile accessories store says planning is useful because it gives the team a common path and to avoid confusion. Which feature of planning is highlighted here? (BS04Q32)",
+      "options": [
+        "Planning is goal-oriented and provides direction",
+        "Planning eliminates the need for supervision",
+        "Planning works only in emergencies",
+        "Planning is a one-time activity"
+      ],
+      "correct": 1,
+      "explanation": "Planning is goal-oriented because it starts with desired objectives and then chooses actions to achieve them.\nIt also gives direction by making everyone work toward the same future path.\nThe other options confuse features with myths or incorrect assumptions about planning."
+    },
+    {
+      "id": "BS04Q33",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Arjun runs a garment exporter and notices a price hike in inputs. Before spending money, the firm estimates demand, cash needs, and staffing. Which importance of planning is best shown? (BS04Q33)",
+      "options": [
+        "It helps reduce the risk of uncertainty and prepares the firm for future changes",
+        "It removes all external risks completely",
+        "It replaces the need for objectives",
+        "It works only for government departments"
+      ],
+      "correct": 1,
+      "explanation": "Planning is important because it helps a business anticipate uncertainty and make preparation for future conditions.\nThe case shows forecasting demand, cash needs, and staffing before action is taken.\nPlanning cannot remove risk completely, but it can reduce its impact through advance preparation."
+    },
+    {
+      "id": "BS04Q34",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT a limitation of planning in relation to features and importance? (Identify the odd one out in BS04Q34) (BS04Q34)",
+      "options": [
+        "It ensures certainty in the external environment",
+        "It may create rigidity in action",
+        "It can involve time and cost",
+        "It can suffer from inaccurate assumptions"
+      ],
+      "correct": 1,
+      "explanation": "A limitation of planning is a drawback, not a benefit.\nCertainty in the environment is never assured by planning; that statement is therefore not a limitation but an unrealistic claim.\nRigidity, time consumption, and wrong assumptions are accepted limitations of planning."
+    },
+    {
+      "id": "BS04Q35",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Planning is a primary function of management because it sets the direction for other functions.\nReason (R): Without planning, organising and controlling become easier because the firm can act spontaneously.\n(Case reference: BS04Q35 in a school stationery business) (BS04Q35)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "Planning is indeed the primary function because it provides direction to all later managerial functions.\nThe reason is false: without planning, organising and controlling usually become harder, not easier.\nHence A is true and R is false."
+    },
+    {
+      "id": "BS04Q36",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning:\n1. It is a mental exercise that involves decision-making.\n2. It eliminates all uncertainty in business.\n3. It is continuous because plans may need revision.\nWhich of the statements are correct?\n(Case reference: BS04Q36 in a rice mill) (BS04Q36)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning involves thinking, deciding, and selecting among alternatives, so statement 1 is correct.\nIt does not eliminate uncertainty completely, so statement 2 is incorrect.\nPlans can change with conditions, making planning a continuous activity; therefore statement 3 is correct."
+    },
+    {
+      "id": "BS04Q37",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm in a logistics firm believes planning is useless because tomorrow may bring surprises. Which counterargument best reflects the importance of planning and its limitation? (BS04Q37)",
+      "options": [
+        "Planning cannot prevent surprises, but it improves preparedness and decision quality",
+        "Planning removes the need for management judgment",
+        "Planning works only when the market is stable",
+        "Planning is identical to controlling"
+      ],
+      "correct": 1,
+      "explanation": "The strongest counterargument is balanced: planning does not control the future, but it prepares the firm for it.\nThis reflects both the importance of planning and its limitation that uncertainty cannot be fully removed.\nThe other options are either extreme or incorrect comparisons."
+    },
+    {
+      "id": "BS04Q38",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Before launching a new product, Aman's team lists goals, estimates sales, decides resources, and then chooses the best course of action. Which combination is most accurate? (BS04Q38)",
+      "options": [
+        "Planning is goal-setting plus choosing a course of action",
+        "Planning is only record-keeping",
+        "Planning is the same as inspecting results",
+        "Planning is mainly appointment of staff"
+      ],
+      "correct": 1,
+      "explanation": "Planning begins with deciding the objective and then selecting the best action to achieve it.\nThe case shows goals, forecasting, and choosing resources before launch.\nThat is why planning is more than record-keeping, inspection, or staffing."
+    },
+    {
+      "id": "BS04Q39",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about the features of planning:\n1. It is future-oriented.\n2. It is based on intuition alone and ignores facts.\n3. It is pervasive in all levels of management.\nWhich of the statements are correct?\n(Case reference: BS04Q39 in an event management firm) (BS04Q39)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning is future-oriented because it prepares the organisation for upcoming action.\nIt is also pervasive since managers at every level plan in some form.\nStatement 2 is incorrect because planning uses information and analysis, not intuition alone."
+    },
+    {
+      "id": "BS04Q40",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Planning can reduce confusion and waste of resources.\nReason (R): Planning helps managers select the best alternative before action begins.\n(Case reference: BS04Q40 in a bakery chain) (BS04Q40)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Planning improves resource use because it makes managers compare alternatives before acting.\nWhen a better alternative is chosen in advance, confusion and waste are reduced.\nThus the reason correctly explains the assertion."
+    },
+    {
+      "id": "BS04Q41",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a furniture workshop, Dev writes the sales target first, compares alternatives, and then decides the way forward to guide future action. What is this practice called? (Example BS04Q41) (BS04Q41)",
+      "options": [
+        "Planning",
+        "Controlling",
+        "Staffing",
+        "Directing"
+      ],
+      "correct": 1,
+      "explanation": "Planning means deciding in advance what to do and how to do it.\nThe case includes setting a target and choosing a course of action before execution.\nThe other options are related managerial functions, but they do not primarily deal with selecting future action."
+    },
+    {
+      "id": "BS04Q42",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager in a cosmetics brand says planning is useful because it gives the team a common path and to improve control. Which feature of planning is highlighted here? (BS04Q42)",
+      "options": [
+        "Planning is goal-oriented and provides direction",
+        "Planning eliminates the need for supervision",
+        "Planning works only in emergencies",
+        "Planning is a one-time activity"
+      ],
+      "correct": 1,
+      "explanation": "Planning is goal-oriented because it starts with desired objectives and then chooses actions to achieve them.\nIt also gives direction by making everyone work toward the same future path.\nThe other options confuse features with myths or incorrect assumptions about planning."
+    },
+    {
+      "id": "BS04Q43",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Kabir runs a textile mill and notices a price hike in inputs. Before spending money, the firm estimates demand, cash needs, and staffing. Which importance of planning is best shown? (BS04Q43)",
+      "options": [
+        "It helps reduce the risk of uncertainty and prepares the firm for future changes",
+        "It removes all external risks completely",
+        "It replaces the need for objectives",
+        "It works only for government departments"
+      ],
+      "correct": 1,
+      "explanation": "Planning is important because it helps a business anticipate uncertainty and make preparation for future conditions.\nThe case shows forecasting demand, cash needs, and staffing before action is taken.\nPlanning cannot remove risk completely, but it can reduce its impact through advance preparation."
+    },
+    {
+      "id": "BS04Q44",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT a limitation of planning in relation to features and importance? (Identify the odd one out in BS04Q44) (BS04Q44)",
+      "options": [
+        "It ensures certainty in the external environment",
+        "It may create rigidity in action",
+        "It can involve time and cost",
+        "It can suffer from inaccurate assumptions"
+      ],
+      "correct": 1,
+      "explanation": "A limitation of planning is a drawback, not a benefit.\nCertainty in the environment is never assured by planning; that statement is therefore not a limitation but an unrealistic claim.\nRigidity, time consumption, and wrong assumptions are accepted limitations of planning."
+    },
+    {
+      "id": "BS04Q45",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Planning is a primary function of management because it sets the direction for other functions.\nReason (R): Without planning, organising and controlling become easier because the firm can act spontaneously.\n(Case reference: BS04Q45 in a school stationery business) (BS04Q45)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "Planning is indeed the primary function because it provides direction to all later managerial functions.\nThe reason is false: without planning, organising and controlling usually become harder, not easier.\nHence A is true and R is false."
+    },
+    {
+      "id": "BS04Q46",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning:\n1. It is a mental exercise that involves decision-making.\n2. It eliminates all uncertainty in business.\n3. It is continuous because plans may need revision.\nWhich of the statements are correct?\n(Case reference: BS04Q46 in a rice mill) (BS04Q46)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning involves thinking, deciding, and selecting among alternatives, so statement 1 is correct.\nIt does not eliminate uncertainty completely, so statement 2 is incorrect.\nPlans can change with conditions, making planning a continuous activity; therefore statement 3 is correct."
+    },
+    {
+      "id": "BS04Q47",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm in a fitness studio chain believes planning is useless because tomorrow may bring surprises. Which counterargument best reflects the importance of planning and its limitation? (BS04Q47)",
+      "options": [
+        "Planning cannot prevent surprises, but it improves preparedness and decision quality",
+        "Planning removes the need for management judgment",
+        "Planning works only when the market is stable",
+        "Planning is identical to controlling"
+      ],
+      "correct": 1,
+      "explanation": "The strongest counterargument is balanced: planning does not control the future, but it prepares the firm for it.\nThis reflects both the importance of planning and its limitation that uncertainty cannot be fully removed.\nThe other options are either extreme or incorrect comparisons."
+    },
+    {
+      "id": "BS04Q48",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Before launching a new product, Pooja's team lists goals, estimates sales, decides resources, and then chooses the best course of action. Which combination is most accurate? (BS04Q48)",
+      "options": [
+        "Planning is goal-setting plus choosing a course of action",
+        "Planning is only record-keeping",
+        "Planning is the same as inspecting results",
+        "Planning is mainly appointment of staff"
+      ],
+      "correct": 1,
+      "explanation": "Planning begins with deciding the objective and then selecting the best action to achieve it.\nThe case shows goals, forecasting, and choosing resources before launch.\nThat is why planning is more than record-keeping, inspection, or staffing."
+    },
+    {
+      "id": "BS04Q49",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about the features of planning:\n1. It is future-oriented.\n2. It is based on intuition alone and ignores facts.\n3. It is pervasive in all levels of management.\nWhich of the statements are correct?\n(Case reference: BS04Q49 in an event management firm) (BS04Q49)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Planning is future-oriented because it prepares the organisation for upcoming action.\nIt is also pervasive since managers at every level plan in some form.\nStatement 2 is incorrect because planning uses information and analysis, not intuition alone."
+    },
+    {
+      "id": "BS04Q50",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Planning can reduce confusion and waste of resources.\nReason (R): Planning helps managers select the best alternative before action begins.\n(Case reference: BS04Q50 in a bakery chain) (BS04Q50)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Planning improves resource use because it makes managers compare alternatives before acting.\nWhen a better alternative is chosen in advance, confusion and waste are reduced.\nThus the reason correctly explains the assertion."
+    },
+    {
+      "id": "BS04Q51",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "When Meera of a textile mill starts by deciding what the business wants to achieve before choosing actions, which step of planning is being undertaken? (Example BS04Q51) (BS04Q51)",
+      "options": [
+        "Setting objectives",
+        "Evaluating results",
+        "Selecting a method",
+        "Formulating premises"
+      ],
+      "correct": 1,
+      "explanation": "The first step in planning is deciding the objectives to be achieved.\nOnly after objectives are fixed can managers move to premises, alternatives, and selection.\nEvaluation comes later after implementation."
+    },
+    {
+      "id": "BS04Q52",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager studies market trends and supplier prices before planning for a hardware wholesaler. This mainly refers to which step of planning along with objective setting? (BS04Q52)",
+      "options": [
+        "Developing planning premises",
+        "Implementing the plan",
+        "Measuring deviations",
+        "Appointing supervisors"
+      ],
+      "correct": 1,
+      "explanation": "Planning premises are assumptions or forecasts about future conditions.\nThey come after objectives and help managers build realistic plans.\nImplementation and measurement occur later, while supervision belongs to execution."
+    },
+    {
+      "id": "BS04Q53",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "a fitness studio chain wants to enter a new market. Management lists three possible routes, compares cost and risk, and chooses the most workable one. Which planning step is shown here? (BS04Q53)",
+      "options": [
+        "Evaluation of alternatives and selection of the best one",
+        "Setting the premises only",
+        "Reviewing actual performance after execution",
+        "Defining rules for daily routine"
+      ],
+      "correct": 1,
+      "explanation": "After objectives and premises, managers compare different courses of action.\nThe best alternative is then selected, which is exactly what the case describes.\nReviewing performance is a later step, not the one shown here."
+    },
+    {
+      "id": "BS04Q54",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT generally a step in the planning process? (Identify the odd one out in BS04Q54) (BS04Q54)",
+      "options": [
+        "Measuring actual results before implementation",
+        "Setting objectives",
+        "Developing premises",
+        "Selecting an alternative"
+      ],
+      "correct": 1,
+      "explanation": "Planning normally starts before execution, so measuring actual results comes after implementation.\nSetting objectives, developing premises, and selecting an alternative are central planning steps.\nTherefore the first option is the odd one out."
+    },
+    {
+      "id": "BS04Q55",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Developing premises is necessary after objectives are set.\nReason (R): Plans are more realistic when they are based on assumptions about future conditions.\n(Case reference: BS04Q55 in a school stationery business) (BS04Q55)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Premises are assumptions about future conditions such as demand, prices, and policy changes.\nOnce objectives are fixed, these assumptions help in designing realistic plans.\nSo the reason explains why developing premises is necessary."
+    },
+    {
+      "id": "BS04Q56",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning process:\n1. Objectives are set before premises.\n2. Alternative courses of action are compared after premises are developed.\n3. Follow-up is part of review, not the initial decision stage.\nWhich statements are correct?\n(Case reference: BS04Q56 in a rice mill) (BS04Q56)",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "The planning process begins with objectives, then moves to premises, alternatives, selection, and later follow-up.\nStatement 1 is correct because objectives guide the entire process.\nStatements 2 and 3 are also correct because comparison and review occur at appropriate stages."
+    },
+    {
+      "id": "BS04Q57",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During planning for a product launch, Neha first fixes the sales target, then estimates demand under different market conditions, then compares three action plans. What is the correct order of the first three steps? (BS04Q57)",
+      "options": [
+        "Objectives → premises → alternatives",
+        "Premises → objectives → alternatives",
+        "Alternatives → premises → objectives",
+        "Objectives → alternatives → premises"
+      ],
+      "correct": 1,
+      "explanation": "The correct sequence begins with setting objectives.\nNext comes identifying planning premises, because assumptions are needed before evaluating options.\nOnly after that are alternatives compared and selected."
+    },
+    {
+      "id": "BS04Q58",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a cold-pressed juice brand changes its plan after a competitor cuts prices unexpectedly. Which part of the planning process is most directly improved by this response? (BS04Q58)",
+      "options": [
+        "Continuous follow-up and revision",
+        "Only the initial objective setting",
+        "Appointing workers for execution",
+        "Ignoring premises because they are fixed"
+      ],
+      "correct": 1,
+      "explanation": "Planning is not a one-time act; it needs follow-up and revision when conditions change.\nThe manager responds to new market information by revising the plan.\nThat shows the continuous nature of planning and the role of review."
+    },
+    {
+      "id": "BS04Q59",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about planning process:\n1. Objective setting helps avoid confusion in later steps.\n2. Selecting an alternative can be done effectively without comparing options.\n3. Follow-up helps identify deviations from the plan.\nWhich statements are correct?\n(Case reference: BS04Q59 in an event management firm) (BS04Q59)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Objectives give a clear end point, so later planning becomes focused.\nSelecting without comparing alternatives weakens decision quality, so statement 2 is wrong.\nFollow-up is essential because it reveals deviations and supports corrective action."
+    },
+    {
+      "id": "BS04Q60",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Follow-up is important in planning process.\nReason (R): It helps managers see whether the plan is moving in the intended direction and revise it if needed.\n(Case reference: BS04Q60 in a bakery chain) (BS04Q60)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Follow-up is crucial because planning must remain effective during execution.\nBy checking progress, managers can detect deviations and revise the plan in time.\nThus the reason clearly explains the assertion."
+    },
+    {
+      "id": "BS04Q61",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "When Neha of a garment exporter starts by deciding what the business wants to achieve before choosing actions, which step of planning is being undertaken? (Example BS04Q61) (BS04Q61)",
+      "options": [
+        "Setting objectives",
+        "Evaluating results",
+        "Selecting a method",
+        "Formulating premises"
+      ],
+      "correct": 1,
+      "explanation": "The first step in planning is deciding the objectives to be achieved.\nOnly after objectives are fixed can managers move to premises, alternatives, and selection.\nEvaluation comes later after implementation."
+    },
+    {
+      "id": "BS04Q62",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager studies market trends and supplier prices before planning for a café. This mainly refers to which step of planning along with objective setting? (BS04Q62)",
+      "options": [
+        "Developing planning premises",
+        "Implementing the plan",
+        "Measuring deviations",
+        "Appointing supervisors"
+      ],
+      "correct": 1,
+      "explanation": "Planning premises are assumptions or forecasts about future conditions.\nThey come after objectives and help managers build realistic plans.\nImplementation and measurement occur later, while supervision belongs to execution."
+    },
+    {
+      "id": "BS04Q63",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "a logistics firm wants to enter a new market. Management lists three possible routes, compares cost and risk, and chooses the most workable one. Which planning step is shown here? (BS04Q63)",
+      "options": [
+        "Evaluation of alternatives and selection of the best one",
+        "Setting the premises only",
+        "Reviewing actual performance after execution",
+        "Defining rules for daily routine"
+      ],
+      "correct": 1,
+      "explanation": "After objectives and premises, managers compare different courses of action.\nThe best alternative is then selected, which is exactly what the case describes.\nReviewing performance is a later step, not the one shown here."
+    },
+    {
+      "id": "BS04Q64",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT generally a step in the planning process? (Identify the odd one out in BS04Q64) (BS04Q64)",
+      "options": [
+        "Measuring actual results before implementation",
+        "Setting objectives",
+        "Developing premises",
+        "Selecting an alternative"
+      ],
+      "correct": 1,
+      "explanation": "Planning normally starts before execution, so measuring actual results comes after implementation.\nSetting objectives, developing premises, and selecting an alternative are central planning steps.\nTherefore the first option is the odd one out."
+    },
+    {
+      "id": "BS04Q65",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Developing premises is necessary after objectives are set.\nReason (R): Plans are more realistic when they are based on assumptions about future conditions.\n(Case reference: BS04Q65 in a school stationery business) (BS04Q65)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Premises are assumptions about future conditions such as demand, prices, and policy changes.\nOnce objectives are fixed, these assumptions help in designing realistic plans.\nSo the reason explains why developing premises is necessary."
+    },
+    {
+      "id": "BS04Q66",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning process:\n1. Objectives are set before premises.\n2. Alternative courses of action are compared after premises are developed.\n3. Follow-up is part of review, not the initial decision stage.\nWhich statements are correct?\n(Case reference: BS04Q66 in a rice mill) (BS04Q66)",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "The planning process begins with objectives, then moves to premises, alternatives, selection, and later follow-up.\nStatement 1 is correct because objectives guide the entire process.\nStatements 2 and 3 are also correct because comparison and review occur at appropriate stages."
+    },
+    {
+      "id": "BS04Q67",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During planning for a product launch, Meera first fixes the sales target, then estimates demand under different market conditions, then compares three action plans. What is the correct order of the first three steps? (BS04Q67)",
+      "options": [
+        "Objectives → premises → alternatives",
+        "Premises → objectives → alternatives",
+        "Alternatives → premises → objectives",
+        "Objectives → alternatives → premises"
+      ],
+      "correct": 1,
+      "explanation": "The correct sequence begins with setting objectives.\nNext comes identifying planning premises, because assumptions are needed before evaluating options.\nOnly after that are alternatives compared and selected."
+    },
+    {
+      "id": "BS04Q68",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a fitness studio chain changes its plan after a competitor cuts prices unexpectedly. Which part of the planning process is most directly improved by this response? (BS04Q68)",
+      "options": [
+        "Continuous follow-up and revision",
+        "Only the initial objective setting",
+        "Appointing workers for execution",
+        "Ignoring premises because they are fixed"
+      ],
+      "correct": 1,
+      "explanation": "Planning is not a one-time act; it needs follow-up and revision when conditions change.\nThe manager responds to new market information by revising the plan.\nThat shows the continuous nature of planning and the role of review."
+    },
+    {
+      "id": "BS04Q69",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about planning process:\n1. Objective setting helps avoid confusion in later steps.\n2. Selecting an alternative can be done effectively without comparing options.\n3. Follow-up helps identify deviations from the plan.\nWhich statements are correct?\n(Case reference: BS04Q69 in an event management firm) (BS04Q69)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Objectives give a clear end point, so later planning becomes focused.\nSelecting without comparing alternatives weakens decision quality, so statement 2 is wrong.\nFollow-up is essential because it reveals deviations and supports corrective action."
+    },
+    {
+      "id": "BS04Q70",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Follow-up is important in planning process.\nReason (R): It helps managers see whether the plan is moving in the intended direction and revise it if needed.\n(Case reference: BS04Q70 in a bakery chain) (BS04Q70)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Follow-up is crucial because planning must remain effective during execution.\nBy checking progress, managers can detect deviations and revise the plan in time.\nThus the reason clearly explains the assertion."
+    },
+    {
+      "id": "BS04Q71",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "When Meera of a printing press starts by deciding what the business wants to achieve before choosing actions, which step of planning is being undertaken? (Example BS04Q71) (BS04Q71)",
+      "options": [
+        "Setting objectives",
+        "Evaluating results",
+        "Selecting a method",
+        "Formulating premises"
+      ],
+      "correct": 1,
+      "explanation": "The first step in planning is deciding the objectives to be achieved.\nOnly after objectives are fixed can managers move to premises, alternatives, and selection.\nEvaluation comes later after implementation."
+    },
+    {
+      "id": "BS04Q72",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager studies market trends and supplier prices before planning for a soap manufacturer. This mainly refers to which step of planning along with objective setting? (BS04Q72)",
+      "options": [
+        "Developing planning premises",
+        "Implementing the plan",
+        "Measuring deviations",
+        "Appointing supervisors"
+      ],
+      "correct": 1,
+      "explanation": "Planning premises are assumptions or forecasts about future conditions.\nThey come after objectives and help managers build realistic plans.\nImplementation and measurement occur later, while supervision belongs to execution."
+    },
+    {
+      "id": "BS04Q73",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "a cold-pressed juice brand wants to enter a new market. Management lists three possible routes, compares cost and risk, and chooses the most workable one. Which planning step is shown here? (BS04Q73)",
+      "options": [
+        "Evaluation of alternatives and selection of the best one",
+        "Setting the premises only",
+        "Reviewing actual performance after execution",
+        "Defining rules for daily routine"
+      ],
+      "correct": 1,
+      "explanation": "After objectives and premises, managers compare different courses of action.\nThe best alternative is then selected, which is exactly what the case describes.\nReviewing performance is a later step, not the one shown here."
+    },
+    {
+      "id": "BS04Q74",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT generally a step in the planning process? (Identify the odd one out in BS04Q74) (BS04Q74)",
+      "options": [
+        "Measuring actual results before implementation",
+        "Setting objectives",
+        "Developing premises",
+        "Selecting an alternative"
+      ],
+      "correct": 1,
+      "explanation": "Planning normally starts before execution, so measuring actual results comes after implementation.\nSetting objectives, developing premises, and selecting an alternative are central planning steps.\nTherefore the first option is the odd one out."
+    },
+    {
+      "id": "BS04Q75",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Developing premises is necessary after objectives are set.\nReason (R): Plans are more realistic when they are based on assumptions about future conditions.\n(Case reference: BS04Q75 in a school stationery business) (BS04Q75)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Premises are assumptions about future conditions such as demand, prices, and policy changes.\nOnce objectives are fixed, these assumptions help in designing realistic plans.\nSo the reason explains why developing premises is necessary."
+    },
+    {
+      "id": "BS04Q76",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning process:\n1. Objectives are set before premises.\n2. Alternative courses of action are compared after premises are developed.\n3. Follow-up is part of review, not the initial decision stage.\nWhich statements are correct?\n(Case reference: BS04Q76 in a rice mill) (BS04Q76)",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "The planning process begins with objectives, then moves to premises, alternatives, selection, and later follow-up.\nStatement 1 is correct because objectives guide the entire process.\nStatements 2 and 3 are also correct because comparison and review occur at appropriate stages."
+    },
+    {
+      "id": "BS04Q77",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During planning for a product launch, Neha first fixes the sales target, then estimates demand under different market conditions, then compares three action plans. What is the correct order of the first three steps? (BS04Q77)",
+      "options": [
+        "Objectives → premises → alternatives",
+        "Premises → objectives → alternatives",
+        "Alternatives → premises → objectives",
+        "Objectives → alternatives → premises"
+      ],
+      "correct": 1,
+      "explanation": "The correct sequence begins with setting objectives.\nNext comes identifying planning premises, because assumptions are needed before evaluating options.\nOnly after that are alternatives compared and selected."
+    },
+    {
+      "id": "BS04Q78",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a logistics firm changes its plan after a competitor cuts prices unexpectedly. Which part of the planning process is most directly improved by this response? (BS04Q78)",
+      "options": [
+        "Continuous follow-up and revision",
+        "Only the initial objective setting",
+        "Appointing workers for execution",
+        "Ignoring premises because they are fixed"
+      ],
+      "correct": 1,
+      "explanation": "Planning is not a one-time act; it needs follow-up and revision when conditions change.\nThe manager responds to new market information by revising the plan.\nThat shows the continuous nature of planning and the role of review."
+    },
+    {
+      "id": "BS04Q79",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about planning process:\n1. Objective setting helps avoid confusion in later steps.\n2. Selecting an alternative can be done effectively without comparing options.\n3. Follow-up helps identify deviations from the plan.\nWhich statements are correct?\n(Case reference: BS04Q79 in an event management firm) (BS04Q79)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Objectives give a clear end point, so later planning becomes focused.\nSelecting without comparing alternatives weakens decision quality, so statement 2 is wrong.\nFollow-up is essential because it reveals deviations and supports corrective action."
+    },
+    {
+      "id": "BS04Q80",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Follow-up is important in planning process.\nReason (R): It helps managers see whether the plan is moving in the intended direction and revise it if needed.\n(Case reference: BS04Q80 in a bakery chain) (BS04Q80)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Follow-up is crucial because planning must remain effective during execution.\nBy checking progress, managers can detect deviations and revise the plan in time.\nThus the reason clearly explains the assertion."
+    },
+    {
+      "id": "BS04Q81",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "When Neha of a textile mill starts by deciding what the business wants to achieve before choosing actions, which step of planning is being undertaken? (Example BS04Q81) (BS04Q81)",
+      "options": [
+        "Setting objectives",
+        "Evaluating results",
+        "Selecting a method",
+        "Formulating premises"
+      ],
+      "correct": 1,
+      "explanation": "The first step in planning is deciding the objectives to be achieved.\nOnly after objectives are fixed can managers move to premises, alternatives, and selection.\nEvaluation comes later after implementation."
+    },
+    {
+      "id": "BS04Q82",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager studies market trends and supplier prices before planning for a hardware wholesaler. This mainly refers to which step of planning along with objective setting? (BS04Q82)",
+      "options": [
+        "Developing planning premises",
+        "Implementing the plan",
+        "Measuring deviations",
+        "Appointing supervisors"
+      ],
+      "correct": 1,
+      "explanation": "Planning premises are assumptions or forecasts about future conditions.\nThey come after objectives and help managers build realistic plans.\nImplementation and measurement occur later, while supervision belongs to execution."
+    },
+    {
+      "id": "BS04Q83",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "a fitness studio chain wants to enter a new market. Management lists three possible routes, compares cost and risk, and chooses the most workable one. Which planning step is shown here? (BS04Q83)",
+      "options": [
+        "Evaluation of alternatives and selection of the best one",
+        "Setting the premises only",
+        "Reviewing actual performance after execution",
+        "Defining rules for daily routine"
+      ],
+      "correct": 1,
+      "explanation": "After objectives and premises, managers compare different courses of action.\nThe best alternative is then selected, which is exactly what the case describes.\nReviewing performance is a later step, not the one shown here."
+    },
+    {
+      "id": "BS04Q84",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT generally a step in the planning process? (Identify the odd one out in BS04Q84) (BS04Q84)",
+      "options": [
+        "Measuring actual results before implementation",
+        "Setting objectives",
+        "Developing premises",
+        "Selecting an alternative"
+      ],
+      "correct": 1,
+      "explanation": "Planning normally starts before execution, so measuring actual results comes after implementation.\nSetting objectives, developing premises, and selecting an alternative are central planning steps.\nTherefore the first option is the odd one out."
+    },
+    {
+      "id": "BS04Q85",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Developing premises is necessary after objectives are set.\nReason (R): Plans are more realistic when they are based on assumptions about future conditions.\n(Case reference: BS04Q85 in a school stationery business) (BS04Q85)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Premises are assumptions about future conditions such as demand, prices, and policy changes.\nOnce objectives are fixed, these assumptions help in designing realistic plans.\nSo the reason explains why developing premises is necessary."
+    },
+    {
+      "id": "BS04Q86",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning process:\n1. Objectives are set before premises.\n2. Alternative courses of action are compared after premises are developed.\n3. Follow-up is part of review, not the initial decision stage.\nWhich statements are correct?\n(Case reference: BS04Q86 in a rice mill) (BS04Q86)",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "The planning process begins with objectives, then moves to premises, alternatives, selection, and later follow-up.\nStatement 1 is correct because objectives guide the entire process.\nStatements 2 and 3 are also correct because comparison and review occur at appropriate stages."
+    },
+    {
+      "id": "BS04Q87",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During planning for a product launch, Meera first fixes the sales target, then estimates demand under different market conditions, then compares three action plans. What is the correct order of the first three steps? (BS04Q87)",
+      "options": [
+        "Objectives → premises → alternatives",
+        "Premises → objectives → alternatives",
+        "Alternatives → premises → objectives",
+        "Objectives → alternatives → premises"
+      ],
+      "correct": 1,
+      "explanation": "The correct sequence begins with setting objectives.\nNext comes identifying planning premises, because assumptions are needed before evaluating options.\nOnly after that are alternatives compared and selected."
+    },
+    {
+      "id": "BS04Q88",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a cold-pressed juice brand changes its plan after a competitor cuts prices unexpectedly. Which part of the planning process is most directly improved by this response? (BS04Q88)",
+      "options": [
+        "Continuous follow-up and revision",
+        "Only the initial objective setting",
+        "Appointing workers for execution",
+        "Ignoring premises because they are fixed"
+      ],
+      "correct": 1,
+      "explanation": "Planning is not a one-time act; it needs follow-up and revision when conditions change.\nThe manager responds to new market information by revising the plan.\nThat shows the continuous nature of planning and the role of review."
+    },
+    {
+      "id": "BS04Q89",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about planning process:\n1. Objective setting helps avoid confusion in later steps.\n2. Selecting an alternative can be done effectively without comparing options.\n3. Follow-up helps identify deviations from the plan.\nWhich statements are correct?\n(Case reference: BS04Q89 in an event management firm) (BS04Q89)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Objectives give a clear end point, so later planning becomes focused.\nSelecting without comparing alternatives weakens decision quality, so statement 2 is wrong.\nFollow-up is essential because it reveals deviations and supports corrective action."
+    },
+    {
+      "id": "BS04Q90",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Follow-up is important in planning process.\nReason (R): It helps managers see whether the plan is moving in the intended direction and revise it if needed.\n(Case reference: BS04Q90 in a bakery chain) (BS04Q90)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Follow-up is crucial because planning must remain effective during execution.\nBy checking progress, managers can detect deviations and revise the plan in time.\nThus the reason clearly explains the assertion."
+    },
+    {
+      "id": "BS04Q91",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "When Meera of a garment exporter starts by deciding what the business wants to achieve before choosing actions, which step of planning is being undertaken? (Example BS04Q91) (BS04Q91)",
+      "options": [
+        "Setting objectives",
+        "Evaluating results",
+        "Selecting a method",
+        "Formulating premises"
+      ],
+      "correct": 1,
+      "explanation": "The first step in planning is deciding the objectives to be achieved.\nOnly after objectives are fixed can managers move to premises, alternatives, and selection.\nEvaluation comes later after implementation."
+    },
+    {
+      "id": "BS04Q92",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager studies market trends and supplier prices before planning for a café. This mainly refers to which step of planning along with objective setting? (BS04Q92)",
+      "options": [
+        "Developing planning premises",
+        "Implementing the plan",
+        "Measuring deviations",
+        "Appointing supervisors"
+      ],
+      "correct": 1,
+      "explanation": "Planning premises are assumptions or forecasts about future conditions.\nThey come after objectives and help managers build realistic plans.\nImplementation and measurement occur later, while supervision belongs to execution."
+    },
+    {
+      "id": "BS04Q93",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "a logistics firm wants to enter a new market. Management lists three possible routes, compares cost and risk, and chooses the most workable one. Which planning step is shown here? (BS04Q93)",
+      "options": [
+        "Evaluation of alternatives and selection of the best one",
+        "Setting the premises only",
+        "Reviewing actual performance after execution",
+        "Defining rules for daily routine"
+      ],
+      "correct": 1,
+      "explanation": "After objectives and premises, managers compare different courses of action.\nThe best alternative is then selected, which is exactly what the case describes.\nReviewing performance is a later step, not the one shown here."
+    },
+    {
+      "id": "BS04Q94",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT generally a step in the planning process? (Identify the odd one out in BS04Q94) (BS04Q94)",
+      "options": [
+        "Measuring actual results before implementation",
+        "Setting objectives",
+        "Developing premises",
+        "Selecting an alternative"
+      ],
+      "correct": 1,
+      "explanation": "Planning normally starts before execution, so measuring actual results comes after implementation.\nSetting objectives, developing premises, and selecting an alternative are central planning steps.\nTherefore the first option is the odd one out."
+    },
+    {
+      "id": "BS04Q95",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Developing premises is necessary after objectives are set.\nReason (R): Plans are more realistic when they are based on assumptions about future conditions.\n(Case reference: BS04Q95 in a school stationery business) (BS04Q95)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Premises are assumptions about future conditions such as demand, prices, and policy changes.\nOnce objectives are fixed, these assumptions help in designing realistic plans.\nSo the reason explains why developing premises is necessary."
+    },
+    {
+      "id": "BS04Q96",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about planning process:\n1. Objectives are set before premises.\n2. Alternative courses of action are compared after premises are developed.\n3. Follow-up is part of review, not the initial decision stage.\nWhich statements are correct?\n(Case reference: BS04Q96 in a rice mill) (BS04Q96)",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "The planning process begins with objectives, then moves to premises, alternatives, selection, and later follow-up.\nStatement 1 is correct because objectives guide the entire process.\nStatements 2 and 3 are also correct because comparison and review occur at appropriate stages."
+    },
+    {
+      "id": "BS04Q97",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During planning for a product launch, Neha first fixes the sales target, then estimates demand under different market conditions, then compares three action plans. What is the correct order of the first three steps? (BS04Q97)",
+      "options": [
+        "Objectives → premises → alternatives",
+        "Premises → objectives → alternatives",
+        "Alternatives → premises → objectives",
+        "Objectives → alternatives → premises"
+      ],
+      "correct": 1,
+      "explanation": "The correct sequence begins with setting objectives.\nNext comes identifying planning premises, because assumptions are needed before evaluating options.\nOnly after that are alternatives compared and selected."
+    },
+    {
+      "id": "BS04Q98",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a fitness studio chain changes its plan after a competitor cuts prices unexpectedly. Which part of the planning process is most directly improved by this response? (BS04Q98)",
+      "options": [
+        "Continuous follow-up and revision",
+        "Only the initial objective setting",
+        "Appointing workers for execution",
+        "Ignoring premises because they are fixed"
+      ],
+      "correct": 1,
+      "explanation": "Planning is not a one-time act; it needs follow-up and revision when conditions change.\nThe manager responds to new market information by revising the plan.\nThat shows the continuous nature of planning and the role of review."
+    },
+    {
+      "id": "BS04Q99",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about planning process:\n1. Objective setting helps avoid confusion in later steps.\n2. Selecting an alternative can be done effectively without comparing options.\n3. Follow-up helps identify deviations from the plan.\nWhich statements are correct?\n(Case reference: BS04Q99 in an event management firm) (BS04Q99)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Objectives give a clear end point, so later planning becomes focused.\nSelecting without comparing alternatives weakens decision quality, so statement 2 is wrong.\nFollow-up is essential because it reveals deviations and supports corrective action."
+    },
+    {
+      "id": "BS04Q100",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Follow-up is important in planning process.\nReason (R): It helps managers see whether the plan is moving in the intended direction and revise it if needed.\n(Case reference: BS04Q100 in a bakery chain) (BS04Q100)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Follow-up is crucial because planning must remain effective during execution.\nBy checking progress, managers can detect deviations and revise the plan in time.\nThus the reason clearly explains the assertion."
+    },
+    {
+      "id": "BS04Q101",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a business, the firm fixes a target to increase market share by 10% this year, while the strategy team later decides the route to reach it. Which type of plan is the target? (Example BS04Q101) (BS04Q101)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q102",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at the business to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, and how is it different from a rule? (BS04Q102)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q103",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A sales policy allows staff to offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q103)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q104",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a type of plan used in management, even though strategy, budget, and programme are all used for different planning purposes? (Identify the odd one out in BS04Q104) (BS04Q104)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q105",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q105 in a school stationery business) (BS04Q105)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q106",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q106 in a rice mill) (BS04Q106)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q107",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a snack manufacturer prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q107)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q108",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a logistics firm, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q108)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q109",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q109 in an event management firm) (BS04Q109)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q110",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A budget acts as a plan because it sets numerical targets, while a policy or procedure may guide action in a different way. Which statement best explains this?\n(Case reference: BS04Q110 in a bakery chain) (BS04Q110)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q111",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In an event management firm, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q111) (BS04Q111)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q112",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a café to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q112)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q113",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Arjun decides that sales staff at a cosmetics brand may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q113)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q114",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q114) (BS04Q114)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q115",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q115 in a school stationery business) (BS04Q115)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q116",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q116 in a rice mill) (BS04Q116)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q117",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a travel agency prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q117)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q118",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a fitness studio chain, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q118)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q119",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q119 in an event management firm) (BS04Q119)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q120",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q120 in a bakery chain) (BS04Q120)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q121",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a pharmaceutical distributor, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q121) (BS04Q121)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q122",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a hardware wholesaler to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q122)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q123",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Riya decides that sales staff at a home decor label may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q123)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q124",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q124) (BS04Q124)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q125",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q125 in a school stationery business) (BS04Q125)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q126",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q126 in a rice mill) (BS04Q126)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q127",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a packaging company prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q127)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q128",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a cold-pressed juice brand, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q128)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q129",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q129 in an event management firm) (BS04Q129)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q130",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q130 in a bakery chain) (BS04Q130)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q131",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a regional e-commerce seller, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q131) (BS04Q131)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q132",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a soap manufacturer to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q132)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q133",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Dev decides that sales staff at a mobile accessories store may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q133)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q134",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q134) (BS04Q134)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q135",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q135 in a school stationery business) (BS04Q135)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q136",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q136 in a rice mill) (BS04Q136)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q137",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a snack manufacturer prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q137)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q138",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a logistics firm, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q138)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q139",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q139 in an event management firm) (BS04Q139)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q140",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q140 in a bakery chain) (BS04Q140)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q141",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In an event management firm, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q141) (BS04Q141)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q142",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a café to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q142)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q143",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Arjun decides that sales staff at a cosmetics brand may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q143)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q144",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q144) (BS04Q144)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q145",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q145 in a school stationery business) (BS04Q145)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q146",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q146 in a rice mill) (BS04Q146)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q147",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a travel agency prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q147)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q148",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a fitness studio chain, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q148)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q149",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q149 in an event management firm) (BS04Q149)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q150",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q150 in a bakery chain) (BS04Q150)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q151",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a pharmaceutical distributor, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q151) (BS04Q151)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q152",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a hardware wholesaler to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q152)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q153",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Riya decides that sales staff at a home decor label may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q153)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q154",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q154) (BS04Q154)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q155",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q155 in a school stationery business) (BS04Q155)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q156",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q156 in a rice mill) (BS04Q156)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q157",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a packaging company prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q157)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q158",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a cold-pressed juice brand, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q158)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q159",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q159 in an event management firm) (BS04Q159)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q160",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q160 in a bakery chain) (BS04Q160)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q161",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a regional e-commerce seller, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q161) (BS04Q161)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q162",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a soap manufacturer to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q162)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q163",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Dev decides that sales staff at a mobile accessories store may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q163)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q164",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q164) (BS04Q164)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q165",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q165 in a school stationery business) (BS04Q165)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q166",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q166 in a rice mill) (BS04Q166)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q167",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a snack manufacturer prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q167)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q168",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a logistics firm, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q168)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q169",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q169 in an event management firm) (BS04Q169)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q170",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q170 in a bakery chain) (BS04Q170)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q171",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In an event management firm, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q171) (BS04Q171)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q172",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a café to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q172)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q173",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Arjun decides that sales staff at a cosmetics brand may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q173)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q174",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q174) (BS04Q174)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q175",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q175 in a school stationery business) (BS04Q175)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q176",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q176 in a rice mill) (BS04Q176)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q177",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a travel agency prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q177)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q178",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a fitness studio chain, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q178)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q179",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q179 in an event management firm) (BS04Q179)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q180",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q180 in a bakery chain) (BS04Q180)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q181",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a pharmaceutical distributor, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q181) (BS04Q181)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q182",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a hardware wholesaler to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q182)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q183",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Riya decides that sales staff at a home decor label may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q183)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q184",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q184) (BS04Q184)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q185",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q185 in a school stationery business) (BS04Q185)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q186",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q186 in a rice mill) (BS04Q186)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q187",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a packaging company prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q187)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q188",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a cold-pressed juice brand, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q188)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q189",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q189 in an event management firm) (BS04Q189)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q190",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q190 in a bakery chain) (BS04Q190)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    },
+    {
+      "id": "BS04Q191",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In a regional e-commerce seller, the firm fixes a target to increase market share by 10% this year. Which type of plan is this? (Example BS04Q191) (BS04Q191)",
+      "options": [
+        "Objective",
+        "Procedure",
+        "Rule",
+        "Budget"
+      ],
+      "correct": 1,
+      "explanation": "An objective states the desired result to be achieved in a specific time.\nIt gives a clear target and acts as the starting point of other plans.\nProcedure, rule, and budget serve different purposes and do not define the end result."
+    },
+    {
+      "id": "BS04Q192",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A manager tells staff at a soap manufacturer to first greet the customer, then check the bill, and finally pack the product. Which type of plan is this, along with a rule for customer service? (BS04Q192)",
+      "options": [
+        "Procedure",
+        "Strategy",
+        "Budget",
+        "Objective"
+      ],
+      "correct": 1,
+      "explanation": "A procedure is a series of steps to carry out a task.\nThe case shows an exact sequence of actions, which is more specific than a policy or objective.\nRules may support behaviour, but the step-by-step sequence is a procedure."
+    },
+    {
+      "id": "BS04Q193",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Dev decides that sales staff at a mobile accessories store may offer limited discounts only with approval. Which type of plan is being used, and how does it differ from a procedure? (BS04Q193)",
+      "options": [
+        "Policy; it guides decision-making without listing step-by-step actions",
+        "Budget; it fixes the money to be spent",
+        "Rule; it explains the exact sequence of actions",
+        "Method; it states the final target only"
+      ],
+      "correct": 1,
+      "explanation": "A policy is a general guideline for decision-making.\nIt gives a broad framework, while a procedure gives exact steps and a rule gives a do-or-don't command.\nThe case is about permission-based decision-making, so policy is the best fit."
+    },
+    {
+      "id": "BS04Q194",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "difficult",
+      "question": "Which of the following is NOT a type of plan used in management? (Identify the odd one out in BS04Q194) (BS04Q194)",
+      "options": [
+        "Control sheet",
+        "Strategy",
+        "Budget",
+        "Programme"
+      ],
+      "correct": 1,
+      "explanation": "Strategy, budget, and programme are recognised types of plans.\nA control sheet may be a reporting tool, but it is not a standard type of managerial plan.\nHence it is the odd option out."
+    },
+    {
+      "id": "BS04Q195",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strategy is a general plan for achieving objectives in a competitive environment.\nReason (R): It always states exact daily steps that workers must follow.\n(Case reference: BS04Q195 in a school stationery business) (BS04Q195)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 3,
+      "explanation": "A strategy is indeed a broad course of action designed to achieve objectives.\nHowever, exact daily steps belong to a procedure or method, not a strategy.\nTherefore A is true and R is false."
+    },
+    {
+      "id": "BS04Q196",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements about types of plans:\n1. An objective states what is to be achieved.\n2. A rule allows some flexibility in personal judgment.\n3. A budget expresses expected numerical results.\nWhich of the statements are correct?\n(Case reference: BS04Q196 in a rice mill) (BS04Q196)",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "An objective gives a desired result, and a budget gives quantified targets such as revenue or expense.\nA rule does not allow flexibility; it is a specific do-or-don't statement.\nTherefore statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS04Q197",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "a snack manufacturer prepares a six-month plan with target sales, month-wise tasks, resource allocation, and review dates. Which type of plan is this most likely to be? (BS04Q197)",
+      "options": [
+        "Programme",
+        "Policy",
+        "Rule",
+        "Method"
+      ],
+      "correct": 1,
+      "explanation": "A programme is a single-use comprehensive plan that includes objectives, tasks, resources, and timing.\nThe case mentions a specific time span, task allocation, and review schedule.\nThat is broader than a rule or method and more detailed than a policy."
+    },
+    {
+      "id": "BS04Q198",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "In a logistics firm, the finance head fixes ₹20 lakh as expected spending for expansion while the operations head sets a step-by-step routine for installation. Which pair is correctly matched? (BS04Q198)",
+      "options": [
+        "Budget and procedure",
+        "Policy and objective",
+        "Method and rule",
+        "Strategy and programme"
+      ],
+      "correct": 1,
+      "explanation": "A budget deals with numerical allocation of resources, while a procedure gives step-by-step guidance.\nThe case clearly shows money planning and routine execution.\nThat makes budget and procedure the correct pair."
+    },
+    {
+      "id": "BS04Q199",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements about policies, procedures, and rules:\n1. A policy guides decisions in a broad way.\n2. A procedure specifies the sequence of actions.\n3. A rule allows deviation when managers think it is useful.\nWhich statements are correct?\n(Case reference: BS04Q199 in an event management firm) (BS04Q199)",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Policy is broad and helps managers decide within a framework.\nProcedure is a step-by-step method of performing a task.\nRule does not permit discretion; therefore statement 3 is wrong."
+    },
+    {
+      "id": "BS04Q200",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A budget acts as a plan because it sets quantitative targets.\nReason (R): It translates objectives into numbers and helps control performance.\n(Case reference: BS04Q200 in a bakery chain) (BS04Q200)",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A budget is indeed a plan because it expresses goals in numerical terms.\nBy converting objectives into figures, it also becomes a basis for performance control.\nSo the reason correctly explains why the budget is treated as a plan."
+    }
+  ]
+}

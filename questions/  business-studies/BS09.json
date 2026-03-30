@@ -1,0 +1,3009 @@
+{
+  "subject": "Business Studies",
+  "subject_code": "305",
+  "chapter_id": "BS09",
+  "chapter": "BS09 — Business Finance (Financial Decisions, Planning, Capital Structure, Fixed and Working Capital)",
+  "total_questions": 200,
+  "questions": [
+    {
+      "id": "BS09Q01",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A bakery in Varanasi needs funds for ovens and flour, milk, packaging, and wages. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy ovens.\nThey also meet flour, milk, packaging, and wages.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q02",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A bakery in Varanasi may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q03",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a bakery in Varanasi: 1. Fixed capital funds ovens. 2. Working capital funds flour, milk, packaging, and wages. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q04",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a bakery in Varanasi?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q05",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A bakery in Varanasi wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q06",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A bakery in Varanasi estimates future funds before the season starts. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q07",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A bakery in Varanasi keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q08",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a bakery in Varanasi: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q09",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more ovens at a bakery in Varanasi mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Ovens are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q10",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A bakery in Varanasi may need more funds before peak demand. Reason: it must buy flour, milk, packaging, and wages before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Peak demand raises current-asset needs.\nStock and expenses must be funded first.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q11",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A garment exporter needs funds for stitching machines and fabric stock and receivables from buyers. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy stitching machines.\nThey also meet fabric stock and receivables.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q12",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A garment exporter may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q13",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a garment exporter: 1. Fixed capital funds stitching machines. 2. Working capital funds fabric stock and receivables. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q14",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a garment exporter?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q15",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A garment exporter wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q16",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A garment exporter estimates future funds before export orders are shipped. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q17",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A garment exporter keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q18",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a garment exporter: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q19",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more stitching machines at a garment exporter mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Stitching machines are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q20",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A garment exporter may need more funds before peak demand. Reason: it must buy fabric stock and wait for sales realisation. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Peak demand raises current-asset needs.\nStock and expenses must be funded first.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q21",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A software startup needs funds for servers and salaries, cloud, and marketing. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy servers.\nThey also meet salaries, cloud, and marketing.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q22",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A software startup may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q23",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a software startup: 1. Fixed capital funds servers. 2. Working capital funds salaries, cloud, and marketing. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q24",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a software startup?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q25",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A software startup wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q26",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A software startup estimates future funds before launch of a new product. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q27",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A software startup keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q28",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a software startup: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q29",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more servers at a software startup mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Servers are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q30",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A software startup may need more funds before a product launch. Reason: it must pay salaries and cloud costs before revenue starts. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Launches raise current-asset needs.\nExpenses come before revenue.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q31",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A cement plant needs funds for heavy plant and raw materials, fuel, and transport. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy heavy plant.\nThey also meet raw materials, fuel, and transport.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q32",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A cement plant may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q33",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a cement plant: 1. Fixed capital funds heavy plant. 2. Working capital funds raw materials, fuel, and transport. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q34",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a cement plant?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q35",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A cement plant wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q36",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A cement plant estimates future funds before adding capacity. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q37",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A cement plant keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q38",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a cement plant: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q39",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more heavy plant at a cement plant mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Heavy plant is a long-term asset.\nIt needs long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q40",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A cement plant may need more funds before a capacity hike. Reason: it must buy raw materials and pay transport before sales are realised. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Capacity growth raises current-asset needs.\nExpenses come before sale proceeds.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q41",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An ice-cream producer needs funds for freezers and seasonal inventory build-up. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy freezers.\nThey also meet seasonal inventory needs.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q42",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An ice-cream producer may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q43",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for an ice-cream producer: 1. Fixed capital funds freezers. 2. Working capital funds seasonal inventory build-up. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q44",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for an ice-cream producer?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q45",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An ice-cream producer wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q46",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An ice-cream producer estimates future funds before summer. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q47",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "An ice-cream producer keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q48",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for an ice-cream producer: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q49",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more freezers at an ice-cream producer mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Freezers are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q50",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: An ice-cream producer may need more funds before summer. Reason: it must buy seasonal stock before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Seasonal demand raises current-asset needs.\nStock is built before revenue arrives.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q51",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A retail chain needs funds for store fittings and inventory, rent, and supplier dues. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy store fittings.\nThey also meet inventory, rent, and dues.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q52",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A retail chain may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q53",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a retail chain: 1. Fixed capital funds store fittings. 2. Working capital funds inventory, rent, and supplier dues. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q54",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a retail chain?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q55",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A retail chain wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q56",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A retail chain estimates future funds before opening new stores. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q57",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A retail chain keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q58",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a retail chain: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q59",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more store fittings at a retail chain mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Store fittings are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q60",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A retail chain may need more funds before a festive sale. Reason: it must buy inventory before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Festive demand raises current-asset needs.\nInventory must be built first.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q61",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A machine unit needs funds for CNC machines and raw materials and power. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy CNC machines.\nThey also meet raw materials and power.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q62",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A machine unit may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q63",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a machine unit: 1. Fixed capital funds CNC machines. 2. Working capital funds raw materials and power. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q64",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a machine unit?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q65",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A machine unit wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q66",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A machine unit estimates future funds before replacing old machines. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q67",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A machine unit keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q68",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a machine unit: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q69",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more CNC machines at a machine unit mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "CNC machines are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q70",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A machine unit may need more funds before a big order cycle. Reason: it must buy raw materials before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Big orders raise current-asset needs.\nRaw materials must be financed first.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q71",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An electronics distributor needs funds for warehouses and inventory and dealer credit. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy warehouses.\nThey also meet inventory and dealer credit.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q72",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An electronics distributor may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q73",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for an electronics distributor: 1. Fixed capital funds warehouses. 2. Working capital funds inventory and dealer credit. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q74",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for an electronics distributor?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q75",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An electronics distributor wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q76",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An electronics distributor estimates future funds before extending more dealer credit. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q77",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "An electronics distributor keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q78",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for an electronics distributor: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q79",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more warehouses at an electronics distributor mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Warehouses are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q80",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: An electronics distributor may need more funds before a sales push. Reason: it must stock inventory before collections arrive. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Sales pushes raise current-asset needs.\nInventory is funded before cash comes in.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q81",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A hotel chain needs funds for property renovation and guest services and payroll. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy renovation assets.\nThey also meet guest services and payroll.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q82",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A hotel chain may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q83",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a hotel chain: 1. Fixed capital funds property renovation. 2. Working capital funds guest services and payroll. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q84",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a hotel chain?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q85",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A hotel chain wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q86",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A hotel chain estimates future funds before room renovation begins. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q87",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A hotel chain keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q88",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a hotel chain: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q89",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more room renovation work at a hotel chain mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Renovation is a long-term asset use.\nIt needs long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q90",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A hotel chain may need more funds during a tourism season. Reason: it must pay guest services and payroll before receipts arrive. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Tourism season raises current-asset needs.\nExpenses often come before receipts.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q91",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A pharma company needs funds for labs and R&D, inventories, and distributor credit. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy labs.\nThey also meet R&D, inventories, and credit.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q92",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A pharma company may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q93",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a pharma company: 1. Fixed capital funds labs. 2. Working capital funds R&D, inventories, and distributor credit. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q94",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a pharma company?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q95",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A pharma company wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q96",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A pharma company estimates future funds before product development starts. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q97",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A pharma company keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q98",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a pharma company: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q99",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more labs at a pharma company mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Labs are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q100",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A pharma company may need more funds before a product launch. Reason: it must finance R&D and inventories before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Launches raise current-asset needs.\nR&D and inventories come first.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q101",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A transport company needs funds for trucks and fuel, tolls, and salaries. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy trucks.\nThey also meet fuel, tolls, and salaries.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q102",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A transport company may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q103",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a transport company: 1. Fixed capital funds trucks. 2. Working capital funds fuel, tolls, and salaries. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q104",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a transport company?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q105",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A transport company wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q106",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A transport company estimates future funds before fleet expansion starts. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q107",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A transport company keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q108",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a transport company: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q109",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more trucks at a transport company mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Trucks are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q110",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A transport company may need more funds before a large contract. Reason: it must pay fuel and salaries before cash is received. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Large contracts raise current-asset needs.\nCosts are paid before receipts arrive.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q111",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An organic food brand needs funds for packing lines and raw produce and ads. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy packing lines.\nThey also meet raw produce and ads.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q112",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An organic food brand may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q113",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for an organic food brand: 1. Fixed capital funds packing lines. 2. Working capital funds raw produce and ads. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q114",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for an organic food brand?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q115",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An organic food brand wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q116",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An organic food brand estimates future funds before brand expansion begins. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q117",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "An organic food brand keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q118",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for an organic food brand: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q119",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more packing lines at an organic food brand mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Packing lines are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q120",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: An organic food brand may need more funds before a demand spike. Reason: it must buy raw produce and advertise before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Demand spikes raise current-asset needs.\nInputs and promotion come first.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q121",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A construction company needs funds for machinery and materials, labour, and work-in-progress. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy machinery.\nThey also meet materials, labour, and WIP.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q122",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A construction company may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q123",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a construction company: 1. Fixed capital funds machinery. 2. Working capital funds materials, labour, and WIP. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q124",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a construction company?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q125",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A construction company wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q126",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A construction company estimates future funds before a new project starts. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q127",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A construction company keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q128",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a construction company: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q129",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more machinery at a construction company mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Machinery is a long-term asset.\nIt needs long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q130",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A construction company may need more funds before project billing. Reason: it must pay labour and material costs before receipts are realised. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Project work raises current-asset needs.\nCosts come before bill realisation.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q131",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A furniture maker needs funds for cutting tools and wood stock and customer advances. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy cutting tools.\nThey also meet wood stock and advances.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q132",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A furniture maker may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q133",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a furniture maker: 1. Fixed capital funds cutting tools. 2. Working capital funds wood stock and customer advances. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q134",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a furniture maker?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q135",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A furniture maker wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q136",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A furniture maker estimates future funds before workshop expansion begins. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q137",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A furniture maker keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q138",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a furniture maker: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q139",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more cutting tools at a furniture maker mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Cutting tools are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q140",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A furniture maker may need more funds before a big order cycle. Reason: it must buy wood stock before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Big orders raise current-asset needs.\nWood stock is funded before receipts.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q141",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An automobile dealer needs funds for showroom setup and vehicle inventory and follow-up. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy showroom setup.\nThey also meet vehicle inventory and follow-up.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q142",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An automobile dealer may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q143",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for an automobile dealer: 1. Fixed capital funds showroom setup. 2. Working capital funds vehicle inventory and follow-up. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q144",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for an automobile dealer?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q145",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An automobile dealer wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q146",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An automobile dealer estimates future funds before opening a new showroom. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q147",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "An automobile dealer keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q148",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for an automobile dealer: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q149",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more showroom setup at an automobile dealer mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Showroom setup is a long-term asset.\nIt needs long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q150",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: An automobile dealer may need more funds before a sales campaign. Reason: it must stock vehicles before collections arrive. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Sales campaigns raise current-asset needs.\nInventory is funded before cash comes in.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q151",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An e-commerce seller needs funds for warehouse systems and inventory, returns, and delivery. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy warehouse systems.\nThey also meet inventory, returns, and delivery.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q152",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An e-commerce seller may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q153",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for an e-commerce seller: 1. Fixed capital funds warehouse systems. 2. Working capital funds inventory, returns, and delivery. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q154",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for an e-commerce seller?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q155",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An e-commerce seller wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q156",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An e-commerce seller estimates future funds before a festival sale. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q157",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "An e-commerce seller keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q158",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for an e-commerce seller: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q159",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more warehouse systems at an e-commerce seller mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Warehouse systems are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q160",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: An e-commerce seller may need more funds before a festival sale. Reason: it must stock inventory before sales and refunds arrive. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Festival sales raise current-asset needs.\nStock comes before cash inflow.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q161",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A solar installer needs funds for testing tools and materials and site labour. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy testing tools.\nThey also meet materials and site labour.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q162",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A solar installer may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q163",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a solar installer: 1. Fixed capital funds testing tools. 2. Working capital funds materials and site labour. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q164",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a solar installer?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q165",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A solar installer wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q166",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A solar installer estimates future funds before project work begins. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q167",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A solar installer keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q168",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a solar installer: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q169",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more testing tools at a solar installer mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Testing tools are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q170",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A solar installer may need more funds before a project starts. Reason: it must pay materials and labour before the customer pays. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Projects raise current-asset needs.\nCosts come before customer payment.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q171",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A restaurant group needs funds for kitchen appliances and ingredients, salaries, and utilities. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy kitchen appliances.\nThey also meet ingredients, salaries, and utilities.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q172",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A restaurant group may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q173",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a restaurant group: 1. Fixed capital funds kitchen appliances. 2. Working capital funds ingredients, salaries, and utilities. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q174",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a restaurant group?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q175",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A restaurant group wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q176",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A restaurant group estimates future funds before opening a new branch. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q177",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A restaurant group keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q178",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a restaurant group: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q179",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more kitchen appliances at a restaurant group mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Kitchen appliances are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q180",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A restaurant group may need more funds before a busy season. Reason: it must buy ingredients and pay staff before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Busy seasons raise current-asset needs.\nInputs and wages come first.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q181",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An apparel brand needs funds for design software and fabric, finished goods, and credit. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy design software.\nThey also meet fabric, finished goods, and credit.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q182",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "An apparel brand may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q183",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for an apparel brand: 1. Fixed capital funds design software. 2. Working capital funds fabric, finished goods, and credit. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q184",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for an apparel brand?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q185",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An apparel brand wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q186",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An apparel brand estimates future funds before a premium line launch. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q187",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "An apparel brand keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q188",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for an apparel brand: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q189",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more design software and fit-out at an apparel brand mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Design software and fit-out are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q190",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: An apparel brand may need more funds before a fashion season. Reason: it must buy fabric and finished goods before sales come in. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Fashion seasons raise current-asset needs.\nStock must be built first.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS09Q191",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A logistics firm needs funds for warehouses and delivery vehicles, fuel, routes, and receivables. Business finance means:",
+      "options": [
+        "funds for assets and operations",
+        "only profit at year end",
+        "only dividend paid to owners",
+        "registration fee of the firm"
+      ],
+      "correct": 1,
+      "explanation": "Funds buy warehouses.\nThey also meet delivery vehicles, fuel, routes, and receivables.\nThat is business finance."
+    },
+    {
+      "id": "BS09Q192",
+      "type": "assertion_reason",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A logistics firm may accept lower current profit if value and liquidity improve. Objective?",
+      "options": [
+        "profit maximisation only",
+        "wealth maximisation with liquidity",
+        "sales maximisation at any cost",
+        "minimum spending always"
+      ],
+      "correct": 2,
+      "explanation": "Value matters more than short profit.\nLiquidity must stay safe.\nSo wealth maximisation fits best."
+    },
+    {
+      "id": "BS09Q193",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Statements for a logistics firm: 1. Fixed capital funds warehouses. 2. Working capital funds fuel, routes, and receivables. 3. Fixed capital changes daily. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Fixed capital is long term.\nWorking capital covers current needs.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS09Q194",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is NOT a working-capital factor for a logistics firm?",
+      "options": [
+        "operating cycle length",
+        "customer credit terms",
+        "seasonal sales",
+        "depreciation method"
+      ],
+      "correct": 4,
+      "explanation": "Depreciation is an accounting charge.\nIt does not decide working capital.\nSo it is the odd one out."
+    },
+    {
+      "id": "BS09Q195",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A logistics firm wants expansion without dilution and likes the tax benefit of interest. Which decision is this?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "working-capital decision"
+      ],
+      "correct": 2,
+      "explanation": "The issue is how funds are raised.\nDebt, equity, or retained earnings are sources.\nThat is the financing decision."
+    },
+    {
+      "id": "BS09Q196",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A logistics firm estimates future funds before expanding warehouses. What is this?",
+      "options": [
+        "financial planning",
+        "sales audit",
+        "inventory valuation",
+        "trial balance"
+      ],
+      "correct": 1,
+      "explanation": "Plan future fund needs in advance.\nIt avoids surplus and shortage.\nThat is financial planning."
+    },
+    {
+      "id": "BS09Q197",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A logistics firm keeps more earnings for growth and uses less outside finance. Which decision?",
+      "options": [
+        "investment decision",
+        "financing decision",
+        "dividend decision",
+        "capital-budgeting only"
+      ],
+      "correct": 3,
+      "explanation": "Profits are being retained.\nThat supports future expansion.\nSo it is the dividend decision."
+    },
+    {
+      "id": "BS09Q198",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Capital-structure statements for a logistics firm: 1. Stable cash flow supports debt. 2. Higher tax can favour debt. 3. Business risk is irrelevant. Correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": 1,
+      "explanation": "Stable cash flow supports more debt.\nTax advantage can raise debt appeal.\nBusiness risk still matters."
+    },
+    {
+      "id": "BS09Q199",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Adding more warehouses at a logistics firm mainly raises which capital need?",
+      "options": [
+        "fixed capital",
+        "working capital",
+        "share premium",
+        "dividend reserve"
+      ],
+      "correct": 1,
+      "explanation": "Warehouses are long-term assets.\nThey need long-term funds.\nSo fixed capital rises."
+    },
+    {
+      "id": "BS09Q200",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion: A logistics firm may need more funds before a peak route season. Reason: it must pay fuel and routes before collections arrive. Correct?",
+      "options": [
+        "Both true and R explains A",
+        "Both true but R does not explain A",
+        "A true, R false",
+        "A false, R true"
+      ],
+      "correct": 1,
+      "explanation": "Peak seasons raise current-asset needs.\nCosts are paid before cash comes in.\nSo the reason explains the assertion."
+    }
+  ]
+}
