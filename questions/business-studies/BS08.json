@@ -1,0 +1,3009 @@
+{
+  "subject": "Business Studies",
+  "subject_code": "305",
+  "chapter_id": "BS08",
+  "chapter": "Controlling (Meaning, Importance, Relationship with Planning, Steps in Control Process)",
+  "total_questions": 200,
+  "questions": [
+    {
+      "id": "BS08Q01",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A retail company compares actual sales with target sales every month and then takes corrective action wherever needed. Which statement best explains the role of controlling in this situation?",
+      "options": [
+        "It replaces planning by setting sales targets after performance occurs",
+        "It measures actual performance against standards and helps ensure goal achievement",
+        "It only records past performance and has no link with future action",
+        "It is useful only for financial departments and not for sales"
+      ],
+      "correct": 1,
+      "explanation": "Controlling is the managerial function that compares actual performance with predetermined standards. In this case, sales results are checked against targets and deviations are corrected. This makes controlling a means of ensuring that plans are actually achieved. It is not limited to recording; it supports action and improvement."
+    },
+    {
+      "id": "BS08Q02",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is the most accurate meaning of controlling in management?",
+      "options": [
+        "Preparing budgets without checking results",
+        "Directing employees to work harder every day",
+        "Ensuring that activities conform to planned standards through measurement and correction",
+        "Changing organisational structure whenever profits decline"
+      ],
+      "correct": 2,
+      "explanation": "Controlling means ensuring that actual performance follows planned standards. It involves measuring work, finding deviations, and taking corrective action. The function is systematic and continuous. It is broader than simple supervision or issuing instructions."
+    },
+    {
+      "id": "BS08Q03",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A company sets a target of producing 10,000 units per month. At the end of the month, the production head compares actual output with the target. This comparison mainly reflects which step of controlling?",
+      "options": [
+        "Setting performance standards",
+        "Measurement of actual performance",
+        "Taking corrective action",
+        "Rewarding employees"
+      ],
+      "correct": 1,
+      "explanation": "The step described is measurement of actual performance because current output is being recorded and compared. Standards were already fixed earlier at 10,000 units. Corrective action may follow later if deviations are found. This shows one stage of the control process."
+    },
+    {
+      "id": "BS08Q04",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Why is controlling considered a forward-looking function even though it checks past performance?",
+      "options": [
+        "Because it ignores deviations and focuses only on records",
+        "Because it helps managers prevent future mistakes by correcting current deviations",
+        "Because it replaces planning in all organisations",
+        "Because it is performed only after a project is completed"
+      ],
+      "correct": 1,
+      "explanation": "Controlling is based on past and present performance, but its purpose is future improvement. By identifying deviations early, managers can prevent repetition of errors. This makes it forward-looking in impact, not in timing. It strengthens future decision-making and results."
+    },
+    {
+      "id": "BS08Q05",
+      "type": "statement_based",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following statements about controlling is correct?\n1. It is a continuous process.\n2. It is concerned only with employee discipline.\n3. It helps in achieving organisational goals.\n4. It is irrelevant in non-profit organisations.",
+      "options": [
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is continuous and supports goal achievement. It is not limited to discipline, and it is equally useful in non-profit organisations such as schools or hospitals. Statement 2 and 4 are incorrect. Therefore, only statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS08Q06",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A hotel sets a quality standard for room cleanliness, checks guest feedback daily, and trains staff whenever complaints rise. This example shows that controlling is important because it:",
+      "options": [
+        "eliminates the need for planning",
+        "helps in maintaining quality and correcting deviations",
+        "works only after annual accounts are prepared",
+        "is useful only when production is highly automated"
+      ],
+      "correct": 1,
+      "explanation": "The situation shows controlling as a tool for maintaining standards and improving quality. Guest feedback is used to detect deviations and training is used as corrective action. This reflects both importance and the steps of controlling. Controlling does not remove planning; it supports it."
+    },
+    {
+      "id": "BS08Q07",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A garment manufacturer planned to reduce rejection rate to 2%. Actual rejection rate became 5% due to poor stitching. The manager introduced machine maintenance and worker retraining. Which step of controlling is highlighted after the comparison of actual and planned results?",
+      "options": [
+        "Setting performance standards",
+        "Measurement of actual performance",
+        "Taking corrective action",
+        "Selecting the target market"
+      ],
+      "correct": 2,
+      "explanation": "The standard was already set at 2%, and actual performance was measured as 5%. After identifying the gap, the manager acted by maintaining machines and retraining workers. That is corrective action. This is a key step that makes controlling effective."
+    },
+    {
+      "id": "BS08Q08",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A firm establishes sales standards, measures results, and immediately changes its plans when market conditions change. Which relationship between planning and controlling is best shown here?",
+      "options": [
+        "Planning and controlling are unrelated functions",
+        "Controlling initiates planning and planning follows controlling",
+        "Planning sets the standards and controlling ensures those standards are achieved",
+        "Controlling is more important only after profits are earned"
+      ],
+      "correct": 2,
+      "explanation": "Planning provides the standards and objectives, while controlling checks whether the organisation moves toward them. The plans are adjusted when market conditions change, showing a close link. Controlling is based on planning standards. Together they form a continuous cycle."
+    },
+    {
+      "id": "BS08Q09",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider the following statements:\n1. Planning and controlling are mutually supportive.\n2. Controlling helps in revising plans when needed.\n3. Planning is effective even if no standards are set.\n4. Controlling starts only after all planning ends permanently.",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 4 only",
+        "1, 3 and 4 only"
+      ],
+      "correct": 0,
+      "explanation": "Planning and controlling support each other, and controlling provides feedback for plan revision. Standards are essential in planning, so statement 3 is incorrect. Controlling is continuous, not something that starts only after planning ends. Therefore, only statements 1 and 2 are correct."
+    },
+    {
+      "id": "BS08Q10",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT an importance of controlling?",
+      "options": [
+        "Helps achieve organisational goals",
+        "Ensures coordination in action",
+        "Creates standards for future performance without planning",
+        "Helps in identifying deviations"
+      ],
+      "correct": 2,
+      "explanation": "Controlling cannot create standards without planning because standards come from plans. Its importance includes goal achievement, coordination, and deviation detection. Therefore, the incorrect statement is the one that says it creates standards without planning. Controlling depends on planned targets."
+    },
+    {
+      "id": "BS08Q11",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A delivery company noticed that fuel consumption per route was higher than standard. Managers reviewed route sheets, compared actual fuel use with target, and then changed routes to reduce wastage. Which sequence of control steps is most accurate?",
+      "options": [
+        "Corrective action → setting standards → measurement",
+        "Setting standards → measurement of actual performance → corrective action",
+        "Measurement → planning → selecting employees",
+        "Planning → ordering → motivation"
+      ],
+      "correct": 1,
+      "explanation": "The company first had a route and fuel standard. It then measured actual fuel use against that standard. Finally, it changed routes as corrective action. This is the classical control sequence. The order matters because action comes after comparison."
+    },
+    {
+      "id": "BS08Q12",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which step in controlling involves deciding in advance what performance should be achieved?",
+      "options": [
+        "Measurement of actual performance",
+        "Setting performance standards",
+        "Comparing deviations",
+        "Taking corrective action"
+      ],
+      "correct": 1,
+      "explanation": "Setting performance standards means deciding the expected level of performance in advance. These standards may relate to quantity, quality, cost, or time. They become the benchmark for later comparison. Without standards, controlling cannot begin properly."
+    },
+    {
+      "id": "BS08Q13",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A school compared actual attendance with expected attendance and introduced parent meetings for classes with low presence. This is an example of controlling because it:",
+      "options": [
+        "only punishes poor attendance",
+        "supports goal achievement through comparison and follow-up action",
+        "eliminates the need for standards",
+        "works only in profit-making organisations"
+      ],
+      "correct": 1,
+      "explanation": "The school is comparing actual performance with a planned level and then acting to improve it. That is the essence of controlling. It supports attainment of goals through monitoring and correction. It is not limited to punishment or to profit organisations."
+    },
+    {
+      "id": "BS08Q14",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Controlling is a backward-looking as well as a forward-looking function.\nReason (R): It measures past performance, but the corrective action improves future results.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 0,
+      "explanation": "Controlling looks backward because it reviews past results, and forward because corrective action affects future performance. The reason correctly explains why controlling has both dimensions. The comparison of past with standard and the later correction of deviations link the two ideas. Hence both statements are true and related."
+    },
+    {
+      "id": "BS08Q15",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following best describes the relationship between planning and controlling?",
+      "options": [
+        "Planning is based on controlling results only after the year ends",
+        "Controlling provides standards and planning measures them",
+        "Planning sets goals and controlling checks whether those goals are achieved",
+        "They operate independently in different departments"
+      ],
+      "correct": 2,
+      "explanation": "Planning decides what the organisation wants to achieve, and controlling checks actual performance against those goals. This is the most accurate relationship. Planning precedes controlling in logic, while controlling provides feedback to planning. They are interconnected and continuous."
+    },
+    {
+      "id": "BS08Q16",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following statements are correct?\n1. Controlling helps in efficient use of resources.\n2. Controlling always prevents all deviations.\n3. Controlling provides feedback to managers.\n4. Controlling is useful only in large organisations.",
+      "options": [
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2 and 3 only",
+        "1, 3 and 4 only"
+      ],
+      "correct": 0,
+      "explanation": "Controlling helps ensure resources are used properly and gives valuable feedback. It cannot prevent all deviations, only detect and reduce them. It is useful in both small and large organisations. Hence statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS08Q17",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A software firm planned that each project milestone must be completed within 10 days. One team completed a milestone in 14 days because of repeated changes in code design. The manager analysed the delay, found weak version control, and introduced review checkpoints. Which option best identifies the control process used?",
+      "options": [
+        "Planning, implementation, and recruitment",
+        "Standard setting, measurement, comparison, and corrective action",
+        "Budgeting, staffing, and reporting",
+        "Supervision, delegation, and motivation"
+      ],
+      "correct": 1,
+      "explanation": "The milestone time of 10 days is the standard, and the actual time of 14 days is the performance measured. The gap is compared, and review checkpoints are introduced as corrective action. This is the full control process. The case clearly combines planning standards and controlling steps."
+    },
+    {
+      "id": "BS08Q18",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A firm says, 'Planning without controlling is incomplete.' Why is this statement considered correct?",
+      "options": [
+        "Because controlling replaces planning by itself",
+        "Because controlling ensures that plans are executed as intended",
+        "Because controlling is done before goals are decided",
+        "Because planning is only a legal requirement"
+      ],
+      "correct": 1,
+      "explanation": "Plans remain on paper unless their implementation is checked. Controlling ensures that actions match the plan and deviations are corrected. This makes planning effective rather than merely theoretical. Hence the statement is correct."
+    },
+    {
+      "id": "BS08Q19",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a step in the control process?",
+      "options": [
+        "Setting standards",
+        "Measurement of actual performance",
+        "Corrective action",
+        "Formulation of vision statement"
+      ],
+      "correct": 3,
+      "explanation": "The control process includes setting standards, measuring performance, comparing results, and taking corrective action. Formulation of vision statement is part of strategic direction, not the control process. Therefore, it is the odd one out. The other three are direct control steps."
+    },
+    {
+      "id": "BS08Q20",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is a major importance of controlling in a business enterprise?",
+      "options": [
+        "It eliminates the need for goal setting",
+        "It ensures that activities are in line with plans",
+        "It makes all employees perform identically",
+        "It guarantees profit in every period"
+      ],
+      "correct": 1,
+      "explanation": "Controlling keeps actual work aligned with the plan. It cannot guarantee profit or eliminate goal setting, because those belong to planning. It also cannot make all employees identical in performance. Its main role is alignment and correction."
+    },
+    {
+      "id": "BS08Q21",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A food processing company fixed a standard that wastage should not exceed 3%. During review, wastage was found at 6%. The manager investigated supply handling and adjusted storage procedures. What does this case show most clearly?",
+      "options": [
+        "Controlling works without standards",
+        "Planning is unnecessary when wastage is measured",
+        "The control process links standards, actual performance, and corrective action",
+        "Corrective action is taken before measurement"
+      ],
+      "correct": 2,
+      "explanation": "A standard of 3% wastage was fixed in advance. Actual wastage of 6% was then measured and compared. The manager acted by changing storage procedures. This sequence shows the complete control process and also its link with planning."
+    },
+    {
+      "id": "BS08Q22",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following statements:\n1. Standards in controlling must always be expressed only in monetary terms.\n2. Standards can be quantitative or qualitative.\n3. Comparing actual performance with standards is essential for identifying deviations.\n4. Corrective action is meaningful only after deviations are detected.",
+      "options": [
+        "2, 3 and 4 only",
+        "1 and 2 only",
+        "1, 3 and 4 only",
+        "2 and 4 only"
+      ],
+      "correct": 0,
+      "explanation": "Standards need not be only monetary; they may be expressed in time, quality, output, or customer satisfaction. Thus statement 1 is false. Statements 2, 3, and 4 are correct because they describe the control process accurately. Controlling becomes effective when deviations are found and corrected."
+    },
+    {
+      "id": "BS08Q23",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A manager reviews whether work completed matches the target schedule. This review is important mainly because controlling:",
+      "options": [
+        "removes the need for managerial planning",
+        "helps managers detect deviations in time",
+        "works only after losses occur",
+        "focuses on punishment rather than improvement"
+      ],
+      "correct": 1,
+      "explanation": "Reviewing work against schedule allows managers to detect deviations early. Early detection makes correction easier and cheaper. Controlling is therefore preventive and corrective. It is not designed merely for punishment."
+    },
+    {
+      "id": "BS08Q24",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling and planning are inseparable functions.\nReason (R): Planning provides the basis for standards, and controlling supplies feedback for modifying plans.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": 0,
+      "explanation": "Planning and controlling depend on each other. Plans create standards, while controlling checks results and gives feedback that may change the plan. This creates a continuous cycle. The reason correctly explains the assertion."
+    },
+    {
+      "id": "BS08Q25",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In the control process, what does 'deviation' mean?",
+      "options": [
+        "The approved plan of action",
+        "The difference between actual performance and standard performance",
+        "The final report submitted to management",
+        "A penalty imposed on employees"
+      ],
+      "correct": 1,
+      "explanation": "Deviation is the gap between actual performance and the standard set earlier. It can be positive or negative, depending on whether performance exceeds or falls short of the standard. Detecting deviation is central to controlling. It signals whether action is needed."
+    },
+    {
+      "id": "BS08Q26",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A transport company fixed a standard of delivering parcels within 24 hours. After receiving repeated complaints, it found that the delay was caused by route congestion during peak hours. The company shifted delivery timings and reduced delay. Which option best captures the importance of controlling in this case?",
+      "options": [
+        "It creates the customer complaints",
+        "It ensures that operations stay aligned with service standards and customer expectations",
+        "It removes the need for route planning",
+        "It replaces actual service delivery"
+      ],
+      "correct": 1,
+      "explanation": "The company used controlling to compare actual service with the delivery standard. This helped identify the cause of delay and correct it. As a result, service quality and customer satisfaction improved. The case shows controlling as a tool for alignment and improvement."
+    },
+    {
+      "id": "BS08Q27",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which step follows measurement of actual performance in the control process?",
+      "options": [
+        "Setting standards",
+        "Taking corrective action after comparison",
+        "Formulating the mission statement",
+        "Dividing work among departments"
+      ],
+      "correct": 1,
+      "explanation": "After actual performance is measured, it is compared with the standard. If deviations are found, corrective action is taken. This sequence ensures control is meaningful. Therefore, corrective action is the next logical step."
+    },
+    {
+      "id": "BS08Q28",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements about controlling are correct?\n1. It helps in efficient utilisation of resources.\n2. It is useful in both profit and non-profit organisations.\n3. It can be effective even without standards.\n4. It is a one-time activity.",
+      "options": [
+        "1 and 2 only",
+        "2 and 4 only",
+        "1, 2 and 3 only",
+        "1, 3 and 4 only"
+      ],
+      "correct": 0,
+      "explanation": "Controlling improves resource use and is relevant in all kinds of organisations. It cannot work without standards, because comparison becomes impossible. It is also continuous, not one-time. Therefore, only statements 1 and 2 are correct."
+    },
+    {
+      "id": "BS08Q29",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "When planning and controlling are closely linked, which outcome is most likely?",
+      "options": [
+        "Plans become impossible to revise",
+        "Managers receive useful feedback to improve decisions",
+        "Employees stop working independently",
+        "All deviations are eliminated permanently"
+      ],
+      "correct": 1,
+      "explanation": "The close relationship between planning and controlling allows managers to receive feedback about real performance. This helps them improve decisions and revise plans when required. It does not eliminate all deviations, but it supports better control. The main benefit is better managerial decision-making."
+    },
+    {
+      "id": "BS08Q30",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT an importance of controlling?",
+      "options": [
+        "Helps in improving performance",
+        "Helps in achieving organisational goals",
+        "Helps in detecting deviations",
+        "Helps in setting the organisation's objectives for the first time"
+      ],
+      "correct": 3,
+      "explanation": "Setting organisational objectives is part of planning, not controlling. Controlling helps achieve goals, improve performance, and detect deviations from standards. Therefore, the incorrect statement is the one about setting objectives for the first time. Controlling depends on previously set goals."
+    },
+    {
+      "id": "BS08Q31",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A factory fixed a standard output of 500 units per day. On review, actual output was 450 units. The production manager asked supervisors to inspect machine downtime and worker absenteeism. Which step of controlling is represented by the manager's review of 450 units against 500 units?",
+      "options": [
+        "Setting standards",
+        "Measurement of actual performance",
+        "Selecting the best employee",
+        "Reviewing future budgets"
+      ],
+      "correct": 1,
+      "explanation": "The manager is checking actual output, which is 450 units, against a standard of 500 units. That is measurement of actual performance. Once the difference is noticed, later steps like comparison and corrective action follow. It is a core stage in the control process."
+    },
+    {
+      "id": "BS08Q32",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is the first step in the controlling process?",
+      "options": [
+        "Measurement of actual performance",
+        "Taking corrective action",
+        "Setting performance standards",
+        "Comparing actual with standard"
+      ],
+      "correct": 2,
+      "explanation": "The control process begins with setting standards because without a benchmark there is nothing to compare performance with. After standards are set, actual results are measured and compared. Corrective action comes later. Hence standard-setting is the first step."
+    },
+    {
+      "id": "BS08Q33",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Controlling improves planning.\nReason (R): Feedback from controlling helps managers change future plans to make them more realistic.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Controlling gives feedback on what actually happened in the organisation. Managers use this feedback to improve future plans, making them more practical and realistic. Thus controlling strengthens planning. The reason correctly explains the assertion."
+    },
+    {
+      "id": "BS08Q34",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm noticed that production targets were being met but customer complaints were increasing. Which conclusion is most appropriate?",
+      "options": [
+        "Controlling is unnecessary because targets are met",
+        "Only financial control matters in business",
+        "Standards may need to include quality, not just quantity",
+        "Planning and controlling are independent functions"
+      ],
+      "correct": 2,
+      "explanation": "Meeting only quantity targets does not mean the control system is complete. Customer complaints suggest that quality standards may also be required. Controlling should therefore be broad enough to cover both output and quality. This reflects the link between planning standards and real business needs."
+    },
+    {
+      "id": "BS08Q35",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Choose the correct statements:\n1. Controlling helps in maintaining consistency of actions.\n2. Controlling always means reducing employee freedom.\n3. Controlling can reveal weaknesses in plans.\n4. Controlling and planning may need to be revised together.",
+      "options": [
+        "1, 3 and 4 only",
+        "2 and 3 only",
+        "1 and 2 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling promotes consistency, shows weaknesses in plans, and may lead to revision of both plans and actions. It does not necessarily reduce freedom; rather, it aligns freedom with standards. Therefore, statements 1, 3, and 4 are correct. Statement 2 is incorrect."
+    },
+    {
+      "id": "BS08Q36",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A catering firm planned that every meal delivery should reach customers within 30 minutes. During monitoring, it found frequent 45-minute delays. The manager then changed the packing arrangement, added an extra rider on busy days, and reviewed the route map. Which option best describes the controlling function shown?",
+      "options": [
+        "It is only a reporting function with no action",
+        "It combines checking performance, identifying deviation, and taking corrective action",
+        "It is a substitute for planning",
+        "It is relevant only after annual audits"
+      ],
+      "correct": 1,
+      "explanation": "The firm has a clear standard, has measured actual performance, found deviation, and taken corrective action. This is the essence of controlling. It is not merely reporting, and it is not a substitute for planning. The case shows the entire control cycle in action."
+    },
+    {
+      "id": "BS08Q37",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What does 'standard' mean in the control process?",
+      "options": [
+        "The final market share after sales",
+        "A benchmark used to judge actual performance",
+        "A punishment for employees who perform poorly",
+        "The same thing as actual performance"
+      ],
+      "correct": 1,
+      "explanation": "A standard is the benchmark set in advance against which actual performance is measured. It may relate to cost, quality, time, or output. Without a standard, controlling cannot detect whether performance is acceptable. Thus it is essential to the control process."
+    },
+    {
+      "id": "BS08Q38",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which is the best example of a qualitative standard in controlling?",
+      "options": [
+        "Producing 1,000 units per day",
+        "Keeping defect rate below 2%",
+        "Ensuring polite customer service",
+        "Reducing cost by ₹50,000"
+      ],
+      "correct": 2,
+      "explanation": "Qualitative standards deal with non-numerical aspects such as behaviour, service attitude, or satisfaction. Polite customer service is therefore qualitative. The other options are measurable in numerical terms and are quantitative. Both types of standards are useful in controlling."
+    },
+    {
+      "id": "BS08Q39",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a direct link between planning and controlling?",
+      "options": [
+        "Planning sets standards for controlling",
+        "Controlling provides feedback to planning",
+        "Controlling helps in revising plans",
+        "Controlling creates future goals before planning begins"
+      ],
+      "correct": 3,
+      "explanation": "Controlling depends on plans for standards and gives feedback for revision. It does not create future goals before planning begins. Goal-setting is a planning activity. Therefore, the incorrect link is the one that reverses the normal sequence."
+    },
+    {
+      "id": "BS08Q40",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "The control process becomes meaningless if which of the following is absent?",
+      "options": [
+        "Sales promotion",
+        "Performance standards",
+        "Employee training",
+        "Office design"
+      ],
+      "correct": 1,
+      "explanation": "Performance standards are the basis of control because actual performance must be compared with something. Without standards, deviations cannot be identified. Sales promotion, training, and office design may support business, but they are not essential to the control process itself. Standards are essential."
+    },
+    {
+      "id": "BS08Q41",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A factory determined that machine downtime should not exceed 4 hours per week. Actual downtime was 7 hours. The manager inspected maintenance logs and introduced preventive servicing. What does the case indicate about controlling and planning?",
+      "options": [
+        "Controlling works only after plans are abandoned",
+        "Planning creates the standard and controlling ensures it is followed",
+        "Controlling decides the initial target without planning",
+        "Planning and controlling cannot operate together"
+      ],
+      "correct": 1,
+      "explanation": "The target downtime of 4 hours is a planned standard. Actual downtime of 7 hours is then measured against it, and preventive servicing is the corrective step. This shows planning and controlling working together. The standard comes from planning, and control ensures compliance."
+    },
+    {
+      "id": "BS08Q42",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which of the following statements are correct?\n1. Controlling is only useful after a problem has become severe.\n2. Effective control helps reduce waste and cost.\n3. Controlling can improve coordination among departments.\n4. Control standards should always be rigid and never revised.",
+      "options": [
+        "2 and 3 only",
+        "1 and 4 only",
+        "1, 2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is useful before problems become severe because it detects deviations early. It reduces waste and supports coordination across departments. Standards may need revision when plans or conditions change. Hence only statements 2 and 3 are correct."
+    },
+    {
+      "id": "BS08Q43",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why is comparison between actual performance and standards necessary in controlling?",
+      "options": [
+        "To replace planning decisions",
+        "To find out whether actions are on track",
+        "To avoid measuring performance entirely",
+        "To increase the number of managers"
+      ],
+      "correct": 1,
+      "explanation": "Comparison tells managers whether actual work matches the planned target. It reveals deviations and helps decide whether corrective action is needed. Without comparison, standards would remain unused. It is therefore the central link in controlling."
+    },
+    {
+      "id": "BS08Q44",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling contributes to better planning in the future.\nReason (R): It highlights deviations and reveals whether the original plans were realistic.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is not only about current performance; it also improves future plans through feedback. When deviations are observed, managers learn whether the plans were too optimistic or weak. This makes future planning better. Therefore, the reason correctly explains the assertion."
+    },
+    {
+      "id": "BS08Q45",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following best describes 'corrective action' in controlling?",
+      "options": [
+        "Fixing the target before work begins",
+        "Changing activities to remove deviations from standards",
+        "Preparing the annual report",
+        "Appointing new employees without review"
+      ],
+      "correct": 1,
+      "explanation": "Corrective action means taking steps to remove or reduce the deviation detected in performance. It may involve changing procedures, training workers, or modifying resources. It comes after comparison. Its purpose is to bring actual performance back in line with standards."
+    },
+    {
+      "id": "BS08Q46",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A supermarket chain used customer waiting time as a performance standard. At one outlet, waiting time rose sharply because only one billing counter was functioning. The manager opened an extra counter during peak hours. Which statement best explains why controlling was useful here?",
+      "options": [
+        "It helped identify a deviation in service delivery and enabled quick correction",
+        "It removed the need to set customer service standards",
+        "It operated independently of planning",
+        "It was only useful after the outlet closed"
+      ],
+      "correct": 0,
+      "explanation": "The supermarket had a waiting-time standard and measured actual service against it. The increase in waiting time showed deviation, and opening an extra counter corrected the problem. This is controlling in action. It shows how control supports service quality and customer satisfaction."
+    },
+    {
+      "id": "BS08Q47",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is the main purpose of controlling in an organisation?",
+      "options": [
+        "To punish employees for every mistake",
+        "To ensure activities conform to planned standards",
+        "To avoid any change in the organisation",
+        "To make planning unnecessary"
+      ],
+      "correct": 1,
+      "explanation": "The core purpose of controlling is to ensure that organisational activities follow the predetermined standards. It helps managers know whether plans are working. It is not mainly for punishment, nor does it make change impossible. It actually helps the organisation adapt and improve."
+    },
+    {
+      "id": "BS08Q48",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following are true about the relationship between planning and controlling?\n1. Planning is the basis of controlling.\n2. Controlling may lead to modifications in planning.\n3. Controlling is possible without any standards.\n4. Both are essential for goal achievement.",
+      "options": [
+        "1, 2 and 4 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Planning provides standards and objectives, so controlling is based on planning. Controlling gives feedback that can modify planning. Standards are necessary, so statement 3 is false. Since both are needed for goal achievement, statements 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q49",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A firm changes its production process after control reports show frequent defects. This is an example of controlling's role in:",
+      "options": [
+        "eliminating standards",
+        "correcting deviations and improving efficiency",
+        "changing ownership structure",
+        "reducing the need for supervision"
+      ],
+      "correct": 1,
+      "explanation": "When defects are detected, changing the production process is a corrective response. This improves efficiency and helps match performance to standards. Controlling therefore supports quality improvement. It does not eliminate standards or ownership structure."
+    },
+    {
+      "id": "BS08Q50",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which is NOT part of the control process?",
+      "options": [
+        "Setting standards",
+        "Comparing results",
+        "Taking corrective action",
+        "Defining the organisation's broad mission"
+      ],
+      "correct": 3,
+      "explanation": "The control process consists of setting standards, measuring performance, comparing results, and taking corrective action. Defining the broad mission belongs to planning or strategic management. Therefore, it is not a step in controlling. The other three are direct control activities."
+    },
+    {
+      "id": "BS08Q51",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "An e-commerce company set a standard that 95% of orders should be dispatched within 24 hours. Monthly review showed only 88% met the standard. The manager identified delays in inventory picking and added a barcode-based tracking system. Which sequence best describes the control process used?",
+      "options": [
+        "Setting standards → measurement → comparison → corrective action",
+        "Measurement → setting standards → planning → staffing",
+        "Corrective action → measurement → comparison → standards",
+        "Planning → dispatching → supervision → accounting"
+      ],
+      "correct": 0,
+      "explanation": "The company first set the 24-hour dispatch standard. It then measured actual performance at 88%, compared it with the standard, and introduced a barcode system as corrective action. This matches the classic control process exactly. The case also shows how controlling supports faster execution."
+    },
+    {
+      "id": "BS08Q52",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why do managers use controlling to improve coordination?",
+      "options": [
+        "Because it makes departments work without goals",
+        "Because it aligns different activities with common standards",
+        "Because it removes the need for communication",
+        "Because it eliminates all departmental differences"
+      ],
+      "correct": 1,
+      "explanation": "Controlling creates common benchmarks and checks whether different departments are working toward them. This alignment improves coordination. It does not remove communication; it depends on it. The aim is shared direction, not uniformity in every task."
+    },
+    {
+      "id": "BS08Q53",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. A good control system should be flexible.\n2. Control standards should always remain unchanged.\n3. Control should focus on significant deviations.\n4. Controlling is unrelated to future planning.",
+      "options": [
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2 and 3 only",
+        "1, 3 and 4 only"
+      ],
+      "correct": 0,
+      "explanation": "A good control system must be flexible because plans and conditions may change. It should focus on significant deviations rather than every minor difference. Standards may need revision, and controlling is closely related to future planning. Thus only statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS08Q54",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What does the term 'actual performance' refer to in controlling?",
+      "options": [
+        "The performance desired by management",
+        "The standard fixed in planning",
+        "The performance actually achieved during execution",
+        "The corrective action taken after review"
+      ],
+      "correct": 2,
+      "explanation": "Actual performance is the performance that really occurs in practice. It is later compared with the standard. This comparison helps identify deviations. It is not the same as the target or the corrective action."
+    },
+    {
+      "id": "BS08Q55",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A pharmacy chain planned that each store should maintain customer service rating above 4.5 out of 5. One store scored 3.9. The manager reviewed staff behaviour and introduced customer-handling training. This case shows controlling is useful because it:",
+      "options": [
+        "prevents all customer complaints permanently",
+        "helps detect service gaps and improve performance",
+        "makes planning unnecessary",
+        "works only in manufacturing firms"
+      ],
+      "correct": 1,
+      "explanation": "The service rating standard was used to measure actual customer experience. Once the gap appeared, training was introduced as corrective action. This shows controlling detects service gaps and supports improvement. It is valuable in both service and manufacturing organisations."
+    },
+    {
+      "id": "BS08Q56",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is the main output of comparing actual performance with standards?",
+      "options": [
+        "Vision statement",
+        "Deviation",
+        "Market segmentation",
+        "Delegation"
+      ],
+      "correct": 1,
+      "explanation": "The comparison between actual and standard performance reveals deviation. Deviation shows whether performance is above or below target. It is the basis for corrective action. Without deviation analysis, controlling cannot guide improvement."
+    },
+    {
+      "id": "BS08Q57",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Controlling is necessary even when planning is good.\nReason (R): Good plans still need monitoring to ensure execution matches the intended standards.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Even the best plan can fail during implementation if not monitored. Controlling ensures that actual work stays aligned with the standards in the plan. This is why controlling remains necessary. The reason correctly explains the assertion."
+    },
+    {
+      "id": "BS08Q58",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which situation best shows the use of controlling for future improvement?",
+      "options": [
+        "A manager waits until the year ends to notice all errors",
+        "A manager identifies recurring delays and updates procedures for next month",
+        "A manager ignores deviations if sales are high",
+        "A manager uses only informal conversation and no standards"
+      ],
+      "correct": 1,
+      "explanation": "Updating procedures after identifying recurring delays shows learning from controlling. The purpose is not only to detect a current problem but also to improve future performance. This is how controlling helps the organisation grow. It converts feedback into better action."
+    },
+    {
+      "id": "BS08Q59",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are correct about the importance of controlling?\n1. It helps in achieving organisational efficiency.\n2. It helps in identifying weak areas.\n3. It has no role in decision-making.\n4. It supports better utilisation of resources.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling improves efficiency, identifies weaknesses, and supports resource utilisation. It also contributes to decision-making, so statement 3 is false. The correct set is 1, 2, and 4. These are central benefits of controlling."
+    },
+    {
+      "id": "BS08Q60",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a benefit of controlling?",
+      "options": [
+        "Ensures action according to plan",
+        "Helps in detecting deviations",
+        "Eliminates the need for standards",
+        "Improves coordination"
+      ],
+      "correct": 2,
+      "explanation": "Controlling depends on standards; it does not eliminate them. Its benefits include alignment of action with plans, detection of deviations, and improved coordination. So the incorrect option is the one claiming that standards are unnecessary. Standards are the foundation of control."
+    },
+    {
+      "id": "BS08Q61",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A clothing brand set a standard that stitched garments must have less than 1% defect rate. The actual defect rate rose to 4% after a new batch of workers joined. The manager checked training records, noticed inadequate induction, and corrected the issue. What does this case show about controlling?",
+      "options": [
+        "It is a one-time process done only after losses",
+        "It links performance standards with corrective learning",
+        "It replaces the need for human resource development",
+        "It is limited to financial figures only"
+      ],
+      "correct": 1,
+      "explanation": "The defect standard came from planning. Actual performance was measured and found to be worse after new workers joined. The manager then fixed the root cause through induction training. This shows controlling as a system of performance review and learning. It is not limited to financial numbers."
+    },
+    {
+      "id": "BS08Q62",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A manager says that controlling is useful because it reduces waste. Why is this statement valid?",
+      "options": [
+        "Because controlling changes the company mission",
+        "Because it identifies activities that deviate from standards and corrects them",
+        "Because it removes all employee judgement",
+        "Because it eliminates all need for budgets"
+      ],
+      "correct": 1,
+      "explanation": "Waste is often the result of deviations from standards. Controlling detects those deviations early and allows corrective action. This lowers waste of material, time, and effort. It supports efficient and disciplined use of resources."
+    },
+    {
+      "id": "BS08Q63",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which step of controlling occurs immediately after standards are set?",
+      "options": [
+        "Measurement of actual performance",
+        "Taking corrective action",
+        "Preparing the vision",
+        "Creating marketing strategy"
+      ],
+      "correct": 0,
+      "explanation": "Once standards are established, managers must measure actual performance. This allows later comparison. Measurement is the second stage of the control process. Corrective action comes only after deviations are identified."
+    },
+    {
+      "id": "BS08Q64",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are true?\n1. Standards should be realistic and attainable.\n2. Standards should be based on planning.\n3. Actual performance should always be ignored if standards are high.\n4. Controlling can reveal whether planning assumptions were correct.",
+      "options": [
+        "1, 2 and 4 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Good standards must be realistic and aligned with plans. Controlling can show whether planning assumptions were accurate. Actual performance should never be ignored. Therefore statements 1, 2, and 4 are correct, while 3 is false."
+    },
+    {
+      "id": "BS08Q65",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A courier firm noticed that weekend deliveries were slower than weekday deliveries. It introduced a separate weekend roster and route plan. Which aspect of controlling is most clearly reflected?",
+      "options": [
+        "Corrective action based on deviation analysis",
+        "Setting initial organisational objectives",
+        "Declaring dividends",
+        "Removing the planning function"
+      ],
+      "correct": 0,
+      "explanation": "The firm observed a difference between expected and actual delivery speed. After analysing the deviation, it changed the roster and route plan. This is corrective action. It shows how controlling helps improve performance after comparing results with standards."
+    },
+    {
+      "id": "BS08Q66",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is meant by 'performance standard'?",
+      "options": [
+        "The level of performance expected from employees or processes",
+        "The final profit of the year",
+        "The number of departments in the firm",
+        "A penalty imposed for poor work"
+      ],
+      "correct": 0,
+      "explanation": "A performance standard is the desired level of output or behaviour set in advance. It is used as a benchmark in controlling. Standards may relate to output, time, quality, or cost. They make comparison and correction possible."
+    },
+    {
+      "id": "BS08Q67",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "When a manager compares actual spending with budgeted spending, the manager is mainly performing which part of controlling?",
+      "options": [
+        "Setting standards",
+        "Measurement and comparison",
+        "Recruitment",
+        "Motivation"
+      ],
+      "correct": 1,
+      "explanation": "Budgeted spending is the standard, and actual spending is the result being checked. Measuring and comparing the two is a central part of controlling. The comparison reveals whether spending is on track. That is why this stage is essential."
+    },
+    {
+      "id": "BS08Q68",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling is a continuous process.\nReason (R): Standards, performance, and corrective action need regular review as conditions change.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Controlling does not stop after one review. Standards and conditions change, so performance must be reviewed regularly. This makes the process continuous. The reason accurately explains why controlling is ongoing."
+    },
+    {
+      "id": "BS08Q69",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a purpose of controlling?",
+      "options": [
+        "Ensuring standards are met",
+        "Finding deviations",
+        "Helping correct performance",
+        "Creating customer demand directly"
+      ],
+      "correct": 3,
+      "explanation": "Controlling focuses on performance, standards, deviations, and corrections. It does not directly create customer demand, which is the work of marketing and demand generation. Thus the incorrect option is customer demand creation. The other choices are valid purposes of controlling."
+    },
+    {
+      "id": "BS08Q70",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company planned to keep assembly-line idle time below 2%. The review found 5% idle time because materials were arriving late. The manager changed the supplier schedule and coordinated with stores. What does this case best illustrate?",
+      "options": [
+        "Only planning, not controlling",
+        "The relationship between controlling and coordination",
+        "The irrelevance of standards",
+        "The replacement of actual performance by estimates"
+      ],
+      "correct": 1,
+      "explanation": "The firm used a standard to detect deviation and then coordinated different departments to solve the issue. This shows controlling working together with coordination. The standard came from planning, while the manager's response was corrective. It is a strong example of practical control."
+    },
+    {
+      "id": "BS08Q71",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following statements are correct?\n1. Control standards should be clear and measurable.\n2. Control is useful only when performance is poor.\n3. Control helps in maintaining discipline.\n4. Control supports better use of time and resources.",
+      "options": [
+        "1, 3 and 4 only",
+        "2 and 3 only",
+        "1 and 2 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Good control standards need clarity and measurability so that comparison is meaningful. Controlling is useful even when performance is good because it helps maintain it. It supports discipline and efficient use of time and resources. Thus statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q72",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A manager notices that a project is behind schedule and immediately reassigns tasks. This action most directly relates to which reason controlling is important?",
+      "options": [
+        "It allows prompt correction of deviations",
+        "It eliminates planning errors forever",
+        "It ensures no deadlines are needed",
+        "It makes all projects identical"
+      ],
+      "correct": 0,
+      "explanation": "When a project falls behind, reassigning tasks is a corrective response. Controlling is important because it helps managers act promptly on deviations. This reduces delay and improves the chance of meeting goals. It does not eliminate all planning errors, but it controls their impact."
+    },
+    {
+      "id": "BS08Q73",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following best defines 'control process'?",
+      "options": [
+        "A set of steps used to compare actual performance with standards and correct deviations",
+        "A method of increasing sales only",
+        "A technique of hiring workers faster",
+        "A legal document for business registration"
+      ],
+      "correct": 0,
+      "explanation": "The control process is the systematic method of setting standards, measuring actual performance, comparing it with standards, and taking corrective action. It is not limited to sales or hiring. It is a managerial process used across the organisation. This makes it fundamental to controlling."
+    },
+    {
+      "id": "BS08Q74",
+      "type": "concept",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A business finds that its production standard is too lenient because actual output is consistently above target without extra effort. Which managerial inference is most reasonable?",
+      "options": [
+        "The standard may need revision upward",
+        "Controlling should stop because targets are exceeded",
+        "Planning and controlling should be separated",
+        "Actual performance should be ignored"
+      ],
+      "correct": 0,
+      "explanation": "If actual performance consistently exceeds the standard, the standard may be set too low. In such a case, controlling reveals that the plan may need revision. This shows that control results can improve planning. It does not mean controlling should stop."
+    },
+    {
+      "id": "BS08Q75",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A school had a standard that each lesson plan must be submitted two days before class. Several teachers submitted late. The principal reviewed the issue and set reminders through the academic coordinator. What does this case mainly demonstrate?",
+      "options": [
+        "Controlling in a non-business organisation",
+        "The irrelevance of standards in education",
+        "Planning without implementation",
+        "Only punishment, not correction"
+      ],
+      "correct": 0,
+      "explanation": "The school is a non-business organisation, but controlling still applies because standards are being checked and corrected. The principal used reminders to improve compliance. This shows the importance of controlling beyond business firms. It helps achieve institutional objectives in education as well."
+    },
+    {
+      "id": "BS08Q76",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Consider the following:\n1. Controlling helps in achieving discipline and regularity.\n2. Controlling can only be done after completion of the entire project.\n3. Standards may be set for both quantity and quality.\n4. Feedback from controlling can guide future plans.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling supports discipline and can use both quantity and quality standards. It is not limited to post-completion reviews; it is continuous. Feedback from control results helps in future planning. Thus statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q77",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is the best reason for establishing standards before work starts?",
+      "options": [
+        "To make performance comparison possible later",
+        "To stop employees from using judgement",
+        "To avoid the need for monitoring",
+        "To replace business objectives"
+      ],
+      "correct": 0,
+      "explanation": "Standards are needed in advance so that actual performance can be compared with them later. This is what makes controlling possible. Standards do not stop judgment or monitoring; they support them. They also do not replace business objectives, but are derived from them."
+    },
+    {
+      "id": "BS08Q78",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Controlling can help a firm survive in a competitive market.\nReason (R): It ensures that performance standards are met and mistakes are corrected early.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "In competitive markets, firms need consistent quality, efficiency, and timely action. Controlling helps achieve this by checking standards and correcting mistakes early. That improves performance and competitiveness. The reason correctly explains why the assertion is true."
+    },
+    {
+      "id": "BS08Q79",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is 'feedback' in relation to controlling?",
+      "options": [
+        "Information about actual performance used for future decisions",
+        "A punishment for missing deadlines",
+        "A target fixed before planning",
+        "The same as profit"
+      ],
+      "correct": 0,
+      "explanation": "Feedback is the information obtained from measuring and comparing actual performance with standards. Managers use it to make corrections and improve future plans. It is one of the key ways controlling supports decision-making. Feedback connects past performance with future action."
+    },
+    {
+      "id": "BS08Q80",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a proper role of controlling?",
+      "options": [
+        "Improving managerial effectiveness",
+        "Detecting deviations from standards",
+        "Replacing the need for goals",
+        "Helping in resource utilisation"
+      ],
+      "correct": 2,
+      "explanation": "Controlling cannot replace goals; it depends on goals and standards set through planning. It improves effectiveness, detects deviations, and supports resource utilisation. Therefore, the incorrect role is replacing the need for goals. Goals are the starting point, not the outcome, of controlling."
+    },
+    {
+      "id": "BS08Q81",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A logistics firm noticed that a route standard of 80 km per day was causing fuel waste because roads had become congested. After reviewing data, management revised the standard to 90 km and adjusted delivery plans. What does this case show about controlling and planning?",
+      "options": [
+        "Controlling and planning are rigid and never change",
+        "Controlling can reveal when old standards no longer suit reality",
+        "Planning should be done without considering results",
+        "Measurement is unnecessary if standards are revised"
+      ],
+      "correct": 1,
+      "explanation": "The original standard was set in planning, but changing conditions made it less realistic. Controlling revealed this through performance review, and the plan was revised. This shows how controlling feeds planning with useful feedback. It is a dynamic relationship, not a rigid one."
+    },
+    {
+      "id": "BS08Q82",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why is controlling necessary after planning has been done?",
+      "options": [
+        "Because plans are always wrong",
+        "Because plans must be implemented and checked in actual conditions",
+        "Because planning has no standards",
+        "Because controlling is a substitute for leadership"
+      ],
+      "correct": 1,
+      "explanation": "Planning gives direction, but actual work occurs in real conditions where deviations may happen. Controlling checks whether implementation matches the plan. It therefore turns planning into real results. Without controlling, a plan may remain only a document."
+    },
+    {
+      "id": "BS08Q83",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following statements are correct?\n1. Controlling helps in taking timely corrective action.\n2. Controlling is useful only for top managers.\n3. Control standards may be based on time, cost, or quality.\n4. Controlling and planning can influence each other.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling allows timely correction and can use several types of standards. It is useful at different managerial levels, not just top management. Planning and controlling influence one another continuously. Therefore statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q84",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A restaurant planned that each order should be served within 15 minutes. On busy days, customers waited longer, so the manager added a pre-preparation station. Which controlling step comes after the standard of 15 minutes is set?",
+      "options": [
+        "Measurement of actual performance",
+        "Selecting the target market",
+        "Issuing dividends",
+        "Preparing the mission statement"
+      ],
+      "correct": 0,
+      "explanation": "After setting the 15-minute standard, the restaurant must measure actual serving time. Only then can it know whether it is meeting the target. The added pre-preparation station is later corrective action. This is a practical example of the control sequence."
+    },
+    {
+      "id": "BS08Q85",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following best explains why controlling is linked with efficiency?",
+      "options": [
+        "It helps ensure proper use of inputs and reduces waste",
+        "It creates more departments in the firm",
+        "It removes the need for employee training",
+        "It prevents all competition"
+      ],
+      "correct": 0,
+      "explanation": "Controlling improves efficiency by ensuring that resources are used according to plan and wastage is reduced. When deviations are found, they can be corrected early. This leads to better output from given inputs. Hence controlling and efficiency are closely linked."
+    },
+    {
+      "id": "BS08Q86",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Control standards must be meaningful to managers.\nReason (R): Standards that are irrelevant or vague cannot help in measuring or correcting performance.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "For controlling to work, standards must be clear, relevant, and meaningful. If they are vague, managers cannot measure actual performance properly or decide corrective action. The reason explains why meaningful standards are essential. Therefore both statements are true and connected."
+    },
+    {
+      "id": "BS08Q87",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What does 'comparison' mean in controlling?",
+      "options": [
+        "Matching actual performance with standard performance",
+        "Setting new organisational policies",
+        "Promoting employees",
+        "Calculating market demand"
+      ],
+      "correct": 0,
+      "explanation": "Comparison is the stage where actual results are checked against the standards set earlier. This allows the manager to identify the gap, if any. It is a crucial link between measurement and corrective action. Without comparison, deviation cannot be identified."
+    },
+    {
+      "id": "BS08Q88",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company finds that its actual costs are lower than budgeted costs but quality has fallen. What does this indicate about controlling standards?",
+      "options": [
+        "Only cost standards should matter",
+        "Standards should cover both cost and quality",
+        "Budgeting is irrelevant in controlling",
+        "Planning and controlling are unrelated"
+      ],
+      "correct": 1,
+      "explanation": "Lower cost alone does not mean better performance if quality has fallen. This means a control system must consider both cost and quality standards. Controlling is effective when it balances multiple goals. This case shows why broad standards are important."
+    },
+    {
+      "id": "BS08Q89",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Controlling can uncover hidden problems in operations.\n2. Controlling always means centralised decision-making.\n3. Control reports provide useful managerial information.\n4. Deviations should be investigated before action is taken.",
+      "options": [
+        "1, 3 and 4 only",
+        "2 and 3 only",
+        "1 and 2 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling can reveal hidden operational issues, and control reports provide important information for managers. Deviations should indeed be investigated before action is taken so that correction addresses the real cause. Controlling does not always require centralised decision-making. Therefore statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q90",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a result of effective controlling?",
+      "options": [
+        "Better use of resources",
+        "Improved goal achievement",
+        "Reduced deviations",
+        "Guaranteed success in every situation"
+      ],
+      "correct": 3,
+      "explanation": "Effective controlling improves resource use, supports goals, and reduces deviations. However, it cannot guarantee success in every situation because external factors may still affect outcomes. Therefore the incorrect statement is the guarantee of success. Control improves the chances, not the certainty."
+    },
+    {
+      "id": "BS08Q91",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A manufacturing unit used a defect-free standard of 98% but discovered 92% during inspection. The analysis showed that raw materials from one supplier were inconsistent. The company changed suppliers and introduced incoming quality checks. Which part of controlling is most clearly demonstrated by this action?",
+      "options": [
+        "Setting standards",
+        "Measurement of performance",
+        "Corrective action based on cause analysis",
+        "Planning the product design"
+      ],
+      "correct": 2,
+      "explanation": "The company first identified the standard and measured actual performance. Then it traced the cause to the supplier and changed procurement procedures. This is corrective action based on cause analysis. It shows how controlling supports deeper operational improvement."
+    },
+    {
+      "id": "BS08Q92",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statement best reflects the importance of controlling in a dynamic business environment?",
+      "options": [
+        "It allows managers to ignore changing conditions",
+        "It helps managers respond to changes and keep performance on track",
+        "It keeps plans fixed regardless of results",
+        "It is useful only when markets are stable"
+      ],
+      "correct": 1,
+      "explanation": "Business environments change frequently, so managers need a system that shows whether performance is still aligned with plans. Controlling helps them respond to change through review and correction. It does not keep plans fixed blindly. It is especially valuable in dynamic conditions."
+    },
+    {
+      "id": "BS08Q93",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A control system should be future-oriented.\nReason (R): The real value of control lies in improving tomorrow's performance by correcting today's deviations.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Although controlling uses current and past data, its purpose is to improve future results. Correcting today's deviations helps tomorrow's performance. That makes the system future-oriented in effect. The reason correctly explains the assertion."
+    },
+    {
+      "id": "BS08Q94",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In the control process, what is meant by 'corrective action'?",
+      "options": [
+        "Taking steps to remove the cause of deviation",
+        "Setting annual sales target",
+        "Recording profits",
+        "Hiring a new accountant"
+      ],
+      "correct": 0,
+      "explanation": "Corrective action is taken after deviation is identified. Its purpose is to remove the cause of mismatch between actual and standard performance. It may include training, maintenance, restructuring, or process changes. It is the final and practical stage of controlling."
+    },
+    {
+      "id": "BS08Q95",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why is controlling especially important when a company operates multiple departments?",
+      "options": [
+        "Because it prevents all communication",
+        "Because it aligns diverse activities with overall goals",
+        "Because each department should work without targets",
+        "Because standards are unnecessary in large firms"
+      ],
+      "correct": 1,
+      "explanation": "Multiple departments can easily drift in different directions without control. Controlling aligns them with common goals and standards. This improves coordination and overall performance. The function becomes even more important as complexity rises."
+    },
+    {
+      "id": "BS08Q96",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are correct?\n1. Control standards can be used to evaluate performance.\n2. Actual performance data is irrelevant in controlling.\n3. Controlling helps in identifying inefficiencies.\n4. Controlling and planning are completely separate activities.",
+      "options": [
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Control standards are used as benchmarks to evaluate performance, and actual performance data is essential for the comparison. Controlling helps identify inefficiencies by showing deviations. Planning and controlling are closely linked, not separate. Therefore only statements 1 and 3 are correct."
+    },
+    {
+      "id": "BS08Q97",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A telecom company observed that call resolution time was longer than expected. It introduced a scripted response system and extra training. Which importance of controlling is best reflected here?",
+      "options": [
+        "Helping in correcting operational weaknesses",
+        "Creating new product lines",
+        "Replacing advertising",
+        "Removing the need for customer service"
+      ],
+      "correct": 0,
+      "explanation": "The company noticed a deviation in service time and responded with script and training. This is controlling helping to correct operational weaknesses. It improves service quality and customer satisfaction. The other options do not fit the case."
+    },
+    {
+      "id": "BS08Q98",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following comes first in the control process?",
+      "options": [
+        "Comparison",
+        "Corrective action",
+        "Setting standards",
+        "Measurement"
+      ],
+      "correct": 2,
+      "explanation": "Control begins by setting standards because there must be a benchmark to judge performance. Measurement and comparison follow. Corrective action comes after deviations are identified. Therefore, standard-setting is the first step."
+    },
+    {
+      "id": "BS08Q99",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Controlling is not merely fault-finding.\nReason (R): Its purpose is to improve performance by helping managers take corrective action and strengthen future plans.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is intended to improve performance, not simply to identify mistakes. It helps managers correct deviations and also provides feedback for better planning. This broader purpose makes the reason a good explanation of the assertion. Hence both are true."
+    },
+    {
+      "id": "BS08Q100",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a step in controlling?",
+      "options": [
+        "Setting standards",
+        "Measuring actual performance",
+        "Comparing actual with standard",
+        "Establishing the company slogan"
+      ],
+      "correct": 3,
+      "explanation": "The control process requires standards, measurement, comparison, and corrective action. Establishing a company slogan is not a control step; it belongs to branding or planning. Thus it is the correct 'NOT' option. The other three are core steps in controlling."
+    },
+    {
+      "id": "BS08Q101",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A chain of hospitals set standards for waiting time, cleanliness, and patient satisfaction. After comparing actual results, it found that waiting time was acceptable but cleanliness was below standard. The hospital increased inspection frequency and introduced extra housekeeping shifts. What does this case show about controlling?",
+      "options": [
+        "All standards must be financial",
+        "Different standards can be used for different aspects of performance",
+        "Planning and controlling cannot coexist in services",
+        "Corrective action is unnecessary when one area performs well"
+      ],
+      "correct": 1,
+      "explanation": "The hospital used multiple standards: time, quality, and satisfaction. This shows that control can cover different aspects of performance, not just one area. Even when waiting time was fine, cleanliness required correction. The case shows the practical breadth of controlling."
+    },
+    {
+      "id": "BS08Q102",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company uses control reports to decide whether a project should be accelerated or redesigned. This mainly shows controlling's role in:",
+      "options": [
+        "decision-making",
+        "recruitment",
+        "branding",
+        "product packaging"
+      ],
+      "correct": 0,
+      "explanation": "Control reports provide information that helps managers make decisions. If a project is delayed, they may accelerate or redesign it. This is a direct managerial use of controlling. It shows that control is not just recording but an input to action."
+    },
+    {
+      "id": "BS08Q103",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Controlling helps in maintaining organisational discipline.\n2. Controlling always reduces the need for managerial judgement.\n3. Control standards should be aligned with organisational goals.\n4. Controlling may require changes in plans and procedures.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 4 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling supports discipline, and standards should be derived from goals so that control is meaningful. It often leads to plan or procedure changes when deviations are found. It does not remove the need for managerial judgement; rather, it supports it. Therefore statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q104",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What does 'benchmark' mean in controlling?",
+      "options": [
+        "The standard set for comparison",
+        "The final profit statement",
+        "A department head",
+        "A type of corrective action"
+      ],
+      "correct": 0,
+      "explanation": "A benchmark is the standard or reference point used for comparison. In controlling, actual performance is judged against this benchmark. It may be expressed in quantity, quality, time, or cost. It is essential for detecting deviations."
+    },
+    {
+      "id": "BS08Q105",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why do organisations prefer timely control reports?",
+      "options": [
+        "Because they allow deviations to be ignored",
+        "Because they help managers correct issues before they become serious",
+        "Because they replace the planning process",
+        "Because they eliminate standards"
+      ],
+      "correct": 1,
+      "explanation": "Timely reports give managers quick information about performance. This allows deviations to be corrected early, which prevents bigger problems later. Timely control is therefore more effective than delayed control. It supports real-time improvement and better decisions."
+    },
+    {
+      "id": "BS08Q106",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling may lead to revision of plans.\nReason (R): Deviations from standards may show that the original assumptions in planning were unrealistic or incomplete.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "When control reveals persistent deviations, it may indicate weak assumptions or changed conditions. Managers then revise plans to make them more realistic. This demonstrates how controlling feeds planning. The reason correctly explains the assertion."
+    },
+    {
+      "id": "BS08Q107",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A packaging unit fixed a standard that each carton must weigh 2 kg. Inspection showed many cartons at 1.8 kg. The manager changed the filling process. Which step of control is directly involved in finding 1.8 kg cartons?",
+      "options": [
+        "Setting standards",
+        "Measurement of actual performance",
+        "Mission formulation",
+        "Allocation of capital"
+      ],
+      "correct": 1,
+      "explanation": "The act of checking the carton weight is measurement of actual performance. The standard of 2 kg was already established, and the later change in filling process is corrective action. Measurement is necessary before any comparison can be made. It is a key stage in controlling."
+    },
+    {
+      "id": "BS08Q108",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is most closely connected with the idea of 'deviation control'?",
+      "options": [
+        "Comparing actual results with standards",
+        "Advertising a product",
+        "Buying fixed assets",
+        "Setting company vision"
+      ],
+      "correct": 0,
+      "explanation": "Deviation control means finding the difference between actual and standard performance. This is done by comparison. The other options belong to different managerial activities. Therefore, comparison of actual results with standards is the correct answer."
+    },
+    {
+      "id": "BS08Q109",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following statements are correct?\n1. Controlling is connected with both efficiency and effectiveness.\n2. Control standards can be quantitative or qualitative.\n3. Controlling is independent of organisational goals.\n4. Corrective action is the final stage of controlling.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling improves both efficiency and effectiveness. Standards may be quantitative or qualitative. It is based on organisational goals, so statement 3 is false. Corrective action comes after deviations are identified, making it the final stage of the process. Hence 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q110",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a benefit of the relationship between planning and controlling?",
+      "options": [
+        "Helps detect performance gaps",
+        "Provides feedback for future plans",
+        "Helps achieve organisational goals",
+        "Makes standards unnecessary"
+      ],
+      "correct": 3,
+      "explanation": "Planning and controlling work together to detect gaps, improve future plans, and achieve goals. However, they do not make standards unnecessary; standards are essential. Therefore the incorrect statement is the one about standards being unnecessary. The other options are genuine benefits."
+    },
+    {
+      "id": "BS08Q111",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A retail chain planned a checkout standard of no more than 3 customers per queue. One outlet regularly had 8 customers waiting. The manager checked staff roster patterns, saw that peak-hour staffing was insufficient, and changed the shifts. Which statement best explains the control process used?",
+      "options": [
+        "The manager ignored the standard because queues are unavoidable",
+        "The manager measured actual performance, compared it with standard, and corrected staffing",
+        "The manager changed the mission statement instead of the process",
+        "The manager used planning only after the problem ended"
+      ],
+      "correct": 1,
+      "explanation": "The queue standard set the benchmark. The actual queue length was measured, the gap was identified, and staffing patterns were corrected. This shows the complete control process. It also demonstrates how controlling supports customer service and operational efficiency."
+    },
+    {
+      "id": "BS08Q112",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company discovers from control reports that the target was achieved only because employees worked overtime. What is the best managerial inference?",
+      "options": [
+        "The target is fully satisfactory without further review",
+        "The standard may need review if the achievement depended on excessive effort",
+        "Controlling has failed completely",
+        "Planning should be ignored in the future"
+      ],
+      "correct": 1,
+      "explanation": "Meeting the target through overtime may indicate that the standard is too demanding or that the process is inefficient. Control reports can reveal this hidden issue. Thus managers may need to review the standard or process. This shows controlling's role in deeper analysis."
+    },
+    {
+      "id": "BS08Q113",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which step in controlling involves taking action to correct performance after identifying deviations?",
+      "options": [
+        "Setting standards",
+        "Comparison",
+        "Measurement",
+        "Corrective action"
+      ],
+      "correct": 3,
+      "explanation": "Corrective action is the step where managers act to remove deviations. It may involve changing procedures, training, or resource allocation. This step ensures performance moves back toward the standard. It completes the control cycle."
+    },
+    {
+      "id": "BS08Q114",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Controlling is essential for coordination among departments.\nReason (R): It ensures that each department works within its own interests without reference to common goals.",
+      "options": [
+        "A is true, but R is false",
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are false",
+        "A is false, but R is true"
+      ],
+      "correct": 0,
+      "explanation": "Controlling helps departments align their efforts with organisational goals, which improves coordination. The reason is false because controlling does not encourage isolated departmental interests. Instead, it links departments to common standards and objectives. Thus A is true and R is false."
+    },
+    {
+      "id": "BS08Q115",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which is the best example of an internal standard used in controlling?",
+      "options": [
+        "Market demand for a product",
+        "Desired unit cost set by the firm",
+        "Government tax rate",
+        "Competitor's advertising budget"
+      ],
+      "correct": 1,
+      "explanation": "An internal standard is set within the organisation, such as desired unit cost. Market demand, tax rate, and competitor budget are external factors, not internal standards. The firm uses its own plans as benchmarks. That is why unit cost fits best."
+    },
+    {
+      "id": "BS08Q116",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Control standards should be linked to organisational objectives.\n2. Actual performance data must be collected systematically.\n3. Controlling can be effective without a comparison step.\n4. Feedback from control can improve future plans.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Standards must connect to goals to make control meaningful. Performance must be collected systematically for accurate analysis. Comparison is essential, so statement 3 is false. Feedback from controlling helps future planning, making statement 4 true. Therefore 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q117",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A publishing house planned that manuscripts should be edited within 5 days. Actual editing time was 8 days. The editor introduced a digital workflow tool. What is the main purpose of the digital workflow tool in this context?",
+      "options": [
+        "To change the company ownership",
+        "To correct the deviation and improve performance",
+        "To remove the need for standards",
+        "To make planning impossible"
+      ],
+      "correct": 1,
+      "explanation": "The digital workflow tool is a corrective measure introduced after a delay was found. Its purpose is to bring performance closer to the 5-day standard. This is the role of corrective action in controlling. It improves efficiency and output flow."
+    },
+    {
+      "id": "BS08Q118",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following best shows that controlling supports managerial decision-making?",
+      "options": [
+        "Managers use control data to decide future action",
+        "Managers stop using standards after control reports",
+        "Managers ignore deviations to avoid conflict",
+        "Managers set targets without reviewing them"
+      ],
+      "correct": 0,
+      "explanation": "Control data gives managers facts about actual performance and deviations. They use this information to decide future action and corrections. This makes controlling a basis for informed decision-making. The other options contradict the nature of controlling."
+    },
+    {
+      "id": "BS08Q119",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a part of planning and controlling relationship?",
+      "options": [
+        "Planning sets goals",
+        "Controlling measures results",
+        "Controlling gives feedback for plan revision",
+        "Controlling creates goals without any planning"
+      ],
+      "correct": 3,
+      "explanation": "Planning creates goals and standards, controlling measures results, and feedback from controlling may revise plans. Controlling does not create goals independently of planning. Therefore the incorrect statement is the one about controlling creating goals without planning. The relationship is cyclical and interdependent."
+    },
+    {
+      "id": "BS08Q120",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A training institute had a standard that 90% of students should score above 70 marks in mock tests. Only 60% achieved this. The institute identified weak revision habits and started weekly doubt-clearing sessions. Which control step is shown by identifying weak revision habits?",
+      "options": [
+        "Setting standards",
+        "Measurement of actual performance",
+        "Identifying cause of deviation",
+        "Declaring dividends"
+      ],
+      "correct": 2,
+      "explanation": "The institute first had a target and measured mock-test results. It then analysed why performance was low, discovering weak revision habits. That is identification of the cause of deviation. The later doubt-clearing sessions are corrective action based on that analysis."
+    },
+    {
+      "id": "BS08Q121",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Controlling is called an important management function mainly because it:",
+      "options": [
+        "eliminates the need for employee participation",
+        "ensures planned activities are actually carried out",
+        "sets market prices for goods",
+        "prepares legal documents"
+      ],
+      "correct": 1,
+      "explanation": "Controlling ensures that activities occur as planned and deviations are corrected. It is therefore a bridge between planning and actual performance. It does not set market prices or prepare legal documents. Its main concern is implementation and improvement."
+    },
+    {
+      "id": "BS08Q122",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are true?\n1. Controlling is useful in service organisations.\n2. Controlling has no role in small firms.\n3. Control standards can relate to customer satisfaction.\n4. Controlling can help maintain quality.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is important in service organisations because quality and customer satisfaction must be monitored. It is also useful in small firms. Standards can include customer satisfaction, and controlling helps maintain quality. Thus 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q123",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling helps in reducing future errors.\nReason (R): It identifies current deviations and helps managers take action before the same mistakes are repeated.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "By identifying deviations now, controlling helps managers stop mistakes from continuing into the future. This makes future errors less likely. The reason is therefore a good explanation of the assertion. It shows the preventive value of controlling."
+    },
+    {
+      "id": "BS08Q124",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A manager reviews whether actual machine output matches the planned output each week. This weekly review mainly represents controlling as a:",
+      "options": [
+        "one-time activity",
+        "continuous process",
+        "legal process",
+        "recruitment process"
+      ],
+      "correct": 1,
+      "explanation": "Weekly review shows that controlling is ongoing and repeated regularly. It is not a one-time activity. Continuous monitoring allows early detection of deviations. This is one of the key characteristics of controlling."
+    },
+    {
+      "id": "BS08Q125",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is 'planning' in relation to controlling?",
+      "options": [
+        "The process of setting goals and deciding actions in advance",
+        "The process of comparing actual performance with standards",
+        "The process of correcting deviations",
+        "The process of reporting only profits"
+      ],
+      "correct": 0,
+      "explanation": "Planning involves deciding goals, targets, and actions in advance. Controlling then uses those targets as standards for comparison. Planning and controlling work together. Without planning, controlling has no benchmark."
+    },
+    {
+      "id": "BS08Q126",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A warehouse set a standard that inventory should be rotated within 30 days. The actual rotation period became 45 days, causing spoilage. The manager introduced barcode alerts and stricter dispatch checks. Which answer best describes the management logic?",
+      "options": [
+        "The manager ignored planning because spoilage was unavoidable",
+        "The manager used controlling to detect deviation and preserve inventory quality",
+        "The manager set the standard after the spoilage occurred",
+        "The manager replaced controlling with advertising"
+      ],
+      "correct": 1,
+      "explanation": "The 30-day rotation target is a standard from planning. Actual rotation of 45 days showed a deviation, which led to corrective action through barcode alerts and checks. This preserved quality and reduced spoilage. The case is a direct application of controlling."
+    },
+    {
+      "id": "BS08Q127",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following statements are correct?\n1. Planning and controlling are interrelated.\n2. Controlling can help improve future planning.\n3. Control standards are created after every deviation only.\n4. Controlling ensures that resources are used as intended.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Planning and controlling are interrelated because each supports the other. Controlling provides feedback to improve planning and helps ensure intended resource use. Standards are not created only after deviations; they are set in advance. Hence statements 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q128",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a proper reason for controlling?",
+      "options": [
+        "To detect deviation",
+        "To improve efficiency",
+        "To ensure goals are achieved",
+        "To avoid setting any standards"
+      ],
+      "correct": 3,
+      "explanation": "Controlling depends on standards, so avoiding standards defeats its purpose. Detecting deviation, improving efficiency, and ensuring goal achievement are all valid reasons for controlling. Therefore, the incorrect option is avoiding standards. Control cannot operate without them."
+    },
+    {
+      "id": "BS08Q129",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which control step is primarily concerned with identifying the cause of a gap between performance and standard?",
+      "options": [
+        "Setting standards",
+        "Measurement of actual performance",
+        "Comparing and analysing deviations",
+        "Mission formulation"
+      ],
+      "correct": 2,
+      "explanation": "After performance is measured, managers compare it with the standard and analyse the reasons for any gap. This helps identify the cause of deviation. Cause analysis is essential before corrective action. It ensures the correction addresses the real issue."
+    },
+    {
+      "id": "BS08Q130",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A good control system should focus on key result areas.\nReason (R): Monitoring every tiny detail equally is always the best use of managerial time.",
+      "options": [
+        "A is true, but R is false",
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are false",
+        "A is false, but R is true"
+      ],
+      "correct": 0,
+      "explanation": "Managers should focus on key result areas because time and attention are limited. Monitoring every tiny detail equally is not efficient. Thus the assertion is true and the reason is false. Effective controlling concentrates on what matters most."
+    },
+    {
+      "id": "BS08Q131",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A call center expected that each customer call should be resolved in under 4 minutes. Data showed average resolution time of 6 minutes. The manager then revised scripts and authorised faster system access. Which step of controlling is represented by the 6-minute average?",
+      "options": [
+        "Standard setting",
+        "Measurement of actual performance",
+        "Corrective action",
+        "Delegation"
+      ],
+      "correct": 1,
+      "explanation": "The 6-minute average is the actual performance measured by the firm. It is compared with the 4-minute standard to find deviation. The revised scripts and system access are corrective actions. Measurement is therefore the step shown by the 6-minute figure."
+    },
+    {
+      "id": "BS08Q132",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is the relationship between standards and actual performance in controlling?",
+      "options": [
+        "Actual performance sets the standard first",
+        "Standards are used to judge actual performance",
+        "They are unrelated to each other",
+        "Actual performance always replaces the standard"
+      ],
+      "correct": 1,
+      "explanation": "Standards are the benchmarks against which actual performance is judged. This comparison helps identify deviations and guide correction. Actual performance does not set the standard first. The standard comes from planning and guides control."
+    },
+    {
+      "id": "BS08Q133",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Controlling may reveal training needs.\n2. Controlling is unrelated to employee development.\n3. Control can be used in quality management.\n4. Planning feedback from controlling can improve standards.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 4 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "When performance gaps are found, control can show where training is required. It is relevant to employee development and quality management. Feedback from control can improve future standards. Therefore statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q134",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why is corrective action considered essential in controlling?",
+      "options": [
+        "Because it prevents the need for standards",
+        "Because it converts control findings into improvement",
+        "Because it replaces actual performance data",
+        "Because it ends all future monitoring"
+      ],
+      "correct": 1,
+      "explanation": "Measurement and comparison alone do not improve anything. Corrective action turns the findings of control into actual improvement. It addresses the causes of deviation and helps restore performance. That is why it is essential to the process."
+    },
+    {
+      "id": "BS08Q135",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "In controlling, what does 'actual performance' mean?",
+      "options": [
+        "The expected result fixed in advance",
+        "The result actually achieved in reality",
+        "The action taken to fix mistakes",
+        "The standard measured in planning"
+      ],
+      "correct": 1,
+      "explanation": "Actual performance refers to the real result achieved during operations. It is the outcome that is later compared with the standard. This makes deviation visible. It is not the expected target or the corrective step."
+    },
+    {
+      "id": "BS08Q136",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A bookstore fixed a standard that 90% of new titles should be shelved within 24 hours. Actual shelving took 48 hours because staff were spending too long on manual entry. The manager installed a quicker digital entry system. What does the case best show?",
+      "options": [
+        "Planning without standards",
+        "Control helping to identify process bottlenecks and improve efficiency",
+        "The irrelevance of actual performance",
+        "The removal of all employee responsibility"
+      ],
+      "correct": 1,
+      "explanation": "The standard was set in advance and actual performance was measured as slower than expected. The manager identified the bottleneck and introduced a digital system to improve speed. This shows controlling helping to identify inefficiencies and improve the process. It is a practical link between planning and corrective action."
+    },
+    {
+      "id": "BS08Q137",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT an example of a performance standard?",
+      "options": [
+        "500 units per day",
+        "Less than 2% defect rate",
+        "Customer satisfaction rating above 4.5",
+        "CEO's personal opinion without a target"
+      ],
+      "correct": 3,
+      "explanation": "A performance standard should be specific and measurable or at least clearly defined. A CEO's personal opinion without a target is not a standard because it cannot be used for systematic comparison. The other options are valid standards. They help in objective control."
+    },
+    {
+      "id": "BS08Q138",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling can help reduce employee frustration.\nReason (R): Clear standards and timely feedback reduce confusion and make expectations more transparent.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "When employees know the standards and receive timely feedback, expectations become clear. This reduces confusion and can lower frustration. Controlling therefore supports a more transparent work environment. The reason correctly explains the assertion."
+    },
+    {
+      "id": "BS08Q139",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is the best example of non-financial control standard?",
+      "options": [
+        "Profit margin",
+        "Credit sales value",
+        "Customer complaint response time",
+        "Annual turnover"
+      ],
+      "correct": 2,
+      "explanation": "Customer complaint response time is a non-financial standard because it measures service speed rather than money. The other options are financial in nature. Control systems often need both kinds of standards. Non-financial measures are especially important in service businesses."
+    },
+    {
+      "id": "BS08Q140",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following statements are correct?\n1. Controlling ensures that operations remain goal-oriented.\n2. Controlling is the same as planning.\n3. Controlling supports continuous improvement.\n4. Controlling can be used to monitor quality and cost.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 4 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling keeps operations aligned with goals and supports continuous improvement through feedback and correction. It is not the same as planning, though both are closely linked. Control can monitor both quality and cost. Therefore statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q141",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A courier company checks whether every parcel reaches the correct city and then investigates delays in sorting if targets are missed. Which step of controlling is represented by investigating delays in sorting?",
+      "options": [
+        "Setting standards",
+        "Analysing deviations and deciding corrective action",
+        "Selecting a business location",
+        "Hiring more accountants"
+      ],
+      "correct": 1,
+      "explanation": "Investigating delays means looking at the cause of the deviation after the comparison has shown that delivery targets are not met. This analysis leads to corrective action. It is a key part of the control process. It helps solve the real operational problem."
+    },
+    {
+      "id": "BS08Q142",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is the most likely result of comparing actual results with performance standards?",
+      "options": [
+        "Deviation analysis",
+        "Market expansion",
+        "Ownership transfer",
+        "Product pricing"
+      ],
+      "correct": 0,
+      "explanation": "Comparing actual performance with standards shows the difference between the two, which is called deviation analysis. This is fundamental to controlling. It helps managers decide if correction is needed. The other options belong to different business functions."
+    },
+    {
+      "id": "BS08Q143",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Control standards should be derived from plans.\nReason (R): Plans specify objectives and standards must reflect those objectives to be useful.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Standards are meaningful only when they are linked to the objectives set in planning. That is why they are derived from plans. The reason gives the logic behind the assertion. Both statements are true and the reason explains the assertion well."
+    },
+    {
+      "id": "BS08Q144",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a feature of controlling?",
+      "options": [
+        "Continuous process",
+        "Future-oriented through feedback",
+        "Depends on standards",
+        "Independent of performance measurement"
+      ],
+      "correct": 3,
+      "explanation": "Controlling is continuous, uses standards, and becomes future-oriented through feedback. It absolutely depends on performance measurement because without measurement, comparison is impossible. Therefore the incorrect feature is independence from measurement. That would make control ineffective."
+    },
+    {
+      "id": "BS08Q145",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A store notices that cash shortages are recurring. After checking control records, it installs a daily cash-count procedure. This best shows controlling's role in:",
+      "options": [
+        "creating brand identity",
+        "preventing repeated errors through better procedures",
+        "setting market prices",
+        "changing the company's legal form"
+      ],
+      "correct": 1,
+      "explanation": "Recurring cash shortages indicate a deviation. The daily cash-count procedure is a corrective measure designed to prevent repetition. This is how controlling supports better procedures and internal discipline. It is a direct response to control findings."
+    },
+    {
+      "id": "BS08Q146",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Controlling can help in identifying cause-and-effect relationships in performance.\n2. Controlling should ignore minor deviations regardless of their impact.\n3. Control measures should be linked to the nature of activities.\n4. Feedback from control may lead to plan revision.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling helps managers understand what causes performance gaps and what corrective action is needed. It should not ignore every minor deviation if it has serious implications. Control measures should suit the activity being controlled. Feedback may also revise plans. Therefore statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": "BS08Q147",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A chain of gyms set standards for equipment maintenance and member satisfaction. Actual reviews showed frequent equipment breakdowns despite high membership growth. The manager introduced fixed maintenance schedules. Which option best reflects the relationship between planning and controlling here?",
+      "options": [
+        "Growth removes the need for maintenance plans",
+        "Planning establishes maintenance standards and controlling checks whether they are followed",
+        "Controlling is only useful for membership numbers",
+        "Planning should be abandoned when satisfaction falls"
+      ],
+      "correct": 1,
+      "explanation": "The gym had planned standards for maintenance and satisfaction. Controlling revealed that actual performance was below standard, even though membership grew. Introducing fixed maintenance schedules was corrective action. This shows planning and controlling working together to sustain quality."
+    },
+    {
+      "id": "BS08Q148",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which step of controlling is focused on finding whether performance is above, below, or equal to the standard?",
+      "options": [
+        "Measurement of actual performance",
+        "Comparison",
+        "Planning",
+        "Recruitment"
+      ],
+      "correct": 1,
+      "explanation": "Comparison is the step where actual performance is matched against the standard to see the difference. It reveals whether performance is better, worse, or equal. This is what identifies deviation. It is an essential step in the control process."
+    },
+    {
+      "id": "BS08Q149",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A manager says, 'A good plan must include a way to check whether it is working.' This statement most directly points to the role of controlling in:",
+      "options": [
+        "branding",
+        "planning support",
+        "capital budgeting only",
+        "product design only"
+      ],
+      "correct": 1,
+      "explanation": "A plan needs standards and checkpoints to know whether it is actually working. That is why controlling supports planning. The manager's statement highlights the interdependence of the two functions. It is not limited to branding or product design."
+    },
+    {
+      "id": "BS08Q150",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a reason for the importance of controlling?",
+      "options": [
+        "Helps in correcting deviations",
+        "Ensures goal accomplishment",
+        "Improves efficiency",
+        "Creates goals without planning"
+      ],
+      "correct": 3,
+      "explanation": "Controlling does not create goals; that is part of planning. Its importance lies in correcting deviations, achieving goals, and improving efficiency. Therefore the incorrect option is the one about creating goals without planning. Control depends on existing goals."
+    },
+    {
+      "id": "BS08Q151",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A school planned that each class should finish syllabus coverage by 15 February. A review showed many classes were behind schedule because of frequent teacher absences. The principal arranged backup classes and attendance monitoring. What is the most accurate conclusion?",
+      "options": [
+        "Controlling is not relevant in schools",
+        "The school used controlling to support timely syllabus completion",
+        "Planning was unnecessary because backups were arranged",
+        "Attendance monitoring is unrelated to goals"
+      ],
+      "correct": 1,
+      "explanation": "The school had a syllabus completion standard, measured progress, found delays, and then introduced backup classes and attendance monitoring. This is controlling in an educational setting. It supports the timely achievement of goals. It also shows that controlling is useful beyond business firms."
+    },
+    {
+      "id": "BS08Q152",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following statements are correct?\n1. Controlling helps in maintaining quality.\n2. Controlling is based on comparison of actual and standard performance.\n3. Controlling is useful only in manufacturing.\n4. Controlling can lead to revised actions and procedures.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is important for maintaining quality, and comparison of actual with standard is central to it. It is useful in all kinds of organisations, not only manufacturing. It can also lead to revised actions and procedures. So statements 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q153",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling is a remedial function.\nReason (R): It helps managers remove problems detected during performance review.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is remedial because it is used to correct problems discovered during review. The manager uses it to remove the causes of deviation. The reason directly explains the assertion. Therefore both are true and connected."
+    },
+    {
+      "id": "BS08Q154",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What does 'standard performance' mean?",
+      "options": [
+        "The level of performance planned in advance",
+        "The performance achieved after correction",
+        "The lowest possible performance",
+        "The same as actual performance"
+      ],
+      "correct": 0,
+      "explanation": "Standard performance is the planned target or benchmark set in advance. It is used to assess actual performance. It may be expressed in units, time, quality, or cost. It is the reference point in controlling."
+    },
+    {
+      "id": "BS08Q155",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company uses a dashboard that shows actual performance against targets every day. This daily monitoring most directly helps in:",
+      "options": [
+        "quick corrective action",
+        "eliminating the planning process",
+        "creating only annual reports",
+        "changing the firm name"
+      ],
+      "correct": 0,
+      "explanation": "A dashboard that displays actual versus target performance allows managers to notice deviations quickly. This makes quick corrective action possible. It is a modern way of strengthening controlling. It supports continuous improvement and speed of response."
+    },
+    {
+      "id": "BS08Q156",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A manufacturing plant found that quality complaints rose after a new machine was installed. The manager compared defect data before and after installation and then adjusted the machine settings. Which step of controlling is shown by comparing defect data before and after installation?",
+      "options": [
+        "Setting standards",
+        "Measurement and analysis of actual performance",
+        "Recruitment",
+        "Mission development"
+      ],
+      "correct": 1,
+      "explanation": "Comparing defect data is part of measuring and analysing actual performance. It helps identify whether the new machine caused a deviation. After analysis, the machine settings are adjusted as corrective action. This is a practical use of controlling."
+    },
+    {
+      "id": "BS08Q157",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. A control system should be economical.\n2. A control system should be rigid to work well.\n3. A control system should be simple to understand.\n4. A control system should help in achieving objectives.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "An effective control system should not cost more than its benefits, should be easy to understand, and should help achieve objectives. It should not be rigid; flexibility is important. Therefore statements 1, 3, and 4 are correct. Statement 2 is false."
+    },
+    {
+      "id": "BS08Q158",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why does controlling improve efficiency in an organisation?",
+      "options": [
+        "Because it stops all future plans",
+        "Because it reduces misuse of resources through monitoring and correction",
+        "Because it eliminates customer needs",
+        "Because it replaces production with reports"
+      ],
+      "correct": 1,
+      "explanation": "Controlling checks how resources are being used and corrects wastage or misuse. This improves efficiency because more output can be achieved from the same resources. It does not stop planning or production. Its value lies in monitoring and correction."
+    },
+    {
+      "id": "BS08Q159",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT an example of controlling in daily business practice?",
+      "options": [
+        "Checking stock levels",
+        "Comparing monthly sales with target",
+        "Correcting delay in delivery",
+        "Announcing a company's long-term vision"
+      ],
+      "correct": 3,
+      "explanation": "Stock checks, sales comparisons, and delivery corrections are all parts of control activity. Announcing a long-term vision is related to planning or strategic direction, not controlling. Therefore it is the correct NOT-type answer. Control deals with performance against standards."
+    },
+    {
+      "id": "BS08Q160",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Controlling helps prevent repetition of mistakes.\nReason (R): Corrective action changes the process or behaviour that caused the deviation.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "When corrective action changes the root cause of the deviation, the same mistake is less likely to happen again. This is why controlling prevents repetition of errors. The reason explains the assertion well. Both are true and linked."
+    },
+    {
+      "id": "BS08Q161",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company planned to finish software testing in 12 days. The actual testing time was 18 days because bug reports were not prioritised. The project manager introduced a severity-based ticket system. Which option best describes the significance of controlling here?",
+      "options": [
+        "It shows that controlling supports timely project completion",
+        "It proves planning should not set deadlines",
+        "It makes standards irrelevant",
+        "It is only useful after the project ends"
+      ],
+      "correct": 0,
+      "explanation": "The firm had a planned deadline and actual performance was delayed. The manager identified the cause and introduced a better process. This shows controlling helps projects finish on time by revealing and fixing bottlenecks. It strengthens both execution and planning discipline."
+    },
+    {
+      "id": "BS08Q162",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is the role of a 'standard' in the control process?",
+      "options": [
+        "To act as a benchmark for evaluation",
+        "To replace actual performance",
+        "To describe the final profit only",
+        "To serve as employee punishment"
+      ],
+      "correct": 0,
+      "explanation": "A standard acts as the benchmark against which actual performance is measured. It is essential for identifying deviations. It can relate to many performance dimensions. It is not a punishment or a replacement for actual performance."
+    },
+    {
+      "id": "BS08Q163",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are correct?\n1. Control reports can help managers make informed decisions.\n2. Controlling is a substitute for planning.\n3. Control should focus only on major deviations.\n4. Controlling can support long-term improvement.",
+      "options": [
+        "1 and 4 only",
+        "2 and 3 only",
+        "1, 2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Control reports provide useful information for decision-making and long-term improvement. Controlling is not a substitute for planning; it supports it. While major deviations are prioritised, control is not limited only to them. Therefore statements 1 and 4 are correct."
+    },
+    {
+      "id": "BS08Q164",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following best shows the planning-controlling cycle?",
+      "options": [
+        "Setting targets, monitoring results, and revising targets if needed",
+        "Hiring employees, paying salaries, and opening a branch",
+        "Advertising a product, changing the logo, and printing brochures",
+        "Purchasing stock, storing goods, and delivering invoices"
+      ],
+      "correct": 0,
+      "explanation": "The planning-controlling cycle begins with setting targets, continues with monitoring actual results, and ends with revising targets or actions when needed. This sequence shows how planning and controlling support each other. The other options describe business activities but not the cycle. The first option fits best."
+    },
+    {
+      "id": "BS08Q165",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A bakery fixed a standard that every batch should be ready by 7 a.m. Actual batches were often late due to oven temperature problems. The manager installed a pre-heating schedule and checked ovens earlier. Which importance of controlling is shown here?",
+      "options": [
+        "It helps in identifying operational issues and improving efficiency",
+        "It makes planning unnecessary",
+        "It is useful only after customer complaints disappear",
+        "It eliminates the need for quality standards"
+      ],
+      "correct": 0,
+      "explanation": "The bakery used controlling to detect a production issue affecting timeliness. By correcting oven procedures, it improved efficiency and reliability. This shows how control identifies problems and supports better operations. The standard remains necessary throughout."
+    },
+    {
+      "id": "BS08Q166",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is a direct outcome of the control process?",
+      "options": [
+        "Deviation detection",
+        "Market research",
+        "Product naming",
+        "Trademark registration"
+      ],
+      "correct": 0,
+      "explanation": "The control process directly leads to detection of deviation by comparing actual performance with standards. This helps managers know where action is needed. Market research and product naming are separate functions. Deviation detection is central to controlling."
+    },
+    {
+      "id": "BS08Q167",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling is useful even when performance is above target.\nReason (R): Exceeding targets may reveal that standards are too low or resources are being used inefficiently.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is not only about poor performance; it also helps when results exceed standards. Excess performance may mean the standard is too low or the process needs revision. Thus the reason explains why above-target performance still needs review. Both statements are true."
+    },
+    {
+      "id": "BS08Q168",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a characteristic of good control standards?",
+      "options": [
+        "Clear",
+        "Realistic",
+        "Flexible",
+        "Completely unrelated to objectives"
+      ],
+      "correct": 3,
+      "explanation": "Good standards should be clear, realistic, and flexible enough to adapt to changing conditions. They must also be linked to organisational objectives. A standard unrelated to objectives would not help controlling. Therefore the incorrect characteristic is being unrelated to objectives."
+    },
+    {
+      "id": "BS08Q169",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Controlling helps in spotting weak areas.\n2. Controlling can provide a basis for employee training.\n3. Controlling eliminates the need for supervision.\n4. Controlling and planning together support objective achievement.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling reveals weak areas and can show where training is needed. It does not eliminate supervision, but it complements it. Planning and controlling together help achieve objectives. Therefore statements 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q170",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A university set a standard that research submissions should be checked for plagiarism within 3 days. Actual checking took 7 days because review work was not distributed properly. The dean reallocated reviewers and created a tracking sheet. Which conclusion is best supported?",
+      "options": [
+        "Controlling is only for commercial organisations",
+        "Control feedback can improve work distribution and process speed",
+        "Planning is unnecessary when deadlines are set",
+        "Standards should be avoided in academic work"
+      ],
+      "correct": 1,
+      "explanation": "The university used a standard, measured actual checking time, found a delay, and corrected work distribution. This is controlling improving workflow and speed through feedback. It shows that controlling is valuable in academic settings too. Standards are essential for such a system."
+    },
+    {
+      "id": "BS08Q171",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why are control standards often described as the foundation of the control process?",
+      "options": [
+        "Because they are used to compare actual results and identify deviations",
+        "Because they are the final step after corrective action",
+        "Because they replace all managerial functions",
+        "Because they are created after performance ends"
+      ],
+      "correct": 0,
+      "explanation": "Control standards are the foundation because they provide the benchmark for judging actual performance. Without them, comparison and deviation analysis are impossible. They are set before measurement and correction. Hence they are the basis of the whole process."
+    },
+    {
+      "id": "BS08Q172",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are correct?\n1. Controlling is related to both quantity and quality.\n2. Controlling can help in maintaining consistency.\n3. Controlling is irrelevant if the plan is good.\n4. Controlling may require immediate corrective action.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling can cover both quantity and quality standards. It helps maintain consistency and may require immediate corrective action when deviations are large. A good plan still needs control to ensure implementation. Therefore statements 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q173",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What does 'continuous process' mean in controlling?",
+      "options": [
+        "It is done only once a year",
+        "It is repeated regularly throughout operations",
+        "It happens only when profits fall",
+        "It is performed only by auditors"
+      ],
+      "correct": 1,
+      "explanation": "A continuous process is one that occurs regularly, not just once. In controlling, performance is reviewed again and again so deviations can be corrected early. This makes control an ongoing management activity. It is not limited to annual audits."
+    },
+    {
+      "id": "BS08Q174",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A warehouse found that the number of damaged items increased when forklifts were overloaded. The supervisor limited each load and provided handling training. Which importance of controlling is mainly shown?",
+      "options": [
+        "Helping in identifying the cause of damage and improving handling",
+        "Creating new product designs",
+        "Replacing inventory systems",
+        "Eliminating the need for loading standards"
+      ],
+      "correct": 0,
+      "explanation": "The warehouse used control information to find the cause of damage and then corrected handling procedures. This improves operations and reduces losses. It shows controlling's role in identifying causes and improving performance. Standards remain necessary."
+    },
+    {
+      "id": "BS08Q175",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Controlling improves the use of time.\nReason (R): It detects delays and helps managers take timely corrective action.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Controlling helps identify delays in activities and gives managers the chance to correct them quickly. This improves time management and punctuality. The reason directly explains the assertion. Both statements are true and linked."
+    },
+    {
+      "id": "BS08Q176",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a proper use of feedback in controlling?",
+      "options": [
+        "Improving future plans",
+        "Correcting deviations",
+        "Learning from performance",
+        "Ignoring actual results completely"
+      ],
+      "correct": 3,
+      "explanation": "Feedback is useful because it helps managers learn from actual performance, correct deviations, and improve future plans. Ignoring actual results completely would make controlling ineffective. Therefore the incorrect option is ignoring actual results. Feedback is valuable information, not something to discard."
+    },
+    {
+      "id": "BS08Q177",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following best reflects a control standard in terms of time?",
+      "options": [
+        "Workers should maintain a polite tone",
+        "Every order must be packed within 10 minutes",
+        "Defect rate should be below 2%",
+        "The company should remain innovative"
+      ],
+      "correct": 1,
+      "explanation": "A time standard sets a limit for how long an activity should take. Packing each order within 10 minutes is a time-based standard. The other options refer to quality or general behaviour. Time standards are common in operations and services."
+    },
+    {
+      "id": "BS08Q178",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Control helps in detecting whether plans are being followed.\n2. Control systems should be adaptable to changing conditions.\n3. Control should never lead to plan revision.\n4. Control can improve both efficiency and effectiveness.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling checks whether plans are being followed and should be flexible enough to adapt to change. It may lead to plan revision when conditions change or deviations persist. It also improves both efficiency and effectiveness. Therefore statements 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q179",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "An online education company set a standard that assignment feedback should be given within 48 hours. Actual feedback often took 72 hours. The manager introduced a rotating review team and automated reminders. Which conclusion best fits the case?",
+      "options": [
+        "Control standards are irrelevant in digital services",
+        "Controlling helps improve service delivery through system changes",
+        "Planning must always be replaced by technology",
+        "Corrective action is unnecessary once a target is missed"
+      ],
+      "correct": 1,
+      "explanation": "The company had a clear service standard and measured actual delivery against it. The delay showed a deviation, which was corrected with a review team and reminders. This demonstrates controlling improving service delivery. It also shows how technology can support control."
+    },
+    {
+      "id": "BS08Q180",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is 'performance comparison' in controlling?",
+      "options": [
+        "The act of comparing actual results with standards",
+        "The act of setting new prices",
+        "The act of increasing investment",
+        "The act of writing a mission statement"
+      ],
+      "correct": 0,
+      "explanation": "Performance comparison is the process of matching actual performance with predetermined standards. It reveals whether work is on target. This comparison is necessary before corrective action can be taken. It is one of the central control steps."
+    },
+    {
+      "id": "BS08Q181",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Why can controlling be said to reduce uncertainty for managers?",
+      "options": [
+        "Because it removes all external changes",
+        "Because it gives information on actual performance and deviations",
+        "Because it makes future plans unnecessary",
+        "Because it eliminates customer expectations"
+      ],
+      "correct": 1,
+      "explanation": "Controlling provides managers with facts about what is actually happening. This reduces uncertainty because they know where performance is deviating and where action is needed. It does not remove external changes, but it helps managers respond to them intelligently. Hence it reduces uncertainty in decision-making."
+    },
+    {
+      "id": "BS08Q182",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling is closely related to goal achievement.\nReason (R): It helps ensure that activities contribute to the desired organisational outcomes rather than drift away from them.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Control keeps activities aligned with planned objectives, which is why it is closely connected with goal achievement. Without such alignment, work may drift away from desired outcomes. The reason directly explains the assertion. Thus both are true and related."
+    },
+    {
+      "id": "BS08Q183",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a step in controlling?",
+      "options": [
+        "Setting standards",
+        "Measuring actual performance",
+        "Comparing performance with standards",
+        "Determining market share strategy"
+      ],
+      "correct": 3,
+      "explanation": "The control process includes standard-setting, measurement, comparison, and corrective action. Determining market share strategy belongs to planning or marketing strategy. Therefore it is not a control step. The remaining options are direct control activities."
+    },
+    {
+      "id": "BS08Q184",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are correct?\n1. Controlling supports discipline.\n2. Controlling can be used to improve service quality.\n3. Controlling is the same as forecasting.\n4. Controlling helps reduce deviation from standards.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling supports discipline, improves service quality, and reduces deviations from standards. It is not the same as forecasting; forecasting predicts future trends, whereas controlling checks performance against standards. Therefore statements 1, 2, and 4 are correct. Statement 3 is false."
+    },
+    {
+      "id": "BS08Q185",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A factory set a standard that each batch should use no more than 100 litres of water. Actual usage reached 130 litres because cleaning methods were inefficient. The manager introduced water-saving nozzles and staff instructions. Which option best describes the relationship between planning and controlling in this case?",
+      "options": [
+        "Planning and controlling are unrelated because water use is operational",
+        "Planning sets the water-use target and controlling helps achieve it through correction",
+        "Controlling establishes targets without planning",
+        "Actual water use replaces the target once measured"
+      ],
+      "correct": 1,
+      "explanation": "The 100-litre limit is the planned standard. Actual use of 130 litres is measured, compared, and then corrected through new equipment and instructions. This shows planning and controlling working together. The standard comes from planning; controlling ensures adherence and improvement."
+    },
+    {
+      "id": "BS08Q186",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is the basic aim of the control process?",
+      "options": [
+        "To produce a report only",
+        "To ensure actual results match planned standards",
+        "To make every activity identical",
+        "To avoid all managerial judgment"
+      ],
+      "correct": 1,
+      "explanation": "The control process aims to ensure that actual results conform to the standards established in planning. It uses measurement, comparison, and correction to achieve this. Producing reports is only one part of the process. The real aim is alignment with plans."
+    },
+    {
+      "id": "BS08Q187",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is the most practical reason for taking corrective action in controlling?",
+      "options": [
+        "To make deviations permanent",
+        "To remove the cause of deviation and restore performance",
+        "To replace standards with estimates",
+        "To stop measuring future performance"
+      ],
+      "correct": 1,
+      "explanation": "Corrective action is meant to remove the cause of deviation and restore actual performance to the standard. This makes control meaningful and useful. It does not make deviations permanent or stop future monitoring. It is the action stage that completes the process."
+    },
+    {
+      "id": "BS08Q188",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Control standards should not be too high or too low.\nReason (R): Unrealistic standards make comparison misleading and may demotivate performance improvement.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Standards that are too strict or too lenient reduce the usefulness of controlling. They can distort comparison and weaken motivation. Therefore standards should be realistic and balanced. The reason correctly explains the assertion."
+    },
+    {
+      "id": "BS08Q189",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Controlling is useful for both routine and non-routine tasks.\n2. Control standards may change as business conditions change.\n3. Controlling should be independent of planning decisions.\n4. Feedback is valuable in improving managerial performance.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is useful for routine and non-routine work, and standards may need change when conditions change. It is not independent of planning because it depends on planned goals. Feedback from control helps managers improve. Therefore statements 1, 2, and 4 are correct."
+    },
+    {
+      "id": "BS08Q190",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a feature of an effective control system?",
+      "options": [
+        "Flexibility",
+        "Timeliness",
+        "Clarity",
+        "Unrelatedness to objectives"
+      ],
+      "correct": 3,
+      "explanation": "An effective control system should be flexible, timely, and clear. It must also be linked to objectives to be meaningful. Unrelatedness to objectives would make the system ineffective. Therefore the incorrect feature is being unrelated to objectives."
+    },
+    {
+      "id": "BS08Q191",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A logistics firm monitored the number of delayed deliveries each week. When delays rose, it found that drivers were waiting too long for dispatch clearance. The company introduced a digital dispatch approval system. Which statement best explains the managerial significance of this case?",
+      "options": [
+        "Controlling helped detect a process bottleneck and improve delivery speed",
+        "Controlling is unnecessary when operations are busy",
+        "Planning should not include delivery deadlines",
+        "Monitoring delays is unrelated to corrective action"
+      ],
+      "correct": 0,
+      "explanation": "The firm used control data to identify delays and then corrected the bottleneck by changing dispatch approvals. This improved speed and service quality. The case shows how controlling supports operational improvement. It also demonstrates the link between measurement and action."
+    },
+    {
+      "id": "BS08Q192",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What does 'corrective action' achieve in the control process?",
+      "options": [
+        "It creates the original standard",
+        "It brings performance back on track",
+        "It replaces actual performance data",
+        "It changes the business environment"
+      ],
+      "correct": 1,
+      "explanation": "Corrective action is taken to bring actual performance closer to the standard. It addresses the cause of deviation and improves results. The original standard is created earlier in planning. Corrective action is the final improvement step in controlling."
+    },
+    {
+      "id": "BS08Q193",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statement best shows how controlling and planning support each other?",
+      "options": [
+        "Planning sets direction, controlling checks progress, and feedback improves planning",
+        "Planning and controlling are performed by different unrelated teams",
+        "Controlling ends once a plan is made",
+        "Planning is only useful if controlling fails"
+      ],
+      "correct": 0,
+      "explanation": "Planning provides the direction and standards, controlling checks whether progress matches those standards, and feedback from control helps improve future planning. This is the clearest expression of the relationship. The other options ignore their interdependence. Planning and controlling function as a cycle."
+    },
+    {
+      "id": "BS08Q194",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following statements are correct?\n1. Controlling helps in identifying whether planned activities are completed on time.\n2. Controlling can be used to improve customer satisfaction.\n3. Controlling is only concerned with financial results.\n4. Controlling may require process redesign.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling checks whether planned work is completed on time, helps improve customer satisfaction, and may lead to process redesign when needed. It is not limited to financial results. Therefore statements 1, 2, and 4 are correct. Statement 3 is false."
+    },
+    {
+      "id": "BS08Q195",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A food chain had a standard that every outlet must maintain hygiene score above 90. One outlet scored 78 because cleaning tasks were not tracked properly. The manager introduced a checklist and shift-wise responsibility. Which option best reflects the controlling process?",
+      "options": [
+        "The outlet ignored standards because food quality is subjective",
+        "The outlet measured performance, found deviation, and took corrective action",
+        "The outlet set the hygiene score after the inspection",
+        "The outlet replaced controlling with advertising"
+      ],
+      "correct": 1,
+      "explanation": "The hygiene score was the standard. Actual performance was measured at 78, showing a deviation. The checklist and shift-wise responsibility are corrective actions designed to fix the issue. This is a textbook example of controlling in service quality management."
+    },
+    {
+      "id": "BS08Q196",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Why is controlling said to be goal-oriented?",
+      "options": [
+        "Because it works without goals",
+        "Because it ensures activities move toward planned objectives",
+        "Because it changes goals every day",
+        "Because it is only about employee salaries"
+      ],
+      "correct": 1,
+      "explanation": "Controlling is goal-oriented because it ensures that ongoing activities support planned objectives. It checks whether work is on course and corrects deviations. Without goals, control would have no benchmark. Thus its purpose is to help achieve objectives."
+    },
+    {
+      "id": "BS08Q197",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Controlling is an indispensable managerial function.\nReason (R): It connects planning with execution and helps ensure that intended results are achieved.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is false, but R is true",
+        "A is true, but R is false"
+      ],
+      "correct": 0,
+      "explanation": "Controlling is indispensable because plans do not achieve results automatically. It connects planning with execution by checking actual performance and correcting deviations. This is why the reason explains the assertion. Both statements are true."
+    },
+    {
+      "id": "BS08Q198",
+      "type": "not_type",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a correct statement about controlling?",
+      "options": [
+        "It is a continuous process",
+        "It helps in detecting deviations",
+        "It is unrelated to planning",
+        "It supports achievement of objectives"
+      ],
+      "correct": 2,
+      "explanation": "Controlling is closely related to planning because it uses planned standards for comparison. It is continuous, detects deviations, and supports objectives. Therefore the incorrect statement is that it is unrelated to planning. That contradicts the basic nature of controlling."
+    },
+    {
+      "id": "BS08Q199",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A call centre had a standard that 85% of calls should be resolved in the first contact. Results fell to 70%. Analysis showed agents lacked updated product information. Management launched a knowledge refresh programme. Which option best captures the value of controlling in this case?",
+      "options": [
+        "It helped reveal a skill gap and enabled corrective training",
+        "It proved standards are unnecessary in service work",
+        "It replaced the need for product information",
+        "It made planning and controlling separate"
+      ],
+      "correct": 0,
+      "explanation": "The control system showed that actual performance was below the first-contact resolution standard. Analysis identified a knowledge gap, and the training programme corrected it. This shows controlling revealing skill gaps and driving improvement. It is a strong example of corrective management."
+    },
+    {
+      "id": "BS08Q200",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct?\n1. Controlling helps managers spot deviations from standards.\n2. Controlling may lead to revision of plans and procedures.\n3. Controlling is independent of organisational goals.\n4. Controlling improves the chances of goal achievement.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "All four statements"
+      ],
+      "correct": 0,
+      "explanation": "Controlling identifies deviations, may lead to revised plans or procedures, and improves the likelihood of achieving goals. It is not independent of organisational goals because those goals provide the basis for standards. Therefore statements 1, 2, and 4 are correct. Statement 3 is false."
+    }
+  ]
+}

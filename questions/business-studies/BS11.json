@@ -1,0 +1,3009 @@
+{
+  "subject": "Business Studies",
+  "subject_code": "305",
+  "chapter_id": "BS11",
+  "chapter": "Marketing (Meaning, Functions, Marketing Mix — Product, Price, Place, Promotion)",
+  "total_questions": 200,
+  "questions": [
+    {
+      "id": "BS11Q01",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A skincare brand studies customer needs, designs a suitable cream, sets a price, chooses online stores and runs a campaign. Which idea of marketing is being reflected most accurately?",
+      "options": [
+        "Marketing is only selling and collecting cash",
+        "Marketing is a coordinated process to satisfy needs profitably",
+        "Marketing means only advertising the product",
+        "Marketing begins only after production is over"
+      ],
+      "correct": 2,
+      "explanation": "Marketing is not limited to selling or advertising.\nIt involves identifying needs, creating value and delivering it profitably.\nThe actions in the question cover product, price, place and promotion together."
+    },
+    {
+      "id": "BS11Q02",
+      "type": "statement_based",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following statements best distinguishes marketing from selling? 1. Marketing starts with customer needs. 2. Selling starts with production. 3. Marketing aims at customer satisfaction and profit. 4. Selling always rejects promotion.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Marketing begins with the market and customer needs, while selling usually follows production.\nCustomer satisfaction is central to marketing, not just pushing goods.\nStatement 4 is incorrect because promotion is often used in selling too."
+    },
+    {
+      "id": "BS11Q03",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Marketing mix is the combination of variables a firm uses to satisfy customers in a target market. Reason (R): The mix usually includes product, price, place and promotion, and these must be coordinated.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "The assertion correctly defines the marketing mix.\nThe reason is also true because the 4Ps are the core variables of the mix.\nCoordination of these elements explains how the marketing mix works."
+    },
+    {
+      "id": "BS11Q04",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A detergent company reduces complaints by improving foam quality, offers a fair price, supplies products quickly to retailers and runs a public awareness drive. Which marketing philosophy is closest to this approach?",
+      "options": [
+        "Production concept",
+        "Product concept",
+        "Marketing concept",
+        "Selling concept"
+      ],
+      "correct": 3,
+      "explanation": "The firm is not focusing only on production volume or aggressive selling.\nIt is studying customer expectations and arranging the mix accordingly.\nThat reflects the marketing concept, where satisfaction guides business decisions."
+    },
+    {
+      "id": "BS11Q05",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a function of marketing?",
+      "options": [
+        "Creating customer value",
+        "Managing exchange process",
+        "Assuring satisfaction and repeat purchase",
+        "Eliminating the need for product planning"
+      ],
+      "correct": 4,
+      "explanation": "Marketing helps create value, manage exchanges and build satisfaction.\nIt does not remove the need for product planning; in fact, it supports it.\nA firm must plan the offering before marketing it effectively."
+    },
+    {
+      "id": "BS11Q06",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A seller of used books says, Our job ends when the buyer pays. What is the major limitation in this statement?",
+      "options": [
+        "It ignores profit",
+        "It ignores product quality",
+        "It treats selling and marketing as the same",
+        "It ignores the customer relationship after sale"
+      ],
+      "correct": 4,
+      "explanation": "Selling ends with transfer of ownership, but marketing does not.\nMarketing also cares about satisfaction, repeat purchase and relationship building.\nThat is why the statement is too narrow."
+    },
+    {
+      "id": "BS11Q07",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Consider these statements about the marketing concept: 1. It begins with the consumer. 2. It ends with profit only. 3. It seeks long-term satisfaction. 4. It can require coordination among departments. Which are correct?",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "The marketing concept is customer-centered.\nIt aims at long-term satisfaction and coordination across functions.\nProfit matters, but not profit only, so statement 2 is wrong."
+    },
+    {
+      "id": "BS11Q08",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A smartphone maker first conducts surveys, then redesigns battery life, changes packaging, adjusts price and trains dealers. This is an example of which broader business approach?",
+      "options": [
+        "Production orientation",
+        "Marketing orientation",
+        "Trade orientation",
+        "Warehouse orientation"
+      ],
+      "correct": 2,
+      "explanation": "The firm is beginning with consumer research and then aligning the entire mix.\nThat shows a marketing orientation rather than a production-first mindset.\nThe redesign, pricing and distribution decisions are coordinated around customer needs."
+    },
+    {
+      "id": "BS11Q09",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Selling focuses on converting product into cash. Reason (R): Marketing focuses only on pushing products through aggressive persuasion.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 3,
+      "explanation": "Selling is mainly concerned with moving products and realizing cash.\nThe reason is false because marketing is broader than pushing and persuasion.\nMarketing starts from needs and satisfaction, not from forceful selling."
+    },
+    {
+      "id": "BS11Q10",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which activity is most closely linked with the place element of marketing mix?",
+      "options": [
+        "Choosing a logo for the brand",
+        "Deciding where the product will be available",
+        "Writing an advertisement slogan",
+        "Selecting the product color"
+      ],
+      "correct": 2,
+      "explanation": "Place means how and where the product reaches customers.\nIt includes location, channel and availability decisions.\nLogo, slogan and color belong more to product or promotion."
+    },
+    {
+      "id": "BS11Q11",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A biscuit company offers a lower price when retailers buy larger cartons. The company expects retailers to stock more and push sales to consumers. Which marketing tool is being used here?",
+      "options": [
+        "Public relations",
+        "Personal selling",
+        "Sales promotion",
+        "Labelling"
+      ],
+      "correct": 3,
+      "explanation": "A quantity-linked incentive to encourage immediate buying is sales promotion.\nIt is meant to stimulate dealer or customer action quickly.\nIt is not a permanent price policy, branding activity or media advertisement."
+    },
+    {
+      "id": "BS11Q12",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm wants to shift from a product concept to a marketing concept. Which changes are needed? 1. Start with customer research. 2. Focus only on production efficiency. 3. Coordinate product, price, place and promotion. 4. Measure success through customer satisfaction as well as profit.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "A marketing concept requires customer research and coordinated decisions.\nProduction efficiency matters, but it cannot be the only focus.\nCustomer satisfaction and profit together become the measure of success."
+    },
+    {
+      "id": "BS11Q13",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT one of the classic functions of marketing?",
+      "options": [
+        "Gathering market information",
+        "Financing",
+        "Risk bearing",
+        "Manufacturing raw materials"
+      ],
+      "correct": 4,
+      "explanation": "Market information, financing and risk bearing are recognized marketing functions.\nManufacturing raw materials is a production activity, not a marketing function.\nThe question checks the boundary between production and marketing."
+    },
+    {
+      "id": "BS11Q14",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A startup selling protein bars first identifies gym users, then chooses a premium price, sells through fitness stores and uses influencers. Which pair of ideas is best reflected?",
+      "options": [
+        "Selling concept and production concept",
+        "Marketing mix and target market selection",
+        "Product concept and warehouse concept",
+        "Finance concept and trade concept"
+      ],
+      "correct": 2,
+      "explanation": "The startup is segmenting a specific customer group and then designing the mix.\nThat reflects target market selection along with the marketing mix.\nThe choices are aligned to one consumer segment rather than mass production alone."
+    },
+    {
+      "id": "BS11Q15",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which statement best describes marketing?",
+      "options": [
+        "It is only the movement of goods from factory to shop",
+        "It is only advertising and salesmanship",
+        "It is a process of creating, offering and exchanging value",
+        "It is only deciding prices for products"
+      ],
+      "correct": 3,
+      "explanation": "Marketing covers creating value and exchanging it with customers.\nIt is broader than promotion, distribution or pricing alone.\nIt integrates several activities to satisfy needs profitably."
+    },
+    {
+      "id": "BS11Q16",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A tea company does not change its blend even after complaints, saying our tea is superior and customers will learn to appreciate it. Which philosophy is shown most clearly?",
+      "options": [
+        "Marketing concept",
+        "Product concept",
+        "Selling concept",
+        "Societal marketing concept"
+      ],
+      "correct": 2,
+      "explanation": "The company believes product quality itself will drive demand.\nIt is concentrating on the product and not on changing customer preferences.\nThat is the product concept, not customer-centered marketing."
+    },
+    {
+      "id": "BS11Q17",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Marketing and selling are identical. Reason (R): Both involve exchange and may use promotion.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is false but R is true",
+        "A is true but R is false"
+      ],
+      "correct": 3,
+      "explanation": "The assertion is false because marketing is wider than selling.\nSelling is only one part of the overall marketing process.\nThe reason is true because both can involve exchange and promotion, but that does not make them identical."
+    },
+    {
+      "id": "BS11Q18",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which business decision is most directly a part of promotion mix?",
+      "options": [
+        "Choosing a distribution warehouse",
+        "Designing a social media campaign",
+        "Selecting raw material suppliers",
+        "Deciding the product size"
+      ],
+      "correct": 2,
+      "explanation": "Promotion mix includes advertising, personal selling, sales promotion and public relations.\nA social media campaign is a promotional communication activity.\nThe other options belong to production, place or product decisions."
+    },
+    {
+      "id": "BS11Q19",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A cosmetics company combines free samples, attractive packaging, wide retail availability and a mid-range price. Which statement is most accurate?",
+      "options": [
+        "Only promotion is involved",
+        "Only product and price are involved",
+        "All four Ps are being coordinated",
+        "Marketing is the same as selling"
+      ],
+      "correct": 3,
+      "explanation": "The company is coordinating product, price, place and promotion.\nThat is the essence of the marketing mix.\nGood marketing requires such coordination rather than isolated actions."
+    },
+    {
+      "id": "BS11Q20",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following are true about the selling concept? 1. It assumes customers need persuasion to buy. 2. It focuses mainly on production planning. 3. It relies heavily on personal selling and promotion. 4. It starts from customer needs and preferences.",
+      "options": [
+        "1 and 3 only",
+        "1, 2 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Selling concept is built on the belief that customers must be persuaded.\nIt often uses sales pressure and promotion to move goods.\nIt does not start with customer needs, so statement 4 is false."
+    },
+    {
+      "id": "BS11Q21",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A shampoo manufacturer creates a new anti-dandruff variant, gives it a brand name and a bottle design. Which element of the marketing mix is being emphasized?",
+      "options": [
+        "Price",
+        "Product",
+        "Place",
+        "Promotion"
+      ],
+      "correct": 2,
+      "explanation": "Branding and packaging are part of product decisions.\nThe actual shampoo variant is also a product-related choice.\nPrice, place and promotion come after or alongside product design."
+    },
+    {
+      "id": "BS11Q22",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A mobile company launches the same phone under different names in different countries. The hardware is identical, but the identity changes to fit local market preferences. Which product decision is this?",
+      "options": [
+        "Labelling",
+        "Branding",
+        "Pricing",
+        "Sales promotion"
+      ],
+      "correct": 2,
+      "explanation": "Using different names for the same product is a branding decision.\nIt helps the firm position the product differently across markets.\nLabeling gives information, but the identity choice is branding."
+    },
+    {
+      "id": "BS11Q23",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is labelling in marketing?",
+      "options": [
+        "Setting the maximum retail price",
+        "Giving information printed on the product or package",
+        "Selecting wholesalers for the product",
+        "Arranging sales calls with dealers"
+      ],
+      "correct": 2,
+      "explanation": "Labelling means the display of information on the product or package.\nIt may include ingredients, directions, quantity and warnings.\nIt is different from pricing, distribution and personal selling."
+    },
+    {
+      "id": "BS11Q24",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements about packaging are correct? 1. It protects the product during storage and transport. 2. It can influence buying decisions. 3. It is unrelated to branding. 4. It may help in product differentiation.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Packaging protects the product and also influences consumer choice.\nIt can support differentiation and brand identity.\nStatement 3 is incorrect because packaging often reinforces branding."
+    },
+    {
+      "id": "BS11Q25",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A premium chocolate firm uses a rigid box, foil wrap, nutrition panel and elegant logo. It wants to reduce damage, signal quality and attract gift buyers. Which combination is being used?",
+      "options": [
+        "Only place and price",
+        "Branding, packaging and labelling",
+        "Personal selling and public relations",
+        "Advertising and warehousing"
+      ],
+      "correct": 2,
+      "explanation": "The box and foil relate to packaging, the logo to branding and the nutrition panel to labelling.\nAll three help protect the product and shape customer perception.\nThe firm is using product decisions to support market positioning."
+    },
+    {
+      "id": "BS11Q26",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A strong brand can reduce price sensitivity. Reason (R): Customers often associate brands with quality, trust and differentiation.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "A strong brand often makes consumers less sensitive to minor price changes.\nThat happens because brand association creates trust and perceived value.\nSo the reason correctly explains the assertion."
+    },
+    {
+      "id": "BS11Q27",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a product-related decision?",
+      "options": [
+        "Developing a warranty policy",
+        "Selecting a package design",
+        "Choosing the retail margin",
+        "Giving a brand name"
+      ],
+      "correct": 3,
+      "explanation": "Warranty, packaging and branding are product decisions.\nRetail margin is a pricing and channel-related issue.\nIt affects profitability and distribution rather than the product itself."
+    },
+    {
+      "id": "BS11Q28",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A milk company prints expiry date, storage instructions and FSSAI details clearly on the pouch. Which function is labelling performing here?",
+      "options": [
+        "Only promotion",
+        "Only storage",
+        "Only financing",
+        "Information and consumer protection"
+      ],
+      "correct": 4,
+      "explanation": "Labelling is not just decoration; it provides important product information.\nExpiry date and storage instructions help consumers use the product safely.\nRegulatory details also build trust and compliance."
+    },
+    {
+      "id": "BS11Q29",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following best describes a convenience product?",
+      "options": [
+        "A product bought after extensive comparison",
+        "A product bought frequently with little effort",
+        "A product purchased only during emergencies",
+        "A product bought only online"
+      ],
+      "correct": 2,
+      "explanation": "Convenience products are purchased often and with minimal effort.\nThey are usually low-cost, widely available and routine purchases.\nThe key feature is easy and frequent buying behavior."
+    },
+    {
+      "id": "BS11Q30",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are correct about consumer and industrial products? 1. Consumer products are bought for personal use. 2. Industrial products are used in production of other goods. 3. A machine purchased by a factory is a consumer product. 4. Raw material is usually an industrial product.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Consumer goods are for final consumption and industrial goods support production.\nA factory machine and raw material both fall under industrial products.\nStatement 3 is wrong because a factory machine is not a consumer product."
+    },
+    {
+      "id": "BS11Q31",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A laptop maker offers the same device with extra software, extended warranty and free antivirus for business buyers. Which product concept is being extended beyond the core product?",
+      "options": [
+        "Augmented product",
+        "Industrial packaging",
+        "Single branding",
+        "Price skimming"
+      ],
+      "correct": 1,
+      "explanation": "The core laptop is being supplemented by services and added benefits.\nThat is the augmented product concept.\nWarranty and software increase perceived value and convenience."
+    },
+    {
+      "id": "BS11Q32",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Branding means which of the following?",
+      "options": [
+        "Assigning a distinctive name or symbol to a product",
+        "Printing instructions on a label",
+        "Delivering goods through wholesalers",
+        "Setting a final selling price"
+      ],
+      "correct": 1,
+      "explanation": "Branding gives a product an identifiable name, sign or design.\nIt helps distinguish one seller's offering from another's.\nThis is different from labeling, distribution or pricing."
+    },
+    {
+      "id": "BS11Q33",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Packaging can be used as a silent salesman. Reason (R): Attractive packaging can draw attention and communicate product quality at the point of sale.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Packaging often influences the buyer even before the product is used.\nIt can communicate quality, convenience and brand image.\nThat is why it is called a silent salesman."
+    },
+    {
+      "id": "BS11Q34",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An ice cream firm uses plastic tubs instead of paper cups for family packs because they travel better and reduce spillage. Which product decision is best described?",
+      "options": [
+        "Packaging",
+        "Branding",
+        "Pricing",
+        "Promotion"
+      ],
+      "correct": 1,
+      "explanation": "The choice of container is a packaging decision.\nIt affects protection, convenience and transportability.\nIt is not a pricing or communication decision directly."
+    },
+    {
+      "id": "BS11Q35",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which type of product is usually bought after comparing quality, price and style among several brands?",
+      "options": [
+        "Specialty product",
+        "Convenience product",
+        "Shopping product",
+        "Unsought product"
+      ],
+      "correct": 3,
+      "explanation": "Shopping products involve comparison before purchase.\nBuyers evaluate quality, price and style carefully.\nThat distinguishes them from convenience or unsought products."
+    },
+    {
+      "id": "BS11Q36",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following are advantages of branding? 1. Helps identification. 2. Builds customer loyalty. 3. Makes legal protection easier. 4. Always lowers production cost.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Branding helps consumers identify and trust products.\nIt also supports loyalty and can be legally protected.\nIt does not always reduce production cost, so statement 4 is incorrect."
+    },
+    {
+      "id": "BS11Q37",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A cereal company prints a health star rating, uses a zip-lock pouch and gives a family brand name. Which set of product-related decisions is reflected?",
+      "options": [
+        "Packaging, labelling and branding",
+        "Price, channel and promotion",
+        "Warehousing, transport and publicity",
+        "Personal selling and direct marketing"
+      ],
+      "correct": 1,
+      "explanation": "The star rating is part of labelling, the pouch is packaging and the family name is branding.\nThese decisions work together to create product identity and usefulness.\nThey are all product mix elements."
+    },
+    {
+      "id": "BS11Q38",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a benefit of good packaging?",
+      "options": [
+        "Protection during transit",
+        "Convenience in handling",
+        "Improved shelf appeal",
+        "Guaranteed zero competition"
+      ],
+      "correct": 4,
+      "explanation": "Good packaging can protect the product and improve presentation.\nIt can also aid convenience and differentiation.\nBut it cannot guarantee the absence of competition in the market."
+    },
+    {
+      "id": "BS11Q39",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A medicine pack carries dosage, warning and batch number. Which marketing concern is most directly addressed?",
+      "options": [
+        "Consumer information and safety",
+        "Price discrimination",
+        "Sales force management",
+        "Channel conflict"
+      ],
+      "correct": 1,
+      "explanation": "Such labels help consumers use the medicine safely and correctly.\nThey also support traceability and legal compliance.\nThe focus is on information and protection, not price or channel issues."
+    },
+    {
+      "id": "BS11Q40",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A product can be differentiated without changing its core utility. Reason (R): Branding, packaging and labelling can create distinct market appeal even when the basic function remains the same.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Differentiation is not limited to changing the physical core of the product.\nBranding, packaging and labelling can create a different market image.\nSo the reason explains how differentiation can happen."
+    },
+    {
+      "id": "BS11Q41",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A furniture maker sells directly through its showroom for premium sofas but uses dealers for low-cost chairs. Which channel factor is influencing this choice most strongly?",
+      "options": [
+        "Customer location only",
+        "Nature of product and market segment",
+        "Only advertising budget",
+        "Only government tax"
+      ],
+      "correct": 2,
+      "explanation": "Different products and segments may require different channel structures.\nPremium sofas often need direct selling, while low-cost chairs suit wider distribution.\nThe channel decision depends on product nature and target market."
+    },
+    {
+      "id": "BS11Q42",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Physical distribution refers to the process of moving which of the following?",
+      "options": [
+        "Ideas from ads to customers",
+        "Goods from producer to customer",
+        "Prices from buyer to seller",
+        "Brand names from market to factory"
+      ],
+      "correct": 2,
+      "explanation": "Physical distribution concerns the movement of goods.\nIt includes transport, warehousing and inventory handling.\nIts role is to make the right product available at the right place and time."
+    },
+    {
+      "id": "BS11Q43",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of these is a component of physical distribution?",
+      "options": [
+        "Warehousing",
+        "Branding",
+        "Advertising",
+        "Product mix"
+      ],
+      "correct": 1,
+      "explanation": "Warehousing stores goods safely before sale or dispatch.\nIt is a core physical distribution activity.\nBranding and advertising belong to product and promotion respectively."
+    },
+    {
+      "id": "BS11Q44",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements about warehousing are correct? 1. It helps balance supply and demand. 2. It reduces damage through proper storage. 3. It is unrelated to customer service. 4. It can support smooth distribution. ",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Warehousing supports inventory availability and protects goods.\nIt also improves service by ensuring timely supply.\nStatement 3 is false because warehousing is very much linked to customer service."
+    },
+    {
+      "id": "BS11Q45",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A toy company keeps stock in a central warehouse during the festival off-season and dispatches it quickly when demand rises. Which distribution role is shown?",
+      "options": [
+        "Financing role of marketing",
+        "Storage and risk-bearing role",
+        "Branding role",
+        "Pricing role"
+      ],
+      "correct": 2,
+      "explanation": "Warehousing allows goods to be stored until demand increases.\nIt also involves risk bearing because stock may get damaged or obsolete.\nThat is a central part of physical distribution."
+    },
+    {
+      "id": "BS11Q46",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a function of physical distribution?",
+      "options": [
+        "Transportation",
+        "Warehousing",
+        "Inventory control",
+        "Brand name creation"
+      ],
+      "correct": 4,
+      "explanation": "Transportation, warehousing and inventory control are distribution activities.\nBrand name creation belongs to branding, a product decision.\nThe question checks the boundary between place and product."
+    },
+    {
+      "id": "BS11Q47",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company selling fragile glassware chooses air transport for distant metro stores and road transport for nearby outlets. What is it considering mainly?",
+      "options": [
+        "Nature of product and cost-time tradeoff",
+        "Only labour union pressure",
+        "Only advertising appeal",
+        "Only packaging colour"
+      ],
+      "correct": 1,
+      "explanation": "Fragile goods need careful handling, and speed matters for delivery.\nThe firm is balancing product nature, cost and time.\nThat is a physical distribution decision."
+    },
+    {
+      "id": "BS11Q48",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Inventory control in distribution is mainly concerned with",
+      "options": [
+        "Choosing brand ambassadors",
+        "Maintaining the right stock level",
+        "Writing product labels",
+        "Changing the product design"
+      ],
+      "correct": 2,
+      "explanation": "Inventory control ensures that stock is neither too high nor too low.\nIt supports smooth sales and reduces carrying cost.\nIt is a place decision, not branding or promotion."
+    },
+    {
+      "id": "BS11Q49",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Distribution channels reduce the number of transactions needed in the market. Reason (R): Intermediaries connect producers with buyers and make exchange easier.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Intermediaries simplify the exchange process by linking producers and customers.\nThis reduces the number of direct transactions a producer must handle.\nSo the reason explains the assertion well."
+    },
+    {
+      "id": "BS11Q50",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are true about logistics and physical distribution? 1. They help deliver the right product at the right time. 2. They can affect customer satisfaction. 3. They are independent of channel choice. 4. They may influence total marketing cost.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Efficient distribution improves availability and satisfaction.\nIt also has a direct cost effect through transport, storage and handling.\nStatement 3 is false because distribution and channel choice are closely related."
+    },
+    {
+      "id": "BS11Q51",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A bakery supplies fresh bread to nearby shops twice a day because the product is perishable and demand is local. Which channel factor is most relevant?",
+      "options": [
+        "Perishability and market concentration",
+        "Brand loyalty only",
+        "Sales promotion only",
+        "Product colour only"
+      ],
+      "correct": 1,
+      "explanation": "Perishable goods need quick movement and frequent replenishment.\nLocal demand also reduces the need for long channels.\nSo perishability and market concentration are the key factors."
+    },
+    {
+      "id": "BS11Q52",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A distribution channel is best described as",
+      "options": [
+        "The road used by trucks only",
+        "The route through which goods move from producer to consumer",
+        "The name of a warehouse",
+        "The advertisement strategy used by a firm"
+      ],
+      "correct": 2,
+      "explanation": "A channel is the path of distribution from producer to consumer.\nIt may include wholesalers, retailers and agents.\nIt is more than physical transport alone."
+    },
+    {
+      "id": "BS11Q53",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which channel is the shortest?",
+      "options": [
+        "Producer to consumer",
+        "Producer to wholesaler to retailer to consumer",
+        "Producer to agent to wholesaler to retailer to consumer",
+        "Producer to broker to wholesaler to retailer to consumer"
+      ],
+      "correct": 1,
+      "explanation": "Direct distribution has no intermediary.\nSo producer to consumer is the shortest channel.\nIt is often used when direct contact is important."
+    },
+    {
+      "id": "BS11Q54",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "An online apparel brand sells directly from its website but also appoints a few exclusive stores in premium locations. Which channel choice is being balanced here?",
+      "options": [
+        "Only zero level channel",
+        "Only indirect channel",
+        "Direct and selective distribution",
+        "Only intensive distribution"
+      ],
+      "correct": 3,
+      "explanation": "The website is a direct channel and exclusive stores represent selective distribution.\nThe brand is using more than one route to serve different customer needs.\nThis shows channel flexibility and targeting."
+    },
+    {
+      "id": "BS11Q55",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which factors affect the choice of distribution channel? 1. Product nature. 2. Market size and location. 3. Price of the packaging material only. 4. Competitor channel strategy. ",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Channel choice depends on product, market and competitive factors.\nPackaging cost alone is not a direct channel determinant.\nThe firm looks at where buyers are and how the product must travel."
+    },
+    {
+      "id": "BS11Q56",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company selling high-end watches prefers direct selling through company outlets because customers want personal attention and the product needs careful display. Which channel factor is the strongest?",
+      "options": [
+        "Product value and service requirements",
+        "Only bulk buying",
+        "Only advertising rate",
+        "Only transport distance"
+      ],
+      "correct": 1,
+      "explanation": "High-value products often need personalized selling and secure handling.\nDisplay and service quality become important in the buying process.\nThat is why direct channels are chosen."
+    },
+    {
+      "id": "BS11Q57",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT an intermediary in distribution?",
+      "options": [
+        "Wholesaler",
+        "Retailer",
+        "Agent",
+        "Manufacturer"
+      ],
+      "correct": 4,
+      "explanation": "Wholesalers, retailers and agents connect producers with buyers.\nThe manufacturer is the source of the product, not an intermediary.\nThis distinction is important in channel structure."
+    },
+    {
+      "id": "BS11Q58",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company selling school notebooks wants nationwide reach and low unit cost. It selects many retailers instead of a few exclusive stores. Which distribution strategy is this?",
+      "options": [
+        "Exclusive distribution",
+        "Selective distribution",
+        "Intensive distribution",
+        "Direct selling only"
+      ],
+      "correct": 3,
+      "explanation": "Using many outlets to maximize availability is intensive distribution.\nIt suits products with frequent purchase and wide market demand.\nNotebooks are typically sold through many retailers for easy access."
+    },
+    {
+      "id": "BS11Q59",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Physical distribution can create time utility. Reason (R): Goods are made available when customers need them, not only when they are produced.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Distribution adds time utility by bridging the gap between production and consumption.\nWarehousing and transport make goods available when demanded.\nThat is exactly what the reason explains."
+    },
+    {
+      "id": "BS11Q60",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are true about channels of distribution? 1. They can lower the number of contacts a producer must maintain. 2. They may provide local market knowledge. 3. They always increase marketing cost without benefit. 4. They can support after-sale service in some cases.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Channels simplify market reach and often offer specialized services.\nThey can also deliver local knowledge and support to buyers.\nStatement 3 is wrong because channels can create efficiency and value."
+    },
+    {
+      "id": "BS11Q61",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is part of the promotion mix?",
+      "options": [
+        "Transportation",
+        "Advertising",
+        "Packaging",
+        "Warehousing"
+      ],
+      "correct": 2,
+      "explanation": "Advertising is a promotion tool used to communicate with the market.\nPromotion mix includes advertising, personal selling, sales promotion and public relations.\nThe other options belong to place or product decisions."
+    },
+    {
+      "id": "BS11Q62",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Promotion in marketing mainly means",
+      "options": [
+        "Storing goods for future sale",
+        "Communicating information to persuade or remind customers",
+        "Fixing the cost of production",
+        "Selecting the best raw material"
+      ],
+      "correct": 2,
+      "explanation": "Promotion is about communication with target customers.\nIt informs, persuades and reminds them about the offer.\nThis makes it different from production or storage activities."
+    },
+    {
+      "id": "BS11Q63",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A school bag company releases a short video, gives retailer displays and trains salespersons to explain features. Which elements of promotion mix are used?",
+      "options": [
+        "Advertising, sales promotion and personal selling",
+        "Only packaging and branding",
+        "Only public relations",
+        "Only warehousing and transport"
+      ],
+      "correct": 1,
+      "explanation": "The video is advertising, the retailer display is sales promotion and training salespersons is personal selling.\nThese tools are combined to influence demand.\nThat is the promotion mix in action."
+    },
+    {
+      "id": "BS11Q64",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following are functions of promotion? 1. Informing customers. 2. Persuading customers. 3. Maintaining product availability. 4. Reminding customers. ",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Promotion informs, persuades and reminds buyers.\nProduct availability is a place decision, not a promotional one.\nSo statement 3 is incorrect."
+    },
+    {
+      "id": "BS11Q65",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Promotion is not a one-way activity only. Reason (R): It may include feedback from customers through personal selling and interactive digital communication.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Promotion can be interactive, especially in personal selling and modern media.\nThe firm often receives customer feedback during communication.\nSo the reason correctly explains why promotion is not one-way only."
+    },
+    {
+      "id": "BS11Q66",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company launches a new water purifier. It uses billboards for awareness, dealer discounts for quick trial and sales executives for home demonstrations. What does this best show?",
+      "options": [
+        "Only advertising is needed",
+        "Promotion mix should work together",
+        "Pricing alone determines demand",
+        "Physical distribution is unrelated"
+      ],
+      "correct": 2,
+      "explanation": "Different promotional tools have different roles.\nAdvertising builds awareness, sales promotion triggers trial and personal selling closes the sale.\nTogether they form an integrated promotion mix."
+    },
+    {
+      "id": "BS11Q67",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a promotion tool?",
+      "options": [
+        "Advertising",
+        "Personal selling",
+        "Sales promotion",
+        "Warehousing"
+      ],
+      "correct": 4,
+      "explanation": "Warehousing is part of physical distribution.\nAdvertising, personal selling and sales promotion are promotion tools.\nThe question checks the mix of marketing activities."
+    },
+    {
+      "id": "BS11Q68",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which promotional tool is most suitable for high-value industrial equipment sold to a few buyers?",
+      "options": [
+        "Mass advertising only",
+        "Personal selling",
+        "Road show leaflets only",
+        "Packaging only"
+      ],
+      "correct": 2,
+      "explanation": "High-value industrial products usually need detailed explanation and negotiation.\nPersonal selling allows demonstration, doubt clearing and relationship building.\nMass advertising alone is often not enough for such products."
+    },
+    {
+      "id": "BS11Q69",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A soap company gives scratch cards and a buy two get one offer during a festival week. Which promotion objective is most likely being targeted?",
+      "options": [
+        "Short-term sales increase",
+        "Long-term packaging design",
+        "Warehouse expansion",
+        "Channel elimination"
+      ],
+      "correct": 1,
+      "explanation": "Such offers are designed to stimulate immediate purchase.\nThis is the main goal of sales promotion.\nThe effect is usually short-term and action-oriented."
+    },
+    {
+      "id": "BS11Q70",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements about public relations are correct? 1. It aims to build goodwill. 2. It can help manage reputation. 3. It always uses paid media only. 4. It may support crisis handling.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Public relations builds a favorable image and goodwill.\nIt can be useful in crisis communication and reputation management.\nIt does not always rely on paid media, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q71",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A college concessionaire uses a loudspeaker to announce lunch combos, while a salesperson explains ingredient options at the counter. Which promotional methods are these?",
+      "options": [
+        "Advertising and personal selling",
+        "Public relations and packaging",
+        "Sales promotion and warehousing",
+        "Branding and labelling"
+      ],
+      "correct": 1,
+      "explanation": "The loudspeaker message is advertising because it is a non-personal communication.\nThe counter explanation is personal selling because it is direct interaction.\nBoth belong to the promotion mix but serve different functions."
+    },
+    {
+      "id": "BS11Q72",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following best describes advertising?",
+      "options": [
+        "Personal contact with customers",
+        "Paid, non-personal communication by an identified sponsor",
+        "A reward to dealers for bulk buying",
+        "A method of storing stock"
+      ],
+      "correct": 2,
+      "explanation": "Advertising is paid and non-personal.\nIt is sponsored by a clearly identified firm.\nThis distinguishes it from sales promotion, personal selling and distribution."
+    },
+    {
+      "id": "BS11Q73",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Advertising may create demand for a brand before the customer visits the store. Reason (R): It can inform and persuade a large audience simultaneously.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Advertising reaches many people at once and can shape initial preference.\nThat is why it may create demand before the actual purchase moment.\nThe reason directly explains the assertion."
+    },
+    {
+      "id": "BS11Q74",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company launches a new detergent and uses TV ads for awareness, retailer margins for push and demo counters for trial. Which statement is most accurate?",
+      "options": [
+        "Only advertising matters in promotion",
+        "Promotion can use push and pull strategies together",
+        "Pricing has no role in sales growth",
+        "Labelling replaces advertising"
+      ],
+      "correct": 2,
+      "explanation": "The firm is using a mix of pull tools like advertising and push tools like dealer incentives.\nThis is common when launching new consumer goods.\nDifferent promotion tools support one another in market entry."
+    },
+    {
+      "id": "BS11Q75",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following are objections to advertising? 1. It may add to product price. 2. It can sometimes mislead buyers. 3. It always reduces competition. 4. It may encourage unnecessary consumption. ",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Common objections to advertising include cost, misleading claims and overconsumption.\nIt does not always reduce competition; often it intensifies it.\nSo statement 3 is wrong."
+    },
+    {
+      "id": "BS11Q76",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A chocolate brand sponsors a cleanliness drive and shares the event on social platforms to improve goodwill after a product recall. Which promotional activity is this?",
+      "options": [
+        "Public relations",
+        "Personal selling",
+        "Direct price cut",
+        "Packaging redesign"
+      ],
+      "correct": 1,
+      "explanation": "The company is trying to rebuild trust and goodwill.\nThat is the purpose of public relations, especially during reputation repair.\nThe focus is not immediate selling but image restoration."
+    },
+    {
+      "id": "BS11Q77",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which promotional activity involves direct face-to-face interaction?",
+      "options": [
+        "Advertising",
+        "Public relations",
+        "Personal selling",
+        "Publicity only"
+      ],
+      "correct": 3,
+      "explanation": "Personal selling involves direct contact between seller and buyer.\nIt allows customized explanation and persuasion.\nThat makes it different from mass communication tools."
+    },
+    {
+      "id": "BS11Q78",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT an objective of sales promotion?",
+      "options": [
+        "Encouraging trial",
+        "Increasing short-term sales",
+        "Building immediate customer interest",
+        "Preparing annual financial statements"
+      ],
+      "correct": 4,
+      "explanation": "Sales promotion aims to create quick buying response and trial.\nFinancial statement preparation belongs to accounting, not marketing.\nThe objective of promotion is customer action, not bookkeeping."
+    },
+    {
+      "id": "BS11Q79",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm selling software to businesses uses webinars, account managers and referral bonuses. Which combination is most accurate?",
+      "options": [
+        "Advertising, personal selling and sales promotion",
+        "Packaging, branding and warehousing",
+        "Public relations, transport and storage",
+        "Price, place and production"
+      ],
+      "correct": 1,
+      "explanation": "Webinars act as advertising or educational communication.\nAccount managers perform personal selling, and referral bonuses are sales promotion.\nThis is a combined promotion strategy for B2B markets."
+    },
+    {
+      "id": "BS11Q80",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Publicity can be more credible than paid advertising. Reason (R): Publicity is usually presented as news or information rather than as a direct paid message.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Publicity often appears as news coverage or editorial mention.\nBecause it is not framed as direct paid persuasion, it may seem more credible.\nSo the reason explains the assertion well."
+    },
+    {
+      "id": "BS11Q81",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are true about personal selling? 1. It helps in building customer relationships. 2. It is useful for complex products. 3. It is always cheaper than advertising. 4. It allows immediate feedback.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Personal selling is valuable for explanation, relationship and feedback.\nIt is especially useful when the product is complex.\nIt is not always cheaper than advertising, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q82",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A jewelry store salesperson shows a buyer how a diamond certificate, setting and polishing affect value. Which promotional role is being fulfilled?",
+      "options": [
+        "Mass reach",
+        "Personal persuasion and explanation",
+        "Warehousing support",
+        "Inventory control"
+      ],
+      "correct": 2,
+      "explanation": "The salesperson is explaining features and persuading a specific customer.\nThis is the essence of personal selling.\nThe interaction is individual and tailored, not mass communication."
+    },
+    {
+      "id": "BS11Q83",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of sales promotion?",
+      "options": [
+        "A TV commercial",
+        "A dealer discount scheme",
+        "A press conference",
+        "A brand logo"
+      ],
+      "correct": 2,
+      "explanation": "Dealer discount schemes are short-term incentives.\nThey are designed to stimulate quick response from intermediaries or consumers.\nThis is a classic sales promotion technique."
+    },
+    {
+      "id": "BS11Q84",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A new pen brand distributes free sample packs in schools, runs online ads and visits stationery shops for display support. What is the main purpose of combining these activities?",
+      "options": [
+        "To reduce product quality",
+        "To create integrated promotion",
+        "To replace the need for pricing",
+        "To eliminate distribution channels"
+      ],
+      "correct": 2,
+      "explanation": "Different promotional methods work better together than alone.\nSampling creates trial, ads build awareness and shop visits support push.\nThis integrated approach strengthens market entry."
+    },
+    {
+      "id": "BS11Q85",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a reason for using advertising?",
+      "options": [
+        "Creating awareness",
+        "Differentiating a brand",
+        "Supporting sales,",
+        "Guaranteeing zero customer complaints"
+      ],
+      "correct": 4,
+      "explanation": "Advertising can create awareness and help differentiate the brand.\nIt may also support sales and remind buyers.\nBut it cannot guarantee that complaints will never happen."
+    },
+    {
+      "id": "BS11Q86",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements about advertising objections are correct? 1. Advertising cost may be transferred to customers. 2. It may sometimes create false expectations. 3. It always leads to rational buying. 4. It can influence consumer behavior significantly.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Advertising cost often becomes part of product price.\nIt can also shape expectations and influence behavior strongly.\nStatement 3 is false because advertising does not always produce rational buying."
+    },
+    {
+      "id": "BS11Q87",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company uses a celebrity to speak positively about its community work and publishes stories about employee volunteering. Which promotional tool is most closely linked?",
+      "options": [
+        "Personal selling",
+        "Public relations",
+        "Price discounting",
+        "Warehouse management"
+      ],
+      "correct": 2,
+      "explanation": "Community stories and image-building activities are part of public relations.\nThey are designed to create goodwill and a favorable reputation.\nThey are not direct sales or price tactics."
+    },
+    {
+      "id": "BS11Q88",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which tool is most suitable for explaining technical differences between two industrial machines?",
+      "options": [
+        "Advertising only",
+        "Personal selling",
+        "Packaging",
+        "Transport"
+      ],
+      "correct": 2,
+      "explanation": "Technical products often need direct explanation and handling of objections.\nPersonal selling allows a two-way conversation and demonstration.\nThat makes it ideal for complex industrial goods."
+    },
+    {
+      "id": "BS11Q89",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Sales promotion is usually temporary in nature. Reason (R): It is designed to stimulate immediate purchase or trial, not to create permanent price changes.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Sales promotions are typically short-term incentives.\nThey are meant to trigger quick action like trial or immediate buying.\nThat is why the temporary nature is central to sales promotion."
+    },
+    {
+      "id": "BS11Q90",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A food company advertises on television, sends sales representatives to large retailers and offers coupons on its app. Which statement is best supported?",
+      "options": [
+        "Promotion should use only one tool",
+        "Promotion mix can vary by customer segment",
+        "Advertising replaces branding",
+        "Coupons are part of physical distribution"
+      ],
+      "correct": 2,
+      "explanation": "The company is tailoring communication for different market touchpoints.\nTelevision creates awareness, sales representatives push trade and coupons encourage trial.\nThis shows that promotion mix can vary by segment and objective."
+    },
+    {
+      "id": "BS11Q91",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Price in marketing is best defined as",
+      "options": [
+        "The quantity of goods produced",
+        "The amount of money charged for a product",
+        "The cost of packaging only",
+        "The discount given by retailers only"
+      ],
+      "correct": 2,
+      "explanation": "Price is the monetary value charged for the product or service.\nIt is one of the four Ps of marketing.\nIt affects demand, revenue and customer perception."
+    },
+    {
+      "id": "BS11Q92",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which factor directly influences pricing decisions?",
+      "options": [
+        "Customer demand",
+        "Warehouse colour",
+        "Brand name only",
+        "Truck model"
+      ],
+      "correct": 1,
+      "explanation": "Demand is a major factor in price setting.\nFirms look at how much customers value the product and can pay.\nThe other options are not direct pricing determinants."
+    },
+    {
+      "id": "BS11Q93",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A bakery launches a premium cake at a high price to signal quality and attract status-conscious buyers. Which pricing objective is most likely?",
+      "options": [
+        "Penetration pricing",
+        "Price skimming",
+        "Loss leader pricing",
+        "Geographical pricing"
+      ],
+      "correct": 2,
+      "explanation": "A high initial price used to recover from early adopters is price skimming.\nIt is common for innovative or premium products.\nThe strategy aims at prestige and early profit."
+    },
+    {
+      "id": "BS11Q94",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are correct about factors affecting price? 1. Cost of production matters. 2. Competition matters. 3. Brand image can matter. 4. Product packaging alone fixes the price.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Pricing is influenced by cost, competition and brand position.\nPackaging may affect perception, but it does not alone fix price.\nSo statement 4 is incorrect."
+    },
+    {
+      "id": "BS11Q95",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A lower price does not always guarantee higher sales. Reason (R): Buyers may also consider quality, brand image and availability before purchasing.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Price is important, but it is not the only buying factor.\nConsumers often evaluate quality, brand and place convenience too.\nSo the reason explains why lower price alone may fail to boost sales."
+    },
+    {
+      "id": "BS11Q96",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A new detergent enters the market at a low price to gain fast acceptance, even though the margin is small initially. Which pricing strategy is being used?",
+      "options": [
+        "Skimming pricing",
+        "Penetration pricing",
+        "Psychological pricing",
+        "Premium pricing"
+      ],
+      "correct": 2,
+      "explanation": "Penetration pricing uses a low introductory price to quickly attract buyers.\nIt is meant to build market share and discourage competitors.\nThe emphasis is on volume and acceptance rather than high initial margins."
+    },
+    {
+      "id": "BS11Q97",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a pricing objective?",
+      "options": [
+        "Survival",
+        "Profit maximization",
+        "Market share growth",
+        "Warehouse expansion"
+      ],
+      "correct": 4,
+      "explanation": "Survival, profit and market share are common pricing objectives.\nWarehouse expansion is a distribution or capacity decision.\nIt is not a direct objective of price setting."
+    },
+    {
+      "id": "BS11Q98",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company selling bottled water charges more in airports than in local markets because customers value convenience and have fewer alternatives. Which pricing factor is dominant?",
+      "options": [
+        "Customer location and willingness to pay",
+        "Brand labeling rules",
+        "Packaging style only",
+        "Public relations expenses only"
+      ],
+      "correct": 1,
+      "explanation": "Different locations can create different price sensitivity and convenience value.\nAirports often allow higher prices because of urgency and limited alternatives.\nThus demand and location affect price."
+    },
+    {
+      "id": "BS11Q99",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements about competition and price are true? 1. Competition may force a firm to lower price. 2. Competition is irrelevant if the product is branded. 3. A strong brand can sometimes support a higher price. 4. Price must always equal cost plus same margin.",
+      "options": [
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Competitive pressure often affects pricing decisions.\nStrong brands can sometimes command premium prices.\nPrice is not always a fixed cost-plus formula, so statement 4 is false."
+    },
+    {
+      "id": "BS11Q100",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Psychological pricing often means",
+      "options": [
+        "Pricing based only on transport cost",
+        "Using a price that creates a desired perception, like 99 instead of 100",
+        "Charging the same price everywhere",
+        "Setting price by law"
+      ],
+      "correct": 2,
+      "explanation": "Psychological pricing uses consumer perception.\nA 99 ending can make a price seem lower than it really is.\nIt is a common pricing tactic for retail markets."
+    },
+    {
+      "id": "BS11Q101",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A mobile seller keeps the handset price moderate but charges separately for earphones, cover and warranty extension. Which pricing approach is most visible?",
+      "options": [
+        "Bundling only",
+        "Unbundling of value components",
+        "Skimming pricing",
+        "Loss leader pricing"
+      ],
+      "correct": 2,
+      "explanation": "The main product price is separated from add-on features.\nThis is a form of unbundling where extras are charged separately.\nIt helps the seller match price with customer choice."
+    },
+    {
+      "id": "BS11Q102",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): The same product may carry different prices in different markets. Reason (R): Pricing can be influenced by market conditions, distribution costs and consumer purchasing power.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Prices can vary across segments, locations and channels.\nMarket conditions and customer purchasing power are common reasons.\nSo the reason correctly explains the assertion."
+    },
+    {
+      "id": "BS11Q103",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A brand of winter jackets charges a very high introductory price and later reduces it when imitation products appear. What strategy combination is this closest to?",
+      "options": [
+        "Penetration followed by skimming",
+        "Skimming followed by adjustment",
+        "Cost-plus only",
+        "Everyday low pricing"
+      ],
+      "correct": 2,
+      "explanation": "A high initial launch price followed by reduction fits skimming.\nThe firm first targets early buyers and later adjusts when competition grows.\nThat sequence is common for innovative premium products."
+    },
+    {
+      "id": "BS11Q104",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are correct about price as a marketing mix element? 1. It generates revenue directly. 2. It can influence brand positioning. 3. It is completely independent of promotion. 4. It may signal product quality.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Price is the only mix element that earns revenue directly.\nIt also shapes positioning and perceived quality.\nPromotion and price usually interact, so statement 3 is incorrect."
+    },
+    {
+      "id": "BS11Q105",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a factor in pricing a new product?",
+      "options": [
+        "Cost of production",
+        "Competitor prices",
+        "Customer value perception",
+        "The colour of the warehouse gate"
+      ],
+      "correct": 4,
+      "explanation": "Pricing uses economic and market variables.\nWarehouse gate colour does not affect the price decision.\nThe other three are standard inputs in pricing."
+    },
+    {
+      "id": "BS11Q106",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A cosmetics company sells one face wash at a higher price than competitors because it offers better packaging, brand reputation and added skin benefits. Which pricing principle is most likely?",
+      "options": [
+        "Cost-only pricing",
+        "Value-based pricing",
+        "Fixed government pricing",
+        "Penetration pricing"
+      ],
+      "correct": 2,
+      "explanation": "The firm is charging according to perceived value, not merely cost.\nBrand, packaging and extra benefits raise customer willingness to pay.\nThat is value-based pricing."
+    },
+    {
+      "id": "BS11Q107",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which pricing factor is most closely related to a firm's costs?",
+      "options": [
+        "Break-even point",
+        "Market segmentation",
+        "Brand logo",
+        "Channel width"
+      ],
+      "correct": 1,
+      "explanation": "Break-even analysis is rooted in fixed and variable cost structure.\nFirms use it to understand how much must be sold to cover costs.\nIt is directly connected with pricing decisions."
+    },
+    {
+      "id": "BS11Q108",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which of the following are possible effects of low pricing? 1. It may attract price-sensitive customers. 2. It may reduce profit margin. 3. It always creates a premium image. 4. It can be used to gain market share quickly.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Low pricing can stimulate demand among sensitive buyers.\nIt may also reduce per-unit margin, at least initially.\nPremium image is not guaranteed, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q109",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm sets a lower launch price, expects high volume and wants rivals to find entry difficult. Which combined logic is being used?",
+      "options": [
+        "Skimming and premium positioning",
+        "Penetration and market-share focus",
+        "Psychological pricing and branding",
+        "Price discrimination and publicity"
+      ],
+      "correct": 2,
+      "explanation": "A low launch price to gain volume and make entry difficult is penetration pricing.\nThe focus is on market share rather than immediate high margins.\nThis approach is common in competitive consumer markets."
+    },
+    {
+      "id": "BS11Q110",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Channel choice can affect the final price paid by customers. Reason (R): A longer distribution channel may add margins and distribution costs.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "More intermediaries can add markup and handling cost.\nThat often increases the price paid by the final customer.\nSo the reason directly explains the assertion."
+    },
+    {
+      "id": "BS11Q111",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A premium perfume brand keeps its price high, limits discounts and uses elegant packaging and selective stores. Which overall strategy is most consistent?",
+      "options": [
+        "Penetration pricing with intensive distribution",
+        "Premium positioning with selective distribution",
+        "Loss leader strategy with direct selling",
+        "Economy pricing with mass discounting"
+      ],
+      "correct": 2,
+      "explanation": "High price, selective outlets and elegant presentation together signal premium positioning.\nThe firm is trying to create exclusivity and quality perception.\nThis is different from low-price mass-market strategies."
+    },
+    {
+      "id": "BS11Q112",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is the best example of a discount?",
+      "options": [
+        "A higher launch price for a new product",
+        "Reduction in list price for bulk purchase",
+        "A brand slogan",
+        "A warehouse insurance policy"
+      ],
+      "correct": 2,
+      "explanation": "A discount is a price reduction from the stated price.\nBulk purchase discounts encourage larger buying.\nIt is a pricing tactic, not branding or insurance."
+    },
+    {
+      "id": "BS11Q113",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements about pricing are correct? 1. Customer perception matters. 2. Competition matters. 3. Cost alone decides every price. 4. Price can be used strategically. ",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Price is shaped by cost, competition and customer value.\nFirms also use price strategically for positioning or market share.\nCost alone never decides every price, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q114",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A startup selling organic jam keeps the price above local alternatives because customers value quality, authenticity and health benefits. Which factor is most influential?",
+      "options": [
+        "Consumer value perception",
+        "Transport insurance only",
+        "Dealer commission only",
+        "Seasonal advertising only"
+      ],
+      "correct": 1,
+      "explanation": "The company is charging more because the target market perceives extra value.\nHealth and authenticity help justify a premium price.\nThis is a classic case of value perception influencing price."
+    },
+    {
+      "id": "BS11Q115",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a likely effect of price changes?",
+      "options": [
+        "Change in demand",
+        "Change in revenue",
+        "Change in perceived value",
+        "Change in the product's physical colour"
+      ],
+      "correct": 4,
+      "explanation": "Price changes can affect demand, revenue and perceived value.\nBut they do not change the physical colour of the product.\nThat belongs to product design, not pricing."
+    },
+    {
+      "id": "BS11Q116",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A local bakery prices a special birthday cake much higher than a regular cake because of customization, urgency and customer emotion. Which pricing factor is highlighted most?",
+      "options": [
+        "Standard cost only",
+        "Special value and situation-based demand",
+        "Warehouse location",
+        "Ad budget"
+      ],
+      "correct": 2,
+      "explanation": "Customized urgent orders create higher willingness to pay.\nThe cake has special value due to personalization and timing.\nTherefore the situation-based demand is central to pricing."
+    },
+    {
+      "id": "BS11Q117",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Promotional efforts can support a higher price. Reason (R): They may increase perceived value, awareness and product differentiation.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Promotion helps build awareness and can create a better value perception.\nThat may allow the firm to charge more than undifferentiated rivals.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS11Q118",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm selling bottled juice offers a lower price to school canteens and a higher price in premium cafes. Which concept is best described?",
+      "options": [
+        "Price rigidity",
+        "Price discrimination based on segments",
+        "Cost-plus pricing only",
+        "Product bundling"
+      ],
+      "correct": 2,
+      "explanation": "Different customer groups can be charged differently for the same product.\nThe firm is segmenting prices according to channel or buyer type.\nThis is price discrimination based on market segments."
+    },
+    {
+      "id": "BS11Q119",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are true about pricing objectives? 1. They may include survival in a tough market. 2. They may include profit maximization. 3. They may include market penetration. 4. They can never change with business conditions.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Pricing objectives can vary by situation, from survival to growth and profit.\nThey are not fixed forever.\nSo statement 4 is false."
+    },
+    {
+      "id": "BS11Q120",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company keeps the price slightly below 500 so that customers perceive it as 499 rather than 500. Which pricing method is this?",
+      "options": [
+        "Psychological pricing",
+        "Skimming pricing",
+        "Geographical pricing",
+        "Bundle pricing"
+      ],
+      "correct": 1,
+      "explanation": "The strategy uses consumer perception of a number.\nA price ending in 9 often feels lower than a round figure.\nThat is psychological pricing."
+    },
+    {
+      "id": "BS11Q121",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A startup first studies customer problems, then designs a product, sets a price, chooses dealers and finally decides campaign themes. Which sequence is being followed?",
+      "options": [
+        "Production-first sequence",
+        "Marketing-first sequence",
+        "Selling-first sequence",
+        "Finance-first sequence"
+      ],
+      "correct": 2,
+      "explanation": "The sequence begins with customer needs and ends with coordinated mix decisions.\nThat is the marketing-first approach.\nIt is the opposite of making and then trying to sell."
+    },
+    {
+      "id": "BS11Q122",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following can be considered marketing functions? 1. Market research. 2. Standardization and grading. 3. Transport and storage. 4. Manufacturing raw material. ",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Research, standardization and physical movement are linked to marketing operations.\nManufacturing raw material is a production function.\nSo statement 4 is incorrect."
+    },
+    {
+      "id": "BS11Q123",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A retailer says customers buy what they see on the shelf. The company therefore invests in eye-catching packs, shelf displays and dealer training. Which combined focus is being shown?",
+      "options": [
+        "Only price leadership",
+        "Product presentation and promotion coordination",
+        "Only warehouse control",
+        "Only public relations"
+      ],
+      "correct": 2,
+      "explanation": "Shelf appeal, packaging and dealer support all work together near the point of sale.\nThis is coordination of product presentation and promotion.\nThe retailer is emphasizing visibility and persuasive display."
+    },
+    {
+      "id": "BS11Q124",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A product can be marketed effectively even when it is similar to competitors. Reason (R): Differentiation can be created through branding, packaging, pricing and promotion.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Many products are similar in core function yet still compete successfully.\nThat is possible because marketing creates distinction through the mix.\nThe reason explains how effective marketing can work in such markets."
+    },
+    {
+      "id": "BS11Q125",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which one of these is most directly a consumer product decision?",
+      "options": [
+        "Choosing a brand name",
+        "Selecting the truck route",
+        "Fixing a warehouse lease",
+        "Training a logistics team"
+      ],
+      "correct": 1,
+      "explanation": "Brand name is a product decision because it shapes identity.\nThe other options are connected to place or logistics.\nProduct decisions affect perception and recognition."
+    },
+    {
+      "id": "BS11Q126",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A soap manufacturer first looks at rural retailers, then prints larger fonts on labels, uses low-priced refill packs and assigns field sales staff. Which mix elements are linked here?",
+      "options": [
+        "Product, price, place and promotion",
+        "Only product and price",
+        "Only place and promotion",
+        "Only advertising and packaging"
+      ],
+      "correct": 1,
+      "explanation": "Label design is product-related, refill packs relate to pricing or product offering, rural retailers indicate place and sales staff indicate promotion.\nThe firm is clearly coordinating multiple Ps.\nThis is a complete marketing mix decision."
+    },
+    {
+      "id": "BS11Q127",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is the main purpose of market segmentation?",
+      "options": [
+        "To make all customers identical",
+        "To divide the market into groups with similar needs",
+        "To increase warehouse capacity",
+        "To fix one price for everyone"
+      ],
+      "correct": 2,
+      "explanation": "Segmentation groups customers by similar characteristics or needs.\nIt helps a firm design a suitable marketing mix.\nIt does not make all customers identical or force one price."
+    },
+    {
+      "id": "BS11Q128",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are true about target market selection and marketing mix? 1. Different segments may need different prices. 2. Different segments may need different promotion styles. 3. One mix always fits every market. 4. Product features may vary by segment.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "A company often adapts its product, price and promotion to different segments.\nOne universal mix rarely fits all customers.\nSo statement 3 is false."
+    },
+    {
+      "id": "BS11Q129",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A premium tea brand uses a family brand, elegant pouch, high price and sales through selected stores. Which marketing logic is most visible?",
+      "options": [
+        "Mass convenience positioning",
+        "Premium positioning",
+        "Loss leader positioning",
+        "Warehouse dominance"
+      ],
+      "correct": 2,
+      "explanation": "The mix signals exclusivity and higher value.\nSelected stores, attractive packaging and premium price all point to premium positioning.\nThis is a deliberate market image strategy."
+    },
+    {
+      "id": "BS11Q130",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A well-designed label can support legal compliance. Reason (R): It may show ingredients, quantity, warnings and other required information.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Labels often carry mandatory consumer information.\nThis helps the firm meet legal and regulatory requirements.\nSo the reason explains the assertion directly."
+    },
+    {
+      "id": "BS11Q131",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A beverage company wants quick market entry, low promotional clutter and wide consumer acceptance. It picks low pricing, broad retail coverage and simple packaging. What is the most likely strategy?",
+      "options": [
+        "Skimming with exclusivity",
+        "Penetration with intensive distribution",
+        "Premium pricing with selective distribution",
+        "Psychological pricing with direct sales"
+      ],
+      "correct": 2,
+      "explanation": "Low price, wide coverage and simple presentation fit penetration strategy.\nThe goal is rapid acceptance and volume growth.\nBroad availability is also important in this approach."
+    },
+    {
+      "id": "BS11Q132",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT part of the product mix for a consumer good?",
+      "options": [
+        "Branding",
+        "Packaging",
+        "Labelling",
+        "Transportation route"
+      ],
+      "correct": 4,
+      "explanation": "Branding, packaging and labelling are product decisions.\nTransportation route is part of place or distribution decisions.\nThe question distinguishes product from channel management."
+    },
+    {
+      "id": "BS11Q133",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements about marketing and selling are correct? 1. Selling is one part of marketing. 2. Marketing begins after the product is produced. 3. Marketing aims at satisfaction and profit. 4. Selling mainly focuses on exchange of goods for money.",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Selling is narrower and is included within the wider marketing process.\nMarketing does not begin only after production; it starts with customer needs.\nSo statement 2 is false."
+    },
+    {
+      "id": "BS11Q134",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A frozen food company invests in cold storage, refrigerated trucks and inventory software. Which marketing function is being strengthened most?",
+      "options": [
+        "Promotion",
+        "Physical distribution",
+        "Branding",
+        "Price leadership"
+      ],
+      "correct": 2,
+      "explanation": "Cold chain, storage and inventory systems are all part of physical distribution.\nThey protect product quality and ensure timely delivery.\nThis is a logistics-focused place decision."
+    },
+    {
+      "id": "BS11Q135",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of these products is usually classified as a specialty product?",
+      "options": [
+        "Bread",
+        "Salt",
+        "Luxury sports car",
+        "Soap"
+      ],
+      "correct": 3,
+      "explanation": "Specialty products have unique characteristics or strong brand preference.\nBuyers are willing to make special effort to obtain them.\nA luxury sports car is a typical example."
+    },
+    {
+      "id": "BS11Q136",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which of the following are true about channels of distribution? 1. They can provide credit and risk-bearing services. 2. They may reduce the burden on producers. 3. They always make products cheaper for the buyer. 4. They may improve market coverage. ",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Intermediaries often provide useful services like credit, storage and risk bearing.\nThey can help producers reach a wider market.\nThey do not always make products cheaper, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q137",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company uses a short, easy-to-remember brand name for a breakfast cereal and prints it boldly on the pack. Which two product decisions are most linked?",
+      "options": [
+        "Branding and packaging",
+        "Pricing and financing",
+        "Promotion and warehousing",
+        "Transport and inventory"
+      ],
+      "correct": 1,
+      "explanation": "The name is branding and the bold display on the pack is packaging presentation.\nBoth help in recognition and differentiation.\nThey are core product-related decisions."
+    },
+    {
+      "id": "BS11Q138",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A channel of distribution may be chosen differently for durable goods and fast-moving goods. Reason (R): Product nature, buying frequency and customer location influence channel choice.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Durable and fast-moving goods often require different channel structures.\nThis depends on product characteristics, demand pattern and market spread.\nSo the reason accurately explains the assertion."
+    },
+    {
+      "id": "BS11Q139",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A shoe company uses TV ads for brand recall, dealer contests for push and salespeople to fit customers in stores. Which promotion logic is best described?",
+      "options": [
+        "Only pull strategy",
+        "Only push strategy",
+        "Integrated push-pull strategy",
+        "Only public relations"
+      ],
+      "correct": 3,
+      "explanation": "TV ads pull customers toward the brand, dealer contests push the product through channels and salespeople close the sale.\nUsing both approaches together is an integrated strategy.\nIt is common in retail consumer markets."
+    },
+    {
+      "id": "BS11Q140",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is a brand loyalty?",
+      "options": [
+        "Changing brands every time",
+        "Repeated preference for a particular brand",
+        "Buying only on discount",
+        "Ignoring product labels"
+      ],
+      "correct": 2,
+      "explanation": "Brand loyalty means customers keep choosing the same brand.\nIt is built through satisfaction, trust and value.\nIt helps firms stabilize demand over time."
+    },
+    {
+      "id": "BS11Q141",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A detergent firm increases dealer margins, places point-of-sale posters and trains staff to explain benefits. Which part of the marketing mix is being strengthened alongside promotion?",
+      "options": [
+        "Product only",
+        "Place and promotion coordination",
+        "Price only",
+        "Finance only"
+      ],
+      "correct": 2,
+      "explanation": "Dealer margins and in-store support are channel and promotion tools.\nThey help motivate intermediaries and influence final buyers.\nThis shows coordination of place and promotion."
+    },
+    {
+      "id": "BS11Q142",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a role of packaging?",
+      "options": [
+        "Protection",
+        "Convenience",
+        "Identification",
+        "Determining factory wage rates"
+      ],
+      "correct": 4,
+      "explanation": "Packaging protects, identifies and adds convenience.\nIt does not decide wages or labour policy.\nThat belongs to human resource management."
+    },
+    {
+      "id": "BS11Q143",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are true about the role of advertising? 1. It can create awareness. 2. It can support brand image. 3. It can directly deliver the product to the customer. 4. It can remind consumers about repeat purchase.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Advertising communicates with the market and can create awareness and recall.\nIt supports brand image as well.\nPhysical delivery is a distribution task, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q144",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A bottled water company uses a new-shaped bottle, a premium label and an introductory festival discount. Which marketing mix elements are being used together?",
+      "options": [
+        "Product and promotion",
+        "Price only",
+        "Place only",
+        "Product and place"
+      ],
+      "correct": 1,
+      "explanation": "Bottle shape and label relate to product, while the festival discount belongs to promotion or price tactics.\nThe company is using product presentation and promotional incentives together.\nThat combination is more powerful than one tool alone."
+    },
+    {
+      "id": "BS11Q145",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A good channel of distribution can enhance customer convenience. Reason (R): It makes products available at the right place and often at the right time.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Customer convenience improves when access becomes easier.\nChannels do this by ensuring timely and local availability.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS11Q146",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company selling toothpaste sells through many neighborhood shops, supermarkets and online platforms. Which distribution strategy is most likely?",
+      "options": [
+        "Exclusive distribution",
+        "Selective distribution",
+        "Intensive distribution",
+        "Zero-level only"
+      ],
+      "correct": 3,
+      "explanation": "Using many outlets aims to maximize product availability.\nThat is the essence of intensive distribution.\nToothpaste is a convenience product suited to this strategy."
+    },
+    {
+      "id": "BS11Q147",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is a major reason for using intermediaries?",
+      "options": [
+        "They reduce market reach",
+        "They help in efficient distribution",
+        "They eliminate demand",
+        "They remove the need for packaging"
+      ],
+      "correct": 2,
+      "explanation": "Intermediaries make distribution more efficient and accessible.\nThey help bridge distance, quantity and timing gaps.\nThis supports both producers and customers."
+    },
+    {
+      "id": "BS11Q148",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company launches a herbal shampoo with a clear ingredient list, a brand name, a premium look and a small introductory coupon. Which view of marketing is most evident?",
+      "options": [
+        "Only production concept",
+        "Only selling concept",
+        "Customer-centered marketing concept",
+        "Only warehouse concept"
+      ],
+      "correct": 3,
+      "explanation": "The firm is designing the mix around customer preferences and market appeal.\nIt combines product information, identity, price incentive and presentation.\nThat is customer-centered marketing in action."
+    },
+    {
+      "id": "BS11Q149",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following are true about sales promotion? 1. It may encourage trial. 2. It may be short term. 3. It is mainly used for routine warehouse storage. 4. It can support dealer motivation.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Sales promotion often uses temporary incentives.\nIt can encourage trial and motivate intermediaries.\nWarehousing is a distribution activity, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q150",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A firm sells office chairs through corporate contracts instead of retail outlets because buyers are few, large and geographically concentrated. Which channel factor is driving this choice?",
+      "options": [
+        "Buyer concentration and order size",
+        "Only packaging cost",
+        "Only television reach",
+        "Only public relations"
+      ],
+      "correct": 1,
+      "explanation": "Large, concentrated buyers are often served directly or through limited channels.\nThis reduces complexity and improves service.\nOrder size and buyer concentration are key channel determinants."
+    },
+    {
+      "id": "BS11Q151",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Promotion can reduce market uncertainty for buyers. Reason (R): It provides information about features, use and availability of the product.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Promotion helps buyers learn what the product is and where it can be obtained.\nInformation reduces uncertainty in the decision process.\nSo the reason explains the assertion well."
+    },
+    {
+      "id": "BS11Q152",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a factor influencing the choice of price?",
+      "options": [
+        "Cost of the product",
+        "Competition in the market",
+        "Expected demand",
+        "Warehouse wall paint"
+      ],
+      "correct": 4,
+      "explanation": "Price is affected by cost, demand and competition.\nWarehouse wall paint has no direct connection with pricing.\nThe question checks whether the pricing decision is linked to business variables."
+    },
+    {
+      "id": "BS11Q153",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A bakery launches mini cupcakes at a low price and places them near the billing counter for impulse buying. Which mix logic is being used?",
+      "options": [
+        "Price and place coordination for impulse purchase",
+        "Only product innovation",
+        "Only personal selling",
+        "Only public relations"
+      ],
+      "correct": 1,
+      "explanation": "Low price supports quick trial, and counter placement encourages impulse buying.\nThis is a coordinated price and place tactic.\nIt is designed for immediate consumer response."
+    },
+    {
+      "id": "BS11Q154",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which product category is bought without much planning and with frequent repeat purchase?",
+      "options": [
+        "Shopping product",
+        "Convenience product",
+        "Specialty product",
+        "Industrial product"
+      ],
+      "correct": 2,
+      "explanation": "Convenience products are routine purchases made with little effort.\nThey are usually low-priced and widely available.\nThis is common for items like soap, salt or bread."
+    },
+    {
+      "id": "BS11Q155",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are true about advertising and sales promotion? 1. Advertising usually aims at long-term brand image. 2. Sales promotion often aims at immediate action. 3. Both are identical in purpose and method. 4. Both can support product launch.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Advertising often builds awareness and brand image over time.\nSales promotion is usually short-term and action-oriented.\nThey are different tools, though both can support a launch."
+    },
+    {
+      "id": "BS11Q156",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A mobile app company uses referral points for existing users and influencer posts for new users. Which marketing activities are combined here?",
+      "options": [
+        "Sales promotion and advertising",
+        "Warehousing and transport",
+        "Branding and labelling",
+        "Price and physical distribution"
+      ],
+      "correct": 1,
+      "explanation": "Referral points are a sales promotion device.\nInfluencer posts function as advertising or promotional communication.\nThe company is combining two promotion tools to grow users."
+    },
+    {
+      "id": "BS11Q157",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A product label can help in differentiation. Reason (R): It may display a distinctive brand and design elements that customers recognize quickly.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Labels often carry the brand identity and visual cues.\nThese can help the product stand out on the shelf.\nThat is why the reason explains the assertion."
+    },
+    {
+      "id": "BS11Q158",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company selling office printers chooses wholesalers to cover many small buyers and reduce its own selling effort. Which channel benefit is being sought?",
+      "options": [
+        "Raising production cost",
+        "Expanding market coverage efficiently",
+        "Eliminating customer service",
+        "Reducing product quality"
+      ],
+      "correct": 2,
+      "explanation": "Wholesalers help reach many small buyers efficiently.\nThey reduce the producer's direct selling burden.\nThis improves market coverage and channel efficiency."
+    },
+    {
+      "id": "BS11Q159",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is a common role of personal selling?",
+      "options": [
+        "Directly delivering goods to the customer",
+        "Handling objections and closing the sale",
+        "Printing product labels",
+        "Storing inventory"
+      ],
+      "correct": 2,
+      "explanation": "Personal selling helps explain features, handle objections and close deals.\nIt is especially useful for products requiring detailed discussion.\nIt is not a transport or storage function."
+    },
+    {
+      "id": "BS11Q160",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are true about the role of marketing in a firm? 1. It helps identify customer needs. 2. It links production with consumption. 3. It can improve profitability through satisfaction. 4. It removes the need for product innovation.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Marketing studies needs, connects producers to consumers and can improve profits by building satisfaction.\nIt does not remove the need for innovation.\nSo statement 4 is false."
+    },
+    {
+      "id": "BS11Q161",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company sells luxury handbags at a high price because the brand signals status and quality. Which factor is least likely to be the main basis of pricing?",
+      "options": [
+        "Customer perception of value",
+        "Brand image",
+        "Competitive pressure only",
+        "Prestige positioning"
+      ],
+      "correct": 3,
+      "explanation": "Luxury pricing is usually supported by brand image, prestige and perceived value.\nCompetitive pressure matters, but it is not usually the only basis.\nThe price is more about positioning than simply copying rivals."
+    },
+    {
+      "id": "BS11Q162",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A company may use selective distribution for premium products. Reason (R): Premium products often need controlled availability and better service support.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Selective distribution suits products that need a controlled retail environment.\nPremium items often require service, display and brand protection.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS11Q163",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A fast-food chain uses bright menu boards, combo offers, online ads and delivery apps. Which mix elements are most clearly combined?",
+      "options": [
+        "Product, place and promotion",
+        "Only price and place",
+        "Only branding and labelling",
+        "Only transportation and warehousing"
+      ],
+      "correct": 1,
+      "explanation": "Menu boards and ads are promotional, combo offers involve price, and delivery apps affect place.\nThe chain is coordinating multiple marketing mix elements.\nThis supports both visibility and convenience."
+    },
+    {
+      "id": "BS11Q164",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are correct about marketing mix? 1. It is a set of controllable variables. 2. It should be coordinated. 3. It includes product, price, place and promotion. 4. It is completely uncontrollable by the firm.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "The four Ps are controllable decisions made by the firm.\nThey work best when coordinated.\nStatement 4 is the opposite of what the marketing mix means."
+    },
+    {
+      "id": "BS11Q165",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a direct way to build product awareness?",
+      "options": [
+        "Advertising",
+        "Branding",
+        "Sales promotion",
+        "Warehouse stacking"
+      ],
+      "correct": 4,
+      "explanation": "Advertising, branding and sales promotion can all support awareness.\nWarehouse stacking is a storage activity, not a communication activity.\nIt does not directly inform the market."
+    },
+    {
+      "id": "BS11Q166",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company selling study lamps decides to sell through both e-commerce and selected bookstores. It also runs online reviews and offers launch coupons. What best describes the approach?",
+      "options": [
+        "Only product diversification",
+        "Mixed channel and promotion strategy",
+        "Only public relations",
+        "Only cost minimization"
+      ],
+      "correct": 2,
+      "explanation": "The company is using multiple channels and promotional tools.\nThis helps reach different buyer habits and build early acceptance.\nThe strategy is broader than a single marketing tactic."
+    },
+    {
+      "id": "BS11Q167",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following most directly helps in repeat purchase?",
+      "options": [
+        "Customer satisfaction",
+        "Warehouse size",
+        "Truck speed alone",
+        "Brand colour only"
+      ],
+      "correct": 1,
+      "explanation": "Repeat purchase usually follows satisfaction with the product and service.\nMarketing aims not just to sell once but to retain customers.\nThat is why satisfaction matters most."
+    },
+    {
+      "id": "BS11Q168",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company selling school uniforms keeps a stable price, uses uniform dealers in each city and displays simple catalogues. Which factor may explain this plain strategy?",
+      "options": [
+        "Standardized product and predictable demand",
+        "Luxury positioning",
+        "Highly perishable product",
+        "Need for celebrity endorsement"
+      ],
+      "correct": 1,
+      "explanation": "Uniforms are standardized products with predictable demand.\nThey do not usually need premium positioning or aggressive promotion.\nStable pricing and regular channels fit such a product."
+    },
+    {
+      "id": "BS11Q169",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): Advertising can be both informative and persuasive. Reason (R): It may explain product features while also influencing preference for a brand.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Good advertising often does more than simply announce a product.\nIt may tell buyers what the product does and why it is better.\nSo the reason explains the dual role of advertising."
+    },
+    {
+      "id": "BS11Q170",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A detergent firm wants to enter rural markets where buyers are price-sensitive, stores are spread out and packets must be low-cost. Which mix choice is most suitable?",
+      "options": [
+        "Premium price, exclusive stores and glossy pack",
+        "Low price, intensive distribution and simple packaging",
+        "High price, direct selling and luxury pack",
+        "Skimming price, selective distribution and celebrity ads"
+      ],
+      "correct": 2,
+      "explanation": "Rural price sensitivity and spread-out stores call for low price and wide availability.\nSimple packaging keeps costs manageable.\nThis combination fits the market realities better than premium positioning."
+    },
+    {
+      "id": "BS11Q171",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which term refers to the movement of goods through wholesalers and retailers?",
+      "options": [
+        "Marketing mix",
+        "Distribution channel",
+        "Brand equity",
+        "Market research"
+      ],
+      "correct": 2,
+      "explanation": "A distribution channel is the route goods take from producer to consumer.\nWholesalers and retailers are common intermediaries.\nIt is different from research or brand value."
+    },
+    {
+      "id": "BS11Q172",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements about marketing philosophy are true? 1. Production concept emphasizes efficiency. 2. Product concept assumes customers prefer best quality product. 3. Marketing concept begins from customer wants. 4. Selling concept is identical to societal marketing concept.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Production concept focuses on efficient production and product concept on product quality.\nMarketing concept begins with customer needs.\nSelling concept is not the same as societal marketing, so statement 4 is false."
+    },
+    {
+      "id": "BS11Q173",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A cosmetics company uses a QR code on the label that links to ingredients, tutorials and recycling instructions. Which product decision is this most closely related to?",
+      "options": [
+        "Labelling with informational value",
+        "Pricing with rebate value",
+        "Warehouse management",
+        "Channel conflict resolution"
+      ],
+      "correct": 1,
+      "explanation": "The QR code on the label is a labeling decision.\nIt provides information and convenience to the customer.\nIt can also support safety, learning and sustainability."
+    },
+    {
+      "id": "BS11Q174",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of an unsought product?",
+      "options": [
+        "Toothpaste",
+        "Salt",
+        "Life insurance",
+        "Milk"
+      ],
+      "correct": 3,
+      "explanation": "Unsought products are not usually desired or actively sought by buyers.\nLife insurance is a classic example because people often do not think about it until persuaded.\nThe other items are much more routine purchases."
+    },
+    {
+      "id": "BS11Q175",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A soap manufacturer increases promotion but does not improve quality or distribution. Sales rise briefly and then fall. What is the best interpretation?",
+      "options": [
+        "Promotion alone can permanently fix all demand",
+        "Promotion cannot compensate for weak product and place decisions forever",
+        "Price has no relation to sales",
+        "Branding always fails"
+      ],
+      "correct": 2,
+      "explanation": "Temporary gains from promotion may not last if the product and availability are weak.\nMarketing mix elements must support each other.\nThat is why promotion alone cannot sustain long-term success."
+    },
+    {
+      "id": "BS11Q176",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): A well-designed package can increase convenience. Reason (R): It may make the product easy to carry, store and use.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Packaging is not only for protection; it also aids convenience.\nEasy carrying, storage and handling are major advantages.\nSo the reason directly explains the assertion."
+    },
+    {
+      "id": "BS11Q177",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which of the following are true about physical distribution and customer service? 1. Faster delivery can improve satisfaction. 2. Stockouts may hurt brand image. 3. Distribution has no relation to after-sale service. 4. Good distribution supports repeat buying.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Availability and delivery speed shape customer experience.\nStockouts can damage trust and reduce repeat purchase.\nDistribution often supports service, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q178",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A premium stationery brand wants to avoid discount stores because it believes too much availability will reduce exclusivity. Which distribution strategy is likely?",
+      "options": [
+        "Intensive distribution",
+        "Selective distribution",
+        "Mass channeling",
+        "Open warehousing"
+      ],
+      "correct": 2,
+      "explanation": "Selective distribution limits outlets to preserve brand image and control service.\nThis is common for premium or prestige goods.\nThe firm is avoiding overexposure to maintain exclusivity."
+    },
+    {
+      "id": "BS11Q179",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "A coupon is best classified as a part of",
+      "options": [
+        "Promotion",
+        "Product",
+        "Place",
+        "Physical distribution"
+      ],
+      "correct": 1,
+      "explanation": "Coupons are a promotional incentive.\nThey aim to encourage immediate purchase or trial.\nThus they belong to sales promotion under promotion mix."
+    },
+    {
+      "id": "BS11Q180",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "A company finds that its customers are spread across many towns and usually buy from nearby shops. Which channel choice is most sensible?",
+      "options": [
+        "Direct only from factory",
+        "A wide retailer-based channel",
+        "No distribution channel",
+        "Only exclusive outlets in one city"
+      ],
+      "correct": 2,
+      "explanation": "When customers are widely spread and prefer nearby purchase, retailers become important.\nA broad channel improves access and convenience.\nThat is more practical than direct-only selling."
+    },
+    {
+      "id": "BS11Q181",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A): A strong brand can support higher margins. Reason (R): It may create trust, loyalty and perceived superiority in the minds of buyers.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "When customers trust a brand, they may accept a higher price.\nLoyalty and perceived superiority reduce direct price comparison.\nSo the reason explains the higher-margin possibility."
+    },
+    {
+      "id": "BS11Q182",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements about promotion mix are true? 1. It can include paid communication. 2. It can include direct interaction. 3. It can include incentive offers. 4. It can include storage of goods only.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Promotion mix includes advertising, personal selling, sales promotion and public relations.\nStorage of goods is a distribution activity.\nSo statement 4 is false."
+    },
+    {
+      "id": "BS11Q183",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A medicine company uses doctors' meetings, patient leaflets and TV reminders. Which marketing challenge is being addressed?",
+      "options": [
+        "Only warehouse loss",
+        "Only packaging strength",
+        "Both awareness and persuasion in a regulated market",
+        "Only channel length"
+      ],
+      "correct": 3,
+      "explanation": "The company is trying to inform multiple audiences and persuade them carefully.\nThis is common in regulated, high-trust categories.\nThe mix addresses awareness, credibility and repeated recall."
+    },
+    {
+      "id": "BS11Q184",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT a benefit of personal selling?",
+      "options": [
+        "Customized communication",
+        "Immediate feedback",
+        "Relationship building",
+        "Automatic mass reach at zero cost"
+      ],
+      "correct": 4,
+      "explanation": "Personal selling offers customization and feedback but not mass reach.\nIt is also not zero cost because salespeople need training and support.\nThe question checks the limits of each promotional tool."
+    },
+    {
+      "id": "BS11Q185",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following best describes a sales pitch?",
+      "options": [
+        "A product label",
+        "A persuasive explanation by a salesperson",
+        "A transport invoice",
+        "A warehouse receipt"
+      ],
+      "correct": 2,
+      "explanation": "A sales pitch is a persuasive presentation made by a seller.\nIt is a direct part of personal selling.\nIt helps explain value and answer objections."
+    },
+    {
+      "id": "BS11Q186",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company chooses a lower introductory price, intensive distribution and a strong ad campaign for a new snack. Which market goal is most likely?",
+      "options": [
+        "Rapid market penetration",
+        "Premium exclusivity",
+        "Reduced customer access",
+        "Limited trial"
+      ],
+      "correct": 1,
+      "explanation": "Low price, wide distribution and strong promotion are typical penetration tools.\nThey are designed to quickly build market share and trial.\nThis is especially useful for fast-moving consumer goods."
+    },
+    {
+      "id": "BS11Q187",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are true about the role of advertising? 1. It may stimulate demand. 2. It may improve brand recall. 3. It always guarantees ethical behavior. 4. It may help launch a new product.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Advertising can generate demand, recall and product awareness.\nIt is often important during launches.\nIt does not guarantee ethical behavior, so statement 3 is false."
+    },
+    {
+      "id": "BS11Q188",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company notices its product is good but sales are low because retailers do not stock it properly. Which marketing mix area should be strengthened first?",
+      "options": [
+        "Place",
+        "Product",
+        "Price only",
+        "Packaging only"
+      ],
+      "correct": 1,
+      "explanation": "If the product is not available, the issue lies in distribution.\nThe firm needs better channel support, stock availability and retailer coverage.\nThat means strengthening place first."
+    },
+    {
+      "id": "BS11Q189",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Marketing helps create exchange value. Reason (R): It brings buyers and sellers together through product, price, place and promotion decisions.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Exchange value emerges when the market offer matches customer expectations.\nThe four Ps are the main levers used to create that match.\nSo the reason explains the assertion well."
+    },
+    {
+      "id": "BS11Q190",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A company selling school shoes keeps a low price, uses many retail outlets, and prints durability claims on the box. What is the best interpretation?",
+      "options": [
+        "Only pricing matters",
+        "Product, place and price are aligned for mass buyers",
+        "Only promotion is involved",
+        "The firm is using selective exclusivity"
+      ],
+      "correct": 2,
+      "explanation": "Low price, wide outlet coverage and functional packaging fit a mass-market product.\nThe claims on the box support product communication.\nThis is coordinated marketing mix design for everyday buyers."
+    },
+    {
+      "id": "BS11Q191",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Which statements are true about selling concept versus marketing concept? 1. Selling concept starts after production. 2. Marketing concept starts with consumer needs. 3. Selling concept focuses more on persuasion. 4. Marketing concept ignores customer satisfaction.",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Selling concept usually follows production and relies on persuasion.\nMarketing concept begins with needs and aims at satisfaction.\nSo statement 4 is false."
+    },
+    {
+      "id": "BS11Q192",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "Which of the following is most closely related to a warranty?",
+      "options": [
+        "Product assurance",
+        "Warehouse layout",
+        "Advertising media plan",
+        "Retail margin"
+      ],
+      "correct": 1,
+      "explanation": "Warranty is a product-related assurance given to customers.\nIt enhances confidence and supports purchase decisions.\nIt is not a distribution or ad decision directly."
+    },
+    {
+      "id": "BS11Q193",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A laptop brand offers a free bag, one-year support and a clear label on the box. Which product mix idea is being used?",
+      "options": [
+        "Core product only",
+        "Augmented product",
+        "Price skimming",
+        "Channel exclusivity"
+      ],
+      "correct": 2,
+      "explanation": "The free bag, support and label add value beyond the laptop itself.\nThis is the augmented product concept.\nIt helps customers perceive more utility and service."
+    },
+    {
+      "id": "BS11Q194",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which of the following is NOT normally a function of advertising?",
+      "options": [
+        "Informing buyers",
+        "Persuading buyers",
+        "Reminding buyers",
+        "Physically transporting goods"
+      ],
+      "correct": 4,
+      "explanation": "Advertising communicates; it does not move goods physically.\nTransport is a distribution function.\nThe other three are classic communication roles of advertising."
+    },
+    {
+      "id": "BS11Q195",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A cosmetics company wants to change its image from ordinary to premium. It upgrades packaging, reduces discounting and shifts to selected stores. What is the most likely goal?",
+      "options": [
+        "Mass convenience positioning",
+        "Premium brand repositioning",
+        "Warehouse integration",
+        "Price elimination"
+      ],
+      "correct": 2,
+      "explanation": "Packaging, pricing and distribution are all being adjusted to change market perception.\nThis is a repositioning effort toward premium image.\nThe firm is using the marketing mix to alter brand meaning."
+    },
+    {
+      "id": "BS11Q196",
+      "type": "assertion_reason",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Assertion (A): Distribution channels can create place utility. Reason (R): They make products available where consumers need them, reducing search and travel effort.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Place utility is created when products become available in convenient locations.\nChannels do this by reducing the effort customers must spend to obtain goods.\nSo the reason explains the assertion."
+    },
+    {
+      "id": "BS11Q197",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Which statements are true about product branding and promotion? 1. A strong brand can make promotion easier. 2. Promotional messages can reinforce brand identity. 3. Branding and promotion are unrelated. 4. Both can influence customer loyalty.",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Branding and promotion support each other.\nPromotional messages often strengthen identity and loyalty.\nStatement 3 is false because the two are closely related."
+    },
+    {
+      "id": "BS11Q198",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A factory makes a durable mixer grinder. Because buyers compare features carefully, the firm provides demonstrations, a warranty and selected dealers. Which marketing logic is most accurate?",
+      "options": [
+        "Convenience product logic",
+        "Shopping product logic",
+        "Unsought product logic",
+        "Industrial product logic only"
+      ],
+      "correct": 2,
+      "explanation": "Durable consumer goods are often shopping products because buyers compare features and prices.\nDemonstrations and warranty support such comparison-based buying.\nSelected dealers also help in service and availability."
+    },
+    {
+      "id": "BS11Q199",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "What is the main purpose of a coupon?",
+      "options": [
+        "To store goods",
+        "To provide a price incentive",
+        "To manufacture packaging",
+        "To create transport routes"
+      ],
+      "correct": 2,
+      "explanation": "A coupon gives buyers a direct incentive, usually a discount.\nIt is used to stimulate trial or repeat purchase.\nThis makes it a sales promotion tool."
+    },
+    {
+      "id": "BS11Q200",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "A brand of breakfast cereal uses a bright pack, a fair price, wide retail distribution and a morning TV campaign. Which statement best describes the strategy?",
+      "options": [
+        "The firm is focusing only on one P",
+        "The firm is coordinating the marketing mix for mass appeal",
+        "The firm is using only personal selling",
+        "The firm is ignoring product differentiation"
+      ],
+      "correct": 2,
+      "explanation": "Bright packaging, price, availability and advertising are all working together.\nThat is coordinated marketing mix planning for a mass consumer product.\nThe result is stronger reach, visibility and customer appeal."
+    }
+  ]
+}

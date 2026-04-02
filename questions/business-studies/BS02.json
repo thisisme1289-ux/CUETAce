@@ -1,0 +1,3009 @@
+{
+  "subject": "Business Studies",
+  "subject_code": "305",
+  "chapter_id": "BS02",
+  "chapter": "BS02 — Principles of Management (Fayol's 14 Principles, Taylor's Scientific Management)",
+  "total_questions": 200,
+  "questions": [
+    {
+      "id": "BS02Q01",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 1st internal review, Aarav Textiles has assigned separate supervisors for packing, quality check and dispatch in its spinning mill. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Unity of direction",
+        "Division of work",
+        "Scalar chain",
+        "Equity"
+      ],
+      "correct": 2,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q02",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 2nd review, Nisha Foods' manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the retail chain. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Unity of command",
+        "Order",
+        "Scalar chain",
+        "Remuneration"
+      ],
+      "correct": 3,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q03",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 3rd review, a supervisor at Metro Plastics believes that workers should first be selected scientifically, then trained for maximum output in the logistics warehouse. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Order",
+        "Unity of direction",
+        "Equity",
+        "Development of each and every person to his or her greatest efficiency and prosperity"
+      ],
+      "correct": 4,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q04",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 4th review, Kiran Logistics introduces standard tools and a fixed best way to carry out a task in its packaging unit. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Centralisation",
+        "Motion study",
+        "Initiative",
+        "Standardisation and simplification of work"
+      ],
+      "correct": 4,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q05",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 5th internal review, Zenith Motors has assigned separate supervisors for packing, quality check and dispatch in its automobile workshop. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Division of work",
+        "Unity of direction",
+        "Scalar chain",
+        "Equity"
+      ],
+      "correct": 1,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q06",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 6th review, Orbit Retail's manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the dairy plant. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Order",
+        "Scalar chain",
+        "Unity of command",
+        "Remuneration"
+      ],
+      "correct": 2,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q07",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 7th review, a supervisor at Nova Packaging believes that workers should first be selected scientifically, then trained for maximum output in the foundry. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Order",
+        "Development of each and every person to his or her greatest efficiency and prosperity",
+        "Unity of direction",
+        "Equity"
+      ],
+      "correct": 2,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q08",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 8th review, Prism Pharma introduces standard tools and a fixed best way to carry out a task in its printing press. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Initiative",
+        "Standardisation and simplification of work",
+        "Centralisation",
+        "Motion study"
+      ],
+      "correct": 2,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q09",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 9th internal review, Unity Spinners has assigned separate supervisors for packing, quality check and dispatch in its spinning mill. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Unity of direction",
+        "Division of work",
+        "Equity",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q10",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 10th review, Pioneer Steels' manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the steel workshop. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Scalar chain",
+        "Order",
+        "Remuneration",
+        "Unity of command"
+      ],
+      "correct": 1,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q11",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 11th review, a supervisor at Bright Tech believes that workers should first be selected scientifically, then trained for maximum output in the electronics assembly line. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Order",
+        "Equity",
+        "Development of each and every person to his or her greatest efficiency and prosperity",
+        "Unity of direction"
+      ],
+      "correct": 3,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q12",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 12th review, Harbor Supplies introduces standard tools and a fixed best way to carry out a task in its supply depot. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Standardisation and simplification of work",
+        "Initiative",
+        "Motion study",
+        "Centralisation"
+      ],
+      "correct": 1,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q13",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 13th internal review, Saffron Garments has assigned separate supervisors for packing, quality check and dispatch in its garment factory. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Equity",
+        "Scalar chain",
+        "Unity of direction",
+        "Division of work"
+      ],
+      "correct": 4,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q14",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 14th review, Prime Builders' manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the construction firm. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Unity of command",
+        "Scalar chain",
+        "Order",
+        "Remuneration"
+      ],
+      "correct": 2,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q15",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 15th review, a supervisor at Vista Electronics believes that workers should first be selected scientifically, then trained for maximum output in the electronics unit. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Equity",
+        "Development of each and every person to his or her greatest efficiency and prosperity",
+        "Order",
+        "Unity of direction"
+      ],
+      "correct": 2,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q16",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 16th review, Crest Dairy introduces standard tools and a fixed best way to carry out a task in its dairy plant. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Motion study",
+        "Standardisation and simplification of work",
+        "Centralisation",
+        "Initiative"
+      ],
+      "correct": 2,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q17",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 17th internal review, Lotus Foundry has assigned separate supervisors for packing, quality check and dispatch in its foundry. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Equity",
+        "Division of work",
+        "Scalar chain",
+        "Unity of direction"
+      ],
+      "correct": 2,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q18",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 18th review, Summit Prints' manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the printing press. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Unity of command",
+        "Remuneration",
+        "Scalar chain",
+        "Order"
+      ],
+      "correct": 3,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q19",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 19th review, a supervisor at Evergreen Agro believes that workers should first be selected scientifically, then trained for maximum output in the agro-processing unit. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Unity of direction",
+        "Development of each and every person to his or her greatest efficiency and prosperity",
+        "Order",
+        "Equity"
+      ],
+      "correct": 2,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q20",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 20th review, Dawn Furnishings introduces standard tools and a fixed best way to carry out a task in its furniture workshop. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Centralisation",
+        "Standardisation and simplification of work",
+        "Motion study",
+        "Initiative"
+      ],
+      "correct": 2,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q21",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 21st internal review, Aarav Textiles has assigned separate supervisors for packing, quality check and dispatch in its spinning mill. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Division of work",
+        "Unity of direction",
+        "Scalar chain",
+        "Equity"
+      ],
+      "correct": 1,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q22",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 22nd review, Nisha Foods' manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the retail chain. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Scalar chain",
+        "Order",
+        "Unity of command",
+        "Remuneration"
+      ],
+      "correct": 1,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q23",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 23rd review, a supervisor at Metro Plastics believes that workers should first be selected scientifically, then trained for maximum output in the plastic moulding plant. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Order",
+        "Unity of direction",
+        "Equity",
+        "Development of each and every person to his or her greatest efficiency and prosperity"
+      ],
+      "correct": 4,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q24",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 24th review, Kiran Logistics introduces standard tools and a fixed best way to carry out a task in its logistics warehouse. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Centralisation",
+        "Motion study",
+        "Initiative",
+        "Standardisation and simplification of work"
+      ],
+      "correct": 4,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q25",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 25th internal review, Zenith Motors has assigned separate supervisors for packing, quality check and dispatch in its automobile workshop. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Unity of direction",
+        "Division of work",
+        "Equity",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q26",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 26th review, Orbit Retail's manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the dairy plant. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Order",
+        "Scalar chain",
+        "Unity of command",
+        "Remuneration"
+      ],
+      "correct": 2,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q27",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 27th review, a supervisor at Nova Packaging believes that workers should first be selected scientifically, then trained for maximum output in the packaging unit. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Unity of direction",
+        "Order",
+        "Development of each and every person to his or her greatest efficiency and prosperity",
+        "Equity"
+      ],
+      "correct": 3,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q28",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 28th review, Prism Pharma introduces standard tools and a fixed best way to carry out a task in its printing press. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Initiative",
+        "Standardisation and simplification of work",
+        "Motion study",
+        "Centralisation"
+      ],
+      "correct": 2,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q29",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 29th internal review, Unity Spinners has assigned separate supervisors for packing, quality check and dispatch in its spinning mill. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Equity",
+        "Scalar chain",
+        "Unity of direction",
+        "Division of work"
+      ],
+      "correct": 4,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q30",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 30th review, Pioneer Steels' manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the steel workshop. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Scalar chain",
+        "Order",
+        "Remuneration",
+        "Unity of command"
+      ],
+      "correct": 1,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q31",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 31st review, a supervisor at Bright Tech believes that workers should first be selected scientifically, then trained for maximum output in the electronics assembly line. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Order",
+        "Equity",
+        "Unity of direction",
+        "Development of each and every person to his or her greatest efficiency and prosperity"
+      ],
+      "correct": 4,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q32",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 32nd review, Harbor Supplies introduces standard tools and a fixed best way to carry out a task in its supply depot. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Motion study",
+        "Standardisation and simplification of work",
+        "Centralisation",
+        "Initiative"
+      ],
+      "correct": 2,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q33",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 33rd internal review, Saffron Garments has assigned separate supervisors for packing, quality check and dispatch in its garment factory. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Equity",
+        "Division of work",
+        "Scalar chain",
+        "Unity of direction"
+      ],
+      "correct": 2,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q34",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 34th review, Prime Builders' manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the construction firm. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Unity of command",
+        "Scalar chain",
+        "Order",
+        "Remuneration"
+      ],
+      "correct": 2,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q35",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 35th review, a supervisor at Vista Electronics believes that workers should first be selected scientifically, then trained for maximum output in the electronics unit. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Unity of direction",
+        "Order",
+        "Development of each and every person to his or her greatest efficiency and prosperity",
+        "Equity"
+      ],
+      "correct": 3,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q36",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 36th review, Crest Dairy introduces standard tools and a fixed best way to carry out a task in its dairy plant. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Initiative",
+        "Standardisation and simplification of work",
+        "Motion study",
+        "Centralisation"
+      ],
+      "correct": 2,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q37",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During its 37th internal review, Lotus Foundry has assigned separate supervisors for packing, quality check and dispatch in its foundry. Which principle best explains why this arrangement may increase efficiency, along with the idea that management principles are broad guidelines?",
+      "options": [
+        "Division of work",
+        "Equity",
+        "Scalar chain",
+        "Unity of direction"
+      ],
+      "correct": 1,
+      "explanation": "Division of work means tasks are divided into specialised parts.\nSpecialisation raises efficiency and skill, which is why the case fits this principle.\nThe reference to management principles as broad guidelines links the case to the general, flexible nature of principles."
+    },
+    {
+      "id": "BS02Q38",
+      "type": "definition",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "During the 38th review, Summit Prints' manager follows one clear line of authority from the plant head to the shop floor before approving overtime in the printing press. Which Fayol principle is being used together with a formal communication path?",
+      "options": [
+        "Remuneration",
+        "Scalar chain",
+        "Order",
+        "Unity of command"
+      ],
+      "correct": 2,
+      "explanation": "Scalar chain means a clear line of authority from top to bottom.\nIt supports orderly communication and approval in the organisation.\nThis is different from unity of command, which is about receiving orders from only one superior."
+    },
+    {
+      "id": "BS02Q39",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 39th review, a supervisor at Evergreen Agro believes that workers should first be selected scientifically, then trained for maximum output in the agro-processing unit. This idea is most closely connected with Taylor’s principle of",
+      "options": [
+        "Order",
+        "Unity of direction",
+        "Equity",
+        "Development of each and every person to his or her greatest efficiency and prosperity"
+      ],
+      "correct": 4,
+      "explanation": "Taylor stressed scientific selection and training of workers.\nThe aim is to improve both efficiency and prosperity of the worker and the organisation.\nThis is a key part of scientific management, not a Fayol principle."
+    },
+    {
+      "id": "BS02Q40",
+      "type": "concept",
+      "level": "L1",
+      "difficulty": "easy",
+      "question": "At the 40th review, Dawn Furnishings introduces standard tools and a fixed best way to carry out a task in its furniture workshop. Which Taylor technique is being applied along with the principle of scientific management?",
+      "options": [
+        "Centralisation",
+        "Standardisation and simplification of work",
+        "Motion study",
+        "Initiative"
+      ],
+      "correct": 2,
+      "explanation": "Standardisation means using uniform tools, methods and materials.\nSimplification removes unnecessary variety and reduces waste.\nIt is a technique of scientific management and fits Taylor's emphasis on science rather than rule of thumb."
+    },
+    {
+      "id": "BS02Q41",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 41st review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and III only",
+        "I, II and III",
+        "I and II only",
+        "II and III only"
+      ],
+      "correct": 1,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q42",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 42nd review, at Nova Packaging in the electronics assembly line, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Initiative",
+        "Order",
+        "Authority and responsibility",
+        "Discipline"
+      ],
+      "correct": 1,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q43",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 43rd review, which option is NOT a technique of Taylor's scientific management in Bright Tech's electronics assembly line?",
+      "options": [
+        "Unity of command",
+        "Time study",
+        "Motion study",
+        "Differential piece wage plan"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q44",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 44th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "II and III only",
+        "I, II and III",
+        "I and II only"
+      ],
+      "correct": 1,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q45",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 45th review, Summit Prints has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Equity and management as a random activity",
+        "Unity of command and management as intuition only",
+        "Order and management as a systematic process",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 3,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q46",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 46th review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "II and III only",
+        "I, II and III",
+        "I and III only",
+        "I and II only"
+      ],
+      "correct": 3,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q47",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 47th review, at Kiran Logistics in the textile unit, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Discipline",
+        "Order",
+        "Authority and responsibility",
+        "Initiative"
+      ],
+      "correct": 4,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q48",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 48th review, which option is NOT a technique of Taylor's scientific management in Orbit Retail's food processing unit?",
+      "options": [
+        "Differential piece wage plan",
+        "Time study",
+        "Unity of command",
+        "Motion study"
+      ],
+      "correct": 3,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q49",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 49th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I, II and III",
+        "I and II only",
+        "I and III only",
+        "II and III only"
+      ],
+      "correct": 3,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q50",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 50th review, Nova Packaging has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Equity and management as a random activity",
+        "Order and management as a systematic process",
+        "Unity of command and management as intuition only",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 2,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q51",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 51st review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q52",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 52nd review, at Zenith Motors in the foundry, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Initiative",
+        "Authority and responsibility",
+        "Discipline",
+        "Order"
+      ],
+      "correct": 1,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q53",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 53rd review, which option is NOT a technique of Taylor's scientific management in Everest Prints' printing press?",
+      "options": [
+        "Motion study",
+        "Unity of command",
+        "Time study",
+        "Differential piece wage plan"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q54",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 54th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "II and III only",
+        "I and II only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q55",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 55th review, Bright Tech has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Order and management as a systematic process",
+        "Equity and management as a random activity",
+        "Unity of command and management as intuition only",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 1,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q56",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 56th review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I, II and III",
+        "I and III only"
+      ],
+      "correct": 4,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q57",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 57th review, at Harbor Supplies in the sales support unit, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Discipline",
+        "Initiative",
+        "Authority and responsibility",
+        "Order"
+      ],
+      "correct": 2,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q58",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 58th review, which option is NOT a technique of Taylor's scientific management in Saffron Garments' garment factory?",
+      "options": [
+        "Motion study",
+        "Unity of command",
+        "Time study",
+        "Differential piece wage plan"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q59",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 59th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+        "I and II only"
+      ],
+      "correct": 2,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q60",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 60th review, Summit Prints has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Equity and management as a random activity",
+        "Unity of command and management as intuition only",
+        "Esprit de corps and management as a rigid law",
+        "Order and management as a systematic process"
+      ],
+      "correct": 4,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q61",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 61st review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+        "I and II only"
+      ],
+      "correct": 2,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q62",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 62nd review, at Prism Pharma in the maintenance section, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Order",
+        "Initiative",
+        "Discipline",
+        "Authority and responsibility"
+      ],
+      "correct": 2,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q63",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 63rd review, which option is NOT a technique of Taylor's scientific management in Unity Spinners' spinning mill?",
+      "options": [
+        "Differential piece wage plan",
+        "Time study",
+        "Unity of command",
+        "Motion study"
+      ],
+      "correct": 3,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q64",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 64th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I, II and III",
+        "I and II only",
+        "II and III only",
+        "I and III only"
+      ],
+      "correct": 4,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q65",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 65th review, Crest Dairy has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Equity and management as a random activity",
+        "Order and management as a systematic process",
+        "Unity of command and management as intuition only",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 2,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q66",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 66th review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q67",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 67th review, at Lotus Foundry in the quality control unit, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Initiative",
+        "Order",
+        "Authority and responsibility",
+        "Discipline"
+      ],
+      "correct": 1,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q68",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 68th review, which option is NOT a technique of Taylor's scientific management in MetalWorks' foundry?",
+      "options": [
+        "Motion study",
+        "Unity of command",
+        "Differential piece wage plan",
+        "Time study"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q69",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 69th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q70",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 70th review, Evergreen Agro has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Unity of command and management as intuition only",
+        "Order and management as a systematic process",
+        "Equity and management as a random activity",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 2,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q71",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 71st review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 2,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q72",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 72nd review, at Aarav Textiles in the maintenance section, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Discipline",
+        "Initiative",
+        "Authority and responsibility",
+        "Order"
+      ],
+      "correct": 2,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q73",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 73rd review, which option is NOT a technique of Taylor's scientific management in Nisha Foods' food processing unit?",
+      "options": [
+        "Time study",
+        "Unity of command",
+        "Motion study",
+        "Differential piece wage plan"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q74",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 74th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "II and III only",
+        "I and III only",
+        "I and II only",
+        "I, II and III"
+      ],
+      "correct": 2,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q75",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 75th review, Metro Plastics has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Order and management as a systematic process",
+        "Unity of command and management as intuition only",
+        "Equity and management as a random activity",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 1,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q76",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 76th review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q77",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 77th review, at Kiran Logistics in the dispatch unit, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Discipline",
+        "Order",
+        "Initiative",
+        "Authority and responsibility"
+      ],
+      "correct": 3,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q78",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 78th review, which option is NOT a technique of Taylor's scientific management in Zenith Motors' automobile workshop?",
+      "options": [
+        "Motion study",
+        "Unity of command",
+        "Time study",
+        "Differential piece wage plan"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q79",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 79th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "I, II and III",
+        "II and III only",
+        "I and II only"
+      ],
+      "correct": 1,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q80",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 80th review, Orbit Retail has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Equity and management as a random activity",
+        "Order and management as a systematic process",
+        "Unity of command and management as intuition only",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 2,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q81",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 81st review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+        "I and II only"
+      ],
+      "correct": 2,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q82",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 82nd review, at Nova Packaging in the inventory unit, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Initiative",
+        "Authority and responsibility",
+        "Discipline",
+        "Order"
+      ],
+      "correct": 1,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q83",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 83rd review, which option is NOT a technique of Taylor's scientific management in Saffron Garments' garment factory?",
+      "options": [
+        "Unity of command",
+        "Time study",
+        "Motion study",
+        "Differential piece wage plan"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q84",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 84th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 2,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q85",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 85th review, Prime Builders has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Order and management as a systematic process",
+        "Equity and management as a random activity",
+        "Unity of command and management as intuition only",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 1,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q86",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 86th review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": 3,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q87",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 87th review, at Vista Electronics in the sales support unit, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Order",
+        "Discipline",
+        "Initiative",
+        "Authority and responsibility"
+      ],
+      "correct": 3,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q88",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 88th review, which option is NOT a technique of Taylor's scientific management in Crest Dairy's dairy plant?",
+      "options": [
+        "Differential piece wage plan",
+        "Unity of command",
+        "Motion study",
+        "Time study"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q89",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 89th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I, II and III",
+        "I and III only",
+        "II and III only",
+        "I and II only"
+      ],
+      "correct": 2,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q90",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 90th review, Lotus Foundry has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Unity of command and management as intuition only",
+        "Order and management as a systematic process",
+        "Equity and management as a random activity",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 2,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q91",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 91st review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": 3,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q92",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 92nd review, at MetalWorks in the quality control unit, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Initiative",
+        "Authority and responsibility",
+        "Order",
+        "Discipline"
+      ],
+      "correct": 1,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q93",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 93rd review, which option is NOT a technique of Taylor's scientific management in Unity Spinners' spinning mill?",
+      "options": [
+        "Time study",
+        "Unity of command",
+        "Motion study",
+        "Differential piece wage plan"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q94",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 94th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "I, II and III",
+        "II and III only"
+      ],
+      "correct": 1,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q95",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 95th review, Crest Dairy has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Equity and management as a random activity",
+        "Order and management as a systematic process",
+        "Unity of command and management as intuition only",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 2,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q96",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 96th review, which of the following statements is correct about principles of management and their significance?\nI. They help in thoughtful managerial decisions.\nII. They are exact mathematical laws that never change.\nIII. They improve coordination in an organisation.\nChoose the correct option.",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Principles of management help managers take better decisions and improve coordination.\nThey are not exact mathematical laws, so statement II is wrong.\nHence only I and III are correct."
+    },
+    {
+      "id": "BS02Q97",
+      "type": "case_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 97th review, at Aarav Textiles in the maintenance section, workers are allowed to suggest a better packing layout, and the manager approves it because it raises output. Which Fayol principle is highlighted together with the behavioural nature of management?",
+      "options": [
+        "Initiative",
+        "Authority and responsibility",
+        "Discipline",
+        "Order"
+      ],
+      "correct": 1,
+      "explanation": "Initiative means encouraging workers to take the first step and suggest useful ideas.\nThe case shows worker participation, which is closely linked to the behavioural aspect of management.\nApproval of the idea because it improves output fits the spirit of initiative."
+    },
+    {
+      "id": "BS02Q98",
+      "type": "not_type",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "At the 98th review, which option is NOT a technique of Taylor's scientific management in Nisha Foods' food processing unit?",
+      "options": [
+        "Unity of command",
+        "Motion study",
+        "Time study",
+        "Differential piece wage plan"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command is a Fayol principle, not a Taylor technique.\nTime study, motion study and differential piece wage plan belong to scientific management.\nSo the odd one out is unity of command."
+    },
+    {
+      "id": "BS02Q99",
+      "type": "statement_based",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "Read the statements for the 99th review.\nI. In scientific management, management and workers should work in harmony.\nII. In Fayol's principles, subordination of individual interest means personal goals should dominate organisational goals.\nIII. Division of work helps in specialisation.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "II and III only",
+        "I, II and III",
+        "I and II only"
+      ],
+      "correct": 1,
+      "explanation": "Statement I is correct because Taylor emphasised harmony, not conflict.\nStatement II is incorrect because organisational interest should come before individual interest.\nStatement III is correct because division of work promotes specialisation and efficiency."
+    },
+    {
+      "id": "BS02Q100",
+      "type": "concept",
+      "level": "L2",
+      "difficulty": "moderate",
+      "question": "During the 100th review, Metro Plastics has a fixed schedule, clear rules, and everyone knows their place in the organisation. A consultant says the firm is applying one Fayol principle and one general nature of management simultaneously. Which pair is most suitable?",
+      "options": [
+        "Order and management as a systematic process",
+        "Unity of command and management as intuition only",
+        "Equity and management as a random activity",
+        "Esprit de corps and management as a rigid law"
+      ],
+      "correct": 1,
+      "explanation": "Order means the right person and material in the right place.\nA fixed schedule and clear rules also show management as a systematic, goal-oriented process.\nThe other options mix unrelated ideas or distort the nature of management."
+    },
+    {
+      "id": "BS02Q101",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 101st: Sanjay, the manager of Dawn Furnishings, noticed that in the storekeeping section of the electronics assembly line, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q102",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 102nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "Both A and R are true and R explains A",
+        "A is true but R is false",
+        "Both A and R are true but R does not explain A",
+        "A is false but R is true"
+      ],
+      "correct": 2,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q103",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 103rd review at Summit Prints, the HR head wants to reduce worker turnover in the quality control unit after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Stability of tenure of personnel",
+        "Order",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 1,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q104",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 104th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "II and III only",
+        "I and II only",
+        "I, II and III"
+      ],
+      "correct": 3,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q105",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 105th review, Pooja runs the production of Aarav Textiles. She argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Authority and responsibility",
+        "Centralisation and order",
+        "Unity of direction and discipline"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q106",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 106th: Meera, the manager of Nisha Foods, noticed that in the procurement section of the food processing unit, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of equity; reduce wages for the worker",
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of initiative; forbid suggestions from workers",
+        "Violation of division of work; merge all tasks into one position"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q107",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 107th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "Both A and R are true and R explains A",
+        "A is false but R is true",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q108",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 108th review at Metro Plastics, the HR head wants to reduce worker turnover in the packaging unit after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Scalar chain",
+        "Stability of tenure of personnel",
+        "Order",
+        "Authority and responsibility"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q109",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 109th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q110",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 110th review, Kabir runs the dispatch of Kiran Logistics. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Authority and responsibility",
+        "Unity of direction and discipline",
+        "Centralisation and order"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q111",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 111th: Aditi, the manager of Zenith Motors, noticed that in the sales support section of the automobile workshop, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of initiative; forbid suggestions from workers",
+        "Violation of equity; reduce wages for the worker"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q112",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 112th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "Both A and R are true and R explains A",
+        "A is false but R is true",
+        "A is true but R is false",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 3,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q113",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 113th review at Bright Tech, the HR head wants to reduce worker turnover in the electronics assembly line after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Authority and responsibility",
+        "Stability of tenure of personnel",
+        "Scalar chain"
+      ],
+      "correct": 3,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q114",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 114th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I, II and III",
+        "I and II only",
+        "I and III only",
+        "II and III only"
+      ],
+      "correct": 2,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q115",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 115th review, Arjun runs the quality control of Harbor Supplies. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Unity of direction and discipline",
+        "Centralisation and order",
+        "Equity and esprit de corps",
+        "Authority and responsibility"
+      ],
+      "correct": 3,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q116",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 116th: Isha, the manager of Saffron Garments, noticed that in the maintenance section of the garment factory, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers",
+        "Violation of division of work; merge all tasks into one position"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q117",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 117th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "Both A and R are true and R explains A",
+        "Both A and R are true but R does not explain A",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q118",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 118th review at Prime Builders, the HR head wants to reduce worker turnover in the construction firm after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q119",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 119th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "I, II and III",
+        "II and III only"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q120",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 120th review, Simran runs the procurement of Vista Electronics. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Authority and responsibility",
+        "Centralisation and order",
+        "Unity of direction and discipline"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q121",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 121st: Yash, the manager of Crest Dairy, noticed that in the dispatch section of the dairy plant, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q122",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 122nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is false but R is true",
+        "Both A and R are true and R explains A",
+        "Both A and R are true but R does not explain A",
+        "A is true but R is false"
+      ],
+      "correct": 4,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q123",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 123rd review at Lotus Foundry, the HR head wants to reduce worker turnover in the foundry after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Stability of tenure of personnel",
+        "Order",
+        "Scalar chain",
+        "Authority and responsibility"
+      ],
+      "correct": 1,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q124",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 124th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 2,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q125",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 125th review, Tarun runs the sales support of Summit Prints. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Unity of direction and discipline",
+        "Centralisation and order",
+        "Authority and responsibility"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q126",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 126th: Divya, the manager of Evergreen Agro, noticed that in the inventory section of the agro-processing unit, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q127",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 127th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "Both A and R are true and R explains A",
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 2,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q128",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 128th review at Dawn Furnishings, the HR head wants to reduce worker turnover in the furniture workshop after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q129",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 129th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I, II and III",
+        "I and II only",
+        "I and III only",
+        "II and III only"
+      ],
+      "correct": 2,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q130",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 130th review, Neha runs the production of Pioneer Steels. She argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Centralisation and order",
+        "Unity of direction and discipline",
+        "Equity and esprit de corps",
+        "Authority and responsibility"
+      ],
+      "correct": 3,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q131",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 131st: Rahul, the manager of Bright Tech, noticed that in the production section of the electronics unit, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q132",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 132nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "Both A and R are true and R explains A",
+        "A is false but R is true",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q133",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 133rd review at Harmony Textiles, the HR head wants to reduce worker turnover in the textile unit after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Scalar chain",
+        "Authority and responsibility"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q134",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 134th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "I, II and III",
+        "II and III only"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q135",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 135th review, Ananya runs the quality control of Aarav Textiles. She argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Unity of direction and discipline",
+        "Centralisation and order",
+        "Authority and responsibility"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q136",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 136th: Rohan, the manager of Nisha Foods, noticed that in the dispatch section of the food processing unit, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q137",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 137th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "Both A and R are true and R explains A",
+        "Both A and R are true but R does not explain A",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q138",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 138th review at Metro Plastics, the HR head wants to reduce worker turnover in the plastic moulding plant after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q139",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 139th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I, II and III",
+        "I and III only",
+        "II and III only",
+        "I and II only"
+      ],
+      "correct": 4,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q140",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 140th review, Vikram runs the inventory of Kiran Logistics. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Unity of direction and discipline",
+        "Authority and responsibility",
+        "Equity and esprit de corps",
+        "Centralisation and order"
+      ],
+      "correct": 3,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q141",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 141st: Pooja, the manager of Zenith Motors, noticed that in the maintenance section of the automobile workshop, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of equity; reduce wages for the worker",
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of initiative; forbid suggestions from workers",
+        "Violation of division of work; merge all tasks into one position"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q142",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 142nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "Both A and R are true but R does not explain A",
+        "A is false but R is true",
+        "A is true but R is false",
+        "Both A and R are true and R explains A"
+      ],
+      "correct": 3,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q143",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 143rd review at Bright Tech, the HR head wants to reduce worker turnover in the electronics assembly line after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Scalar chain",
+        "Authority and responsibility"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q144",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 144th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I, II and III",
+        "I and III only"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q145",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 145th review, Kunal runs the production of Harbor Supplies. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Centralisation and order",
+        "Unity of direction and discipline",
+        "Authority and responsibility"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q146",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 146th: Ritika, the manager of Saffron Garments, noticed that in the quality control section of the garment factory, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q147",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 147th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are true and R explains A",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q148",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 148th review at Prime Builders, the HR head wants to reduce worker turnover in the construction firm after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q149",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 149th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "I, II and III",
+        "II and III only",
+        "I and III only"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q150",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 150th review, Manav runs the dispatch of Dawn Furnishings. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Authority and responsibility",
+        "Equity and esprit de corps",
+        "Centralisation and order",
+        "Unity of direction and discipline"
+      ],
+      "correct": 2,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q151",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 151st: Simran, the manager of Aarav Textiles, noticed that in the storekeeping section of the spinning mill, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers",
+        "Violation of division of work; merge all tasks into one position"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q152",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 152nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "Both A and R are true and R explains A",
+        "A is false but R is true",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q153",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 153rd review at Nisha Foods, the HR head wants to reduce worker turnover in the food processing unit after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Stability of tenure of personnel",
+        "Order",
+        "Scalar chain",
+        "Authority and responsibility"
+      ],
+      "correct": 1,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q154",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 154th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I, II and III",
+        "I and II only",
+        "I and III only",
+        "II and III only"
+      ],
+      "correct": 2,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q155",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 155th review, Sneha runs the maintenance of Metro Plastics. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Authority and responsibility",
+        "Unity of direction and discipline",
+        "Centralisation and order"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q156",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 156th: Aditi, the manager of Kiran Logistics, noticed that in the production section of the logistics warehouse, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q157",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 157th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "Both A and R are true but R does not explain A",
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are true and R explains A"
+      ],
+      "correct": 2,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q158",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 158th review at Zenith Motors, the HR head wants to reduce worker turnover in the automobile workshop after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q159",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 159th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q160",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 160th review, Divya runs the quality control of Bright Tech. She argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Authority and responsibility",
+        "Equity and esprit de corps",
+        "Centralisation and order",
+        "Unity of direction and discipline"
+      ],
+      "correct": 2,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q161",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 161st: Rahul, the manager of Harbor Supplies, noticed that in the dispatch section of the supply depot, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q162",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 162nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is false but R is true",
+        "A is true but R is false",
+        "Both A and R are true and R explains A",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 2,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q163",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 163rd review at Saffron Garments, the HR head wants to reduce worker turnover in the garment factory after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q164",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 164th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "II and III only",
+        "I, II and III",
+        "I and II only"
+      ],
+      "correct": 4,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q165",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 165th review, Yash runs the sales support of Prime Builders. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Unity of direction and discipline",
+        "Equity and esprit de corps",
+        "Centralisation and order",
+        "Authority and responsibility"
+      ],
+      "correct": 2,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q166",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 166th: Meera, the manager of Vista Electronics, noticed that in the procurement section of the electronics unit, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of initiative; forbid suggestions from workers",
+        "Violation of equity; reduce wages for the worker"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q167",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 167th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "Both A and R are true but R explains A",
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 2,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q168",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 168th review at Crest Dairy, the HR head wants to reduce worker turnover in the dairy plant after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q169",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 169th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 2,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q170",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 170th review, Ananya runs the production of Lotus Foundry. She argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Unity of direction and discipline",
+        "Authority and responsibility",
+        "Centralisation and order"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q171",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 171st: Rohan, the manager of Summit Prints, noticed that in the quality control section of the printing press, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q172",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 172nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "Both A and R are true and R explains A",
+        "A is false but R is true",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q173",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 173rd review at Evergreen Agro, the HR head wants to reduce worker turnover in the agro-processing unit after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Stability of tenure of personnel",
+        "Order",
+        "Scalar chain",
+        "Authority and responsibility"
+      ],
+      "correct": 1,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q174",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 174th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q175",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 175th review, Kunal runs the maintenance of Dawn Furnishings. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Centralisation and order",
+        "Authority and responsibility",
+        "Unity of direction and discipline"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q176",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 176th: Ritika, the manager of Aarav Textiles, noticed that in the inventory section of the spinning mill, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q177",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 177th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is false but R is true",
+        "A is true but R is false",
+        "Both A and R are true but R does not explain A",
+        "Both A and R are true and R explains A"
+      ],
+      "correct": 2,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q178",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 178th review at Nisha Foods, the HR head wants to reduce worker turnover in the food processing unit after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Authority and responsibility",
+        "Order",
+        "Stability of tenure of personnel",
+        "Scalar chain"
+      ],
+      "correct": 3,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q179",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 179th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I, II and III",
+        "I and III only",
+        "I and II only",
+        "II and III only"
+      ],
+      "correct": 3,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q180",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 180th review, Manav runs the dispatch of Metro Plastics. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Authority and responsibility",
+        "Equity and esprit de corps",
+        "Unity of direction and discipline",
+        "Centralisation and order"
+      ],
+      "correct": 2,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q181",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 181st: Simran, the manager of Kiran Logistics, noticed that in the storekeeping section of the logistics warehouse, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of equity; reduce wages for the worker",
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 2,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q182",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 182nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "Both A and R are true but R does not explain A",
+        "Both A and R are true and R explains A",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q183",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 183rd review at Zenith Motors, the HR head wants to reduce worker turnover in the automobile workshop after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Stability of tenure of personnel",
+        "Order",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 1,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q184",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 184th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "II and III only",
+        "I and II only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": 2,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q185",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 185th review, Ananya runs the quality control of Bright Tech. She argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Authority and responsibility",
+        "Equity and esprit de corps",
+        "Unity of direction and discipline",
+        "Centralisation and order"
+      ],
+      "correct": 2,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q186",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 186th: Rahul, the manager of Harbor Supplies, noticed that in the maintenance section of the supply depot, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q187",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 187th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "Both A and R are true and R explains A",
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 2,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q188",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 188th review at Saffron Garments, the HR head wants to reduce worker turnover in the garment factory after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Stability of tenure of personnel",
+        "Order",
+        "Scalar chain",
+        "Authority and responsibility"
+      ],
+      "correct": 1,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q189",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 189th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "I, II and III",
+        "II and III only"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q190",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 190th review, Pooja runs the production of Prime Builders. She argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Equity and esprit de corps",
+        "Authority and responsibility",
+        "Centralisation and order",
+        "Unity of direction and discipline"
+      ],
+      "correct": 1,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q191",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 191st: Meera, the manager of Vista Electronics, noticed that in the procurement section of the electronics unit, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of division of work; merge all tasks into one position",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q192",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 192nd review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is false but R is true",
+        "Both A and R are true and R explains A",
+        "A is true but R is false",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 3,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q193",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 193rd review at Crest Dairy, the HR head wants to reduce worker turnover in the dairy plant after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Authority and responsibility",
+        "Scalar chain"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q194",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 194th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and II only",
+        "I, II and III",
+        "I and III only",
+        "II and III only"
+      ],
+      "correct": 1,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q195",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 195th review, Kunal runs the dispatch of Lotus Foundry. He argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Centralisation and order",
+        "Equity and esprit de corps",
+        "Authority and responsibility",
+        "Unity of direction and discipline"
+      ],
+      "correct": 2,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    },
+    {
+      "id": "BS02Q196",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Case 196th: Ritika, the manager of Summit Prints, noticed that in the storekeeping section of the printing press, the same worker was answering two different supervisors. This created confusion, conflicting instructions and delays. Which combination best explains the issue and the correct managerial remedy?",
+      "options": [
+        "Violation of unity of command; appoint one clear superior for the worker",
+        "Violation of equity; reduce wages for the worker",
+        "Violation of initiative; forbid suggestions from workers",
+        "Violation of division of work; merge all tasks into one position"
+      ],
+      "correct": 1,
+      "explanation": "Unity of command requires one worker to receive orders from only one superior.\nHere the problem is conflicting instructions from two supervisors, so the principle is violated.\nThe remedy is to restore one clear line of command rather than changing wages or banning suggestions."
+    },
+    {
+      "id": "BS02Q197",
+      "type": "assertion_reason",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Assertion (A) for the 197th review: Taylor’s scientific management and Fayol’s principles both aim at higher efficiency.\nReason (R): Both focus only on increasing production and ignore human behaviour.\nWhich option is correct?",
+      "options": [
+        "A is true but R is false",
+        "Both A and R are true and R explains A",
+        "A is false but R is true",
+        "Both A and R are true but R does not explain A"
+      ],
+      "correct": 1,
+      "explanation": "Assertion A is correct because both approaches seek better efficiency and effectiveness.\nReason R is false because Fayol and Taylor did not ignore human behaviour; Taylor especially stressed cooperation and mental revolution.\nTherefore A is true but R is false."
+    },
+    {
+      "id": "BS02Q198",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 198th review at Evergreen Agro, the HR head wants to reduce worker turnover in the agro-processing unit after repeated resignations caused training loss and instability. Which Fayol principle should the company strengthen along with fair remuneration?",
+      "options": [
+        "Order",
+        "Stability of tenure of personnel",
+        "Scalar chain",
+        "Authority and responsibility"
+      ],
+      "correct": 2,
+      "explanation": "Stability of tenure means keeping employees for a reasonable period without frequent transfers or exits.\nThis reduces training loss and improves confidence and loyalty.\nFair remuneration supports the principle, but the core issue in the case is tenure stability."
+    },
+    {
+      "id": "BS02Q199",
+      "type": "statement_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "Read the statements for the 199th review.\nI. Time study helps determine the standard time for completing a job.\nII. Motion study focuses on removing unnecessary movements.\nIII. Fatigue study is used to decide the organisational hierarchy.\nWhich statements are correct?",
+      "options": [
+        "I and III only",
+        "I, II and III",
+        "II and III only",
+        "I and II only"
+      ],
+      "correct": 4,
+      "explanation": "Time study is used to fix the standard time for a task.\nMotion study removes wasted movements and improves efficiency.\nFatigue study is about rest and work intervals, not hierarchy, so III is wrong."
+    },
+    {
+      "id": "BS02Q200",
+      "type": "case_based",
+      "level": "L3",
+      "difficulty": "difficult",
+      "question": "During the 200th review, Sneha runs the maintenance of Dawn Furnishings. She argues that workers should be treated fairly, listened to carefully and given a sense of belonging so that teamwork improves. Which Fayol principle combination is being reflected most strongly?",
+      "options": [
+        "Unity of direction and discipline",
+        "Equity and esprit de corps",
+        "Authority and responsibility",
+        "Centralisation and order"
+      ],
+      "correct": 2,
+      "explanation": "Equity means fair and kind treatment of employees.\nEsprit de corps means team spirit and unity among workers.\nTogether they create trust, belonging and cooperation in the organisation."
+    }
+  ]
+}
