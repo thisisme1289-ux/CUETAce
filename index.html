@@ -5,10 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- ── SECURITY ── -->
-<meta http-equiv="X-Content-Type-Options" content="nosniff">
-<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://cuetace.fun; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://question.thisisme1289.workers.dev https://raw.githubusercontent.com https://fonts.googleapis.com https://fonts.gstatic.com; frame-ancestors 'none';">
 
 <!-- ── PRIMARY SEO ── -->
 <title>CUETAce – Free CUET Mock Test 2026 | CUET Commerce Preparation</title>
@@ -152,6 +149,8 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <meta name="theme-color" content="#1A1410">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/icon-192.png">
 <style>
 /* ── RESET ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -934,8 +933,8 @@ footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 
 
 /* ── QUESTION NUMBER STRIP (below topbar, full width) ── */
 .exam-qstrip {
-  position: fixed; top: 52px; left: 0; right: 0;
-  background: #221c17; border-bottom: 1px solid #3d3128;
+  position: fixed; top: 50px; left: 0; right: 0;
+  background: #1a1510; border-bottom: 1px solid #252018;
   z-index: 999; height: 36px;
   display: flex; align-items: center; padding: 0 20px;
   gap: 16px;
@@ -955,8 +954,8 @@ footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 
 /* ── MAIN BODY: Question area + Palette side by side ── */
 .exam-main {
   display: flex;
-  margin-top: 88px; /* topbar 52 + strip 36 */
-  height: calc(100vh - 88px - 60px); /* fixed height so both panels scroll independently */
+  margin-top: 86px; /* topbar 50px + strip 36px */
+  height: calc(100vh - 86px - 56px); /* 56px = action bar */
   overflow: hidden;
 }
 
@@ -971,9 +970,9 @@ footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 
 }
 .exam-passage-wrap {
   flex-shrink: 0;
-  padding: clamp(12px, 2vw, 24px) clamp(18px, 4vw, 48px) 12px;
-  background: #1e1b18;
-  border-bottom: 1px solid #2e2820;
+  padding: clamp(12px, 2vw, 20px) clamp(24px, 4vw, 64px) 12px;
+  background: #110e0b;
+  border-bottom: 1px solid #252018;
 }
 .exam-passage-wrap .exam-passage-label {
   display: block;
@@ -985,10 +984,10 @@ footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 
   margin-bottom: 8px;
 }
 .exam-q-inner {
-  max-width: 760px;
+  /* No max-width — fills full panel so desktop uses all space */
   flex: 1;
   overflow-y: auto;
-  padding: clamp(16px, 3vw, 28px) clamp(18px, 4vw, 48px) 32px;
+  padding: clamp(16px, 2.5vw, 32px) clamp(24px, 4vw, 64px) 40px;
 }
 
 .exam-section-label {
@@ -1057,19 +1056,20 @@ footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 
 .opt-wrong   .opt-bubble { background: #ef4444 !important; color: #fff !important; }
 
 .exam-opt {
-  display: flex; align-items: flex-start; gap: clamp(10px, 1.2vw, 16px);
-  border: 1px solid #2e2418;
-  border-radius: 9px;
-  padding: clamp(12px, 1.2vw, 16px) clamp(14px, 1.5vw, 20px);
+  display: flex; align-items: flex-start; gap: clamp(12px, 1.2vw, 18px);
+  border: 1px solid #2a2018;
+  border-radius: 10px;
+  padding: clamp(13px, 1.2vw, 18px) clamp(16px, 1.5vw, 24px);
   cursor: pointer;
-  font-size: clamp(13px, 1.3vw, 15.5px);
-  color: #d4c9b5; line-height: 1.65;
-  background: #1a1510;
-  transition: border-color 180ms ease, background 180ms ease, color 180ms ease, transform 120ms ease;
+  font-size: clamp(13.5px, 1.2vw, 16px);
+  color: #d4c9b5; line-height: 1.7;
+  background: #171310;
+  transition: border-color 160ms ease, background 160ms ease, color 160ms ease, box-shadow 160ms ease;
   user-select: none;
   position: relative;
+  width: 100%;
 }
-.exam-opt:hover { border-color: #44382b; background: #221c15; color: #f0e8d5; transform: translateX(2px); }
+.exam-opt:hover { border-color: #3d3020; background: #1f1a14; color: #f0e8d5; box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
 .exam-opt.selected { border-color: #c9a84c; background: rgba(201,168,76,0.07); color: #f0e8d5; box-shadow: inset 0 0 0 1px rgba(201,168,76,0.15); }
 .exam-opt.answered-marked { border-color: #7c5cbf; background: rgba(124,92,191,0.07); color: #f0e8d5; }
 .exam-opt.correct  { border-color: #4a9268; background: rgba(74,146,104,0.1); color: #f0e8d5; }
@@ -1096,9 +1096,10 @@ footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 
 
 /* ── Question text base ── */
 .qtext-base {
-  font-size: clamp(14px,1.5vw,17px);
+  font-size: clamp(15px,1.4vw,19px);
   font-weight: 500; line-height: 1.9;
-  color: #f2ead8; margin-bottom: 16px;
+  color: #f0e8d5; margin-bottom: 18px;
+  letter-spacing: -0.005em;
 }
 
 /* ── Type badge ── */
@@ -1380,9 +1381,9 @@ footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 
 
 /* ── RIGHT: QUESTION PALETTE PANEL ── */
 .exam-palette-panel {
-  width: 260px; min-width: 260px;
-  background: #221c17;
-  border-left: 1px solid #3d3128;
+  width: 230px; min-width: 230px;
+  background: #15110e;
+  border-left: 1px solid #252018;
   display: flex; flex-direction: column;
   height: 100%;
   overflow: hidden;
@@ -1653,9 +1654,9 @@ footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 
   /* ── Main layout: stack vertically on mobile ── */
   .exam-main {
     flex-direction: column;
-    margin-top: 83px; /* 44 topbar + 36 qstrip + 3px progress */
+    margin-top: 80px; /* 44px topbar + 36px qstrip */
     height: auto;
-    min-height: calc(100vh - 83px - 56px);
+    min-height: calc(100vh - 80px - 56px);
     overflow: visible;
   }
 
