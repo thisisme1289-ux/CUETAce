@@ -1,0 +1,39 @@
+{
+  "name": "cuetace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CUETAce static frontend with Firebase paid profile and secure question delivery backend.",
+  "scripts": {
+    "check:functions": "npm --prefix functions run check",
+    "emulators": "firebase emulators:start",
+    "deploy:functions": "firebase deploy --only functions,firestore:rules,storage:rules",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "upload:questions": "node scripts/upload-question-bank.mjs",
+    "build:question-index": "node scripts/build-question-index.mjs",
+    "validate:question-index": "node scripts/validate-question-bank-index.mjs",
+    "pyp:fetch": "node scripts/fetch-cuet-pyp.mjs && node scripts/fetch-collegedunia-html.mjs && node scripts/download-collegedunia-pdfs.mjs && node scripts/fetch-careerindia-pdfs.mjs",
+    "pyp:fetch-careerindia": "node scripts/fetch-careerindia-pdfs.mjs",
+    "pyp:fetch-english-2025-dates": "node scripts/fetch-collegedunia-english-2025-date-pages.mjs",
+    "pyp:download-english-2025-dates": "node scripts/download-collegedunia-english-2025-date-pdfs.mjs",
+    "pyp:ocr": "node scripts/ocr-cuet-pyp.mjs",
+    "pyp:ocr-careerindia": "python scripts/render-careerindia-pdfs.py && node scripts/ocr-careerindia-pdfs.mjs",
+    "pyp:convert": "python scripts/convert-cuet-pyp.py && python scripts/convert-cuet-individual-pdfs.py",
+    "pyp:index": "python scripts/build-cuet-import-index.py && node scripts/build-question-index.mjs && node scripts/validate-question-bank-index.mjs",
+    "pyp:validate": "python scripts/validate-cuet-archive.py",
+    "pyp:summary": "python scripts/summarize-cuet-archive.py",
+    "pyp:sources": "python scripts/write-cuet-source-report.py",
+    "pyp:pdf-integrity": "python scripts/write-cuet-pdf-integrity.py",
+    "pyp:completion-audit": "python scripts/write-cuet-completion-audit.py",
+    "pyp:review-queue": "python scripts/write-cuet-review-queue.py",
+    "pyp:readiness": "node scripts/audit-past-year-readiness.mjs",
+    "pyp:coverage": "node scripts/audit-past-year-coverage.mjs",
+    "pyp:import-pack": "node scripts/build-pyp-import-pack.mjs",
+    "pyp:ready-index": "node scripts/audit-past-year-readiness.mjs",
+    "pyp:audit": "python scripts/run-cuet-audit.py",
+    "pyp:full-audit": "python scripts/run-cuet-full-audit.py",
+    "pyp:refresh-fast": "npm run pyp:convert && npm run pyp:index && npm run pyp:audit"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.0.0"
+  }
+}
