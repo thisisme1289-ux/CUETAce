@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC04",
   "chapter": "Perfect Competition and Supply (Features, Profit Maximisation, Price Determination, Supply Curve, Elasticity of Supply)",
   "total_questions": 200,
@@ -92,8 +92,9 @@
         "1.5",
         "2.0"
       ],
-      "correct": 2,
-      "explanation": "Es = (% change in QS) / (% change in P). % change in QS = (150−100)/100 × 100 = 50%. % change in P = (30−20)/20 × 100 = 50%. Es = 50%/50% = 1. Wait: Let us recheck. % ΔQS = 50/100 = 50%. % ΔP = 10/20 = 50%. Es = 1.0. Correct answer is 1.0."
+      "correct": 1,
+      "explanation": "Price elasticity of supply = percentage change in quantity supplied divided by percentage change in price. Quantity rises from 100 to 150, a 50% increase. Price rises from Rs.20 to Rs.30, also a 50% increase. Es = 50% / 50% = 1.0.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC04Q07",
@@ -164,11 +165,12 @@
       "options": [
         "P = ₹50, Q = 250",
         "P = ₹40, Q = 220",
-        "P = ₹50, Q = 250",
+        "P = ₹55, Q = 225",
         "P = ₹45, Q = 235"
       ],
-      "correct": 1,
-      "explanation": "At equilibrium QD = QS: 500 − 5P = 100 + 3P → 400 = 8P → P = 50. Q = 500 − 5(50) = 500 − 250 = 250. Equilibrium: P = ₹50, Q = 250 units."
+      "correct": 0,
+      "explanation": "At equilibrium QD = QS: 500 − 5P = 100 + 3P → 400 = 8P → P = 50. Q = 500 − 5(50) = 500 − 250 = 250. Equilibrium: P = ₹50, Q = 250 units.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q12",
@@ -212,8 +214,9 @@
         "100 units",
         "400 units"
       ],
-      "correct": 1,
-      "explanation": "Equilibrium: 800−4P = 200+6P → 600 = 10P → P* = ₹60. At price ceiling P = ₹50 (below equilibrium): QD = 800 − 4(50) = 600. QS = 200 + 6(50) = 500. Excess demand = 600 − 500 = 100. Wait: Recalculate. QD = 600, QS = 500. Excess demand = 100. Correct answer is 100 units."
+      "correct": 2,
+      "explanation": "Equilibrium price is Rs.60, so a ceiling of Rs.50 is binding. At P = 50, QD = 800 - 4(50) = 600 and QS = 200 + 6(50) = 500. Excess demand = 600 - 500 = 100 units.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q15",
@@ -282,13 +285,14 @@
       "difficulty": "difficult",
       "question": "TC of a competitive firm = 3Q³ − 6Q² + 12Q + 50. Market price = ₹39. At profit-maximising output, what is Total Profit?",
       "options": [
-        "₹16",
-        "₹−16",
-        "₹0",
-        "₹26"
+        "Profit about Rs.8.13",
+        "Loss Rs.16",
+        "Profit Rs.0",
+        "Profit Rs.26"
       ],
-      "correct": 1,
-      "explanation": "MC = dTC/dQ = 9Q² − 12Q + 12. MR = P = 39. Setting MC = MR: 9Q² − 12Q + 12 = 39 → 9Q² − 12Q − 27 = 0 → 3Q² − 4Q − 9 = 0. Using quadratic: Q = [4 ± √(16 + 108)]/6 = [4 ± √124]/6 ≈ [4 ± 11.14]/6. Q ≈ 2.52 or negative. Try Q=3: MC = 81−36+12 = 57 ≠ 39. Try Q=2: MC = 36−24+12 = 24 ≠ 39. Interpolating: at Q=3, TC = 81−54+36+50 = 113. TR = 39×3 = 117. Profit = 117−113 = 4. At Q=2, TR = 78, TC = 24−24+24+50 = 74. Profit = 4. The closest answer from options reflecting profit = ₹16 requires a different TC structure — selecting option A based on nearest framework."
+      "correct": 0,
+      "explanation": "Profit = 39Q - (3Q^3 - 6Q^2 + 12Q + 50). First-order condition is MC = MR: 9Q^2 - 12Q + 12 = 39, or 3Q^2 - 4Q - 9 = 0. The positive solution is Q = 2.52 approximately. Profit at Q = 2.52 is about Rs.8.13.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q20",
@@ -317,8 +321,9 @@
         "450 units",
         "400 units"
       ],
-      "correct": 1,
-      "explanation": "% change in P = (80−60)/60 × 100 = 33.33%. Es = % ΔQS / % ΔP → 1.5 = % ΔQS / 33.33 → % ΔQS = 50%. New QS = 300 + 50% of 300 = 300 + 150 = 450. Wait: 33.33% × 1.5 = 50%. New Q = 300 × 1.5 = 450. Correct option is C (450)."
+      "correct": 2,
+      "explanation": "Percentage change in price = (80 - 60) / 60 x 100 = 33.33%. With Es = 1.5, percentage change in supply = 1.5 x 33.33% = 50%. New quantity supplied = 300 + 50% of 300 = 450 units.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q22",
@@ -437,8 +442,9 @@
         "Price decreases; quantity increases",
         "Both price and quantity are indeterminate"
       ],
-      "correct": 1,
-      "explanation": "Increase in demand → Price ↑, Q ↑. Decrease in supply → Price ↑, Q ↓. Combined effect: Price definitely increases (both forces push price up). Quantity effect is indeterminate — it depends on the magnitude of the shifts. Price increases definitively; quantity change is ambiguous."
+      "correct": 0,
+      "explanation": "An increase in demand raises both price and quantity. A decrease in supply raises price but lowers quantity. Therefore price definitely increases, while the final quantity depends on the relative magnitudes of the two shifts.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q30",
@@ -452,8 +458,9 @@
         "₹15.625",
         "₹25.00"
       ],
-      "correct": 3,
-      "explanation": "% ΔQS = (100/500) × 100 = 20%. Es = 0.8 → % ΔP = % ΔQS / Es = 20/0.8 = 25%. Price increase = 25% of ₹50 = ₹12.50. New price = ₹62.50. Price must rise by ₹12.50. Wait — answer should be ₹12.50 which is option A."
+      "correct": 0,
+      "explanation": "Quantity supplied must rise by 100/500 = 20%. Since Es = 0.8, percentage change in price = 20% / 0.8 = 25%. A 25% rise on Rs.50 is Rs.12.50.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC04Q31",
@@ -507,13 +514,14 @@
       "difficulty": "difficult",
       "question": "In a perfectly competitive industry, 500 firms each supply QS = 5 + 0.5P units. Market demand is QD = 4000 − 100P. Find the equilibrium price.",
       "options": [
-        "₹10",
-        "₹12",
-        "₹14",
-        "₹16"
+        "Rs.4.29",
+        "Rs.12",
+        "Rs.14",
+        "Rs.16"
       ],
-      "correct": 1,
-      "explanation": "Market supply = 500 × (5 + 0.5P) = 2500 + 250P. Equilibrium: QD = QS → 4000 − 100P = 2500 + 250P → 1500 = 350P → P = 1500/350 ≈ 4.28. Hmm, none match cleanly. Using P = 10: QD = 3000, QS = 2500 + 2500 = 5000. Let's try different values. If each firm supplies Q = 5 + 0.5P and there are 500 firms: Market QS = 2500 + 250P. 4000 − 100P = 2500 + 250P → P = 1500/350 ≈ 4.3. Rounding: P ≈ ₹4. The closest valid answer from standard exam perspective is ₹10 if market supply slope differs."
+      "correct": 0,
+      "explanation": "Market supply = 500(5 + 0.5P) = 2500 + 250P. Equilibrium requires 4000 - 100P = 2500 + 250P. Thus 1500 = 350P and P = Rs.4.29 approximately.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q35",
@@ -602,8 +610,9 @@
         "Es < 1",
         "Es = 0"
       ],
-      "correct": 4,
-      "explanation": "Since farmers cannot increase supply regardless of price change (production period is fixed at 6 months), quantity supplied remains constant. This represents perfectly inelastic supply (Es = 0). Time period is a crucial determinant of elasticity of supply — in very short periods, supply tends to be perfectly inelastic."
+      "correct": 3,
+      "explanation": "Since farmers cannot increase supply regardless of price change (production period is fixed at 6 months), quantity supplied remains constant. This represents perfectly inelastic supply (Es = 0). Time period is a crucial determinant of elasticity of supply — in very short periods, supply tends to be perfectly inelastic.",
+      "correct_original": 4
     },
     {
       "id": "EC04Q41",
@@ -732,13 +741,14 @@
       "difficulty": "difficult",
       "question": "A competitive firm has: TR = 60Q. TC = Q³ − 12Q² + 60Q + 100. Find the output that maximises profit, and state the profit at that output.",
       "options": [
-        "Q = 4; Profit = ₹−100",
-        "Q = 0; Profit = ₹−100",
-        "Q = 4; Profit = ₹28",
-        "Q = 6; Profit = ₹−100"
+        "Q = 8; Profit = Rs.156",
+        "Q = 0; Profit = -Rs.100",
+        "Q = 4; Profit = Rs.28",
+        "Q = 6; Profit = -Rs.100"
       ],
-      "correct": 1,
-      "explanation": "MR = 60 (= Price). MC = dTC/dQ = 3Q² − 24Q + 60. MR = MC: 60 = 3Q² − 24Q + 60 → 3Q² − 24Q = 0 → 3Q(Q − 8) = 0 → Q = 0 or Q = 8. Check second order: d²TC/dQ² = 6Q − 24. At Q=8: 48−24 = 24 > 0, so Q=8 is profit-max. Profit at Q=8: TR = 60×8 = 480. TC = 512 − 768 + 480 + 100 = 324. Profit = 480 − 324 = 156. None of the options match perfectly; rechecking with Q=4: TR=240, TC=64−192+240+100=212. Profit=28. So Q=4 gives ₹28 profit but Q=8 is maximum. The question may intend Q=4 as local max. Answer: Q=4, Profit = ₹28."
+      "correct": 0,
+      "explanation": "Profit = TR - TC = 60Q - (Q^3 - 12Q^2 + 60Q + 100) = -Q^3 + 12Q^2 - 100. First-order condition gives -3Q^2 + 24Q = 0, so Q = 0 or Q = 8. Q = 8 is the profit maximum. Profit = 480 - 324 = Rs.156.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q50",
@@ -752,8 +762,9 @@
         "Es = (ΔQ × P) ÷ (ΔP × Q)",
         "Both B and C are correct"
       ],
-      "correct": 4,
-      "explanation": "Es = (% change in QS) / (% change in P) = (ΔQ/Q) / (ΔP/P). This can be rearranged as (ΔQ × P) / (ΔP × Q). So both option B and option C express the same formula. Both B and C are correct."
+      "correct": 3,
+      "explanation": "Es = (% change in QS) / (% change in P) = (ΔQ/Q) / (ΔP/P). This can be rearranged as (ΔQ × P) / (ΔP × Q). So both option B and option C express the same formula. Both B and C are correct.",
+      "correct_original": 4
     },
     {
       "id": "EC04Q51",
@@ -917,8 +928,9 @@
         "Increase in number of producers",
         "Increase in excise duty (indirect tax)"
       ],
-      "correct": 4,
-      "explanation": "An increase in excise duty raises production cost for firms. Higher costs mean firms are willing to supply less at each price → supply decreases → supply curve shifts leftward. All other options (decrease in input prices, better machinery, more producers) increase supply."
+      "correct": 3,
+      "explanation": "An increase in excise duty raises production cost for firms. Higher costs mean firms are willing to supply less at each price → supply decreases → supply curve shifts leftward. All other options (decrease in input prices, better machinery, more producers) increase supply.",
+      "correct_original": 4
     },
     {
       "id": "EC04Q62",
@@ -1017,13 +1029,15 @@
       "difficulty": "moderate",
       "question": "A firm sells 200 units at ₹15 and 210 units at ₹16. Calculate MR when output increases from 200 to 210 units.",
       "options": [
-        "₹16",
-        "₹15",
-        "₹17",
-        "₹22"
+        "Rs.36",
+        "Rs.15",
+        "Rs.17",
+        "Rs.22"
       ],
-      "correct": 4,
-      "explanation": "TR at 200 units = 200 × 15 = ₹3,000. TR at 210 units = 210 × 16 = ₹3,360. MR = ΔTR/ΔQ = (3360 − 3000)/(210 − 200) = 360/10 = ₹36. Wait, but this seems high. This looks more like a monopoly scenario (price rises as quantity rises = positive price). Let me note that in perfect competition, price doesn't rise with quantity. If this is a competitive firm, P = ₹16 = MR = AR. The MR calculation of ₹36 suggests non-competitive market. In competitive market MR = P = ₹16. Answer: ₹16."
+      "correct": 0,
+      "explanation": "Total revenue at 200 units = 200 x Rs.15 = Rs.3,000. Total revenue at 210 units = 210 x Rs.16 = Rs.3,360. Marginal revenue for the 10-unit increase = (3,360 - 3,000) / (210 - 200) = Rs.36.",
+      "correct_original": 4,
+      "correct_content_review_original": 3
     },
     {
       "id": "EC04Q69",
@@ -1167,13 +1181,14 @@
       "difficulty": "difficult",
       "question": "If a supply curve has the equation P = 5 + 2Q (inverse supply), find the price elasticity of supply at Q = 10.",
       "options": [
-        "Es = 1.5",
+        "Es = 1.25",
         "Es = 2.0",
         "Es = 0.5",
         "Es = 1.0"
       ],
-      "correct": 1,
-      "explanation": "From P = 5 + 2Q: Q = (P−5)/2. dQ/dP = 1/2 = 0.5. At Q=10: P = 5 + 20 = 25. Es = (dQ/dP) × (P/Q) = 0.5 × (25/10) = 0.5 × 2.5 = 1.25. Wait — alternatively: Es = (ΔQ/Q)/(ΔP/P). Using dQS/dP × P/Q = 0.5 × 25/10 = 1.25. Nearest answer: Es = 1.5. Given the calculation gives 1.25, closest option is A (1.5). Answer: Es = 1.5 (accepting slight rounding in exam context)."
+      "correct": 0,
+      "explanation": "From P = 5 + 2Q, we get Q = (P - 5) / 2 and dQ/dP = 0.5. At Q = 10, P = 25. Es = dQ/dP x P/Q = 0.5 x 25/10 = 1.25.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q79",
@@ -1212,13 +1227,14 @@
       "difficulty": "difficult",
       "question": "A firm's supply function is QS = 3P − 15. Demand is QD = 105 − 2P. A per-unit tax of ₹5 is imposed on producers. Calculate the new equilibrium price paid by consumers and tax revenue.",
       "options": [
-        "P_consumer = ₹27, Tax revenue = ₹180",
-        "P_consumer = ₹25, Tax revenue = ₹150",
-        "P_consumer = ₹29, Tax revenue = ₹210",
-        "P_consumer = ₹27, Tax revenue = ₹150"
+        "P_consumer = Rs.27, Tax revenue = Rs.255",
+        "P_consumer = Rs.25, Tax revenue = Rs.150",
+        "P_consumer = Rs.29, Tax revenue = Rs.210",
+        "P_consumer = Rs.27, Tax revenue = Rs.150"
       ],
-      "correct": 1,
-      "explanation": "Original supply: QS = 3P − 15. After tax: producers receive P−5. New supply: QS = 3(P−5) − 15 = 3P − 15 − 15 = 3P − 30. New equilibrium: 3P − 30 = 105 − 2P → 5P = 135 → P = ₹27 (consumer price). Q = 105 − 54 = 51. Verify: QS = 3(27) − 30 = 81 − 30 = 51 ✓. Tax revenue = ₹5 × 51 = ₹255. Wait: Q = 51, Tax = 5×51 = 255. Closest option: ₹27, but tax revenue = ₹255 not matching options. Let's try original equilibrium: 3P−15 = 105−2P → 5P = 120 → P* = ₹24, Q* = 57. New P consumer = ₹27, Q = 51, Tax = 5×51 = 255. Option A states ₹180 which = ₹5 × 36. None match perfectly. Best answer: A (₹27 price correct)."
+      "correct": 0,
+      "explanation": "With a Rs.5 tax on producers, supply becomes QS = 3(P - 5) - 15 = 3P - 30, where P is the consumer price. Equilibrium: 3P - 30 = 105 - 2P, so P = Rs.27. Quantity = 105 - 2(27) = 51. Tax revenue = Rs.5 x 51 = Rs.255.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q82",
@@ -1679,11 +1695,12 @@
       "options": [
         "PC: Q=40, P=₹20; Monopoly: Q=20, P=₹60",
         "PC: Q=40, P=₹20; Monopoly: Q=25, P=₹50",
-        "PC: Q=40, P=₹20; Monopoly: Q=20, P=₹60",
+        "PC: Q=30, P=₹40; Monopoly: Q=20, P=₹60",
         "PC: Q=50, P=₹20; Monopoly: Q=20, P=₹60"
       ],
-      "correct": 1,
-      "explanation": "Perfect competition: P = MC → 20 = 100 − 2Q → 2Q = 80 → Q = 40. P = ₹20. Monopoly: MR = MC. TR = 100Q − 2Q². MR = 100 − 4Q. MR = MC: 100 − 4Q = 20 → 4Q = 80 → Q = 20. P = 100 − 40 = ₹60. PC: Q=40, P=₹20; Monopoly: Q=20, P=₹60."
+      "correct": 0,
+      "explanation": "Perfect competition: P = MC → 20 = 100 − 2Q → 2Q = 80 → Q = 40. P = ₹20. Monopoly: MR = MC. TR = 100Q − 2Q². MR = 100 − 4Q. MR = MC: 100 − 4Q = 20 → 4Q = 80 → Q = 20. P = 100 − 40 = ₹60. PC: Q=40, P=₹20; Monopoly: Q=20, P=₹60.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q113",
@@ -1742,8 +1759,9 @@
         "Es = 2.0",
         "Es = 1.0"
       ],
-      "correct": 1,
-      "explanation": "At P = 20: QS = 120 − 60 = 60. dQS/dP = 6. Es = 6 × (20/60) = 6 × 0.333 = 2.0. Wait: Es = dQS/dP × P/QS = 6 × 20/60 = 120/60 = 2.0. Correct answer: Es = 2.0."
+      "correct": 2,
+      "explanation": "At the original price P = 20, QS = 6(20) - 60 = 60. The slope dQS/dP = 6. Elasticity at the original point = dQS/dP x P/Q = 6 x 20/60 = 2.0.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q117",
@@ -1797,13 +1815,14 @@
       "difficulty": "difficult",
       "question": "Two periods of data for a firm: Period 1: P = ₹50, QS = 200. Period 2: P = ₹50, QS = 260 (due to subsidy). Period 3: P = ₹60, QS = 280 (from period 2 baseline). Calculate Es for the price-induced change (period 2 to 3).",
       "options": [
-        "Es = 0.77",
+        "Es = 0.38",
         "Es = 1.5",
         "Es = 1.0",
         "Es = 2.0"
       ],
-      "correct": 1,
-      "explanation": "Period 2 to 3 is a movement along the new supply curve (price changes from ₹50 to ₹60). % ΔQS = (280−260)/260 × 100 = 20/260 × 100 = 7.69%. % ΔP = (60−50)/50 × 100 = 20%. Es = 7.69/20 = 0.385. Closest option is A (0.77). Using alternative base: If base = average, Es arc = (20/240)/(10/55) = 0.0833/0.1818 = 0.458. Still closest to A."
+      "correct": 0,
+      "explanation": "For the price-induced movement from period 2 to 3, quantity rises from 260 to 280 and price rises from Rs.50 to Rs.60. Percentage change in quantity = 20/260 = 7.69%. Percentage change in price = 10/50 = 20%. Es = 7.69% / 20% = 0.38 approximately.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q121",
@@ -1887,13 +1906,14 @@
       "difficulty": "difficult",
       "question": "TC = 2Q² + 8Q + 50. If market price = ₹40, find: (a) profit-maximising output, (b) maximum profit, (c) whether firm operates or shuts down.",
       "options": [
-        "Q=8; Profit = ₹18; Operates",
-        "Q=8; Profit = ₹50; Operates",
-        "Q=8; Loss = ₹50; Shuts down",
-        "Q=4; Profit = ₹18; Operates"
+        "Q=8; Profit = Rs.78; Operates",
+        "Q=8; Profit = Rs.50; Operates",
+        "Q=8; Loss = Rs.50; Shuts down",
+        "Q=4; Profit = Rs.18; Operates"
       ],
-      "correct": 1,
-      "explanation": "(a) MC = 4Q + 8. MR = 40. 4Q + 8 = 40 → Q = 8. (b) TR = 320. TC = 128 + 64 + 50 = 242. Profit = 320 − 242 = ₹78. Hmm, not matching. Let me recheck: 2(64)+8(8)+50 = 128+64+50 = 242. Profit = 320−242 = 78. Option A (₹18) requires TC=302. With TFC=50: TVC at Q=8 = 2(64)+8(8)=192. AVC=24. P(40)>AVC(24), firm operates. Profit = ₹78 supernormal. Best fit: A (operates), profit calculation varies."
+      "correct": 0,
+      "explanation": "MC = 4Q + 8. Setting P = MC gives 40 = 4Q + 8, so Q = 8. TR = 40 x 8 = Rs.320. TC = 2(8^2) + 8(8) + 50 = Rs.242. Profit = Rs.78. Since price exceeds AVC at Q = 8, the firm operates.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q127",
@@ -1919,11 +1939,12 @@
       "options": [
         "Excess demand = 40 units",
         "Excess supply = 40 units",
-        "Excess supply = 115 units",
+        "Excess supply = 230 units",
         "Excess demand = 115 units"
       ],
-      "correct": 3,
-      "explanation": "% ΔP = +10%. QD change: Ed = −1.5 → % ΔQD = −15%. New QD = 1000 − 150 = 850. QS change: Es = 0.8 → % ΔQS = +8%. New QS = 1000 + 80 = 1080. Excess supply = QS − QD = 1080 − 850 = 230 units. Hmm, not matching options. Recalculating with % ΔP = (220−200)/200 × 100 = 10%. Exact numbers: QD falls to 850, QS rises to 1080. Excess supply = 230. Closest option: C (115 if using different calculation method)."
+      "correct": 2,
+      "explanation": "Price rises from Rs.200 to Rs.220, a 10% increase. Demand elasticity -1.5 means QD falls by 15%, from 1000 to 850. Supply elasticity 0.8 means QS rises by 8%, from 1000 to 1080. Excess supply = 1080 - 850 = 230 units.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC04Q129",
@@ -1982,8 +2003,9 @@
         "MC always rising",
         "Q < 3.33 (MC falling)"
       ],
-      "correct": 1,
-      "explanation": "MC = dTC/dQ = 1.5Q² − 10Q + 30. d(MC)/dQ = 3Q − 10. MC is falling when d(MC)/dQ < 0: 3Q − 10 < 0 → Q < 10/3 ≈ 3.33. MC is rising when Q > 3.33. Closest option: A (Q < 5, which overestimates). Technically correct answer: Q < 3.33, which is option D."
+      "correct": 3,
+      "explanation": "MC = dTC/dQ = 1.5Q^2 - 10Q + 30. The slope of MC is d(MC)/dQ = 3Q - 10. MC is falling when 3Q - 10 < 0, i.e. Q < 10/3 or about 3.33, and rising when Q > 3.33.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q133",
@@ -2367,13 +2389,14 @@
       "difficulty": "moderate",
       "question": "A linear supply function: QS = a + bP. At P = ₹10, QS = 100; at P = ₹20, QS = 180. Find a and b, then calculate Es at P = ₹15.",
       "options": [
-        "a = 20, b = 8; Es = 1.29",
+        "a = 20, b = 8; Es = 0.86",
         "a = 10, b = 9; Es = 1.5",
         "a = 20, b = 8; Es = 1.6",
         "a = 20, b = 8; Es = 1.0"
       ],
-      "correct": 1,
-      "explanation": "From two points: 100 = a + 10b and 180 = a + 20b. Subtracting: 80 = 10b → b = 8. a = 100 − 80 = 20. QS = 20 + 8P. At P=15: QS = 20+120 = 140. dQS/dP = 8. Es = 8 × 15/140 = 120/140 = 0.857 ≈ 0.86. Hmm, not matching. Using Es formula: Es = b × P/QS = 8 × 15/140 = 0.857. Closest option: A (1.29)? Let me try P=15 with different formula: Es = P/(P−a/b). a/b = 20/8 = 2.5. Es = 15/(15−2.5) = 15/12.5 = 1.2. Closer to A."
+      "correct": 0,
+      "explanation": "From 100 = a + 10b and 180 = a + 20b, subtracting gives b = 8. Then a = 100 - 80 = 20. At P = 15, QS = 20 + 8(15) = 140. Es = b x P/Q = 8 x 15/140 = 0.86 approximately.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q159",
@@ -2487,13 +2510,14 @@
       "difficulty": "difficult",
       "question": "TC = Q³ − 15Q² + 75Q + 500. Find the price at which the firm is indifferent between producing and shutting down in the short run.",
       "options": [
-        "P = ₹50",
-        "P = ₹75",
-        "P = ₹25",
-        "P = ₹100"
+        "P = Rs.18.75",
+        "P = Rs.75",
+        "P = Rs.25",
+        "P = Rs.100"
       ],
-      "correct": 1,
-      "explanation": "Shut-down price = minimum AVC. TVC = Q³ − 15Q² + 75Q. AVC = Q² − 15Q + 75. Min AVC: d(AVC)/dQ = 2Q − 15 = 0 → Q = 7.5. Min AVC = (7.5)² − 15(7.5) + 75 = 56.25 − 112.5 + 75 = 18.75. Hmm, none match. Let me check: AVC = Q² − 15Q + 75 at Q=7.5 = 56.25−112.5+75 = 18.75. Closest option: ₹25. Actually, verify at different Q values: Q=5: 25−75+75=25. Q=10: 100−150+75=25. So AVC=25 at Q=5 and Q=10, and minimum is at Q=7.5 (18.75). Shut-down price = min AVC ≈ ₹18.75. Closest: ₹25 (option C). But given the quadratic, min AVC = 75 − (15²/4) = 75−56.25 = 18.75. Nearest answer: A (₹50) based on exam rounding."
+      "correct": 0,
+      "explanation": "Shut-down price is minimum AVC. TVC = Q^3 - 15Q^2 + 75Q, so AVC = Q^2 - 15Q + 75. Minimum AVC occurs where 2Q - 15 = 0, so Q = 7.5. Minimum AVC = 7.5^2 - 15(7.5) + 75 = Rs.18.75.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q167",
@@ -2517,13 +2541,13 @@
       "difficulty": "difficult",
       "question": "In a competitive market, the inverse supply is P = 5 + 0.5Qs and inverse demand is P = 85 − 1.5Qd. Calculate equilibrium, consumer surplus, and producer surplus.",
       "options": [
-        "P=35, Q=60; CS=₹2700; PS=₹900",
-        "P=35, Q=40; CS=₹1200; PS=₹400",
-        "P=35, Q=60; CS=₹1800; PS=₹900",
-        "P=35, Q=60; CS=₹2700; PS=₹450"
+        "P=35, Q=60; CS=Rs.2700; PS=Rs.900",
+        "P=25, Q=40; CS=Rs.1200; PS=Rs.400",
+        "P=35, Q=60; CS=Rs.1800; PS=Rs.900",
+        "P=35, Q=60; CS=Rs.2700; PS=Rs.450"
       ],
       "correct": 1,
-      "explanation": "Equilibrium: 5 + 0.5Q = 85 − 1.5Q → 2Q = 80 → Q = 40. P = 5+20 = ₹25. Wait: 5+0.5(40) = 5+20 = 25 and 85−1.5(40) = 85−60 = 25 ✓. P=₹25, Q=40. CS = ½ × (85−25) × 40 = ½ × 60 × 40 = ₹1200. PS = ½ × (25−5) × 40 = ½ × 20 × 40 = ₹400. Total surplus = ₹1600. Closest: B (P=35, Q=40 is wrong price; P=25, Q=40 with CS=1200, PS=400 matches option B values)."
+      "explanation": "Equilibrium is 5 + 0.5Q = 85 - 1.5Q, so 2Q = 80 and Q = 40. Price = 5 + 0.5(40) = Rs.25. CS = 1/2 x (85 - 25) x 40 = Rs.1200. PS = 1/2 x (25 - 5) x 40 = Rs.400."
     },
     {
       "id": "EC04Q169",
@@ -2792,8 +2816,9 @@
         "Equilibrium P=₹46, Q=108; DWL=₹0",
         "Equilibrium P=₹58, Q=84; DWL at P=₹46"
       ],
-      "correct": 1,
-      "explanation": "Equilibrium: 100−Q/2 = 10+Q/3 → 90 = Q/2+Q/3 = 5Q/6 → Q = 108. P = 100−54 = ₹46. Wait — this gives P=46 which IS equilibrium! So ceiling at P=46 = equilibrium = no distortion. DWL = 0. Let me recalculate: 100−Q/2 = 10+Q/3. 90 = Q(1/2+1/3) = Q(5/6). Q = 90×6/5 = 108. P = 100−54 = 46. The ceiling at ₹46 equals equilibrium → no deadweight loss! Equilibrium P=₹46, Q=108. DWL=₹0."
+      "correct": 2,
+      "explanation": "Equilibrium: 100 - Q/2 = 10 + Q/3. Thus 90 = 5Q/6, Q = 108, and P = 46. A ceiling at Rs.46 equals the equilibrium price, so it does not distort the market and deadweight loss is zero.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q187",
@@ -2922,13 +2947,14 @@
       "difficulty": "difficult",
       "question": "Competitive market: QD = 1500 − 5P and QS = 300 + 3P. If a ₹40/unit subsidy is given to producers, find new equilibrium and the total subsidy expenditure by government.",
       "options": [
-        "P=₹120; Q=900; Govt expenditure=₹36,000",
-        "P=₹105; Q=975; Govt expenditure=₹39,000",
-        "P=₹100; Q=1000; Govt expenditure=₹40,000",
-        "P=₹115; Q=925; Govt expenditure=₹37,000"
+        "P=Rs.135; Q=825; Govt expenditure=Rs.33,000",
+        "P=Rs.105; Q=975; Govt expenditure=Rs.39,000",
+        "P=Rs.100; Q=1000; Govt expenditure=Rs.40,000",
+        "P=Rs.115; Q=925; Govt expenditure=Rs.37,000"
       ],
-      "correct": 2,
-      "explanation": "Original equilibrium: 1500−5P = 300+3P → 1200 = 8P → P = ₹150, Q = 750. With ₹40 subsidy to producers: New supply QS = 300+3(P+40) = 300+3P+120 = 420+3P. New equilibrium: 1500−5P = 420+3P → 1080 = 8P → P = ₹135 (consumer price). Q = 1500−675 = 825. Government expenditure = ₹40 × 825 = ₹33,000. None match perfectly. If subsidy effectively shifts: P_consumer = 135, P_producer = 175. Nearest: Let me try different approach — answer B seems structured correctly with Q=975."
+      "correct": 0,
+      "explanation": "A Rs.40 producer subsidy shifts supply to QS = 300 + 3(P + 40) = 420 + 3P, where P is consumer price. Equilibrium: 1500 - 5P = 420 + 3P, so 1080 = 8P and P = Rs.135. Quantity = 1500 - 5(135) = 825. Government expenditure = Rs.40 x 825 = Rs.33,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC04Q196",
@@ -2982,13 +3008,14 @@
       "difficulty": "difficult",
       "question": "Market for rice: QD = 4000 − 20P and QS = −200 + 30P. Find equilibrium. If a drought reduces supply by 500 units at every price level, find new equilibrium and percentage change in price.",
       "options": [
-        "Old P=₹84, Q=1320; New P=₹94, Q=1120; Price rises by 11.9%",
-        "Old P=₹84, Q=1320; New P=₹94, Q=1180; Price rises by 8.3%",
-        "Old P=₹90, Q=1300; New P=₹100, Q=1200; Price rises by 11.1%",
-        "Old P=₹84, Q=1320; New P=₹97, Q=1060; Price rises by 15.5%"
+        "Old P=Rs.84, Q=2320; New P=Rs.94, Q=2120; Price rises by 11.9%",
+        "Old P=Rs.84, Q=1320; New P=Rs.94, Q=1180; Price rises by 8.3%",
+        "Old P=Rs.90, Q=1300; New P=Rs.100, Q=1200; Price rises by 11.1%",
+        "Old P=Rs.84, Q=1320; New P=Rs.97, Q=1060; Price rises by 15.5%"
       ],
-      "correct": 1,
-      "explanation": "Original eq: 4000−20P = −200+30P → 4200 = 50P → P = ₹84. Q = 4000−1680 = 2320. Wait: 4000−20(84) = 4000−1680 = 2320. QS = −200+2520 = 2320 ✓. New QS = −700+30P. New eq: 4000−20P = −700+30P → 4700 = 50P → P = ₹94. Q = 4000−1880 = 2120. % ΔP = (94−84)/84 × 100 = 11.9%."
+      "correct": 0,
+      "explanation": "Original equilibrium: 4000 - 20P = -200 + 30P, so 4200 = 50P and P = Rs.84. Quantity = 2320. After drought, supply becomes QS = -700 + 30P. New equilibrium: 4000 - 20P = -700 + 30P, so P = Rs.94 and Q = 2120. Percentage price rise = (94 - 84) / 84 x 100 = 11.9%.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC04Q200",
@@ -2997,13 +3024,14 @@
       "difficulty": "difficult",
       "question": "A perfectly competitive firm has: TC = 2Q² + 4Q + 50. In a competitive market with 25 identical firms and demand QD = 3000 − 10P, find: equilibrium price, individual firm output, and classify the firm's profit position.",
       "options": [
-        "P=₹30, per firm q=8, supernormal profit=₹178",
-        "P=₹40, per firm q=18, normal profit=₹0",
-        "P=₹30, per firm q=8, loss of ₹50",
-        "P=₹50, per firm q=23, supernormal profit=₹500"
+        "P=Rs.186.15, per firm q=45.54, supernormal profit about Rs.4,097.50",
+        "P=Rs.40, per firm q=18, normal profit=Rs.0",
+        "P=Rs.30, per firm q=8, loss of Rs.50",
+        "P=Rs.50, per firm q=23, supernormal profit=Rs.500"
       ],
-      "correct": 1,
-      "explanation": "Individual supply: MC = 4Q+4 = P → Q = (P−4)/4. Market supply = 25 × (P−4)/4 = (25P−100)/4. Equilibrium: 3000−10P = (25P−100)/4 → 12000−40P = 25P−100 → 12100 = 65P → P = ₹186.15. This seems high. Let me recheck: Individual supply function qs = (P−4)/4. At P=30: q = 26/4 = 6.5. Market QS = 25×6.5 = 162.5 and QD = 3000−300 = 2700. Not equal. Proper equilibrium: 3000−10P = 25(P−4)/4. 12000−40P = 25P−100. 12100 = 65P. P ≈ ₹186. q = (186−4)/4 = 45.5. TR = 186×45.5 = 8463. TC = 2(2070)+182+50 = 4140+232 = 4372. Profit = 4091. Given the complex math, exam answer: P=₹30, q=8, supernormal profit selected as A."
+      "correct": 0,
+      "explanation": "For each firm, MC = 4q + 4, so the supply condition is q = (P - 4)/4. Market supply for 25 firms is 25(P - 4)/4. Equilibrium: 3000 - 10P = 25(P - 4)/4. This gives 12100 = 65P, so P = Rs.186.15. Each firm supplies q = 45.54. Profit per firm is about Rs.4,097.50, so the firm earns supernormal profit.",
+      "correct_content_review_original": 1
     }
   ]
 }

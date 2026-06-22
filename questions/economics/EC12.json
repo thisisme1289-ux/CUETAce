@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC12",
   "chapter": "EC12 — Development Policies 1947–90 (Indian Economy at Independence, Five Year Plans, Agriculture, Industry, Trade)",
   "total_questions": 200,
@@ -587,8 +587,9 @@
         "Revenue fell from ₹8,000 to ₹7,200, showing why MSP is needed",
         "Both A and C are correct — Revenue fell, showing MSP necessity"
       ],
-      "correct": 3,
-      "explanation": "1960 Revenue: 5 × 8 × ₹200 = ₹8,000. 1970 Revenue: 5 × 18 × ₹120 = ₹10,800. Wait — let's recalculate: 5 acres × 18 quintals × ₹120 = ₹10,800 > ₹8,000, so revenue actually increased. BUT if price fell further to ₹100: 5 × 18 × 100 = ₹9,000 > 8,000. To make revenue fall, price must fall below ₹8,000/(5×18) = ₹88.9/quintal. The question reveals why MSP is needed when prices crash below a threshold. Option D is selected as it captures the nuance that both outcomes are possible depending on price."
+      "correct": 1,
+      "explanation": "1960 revenue = 5 acres x 8 quintals per acre x ₹200 = ₹8,000. 1970 revenue = 5 acres x 18 quintals per acre x ₹120 = ₹10,800. Revenue therefore rises by ₹2,800 despite the fall in price, because the yield increase more than offsets the lower price. Option B is correct.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC12Q40",
@@ -947,8 +948,9 @@
         "10%",
         "3.3%"
       ],
-      "correct": 1,
-      "explanation": "New growth rate = (s + aid) / v = (10% + 5%) / 3 = 15% / 3 = 5%. Wait, let me recalculate for option B: (10+5)/3 = 5%, not 6.7%. For 6.7%: (10+10)/3 = 6.7%. The correct calculation gives 5%, so the answer is A. With foreign aid augmenting domestic savings, growth rises from 3.3% to 5%, illustrating why India sought foreign assistance in early plans."
+      "correct": 0,
+      "explanation": "Using Harrod-Domar, g = (s + aid) / v. Here s = 10%, aid = 5% of GDP, and v = 3. New growth rate = (10% + 5%) / 3 = 15% / 3 = 5%. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC12Q64",
@@ -1203,7 +1205,7 @@
         "₹8.0 = 1 USD"
       ],
       "correct": 1,
-      "explanation": "If rupee depreciates 36.5%, fewer dollars per rupee: New rupee value = ₹0.21 × (1 - 0.365) = ₹0.21 × 0.635 = ₹0.133 per dollar equivalent. New exchange rate = 1/0.133 = 7.5 USD per rupee... wait: 1 USD = ₹4.76. After devaluation, more rupees per dollar. New rate = ₹4.76 × (1/(1-0.365)) = ₹4.76/0.635 = ₹7.49 ≈ ₹7.5 per USD."
+      "explanation": "A 36.5% depreciation means one rupee buys 36.5% fewer dollars. New dollar value per rupee = $0.21 x (1 - 0.365) = $0.13335. Therefore 1 USD = 1 / 0.13335 = about ₹7.5. Equivalently, ₹4.76 / 0.635 = about ₹7.49 per USD. Option B is correct."
     },
     {
       "id": "EC12Q81",
@@ -1242,13 +1244,14 @@
       "difficulty": "difficult",
       "question": "A PSU steel plant produces 1 million tonnes of steel. Fixed costs = ₹500 crore/year, variable cost = ₹1,500/tonne. Government mandates selling price at ₹2,000/tonne. What is the plant's annual profit/loss?",
       "options": [
-        "Profit of ₹0",
+        "Breakeven; profit/loss = ₹0",
         "Loss of ₹0 — breakeven exactly",
         "Profit of ₹500 crore",
         "Loss of ₹500 crore"
       ],
-      "correct": 2,
-      "explanation": "Total Revenue = 10,00,000 × ₹2,000 = ₹200 crore (1 million = 10 lakh tonnes). Wait: 1 million = 10,00,000 tonnes. Revenue = 10,00,000 × 2,000 = ₹2,000 crore. Variable Cost = 10,00,000 × 1,500 = ₹1,500 crore. Fixed Cost = ₹500 crore. Total Cost = 1,500 + 500 = ₹2,000 crore. Profit = 2,000 - 2,000 = ₹0 — exactly breakeven. But if government mandates price BELOW cost (say ₹1,800), loss = (2000-1800)×10,00,000 = ₹200 crore, illustrating PSU losses."
+      "correct": 0,
+      "explanation": "Production = 1 million tonnes = 10,00,000 tonnes. Total revenue = 10,00,000 x ₹2,000 = ₹2,000 crore. Variable cost = 10,00,000 x ₹1,500 = ₹1,500 crore. Fixed cost = ₹500 crore, so total cost = ₹2,000 crore. Profit = total revenue - total cost = ₹0. The plant breaks even. Option A is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC12Q84",
@@ -1368,7 +1371,7 @@
         "Real plan expenditure actually fell"
       ],
       "correct": 1,
-      "explanation": "Nominal increase = 97,500/2,356 ≈ 41.4-fold. To find real increase: deflate Sixth Plan by price index = 97,500/450 = ₹216.7 crore (in 1951 prices). First Plan = 2,356/100 = ₹23.56 crore... wait: 2,356 crore in 1951 prices. Sixth Plan real = 97,500 × (100/450) = 97,500/4.5 = ₹21,667 crore (1951 prices). Real increase = 21,667/2,356 ≈ 9.1-fold. Significantly less than 41-fold nominal increase."
+      "explanation": "Nominal increase = ₹97,500 crore / ₹2,356 crore = about 41.4 times. To adjust for inflation, convert Sixth Plan expenditure to 1951 prices: ₹97,500 crore x (100/450) = ₹21,667 crore. Real increase = ₹21,667 crore / ₹2,356 crore = about 9.1 times. Option B is correct."
     },
     {
       "id": "EC12Q92",
@@ -1842,10 +1845,10 @@
       "difficulty": "difficult",
       "question": "Punjab farmer Ram has 10 acres. In 1965 (pre-Green Revolution): yield 8 qt/acre, price ₹150/qt, cost ₹800/acre. In 1975 (post-GR): yield 25 qt/acre, price ₹120/qt (MSP), cost ₹1,500/acre (HYV inputs). Calculate profit per acre in both periods:",
       "options": [
-        "1965: ₹400 profit; 1975: ₹1,500 profit — Green Revolution tripled profit",
-        "1965: ₹400 profit; 1975: ₹1,500 profit — correct",
-        "1965: ₹400 profit; 1975: ₹1,500 profit",
-        "1965: ₹400 profit; 1975: ₹1,500 profit"
+        "1965: ₹400 profit; 1975: ₹1,500 profit — Green Revolution raised profit 3.75 times",
+        "1965: ₹400 profit; 1975: ₹1,200 profit",
+        "1965: ₹800 profit; 1975: ₹1,500 profit",
+        "1965: ₹1,200 profit; 1975: ₹3,000 profit"
       ],
       "correct": 0,
       "explanation": "1965 Profit/acre = (8 × 150) - 800 = 1,200 - 800 = ₹400. 1975 Profit/acre (at MSP) = (25 × 120) - 1,500 = 3,000 - 1,500 = ₹1,500. Green Revolution increased profit per acre from ₹400 to ₹1,500 (3.75x increase) for farmers with MSP protection and irrigation access. Without MSP (market price say ₹90): (25×90)-1500 = 2250-1500 = ₹750 — still higher but less dramatic gain."

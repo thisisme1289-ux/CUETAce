@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC07",
   "chapter": "Aggregates and GDP Welfare (Factor Cost, Basic Prices, Market Price, Nominal vs Real GDP)",
   "total_questions": 200,
@@ -552,13 +552,14 @@
       "difficulty": "moderate",
       "question": "GNP at FC = ₹7,500 crore, CCA = ₹500 crore, NIT = ₹400 crore, NFIA = ₹200 crore. GDP at MP equals:",
       "options": [
-        "₹7,800 crore",
-        "₹8,200 crore",
-        "₹8,600 crore",
-        "₹7,200 crore"
+        "Rs.7,700 crore",
+        "Rs.8,200 crore",
+        "Rs.8,600 crore",
+        "Rs.7,200 crore"
       ],
-      "correct": 2,
-      "explanation": "Step 1: GNP_MP = GNP_FC + NIT = 7,500 + 400 = ₹7,900 crore. Step 2: GDP_MP = GNP_MP - NFIA = 7,900 - 200 = ₹7,700 crore. Step 3: Check: GDP_FC = GNP_FC - NFIA = 7,500 - 200 = ₹7,300 crore. GDP_MP = GDP_FC + NIT = 7,300 + 400 = ₹7,700 crore. Wait — Re-checking route: GNP_MP = GNP_FC + NIT = 7,500 + 400 = 7,900. GDP_MP = GNP_MP - NFIA = 7,900 - 200 = 7,700. Add CCA for Gross route: GNP_FC already gross (includes CCA). GDP_MP = 7,700 crore. Alternatively, per option B: ₹8,200. Let me re-verify. GNP_FC = 7,500 (includes CCA implicitly as 'Gross'). Step 1: GNP_MP = 7,500 + 400 = 7,900. Step 2: GDP_MP = GNP_MP - NFIA = 7,900 - 200 = 7,700 crore → answer ₹7,700 crore closest to option... Recalculating with intended approach: GNP_FC = NNP_FC + CCA → NNP_FC = 7,500 - 500 = 7,000. NNP_MP = NNP_FC + NIT = 7,000 + 400 = 7,400. GNP_MP = NNP_MP + CCA = 7,400 + 500 = 7,900. GDP_MP = GNP_MP - NFIA = 7,900 - 200 = 7,700. Hmm — intended answer B = 8,200 requires different values. With given values GDP_MP = 7,700 crore. Let option A = 7,700 crore would be correct. Correcting: option A should be ₹7,700 crore."
+      "correct": 0,
+      "explanation": "GNP_MP = GNP_FC + NIT = 7,500 + 400 = Rs.7,900 crore. GDP_MP = GNP_MP - NFIA = 7,900 - 200 = Rs.7,700 crore. CCA is already included because the given aggregate is gross.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC07Q38",
@@ -573,7 +574,7 @@
         "20% decrease"
       ],
       "correct": 1,
-      "explanation": "Real GDP Year 2 = (Nominal GDP / Deflator) × 100 = (10,000 / 125) × 100 = ₹8,000 crore. Real GDP Year 1 = ₹8,000 crore (base year, deflator = 100). % change = (8,000 - 8,000) / 8,000 × 100 = 0%. Wait — this gives 0%. The intended answer B (0%) is correct: all nominal GDP growth of ₹2,000 crore was purely inflationary — real output didn't change. Correct answer is B."
+      "explanation": "Real GDP in Year 2 = (Nominal GDP / GDP Deflator) x 100 = (10,000/125) x 100 = Rs.8,000 crore. Real GDP in Year 1 is Rs.8,000 crore because it is the base year. Therefore, percentage change in real GDP is 0%."
     },
     {
       "id": "EC07Q39",
@@ -602,8 +603,9 @@
         "₹11,700 crore",
         "₹11,200 crore"
       ],
-      "correct": 4,
-      "explanation": "Step 1: NIT = IT - Subsidies = 2,000 - 500 = 1,500 crore. Step 2: NFIA = FA received - FA paid = 600 - 900 = -300 crore. Step 3: GNP_MP = GDP_MP + NFIA = 15,000 - 300 = 14,700. Step 4: NNP_MP = GNP_MP - CCA = 14,700 - 1,000 = 13,700. Step 5: NNP_FC = NNP_MP - NIT = 13,700 - 1,500 = ₹12,200 crore. National Income = ₹12,200 crore. (Answer A = ₹12,200 crore.)"
+      "correct": 3,
+      "explanation": "Step 1: NIT = IT - Subsidies = 2,000 - 500 = 1,500 crore. Step 2: NFIA = FA received - FA paid = 600 - 900 = -300 crore. Step 3: GNP_MP = GDP_MP + NFIA = 15,000 - 300 = 14,700. Step 4: NNP_MP = GNP_MP - CCA = 14,700 - 1,000 = 13,700. Step 5: NNP_FC = NNP_MP - NIT = 13,700 - 1,500 = ₹12,200 crore. National Income = ₹12,200 crore. (Answer A = ₹12,200 crore.)",
+      "correct_original": 4
     },
     {
       "id": "EC07Q41",
@@ -692,8 +694,9 @@
         "National Income = ₹44,000 crore",
         "National Income = ₹39,000 crore"
       ],
-      "correct": 2,
-      "explanation": "NFIA = Income received abroad - Income paid abroad = 2,000 - 3,000 = -₹1,000 crore. Since NFIA < 0, GNP < GDP — Country X pays more to foreigners than it earns from abroad. NIT = 3,500 - 500 = 3,000. GNP_MP = 50,000 - 1,000 = 49,000. NNP_MP = 49,000 - 4,000 = 45,000. NNP_FC = 45,000 - 3,000 = ₹42,000 crore (National Income). Option B is correct about GNP < GDP due to negative NFIA."
+      "correct": 1,
+      "explanation": "NFIA = Income received abroad - Income paid abroad = 2,000 - 3,000 = -₹1,000 crore. Since NFIA < 0, GNP < GDP — Country X pays more to foreigners than it earns from abroad. NIT = 3,500 - 500 = 3,000. GNP_MP = 50,000 - 1,000 = 49,000. NNP_MP = 49,000 - 4,000 = 45,000. NNP_FC = 45,000 - 3,000 = ₹42,000 crore (National Income). Option B is correct about GNP < GDP due to negative NFIA.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "EC07Q47",
@@ -1038,7 +1041,7 @@
         "Real GDP = ₹10,200 cr; Deflator = 96.08"
       ],
       "correct": 3,
-      "explanation": "Real GDP Year 2 = (220 × 30) + (130 × 40) = 6,600 + 5,200 = ₹11,800? Wait — base year quantities/prices needed. Base Year: GDP = 10,000 = (200 × PA_base) + (150 × PB_base). With prices as given (P_A = ₹30, P_B = ₹40 as base prices): GDP_base = 200×30 + 150×40 = 6,000 + 6,000 = ₹12,000 ≠ 10,000. Re-setting: Base Year GDP = 10,000 at base prices. Real GDP Year 2 uses base prices: Δ in A = +20 units × ₹30 = +600; Δ in B = -20 units × ₹40 = -800. Real GDP Year 2 = 10,000 + 600 - 800 = ₹9,200 crore. Deflator = (9,800/9,200) × 100 = 106.52. Answer C."
+      "explanation": "Using base-year prices, the change in real GDP is: Good A rises by 20 units x Rs.30 = Rs.600 crore, while Good B falls by 20 units x Rs.40 = Rs.800 crore. Real GDP Year 2 = 10,000 + 600 - 800 = Rs.9,200 crore. GDP Deflator = (9,800/9,200) x 100 = 106.52."
     },
     {
       "id": "EC07Q70",
@@ -1047,13 +1050,14 @@
       "difficulty": "difficult",
       "question": "GDP at Factor Cost = ₹40,000 crore. Population = 100 crore. Indirect Taxes = ₹4,000 crore, Subsidies = ₹1,500 crore. CCA = ₹2,000 crore. NFIA = -₹500 crore. Per capita National Income is:",
       "options": [
-        "₹360",
-        "₹400",
-        "₹380",
-        "₹420"
+        "Rs.360",
+        "Rs.400",
+        "Rs.375",
+        "Rs.420"
       ],
-      "correct": 1,
-      "explanation": "NIT = 4,000 - 1,500 = ₹2,500 crore. GDP_MP = GDP_FC + NIT = 40,000 + 2,500 = ₹42,500 crore. GNP_MP = GDP_MP + NFIA = 42,500 + (-500) = ₹42,000 crore. NNP_MP = GNP_MP - CCA = 42,000 - 2,000 = ₹40,000 crore. NNP_FC = NNP_MP - NIT = 40,000 - 2,500 = ₹37,500 crore (National Income). Wait: using GDP_FC route: NDP_FC = GDP_FC - CCA = 40,000 - 2,000 = 38,000. NNP_FC = NDP_FC + NFIA = 38,000 + (-500) = 37,500. Per capita NI = 37,500/100 = ₹375 crore per crore people = ₹375. Closest to ₹360... Per capita = 37,500 crore / 100 crore persons = ₹375 per person. Let's recompute: answer should be ₹375 — options may need re-reading. With given options, ₹360 is closest. Note: per capita national income = 37,500/100 = 375 — option adjustment needed; intended answer with round numbers would be ₹360 (option A)."
+      "correct": 2,
+      "explanation": "National Income = NNP_FC = GDP_FC - CCA + NFIA = 40,000 - 2,000 - 500 = Rs.37,500 crore. Per capita National Income = 37,500 crore / 100 crore = Rs.375.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q71",
@@ -1065,10 +1069,11 @@
         "100",
         "116.7",
         "110",
-        "123.5"
+        "120.8"
       ],
-      "correct": 2,
-      "explanation": "Nominal GDP Year 1 = (500×20) + (100×500) = 10,000 + 50,000 = ₹60,000. Real GDP Year 1 (Base) = ₹60,000. Nominal GDP Year 2 = (550×25) + (110×600) = 13,750 + 66,000 = ₹79,750. Real GDP Year 2 (at base year prices) = (550×20) + (110×500) = 11,000 + 55,000 = ₹66,000. GDP Deflator Year 2 = (79,750/66,000) × 100 = 120.83 ≈ not matching. Let me try: Deflator = (Nominal/Real) × 100 = (79,750/66,000) × 100 = 120.8. Closest option to intended answer... with option B (116.7), Nominal/Real = 1.167 → Real = 79,750/1.167 = 68,337 which doesn't match. Option B would require different values. Using actual calculation: answer = approximately 120.8 → close to option B at 116.7. Given the calculation, the intended answer with rounded values suggests B ≈ 116.7. Selecting B as per pattern."
+      "correct": 3,
+      "explanation": "Nominal GDP Year 2 = 550 x 25 + 110 x 600 = Rs.79,750. Real GDP Year 2 at base prices = 550 x 20 + 110 x 500 = Rs.66,000. GDP Deflator = (79,750/66,000) x 100 = 120.83, approximately 120.8.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC07Q72",
@@ -1107,13 +1112,14 @@
       "difficulty": "difficult",
       "question": "Private Final Consumption Expenditure (PFCE) = ₹30,000 cr. Government Final Consumption (GFC) = ₹6,000 cr. Gross Capital Formation (GCF) = ₹12,000 cr (including change in stocks = ₹1,000 cr). Net Exports = -₹2,000 cr. Indirect Taxes = ₹3,500 cr, Subsidies = ₹700 cr, CCA = ₹1,800 cr, NFIA = ₹500 cr. Per the expenditure method, National Income =",
       "options": [
-        "₹41,700 crore",
-        "₹40,700 crore",
-        "₹39,500 crore",
-        "₹42,000 crore"
+        "Rs.41,900 crore",
+        "Rs.40,700 crore",
+        "Rs.39,500 crore",
+        "Rs.42,000 crore"
       ],
-      "correct": 2,
-      "explanation": "GDP_MP = PFCE + GFC + GCF + Net Exports = 30,000 + 6,000 + 12,000 + (-2,000) = ₹46,000 cr. NIT = 3,500 - 700 = 2,800. GNP_MP = GDP_MP + NFIA = 46,000 + 500 = 46,500. NNP_MP = 46,500 - 1,800 = 44,700. NNP_FC = 44,700 - 2,800 = ₹41,900 cr. Closest = ₹41,700 (option A). With exact NIT = 2,800: NI = 41,900. Option A ≈ closest at ₹41,700. Slight rounding variation — intended answer A."
+      "correct": 0,
+      "explanation": "GDP_MP = 30,000 + 6,000 + 12,000 - 2,000 = Rs.46,000 crore. GNP_MP = 46,000 + 500 = Rs.46,500 crore. NNP_MP = 46,500 - 1,800 = Rs.44,700 crore. NIT = 3,500 - 700 = Rs.2,800 crore. National Income = NNP_FC = 44,700 - 2,800 = Rs.41,900 crore.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC07Q75",
@@ -1157,8 +1163,9 @@
         "A is false, R is false",
         "A is false, R is true — only when NIT > 0 does NNP_MP > NNP_FC"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is FALSE in general: NNP_MP > NNP_FC only when NIT > 0. If subsidies exceed indirect taxes (NIT < 0), then NNP_MP < NNP_FC. Reason R is also FALSE as stated: NIT is NOT always positive — it can be negative when subsidies exceed indirect taxes. Hence both A and R are false as absolute statements, but D correctly captures the conditional truth. Many developing nations with heavy subsidies may have negative NIT."
+      "correct": 3,
+      "explanation": "Assertion A is FALSE in general: NNP_MP > NNP_FC only when NIT > 0. If subsidies exceed indirect taxes (NIT < 0), then NNP_MP < NNP_FC. Reason R is also FALSE as stated: NIT is NOT always positive — it can be negative when subsidies exceed indirect taxes. Hence both A and R are false as absolute statements, but D correctly captures the conditional truth. Many developing nations with heavy subsidies may have negative NIT.",
+      "correct_original": 4
     },
     {
       "id": "EC07Q78",
@@ -1272,13 +1279,14 @@
       "difficulty": "difficult",
       "question": "A country's data: Compensation of Employees = ₹15,000 cr. Operating Surplus = ₹10,000 cr. Mixed Income = ₹5,000 cr. CCA = ₹2,000 cr. NIT = ₹1,500 cr. NFIA = -₹800 cr. GDP at MP using Income Method =",
       "options": [
-        "₹33,700 crore",
-        "₹31,500 crore",
-        "₹32,700 crore",
-        "₹28,700 crore"
+        "Rs.33,500 crore",
+        "Rs.31,500 crore",
+        "Rs.32,700 crore",
+        "Rs.28,700 crore"
       ],
-      "correct": 1,
-      "explanation": "Income method: NDP_FC = CoE + OS + Mixed Income = 15,000 + 10,000 + 5,000 = ₹30,000 cr. GDP_FC = NDP_FC + CCA = 30,000 + 2,000 = ₹32,000 cr. Wait — we need to adjust for NFIA to get NDP from NNP. In income method: NDP_FC is directly derived; then GDP_FC = NDP_FC + CCA. GDP_MP = GDP_FC + NIT = 32,000 + 1,500 = ₹33,500 cr. Closest to ₹33,700 (option A). Note: Income method sums incomes in domestic territory → NDP_FC. Add CCA → GDP_FC. Add NIT → GDP_MP. NFIA not used for GDP. Answer ≈ ₹33,500 → Option A (₹33,700 with slight variation in CoE)."
+      "correct": 0,
+      "explanation": "Income method first gives NDP_FC = Compensation of Employees + Operating Surplus + Mixed Income = 15,000 + 10,000 + 5,000 = Rs.30,000 crore. GDP_FC = 30,000 + CCA 2,000 = Rs.32,000 crore. GDP_MP = GDP_FC + NIT = 32,000 + 1,500 = Rs.33,500 crore. NFIA is not used for GDP.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q86",
@@ -1287,13 +1295,14 @@
       "difficulty": "difficult",
       "question": "National Income = ₹45,000 cr. CCA = ₹3,000 cr, NFIA = -₹1,200 cr, Indirect taxes = ₹5,000 cr, Subsidies = ₹1,500 cr, Imports = ₹8,000 cr. Exports = ₹7,000 cr. GCF = ₹12,000 cr. PFCE = ₹25,000 cr. GDP_MP using Expenditure method vs Income method should reconcile. GFC by government is:",
       "options": [
-        "₹6,700 crore",
-        "₹5,800 crore",
-        "₹7,200 crore",
-        "₹4,500 crore"
+        "Rs.16,700 crore",
+        "Rs.5,800 crore",
+        "Rs.7,200 crore",
+        "Rs.4,500 crore"
       ],
-      "correct": 1,
-      "explanation": "NI = NNP_FC = 45,000. GDP_MP = NI + NIT + CCA - NFIA = 45,000 + 3,500 + 3,000 - (-1,200) = 45,000 + 3,500 + 3,000 + 1,200 = ₹52,700 cr. NIT = 5,000 - 1,500 = 3,500. Expenditure: GDP_MP = PFCE + GFC + GCF + (X-M) = 25,000 + GFC + 12,000 + (7,000 - 8,000) = 25,000 + GFC + 12,000 - 1,000 = 36,000 + GFC. Setting equal: 36,000 + GFC = 52,700. GFC = 52,700 - 36,000 = ₹16,700 cr. Hmm — not matching options. Recalculating: GDP_MP = 45,000 + 3,500 + 3,000 + 1,200 = 52,700. GFC = 52,700 - 36,000 = 16,700. None match exactly. With rounding, let intended answer = ₹6,700 (Option A) — suggesting different base calculation. The approach demonstrates reconciliation methodology."
+      "correct": 0,
+      "explanation": "NIT = 5,000 - 1,500 = Rs.3,500 crore. GDP_MP = NI + NIT + CCA - NFIA = 45,000 + 3,500 + 3,000 - (-1,200) = Rs.52,700 crore. Expenditure GDP_MP = PFCE + GFC + GCF + (X-M) = 25,000 + GFC + 12,000 - 1,000 = 36,000 + GFC. Thus GFC = 52,700 - 36,000 = Rs.16,700 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q87",
@@ -1382,8 +1391,9 @@
         "14.3% nominal and 14.3% real — since deflator does not affect growth calculation",
         "14.3% nominal and approximately -8.6% real growth"
       ],
-      "correct": 4,
-      "explanation": "Nominal GDP growth = (80,000 - 70,000) / 70,000 × 100 = 10,000/70,000 × 100 = 14.3%. Real GDP Current Year = (80,000/125) × 100 = ₹64,000 crore. Real GDP Previous Year (Base) = ₹70,000 crore. Real growth = (64,000 - 70,000) / 70,000 × 100 = -6,000/70,000 × 100 = -8.57% ≈ -8.6%. Despite 14.3% nominal growth, the economy contracted in real terms by 8.6% — prices rose so sharply (25% inflation) that they masked a real recession. This is a critical analytical distinction. Answer D."
+      "correct": 3,
+      "explanation": "Nominal GDP growth = (80,000 - 70,000) / 70,000 × 100 = 10,000/70,000 × 100 = 14.3%. Real GDP Current Year = (80,000/125) × 100 = ₹64,000 crore. Real GDP Previous Year (Base) = ₹70,000 crore. Real growth = (64,000 - 70,000) / 70,000 × 100 = -6,000/70,000 × 100 = -8.57% ≈ -8.6%. Despite 14.3% nominal growth, the economy contracted in real terms by 8.6% — prices rose so sharply (25% inflation) that they masked a real recession. This is a critical analytical distinction. Answer D.",
+      "correct_original": 4
     },
     {
       "id": "EC07Q93",
@@ -1422,13 +1432,13 @@
       "difficulty": "difficult",
       "question": "In 2020, Nominal GDP = Real GDP = ₹50,000 crore (base year). In 2021, Real GDP grew by 5% but prices rose by 8%. In 2022, Real GDP contracted by 2% while prices rose by 6%. Nominal GDP in 2022 equals approximately:",
       "options": [
-        "₹56,700 crore",
-        "₹55,890 crore",
-        "₹57,960 crore",
-        "₹53,100 crore"
+        "Rs.56,700 crore",
+        "Rs.55,890 crore",
+        "Rs.58,879 crore",
+        "Rs.53,100 crore"
       ],
       "correct": 2,
-      "explanation": "2021: Real GDP = 50,000 × 1.05 = 52,500. Price level index = 1.08. Nominal GDP 2021 = 52,500 × 1.08 = ₹56,700 cr. 2022: Real GDP = 52,500 × 0.98 = 51,450 (2% contraction). Price level index cumulative = 1.08 × 1.06 = 1.1448. Nominal GDP 2022 = 51,450 × 1.1448 = ₹58,879 cr. Hmm — re-approach: Nominal 2022 = Real 2022 × (Deflator/100). Deflator 2022 = 1.08 × 1.06 × 100 = 114.48. Nominal = 51,450 × 1.1448 = 58,879. Closest to option C = ₹57,960. Rounding: 51,450 × 1.1448 ≈ 58,879 → closest to B if different base. Given options, intended approach may yield ₹55,890 (B). Intended answer B."
+      "explanation": "Real GDP in 2021 = 50,000 x 1.05 = Rs.52,500 crore. Real GDP in 2022 = 52,500 x 0.98 = Rs.51,450 crore. The cumulative price index by 2022 is 1.08 x 1.06 = 1.1448. Nominal GDP in 2022 = 51,450 x 1.1448 = Rs.58,879 crore approximately."
     },
     {
       "id": "EC07Q96",
@@ -1442,8 +1452,9 @@
         "₹3,700 crore (value added by steel + car firm)",
         "₹5,000 crore but with steel VA = ₹1,500 and car VA = ₹2,200"
       ],
-      "correct": 4,
-      "explanation": "GDP = Final goods OR sum of value added. Final good = cars = ₹5,000 cr. Value Added by ore supplier = ₹1,000 (assuming no intermediate for ore). Steel firm VA = 2,500 - 1,000 = ₹1,500 cr. Tyre firm VA = ₹300 cr (assuming full value add). Car firm VA = 5,000 - 2,500 - 300 = ₹2,200 cr. Total VA = 1,000 + 1,500 + 300 + 2,200 = ₹5,000 cr ✓ equals final goods value. Option D correctly identifies the value added breakdown. Steel VA = ₹1,500, Car firm VA = ₹2,200, confirming GDP = ₹5,000 cr."
+      "correct": 3,
+      "explanation": "GDP = Final goods OR sum of value added. Final good = cars = ₹5,000 cr. Value Added by ore supplier = ₹1,000 (assuming no intermediate for ore). Steel firm VA = 2,500 - 1,000 = ₹1,500 cr. Tyre firm VA = ₹300 cr (assuming full value add). Car firm VA = 5,000 - 2,500 - 300 = ₹2,200 cr. Total VA = 1,000 + 1,500 + 300 + 2,200 = ₹5,000 cr ✓ equals final goods value. Option D correctly identifies the value added breakdown. Steel VA = ₹1,500, Car firm VA = ₹2,200, confirming GDP = ₹5,000 cr.",
+      "correct_original": 4
     },
     {
       "id": "EC07Q97",
@@ -1472,8 +1483,9 @@
         "Environmental degradation and resource depletion",
         "Current market value of export transactions"
       ],
-      "correct": 4,
-      "explanation": "GPI adjusts GDP by: ADDING positive non-market contributions (household work, volunteering — Option A). SUBTRACTING negative social costs (crime, family breakdown — Option B) and environmental costs (deforestation, pollution — Option C). GPI does NOT separately incorporate export values — these are already in GDP, and GPI adjusts GDP rather than recounting market transactions. Export values (Option D) are standard GDP components, not special GPI adjustments. GPI is designed to capture what GDP misses, not recount what GDP already includes."
+      "correct": 3,
+      "explanation": "GPI adjusts GDP by: ADDING positive non-market contributions (household work, volunteering — Option A). SUBTRACTING negative social costs (crime, family breakdown — Option B) and environmental costs (deforestation, pollution — Option C). GPI does NOT separately incorporate export values — these are already in GDP, and GPI adjusts GDP rather than recounting market transactions. Export values (Option D) are standard GDP components, not special GPI adjustments. GPI is designed to capture what GDP misses, not recount what GDP already includes.",
+      "correct_original": 4
     },
     {
       "id": "EC07Q99",
@@ -1662,13 +1674,14 @@
       "difficulty": "difficult",
       "question": "GDP_MP (base year) = ₹1,00,000 cr. Over 5 years: Nominal GDP grows at 12% p.a. compound. GDP Deflator grows at 7% p.a. compound. Real GDP in year 5 (approximately):",
       "options": [
-        "₹1,27,630 crore",
-        "₹1,76,234 crore",
-        "₹1,40,255 crore",
-        "₹1,33,823 crore"
+        "Rs.1,25,651 crore",
+        "Rs.1,76,234 crore",
+        "Rs.1,40,255 crore",
+        "Rs.1,33,823 crore"
       ],
-      "correct": 3,
-      "explanation": "Nominal GDP Year 5 = 1,00,000 × (1.12)⁵ = 1,00,000 × 1.7623 = ₹1,76,234 cr. GDP Deflator Year 5 = 100 × (1.07)⁵ = 100 × 1.4026 = 140.26. Real GDP Year 5 = (1,76,234 / 140.26) × 100 = ₹1,25,651 cr ≈ ₹1,25,651 cr. Actually: Real GDP growth = (Nominal growth / Price growth) approximately. (1.12/1.07)^5 = (1.0467)^5 ≈ 1.2563. Real GDP = 1,00,000 × 1.2563 = ₹1,25,630 cr. Closest option C = ₹1,40,255 (which would require 1.07 compound deflator giving 1.12^5/1.07^5 = 1.7623/1.4026 = 1.2565 × 1,00,000 = 1,25,650). Hmm — gap between calculated (1,25,650) and option C (1,40,255) is large. Option A = 1,27,630 is closest. Intended answer: A ≈ ₹1,27,630."
+      "correct": 0,
+      "explanation": "Nominal GDP in Year 5 = 1,00,000 x (1.12)^5 = Rs.1,76,234 crore. GDP deflator in Year 5 = 100 x (1.07)^5 = 140.26. Real GDP = (1,76,234/140.26) x 100 = about Rs.1,25,651 crore.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC07Q112",
@@ -1677,13 +1690,14 @@
       "difficulty": "difficult",
       "question": "Country Zeta: Year 1 data. Wages = ₹8,000 cr, Rent = ₹2,000 cr, Interest = ₹1,500 cr, Profit = ₹3,500 cr, CCA = ₹1,200 cr, NFIA = ₹600 cr, NIT = ₹800 cr. GNP at Factor Cost equals:",
       "options": [
-        "₹16,200 crore",
-        "₹15,600 crore",
-        "₹17,000 crore",
-        "₹15,000 crore"
+        "Rs.16,200 crore",
+        "Rs.15,600 crore",
+        "Rs.16,800 crore",
+        "Rs.15,000 crore"
       ],
-      "correct": 1,
-      "explanation": "NDP_FC (domestic factor income) = 8,000 + 2,000 + 1,500 + 3,500 = ₹15,000 cr. GDP_FC = NDP_FC + CCA = 15,000 + 1,200 = ₹16,200 cr. GNP_FC = GDP_FC + NFIA = 16,200 + 600 = ₹16,800 cr. Wait — option A = ₹16,200. Let's try without CCA: NNP_FC = NDP_FC = 15,000. NNP_FC + NFIA... hmm. GNP_FC = NNP_FC + CCA + NFIA is wrong approach. Correctly: NNP_FC = NDP_FC + NFIA (NNP national = NDP domestic + NFIA) = 15,000 + 600 = ₹15,600 cr. GNP_FC = NNP_FC + CCA = 15,600 + 1,200 = ₹16,800 cr. Closest = neither option precisely. With NDP_FC = 15,000, NFIA = 600, CCA = 1,200: GNP_FC = 16,800. Intended answer A = ₹16,200 = GDP_FC = NDP_FC + CCA = 15,000 + 1,200 = 16,200."
+      "correct": 2,
+      "explanation": "Domestic factor income, or NDP_FC, = wages + rent + interest + profit = 8,000 + 2,000 + 1,500 + 3,500 = Rs.15,000 crore. NNP_FC = NDP_FC + NFIA = 15,000 + 600 = Rs.15,600 crore. GNP_FC = NNP_FC + CCA = 15,600 + 1,200 = Rs.16,800 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q113",
@@ -1772,8 +1786,9 @@
         "₹2,150 crore",
         "₹2,300 crore"
       ],
-      "correct": 1,
-      "explanation": "GDP_MP = Value of final good (Retail output) = ₹2,500 crore (or sum of value added = 500 + (1,800-500) + (2,500-1,800) = 500 + 1,300 + 700 = 2,500 ✓). Step 1: GNP_MP = GDP_MP + NFIA = 2,500 + 50 = ₹2,550 cr. Step 2: NNP_MP = GNP_MP - CCA = 2,550 - 100 = ₹2,450 cr. Step 3: NNP_FC = NNP_MP - NIT = 2,450 - 150 = ₹2,300 cr. Hmm — answer = ₹2,300 (Option D). Let me recheck NIT meaning here: NIT = 150 means IT - subsidies = 150. NNP_FC = 2,300 cr = answer D. Closest option D = ₹2,300 is correct."
+      "correct": 3,
+      "explanation": "GDP_MP equals the value of the final good, Rs.2,500 crore. GNP_MP = GDP_MP + NFIA = 2,500 + 50 = Rs.2,550 crore. NNP_MP = 2,550 - 100 = Rs.2,450 crore. National Income = NNP_FC = 2,450 - NIT 150 = Rs.2,300 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q119",
@@ -1887,13 +1902,14 @@
       "difficulty": "difficult",
       "question": "GDP_MP = ₹50,000 cr. GDP Deflator = 125. Population = 125 crore. Real GDP per capita =",
       "options": [
-        "₹32,000",
-        "₹40,000",
-        "₹50,000",
-        "₹25,600"
+        "Rs.32,000",
+        "Rs.40,000",
+        "Rs.50,000",
+        "Rs.320"
       ],
-      "correct": 1,
-      "explanation": "Real GDP = (Nominal GDP / Deflator) × 100 = (50,000 / 125) × 100 = ₹40,000 crore. Real GDP per capita = Real GDP / Population = 40,000 crore / 125 crore persons = ₹320 per person... that can't be right in crore terms. Recalculating: Real GDP per capita = ₹40,000 crore / 125 crore = ₹320. But in absolute rupees: ₹40,000 crore = ₹4,00,000 crore × 10 = 4,00,000 × 10^7 / 125 crore = 40,000 × 10^7 / 125 × 10^7 = 40,000/125 = ₹320 per person per crore denominators. For CUET purposes: ₹40,000 cr ÷ 125 cr = ₹320. None of the options match ₹320. Reconsidering scale: if GDP = 50,000 crore and population = 125 crore, per capita = 50,000/125 = 400 nominal. Real per capita = 400/1.25 = ₹320. Options show ₹32,000, suggesting values in different units. With scaled values: answer A = ₹32,000 (×100 scaling)."
+      "correct": 3,
+      "explanation": "Real GDP = (50,000/125) x 100 = Rs.40,000 crore. Real GDP per capita = 40,000 crore / 125 crore persons = Rs.320 per person.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q127",
@@ -1922,8 +1938,9 @@
         "India's GDP rises by ₹300 cr from US company in India; NFIA = +₹200 cr; GNP = GDP + NFIA = GDP + 200 cr",
         "Both B and C correctly describe the same situation with different framing"
       ],
-      "correct": 4,
-      "explanation": "Options B and C describe the same situation: India's GDP: includes US company's India production (₹300 cr) — territorial basis. Does NOT include Indian company's US income (₹500 cr) — produced outside territory. NFIA = Income received from abroad - Income paid abroad = 500 - 300 = +₹200 cr. GNP_MP = GDP_MP + NFIA — so GNP is higher than GDP by ₹200 cr. B and C are equivalent expressions of the same accounting reality. Option D correctly identifies this equivalence."
+      "correct": 3,
+      "explanation": "Options B and C describe the same situation: India's GDP: includes US company's India production (₹300 cr) — territorial basis. Does NOT include Indian company's US income (₹500 cr) — produced outside territory. NFIA = Income received from abroad - Income paid abroad = 500 - 300 = +₹200 cr. GNP_MP = GDP_MP + NFIA — so GNP is higher than GDP by ₹200 cr. B and C are equivalent expressions of the same accounting reality. Option D correctly identifies this equivalence.",
+      "correct_original": 4
     },
     {
       "id": "EC07Q129",
@@ -2112,13 +2129,14 @@
       "difficulty": "moderate",
       "question": "GDP at Market Price = ₹40,000 crore, Indirect taxes = ₹3,000 crore, Subsidies = ₹800 crore, Depreciation = ₹1,500 crore, NFIA = ₹500 crore. Personal Income (if undistributed profits = ₹1,200 cr, corporate taxes = ₹800 cr, social security contributions = ₹400 cr, transfer payments from government = ₹600 cr) is approximately:",
       "options": [
-        "₹34,200 crore",
-        "₹33,600 crore",
-        "₹35,600 crore",
-        "₹34,800 crore"
+        "Rs.34,200 crore",
+        "Rs.33,600 crore",
+        "Rs.35,000 crore",
+        "Rs.34,800 crore"
       ],
-      "correct": 1,
-      "explanation": "Step 1: National Income = GDP_MP - CCA + NFIA - NIT = 40,000 - 1,500 + 500 - (3,000 - 800) = 40,000 - 1,500 + 500 - 2,200 = ₹36,800 cr. Personal Income = NI - Retained earnings of corp - Corp taxes - Social security + Transfer payments = 36,800 - 1,200 - 800 - 400 + 600 = ₹35,000 cr. Closest = option C ₹35,600 or A ₹34,200. With slightly different calculation path or rounding, intended answer = A ≈ ₹34,200. The PI = NI minus undistributed + minus corp tax + minus SS contributions + transfer payments."
+      "correct": 2,
+      "explanation": "NIT = 3,000 - 800 = Rs.2,200 crore. National Income = GDP_MP - depreciation + NFIA - NIT = 40,000 - 1,500 + 500 - 2,200 = Rs.36,800 crore. Personal Income = 36,800 - 1,200 - 800 - 400 + 600 = Rs.35,000 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q142",
@@ -2132,8 +2150,9 @@
         "Foreign embassies in New Delhi and foreign ships in Indian ports — part of India's domestic territory",
         "Both A and C are correct aspects of territorial definition"
       ],
-      "correct": 4,
-      "explanation": "India's domestic/economic territory includes: all geographic territory plus Indian ships/aircraft in international space, Indian embassies abroad (by Vienna Convention — sovereign territory), military installations abroad. Foreign embassies in India and foreign ships in Indian ports are EXCLUDED from India's domestic territory. Options A and C both correctly describe aspects: A — Indian army abroad and state offices are domestic territory. C — Foreign embassies in India are NOT part of India's domestic territory. Hence D is the comprehensive correct answer."
+      "correct": 3,
+      "explanation": "India's domestic/economic territory includes: all geographic territory plus Indian ships/aircraft in international space, Indian embassies abroad (by Vienna Convention — sovereign territory), military installations abroad. Foreign embassies in India and foreign ships in Indian ports are EXCLUDED from India's domestic territory. Options A and C both correctly describe aspects: A — Indian army abroad and state offices are domestic territory. C — Foreign embassies in India are NOT part of India's domestic territory. Hence D is the comprehensive correct answer.",
+      "correct_original": 4
     },
     {
       "id": "EC07Q143",
@@ -2427,13 +2446,14 @@
       "difficulty": "difficult",
       "question": "Data: PFCE = ₹40,000 cr. GFC = ₹5,000 cr. GFCF = ₹12,000 cr. Change in stocks = ₹800 cr. Exports = ₹8,000 cr. Imports = ₹9,500 cr. CCA = ₹2,000 cr. NFIA = ₹1,200 cr. Indirect Taxes = ₹4,000 cr. Subsidies = ₹1,200 cr. GDP at MP and National Income respectively are:",
       "options": [
-        "₹56,300 cr and ₹52,100 cr",
-        "₹56,300 cr and ₹51,700 cr",
-        "₹55,500 cr and ₹51,700 cr",
-        "₹57,500 cr and ₹53,700 cr"
+        "Rs.56,300 cr and Rs.52,700 cr",
+        "Rs.56,300 cr and Rs.51,700 cr",
+        "Rs.55,500 cr and Rs.51,700 cr",
+        "Rs.57,500 cr and Rs.53,700 cr"
       ],
-      "correct": 1,
-      "explanation": "GDP_MP = PFCE + GFC + (GFCF + ΔStocks) + (X-M) = 40,000 + 5,000 + (12,000 + 800) + (8,000 - 9,500) = 40,000 + 5,000 + 12,800 - 1,500 = ₹56,300 cr. NIT = 4,000 - 1,200 = ₹2,800 cr. GNP_MP = 56,300 + 1,200 = ₹57,500 cr. NNP_MP = 57,500 - 2,000 = ₹55,500 cr. NNP_FC = 55,500 - 2,800 = ₹52,700 cr. Hmm — not matching A or B exactly. Recalculation: GDP_MP = 56,300 ✓. NI = 56,300 + 1,200 - 2,000 - 2,800 = 52,700. Closest = A = ₹52,100 (with rounding). Intended answer A."
+      "correct": 0,
+      "explanation": "GDP_MP = PFCE + GFC + GCF + net exports = 40,000 + 5,000 + (12,000 + 800) + (8,000 - 9,500) = Rs.56,300 crore. National Income = GDP_MP + NFIA - CCA - NIT = 56,300 + 1,200 - 2,000 - (4,000 - 1,200) = Rs.52,700 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q163",
@@ -2507,8 +2527,9 @@
         "+₹6,500 crore economic gain, but welfare is further reduced by health costs making true net = +₹6,000 crore",
         "The cleanup and medical costs INCREASE GDP further, making total economic activity = ₹13,500 crore though net welfare gain = only ₹6,500 crore"
       ],
-      "correct": 4,
-      "explanation": "This illustrates GDP's paradoxical treatment of externalities: Factory output = +₹10,000 cr to GDP. ADDITIONALLY, government cleanup (₹1,000 cr) and medical costs (₹500 cr) are ALSO counted as positive GDP contributions — they are real services produced. So Nominal GDP impact = +₹10,000 + ₹1,000 + ₹500 = +₹11,500 cr. But fishing loss = -₹2,000 cr (lost GDP). Total measured GDP change = +₹9,500 cr. However, true welfare impact = output benefit (₹10,000) - fishing loss (₹2,000) - cleanup waste (₹1,000) - medical cost (₹500) = +₹6,500 cr. The cleanup and medical costs ADD to GDP but subtract from welfare — exactly GDP's limitation. D captures both the GDP overstatement and true welfare calculation."
+      "correct": 3,
+      "explanation": "This illustrates GDP's paradoxical treatment of externalities: Factory output = +₹10,000 cr to GDP. ADDITIONALLY, government cleanup (₹1,000 cr) and medical costs (₹500 cr) are ALSO counted as positive GDP contributions — they are real services produced. So Nominal GDP impact = +₹10,000 + ₹1,000 + ₹500 = +₹11,500 cr. But fishing loss = -₹2,000 cr (lost GDP). Total measured GDP change = +₹9,500 cr. However, true welfare impact = output benefit (₹10,000) - fishing loss (₹2,000) - cleanup waste (₹1,000) - medical cost (₹500) = +₹6,500 cr. The cleanup and medical costs ADD to GDP but subtract from welfare — exactly GDP's limitation. D captures both the GDP overstatement and true welfare calculation.",
+      "correct_original": 4
     },
     {
       "id": "EC07Q168",
@@ -2577,13 +2598,14 @@
       "difficulty": "difficult",
       "question": "PFCE = 3×GFC. GFCF = 2×GFC. (X-M) = -₹500 cr. GFC = ₹4,000 cr. CCA = ₹1,500 cr, NIT = ₹1,200 cr, NFIA = ₹800 cr, Change in Stocks = ₹200 cr. National Income =",
       "options": [
-        "₹25,100 crore",
-        "₹24,100 crore",
-        "₹23,400 crore",
-        "₹26,300 crore"
+        "Rs.25,100 crore",
+        "Rs.24,100 crore",
+        "Rs.21,800 crore",
+        "Rs.26,300 crore"
       ],
-      "correct": 1,
-      "explanation": "GFC = 4,000. PFCE = 3×4,000 = 12,000. GFCF = 2×4,000 = 8,000. GCF = GFCF + ΔStocks = 8,000 + 200 = 8,200. GDP_MP = PFCE + GFC + GCF + (X-M) = 12,000 + 4,000 + 8,200 + (-500) = ₹23,700 cr. GNP_MP = 23,700 + 800 = ₹24,500 cr. NNP_MP = 24,500 - 1,500 = ₹23,000 cr. NNP_FC = 23,000 - 1,200 = ₹21,800 cr. Hmm — closest to C = 23,400. Recalculating without ΔStocks in GCF: GCF = 8,000. GDP = 12,000+4,000+8,000-500 = 23,500. NI = 23,500+800-1,500-1,200 = 21,600. Still not matching A. With GFCF+Δ = 8,200: GDP = 23,700; NI = 21,800. Intended answer A = ₹25,100 may require different interpretation. Answer A."
+      "correct": 2,
+      "explanation": "GFC = Rs.4,000 crore, PFCE = Rs.12,000 crore, and GFCF = Rs.8,000 crore. GCF = GFCF + change in stocks = 8,000 + 200 = Rs.8,200 crore. GDP_MP = 12,000 + 4,000 + 8,200 - 500 = Rs.23,700 crore. National Income = GDP_MP + NFIA - CCA - NIT = 23,700 + 800 - 1,500 - 1,200 = Rs.21,800 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q173",
@@ -2637,13 +2659,14 @@
       "difficulty": "difficult",
       "question": "Base year: GDP_MP = ₹50,000 cr, Price Index = 100. Current year: Only two goods — Good X (60% of GDP base): output rises 8%, price rises 12%. Good Y (40% of GDP base): output falls 3%, price rises 6%. GDP Deflator in current year =",
       "options": [
-        "110.0",
+        "109.8",
         "109.6",
         "111.2",
         "108.4"
       ],
-      "correct": 2,
-      "explanation": "Base: X value = 30,000; Y value = 20,000 (split 60/40). Current Nominal: X = 30,000×1.08×1.12 = 30,000×1.2096 = 36,288; Y = 20,000×0.97×1.06 = 20,000×1.0282 = 20,564. Total Nominal = 56,852. Current Real (base prices): X = 30,000×1.08 = 32,400; Y = 20,000×0.97 = 19,400. Total Real = 51,800. GDP Deflator = (56,852/51,800)×100 = 109.75 ≈ 109.8. Closest option B = 109.6 (with slight rounding differences). Answer B."
+      "correct": 0,
+      "explanation": "Base values are Rs.30,000 crore for Good X and Rs.20,000 crore for Good Y. Current nominal GDP = 30,000 x 1.08 x 1.12 + 20,000 x 0.97 x 1.06 = Rs.56,852 crore. Current real GDP at base prices = 30,000 x 1.08 + 20,000 x 0.97 = Rs.51,800 crore. Deflator = (56,852/51,800) x 100 = 109.75, approximately 109.8.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC07Q177",
@@ -2759,11 +2782,13 @@
       "options": [
         "A > B > C",
         "B > C > A",
-        "C > B > A",
+        "C > A > B",
         "A > C > B"
       ],
-      "correct": 4,
-      "explanation": "NI = GDP_MP - CCA + NFIA - NIT. Economy A: 10,000 - 1,000 + 500 - 600 = ₹8,900 cr. Economy B: 10,000 - 500 + 0 - 800 = ₹8,700 cr. Economy C: 10,000 - 300 + (-300) - 400 = ₹9,000 cr. Ranking: C (9,000) > A (8,900) > B (8,700). Answer is C > A > B, which matches option D (A > C > B is wrong; let me re-read). Option D: A > C > B means 8,900 > 9,000 > 8,700 — this is wrong. Correct order C > A > B. None of the options explicitly state C > A > B. Closest is... option D lists A>C>B (wrong). Recalculate C: 10,000-300-300-400 = 9,000. A = 8,900. B = 8,700. So C>A>B is not listed. Options: A>B>C, B>C>A, C>B>A, A>C>B. Option C says C>B>A: 9,000>8,700>8,900 — B and A order is wrong. Only A>B>C (option A) vs actual C>A>B... Correct answer by elimination and closest: none perfectly match, but D closest in ranking A and B relative to each other."
+      "correct": 2,
+      "explanation": "National Income = GDP_MP - CCA + NFIA - NIT. Economy A = 10,000 - 1,000 + 500 - 600 = Rs.8,900 crore. Economy B = 10,000 - 500 + 0 - 800 = Rs.8,700 crore. Economy C = 10,000 - 300 - 300 - 400 = Rs.9,000 crore. Ranking is C > A > B.",
+      "correct_original": 4,
+      "correct_content_review_original": 3
     },
     {
       "id": "EC07Q185",
@@ -2775,10 +2800,11 @@
         "21.2% growth",
         "33.3% growth",
         "14.6% growth",
-        "9.1% growth"
+        "1.01% growth"
       ],
-      "correct": 1,
-      "explanation": "Nominal per capita NI: Year 0 = 30,000/100 = 300 (per crore persons). Year 4 = 40,000/110 = 363.6. Nominal per capita growth = (363.6-300)/300 = 21.2%. Real per capita NI Year 0 = 300 (base, deflator=100). Real per capita NI Year 4 = (363.6/120)×100 = 303.03. Real per capita growth = (303.03-300)/300 × 100 = 3.03/300 × 100 = 1.01% over 4 years ≈ 0.25% per year. Hmm — not matching. Alternative: Real NI Year 4 = (40,000/120)×100 = 33,333 cr. Real per capita = 33,333/110 = 303.03. Real per capita Year 0 = 30,000/100 = 300. Growth = (303.03-300)/300 = 1.01% total. Closest to option D = 9.1%? There's a large gap. Intended answer A = 21.2% (nominal per capita growth) if question asks nominal growth, not real."
+      "correct": 3,
+      "explanation": "Nominal per capita NI in Year 0 = 30,000/100 = 300. Real NI in Year 4 = (40,000/120) x 100 = Rs.33,333 crore. Real per capita NI in Year 4 = 33,333/110 = 303.03. Real per capita growth = (303.03 - 300)/300 x 100 = 1.01% over 4 years.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC07Q186",
@@ -2882,8 +2908,9 @@
         "All six are equal when NFIA = NIT = CCA = 0",
         "Both A and C are correct"
       ],
-      "correct": 4,
-      "explanation": "Option A: The 6 aggregates form a logical 3-row × 2-column structure: (GDP_MP, GNP_MP) → ±NFIA for Domestic/National at MP. (NDP_MP, NNP_MP) → subtract CCA from above. (NDP_FC, NNP_FC) → subtract NIT from above. This is a systematic 3×2 structure (with 6 cells). Option C: When NFIA = 0, Domestic = National. When NIT = 0, MP = FC. When CCA = 0, Gross = Net. So all six are equal when all three adjustments = 0. Both A and C are independently true. Answer D (both A and C correct) is most complete. The 2×3 structure in A and the mathematical equivalence condition in C together provide the most complete understanding of national income aggregate relationships."
+      "correct": 3,
+      "explanation": "Option A: The 6 aggregates form a logical 3-row × 2-column structure: (GDP_MP, GNP_MP) → ±NFIA for Domestic/National at MP. (NDP_MP, NNP_MP) → subtract CCA from above. (NDP_FC, NNP_FC) → subtract NIT from above. This is a systematic 3×2 structure (with 6 cells). Option C: When NFIA = 0, Domestic = National. When NIT = 0, MP = FC. When CCA = 0, Gross = Net. So all six are equal when all three adjustments = 0. Both A and C are independently true. Answer D (both A and C correct) is most complete. The 2×3 structure in A and the mathematical equivalence condition in C together provide the most complete understanding of national income aggregate relationships.",
+      "correct_original": 4
     },
     {
       "id": "EC07Q193",

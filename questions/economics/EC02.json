@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC02",
   "chapter": "Consumer's Equilibrium and Demand (Utility Approach, Demand Curve, Elasticity of Demand)",
   "total_questions": 200,
@@ -123,7 +123,7 @@
         "X = 1, Y = 3"
       ],
       "correct": 1,
-      "explanation": "Equilibrium: MUx/Px = MUy/Py = MUm = 1. Required MUx = Px × MUm = 4; Required MUy = Py × MUm = 2. MUx = 4 at 4th unit of X? No: MUx values are 20,16,12,8,4 — MUx = 8 at 4th unit, MUx = 4 at 5th unit. Wait — MUx/Px: at X=1: 20/4=5, X=2: 16/4=4, X=3: 12/4=3. MUy/Py: Y=1: 10/2=5, Y=2: 8/2=4, Y=3: 6/2=3, Y=4: 4/2=2. Equalize MU per rupee = 4: X=2 (MUx/Px=4), Y=2 (MUy/Py=4). Budget: 2×4 + 2×2 = 8+4=12 ≠ 20. Try MU/P=3: X=3, Y=3. Budget: 3×4+3×2=12+6=18 ≠ 20. Try X=2, Y=4: 2×4+4×2=8+8=16≠20. Try X=3, Y=4: 3×4+4×2=12+8=20 ✓. MUx/Px at X=3=3, MUy/Py at Y=4=2. Not equal but budget exhausted. Best allocation: X=2, Y=4 gives budget 8+8=16. X=3,Y=4: 12+8=20 ✓ and closest equalization. Answer: X=3, Y=4."
+      "explanation": "Compare the affordable option bundles using the given marginal utility schedules. X = 3 and Y = 4 costs 3 x Rs.4 + 4 x Rs.2 = Rs.20, so the full budget is used. Its total utility is (20 + 16 + 12) + (10 + 8 + 6 + 4) = 76, which is higher than the other listed affordable bundles. Therefore, the consumer chooses X = 3 and Y = 4."
     },
     {
       "id": "EC02Q09",
@@ -302,8 +302,9 @@
         "Tastes and preferences",
         "Price of the commodity itself"
       ],
-      "correct": 4,
-      "explanation": "A movement along the demand curve (extension = downward movement, contraction = upward movement) is caused exclusively by a change in the own price of the commodity, holding all other factors constant. This is the ceteris paribus assumption of the Law of Demand. Changes in any other factor (income, prices of related goods, tastes) cause a shift of the entire demand curve."
+      "correct": 3,
+      "explanation": "A movement along the demand curve (extension = downward movement, contraction = upward movement) is caused exclusively by a change in the own price of the commodity, holding all other factors constant. This is the ceteris paribus assumption of the Law of Demand. Changes in any other factor (income, prices of related goods, tastes) cause a shift of the entire demand curve.",
+      "correct_original": 4
     },
     {
       "id": "EC02Q21",
@@ -332,8 +333,9 @@
         "Unit elastic (Ed = 1)",
         "Elastic (Ed > 1)"
       ],
-      "correct": 4,
-      "explanation": "Total Expenditure Method: At P=₹20, TE=₹400. At P=₹16, TE=₹480. When price falls and total expenditure INCREASES, demand is elastic (Ed > 1). This is because the proportionate increase in quantity demanded exceeds the proportionate fall in price, so consumers spend more in total. Verification: Q1=400/20=20, Q2=480/16=30. % ΔQ=(30−20)/20×100=50%. % ΔP=(16−20)/20×100=−20%. |Ed|=50/20=2.5 > 1 ✓."
+      "correct": 3,
+      "explanation": "Total Expenditure Method: At P=₹20, TE=₹400. At P=₹16, TE=₹480. When price falls and total expenditure INCREASES, demand is elastic (Ed > 1). This is because the proportionate increase in quantity demanded exceeds the proportionate fall in price, so consumers spend more in total. Verification: Q1=400/20=20, Q2=480/16=30. % ΔQ=(30−20)/20×100=50%. % ΔP=(16−20)/20×100=−20%. |Ed|=50/20=2.5 > 1 ✓.",
+      "correct_original": 4
     },
     {
       "id": "EC02Q23",
@@ -378,7 +380,7 @@
         "Perfectly inelastic; Ed = 0"
       ],
       "correct": 2,
-      "explanation": "TE method: TE1 = 50×40=₹2000. TE2 = 40×50=₹2000. TE unchanged → Ed = 1? Wait: TE same = unit elastic. Let's verify: % ΔQ = (40−50)/50 × 100 = −20%. % ΔP = (50−40)/40 × 100 = +25%. Ed = −20/25 = −0.8. But TE: 2000 vs 2000 — same. This is a conflict. Actually TE method says same TE → unit elastic, but the actual PED = −0.8 (inelastic). The TE method using exact same TE can be misleading in non-midpoint calculations. Using percentage method: Ed = −0.8 (inelastic). The percentage method is more precise. Answer: Ed = −0.8, inelastic."
+      "explanation": "Initial total expenditure = 50 x Rs.40 = Rs.2,000. New total expenditure = 40 x Rs.50 = Rs.2,000. Since total expenditure remains unchanged when price rises, demand is unit elastic. Using the arc percentage method, quantity changes by -10 on an average quantity of 45 and price changes by +10 on an average price of 45, so Ed = (-10/45)/(10/45) = -1."
     },
     {
       "id": "EC02Q26",
@@ -480,10 +482,11 @@
         "1.0",
         "2.0",
         "0.5",
-        "1.5"
+        "1.33"
       ],
-      "correct": 2,
-      "explanation": "Income Elasticity = (% change in Qd) / (% change in Income). % change in Qd = (25−15)/15 × 100 = 66.67%. % change in Income = (4500−3000)/3000 × 100 = 50%. Income Elasticity = 66.67/50 = 1.33. None exactly matches. Recalculate: ΔQd/Qd × M/ΔM = (10/15) × (3000/1500) = 0.667 × 2 = 1.33. Closest to 1.5 — but let's recheck: if using ΔQ=10, Q=15, ΔM=1500, M=3000: YED = (10/15)/(1500/3000) = 0.667/0.5 = 1.33. Option closest is 1.5. However, re-examining: perhaps Q should be initial Q. 1.33 is between 1.0 and 1.5. Most likely intended: YED = 2 (check: (10/15)×(3000/1500)=1.33). Best answer given options: 1.5 not perfect, but question design likely uses simple numbers — retrying with Q=20 midpoint: not applicable. Answer: 1.5 is closest available."
+      "correct": 3,
+      "explanation": "Income elasticity of demand = percentage change in quantity demanded / percentage change in income. Quantity demanded rises from 15 to 25, so percentage change = 10/15 x 100 = 66.67%. Income rises from Rs.3,000 to Rs.4,500, so percentage change = 1,500/3,000 x 100 = 50%. Therefore, YED = 66.67/50 = 1.33.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC02Q33",
@@ -602,8 +605,9 @@
         "₹33.3",
         "₹40"
       ],
-      "correct": 1,
-      "explanation": "PED = (dQ/dP) × (P/Q). dQ/dP = −4. PED = −4 × (P/Q). Q = 200 − 4P. PED = −4P/(200−4P). Set PED = −2: −4P/(200−4P) = −2. 4P = 2(200−4P) = 400−8P. 12P = 400. P = 400/12 = 33.33. At P=33.33: Q=200−4(33.33)=200−133.33=66.67. PED=−4(33.33)/66.67=−133.33/66.67=−2 ✓. Closest answer: ₹33.3."
+      "correct": 2,
+      "explanation": "PED = (dQ/dP) x (P/Q). For Qd = 200 - 4P, dQ/dP = -4, so PED = -4P/(200 - 4P). Setting PED = -2 gives -4P/(200 - 4P) = -2, so 4P = 400 - 8P, 12P = 400 and P = Rs.33.33. Thus the nearest listed value is Rs.33.3.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC02Q41",
@@ -632,8 +636,9 @@
         "Inelastic; Q = 4",
         "Unit elastic; Q = 6.25"
       ],
-      "correct": 3,
-      "explanation": "At P=₹20, TE=5×20=₹100. At P=₹16, TE=₹80. TE decreased as price fell → demand is inelastic (Ed < 1). New Qd = TE/P = 80/16 = 5 units. Wait: 80/16 = 5, same quantity. But TE fell. Let me recheck: If TE=80 at P=16, Q=80/16=5. So TE fell from 100 to 80. Inelastic. Q=5. But option C says Q=4. Q=80/16=5. Hmm. Actually if Q=4 (option C): TE=4×16=64≠80. So Q=5 (option B inelastic). But option B says 'inelastic; Q=5' and C says 'inelastic; Q=4'. Q=80/16=5. So answer should align with B or C. The correct answer is: Inelastic (TE fell), Q=5. This matches option B. But options show 'inelastic; Q=5' as B and the marked answer is 3 (C: inelastic; Q=4). Error in question design: Q=80/16=5. Correct: Option B. Setting correct=2."
+      "correct": 1,
+      "explanation": "At Rs.20, total expenditure = 5 x 20 = Rs.100. When price falls to Rs.16, total expenditure is Rs.80, so the new quantity demanded is 80/16 = 5 units. Total expenditure falls when price falls, indicating inelastic demand. Therefore, the answer is inelastic demand with Q = 5.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC02Q43",
@@ -837,13 +842,14 @@
       "difficulty": "difficult",
       "question": "A company sells 1000 units at ₹100. It plans to raise price by 5%. Its market research shows PED = −1.5. What will be the new total revenue?",
       "options": [
-        "₹97,250",
-        "₹1,02,500",
-        "₹92,500",
-        "₹1,00,000"
+        "Rs.97,125",
+        "Rs.1,02,500",
+        "Rs.92,500",
+        "Rs.1,00,000"
       ],
-      "correct": 1,
-      "explanation": "% ΔP = +5%. PED = −1.5 → % ΔQ = −1.5 × 5% = −7.5%. New Q = 1000 × (1 − 0.075) = 925 units. New P = 100 × 1.05 = ₹105. New TR = 925 × 105 = ₹97,125 ≈ ₹97,250 (closest option). Since demand is elastic (|PED|>1) and price rises, TR should fall, which is confirmed (from ₹1,00,000 to ₹97,125)."
+      "correct": 0,
+      "explanation": "The price rises by 5%. With PED = -1.5, quantity demanded changes by -1.5 x 5% = -7.5%. New quantity = 1,000 x 0.925 = 925 units. New price = Rs.100 x 1.05 = Rs.105. New total revenue = 925 x 105 = Rs.97,125.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC02Q57",
@@ -1602,13 +1608,13 @@
       "difficulty": "difficult",
       "question": "Two consumers have demand functions: Q1 = 50 − 2P and Q2 = 30 − P. Find market demand at P=₹10 and P=₹20. Calculate market PED at P=₹10.",
       "options": [
-        "At P=10: Q=90; PED=−0.33",
-        "At P=10: Q=90; PED=−0.5",
-        "At P=10: Q=80; PED=−0.33",
-        "At P=20: Q=20; PED=−1"
+        "At P=10: Q=90; PED=-0.33",
+        "At P=10: Q=50; at P=20: Q=20; PED=-0.6",
+        "At P=10: Q=80; PED=-0.33",
+        "At P=20: Q=20; PED=-1"
       ],
       "correct": 1,
-      "explanation": "Market demand = Q1+Q2. At P=10: Q1=50−20=30; Q2=30−10=20; Qm=50. Wait: Q1=50−2(10)=30; Q2=30−10=20; Qm=50. Hmm, option says 90. Let me recalculate: P=10: Q1=50−2(10)=30, Q2=30−10=20, Qm=50. At P=20: Q1=50−40=10, Q2=30−20=10, Qm=20. PED at P=10: dQm/dP = dQ1/dP + dQ2/dP = −2+(−1)=−3. PED=(−3)×(10/50)=−0.6. Closest: −0.5 (option B) or −0.33 (option A). Actually 3×(10/50)=0.6. None matches exactly. Re-reading: Q1=50−2P, Q2=30−P. At P=10: 30+20=50. PED=−3×10/50=−0.6. Answer closest to B (−0.5). Setting correct=2."
+      "explanation": "Market demand is Q1 + Q2. At P = Rs.10, Q1 = 50 - 2(10) = 30 and Q2 = 30 - 10 = 20, so market demand is 50. At P = Rs.20, Q1 = 10 and Q2 = 10, so market demand is 20. The market demand function is Qm = 80 - 3P, so at P = 10, PED = -3 x (10/50) = -0.6."
     },
     {
       "id": "EC02Q108",
@@ -1708,12 +1714,12 @@
       "question": "Demand: P = 60 − Q/2. Supply: P = 10 + Q/4. Find equilibrium. If government imposes price ceiling at ₹20, find excess demand.",
       "options": [
         "Eq: P=30, Q=60; Excess demand=80 units",
-        "Eq: P=26.67, Q=66.67; Excess demand=60 units",
+        "Eq: P=26.67, Q=66.67; Excess demand=40 units",
         "Eq: P=30, Q=60; Excess demand=40 units",
         "Eq: P=20, Q=80; No excess demand"
       ],
       "correct": 1,
-      "explanation": "Equilibrium: Demand=Supply: 60−Q/2=10+Q/4. 50=Q/4+Q/2=3Q/4. Q=50×4/3=66.67. P=10+66.67/4=10+16.67=₹26.67. Price ceiling at ₹20 (below equilibrium ₹26.67): Qd at ₹20: 20=60−Q/2 → Q/2=40 → Qd=80. Qs at ₹20: 20=10+Q/4 → Q/4=10 → Qs=40. Excess demand=80−40=40 units. Correction: Answer should be C (40 units excess demand). Let me recheck equilibrium: 60−Q/2=10+Q/4 → 50=3Q/4 → Q=200/3≈66.67, P≈26.67. Ceiling P=20: Qd=80, Qs=40. Excess demand=40. Answer: Eq P≈26.67, Q≈66.67; Excess demand=40 units (option C)."
+      "explanation": "At equilibrium, 60 - Q/2 = 10 + Q/4. Thus 50 = 3Q/4, so Q = 66.67 and P = 26.67. At the price ceiling of Rs.20, quantity demanded is 80 and quantity supplied is 40. Excess demand = 80 - 40 = 40 units."
     },
     {
       "id": "EC02Q115",
@@ -1727,8 +1733,9 @@
         "Consumer is rational",
         "Technology of production remains unchanged"
       ],
-      "correct": 4,
-      "explanation": "Technology of production is an assumption underlying the supply side (Law of Supply), NOT the Law of Demand. The Law of Demand assumes: (1) Income remains unchanged, (2) Prices of related goods remain unchanged, (3) Tastes and preferences remain constant, (4) Consumer is rational and aims to maximize utility, (5) No change in consumer expectations about future prices, (6) No change in wealth or assets. Technology is irrelevant to consumer demand behavior."
+      "correct": 3,
+      "explanation": "Technology of production is an assumption underlying the supply side (Law of Supply), NOT the Law of Demand. The Law of Demand assumes: (1) Income remains unchanged, (2) Prices of related goods remain unchanged, (3) Tastes and preferences remain constant, (4) Consumer is rational and aims to maximize utility, (5) No change in consumer expectations about future prices, (6) No change in wealth or assets. Technology is irrelevant to consumer demand behavior.",
+      "correct_original": 4
     },
     {
       "id": "EC02Q116",
@@ -1767,13 +1774,14 @@
       "difficulty": "difficult",
       "question": "A firm selling 200 units at ₹80 finds that if it lowers price to ₹75, it sells 210 units. An economist advises: 'Lowering price will hurt revenue.' Is the economist correct? What is PED?",
       "options": [
-        "No, economist is wrong; Ed=−1.6; TR rises",
-        "Yes, economist is right; Ed=−0.64; TR falls",
-        "No, economist is wrong; Ed=−0.64; TR rises",
-        "Yes, economist is right; Ed=−1.6; TR falls"
+        "No, economist is wrong; Ed=-1.6; TR rises",
+        "Yes, economist is right; Ed=-0.8; TR falls",
+        "No, economist is wrong; Ed=-0.64; TR rises",
+        "Yes, economist is right; Ed=-1.6; TR falls"
       ],
-      "correct": 2,
-      "explanation": "PED = % ΔQd / % ΔP. % ΔQd = (210−200)/200 × 100 = 5%. % ΔP = (75−80)/80 × 100 = −6.25%. PED = 5/(−6.25) = −0.8. Hmm — let me try: |Ed|=0.8<1 (inelastic). TE method: Old TR=200×80=₹16,000. New TR=210×75=₹15,750. TR fell. Since demand is inelastic, lowering price reduces revenue. Economist IS correct. |PED|=0.8. Closest to option B (Ed=−0.64, TR falls). The actual PED=−0.8. B is the closest correct direction (TR falls, inelastic)."
+      "correct": 1,
+      "explanation": "Quantity rises from 200 to 210, a 5% increase. Price falls from Rs.80 to Rs.75, a 6.25% decrease. PED = 5/(-6.25) = -0.8, so demand is inelastic. Old total revenue = 200 x 80 = Rs.16,000 and new total revenue = 210 x 75 = Rs.15,750. Revenue falls, so the economist is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC02Q119",
@@ -1797,13 +1805,14 @@
       "difficulty": "difficult",
       "question": "A consumer derives utility from X only. TU function: TU = 10X − 0.5X². Px = ₹3, MUm = 1. Find equilibrium quantity, TU at equilibrium, and compare with consumer's maximum possible TU.",
       "options": [
-        "X=7; TU=35.5; Max TU=50",
+        "X=7; TU=45.5; Max TU=50",
         "X=3; TU=25.5; Max TU=50",
         "X=7; TU=24.5; Max TU=50",
         "X=10; TU=50; Max TU=50"
       ],
-      "correct": 1,
-      "explanation": "MU = dTU/dX = 10 − X. Equilibrium: MU = Px × MUm = 3 × 1 = 3. 10 − X = 3 → X = 7. TU at X=7: TU = 10(7) − 0.5(7²) = 70 − 24.5 = 45.5. Maximum TU: when MU=0: 10−X=0 → X=10. Max TU = 10(10)−0.5(100)=100−50=50. Answer: X=7; TU=45.5; Max TU=50. Closest option: A says TU=35.5 (incorrect calculation) but is the only one with X=7. Recalculate: 10(7)=70, 0.5×49=24.5, TU=70−24.5=45.5. None of the options matches exactly. Best: A (X=7, closest)."
+      "correct": 0,
+      "explanation": "MU = dTU/dX = 10 - X. Equilibrium requires MU = Px x MUm = 3 x 1 = 3, so 10 - X = 3 and X = 7. TU at X = 7 is 10(7) - 0.5(7^2) = 70 - 24.5 = 45.5. Maximum TU occurs when MU = 0, so X = 10 and maximum TU = 50.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC02Q121",
@@ -1992,13 +2001,14 @@
       "difficulty": "difficult",
       "question": "A consumer's income falls from ₹5000 to ₹4000. Demand for inferior good X rises from 10 to 14 units. Calculate income elasticity and explain what happens to demand for X if income further falls to ₹3000.",
       "options": [
-        "YED=−2; Demand rises to 22 units at ₹3000",
-        "YED=+2; Demand rises to 18 units at ₹3000",
-        "YED=−2; Demand rises to 18 units at ₹3000",
-        "YED=−2; Demand falls to 6 units at ₹3000"
+        "YED=-2; Demand rises to 21 units at Rs.3000",
+        "YED=+2; Demand rises to 18 units at Rs.3000",
+        "YED=-2; Demand rises to 18 units at Rs.3000",
+        "YED=-2; Demand falls to 6 units at Rs.3000"
       ],
-      "correct": 3,
-      "explanation": "YED = % ΔQd / % ΔIncome. % ΔQd = (14−10)/10 × 100 = +40%. % ΔIncome = (4000−5000)/5000 × 100 = −20%. YED = 40/(−20) = −2. This is an inferior good (negative YED). If income falls further to ₹3000 (another ₹1000 fall, % ΔI = (3000−4000)/4000 × 100 = −25%): % ΔQd = −2 × (−25%) = +50%. New Qd = 14 × 1.5 = 21 units ≈ 22. Wait: new Qd = 14 + 50% of 14 = 14 + 7 = 21 units. Closest: 22 units (option A). Recalculate: Starting from 4000→3000: using YED=−2: % ΔQd = −2 × (−25%) = +50%. New Q = 14 × 1.5 = 21 ≈ 22 units. Option A (22 units) is closest. Setting correct=1."
+      "correct": 0,
+      "explanation": "Income falls from Rs.5,000 to Rs.4,000, a 20% fall, while demand rises from 10 to 14 units, a 40% rise. YED = 40/(-20) = -2, so X is an inferior good. If income falls from Rs.4,000 to Rs.3,000, the percentage fall is 25%; with YED = -2, demand rises by 50%. New demand = 14 x 1.5 = 21 units.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC02Q134",
@@ -2043,7 +2053,7 @@
         "Q1=6, Q2=5; PED=−0.33"
       ],
       "correct": 1,
-      "explanation": "Equilibrium: MU = Px × MUm. At Px=10: 40−5Q=10×2=20 → 5Q=20 → Q=4. At Px=15: 40−5Q=15×2=30 → 5Q=10 → Q=2. Hmm: Q1=4, Q2=2. PED=(ΔQ/ΔP)×(P/Q)=((2−4)/(15−10))×(10/4)=(−2/5)×(10/4)=−0.4×2.5=−1.0. Answer: Q1=4, Q2=2; PED=−1.0. This matches option B. Setting correct=2."
+      "explanation": "Equilibrium requires MU = Px x MUm. At Px = Rs.10, 40 - 5Q = 10 x 2 = 20, so Q1 = 4. At Px = Rs.15, 40 - 5Q = 15 x 2 = 30, so Q2 = 2. PED = (Delta Q/Delta P) x (P/Q) = ((2 - 4)/(15 - 10)) x (10/4) = -1.0."
     },
     {
       "id": "EC02Q137",
@@ -2087,8 +2097,9 @@
         "TE₁=₹6,000; TE₂=₹7,500; Elastic demand",
         "TE₁=₹8,000; TE₂=₹6,000; Inelastic demand"
       ],
-      "correct": 1,
-      "explanation": "TE at P=₹20: 400×20=₹8,000. TE at P=₹25: 300×25=₹7,500. TE fell (₹8,000→₹7,500) when price ROSE. By TE method: Price rose → TE fell → Demand is ELASTIC (Ed > 1). Verification: % ΔQ=(300−400)/400×100=−25%. % ΔP=(25−20)/20×100=25%. |Ed|=25/25=1.0. Hmm — that gives unit elastic (TE method should show unchanged TE). Let's recalculate: 400×20=8000, 300×25=7500. TE did fall slightly. Borderline case. Actual PED=1.0 (unit elastic) but TE slightly fell due to rounding. TE method is approximate. Given the numbers: most exam answers would say elastic since TE fell."
+      "correct": 0,
+      "explanation": "At Rs.20, total expenditure = 400 x 20 = Rs.8,000. At Rs.25, total expenditure = 300 x 25 = Rs.7,500. Since total expenditure falls when price rises, the total expenditure method indicates elastic demand.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC02Q140",
@@ -2352,13 +2363,14 @@
       "difficulty": "difficult",
       "question": "Consumer X has demand Q1=30−P and Consumer Y has Q2=20−0.5P (only valid for P≤40). Find individual demands at P=₹10 and P=₹15. Sum market demand at both prices.",
       "options": [
-        "P=10: Qm=55; P=15: Qm=49.5",
+        "P=10: Qm=35; P=15: Qm=27.5",
         "P=10: Qm=50; P=15: Qm=42.5",
         "P=10: Qm=55; P=15: Qm=42.5",
         "P=10: Qm=60; P=15: Qm=50"
       ],
-      "correct": 3,
-      "explanation": "At P=10: Q1=30−10=20; Q2=20−0.5(10)=20−5=15. Qm=20+15=35. Hmm, doesn't match options. Re-read: Q1=30−P, Q2=20−0.5P. P=10: Q1=20, Q2=15, Qm=35. P=15: Q1=15, Q2=20−7.5=12.5, Qm=27.5. None matches. Perhaps Q2=20−0.5P for P≤40 else 0. Still same calc. Try Q2=40−0.5P: P=10: Q2=35, Qm=20+35=55. P=15: Q2=40−7.5=32.5, Qm=15+32.5=47.5. Closest to option A (55; 49.5). Setting correct=1."
+      "correct": 0,
+      "explanation": "At P = Rs.10, Q1 = 30 - 10 = 20 and Q2 = 20 - 0.5(10) = 15, so market demand is 35. At P = Rs.15, Q1 = 15 and Q2 = 20 - 0.5(15) = 12.5, so market demand is 27.5.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC02Q158",
@@ -2387,8 +2399,9 @@
         "TE method: Inelastic; Point PED = −1.0",
         "TE method: Unit elastic; Point PED = −1.0"
       ],
-      "correct": 1,
-      "explanation": "TE method: At P=50, TE=5000. At P=40 (price fell), TE=4800 (TE fell). Price fell → TE fell → INELASTIC demand. Point PED (at P1=50, Q1=100): ΔQ=120−100=20, ΔP=40−50=−10. dQ/dP=20/(−10)=−2. PED=(−2)×(50/100)=−1.0. Hmm — PED=−1 suggests unit elastic, contradicting TE method result. Discrepancy arises because: (a) TE is approximately unchanged (5000 vs 4800 — small change), and (b) simple percentage PED = (20/100)/(−10/50) = 20%/(−20%)=−1. So it seems unit elastic. But TE fell slightly — possibly the question intends inelastic with PED<1. Let's try: Q1=100, Q2=120 gives |Ed|=1, which is unit elastic. There's inconsistency in the question. Using percentage method: PED=−1 (unit elastic). TE slightly fell (5000→4800) suggesting borderline inelastic. Best answer: unit elastic based on percentage method, but closest option is A or C."
+      "correct": 2,
+      "explanation": "Using the total expenditure method, total expenditure falls from Rs.5,000 to Rs.4,800 when price falls from Rs.50 to Rs.40, so demand is inelastic over this change. Using the point percentage calculation with Q1 = 100 and Q2 = 120, Delta Q/Delta P = 20/(-10) = -2 and PED = -2 x (50/100) = -1.0.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC02Q160",
@@ -2537,8 +2550,9 @@
         "Q=40−0.5P; PED at P=60 is −3; PED=−3 at P=₹45",
         "Q=40−0.5P; PED at P=40 is −1; PED=−3 at P=₹60"
       ],
-      "correct": 2,
-      "explanation": "Demand equation: Using intercepts (P=80, Q=0) and (P=0, Q=40): slope=dQ/dP=(40−0)/(0−80)=−0.5. Q=40−0.5P. At P=60: Q=40−30=10. PED=(−0.5)×(60/10)=−3. Hmm — PED=−3 at P=60, not −1.5. Let me recheck option B: 'PED at P=60 is −1.5'. That's wrong. PED=(−0.5)×(60/10)=−3. So at P=60, PED=−3. For PED=−3: −0.5×(P/Q)=−3 → P/Q=6 → P/(40−0.5P)=6 → P=6(40−0.5P)=240−3P → 4P=240 → P=60. Consistent. At P=60, PED=−3. Option A says PED=−3 at P=60 and PED=−3 at P=60 (same — tautological). So A is self-consistent. Answer: A."
+      "correct": 0,
+      "explanation": "The demand curve with P-intercept Rs.80 and Q-intercept 40 is Q = 40 - 0.5P. At P = Rs.60, Q = 40 - 30 = 10. PED = -0.5 x (60/10) = -3. Solving PED = -3 gives -0.5P/(40 - 0.5P) = -3, which gives P = Rs.60.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC02Q170",
@@ -2560,15 +2574,16 @@
       "type": "numerical",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "A consumer maximizes utility with income ₹180, Px=₹9, Py=₹6. MU schedule for X: 54,45,36,27,18,9 and for Y: 42,36,30,24,18,12 (units 1–6). MUm=3. Find equilibrium (X, Y).",
+      "question": "A consumer maximizes utility with income Rs.66, Px=Rs.9, Py=Rs.6. MU schedule for X: 54,45,36,27,18,9 and for Y: 42,36,30,24,18,12 (units 1-6). MUm=3. Find equilibrium (X, Y).",
       "options": [
         "X=4, Y=6",
         "X=3, Y=5",
         "X=6, Y=6",
         "X=4, Y=5"
       ],
-      "correct": 1,
-      "explanation": "Required MUx = Px×MUm = 9×3=27. Required MUy = Py×MUm = 6×3=18. From MU schedule: MUx=27 at X=4 (54,45,36,27). MUy=18 at Y=5 (42,36,30,24,18). Budget: 4×9+5×6=36+30=₹66 ≠ ₹180. Not matching. Try: MUx=18 at X=6; MUy=12 at Y=6. But 18≠27 and 12≠18. Check: at X=5, MUx=18. Required 27 means X=4. At Y=6, MUy=12 vs required 18. Not equal. Recheck required values: equilibrium requires MUx/Px=MUy/Py=MUm=3. At X=4, MUx=27; 27/9=3 ✓. At Y=6, MUy=12; 12/6=2≠3. At Y=5, MUy=18; 18/6=3 ✓. Budget: 4×9+5×6=36+30=66≠180. Doesn't work with MUm=3. Let's try MUm=1: Req MUx=9, Req MUy=6. MUx=9 at X=6; MUy=6 not in table. Budget with X=6: 6×9=54; remaining=180−54=126; Y=126/6=21 (too many). Try different approach: budget ₹180, Px=9, Py=6: X×9+Y×6=180. At X=4,Y=24: 36+144=180. At X=6,Y=21: 54+126=180. Equilibrium where MUx/9=MUy/6: at X=4(MUx=27): 27/9=3; MUy/6=3→MUy=18 at Y=5. Budget: 36+30=66≠180. Given the MU schedule ends at 6 units, the question has inconsistency. Best answer: X=4, Y=6 (A)."
+      "correct": 3,
+      "explanation": "Equilibrium requires MUx/Px = MUy/Py = MUm. Required MUx = 9 x 3 = 27, which occurs at X = 4. Required MUy = 6 x 3 = 18, which occurs at Y = 5. The bundle costs 4 x 9 + 5 x 6 = Rs.66, matching income. Therefore, equilibrium is X = 4 and Y = 5.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC02Q172",
@@ -2682,13 +2697,14 @@
       "difficulty": "difficult",
       "question": "Demand: Qd = 200 − 5P. Find: (a) Quantity at P=₹20, (b) PED at P=₹20 using point method, (c) Whether a price cut to ₹15 will increase or decrease total revenue.",
       "options": [
-        "(a) Q=100; (b) PED=−1; (c) TR unchanged",
-        "(a) Q=100; (b) PED=−2; (c) TR increases",
-        "(a) Q=80; (b) PED=−0.5; (c) TR decreases",
-        "(a) Q=100; (b) PED=−0.5; (c) TR decreases"
+        "(a) Q=100; (b) PED=-1; (c) TR decreases",
+        "(a) Q=100; (b) PED=-2; (c) TR increases",
+        "(a) Q=80; (b) PED=-0.5; (c) TR decreases",
+        "(a) Q=100; (b) PED=-0.5; (c) TR decreases"
       ],
-      "correct": 1,
-      "explanation": "(a) At P=20: Qd=200−5(20)=200−100=100 units. (b) PED=(dQd/dP)×(P/Q)=(−5)×(20/100)=−1. (c) PED=−1 means unit elastic demand. When PED=−1, price changes don't change TR — TR remains constant. At P=15: Qd=200−75=125. TR=15×125=₹1,875. At P=20: TR=20×100=₹2,000. Wait — TR changes? Let me recheck: TR at P=20=2000, TR at P=15=1875. TR fell! So PED at P=20 was −1, but between P=20 and P=15, we're in the inelastic region (below the unit elastic midpoint). Midpoint: Qmax=200 (at P=0), Q=0 (at P=40). Midpoint P=20, Q=100. So P=20 IS the midpoint → PED=−1 at P=20. Moving to P=15 (below midpoint) enters inelastic region → TR falls. Answer: (a) Q=100; (b) PED=−1; (c) TR DECREASES. This matches option A's first two parts but says 'TR unchanged' which is wrong for the price cut scenario. The correct answer is PED=−1 at P=20 but moving to P=15 reduces TR. None of the options is perfectly correct. Best match: A (for parts a and b, with c being slightly misleading)."
+      "correct": 0,
+      "explanation": "At P = Rs.20, Qd = 200 - 5(20) = 100 units. Point PED = (dQ/dP) x (P/Q) = -5 x (20/100) = -1. If price is cut to Rs.15, Qd = 125 and total revenue = 15 x 125 = Rs.1,875, compared with Rs.2,000 at P = Rs.20. Therefore, total revenue decreases.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC02Q180",
@@ -2717,8 +2733,9 @@
         "₹48",
         "₹56"
       ],
-      "correct": 1,
-      "explanation": "% ΔQd = (650−500)/500 × 100 = 30%. PED = % ΔQd / % ΔP → −1.5 = 30% / % ΔP → % ΔP = 30%/(−1.5) = −20%. New Price = 60 × (1 − 0.20) = 60 × 0.80 = ₹48. Wait — that gives ₹48, matching option C. Let me re-examine: −1.5 = 30%/% ΔP → % ΔP = 30%/−1.5 = −20%. New P = 60−20%×60 = 60−12 = ₹48. Answer: ₹48 (option C). Setting correct=3."
+      "correct": 2,
+      "explanation": "Quantity must rise from 500 to 650, a 30% increase. Since PED = percentage change in quantity / percentage change in price, -1.5 = 30% / percentage change in price. Therefore, percentage change in price = -20%. The new price is Rs.60 x 0.80 = Rs.48.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC02Q182",
@@ -2822,8 +2839,9 @@
         "The consumer has no incentive to buy more or less",
         "The total expenditure equals income"
       ],
-      "correct": 4,
-      "explanation": "In the single-commodity utility analysis, equilibrium is where MU = P (option A ✓) — no incentive to buy more or less (option C ✓) — and given the budget, satisfaction is maximized (option B ✓). However, total expenditure equaling income is NOT necessarily true in a single-commodity model. The consumer buys the quantity where MU=P; after this, they may have leftover income (if purchasing that good uses less than total income). Budget exhaustion is assumed in the two-commodity case, not necessarily in the single-commodity case."
+      "correct": 3,
+      "explanation": "In the single-commodity utility analysis, equilibrium is where MU = P (option A ✓) — no incentive to buy more or less (option C ✓) — and given the budget, satisfaction is maximized (option B ✓). However, total expenditure equaling income is NOT necessarily true in a single-commodity model. The consumer buys the quantity where MU=P; after this, they may have leftover income (if purchasing that good uses less than total income). Budget exhaustion is assumed in the two-commodity case, not necessarily in the single-commodity case.",
+      "correct_original": 4
     },
     {
       "id": "EC02Q189",
@@ -2833,12 +2851,12 @@
       "question": "Two consumers: Priya (Qp=80−4P) and Rahul (Qr=60−2P for P≤30, else 0). Derive market demand at P=₹10 and P=₹35.",
       "options": [
         "P=10: Qm=180; P=35: Qm=40",
-        "P=10: Qm=180; P=35: Qm=0",
+        "P=10: Qm=80; P=35: Qm=0",
         "P=10: Qm=160; P=35: Qm=10",
         "P=10: Qm=200; P=35: Qm=40"
       ],
       "correct": 1,
-      "explanation": "At P=10: Qp=80−40=40; Qr=60−20=40. Qm=80. At P=35: Qp=80−4(35)=80−140=−60<0, so Qp=0. Qr=0 (since P=35>30). Qm=0. Hmm, option B says P=10: Qm=180 which doesn't match. Let me try: Qp=80−4(10)=40, Qr=60−2(10)=40. Market=80. None of the options shows 80. Perhaps the question intends different demand functions. If Qp=80+4P (upward?): doesn't make economic sense. Re-read: Qp=80−4P at P=10: 40. Option A says 180. If Qp=80−4P meant Qp=100−4P: 100−40=60, Qr=60−20=40, Qm=100. Still not 180. If individual demands were Qp=120−4P: 120−40=80; Qr=120−2(10)=100: total=180. Setting answer=1 (consistent with option A's pattern where larger demand functions yield 180)."
+      "explanation": "At P = Rs.10, Priya demands 80 - 4(10) = 40 and Rahul demands 60 - 2(10) = 40, so market demand is 80. At P = Rs.35, Priya demand is negative and is treated as zero; Rahul demand is also zero because P > Rs.30. Therefore, market demand is zero."
     },
     {
       "id": "EC02Q190",
@@ -2862,13 +2880,13 @@
       "difficulty": "difficult",
       "question": "A consumer's demand: Qd = 500 − 10P. He currently pays ₹30. A subsidy reduces price to ₹25. Calculate: (a) Change in consumer surplus (approximately), (b) Old and new total expenditure.",
       "options": [
-        "ΔCS=₹1,375; Old TE=₹6,000; New TE=₹6,875",
-        "ΔCS=₹1,250; Old TE=₹6,000; New TE=₹6,250",
-        "ΔCS=₹875; Old TE=₹6,000; New TE=₹6,875",
-        "ΔCS=₹1,375; Old TE=₹5,500; New TE=₹6,000"
+        "Delta CS=Rs.1,375; Old TE=Rs.6,000; New TE=Rs.6,875",
+        "Delta CS=Rs.1,125; Old TE=Rs.6,000; New TE=Rs.6,250",
+        "Delta CS=Rs.875; Old TE=Rs.6,000; New TE=Rs.6,875",
+        "Delta CS=Rs.1,375; Old TE=Rs.5,500; New TE=Rs.6,000"
       ],
       "correct": 1,
-      "explanation": "At P=₹30: Q=500−300=200. TR=30×200=₹6,000. At P=₹25: Q=500−250=250. TR=25×250=₹6,250. Change in CS ≈ Average(Q1+Q2)/2 × ΔP + ΔQ×ΔP/2 = (area of trapezoid). ΔCS = Q1×ΔP + ΔQ×ΔP/2 = 200×5 + 50×5/2 = 1000+125 = ₹1,125. Closest to option A (₹1,375) or B (₹1,250). Exact: ΔCS = area under demand curve between P=25 and P=30 = (Q at P=25 + Q at P=30)/2 × ΔP = (250+200)/2 × 5 = 225×5 = ₹1,125. None exactly matches. Option A is ₹1,375; B is ₹1,250. Most likely intended: ΔCS = ₹1,375 (option A)."
+      "explanation": "At P = Rs.30, Q = 500 - 10(30) = 200 and old total expenditure = 30 x 200 = Rs.6,000. At P = Rs.25, Q = 250 and new total expenditure = 25 x 250 = Rs.6,250. Change in consumer surplus is the trapezium between prices Rs.30 and Rs.25: ((200 + 250)/2) x 5 = Rs.1,125."
     },
     {
       "id": "EC02Q192",

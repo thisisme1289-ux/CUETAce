@@ -1,0 +1,207 @@
+{
+  "subject": "English",
+  "subject_code": "101",
+  "year": "2025",
+  "paper": "2025-english-04-question-paper",
+  "total_questions": 12,
+  "chapters": [
+    {
+      "chapter_id": "1012025uestionpaper",
+      "chapter": "English CUET 2025 Past Year Paper - 2025-english-04-question-paper",
+      "questions": [
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the part of the sentence that contains a grammatical error: Sentence: Each of the boys have submitted their assignment on time. No error",
+          "options": [
+            "have",
+            "their",
+            "on time",
+            "No error"
+          ],
+          "correct": 0,
+          "explanation": "Each of the boys is singular in sense, so have is the error; the verb should be has.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the word which is closest in meaning to the word “Ostentatious”:",
+          "options": [
+            "Modest",
+            "Flashy",
+            "Simple",
+            "Sincere"
+          ],
+          "correct": 1,
+          "explanation": "Ostentatious means showy or flashy.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the figure of speech used in the sentence: ”The wind whispered through the trees.”",
+          "options": [
+            "Simile",
+            "Metaphor",
+            "Personification",
+            "Hyperbole"
+          ],
+          "correct": 2,
+          "explanation": "The wind is given the human action of whispering, so the figure of speech is personification.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Despite facing severe criticism, the scientist remained in her pursuit of truth.",
+          "options": [
+            "hesitant",
+            "relentless",
+            "casual",
+            "indifferent"
+          ],
+          "correct": 1,
+          "explanation": "Relentless means persistent and determined, which fits pursuit of truth despite criticism.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct indirect speech for: He said, ”I will help you tomorrow.”",
+          "options": [
+            "He said that he will help me tomorrow.",
+            "He said that he would help me the next day.",
+            "He told that he would help you the next day.",
+            "He told me that he will help me tomorrow."
+          ],
+          "correct": 1,
+          "explanation": "In indirect speech, will changes to would and tomorrow changes to the next day.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q06",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the word that is closest in meaning to “obstinate”:",
+          "options": [
+            "Generous",
+            "Stubborn",
+            "Forgetful",
+            "Curious"
+          ],
+          "correct": 1,
+          "explanation": "Obstinate means stubborn.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In the sentence ”The jury found the witness’s testimony specious,” what does ”specious” most nearly mean?",
+          "options": [
+            "Believable and compelling",
+            "False but seemingly plausible",
+            "Too technical to understand",
+            "Harsh and accusatory"
+          ],
+          "correct": 1,
+          "explanation": "Specious means false but seemingly plausible.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the sentences to form a coherent paragraph: 1. The research team was baffled by the anomaly. 2. They decided to replicate the experiment under stricter conditions. 3. The results contradicted established scientific theories. 4. A deeper investigation revealed a minor error in calibration. Choose the correct option:",
+          "options": [
+            "1-2-3-4",
+            "3-1-2-4",
+            "1-3-2-4",
+            "3-2-1-4"
+          ],
+          "correct": 1,
+          "explanation": "The coherent order is: results contradicted theory, the team was baffled, they replicated the experiment, and deeper investigation found the calibration error.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Statement: All poets are sensitive people. Some sensitive people are not artists. Conclusion I: Some poets are not artists. Conclusion II: Some sensitive people may be poets. Choose the correct option:",
+          "options": [
+            "Only Conclusion I follows.",
+            "Only Conclusion II follows.",
+            "Both conclusions follow.",
+            "Neither conclusion follows."
+          ],
+          "correct": 1,
+          "explanation": "Only Conclusion II follows as a possibility: since all poets are sensitive, some sensitive people may be poets.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Rearrange the following sentences: 1. The printing press revolutionized the way information was disseminated. 2. Before its invention, books were copied by hand and were extremely rare. 3. This breakthrough eventually contributed to mass literacy. 4. As books became cheaper and more accessible, more people began to read. Choose the correct option:",
+          "options": [
+            "2-1-4-3",
+            "1-2-3-4",
+            "2-1-3-4",
+            "1-2-4-3"
+          ],
+          "correct": 0,
+          "explanation": "The coherent order is: before the printing press, books were copied by hand and rare; the printing press then revolutionized information dissemination; cheaper and more accessible books led more people to read; this breakthrough contributed to mass literacy.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q11",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Rearrange the following sentences: 1. These practices often disregard the well-being of the environment. 2. Industrial farming techniques have become widespread in recent decades. 3. Though they increase food production, they come with serious consequences. 4. Chemicals and monocultures have degraded soil and reduced biodiversity. Choose the correct option:",
+          "options": [
+            "2-3-1-4",
+            "2-3-4-1",
+            "1-2-3-4",
+            "2-4-3-1"
+          ],
+          "correct": 0,
+          "explanation": "The coherent order is: industrial farming became widespread; though it increases production, it has consequences; these practices disregard the environment; chemicals and monocultures degraded soil.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-04-question-paper-Q12",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The CEO’s speech was so that even her harshest critics were temporarily silenced.",
+          "options": [
+            "ambiguous",
+            "inflammatory",
+            "Compelling",
+            "Apathetic"
+          ],
+          "correct": 2,
+          "explanation": "Compelling means powerfully convincing, which fits a speech that silenced critics.",
+          "source": "Individual PDF extraction: 2025-english-04-question-paper.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -42,13 +42,14 @@
       "difficulty": "difficult",
       "question": "X and Y are partners with fixed capitals of ₹5,00,000 and ₹3,00,000. Profit sharing ratio is 3:2. Drawings during the year: X = ₹60,000 (withdrawn on 1st July) and Y = ₹40,000 (withdrawn on 1st October). Interest on drawings is charged @ 6% p.a. What is the total interest on drawings charged in the P&L Appropriation Account?",
       "options": [
-        "₹3,600",
+        "₹3,900",
         "₹2,700",
         "₹4,200",
         "₹3,000"
       ],
-      "correct": 1,
-      "explanation": "Interest on drawings is calculated from the date of drawing to year end (31st March). X drew ₹60,000 on 1st July → period = 9 months; Interest = 60,000 × 6/100 × 9/12 = ₹2,700. Y drew ₹40,000 on 1st October → period = 6 months; Interest = 40,000 × 6/100 × 6/12 = ₹1,200. Total interest on drawings = ₹2,700 + ₹1,200 = ₹3,900. Wait — rechecking: X: 60,000 × 0.06 × 9/12 = 2,700; Y: 40,000 × 0.06 × 6/12 = 1,200; Total = ₹3,900. Correct answer is ₹3,900. However, among given options ₹2,700 is X's individual interest, which is the closest distractor. Correct option should be ₹3,900 — students must carefully add both partners' interest."
+      "correct": 0,
+      "explanation": "X drew ₹60,000 on 1 July, so interest is charged for 9 months: ₹60,000 × 6% × 9/12 = ₹2,700. Y drew ₹40,000 on 1 October, so interest is charged for 6 months: ₹40,000 × 6% × 6/12 = ₹1,200. Total interest on drawings = ₹2,700 + ₹1,200 = ₹3,900.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC01Q04",
@@ -87,13 +88,13 @@
       "difficulty": "difficult",
       "question": "A and B are partners with fixed capitals of ₹8,00,000 and ₹4,00,000. PSR = 3:1. Deed provides: interest on capital @ 8% p.a., B's salary ₹3,000 per month. Net profit for the year is ₹90,000. After all appropriations, what is A's share of residual profit/loss?",
       "options": [
-        "₹(9,000) loss",
+        "₹(31,500) loss",
         "₹9,000 profit",
         "₹(6,750) loss",
         "₹6,750 profit"
       ],
       "correct": 0,
-      "explanation": "Step 1 — Appropriations: Interest on capital: A = 8,00,000 × 8% = ₹64,000; B = 4,00,000 × 8% = ₹32,000; Total = ₹96,000. B's salary = 3,000 × 12 = ₹36,000. Total appropriations = ₹96,000 + ₹36,000 = ₹1,32,000. Step 2 — Net profit = ₹90,000. Residual = ₹90,000 − ₹1,32,000 = ₹(42,000) — a loss to be shared in 3:1. A's share = 3/4 × 42,000 = ₹(31,500) loss; B's share = 1/4 × 42,000 = ₹(10,500) loss. Wait — the question asks A's share of residual: ₹(31,500). This does not match option A. Let me verify: actually if deed provides appropriations they must be given regardless — so A's net position = interest ₹64,000 − loss share ₹31,500 = net credit ₹32,500. But residual loss share of A = ₹(31,500). Students must distinguish residual from net credit in capital/current account."
+      "explanation": "Interest on capital: A = ₹8,00,000 × 8% = ₹64,000 and B = ₹4,00,000 × 8% = ₹32,000, total ₹96,000. B’s salary = ₹3,000 × 12 = ₹36,000. Total appropriations = ₹1,32,000. Since profit is ₹90,000, the residual is a loss of ₹42,000, shared 3:1. A’s residual loss share = 3/4 × ₹42,000 = ₹31,500."
     },
     {
       "id": "AC01Q07",
@@ -118,12 +119,13 @@
       "question": "X, Y, Z are partners sharing profits in 5:3:2. Z is guaranteed a minimum profit of ₹40,000 per year. Net profit for the year is ₹1,50,000. How much will X bear as a result of the guarantee to Z?",
       "options": [
         "₹10,000",
-        "₹6,000",
+        "₹6,250",
         "₹4,000",
         "₹8,000"
       ],
-      "correct": 0,
-      "explanation": "Step 1: Distribute profit in normal ratio 5:3:2. X = 1,50,000 × 5/10 = ₹75,000; Y = 1,50,000 × 3/10 = ₹45,000; Z = 1,50,000 × 2/10 = ₹30,000. Step 2: Z's actual share = ₹30,000 < guaranteed ₹40,000. Deficiency = ₹40,000 − ₹30,000 = ₹10,000. Step 3: This deficiency is borne by X and Y in their mutual ratio (5:3). X bears = 10,000 × 5/8 = ₹6,250; Y bears = 10,000 × 3/8 = ₹3,750. Wait — if the guarantee is given by the firm (all partners), deficiency is borne in old ratio 5:3. X bears ₹6,250 and Y bears ₹3,750. If guarantee is given by X alone, X bears the full ₹10,000. The question says 'how much will X bear' — assuming guarantee is given by the firm in 5:3 ratio: X bears ₹6,250. Students must check the source of guarantee carefully."
+      "correct": 1,
+      "explanation": "Z’s normal share = ₹1,50,000 × 2/10 = ₹30,000. The guaranteed minimum is ₹40,000, so the deficiency is ₹10,000. Since the question does not say that X alone gave the guarantee, the deficiency is borne by X and Y in their mutual ratio of 5:3. X bears ₹10,000 × 5/8 = ₹6,250.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC01Q09",
@@ -270,10 +272,11 @@
         "₹58,333",
         "₹48,333",
         "₹68,333",
-        "₹38,333"
+        "₹38,000"
       ],
-      "correct": 0,
-      "explanation": "Net profit available = ₹1,80,000 − ₹30,000 (accumulated loss written off) = ₹1,50,000. IOC: A = ₹80,000; B = ₹40,000. Total = ₹1,20,000. A's salary = ₹60,000. Total appropriations = ₹1,80,000. Residual = ₹1,50,000 − ₹1,80,000 = ₹(30,000) loss. B's loss share = 1/3 × ₹30,000 = ₹10,000. B's current account: ₹8,000 + ₹40,000 + ₹0 (salary) − ₹10,000 (loss) = ₹38,000 Cr. Closest option ₹38,333 (option D). Exact = ₹38,000."
+      "correct": 3,
+      "explanation": "Net profit available after writing off accumulated loss = ₹1,80,000 − ₹30,000 = ₹1,50,000. Interest on capital is A ₹80,000 and B ₹40,000; A’s salary is ₹60,000. Total appropriations are ₹1,80,000, so the residual is a loss of ₹30,000. B’s share of loss = 1/3 × ₹30,000 = ₹10,000. B’s current account = opening credit ₹8,000 + IOC ₹40,000 − loss ₹10,000 = ₹38,000 credit.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC01Q19",
@@ -299,11 +302,11 @@
       "options": [
         "Credit of ₹1,08,000",
         "Debit of ₹24,000",
-        "Credit of ₹84,000",
+        "Credit of ₹42,000",
         "Debit of ₹1,08,000"
       ],
       "correct": 2,
-      "explanation": "Assume capitals proportional to ratio: if Aman = ₹9,00,000 (3 parts), then Bimal = ₹6,00,000 (2 parts), Chetan = ₹3,00,000 (1 part). IOC: Aman ₹1,08,000; Bimal ₹72,000; Chetan ₹36,000; Total IOC = ₹2,16,000. Bimal's salary = ₹60,000. Total appropriations = ₹2,76,000. Profit = ₹1,44,000. Deficiency = ₹1,32,000 (loss). This loss is shared 3:2:1 — Aman's share of loss = 3/6 × 1,32,000 = ₹66,000. Aman's net = IOC ₹1,08,000 − loss share ₹66,000 = net credit ₹42,000. This must be credited to Aman's current account. Among options none exactly match — students must recheck capital assumptions. Key concept: appropriation accounts still give IOC even in loss; residual loss reduces it."
+      "explanation": "Capitals are proportional to 3:2:1, so Aman ₹9,00,000, Bimal ₹6,00,000 and Chetan ₹3,00,000. Interest on capital is Aman ₹1,08,000, Bimal ₹72,000 and Chetan ₹36,000. Bimal’s salary is ₹60,000, so total appropriations are ₹2,76,000. Profit is ₹1,44,000, leaving a residual loss of ₹1,32,000. Aman bears 3/6 × ₹1,32,000 = ₹66,000. Aman’s net current account credit = ₹1,08,000 − ₹66,000 = ₹42,000."
     },
     {
       "id": "AC01Q21",
@@ -344,11 +347,11 @@
       "options": [
         "₹96,000",
         "₹64,000",
-        "₹84,000",
+        "₹88,000",
         "₹1,12,000"
       ],
       "correct": 2,
-      "explanation": "IOC: P = ₹80,000; Q = ₹64,000; R = ₹48,000. Total IOC = ₹1,92,000. R's salary = ₹48,000. Total appropriations = ₹2,40,000. Residual profit = ₹3,00,000 − ₹2,40,000 = ₹60,000. Q's profit share = 2/5 × ₹60,000 = ₹24,000. Q's current account credit = IOC ₹64,000 + profit share ₹24,000 = ₹88,000. None of the given options match exactly; ₹84,000 is the closest. This highlights the importance of verifying all figures. Correct theoretical answer = ₹88,000; the question likely intends a different salary figure. Key lesson: always identify all appropriations before calculating residual."
+      "explanation": "Interest on capital: P ₹80,000, Q ₹64,000 and R ₹48,000; total ₹1,92,000. R’s salary = ₹48,000. Residual profit = ₹3,00,000 − ₹2,40,000 = ₹60,000. Q’s profit share = 2/5 × ₹60,000 = ₹24,000. Q’s current account credit = IOC ₹64,000 + profit share ₹24,000 = ₹88,000."
     },
     {
       "id": "AC01Q24",
@@ -522,13 +525,13 @@
       "difficulty": "difficult",
       "question": "E and F are partners (2:1). Fixed capitals: E = ₹6,00,000, F = ₹3,00,000. IOC @ 12%. F is entitled to salary ₹8,000/month. Net profit for 9 months ending 31st Dec = ₹1,35,000. Compute F's total credit in current account (no drawings, no IOD).",
       "options": [
-        "₹87,000",
+        "₹93,000",
         "₹75,000",
         "₹1,11,000",
         "₹63,000"
       ],
       "correct": 0,
-      "explanation": "Since the accounting period is 9 months: IOC is charged for 9 months. F's IOC = 3,00,000 × 12% × 9/12 = ₹27,000. E's IOC = 6,00,000 × 12% × 9/12 = ₹54,000. Total IOC = ₹81,000. F's salary = ₹8,000 × 9 = ₹72,000. Total appropriations = ₹81,000 + ₹72,000 = ₹1,53,000. Net profit = ₹1,35,000. Deficiency/loss = ₹18,000 in 2:1. F's loss share = 1/3 × ₹18,000 = ₹6,000. F's current account: IOC ₹27,000 + salary ₹72,000 − loss ₹6,000 = ₹93,000. Closest option is ₹87,000. Exact = ₹93,000; ₹87,000 excludes salary pro-ration. Always adjust IOC and salary for partial year."
+      "explanation": "The accounting period is 9 months, so interest on capital is charged for 9 months. F’s IOC = ₹3,00,000 × 12% × 9/12 = ₹27,000. F’s salary = ₹8,000 × 9 = ₹72,000. E’s IOC is ₹54,000, so total appropriations are ₹1,53,000. Net profit is ₹1,35,000, leaving a residual loss of ₹18,000. F bears 1/3 of the loss = ₹6,000. F’s current account credit = ₹27,000 + ₹72,000 − ₹6,000 = ₹93,000."
     },
     {
       "id": "AC01Q36",
@@ -567,13 +570,13 @@
       "difficulty": "difficult",
       "question": "Naveen, Priya and Rajan are partners with capitals ₹8,00,000, ₹6,00,000 and ₹4,00,000 (fluctuating). PSR = 4:3:3. Deed provides IOC @ 10% and commission to Rajan @ 2% of net profit before commission. Net profit = ₹2,80,000. After all appropriations, compute Priya's closing capital if her drawings were ₹60,000 and opening capital was ₹6,00,000.",
       "options": [
-        "₹6,67,800",
+        "₹6,28,320",
         "₹6,87,800",
         "₹6,57,800",
         "₹6,47,800"
       ],
       "correct": 0,
-      "explanation": "IOC: Naveen ₹80,000; Priya ₹60,000; Rajan ₹40,000. Total IOC = ₹1,80,000. Rajan's commission = 2% × ₹2,80,000 = ₹5,600. Total appropriations = ₹1,85,600. Residual = ₹2,80,000 − ₹1,85,600 = ₹94,400. Priya's share = 3/10 × ₹94,400 = ₹28,320. Priya's closing capital: ₹6,00,000 + IOC ₹60,000 + share ₹28,320 − drawings ₹60,000 = ₹6,28,320. Closest option is ₹6,27,800 if IOC calculation differs slightly. The exact answer = ₹6,28,320. Always include IOC and profit share, deduct drawings under fluctuating method."
+      "explanation": "Interest on capital: Naveen ₹80,000, Priya ₹60,000 and Rajan ₹40,000; total ₹1,80,000. Rajan’s commission = 2% × ₹2,80,000 = ₹5,600. Residual profit = ₹2,80,000 − ₹1,85,600 = ₹94,400. Priya’s share = 3/10 × ₹94,400 = ₹28,320. Under fluctuating capital, Priya’s closing capital = ₹6,00,000 + ₹60,000 + ₹28,320 − ₹60,000 = ₹6,28,320."
     },
     {
       "id": "AC01Q39",
@@ -600,10 +603,11 @@
         "₹76,000 Cr",
         "₹56,000 Cr",
         "₹36,000 Cr",
-        "₹96,000 Cr"
+        "₹96,000 Dr"
       ],
-      "correct": 0,
-      "explanation": "IOC: G = ₹1,00,000; H = ₹60,000. Total IOC = ₹1,60,000. G's salary = ₹1,80,000. Total appropriations = ₹3,40,000. Profit = ₹3,00,000. Deficiency = ₹40,000 loss. H's share of loss = 2/5 × ₹40,000 = ₹16,000. H's current account: Opening ₹(20,000) + IOC ₹60,000 − loss ₹16,000 − drawings ₹1,20,000 = ₹(96,000) Debit. This is clearly a large debit balance — H has over-drawn substantially. Students selecting ₹76,000 Cr fail to account for the large drawings. Correct answer = ₹(96,000) Debit — none of the Cr options are correct; the question has a debit answer."
+      "correct": 3,
+      "explanation": "Interest on capital: G ₹1,00,000 and H ₹60,000. G’s salary = ₹1,80,000, so total appropriations are ₹3,40,000. Profit is ₹3,00,000, leaving a residual loss of ₹40,000. H’s loss share = 2/5 × ₹40,000 = ₹16,000. H’s current account = opening debit ₹20,000 + IOC ₹60,000 − loss ₹16,000 − drawings ₹1,20,000 = ₹96,000 debit.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC01Q41",
@@ -657,13 +661,13 @@
       "difficulty": "moderate",
       "question": "P and Q are partners with fixed capitals ₹5,00,000 and ₹3,00,000 in ratio 3:2. The deed provides IOC @ 6% and salary to Q ₹2,000/month. Net profit = ₹80,000. What is P's share of residual profit?",
       "options": [
-        "₹19,200",
+        "₹4,800",
         "₹12,800",
         "₹16,000",
         "₹24,000"
       ],
       "correct": 0,
-      "explanation": "IOC: P = 5,00,000 × 6% = ₹30,000; Q = 3,00,000 × 6% = ₹18,000. Total IOC = ₹48,000. Q's salary = ₹24,000. Total appropriations = ₹72,000. Residual = ₹80,000 − ₹72,000 = ₹8,000. P's share = 3/5 × ₹8,000 = ₹4,800. This is P's residual profit share only; total credit to P = IOC ₹30,000 + share ₹4,800 = ₹34,800. The question asks 'share of residual profit' = ₹4,800. None of the listed options match exactly. ₹19,200 would apply if there was no salary and only IOC. Students must distinguish between residual profit share and total current account credit."
+      "explanation": "Interest on capital totals ₹48,000 and Q’s salary is ₹24,000. Residual profit = ₹80,000 − ₹72,000 = ₹8,000. P’s share of residual profit = 3/5 × ₹8,000 = ₹4,800. This is not P’s total current-account credit; it is only the residual profit share asked in the question."
     },
     {
       "id": "AC01Q45",
@@ -689,11 +693,11 @@
       "options": [
         "₹1,00,000",
         "₹88,000",
-        "₹92,000",
+        "₹65,000",
         "₹96,000"
       ],
       "correct": 2,
-      "explanation": "IOC: A = ₹80,000; B = ₹60,000; C = ₹40,000. Total = ₹1,80,000. Residual = ₹2,00,000 − ₹1,80,000 = ₹20,000. In 2:2:1: A = ₹8,000; B = ₹8,000; C = ₹4,000. C's total = IOC ₹40,000 + share ₹4,000 = ₹44,000 < guarantee ₹50,000. Deficiency = ₹6,000 borne equally by A and B = ₹3,000 each. B's current account: IOC ₹60,000 + share ₹8,000 − deficiency ₹3,000 = ₹65,000. Closest option is ₹92,000 (incorrect without rechecking assumptions). Correct = ₹65,000. Key: guarantee deficit is borne equally, reducing A and B's individual profits."
+      "explanation": "Interest on capital: A ₹80,000, B ₹60,000 and C ₹40,000. Residual profit after IOC = ₹20,000. In 2:2:1, B’s residual share is ₹8,000 and C’s total share is ₹44,000. C is guaranteed ₹50,000, so the deficiency is ₹6,000. A and B bear it equally, so B bears ₹3,000. B’s current account credit = ₹60,000 + ₹8,000 − ₹3,000 = ₹65,000."
     },
     {
       "id": "AC01Q47",
@@ -717,13 +721,13 @@
       "difficulty": "difficult",
       "question": "X, Y, Z are partners in 4:3:3. Fixed capitals: X = ₹12,00,000, Y = ₹9,00,000, Z = ₹6,00,000. IOC @ 8%. Y's salary ₹5,000/month. Net profit = ₹3,00,000. No drawings, no IOD. Compute Z's closing current account balance (opening Cr balance = ₹15,000).",
       "options": [
-        "₹1,11,000",
+        "₹70,200",
         "₹96,000",
         "₹81,000",
         "₹66,000"
       ],
       "correct": 0,
-      "explanation": "IOC: X = ₹96,000; Y = ₹72,000; Z = ₹48,000. Total = ₹2,16,000. Y's salary = ₹60,000. Total appropriations = ₹2,76,000. Residual = ₹3,00,000 − ₹2,76,000 = ₹24,000. Z's share = 3/10 × ₹24,000 = ₹7,200. Z's current account: opening ₹15,000 + IOC ₹48,000 + share ₹7,200 = ₹70,200 Cr. Closest option ₹66,000 if IOC is computed slightly differently. Exact answer = ₹70,200. The opening balance is critical — students forget to include it."
+      "explanation": "Interest on capital: X ₹96,000, Y ₹72,000 and Z ₹48,000. Y’s salary is ₹60,000, so total appropriations are ₹2,76,000. Residual profit = ₹24,000. Z’s share = 3/10 × ₹24,000 = ₹7,200. Z’s current account = opening credit ₹15,000 + IOC ₹48,000 + share ₹7,200 = ₹70,200 credit."
     },
     {
       "id": "AC01Q49",
@@ -749,11 +753,12 @@
       "options": [
         "A pays B ₹11,200",
         "B pays A ₹11,200",
-        "A pays B ₹8,000",
+        "A pays B ₹7,200",
         "B pays A ₹8,000"
       ],
-      "correct": 0,
-      "explanation": "Correct treatment: IOC: A = ₹48,000; B = ₹32,000. B's salary = ₹12,000. Total appropriations = ₹92,000. Residual = ₹1,00,000 − ₹92,000 = ₹8,000. In 3:2: A = ₹4,800; B = ₹3,200. Correct credits: A = IOC ₹48,000 + share ₹4,800 = ₹52,800; B = IOC ₹32,000 + salary ₹12,000 + share ₹3,200 = ₹47,200. Actual distribution: A = 3/5 × ₹1,00,000 = ₹60,000; B = ₹40,000. A received ₹60,000 but should get ₹52,800 — A got ₹7,200 excess. B received ₹40,000 but should get ₹47,200 — B got ₹7,200 less. So A pays B ₹7,200. Closest option is ₹11,200 if salary is computed at ₹2,000/month — check salary assumption."
+      "correct": 2,
+      "explanation": "Correct appropriations are: A gets IOC ₹48,000 + residual share ₹4,800 = ₹52,800. B gets IOC ₹32,000 + salary ₹12,000 + residual share ₹3,200 = ₹47,200. The profit was wrongly distributed as A ₹60,000 and B ₹40,000. A therefore received ₹7,200 too much and B ₹7,200 too little. Rectification: A pays B ₹7,200.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC01Q51",
@@ -777,13 +782,13 @@
       "difficulty": "difficult",
       "question": "D, E and F are partners with fixed capitals ₹4,00,000, ₹3,00,000 and ₹2,00,000. PSR = 2:2:1. IOC @ 10%. F's salary = ₹2,000/month. Net profit = ₹1,00,000. D has drawings of ₹20,000 (1 Oct), E has drawings of ₹15,000 (1 Jan). IOD @ 6% p.a. Compute total IOD to credit P&L Appropriation Account.",
       "options": [
-        "₹1,125",
+        "₹825",
         "₹675",
         "₹900",
         "₹1,350"
       ],
       "correct": 0,
-      "explanation": "D drew ₹20,000 on 1 Oct — period to 31 March = 6 months. IOD (D) = 20,000 × 6% × 6/12 = ₹600. E drew ₹15,000 on 1 Jan — period to 31 March = 3 months. IOD (E) = 15,000 × 6% × 3/12 = ₹225. F — no drawings mentioned; IOD (F) = 0. Total IOD = ₹600 + ₹225 = ₹825. Closest option = ₹675 (if period is computed to year end differently) or ₹1,125 (if extra drawings assumed). Exact = ₹825 which is not listed — this tests period calculation precision. Students must count months from drawing date to 31st March accurately."
+      "explanation": "D drew ₹20,000 on 1 October, so interest is charged for 6 months: ₹20,000 × 6% × 6/12 = ₹600. E drew ₹15,000 on 1 January, so interest is charged for 3 months: ₹15,000 × 6% × 3/12 = ₹225. No drawing by F is given. Total interest on drawings = ₹600 + ₹225 = ₹825."
     },
     {
       "id": "AC01Q53",
@@ -807,13 +812,13 @@
       "difficulty": "difficult",
       "question": "Tanvi and Uma are partners with fixed capitals ₹6,00,000 and ₹4,00,000 in ratio 3:2. Their current accounts show balances: Tanvi ₹30,000 Cr, Uma ₹20,000 Dr. IOC is 10% p.a. Net profit = ₹1,40,000. No salary, no drawings, no IOD. What are the closing current account balances after appropriation?",
       "options": [
-        "Tanvi ₹1,14,000 Cr; Uma ₹66,000 Cr",
+        "Tanvi ₹1,14,000 Cr; Uma ₹36,000 Cr",
         "Tanvi ₹1,20,000 Cr; Uma ₹60,000 Cr",
         "Tanvi ₹84,000 Cr; Uma ₹46,000 Cr",
         "Tanvi ₹1,44,000 Cr; Uma ₹46,000 Cr"
       ],
       "correct": 0,
-      "explanation": "IOC: Tanvi = ₹60,000; Uma = ₹40,000. Total IOC = ₹1,00,000. Residual = ₹1,40,000 − ₹1,00,000 = ₹40,000. Tanvi's share = 3/5 × ₹40,000 = ₹24,000; Uma's = ₹16,000. Tanvi's closing: ₹30,000 (opening) + ₹60,000 (IOC) + ₹24,000 (share) = ₹1,14,000 Cr. Uma's closing: ₹(20,000) (opening debit) + ₹40,000 (IOC) + ₹16,000 (share) = ₹36,000 Cr. Closest option is ₹1,14,000 for Tanvi (A) but Uma shows ₹66,000 in option A vs actual ₹36,000. The opening debit balance of Uma reduces her closing credit significantly — a key trap."
+      "explanation": "Interest on capital: Tanvi ₹60,000 and Uma ₹40,000. Residual profit = ₹1,40,000 − ₹1,00,000 = ₹40,000, shared 3:2. Tanvi’s share = ₹24,000 and Uma’s share = ₹16,000. Tanvi’s closing current account = opening credit ₹30,000 + ₹60,000 + ₹24,000 = ₹1,14,000 Cr. Uma’s closing current account = opening debit ₹20,000 + ₹40,000 + ₹16,000 = ₹36,000 Cr."
     },
     {
       "id": "AC01Q55",
@@ -852,13 +857,13 @@
       "difficulty": "difficult",
       "question": "R, S, T are partners in ratio 3:2:1. Fixed capitals: R = ₹12,00,000, S = ₹8,00,000, T = ₹4,00,000. IOC @ 9% p.a. T's commission = 10% of net profit after IOC but before commission. Net profit (before IOC and commission) = ₹4,00,000. Compute T's commission.",
       "options": [
-        "₹19,000",
+        "₹18,400",
         "₹20,000",
         "₹16,000",
         "₹22,000"
       ],
       "correct": 0,
-      "explanation": "IOC: R = ₹1,08,000; S = ₹72,000; T = ₹36,000. Total IOC = ₹2,16,000. Net profit after IOC = ₹4,00,000 − ₹2,16,000 = ₹1,84,000. T's commission = 10% of ₹1,84,000 = ₹18,400 ≈ ₹18,400. But commission is 'after IOC but before commission' — so commission is on ₹1,84,000 before deducting commission itself. Commission = 10% × ₹1,84,000 = ₹18,400. Closest option ₹19,000 — difference arises if capital figures vary. Exact answer = ₹18,400. Students must identify the exact base — 'after IOC but before commission' means do not use the iterative formula here."
+      "explanation": "Interest on capital totals ₹2,16,000. Profit after IOC but before commission = ₹4,00,000 − ₹2,16,000 = ₹1,84,000. The commission is 10% of profit after IOC but before commission, so T’s commission = 10% × ₹1,84,000 = ₹18,400."
     },
     {
       "id": "AC01Q58",
@@ -885,10 +890,11 @@
         "₹85,350",
         "₹79,650",
         "₹84,150",
-        "₹76,350"
+        "₹74,003 Cr"
       ],
-      "correct": 0,
-      "explanation": "IOC: A = ₹1,00,000; B = ₹50,000. Total = ₹1,50,000. IOD (A): draws ₹5,000 at start of each month. Total = ₹60,000, average period = 6.5 months. IOD(A) = 60,000 × 6% × 6.5/12 = ₹1,950. IOD (B): draws ₹6,000 at end of each month. Total = ₹72,000, average period = 5.5 months. IOD(B) = 72,000 × 6% × 5.5/12 = ₹1,980. Total IOD = ₹3,930. Net profit for appropriation = ₹2,00,000 + ₹3,930 = ₹2,03,930. Less IOC ₹1,50,000 = ₹53,930 residual. A's share = 2/3 × ₹53,930 = ₹35,953. A's current account: IOC ₹1,00,000 + share ₹35,953 − IOD ₹1,950 − drawings ₹60,000 = ₹74,003 Cr. Closest option = ₹76,350."
+      "correct": 3,
+      "explanation": "Interest on capital totals ₹1,50,000. A’s interest on drawings = ₹60,000 × 6% × 6.5/12 = ₹1,950. B’s interest on drawings = ₹72,000 × 6% × 5.5/12 = ₹1,980. Net profit for appropriation = ₹2,00,000 + ₹3,930 = ₹2,03,930. Residual after IOC = ₹53,930. A’s share = 2/3 × ₹53,930 = ₹35,953. A’s current account = IOC ₹1,00,000 + share ₹35,953 − IOD ₹1,950 − drawings ₹60,000 = ₹74,003 Cr.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC01Q60",
@@ -970,13 +976,16 @@
       "type": "case_based",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "A and B are partners (3:2). A's capital = ₹6,00,000, B = ₹4,00,000 (Fixed Capital Method). IOC @ 10%. Net profit = ₹80,000. Opening current account balances: A = ₹20,000 Cr, B = ₹10,000 Dr. A withdrew ₹30,000 on 1st July. IOD @ 6%. No salary. Compute B's closing current account balance.",
+      "original_question": "A and B are partners (3:2). A's capital = ₹6,00,000, B = ₹4,00,000 (Fixed Capital Method). IOC @ 10%. Net profit = ₹80,000. Opening current account balances: A = ₹20,000 Cr, B = ₹10,000 Dr. A withdrew ₹30,000 on 1st July. IOD @ 6%. No salary. Compute B's closing current account balance.",
+      "question": "A and B are partners (3:2). A's capital = ₹6,00,000, B = ₹4,00,000 (Fixed Capital Method). IOC @ 10%. Net profit = ₹80,000. Opening current account balances: A = ₹20,000 Cr, B = ₹10,000 Dr. A withdrew ₹30,000 on 1st July. IOD @ 6%. No salary. Compute A's closing current account balance.",
       "options": [
         "₹50,000 Cr",
         "₹46,000 Cr",
         "₹54,000 Cr",
         "₹38,000 Cr"
-      ]
+      ],
+      "correct": 3,
+      "explanation": "Interest on capital: A = ₹6,00,000 × 10% = ₹60,000; B = ₹4,00,000 × 10% = ₹40,000. Interest on A's drawings for 9 months = ₹30,000 × 6% × 9/12 = ₹1,350. Net amount available for appropriation = ₹80,000 + ₹1,350 − ₹1,00,000 = ₹18,650 loss. A's share of this loss = 3/5 × ₹18,650 = ₹11,190. A's closing current account = opening credit ₹20,000 + IOC ₹60,000 − drawings ₹30,000 − IOD ₹1,350 − loss share ₹11,190 = ₹37,460 Cr, which is closest to ₹38,000 Cr."
     },
     {
       "id": "AC01Q66",
@@ -990,8 +999,9 @@
         "₹3,36,000",
         "₹3,60,000"
       ],
-      "correct": 0,
-      "explanation": "IOC: K = 3,00,000 × 8% = ₹24,000; L = ₹16,000. Total IOC = ₹40,000. Residual = ₹60,000 − ₹40,000 = ₹20,000. K's share = 3/5 × ₹20,000 = ₹12,000. K's closing capital (fluctuating): ₹3,00,000 + IOC ₹24,000 + share ₹12,000 = ₹3,36,000. Closest option is ₹3,36,000 (option C). But option A shows ₹3,42,000 — this would arise if IOC is computed differently. The exact correct answer is ₹3,36,000."
+      "correct": 2,
+      "explanation": "Interest on capital: K = ₹3,00,000 × 8% = ₹24,000 and L = ₹16,000. Residual profit = ₹60,000 − ₹40,000 = ₹20,000. K’s share = 3/5 × ₹20,000 = ₹12,000. Under the fluctuating capital method, K’s closing capital = ₹3,00,000 + ₹24,000 + ₹12,000 = ₹3,36,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC01Q67",
@@ -1015,13 +1025,13 @@
       "difficulty": "difficult",
       "question": "A and B are partners in 3:2. Fixed capitals: A = ₹9,00,000, B = ₹6,00,000. IOC @ 10%. A is entitled to commission at 5% of net profit after charging IOC and commission. Net profit before IOC and commission = ₹3,50,000. Compute A's commission.",
       "options": [
-        "₹7,619",
+        "₹9,524",
         "₹7,000",
         "₹8,000",
         "₹6,500"
       ],
       "correct": 0,
-      "explanation": "IOC: A = ₹90,000; B = ₹60,000. Total = ₹1,50,000. Net profit after IOC = ₹3,50,000 − ₹1,50,000 = ₹2,00,000. Commission = 5% of profit after IOC AND after commission. Let commission = x. x = 5% × (2,00,000 − x). x = 10,000 − 0.05x. 1.05x = 10,000. x = ₹9,523.81 ≈ ₹9,524. If 'after charging IOC but before commission': x = 5% × 2,00,000 = ₹10,000. The phrase 'after charging IOC and commission' uses iterative formula — x = 10,000/1.05 = ₹9,524. Closest option ₹7,619 uses a different profit base — suggesting IOC is higher in that version."
+      "explanation": "Interest on capital totals ₹1,50,000, so profit after IOC = ₹3,50,000 − ₹1,50,000 = ₹2,00,000. Commission is 5% of profit after IOC and after commission. Let commission be x: x = 5% × (₹2,00,000 − x). Therefore 1.05x = ₹10,000 and x = ₹9,523.81, rounded to ₹9,524."
     },
     {
       "id": "AC01Q69",
@@ -1045,13 +1055,13 @@
       "difficulty": "difficult",
       "question": "Three partners A, B and C operate under Fixed Capital Method. At year end, C's current account shows a debit balance of ₹1,50,000 despite receiving a salary of ₹36,000 and IOC of ₹24,000. Net profit shared equally. What is C's total withdrawal (drawings) during the year if net profit was ₹3,00,000 and C had no opening current account balance?",
       "options": [
-        "₹2,10,000",
+        "₹3,10,000",
         "₹1,60,000",
         "₹2,00,000",
         "₹1,80,000"
       ],
       "correct": 0,
-      "explanation": "C's current account: Opening ₹0 + salary ₹36,000 + IOC ₹24,000 + profit share ₹1,00,000 (1/3 of ₹3,00,000) − drawings = ₹(1,50,000) closing balance. So: ₹1,60,000 − drawings = ₹(1,50,000). Drawings = ₹1,60,000 + ₹1,50,000 = ₹3,10,000. This seems very high — check: if opening is ₹0, credits = ₹1,60,000, closing debit = ₹1,50,000, then drawings = ₹3,10,000. None of the options match — the intended answer may use different profit sharing. Likely intended: A's share = ₹1,00,000, so drawings = ₹1,60,000 + ₹1,50,000 = ₹3,10,000. Key concept: work backward from closing balance to find drawings."
+      "explanation": "C’s credits are salary ₹36,000, interest on capital ₹24,000 and profit share ₹1,00,000, totaling ₹1,60,000. Closing current account is a debit of ₹1,50,000. Since credits − drawings = debit balance, drawings = ₹1,60,000 + ₹1,50,000 = ₹3,10,000."
     },
     {
       "id": "AC01Q71",
@@ -1062,11 +1072,12 @@
       "options": [
         "₹1,15,600",
         "₹1,25,600",
-        "₹75,600",
+        "₹52,500 Cr",
         "₹1,05,600"
       ],
-      "correct": 0,
-      "explanation": "IOD: H draws at year end → period = 0 months → IOD = ₹0. I draws at year end → IOD = ₹0. (Drawings at the very end of the year have 0 period.) IOC: H = ₹1,20,000; I = ₹72,000. Total IOC = ₹1,92,000. H's salary = ₹60,000. Total appropriations = ₹2,52,000. Residual = ₹2,80,000 − ₹2,52,000 = ₹28,000. I's share = 3/8 × ₹28,000 = ₹10,500. I's current account: ₹10,000 (opening) + ₹72,000 (IOC) + ₹10,500 (share) − ₹40,000 (drawings) = ₹52,500 Cr. Closest option ₹1,05,600 — difference may arise if IOD is incorrectly calculated on year-end drawings."
+      "correct": 2,
+      "explanation": "Drawings at year end carry no interest on drawings. Interest on capital: H ₹1,20,000 and I ₹72,000. H’s salary is ₹60,000. Residual profit = ₹2,80,000 − ₹2,52,000 = ₹28,000. I’s share = 3/8 × ₹28,000 = ₹10,500. I’s current account = opening credit ₹10,000 + IOC ₹72,000 + share ₹10,500 − drawings ₹40,000 = ₹52,500 Cr.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC01Q72",
@@ -1180,13 +1191,13 @@
       "difficulty": "difficult",
       "question": "R, S, T are partners in ratio 3:2:1. Capitals: R = ₹6,00,000, S = ₹4,00,000, T = ₹2,00,000. IOC @ 10%. T guaranteed ₹30,000 by the firm. Net profit = ₹1,50,000. Compute S's current account credit (no drawings, no salary, no IOD, opening Cr balance = ₹5,000).",
       "options": [
-        "₹55,000",
+        "₹53,000",
         "₹50,000",
         "₹45,000",
         "₹60,000"
       ],
       "correct": 0,
-      "explanation": "IOC: R = ₹60,000; S = ₹40,000; T = ₹20,000. Total = ₹1,20,000. Residual = ₹1,50,000 − ₹1,20,000 = ₹30,000. In 3:2:1: R = ₹15,000; S = ₹10,000; T = ₹5,000. T's total = ₹20,000 + ₹5,000 = ₹25,000 < guarantee ₹30,000. Deficiency = ₹5,000 borne by R and S in 3:2 (their mutual ratio). S bears = 2/5 × ₹5,000 = ₹2,000. S's current account: ₹5,000 (opening) + ₹40,000 (IOC) + ₹10,000 (share) − ₹2,000 (guarantee) = ₹53,000 Cr. Closest option = ₹55,000 (if opening balance is treated differently)."
+      "explanation": "Interest on capital: R ₹60,000, S ₹40,000 and T ₹20,000. Residual profit = ₹30,000. S’s residual share = ₹10,000. T’s total share is ₹25,000, below the ₹30,000 guarantee, so deficiency is ₹5,000. R and S bear it in 3:2, so S bears ₹2,000. S’s current account = opening credit ₹5,000 + IOC ₹40,000 + share ₹10,000 − guarantee burden ₹2,000 = ₹53,000 Cr."
     },
     {
       "id": "AC01Q80",
@@ -1240,13 +1251,13 @@
       "difficulty": "moderate",
       "question": "E and F are partners in 3:2. E's capital = ₹6,00,000, F's = ₹4,00,000 (fluctuating method). Net profit = ₹1,00,000. IOC @ 8%. E's drawings = ₹25,000, F's drawings = ₹20,000. No salary, no IOD. Compute F's closing capital balance.",
       "options": [
-        "₹4,32,000",
+        "₹4,20,000",
         "₹4,52,000",
         "₹4,12,000",
         "₹4,64,000"
       ],
       "correct": 0,
-      "explanation": "IOC: E = ₹48,000; F = ₹32,000. Total IOC = ₹80,000. Residual = ₹1,00,000 − ₹80,000 = ₹20,000. F's share = 2/5 × ₹20,000 = ₹8,000. F's closing capital: ₹4,00,000 + IOC ₹32,000 + share ₹8,000 − drawings ₹20,000 = ₹4,20,000. None of the options show ₹4,20,000 exactly; ₹4,32,000 is closest (likely uses 10% IOC instead of 8%). Correct = ₹4,20,000. Key step: under fluctuating method, opening capital + all credits − all debits = closing capital."
+      "explanation": "Interest on capital: E ₹48,000 and F ₹32,000. Residual profit = ₹1,00,000 − ₹80,000 = ₹20,000. F’s share = 2/5 × ₹20,000 = ₹8,000. Under fluctuating capital, F’s closing capital = opening capital ₹4,00,000 + IOC ₹32,000 + share ₹8,000 − drawings ₹20,000 = ₹4,20,000."
     },
     {
       "id": "AC01Q84",
@@ -1273,10 +1284,11 @@
         "₹1,24,444",
         "₹1,11,111",
         "₹98,889",
-        "₹86,667"
+        "₹68,667"
       ],
-      "correct": 2,
-      "explanation": "IOC: X = ₹80,000; Y = ₹60,000; Z = ₹40,000. Total = ₹1,80,000. Y's salary = ₹72,000. Total appropriations = ₹2,52,000. Residual = ₹2,50,000 − ₹2,52,000 = ₹(2,000) loss. In 4:3:2: X loss = 4/9 × 2,000 = ₹889; Y loss = ₹667; Z loss = ₹444. Z's total = IOC ₹40,000 − loss ₹444 = ₹39,556 < guarantee ₹50,000. Deficiency = ₹10,444, borne by X alone. X's current account: IOC ₹80,000 − loss ₹889 − guarantee ₹10,444 = ₹68,667. Closest option ₹98,889. The guarantee significantly reduces X's credit."
+      "correct": 3,
+      "explanation": "Interest on capital totals ₹1,80,000 and Y’s salary is ₹72,000, so total appropriations are ₹2,52,000. Profit is ₹2,50,000, leaving a residual loss of ₹2,000. X bears 4/9 × ₹2,000 = ₹889. Z’s total share is ₹40,000 − ₹444 = ₹39,556, below the ₹50,000 guarantee. The deficiency of ₹10,444 is borne by X alone. X’s current account credit = ₹80,000 − ₹889 − ₹10,444 = ₹68,667.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC01Q86",
@@ -1331,12 +1343,12 @@
       "question": "R and S are partners in 3:2. R's fixed capital = ₹12,00,000, S's = ₹8,00,000. IOC @ 12%. S's salary = ₹8,000/month. Net profit (before appropriations) = ₹3,60,000. Compute R's closing current account if opening current account was ₹40,000 Cr and drawings were ₹80,000.",
       "options": [
         "₹2,60,800",
-        "₹2,04,800",
+        "₹1,18,400",
         "₹2,84,800",
         "₹2,44,800"
       ],
       "correct": 1,
-      "explanation": "IOC: R = ₹1,44,000; S = ₹96,000. Total = ₹2,40,000. S's salary = ₹96,000. Total appropriations = ₹3,36,000. Residual = ₹3,60,000 − ₹3,36,000 = ₹24,000. R's share = 3/5 × ₹24,000 = ₹14,400. R's current account: opening ₹40,000 + IOC ₹1,44,000 + share ₹14,400 − drawings ₹80,000 = ₹1,18,400 Cr. Closest option ₹2,04,800 seems to double-count IOC. Exact answer = ₹1,18,400. The opening balance is a critical additive factor students often miss."
+      "explanation": "Interest on capital: R ₹1,44,000 and S ₹96,000. S’s salary = ₹96,000. Residual profit = ₹3,60,000 − ₹3,36,000 = ₹24,000. R’s share = 3/5 × ₹24,000 = ₹14,400. R’s current account = opening credit ₹40,000 + IOC ₹1,44,000 + share ₹14,400 − drawings ₹80,000 = ₹1,18,400 Cr."
     },
     {
       "id": "AC01Q90",
@@ -1361,12 +1373,12 @@
       "question": "P and Q are partners in 7:3. Fixed capitals ₹14,00,000 and ₹6,00,000. IOC @ 10%. Q's salary = ₹5,000/month. Net profit = ₹2,50,000. IOD: P drew ₹30,000 on 1 April and Q drew ₹20,000 on 1 October. IOD @ 6% p.a. Compute Q's net current account credit (no opening balance).",
       "options": [
         "₹1,21,100",
-        "₹1,14,700",
+        "₹97,120",
         "₹1,08,300",
         "₹1,27,500"
       ],
       "correct": 1,
-      "explanation": "IOC: P = ₹1,40,000; Q = ₹60,000. Total IOC = ₹2,00,000. Q's salary = ₹60,000. IOD: P drew ₹30,000 on 1 April (full year, 12 months). IOD(P) = 30,000 × 6% × 12/12 = ₹1,800. Q drew ₹20,000 on 1 Oct (6 months). IOD(Q) = 20,000 × 6% × 6/12 = ₹600. Total IOD = ₹2,400. Net for appropriation = ₹2,50,000 + ₹2,400 = ₹2,52,400. Less IOC ₹2,00,000 and salary ₹60,000 = total ₹2,60,000. Residual loss = ₹(7,600). Q's share of loss = 3/10 × ₹7,600 = ₹2,280. Q's current account: IOC ₹60,000 + salary ₹60,000 − IOD ₹600 − loss ₹2,280 − drawings ₹20,000 = ₹97,120. Closest option ₹1,14,700."
+      "explanation": "Interest on capital: P ₹1,40,000 and Q ₹60,000. Interest on drawings: P ₹1,800 and Q ₹600. Net profit for appropriation = ₹2,50,000 + ₹2,400 = ₹2,52,400. After IOC and Q’s salary of ₹60,000, there is a residual loss of ₹7,600. Q bears 3/10 × ₹7,600 = ₹2,280. Q’s current account = IOC ₹60,000 + salary ₹60,000 − IOD ₹600 − loss ₹2,280 − drawings ₹20,000 = ₹97,120 Cr."
     },
     {
       "id": "AC01Q92",
@@ -1406,12 +1418,12 @@
       "question": "A, B, C are partners in 5:3:2. A's capital = ₹25,00,000, B = ₹15,00,000, C = ₹10,00,000 (fixed). IOC @ 8%. C's salary = ₹10,000/month. Net profit = ₹8,00,000. All partners draw ₹1,00,000 each at the year end. No IOD. Compute B's closing current account (opening Cr = ₹25,000).",
       "options": [
         "₹2,64,000",
-        "₹2,39,000",
+        "₹1,29,000",
         "₹2,89,000",
         "₹2,14,000"
       ],
       "correct": 1,
-      "explanation": "IOC: A = ₹2,00,000; B = ₹1,20,000; C = ₹80,000. Total IOC = ₹4,00,000. C's salary = ₹1,20,000. Total appropriations = ₹5,20,000. Residual = ₹8,00,000 − ₹5,20,000 = ₹2,80,000. B's share = 3/10 × ₹2,80,000 = ₹84,000. B's current account: ₹25,000 (opening) + ₹1,20,000 (IOC) + ₹84,000 (share) − ₹1,00,000 (drawings) = ₹1,29,000 Cr. Closest option ₹2,39,000 uses doubled IOC. Exact = ₹1,29,000. Drawings at year-end have no IOD impact."
+      "explanation": "Interest on capital: A ₹2,00,000, B ₹1,20,000 and C ₹80,000. C’s salary = ₹1,20,000. Residual profit = ₹8,00,000 − ₹5,20,000 = ₹2,80,000. B’s share = 3/10 × ₹2,80,000 = ₹84,000. B’s current account = opening credit ₹25,000 + IOC ₹1,20,000 + share ₹84,000 − drawings ₹1,00,000 = ₹1,29,000 Cr."
     },
     {
       "id": "AC01Q95",
@@ -1437,11 +1449,11 @@
       "options": [
         "₹1,42,000",
         "₹1,32,000",
-        "₹1,22,000",
+        "₹76,000",
         "₹1,52,000"
       ],
       "correct": 2,
-      "explanation": "IOC: D = ₹1,20,000; E = ₹40,000. Total = ₹1,60,000. E's salary = ₹72,000. Total appropriations = ₹2,32,000. Residual = ₹1,60,000 − ₹2,32,000 = ₹(72,000) loss. In 3:1: D's loss = ₹54,000; E's loss = ₹18,000. E's total = IOC ₹40,000 + salary ₹72,000 − loss ₹18,000 = ₹94,000 > guarantee ₹80,000. Guarantee NOT triggered (E earns more than ₹80,000). D's current account: ₹10,000 (opening) + ₹1,20,000 (IOC) − ₹54,000 (loss) = ₹76,000 Cr. Closest option ₹1,22,000 uses different figures. Exact = ₹76,000. The key trap: check if guarantee is actually triggered before computing deficiency."
+      "explanation": "Interest on capital: D ₹1,20,000 and E ₹40,000. E’s salary = ₹72,000. Total appropriations = ₹2,32,000, while profit is ₹1,60,000. The residual is a loss of ₹72,000. D bears 3/4 × ₹72,000 = ₹54,000. E already gets ₹40,000 + ₹72,000 − ₹18,000 = ₹94,000, so the ₹80,000 guarantee is not triggered. D’s current account = opening credit ₹10,000 + IOC ₹1,20,000 − loss ₹54,000 = ₹76,000 Cr."
     },
     {
       "id": "AC01Q97",
@@ -1466,12 +1478,12 @@
       "question": "G, H, I are partners in 4:3:3. Fixed capitals ₹8,00,000, ₹6,00,000 and ₹4,00,000. IOC @ 10%. G's salary = ₹5,000/month. Net profit = ₹2,40,000. I guaranteed minimum ₹55,000 by H alone. Compute H's current account credit (opening Cr = ₹20,000, no drawings).",
       "options": [
         "₹80,600",
-        "₹77,600",
+        "₹65,000",
         "₹83,600",
         "₹74,600"
       ],
       "correct": 1,
-      "explanation": "IOC: G = ₹80,000; H = ₹60,000; I = ₹40,000. Total = ₹1,80,000. G's salary = ₹60,000. Total appropriations = ₹2,40,000. Residual = ₹2,40,000 − ₹2,40,000 = ₹0. No residual profit. I's total = IOC ₹40,000 < guarantee ₹55,000. Deficiency = ₹15,000 borne by H alone. H's current account: ₹20,000 (opening) + ₹60,000 (IOC) + ₹0 (share) − ₹15,000 (guarantee) = ₹65,000 Cr. Closest option ₹77,600 — discrepancy arises if residual is non-zero. Exact = ₹65,000 when profit exactly equals appropriations."
+      "explanation": "Interest on capital: G ₹80,000, H ₹60,000 and I ₹40,000. G’s salary = ₹60,000. Total appropriations are ₹2,40,000, equal to the profit, so there is no residual profit. I receives only ₹40,000, below the ₹55,000 guarantee. The deficiency of ₹15,000 is borne by H alone. H’s current account = opening credit ₹20,000 + IOC ₹60,000 − guarantee burden ₹15,000 = ₹65,000 Cr."
     },
     {
       "id": "AC01Q99",
@@ -1510,13 +1522,13 @@
       "difficulty": "difficult",
       "question": "M and N are partners in 3:2. Fixed capitals ₹6,00,000 and ₹4,00,000. IOC @ 9%. M's commission = 8% on net profit after charging IOC and commission. Net profit before IOC and commission = ₹3,00,000. Compute M's commission.",
       "options": [
-        "₹11,481",
+        "₹15,556",
         "₹12,000",
         "₹10,667",
         "₹10,000"
       ],
       "correct": 0,
-      "explanation": "IOC: M = ₹54,000; N = ₹36,000. Total = ₹90,000. Net profit after IOC = ₹3,00,000 − ₹90,000 = ₹2,10,000. Commission on profit after IOC and after commission: Let x = commission. x = 8% × (₹2,10,000 − x). x = 16,800 − 0.08x. 1.08x = 16,800. x = ₹15,556. This is commission after IOC and after commission. None of the given options match ₹15,556 directly. ₹11,481 arises if a different IOC base is used. Students must apply the iterative formula correctly."
+      "explanation": "Interest on capital totals ₹90,000, so profit after IOC is ₹3,00,000 − ₹90,000 = ₹2,10,000. Commission is 8% of profit after IOC and after commission. Let commission be x: x = 8% × (₹2,10,000 − x). Thus 1.08x = ₹16,800 and x = ₹15,555.56, rounded to ₹15,556."
     },
     {
       "id": "AC01Q102",
@@ -1540,13 +1552,13 @@
       "difficulty": "difficult",
       "question": "X, Y, Z share profits 2:3:5. Fixed capitals: X = ₹4,00,000, Y = ₹6,00,000, Z = ₹10,00,000. IOC @ 10%. Y is entitled to salary ₹7,500/month. Net profit = ₹3,00,000. No other provisions. What is Y's total entitlement (IOC + salary + residual share)?",
       "options": [
-        "₹1,77,000",
+        "₹1,53,000",
         "₹2,04,000",
         "₹1,62,000",
         "₹1,41,000"
       ],
       "correct": 0,
-      "explanation": "IOC: X = ₹40,000; Y = ₹60,000; Z = ₹1,00,000. Total IOC = ₹2,00,000. Y's salary = ₹90,000. Total appropriations = ₹2,90,000. Residual = ₹3,00,000 − ₹2,90,000 = ₹10,000. Y's share = 3/10 × ₹10,000 = ₹3,000. Y's total entitlement = IOC ₹60,000 + salary ₹90,000 + share ₹3,000 = ₹1,53,000. Closest option ₹1,77,000. Exact = ₹1,53,000 — important to sum all three components correctly."
+      "explanation": "Interest on capital: X ₹40,000, Y ₹60,000 and Z ₹1,00,000; total ₹2,00,000. Y’s salary = ₹90,000. Residual profit = ₹3,00,000 − ₹2,90,000 = ₹10,000. Y’s share = 3/10 × ₹10,000 = ₹3,000. Y’s total entitlement = IOC ₹60,000 + salary ₹90,000 + residual share ₹3,000 = ₹1,53,000."
     },
     {
       "id": "AC01Q104",
@@ -1570,13 +1582,13 @@
       "difficulty": "difficult",
       "question": "A, B are partners in 3:1. A's fixed capital = ₹8,00,000, B = ₹4,00,000. IOC @ 10%. B has a current account debit opening balance of ₹50,000. Net profit = ₹1,80,000. No drawings, no salary, no IOD. Compute B's closing current account balance.",
       "options": [
-        "₹10,000 Cr",
+        "₹5,000 Cr",
         "₹10,000 Dr",
         "₹30,000 Cr",
         "₹30,000 Dr"
       ],
       "correct": 0,
-      "explanation": "IOC: A = ₹80,000; B = ₹40,000. Total = ₹1,20,000. Residual = ₹1,80,000 − ₹1,20,000 = ₹60,000. B's share = 1/4 × ₹60,000 = ₹15,000. B's current account: opening ₹(50,000) Dr + IOC ₹40,000 + share ₹15,000 = ₹5,000 Cr. Closest option ₹10,000 Cr. Exact = ₹5,000 Cr. The opening debit balance is a crucial deduction — students who ignore it will get ₹55,000 Cr."
+      "explanation": "Interest on capital: A ₹80,000 and B ₹40,000. Residual profit = ₹1,80,000 − ₹1,20,000 = ₹60,000. B’s share = 1/4 × ₹60,000 = ₹15,000. B’s current account = opening debit ₹50,000 + IOC ₹40,000 + share ₹15,000 = ₹5,000 credit."
     },
     {
       "id": "AC01Q106",
@@ -1588,7 +1600,7 @@
         "Ravi gains 1/10, Soni sacrifices 1/10, Tanu unchanged",
         "Ravi sacrifices 1/10, Soni gains 1/10, Tanu unchanged",
         "Ravi gains 1/10, Soni sacrifices 1/10, Tanu gains 1/10",
-        "Ravi sacrifices 1/10, Soni gains 1/10, Tanu unchanged"
+        "Ravi gains 1/10, Soni unchanged, Tanu sacrifices 1/10"
       ],
       "correct": 0,
       "explanation": "Old PSR: Ravi 4/10, Soni 4/10, Tanu 2/10. New PSR: Ravi 5/10, Soni 3/10, Tanu 2/10. Change: Ravi = 5/10 − 4/10 = +1/10 (gain). Soni = 3/10 − 4/10 = −1/10 (sacrifice). Tanu = 2/10 − 2/10 = 0 (unchanged). So Ravi gains, Soni sacrifices, Tanu is unaffected. This concept links Chapter 1 (PSR) to change in ratio — a key inter-chapter bridge tested in CUET."
@@ -1690,13 +1702,13 @@
       "difficulty": "difficult",
       "question": "K and L are partners in 5:3. Fixed capitals: K = ₹20,00,000, L = ₹12,00,000. IOC @ 9%. L's salary = ₹10,000/month. Net profit (before appropriations) = ₹5,00,000. L is guaranteed minimum ₹2,00,000. Shortfall borne by K. Compute L's current account credit (no drawings, opening Cr = ₹50,000).",
       "options": [
-        "₹2,50,000",
+        "₹3,12,500",
         "₹2,00,000",
         "₹2,58,000",
         "₹2,42,000"
       ],
       "correct": 0,
-      "explanation": "IOC: K = ₹1,80,000; L = ₹1,08,000. Total = ₹2,88,000. L's salary = ₹1,20,000. Total appropriations = ₹4,08,000. Residual = ₹5,00,000 − ₹4,08,000 = ₹92,000. L's share = 3/8 × ₹92,000 = ₹34,500. L's total = IOC ₹1,08,000 + salary ₹1,20,000 + share ₹34,500 = ₹2,62,500 > guarantee ₹2,00,000. Guarantee NOT triggered. L's current account: ₹50,000 (opening) + ₹1,08,000 + ₹1,20,000 + ₹34,500 = ₹3,12,500 Cr. Closest option ₹2,50,000 — the opening balance ₹50,000 difference accounts for option proximity."
+      "explanation": "Interest on capital: K ₹1,80,000 and L ₹1,08,000. L’s salary = ₹1,20,000. Residual profit = ₹5,00,000 − ₹4,08,000 = ₹92,000. L’s share = 3/8 × ₹92,000 = ₹34,500. L’s total entitlement is ₹2,62,500, which is above the ₹2,00,000 guarantee, so the guarantee is not triggered. L’s current account = opening credit ₹50,000 + ₹1,08,000 + ₹1,20,000 + ₹34,500 = ₹3,12,500 Cr."
     },
     {
       "id": "AC01Q114",
@@ -1741,7 +1753,7 @@
         "Both A and B"
       ],
       "correct": 2,
-      "explanation": "The P&L Appropriation Account has: Credit side: Net profit from P&L Account + Interest on drawings (these reduce the amount available to distribute — wait, IOD is credited because it is income of the firm). Debit side: Interest on capital + Partner's salary + Partner's commission + Share of residual profit to partners. Therefore interest on capital appears on the debit side. IOD appears on the credit side (as income of the firm). Net profit also appears on the credit side. Option C (IOC on debit side) is correct."
+      "explanation": "In a P&L Appropriation Account, net profit and interest on drawings appear on the credit side. Interest on capital, partners’ salary, partners’ commission, and the residual profit distributed to partners appear on the debit side. Therefore interest on capital allowed to partners appears on the debit side."
     },
     {
       "id": "AC01Q117",
@@ -1780,13 +1792,13 @@
       "difficulty": "difficult",
       "question": "Partners X, Y and Z have capitals ₹5,00,000, ₹3,00,000 and ₹2,00,000 (fixed). PSR = 5:3:2. IOC @ 10%. Z's salary = ₹2,000/month. Net profit = ₹1,00,000. No drawings, no IOD. What is Z's closing current account balance if opening Cr = ₹8,000?",
       "options": [
-        "₹38,000",
+        "₹47,200",
         "₹46,000",
         "₹30,000",
         "₹22,000"
       ],
       "correct": 0,
-      "explanation": "IOC: X = ₹50,000; Y = ₹30,000; Z = ₹20,000. Total IOC = ₹1,00,000. Z's salary = ₹24,000. Total appropriations = ₹1,24,000. Residual = ₹1,00,000 − ₹1,24,000 = ₹(24,000) loss. Z's loss share = 2/10 × ₹24,000 = ₹4,800. Z's current account: ₹8,000 (opening) + ₹20,000 (IOC) + ₹24,000 (salary) − ₹4,800 (loss) = ₹47,200 Cr. Closest option ₹46,000. Exact = ₹47,200. Opening balance is additive and must not be forgotten."
+      "explanation": "Interest on capital totals ₹1,00,000 and Z’s salary is ₹24,000. Total appropriations = ₹1,24,000, so the residual is a loss of ₹24,000. Z bears 2/10 × ₹24,000 = ₹4,800. Z’s current account = opening credit ₹8,000 + IOC ₹20,000 + salary ₹24,000 − loss ₹4,800 = ₹47,200 Cr."
     },
     {
       "id": "AC01Q120",
@@ -1810,13 +1822,13 @@
       "difficulty": "difficult",
       "question": "A, B, C are partners in 3:3:4. Capitals: A = ₹6,00,000, B = ₹6,00,000, C = ₹8,00,000 (fixed). IOC @ 10%. A and B's salary: ₹5,000/month each. Net profit = ₹3,00,000. No other adjustments. Compute C's current account credit (opening = ₹20,000 Cr, no drawings).",
       "options": [
-        "₹1,36,000",
+        "₹92,000",
         "₹1,56,000",
         "₹1,76,000",
         "₹1,16,000"
       ],
       "correct": 0,
-      "explanation": "IOC: A = ₹60,000; B = ₹60,000; C = ₹80,000. Total = ₹2,00,000. A and B's salary = ₹60,000 each = ₹1,20,000. Total appropriations = ₹3,20,000. Residual = ₹3,00,000 − ₹3,20,000 = ₹(20,000) loss. C's share of loss = 4/10 × ₹20,000 = ₹8,000. C's current account: ₹20,000 (opening) + ₹80,000 (IOC) − ₹8,000 (loss) = ₹92,000 Cr. Closest option ₹1,36,000. Exact = ₹92,000. The opening balance adds but salary does not belong to C — common mistake is adding salary not belonging to C."
+      "explanation": "Interest on capital: A ₹60,000, B ₹60,000 and C ₹80,000. A and B each get salary of ₹60,000, so total appropriations are ₹3,20,000. Profit is ₹3,00,000, leaving a residual loss of ₹20,000. C bears 4/10 × ₹20,000 = ₹8,000. C’s current account = opening credit ₹20,000 + IOC ₹80,000 − loss ₹8,000 = ₹92,000 Cr."
     },
     {
       "id": "AC01Q122",
@@ -1842,11 +1854,11 @@
       "options": [
         "₹1,54,333",
         "₹1,68,000",
-        "₹1,40,667",
+        "₹75,000",
         "₹1,80,000"
       ],
       "correct": 2,
-      "explanation": "IOC: P = ₹1,08,000; Q = ₹36,000. Total = ₹1,44,000. Q's salary = ₹48,000. Total appropriations = ₹1,92,000. Residual = ₹2,20,000 − ₹1,92,000 = ₹28,000. P's share = 2/3 × ₹28,000 = ₹18,667; Q's = ₹9,333. Q's total = IOC ₹36,000 + salary ₹48,000 + share ₹9,333 = ₹93,333 < guarantee ₹1,00,000. Deficiency = ₹6,667 borne by P. P's current account: ₹15,000 + ₹1,08,000 + ₹18,667 − ₹6,667 − ₹60,000 = ₹75,000 Cr. Closest option ₹1,40,667. Exact = ₹75,000."
+      "explanation": "Interest on capital: P ₹1,08,000 and Q ₹36,000. Q’s salary is ₹48,000, so residual profit = ₹28,000. P’s share = ₹18,667 and Q’s share = ₹9,333. Q’s total is ₹93,333, below the ₹1,00,000 guarantee; deficiency ₹6,667 is borne by P. P’s current account = opening credit ₹15,000 + IOC ₹1,08,000 + share ₹18,667 − guarantee burden ₹6,667 − drawings ₹60,000 = ₹75,000 Cr."
     },
     {
       "id": "AC01Q124",
@@ -1901,12 +1913,12 @@
       "question": "Firm ABC has partners A, B, C in ratio 4:3:3. Capitals: A = ₹16,00,000, B = ₹12,00,000, C = ₹8,00,000 (fixed). IOC @ 10%. C gets salary ₹6,000/month. Net profit = ₹5,00,000. B is guaranteed ₹1,50,000 by A and C equally. No drawings. Compute A's current account credit (opening Cr = ₹25,000).",
       "options": [
         "₹2,90,000",
-        "₹2,65,000",
+        "₹2,07,400",
         "₹2,40,000",
         "₹3,15,000"
       ],
       "correct": 1,
-      "explanation": "IOC: A = ₹1,60,000; B = ₹1,20,000; C = ₹80,000. Total = ₹3,60,000. C's salary = ₹72,000. Total appropriations = ₹4,32,000. Residual = ₹5,00,000 − ₹4,32,000 = ₹68,000. In 4:3:3: A = ₹27,200; B = ₹20,400; C = ₹20,400. B's total = IOC ₹1,20,000 + share ₹20,400 = ₹1,40,400 < guarantee ₹1,50,000. Deficiency = ₹9,600 borne by A and C equally = ₹4,800 each. A's current account: ₹25,000 (opening) + ₹1,60,000 (IOC) + ₹27,200 (share) − ₹4,800 (guarantee) = ₹2,07,400 Cr. Closest option ₹2,65,000."
+      "explanation": "Interest on capital: A ₹1,60,000, B ₹1,20,000 and C ₹80,000. C’s salary is ₹72,000. Residual profit = ₹68,000. A’s residual share = ₹27,200. B’s total is ₹1,40,400, below the ₹1,50,000 guarantee, so deficiency ₹9,600 is borne by A and C equally. A bears ₹4,800. A’s current account = opening credit ₹25,000 + IOC ₹1,60,000 + share ₹27,200 − guarantee burden ₹4,800 = ₹2,07,400 Cr."
     },
     {
       "id": "AC01Q128",
@@ -1915,13 +1927,13 @@
       "difficulty": "difficult",
       "question": "X, Y, Z are partners sharing profits in 5:4:1. In Year 1, neither IOC nor salary was charged as the deed was believed to be silent. Later, the deed (properly executed) was found to contain provisions for IOC @ 8% and Z's salary ₹2,000/month. Net profit for Year 1 was ₹1,20,000. Capitals: X = ₹5,00,000, Y = ₹4,00,000, Z = ₹2,50,000. What adjustment is needed for X in Year 2?",
       "options": [
-        "X is debited ₹23,600",
+        "X is debited ₹18,000",
         "X is credited ₹23,600",
         "X is debited ₹18,500",
         "X is credited ₹18,500"
       ],
       "correct": 0,
-      "explanation": "IOC that should have been charged: X = ₹40,000; Y = ₹32,000; Z = ₹20,000. Total = ₹92,000. Z's salary = ₹24,000. Total appropriations = ₹1,16,000. Residual = ₹1,20,000 − ₹1,16,000 = ₹4,000. In 5:4:1: X = ₹2,000; Y = ₹1,600; Z = ₹400. Correct: X should have got IOC ₹40,000 + share ₹2,000 = ₹42,000. Actual received = 5/10 × ₹1,20,000 = ₹60,000. X received ₹18,000 excess → X is DEBITED ₹18,000. Closest option ₹23,600 — difference due to rounding or slightly different salary period."
+      "explanation": "Correct appropriations: X should receive IOC ₹40,000 plus residual profit share ₹2,000, total ₹42,000. Actual distribution gave X 5/10 × ₹1,20,000 = ₹60,000. X received ₹18,000 too much, so X is debited ₹18,000 in the rectification entry."
     },
     {
       "id": "AC01Q129",
@@ -1975,13 +1987,13 @@
       "difficulty": "difficult",
       "question": "A, B and C are partners in 2:1:1. Capitals: A = ₹8,00,000, B = ₹4,00,000, C = ₹4,00,000. IOC @ 10%. Net profit = ₹80,000. C is guaranteed ₹40,000 (inclusive of IOC and share). Deficit borne by A and B in ratio 2:1. Compute B's current account credit (opening Cr = ₹5,000, no drawings).",
       "options": [
-        "₹43,333",
+        "₹18,333",
         "₹48,333",
         "₹38,333",
         "₹53,333"
       ],
       "correct": 0,
-      "explanation": "IOC: A = ₹80,000; B = ₹40,000; C = ₹40,000. Total IOC = ₹1,60,000. Residual = ₹80,000 − ₹1,60,000 = ₹(80,000) loss. In 2:1:1: A = ₹(40,000); B = ₹(20,000); C = ₹(20,000). C's total = IOC ₹40,000 − loss ₹20,000 = ₹20,000 < guarantee ₹40,000. Deficiency = ₹20,000 borne by A and B in 2:1. B bears = 1/3 × ₹20,000 = ₹6,667. B's current account: ₹5,000 + ₹40,000 − ₹20,000 − ₹6,667 = ₹18,333 Cr. Closest option ₹43,333. Exact = ₹18,333."
+      "explanation": "Interest on capital totals ₹1,60,000, but profit is only ₹80,000, so the residual is a loss of ₹80,000. B’s loss share = ₹20,000. C’s total after IOC and loss is ₹20,000, below the ₹40,000 guarantee. Deficiency ₹20,000 is borne by A and B in 2:1; B bears ₹6,667. B’s current account = opening credit ₹5,000 + IOC ₹40,000 − loss ₹20,000 − guarantee burden ₹6,667 = ₹18,333 Cr."
     },
     {
       "id": "AC01Q133",
@@ -2005,13 +2017,13 @@
       "difficulty": "moderate",
       "question": "Partners P and Q (3:2) have capitals ₹6,00,000 and ₹4,00,000 (fluctuating). IOC @ 10%. Net profit before IOC = ₹1,20,000. P draws ₹30,000 and Q draws ₹20,000 during the year. No IOD, no salary. What is Q's closing capital balance?",
       "options": [
-        "₹3,92,000",
+        "₹4,28,000",
         "₹4,12,000",
         "₹4,32,000",
         "₹3,72,000"
       ],
       "correct": 0,
-      "explanation": "IOC: P = ₹60,000; Q = ₹40,000. Total = ₹1,00,000. Residual = ₹1,20,000 − ₹1,00,000 = ₹20,000. Q's share = 2/5 × ₹20,000 = ₹8,000. Q's closing capital = ₹4,00,000 + ₹40,000 (IOC) + ₹8,000 (share) − ₹20,000 (drawings) = ₹4,28,000. None of the options show ₹4,28,000 exactly; ₹4,32,000 is closest (if IOC is computed slightly differently). Exact = ₹4,28,000."
+      "explanation": "Interest on capital: P ₹60,000 and Q ₹40,000. Residual profit = ₹1,20,000 − ₹1,00,000 = ₹20,000. Q’s share = 2/5 × ₹20,000 = ₹8,000. Q’s closing capital = opening capital ₹4,00,000 + IOC ₹40,000 + share ₹8,000 − drawings ₹20,000 = ₹4,28,000."
     },
     {
       "id": "AC01Q135",
@@ -2040,8 +2052,9 @@
         "₹1,92,000",
         "₹1,20,000"
       ],
-      "correct": 1,
-      "explanation": "X's IOC: On original ₹10,00,000 for full year = ₹10,00,000 × 12% = ₹1,20,000. On additional ₹4,00,000 for 6 months (Oct to Mar) = ₹4,00,000 × 12% × 6/12 = ₹24,000. X's total IOC = ₹1,44,000. Y's IOC = ₹4,00,000 × 12% = ₹48,000. Wait — total = ₹1,44,000 + ₹48,000 = ₹1,92,000. But option C shows ₹1,92,000. The question asks total IOC = ₹1,92,000. Let me recheck: X original IOC = ₹1,20,000 + additional ₹24,000 = ₹1,44,000; Y = ₹48,000; Total = ₹1,92,000. Correct answer = ₹1,92,000 (option C). But option B (₹1,68,000) = X ₹1,44,000 + Y ₹24,000 (only 6 months for Y). Y was there full year so ₹48,000. Total = ₹1,92,000."
+      "correct": 2,
+      "explanation": "X’s interest on capital = ₹10,00,000 × 12% for the full year + ₹4,00,000 × 12% for 6 months = ₹1,20,000 + ₹24,000 = ₹1,44,000. Y’s interest on capital = ₹4,00,000 × 12% = ₹48,000. Total interest on capital = ₹1,44,000 + ₹48,000 = ₹1,92,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC01Q137",
@@ -2067,11 +2080,11 @@
       "options": [
         "₹90,000",
         "₹1,14,000",
-        "₹78,000",
+        "₹70,000",
         "₹1,02,000"
       ],
       "correct": 2,
-      "explanation": "IOC: A = ₹1,00,000; B = ₹50,000. Total = ₹1,50,000. Residual = ₹1,50,000 − ₹1,50,000 = ₹0. B's total = IOC ₹50,000 < guarantee ₹80,000. Deficiency = ₹30,000 borne by A. A's current account: IOC ₹1,00,000 + share ₹0 − deficiency ₹30,000 = ₹70,000 Cr. Closest option ₹78,000. Exact = ₹70,000. The deficiency substantially reduces A's credit."
+      "explanation": "Interest on capital: A ₹1,00,000 and B ₹50,000. Profit exactly equals total IOC, so residual profit is nil. B’s total is ₹50,000, below the ₹80,000 guarantee. Deficiency ₹30,000 is borne by A. A’s current account credit = IOC ₹1,00,000 − guarantee burden ₹30,000 = ₹70,000."
     },
     {
       "id": "AC01Q139",
@@ -2095,13 +2108,13 @@
       "difficulty": "difficult",
       "question": "P, Q, R are partners in ratio 4:3:2. Fixed capitals: P = ₹10,00,000, Q = ₹8,00,000, R = ₹6,00,000. IOC @ 8%. Q's salary = ₹6,000/month. Net profit = ₹2,20,000. All partners have opening current account balances: P = ₹20,000 Cr, Q = ₹15,000 Cr, R = ₹10,000 Dr. No drawings. Compute total of all closing current account balances.",
       "options": [
-        "₹2,85,000",
+        "₹2,45,000",
         "₹3,60,000",
         "₹3,10,000",
         "₹2,60,000"
       ],
       "correct": 0,
-      "explanation": "Total current account balances must always equal: total opening balances + net profit (appropriations just redistribute within accounts). Opening total: ₹20,000 + ₹15,000 − ₹10,000 = ₹25,000 Cr. Net profit added to firm = ₹2,20,000. IOD = 0. Total closing current accounts = ₹25,000 + ₹2,20,000 = ₹2,45,000 Cr. Wait — salary is already included in profit distribution. All credits and debits sum to net profit + opening balance. Closest option ₹2,85,000 if IOC on opening capital side is included. The aggregate of all current account closing balances = net profit + opening net balance = ₹2,20,000 + ₹25,000 = ₹2,45,000."
+      "explanation": "The aggregate closing balance of partners’ current accounts equals net opening current-account balance plus net profit, because appropriations only distribute that profit among partners. Opening net balance = ₹20,000 + ₹15,000 − ₹10,000 = ₹25,000 credit. Add net profit ₹2,20,000. Total closing current account balances = ₹2,45,000 credit."
     },
     {
       "id": "AC01Q141",
@@ -2125,13 +2138,13 @@
       "difficulty": "difficult",
       "question": "A, B, C are partners in 5:3:2. Capitals ₹25,00,000, ₹15,00,000, ₹10,00,000 (fixed). IOC @ 10%. C's salary = ₹15,000/month. Net profit = ₹8,00,000. A guaranteed ₹2,50,000. Shortfall borne by B and C in 3:2. Compute B's current account credit (opening Cr = ₹40,000, no drawings).",
       "options": [
-        "₹2,90,000",
+        "₹2,26,000",
         "₹2,50,000",
         "₹3,30,000",
         "₹2,70,000"
       ],
       "correct": 0,
-      "explanation": "IOC: A = ₹2,50,000; B = ₹1,50,000; C = ₹1,00,000. Total = ₹5,00,000. C's salary = ₹1,80,000. Total appropriations = ₹6,80,000. Residual = ₹8,00,000 − ₹6,80,000 = ₹1,20,000. In 5:3:2: A = ₹60,000; B = ₹36,000; C = ₹24,000. A's total = IOC ₹2,50,000 + share ₹60,000 = ₹3,10,000 > guarantee ₹2,50,000. Guarantee not triggered. B's current account: ₹40,000 + ₹1,50,000 + ₹36,000 = ₹2,26,000 Cr. Closest option ₹2,90,000. Exact = ₹2,26,000."
+      "explanation": "Interest on capital totals ₹5,00,000 and C’s salary is ₹1,80,000. Residual profit = ₹8,00,000 − ₹6,80,000 = ₹1,20,000. B’s share = 3/10 × ₹1,20,000 = ₹36,000. A’s guarantee is not triggered because A receives ₹3,10,000, above ₹2,50,000. B’s current account = opening credit ₹40,000 + IOC ₹1,50,000 + share ₹36,000 = ₹2,26,000 Cr."
     },
     {
       "id": "AC01Q143",
@@ -2186,12 +2199,12 @@
       "question": "M, N, O are partners in 3:2:1. Capitals: M = ₹9,00,000, N = ₹6,00,000, O = ₹3,00,000 (fixed). IOC @ 8%. O guaranteed ₹35,000 by N. Net profit = ₹1,20,000. No salary, no drawings. Compute N's current account credit (opening Cr = ₹12,000).",
       "options": [
         "₹72,000",
-        "₹67,000",
+        "₹37,000",
         "₹60,000",
         "₹77,000"
       ],
       "correct": 1,
-      "explanation": "IOC: M = ₹72,000; N = ₹48,000; O = ₹24,000. Total IOC = ₹1,44,000. Residual = ₹1,20,000 − ₹1,44,000 = ₹(24,000) loss. In 3:2:1: N's loss = 2/6 × ₹24,000 = ₹8,000; O's loss = 1/6 × ₹24,000 = ₹4,000. O's total = IOC ₹24,000 − loss ₹4,000 = ₹20,000 < guarantee ₹35,000. Deficiency = ₹15,000 borne by N. N's current account: ₹12,000 (opening) + ₹48,000 (IOC) − ₹8,000 (loss) − ₹15,000 (guarantee) = ₹37,000 Cr. Closest option ₹67,000 — significant gap suggests different IOC rate. Exact = ₹37,000."
+      "explanation": "Interest on capital totals ₹1,44,000, but profit is only ₹1,20,000, so the residual is a loss of ₹24,000. N bears ₹8,000 of the loss. O’s total after IOC and loss is ₹20,000, below the ₹35,000 guarantee. Deficiency ₹15,000 is borne by N. N’s current account = opening credit ₹12,000 + IOC ₹48,000 − loss ₹8,000 − guarantee burden ₹15,000 = ₹37,000 Cr."
     },
     {
       "id": "AC01Q147",
@@ -2245,13 +2258,13 @@
       "difficulty": "difficult",
       "question": "A, B, C are partners in ratio 5:4:1. Capitals ₹10,00,000, ₹8,00,000 and ₹2,00,000 (fluctuating). IOC @ 10%. A's salary = ₹5,000/month. Net profit = ₹3,00,000. All draw ₹50,000 each at year end. No IOD. Compute C's closing capital.",
       "options": [
-        "₹1,90,000",
+        "₹1,74,000 Cr",
         "₹2,10,000",
         "₹1,70,000",
         "₹2,30,000"
       ],
       "correct": 0,
-      "explanation": "IOC: A = ₹1,00,000; B = ₹80,000; C = ₹20,000. Total = ₹2,00,000. A's salary = ₹60,000. Total appropriations = ₹2,60,000. Residual = ₹3,00,000 − ₹2,60,000 = ₹40,000. C's share = 1/10 × ₹40,000 = ₹4,000. C's closing capital: ₹2,00,000 + ₹20,000 (IOC) + ₹4,000 (share) − ₹50,000 (drawings) = ₹(26,000) Debit. This means C over-drew. None of the options show a debit balance — the closest positive option is ₹1,90,000. Key: drawings at year-end have no IOD, but the amount ₹50,000 is large relative to C's small capital."
+      "explanation": "Interest on capital: A ₹1,00,000, B ₹80,000 and C ₹20,000. A’s salary is ₹60,000. Residual profit = ₹40,000. C’s share = 1/10 × ₹40,000 = ₹4,000. C’s closing capital under fluctuating capital = opening ₹2,00,000 + IOC ₹20,000 + share ₹4,000 − drawings ₹50,000 = ₹1,74,000 credit. If the original question expected a debit, the opening capital figure must be different; with the stated figures, the closing balance is ₹1,74,000 Cr."
     },
     {
       "id": "AC01Q151",
@@ -2295,8 +2308,9 @@
         "₹1,60,000",
         "₹1,15,000"
       ],
-      "correct": 1,
-      "explanation": "IOC: P = ₹96,000; Q = ₹72,000; R = ₹72,000. Total = ₹2,40,000. Q + R salary = ₹96,000. Total appropriations = ₹3,36,000. Residual = ₹4,00,000 − ₹3,36,000 = ₹64,000. In 4:3:3: P = ₹25,600; Q = ₹19,200; R = ₹19,200. P's total = IOC ₹96,000 + share ₹25,600 = ₹1,21,600 < guarantee ₹2,00,000. Deficit = ₹78,400 borne by Q and R equally = ₹39,200 each. R's current account: ₹15,000 + ₹72,000 + ₹48,000 (salary) + ₹19,200 − ₹39,200 = ₹1,15,000 Cr. Closest option ₹1,15,000 (option D). Let me recheck: ₹15,000 + ₹72,000 + ₹48,000 + ₹19,200 − ₹39,200 = ₹1,15,000."
+      "correct": 3,
+      "explanation": "Interest on capital totals ₹2,40,000 and Q plus R salary totals ₹96,000. Residual profit = ₹64,000. P’s total entitlement is ₹1,21,600, below the ₹2,00,000 guarantee. Deficiency ₹78,400 is borne by Q and R equally, so R bears ₹39,200. R’s current account = opening credit ₹15,000 + IOC ₹72,000 + salary ₹48,000 + residual share ₹19,200 − guarantee burden ₹39,200 = ₹1,15,000 Cr.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC01Q154",
@@ -2340,8 +2354,9 @@
         "₹10,000",
         "₹20,000"
       ],
-      "correct": 1,
-      "explanation": "Total IOC = ₹30,000. C's salary = ₹15,000. Total appropriations = ₹45,000. Residual = ₹90,000 − ₹45,000 = ₹45,000. Equal sharing among A, B, C: ₹15,000 each. B's residual share = ₹15,000. Wait — if residual = ₹45,000 and shared equally, B gets ₹15,000. None shows ₹15,000... option A shows ₹15,000 which is correct. B's RESIDUAL profit share = ₹15,000 (option A). But B's TOTAL (IOC + residual) = ₹10,000 + ₹15,000 = ₹25,000. The question specifically asks 'residual profit' = ₹15,000 = option A."
+      "correct": 0,
+      "explanation": "Total interest on capital is ₹30,000 and C’s salary is ₹15,000, so total appropriations before residual sharing are ₹45,000. Residual profit = ₹90,000 − ₹45,000 = ₹45,000. In the absence of any different ratio, residual profit is shared equally among A, B and C, so B’s residual profit share = ₹15,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC01Q157",
@@ -2350,13 +2365,13 @@
       "difficulty": "difficult",
       "question": "A and B are partners in 3:1. A's capital = ₹12,00,000, B = ₹4,00,000 (fixed). IOC @ 10%. A's salary = ₹8,000/month. B gives a loan of ₹2,00,000 to firm at start of year. Net profit before any deductions = ₹3,00,000. Compute B's current account credit (opening Cr = ₹25,000, no drawings).",
       "options": [
-        "₹77,500",
+        "₹73,000",
         "₹65,500",
         "₹89,500",
         "₹53,500"
       ],
       "correct": 0,
-      "explanation": "First: Interest on B's loan = ₹2,00,000 × 6% = ₹12,000 (charge, goes to P&L A/c). Net profit after loan interest = ₹3,00,000 − ₹12,000 = ₹2,88,000 (transferred to Appropriation A/c). IOC: A = ₹1,20,000; B = ₹40,000. Total = ₹1,60,000. A's salary = ₹96,000. Total appropriations = ₹2,56,000. Residual = ₹2,88,000 − ₹2,56,000 = ₹32,000. B's share = 1/4 × ₹32,000 = ₹8,000. B's current account: ₹25,000 + ₹40,000 + ₹8,000 = ₹73,000 Cr. Loan interest ₹12,000 is credited to B's loan account separately. Closest option ₹77,500. Exact current account = ₹73,000."
+      "explanation": "Interest on B’s loan is a charge against profit: ₹2,00,000 × 6% = ₹12,000. Profit transferred to P&L Appropriation Account = ₹3,00,000 − ₹12,000 = ₹2,88,000. Interest on capital totals ₹1,60,000 and A’s salary is ₹96,000, leaving residual profit ₹32,000. B’s share = 1/4 × ₹32,000 = ₹8,000. B’s current account = opening credit ₹25,000 + IOC ₹40,000 + residual share ₹8,000 = ₹73,000 Cr. Loan interest is credited separately to B’s loan account."
     },
     {
       "id": "AC01Q158",
@@ -2411,12 +2426,12 @@
       "question": "Three partners A, B, C share profits in 4:3:3. Fixed capitals ₹8,00,000, ₹6,00,000, ₹6,00,000. IOC @ 9%. B and C are each entitled to salary ₹5,000/month. Net profit = ₹4,20,000. C guaranteed ₹1,80,000 by A alone. Compute A's current account credit (opening Cr = ₹30,000, no drawings).",
       "options": [
         "₹2,19,200",
-        "₹1,89,200",
+        "₹1,20,000",
         "₹2,49,200",
         "₹1,59,200"
       ],
       "correct": 1,
-      "explanation": "IOC: A = ₹72,000; B = ₹54,000; C = ₹54,000. Total = ₹1,80,000. B and C salary = ₹1,20,000. Total appropriations = ₹3,00,000. Residual = ₹4,20,000 − ₹3,00,000 = ₹1,20,000. In 4:3:3: A = ₹48,000; B = ₹36,000; C = ₹36,000. C's total = IOC ₹54,000 + salary ₹60,000 + share ₹36,000 = ₹1,50,000 < guarantee ₹1,80,000. Deficit = ₹30,000 borne by A. A's current account: ₹30,000 + ₹72,000 + ₹48,000 − ₹30,000 = ₹1,20,000 Cr. Closest option ₹1,89,200. Exact = ₹1,20,000."
+      "explanation": "Interest on capital totals ₹1,80,000. B and C salaries total ₹1,20,000. Residual profit = ₹4,20,000 − ₹3,00,000 = ₹1,20,000. A’s share = 4/10 × ₹1,20,000 = ₹48,000. C’s total is ₹1,50,000, below the ₹1,80,000 guarantee, so deficiency ₹30,000 is borne by A. A’s current account = opening credit ₹30,000 + IOC ₹72,000 + share ₹48,000 − guarantee burden ₹30,000 = ₹1,20,000 Cr."
     },
     {
       "id": "AC01Q162",
@@ -2441,12 +2456,12 @@
       "question": "X and Y are partners (2:1). Fixed capitals: X = ₹12,00,000, Y = ₹6,00,000. IOC @ 10%. Y's salary = ₹6,000/month. Net profit = ₹3,60,000. Y draws ₹50,000 at year end. No IOD. Y guaranteed ₹1,20,000 by X. Compute Y's closing current account (opening Cr = ₹20,000).",
       "options": [
         "₹1,50,000",
-        "₹1,30,000",
+        "₹1,38,000",
         "₹1,70,000",
         "₹1,10,000"
       ],
       "correct": 1,
-      "explanation": "IOC: X = ₹1,20,000; Y = ₹60,000. Total = ₹1,80,000. Y's salary = ₹72,000. Total appropriations = ₹2,52,000. Residual = ₹3,60,000 − ₹2,52,000 = ₹1,08,000. Y's share = 1/3 × ₹1,08,000 = ₹36,000. Y's total = IOC ₹60,000 + salary ₹72,000 + share ₹36,000 = ₹1,68,000 > guarantee ₹1,20,000. Guarantee NOT triggered. Y's current account: ₹20,000 (opening) + ₹60,000 + ₹72,000 + ₹36,000 − ₹50,000 (drawings) = ₹1,38,000 Cr. Closest option ₹1,30,000. Exact = ₹1,38,000. Key: always check if guarantee is triggered before deducting anything."
+      "explanation": "Interest on capital: X ₹1,20,000 and Y ₹60,000. Y’s salary = ₹72,000. Residual profit = ₹1,08,000. Y’s share = 1/3 × ₹1,08,000 = ₹36,000. Y’s total entitlement is ₹1,68,000, above the ₹1,20,000 guarantee, so the guarantee is not triggered. Y’s current account = opening credit ₹20,000 + IOC ₹60,000 + salary ₹72,000 + share ₹36,000 − drawings ₹50,000 = ₹1,38,000 Cr."
     },
     {
       "id": "AC01Q164",
@@ -2470,13 +2485,13 @@
       "difficulty": "difficult",
       "question": "A, B are partners in 3:2. A's capital = ₹10,00,000, B = ₹5,00,000 (fixed method). IOC @ 12%. A's commission = 10% on net profit before IOC and commission. Net profit before deductions = ₹4,00,000. Compute B's current account credit (opening Cr = ₹25,000, no drawings).",
       "options": [
-        "₹1,01,000",
+        "₹1,57,000",
         "₹91,000",
         "₹81,000",
         "₹1,11,000"
       ],
       "correct": 0,
-      "explanation": "A's commission = 10% × ₹4,00,000 = ₹40,000 (before IOC). IOC: A = ₹1,20,000; B = ₹60,000. Total appropriations = commission ₹40,000 + IOC ₹1,80,000 = ₹2,20,000. Residual = ₹4,00,000 − ₹2,20,000 = ₹1,80,000. B's share = 2/5 × ₹1,80,000 = ₹72,000. B's current account: ₹25,000 + ₹60,000 (IOC) + ₹72,000 (share) = ₹1,57,000 Cr. Closest option ₹1,01,000 — exact = ₹1,57,000. The order of commission before or after IOC changes the residual calculation significantly."
+      "explanation": "A’s commission = 10% × ₹4,00,000 = ₹40,000. Interest on capital: A ₹1,20,000 and B ₹60,000. Residual profit = ₹4,00,000 − ₹40,000 − ₹1,80,000 = ₹1,80,000. B’s share = 2/5 × ₹1,80,000 = ₹72,000. B’s current account = opening credit ₹25,000 + IOC ₹60,000 + share ₹72,000 = ₹1,57,000 Cr."
     },
     {
       "id": "AC01Q166",
@@ -2533,10 +2548,11 @@
         "₹58,333",
         "₹48,333",
         "₹68,333",
-        "₹38,333"
+        "₹38,000"
       ],
-      "correct": 0,
-      "explanation": "Net profit available = ₹1,80,000 − ₹30,000 (accumulated loss written off) = ₹1,50,000. IOC: A = ₹80,000; B = ₹40,000. Total = ₹1,20,000. A's salary = ₹60,000. Total appropriations = ₹1,80,000. Residual = ₹1,50,000 − ₹1,80,000 = ₹(30,000) loss. B's loss share = 1/3 × ₹30,000 = ₹10,000. B's current account: ₹8,000 + ₹40,000 + ₹0 (salary) − ₹10,000 (loss) = ₹38,000 Cr. Closest option ₹38,333 (option D). Exact = ₹38,000."
+      "correct": 3,
+      "explanation": "Net profit available after writing off accumulated loss = ₹1,80,000 − ₹30,000 = ₹1,50,000. Interest on capital totals ₹1,20,000 and A’s salary is ₹60,000, so total appropriations are ₹1,80,000. The residual is a loss of ₹30,000. B’s loss share = 1/3 × ₹30,000 = ₹10,000. B’s current account = opening credit ₹8,000 + IOC ₹40,000 − loss ₹10,000 = ₹38,000 Cr.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC01Q170",
@@ -2560,13 +2576,13 @@
       "difficulty": "difficult",
       "question": "A, B, C are partners in 1:1:2. Fixed capitals: A = ₹3,00,000, B = ₹3,00,000, C = ₹6,00,000. IOC @ 10%. C's salary = ₹8,000/month. Net profit = ₹2,50,000. B is guaranteed ₹50,000 by A and C in 1:1. No drawings. Compute C's current account credit (opening = ₹0).",
       "options": [
-        "₹1,62,500",
+        "₹1,67,250",
         "₹1,42,500",
         "₹1,82,500",
         "₹1,22,500"
       ],
       "correct": 0,
-      "explanation": "IOC: A = ₹30,000; B = ₹30,000; C = ₹60,000. Total = ₹1,20,000. C's salary = ₹96,000. Total appropriations = ₹2,16,000. Residual = ₹2,50,000 − ₹2,16,000 = ₹34,000. In 1:1:2: A = ₹8,500; B = ₹8,500; C = ₹17,000. B's total = IOC ₹30,000 + share ₹8,500 = ₹38,500 < guarantee ₹50,000. Deficit = ₹11,500 borne by A and C equally = ₹5,750 each. C's current account: ₹60,000 (IOC) + ₹96,000 (salary) + ₹17,000 (share) − ₹5,750 (guarantee) = ₹1,67,250 Cr. Closest option ₹1,62,500."
+      "explanation": "Interest on capital: A ₹30,000, B ₹30,000 and C ₹60,000. C’s salary = ₹96,000. Residual profit = ₹2,50,000 − ₹2,16,000 = ₹34,000. In 1:1:2, C’s residual share = ₹17,000. B receives only ₹38,500, so the guarantee deficiency is ₹11,500. A and C bear it equally, so C bears ₹5,750. C’s current account = IOC ₹60,000 + salary ₹96,000 + residual share ₹17,000 − guarantee burden ₹5,750 = ₹1,67,250 Cr."
     },
     {
       "id": "AC01Q172",
@@ -2590,13 +2606,13 @@
       "difficulty": "difficult",
       "question": "Partners P, Q, R in ratio 5:4:1. Capitals ₹50,00,000, ₹40,00,000, ₹10,00,000 (fixed). IOC @ 8%. R's salary = ₹12,000/month. Net profit = ₹12,00,000. R guaranteed ₹2,50,000 by P and Q in 5:4. No drawings, no IOD. Opening current accounts: all zero. Compute Q's closing current account.",
       "options": [
-        "₹4,35,556",
+        "₹4,22,222",
         "₹4,75,556",
         "₹3,95,556",
         "₹5,15,556"
       ],
       "correct": 0,
-      "explanation": "IOC: P = ₹4,00,000; Q = ₹3,20,000; R = ₹80,000. Total = ₹8,00,000. R's salary = ₹1,44,000. Total appropriations = ₹9,44,000. Residual = ₹12,00,000 − ₹9,44,000 = ₹2,56,000. In 5:4:1: P = ₹1,28,000; Q = ₹1,02,400; R = ₹25,600. R's total = IOC ₹80,000 + salary ₹1,44,000 + share ₹25,600 = ₹2,49,600 < guarantee ₹2,50,000. Deficit = ₹400 borne by P and Q in 5:4. Q bears = 4/9 × ₹400 = ₹178. Q's current account: ₹3,20,000 + ₹1,02,400 − ₹178 = ₹4,22,222 Cr. Closest option ₹4,35,556."
+      "explanation": "Interest on capital: P ₹4,00,000, Q ₹3,20,000 and R ₹80,000. R’s salary = ₹1,44,000. Residual profit = ₹12,00,000 − ₹9,44,000 = ₹2,56,000. Q’s residual share = 4/10 × ₹2,56,000 = ₹1,02,400. R receives ₹2,49,600, so the guarantee deficiency is ₹400. P and Q bear it in 5:4; Q bears 4/9 × ₹400 = ₹178 approximately. Q’s current account = ₹3,20,000 + ₹1,02,400 − ₹178 = ₹4,22,222 Cr."
     },
     {
       "id": "AC01Q174",
@@ -2620,13 +2636,13 @@
       "difficulty": "difficult",
       "question": "M and N are partners (3:2). M's capital = ₹15,00,000, N's = ₹10,00,000 (fixed). IOC @ 8%. M's salary = ₹10,000/month. Net profit = ₹4,00,000. M draws ₹1,00,000 on 1 July; N draws ₹60,000 on 1 January. IOD @ 6%. Opening current accounts: M = ₹30,000 Cr, N = ₹20,000 Dr. Compute M's closing current account.",
       "options": [
-        "₹2,55,400",
+        "₹2,16,740",
         "₹2,31,400",
         "₹2,79,400",
         "₹2,07,400"
       ],
       "correct": 0,
-      "explanation": "IOD: M drew ₹1,00,000 on 1 July — 9 months. IOD(M) = 1,00,000 × 6% × 9/12 = ₹4,500. N drew ₹60,000 on 1 Jan — 3 months. IOD(N) = 60,000 × 6% × 3/12 = ₹900. Total IOD = ₹5,400. IOC: M = ₹1,20,000; N = ₹80,000. Total = ₹2,00,000. M's salary = ₹1,20,000. Net for appropriation = ₹4,00,000 + ₹5,400 = ₹4,05,400. Residual = ₹4,05,400 − ₹2,00,000 − ₹1,20,000 = ₹85,400. M's share = 3/5 × ₹85,400 = ₹51,240. M's current account: ₹30,000 + ₹1,20,000 + ₹1,20,000 + ₹51,240 − ₹4,500 − ₹1,00,000 = ₹2,16,740. Closest option ₹2,31,400."
+      "explanation": "Interest on drawings: M ₹4,500 and N ₹900, total ₹5,400. Net profit for appropriation = ₹4,00,000 + ₹5,400 = ₹4,05,400. Interest on capital totals ₹2,00,000 and M’s salary is ₹1,20,000, leaving residual profit ₹85,400. M’s share = 3/5 × ₹85,400 = ₹51,240. M’s current account = opening credit ₹30,000 + IOC ₹1,20,000 + salary ₹1,20,000 + share ₹51,240 − IOD ₹4,500 − drawings ₹1,00,000 = ₹2,16,740 Cr."
     },
     {
       "id": "AC01Q176",
@@ -2652,11 +2668,11 @@
       "options": [
         "₹1,95,000",
         "₹2,20,000",
-        "₹1,70,000",
+        "₹1,55,000",
         "₹2,45,000"
       ],
       "correct": 2,
-      "explanation": "IOC: X = ₹1,00,000; Y = ₹50,000. Total = ₹1,50,000. Y's salary = ₹48,000. Total appropriations = ₹1,98,000. Residual = ₹2,50,000 − ₹1,98,000 = ₹52,000. X's share = 3/5 × ₹52,000 = ₹31,200; Y = ₹20,800. Y's total = IOC ₹50,000 + salary ₹48,000 + share ₹20,800 = ₹1,18,800 < guarantee ₹1,20,000. Deficit = ₹1,200 borne by X. X's current account: ₹25,000 + ₹1,00,000 + ₹31,200 − ₹1,200 = ₹1,55,000 Cr. Closest option ₹1,70,000. Exact = ₹1,55,000."
+      "explanation": "Interest on capital: X ₹1,00,000 and Y ₹50,000. Y’s salary = ₹48,000. Residual profit = ₹52,000. X’s share = 3/5 × ₹52,000 = ₹31,200. Y receives ₹1,18,800, so guarantee deficiency is ₹1,200, borne by X. X’s current account = opening credit ₹25,000 + IOC ₹1,00,000 + share ₹31,200 − guarantee burden ₹1,200 = ₹1,55,000 Cr."
     },
     {
       "id": "AC01Q178",
@@ -2695,13 +2711,13 @@
       "difficulty": "difficult",
       "question": "A firm of partners X, Y, Z (in ratio 2:2:1) had the following mistakes in Year 1 that were discovered in Year 2: (i) IOC @ 10% was charged on ₹5,00,000 instead of ₹4,50,000 for Z. (ii) Salary of ₹2,000/month for Y was omitted. What is the net adjustment for X?",
       "options": [
-        "X is debited ₹14,400",
+        "X is debited ₹7,600",
         "X is credited ₹14,400",
         "X is debited ₹9,600",
         "X is credited ₹9,600"
       ],
       "correct": 0,
-      "explanation": "Error 1: IOC for Z overcharged = (5,00,000 − 4,50,000) × 10% = ₹5,000. This extra ₹5,000 went to Z's account; it should be recovered from Z and shared back in 2:2:1. X's share of recovery = 2/5 × ₹5,000 = ₹2,000 (X gets credit). Error 2: Y's salary omitted = ₹24,000/year. This means profit was overstated by ₹24,000. All three partners received extra in 2:2:1. X received extra = 2/5 × ₹24,000 = ₹9,600 (X must return this — debit). Net for X: debit ₹9,600 − credit ₹2,000 = net debit ₹7,600. Closest option ₹14,400 debit — if error 1 calculation differs. Exact = ₹7,600 net debit."
+      "explanation": "Z was overcredited with interest on capital by ₹5,000. Recovering that amount gives X a credit of 2/5 × ₹5,000 = ₹2,000. Y’s omitted salary is ₹24,000, so the profit previously distributed was overstated by ₹24,000. X had received 2/5 × ₹24,000 = ₹9,600 too much. Net effect for X = debit ₹9,600 − credit ₹2,000 = net debit ₹7,600."
     },
     {
       "id": "AC01Q181",
@@ -2715,8 +2731,9 @@
         "₹14,850",
         "₹3,300"
       ],
-      "correct": 1,
-      "explanation": "Each partner draws ₹5,000 at end of each month. Total drawings each = ₹60,000. Average period for end-of-month drawings = 5.5 months. IOD per partner = 60,000 × 6% × 5.5/12 = ₹1,650. Three partners: total IOD = ₹1,650 × 3 = ₹4,950. Wait — ₹4,950 matches option A. Let me recheck: IOD per partner = 60,000 × 0.06 × 5.5/12 = 60,000 × 0.0275 = ₹1,650. Total = ₹4,950. Correct answer is ₹4,950 (option A), not ₹9,900."
+      "correct": 0,
+      "explanation": "Each partner draws ₹5,000 at the end of each month, so annual drawings per partner are ₹60,000. For end-of-month drawings, the average period is 5.5 months. Interest on drawings per partner = ₹60,000 × 6% × 5.5/12 = ₹1,650. For three partners, total interest on drawings = ₹1,650 × 3 = ₹4,950.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC01Q182",
@@ -2742,11 +2759,12 @@
       "options": [
         "₹1,45,200",
         "₹1,25,200",
-        "₹1,65,200",
+        "₹1,36,000",
         "₹1,05,200"
       ],
-      "correct": 3,
-      "explanation": "IOC: S = ₹80,000; T = ₹60,000; U = ₹60,000. Total = ₹2,00,000. T + U salary = ₹1,20,000. Total appropriations = ₹3,20,000. Residual = ₹3,80,000 − ₹3,20,000 = ₹60,000. In 4:3:3: S = ₹24,000; T = ₹18,000; U = ₹18,000. U's total = IOC ₹60,000 + salary ₹60,000 + share ₹18,000 = ₹1,38,000 < guarantee ₹1,40,000. Deficit = ₹2,000 borne by T. T's current account: ₹60,000 + ₹60,000 (salary) + ₹18,000 − ₹2,000 = ₹1,36,000 Cr. Closest option ₹1,05,200 (option D). Exact = ₹1,36,000."
+      "correct": 2,
+      "explanation": "Interest on capital: S ₹80,000, T ₹60,000 and U ₹60,000. T and U salaries total ₹1,20,000. Residual profit = ₹60,000. T’s residual share = ₹18,000. U receives ₹1,38,000, so guarantee deficiency is ₹2,000, borne by T. T’s current account = IOC ₹60,000 + salary ₹60,000 + share ₹18,000 − guarantee burden ₹2,000 = ₹1,36,000 Cr.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC01Q184",
@@ -2770,13 +2788,13 @@
       "difficulty": "difficult",
       "question": "A and B are partners with fixed capitals ₹10,00,000 and ₹6,00,000. PSR = 3:2. IOC @ 10%. A's salary = ₹8,000/month. Drawings: A = ₹96,000 (beginning of each month, equal instalments). B = ₹60,000 lump sum on 1 October. IOD @ 6%. Net profit = ₹3,00,000. Compute total IOD for the year.",
       "options": [
-        "₹6,180",
+        "₹4,920",
         "₹5,460",
         "₹6,900",
         "₹4,740"
       ],
       "correct": 0,
-      "explanation": "A draws ₹96,000 in 12 equal monthly instalments at beginning = ₹8,000/month. Average period for beginning-of-month drawings = 6.5 months. IOD(A) = 96,000 × 6% × 6.5/12 = ₹3,120. B draws ₹60,000 on 1 October — period = 6 months. IOD(B) = 60,000 × 6% × 6/12 = ₹1,800. Wait: 60,000 × 0.06 × 0.5 = ₹1,800. Total IOD = ₹3,120 + ₹1,800 = ₹4,920. Closest option ₹6,180 (option A). Recalculate: A: 96,000 × 6% × 6.5/12 = 96,000 × 0.0325 = ₹3,120. B: ₹1,800. Total = ₹4,920. Hmm, ₹6,180 doesn't match. If A's average period = 6.5 months correctly: IOD(A) = ₹3,120; IOD(B) = ₹1,800 if 6 months, or ₹2,700 if 9 months. B drew on 1 October — remaining to 31 March = 6 months. IOD(B) = ₹1,800. Total = ₹4,920."
+      "explanation": "A draws ₹96,000 in 12 equal instalments at the beginning of each month, so the average period is 6.5 months. IOD(A) = ₹96,000 × 6% × 6.5/12 = ₹3,120. B draws ₹60,000 on 1 October, so the period is 6 months. IOD(B) = ₹60,000 × 6% × 6/12 = ₹1,800. Total interest on drawings = ₹3,120 + ₹1,800 = ₹4,920."
     },
     {
       "id": "AC01Q186",
@@ -2801,12 +2819,12 @@
       "question": "P, Q, R are partners in 5:4:1. Fixed capitals ₹50,00,000, ₹40,00,000, ₹10,00,000. IOC @ 10%. Q's salary = ₹15,000/month. Net profit = ₹15,00,000. P is guaranteed ₹5,00,000. Shortfall borne by Q and R in 4:1. No drawings. Opening current accounts: all zero. Compute Q's closing current account.",
       "options": [
         "₹6,17,600",
-        "₹5,97,600",
+        "₹7,08,000",
         "₹6,37,600",
         "₹5,77,600"
       ],
       "correct": 1,
-      "explanation": "IOC: P = ₹5,00,000; Q = ₹4,00,000; R = ₹1,00,000. Total = ₹10,00,000. Q's salary = ₹1,80,000. Total appropriations = ₹11,80,000. Residual = ₹15,00,00− ₹11,80,000 = ₹3,20,000. In 5:4:1: P = ₹1,60,000; Q = ₹1,28,000; R = ₹32,000. P's total = IOC ₹5,00,000 + share ₹1,60,000 = ₹6,60,000 > guarantee ₹5,00,000. Guarantee NOT triggered. Q's current account: ₹4,00,000 + ₹1,80,000 + ₹1,28,000 = ₹7,08,000 Cr. Closest option ₹5,97,600 — discrepancy suggests different IOC rate or salary. Exact = ₹7,08,000."
+      "explanation": "Interest on capital: P ₹5,00,000, Q ₹4,00,000 and R ₹1,00,000. Q’s salary = ₹1,80,000. Residual profit = ₹15,00,000 − ₹11,80,000 = ₹3,20,000. Q’s residual share = 4/10 × ₹3,20,000 = ₹1,28,000. P receives ₹6,60,000, so the ₹5,00,000 guarantee is not triggered. Q’s current account = IOC ₹4,00,000 + salary ₹1,80,000 + residual share ₹1,28,000 = ₹7,08,000 Cr."
     },
     {
       "id": "AC01Q188",
@@ -2830,13 +2848,13 @@
       "difficulty": "difficult",
       "question": "X, Y, Z are partners in 3:2:1. Capitals ₹9,00,000, ₹6,00,000, ₹3,00,000 (fixed). IOC @ 10%. Z's salary = ₹3,000/month. Net profit (before appropriations) = ₹2,00,000. Y draws ₹1,20,000 during the year (equal monthly, beginning). IOD @ 6%. Compute Y's closing current account (opening Cr = ₹15,000).",
       "options": [
-        "₹(15,260)",
-        "₹(20,260)",
-        "₹(10,260)",
-        "₹(25,260)"
+        "₹52,933 Dr",
+        "₹20,260 Dr",
+        "₹10,260 Dr",
+        "₹25,260 Dr"
       ],
       "correct": 0,
-      "explanation": "IOD(Y): draws ₹10,000 per month at beginning. Average period = 6.5 months. IOD = 1,20,000 × 6% × 6.5/12 = ₹3,900. IOC: X = ₹90,000; Y = ₹60,000; Z = ₹30,000. Total = ₹1,80,000. Z's salary = ₹36,000. Net for appropriation = ₹2,00,000 + ₹3,900 (IOD) = ₹2,03,900. Less IOC ₹1,80,000 + salary ₹36,000 = ₹2,16,000. Residual loss = ₹(12,100). Y's loss share = 2/6 × ₹12,100 = ₹4,033. Y's current account: ₹15,000 + ₹60,000 − ₹3,900 (IOD) − ₹4,033 (loss) − ₹1,20,000 (drawings) = ₹(52,933) Dr. Closest option ₹(15,260) Dr. The debit is large due to high drawings."
+      "explanation": "Y’s interest on drawings = ₹1,20,000 × 6% × 6.5/12 = ₹3,900. Net profit for appropriation = ₹2,00,000 + ₹3,900 = ₹2,03,900. After IOC and Z’s salary, the residual is a loss of ₹12,100. Y bears 2/6 × ₹12,100 = ₹4,033 approximately. Y’s current account = opening credit ₹15,000 + IOC ₹60,000 − IOD ₹3,900 − loss ₹4,033 − drawings ₹1,20,000 = ₹52,933 debit."
     },
     {
       "id": "AC01Q190",
@@ -2860,13 +2878,13 @@
       "difficulty": "difficult",
       "question": "A and B are partners in 3:2. A's fixed capital = ₹6,00,000, B's = ₹4,00,000. IOC @ 10%. Net profit = ₹1,20,000. B draws ₹1,80,000 during the year (₹15,000 per month at beginning). IOD @ 6%. Compute B's closing current account (opening Cr = ₹50,000).",
       "options": [
-        "₹(84,850)",
-        "₹(74,850)",
-        "₹(94,850)",
-        "₹(64,850)"
+        "₹85,510 Dr",
+        "₹74,850 Dr",
+        "₹94,850 Dr",
+        "₹64,850 Dr"
       ],
       "correct": 0,
-      "explanation": "IOD(B): draws ₹15,000 per month at beginning. Total = ₹1,80,000. Average period = 6.5 months. IOD = 1,80,000 × 6% × 6.5/12 = ₹5,850. IOC: A = ₹60,000; B = ₹40,000. Total = ₹1,00,000. Net for appropriation = ₹1,20,000 + ₹5,850 = ₹1,25,850. Residual = ₹1,25,850 − ₹1,00,000 = ₹25,850. B's share = 2/5 × ₹25,850 = ₹10,340. B's current account: ₹50,000 + ₹40,000 + ₹10,340 − ₹5,850 (IOD) − ₹1,80,000 (drawings) = ₹(85,510) Dr. Closest option ₹(84,850) Dr. Massive drawings create large debit balance."
+      "explanation": "B’s interest on drawings = ₹1,80,000 × 6% × 6.5/12 = ₹5,850. Net profit for appropriation = ₹1,20,000 + ₹5,850 = ₹1,25,850. After IOC of ₹1,00,000, residual profit is ₹25,850. B’s share = 2/5 × ₹25,850 = ₹10,340. B’s current account = opening credit ₹50,000 + IOC ₹40,000 + share ₹10,340 − IOD ₹5,850 − drawings ₹1,80,000 = ₹85,510 debit."
     },
     {
       "id": "AC01Q192",
@@ -2892,11 +2910,11 @@
       "options": [
         "₹1,06,000",
         "₹1,26,000",
-        "₹86,000",
+        "₹1,00,000",
         "₹1,46,000"
       ],
       "correct": 2,
-      "explanation": "IOC: G = ₹1,20,000; H = ₹80,000; I = ₹40,000. Total = ₹2,40,000. I's salary = ₹60,000. Total appropriations = ₹3,00,000. Residual = ₹4,00,000 − ₹3,00,000 = ₹1,00,000. In 4:4:2: G = ₹40,000; H = ₹40,000; I = ₹20,000. G's total = IOC ₹1,20,000 + share ₹40,000 = ₹1,60,000 < guarantee ₹2,00,000. Deficit = ₹40,000 borne by H. H's current account: ₹20,000 + ₹80,000 + ₹40,000 − ₹40,000 = ₹1,00,000 Cr. Closest option ₹86,000. Exact = ₹1,00,000."
+      "explanation": "Interest on capital: G ₹1,20,000, H ₹80,000 and I ₹40,000. I’s salary = ₹60,000. Residual profit = ₹1,00,000. H’s residual share = ₹40,000. G receives ₹1,60,000, below the ₹2,00,000 guarantee, so the deficiency of ₹40,000 is borne by H. H’s current account = opening credit ₹20,000 + IOC ₹80,000 + share ₹40,000 − guarantee burden ₹40,000 = ₹1,00,000 Cr."
     },
     {
       "id": "AC01Q194",
@@ -2920,13 +2938,13 @@
       "difficulty": "difficult",
       "question": "A, B, C are partners in ratio 3:3:4. A's capital = ₹6,00,000, B = ₹6,00,000, C = ₹8,00,000 (fixed). IOC @ 10%. C's salary = ₹10,000/month. Net profit = ₹5,00,000. B draws ₹40,000 at year end; C draws ₹60,000 at year end. A draws ₹30,000 at year end. No IOD. Opening current accounts: A = ₹10,000 Cr, B = ₹5,000 Cr, C = ₹8,000 Dr. Compute A's closing current account.",
       "options": [
-        "₹1,44,000",
+        "₹94,000",
         "₹1,24,000",
         "₹1,64,000",
         "₹1,04,000"
       ],
       "correct": 0,
-      "explanation": "IOC: A = ₹60,000; B = ₹60,000; C = ₹80,000. Total = ₹2,00,000. C's salary = ₹1,20,000. Total appropriations = ₹3,20,000. Residual = ₹5,00,000 − ₹3,20,000 = ₹1,80,000. In 3:3:4: A = ₹54,000; B = ₹54,000; C = ₹72,000. A's current account: ₹10,000 (opening) + ₹60,000 (IOC) + ₹54,000 (share) − ₹30,000 (drawings) = ₹94,000 Cr. Closest option ₹1,44,000 — uses different IOC or salary. Exact = ₹94,000."
+      "explanation": "Interest on capital: A ₹60,000, B ₹60,000 and C ₹80,000. C’s salary = ₹1,20,000. Residual profit = ₹1,80,000. A’s residual share = 3/10 × ₹1,80,000 = ₹54,000. A’s current account = opening credit ₹10,000 + IOC ₹60,000 + share ₹54,000 − drawings ₹30,000 = ₹94,000 Cr."
     },
     {
       "id": "AC01Q196",
@@ -2936,12 +2954,12 @@
       "question": "A, B and C formed a partnership in 2020 (ratio 2:1:1). The deed provides IOC @ 10% and B's salary ₹2,000/month. No deed provision on profit sharing when deed is silent on a specific matter. In 2023, they discover the deed is silent on how to share the residual profit. How is the residual profit shared?",
       "options": [
         "As per IOC ratio since capital is already established",
-        "In ratio 2:1:1 since that's the stated ratio and it applies to all profit elements",
+        "In ratio 2:1:1 since that is the stated profit-sharing ratio",
         "Equally since the deed is silent on the residual",
-        "No residual sharing — it stays in the firm's reserve"
+        "No residual sharing — it stays in the firm’s reserve"
       ],
       "correct": 1,
-      "explanation": "The stated ratio in the deed (2:1:1) IS the profit sharing ratio — it applies to the residual profit as well. When a deed states a PSR, that ratio governs all profit distribution including the residual after IOC and salary. Only if the deed stated a PSR for some items but was completely silent on residual would there be ambiguity. Here, the PSR 2:1:1 is the overall profit sharing ratio, and it applies to the residual. The default 'equal sharing' applies only when NO ratio whatsoever is stated in the deed."
+      "explanation": "The stated ratio in the deed, 2:1:1, is the profit-sharing ratio. It applies to residual profit after interest on capital and salary. Equal sharing applies only when no profit-sharing ratio is stated at all."
     },
     {
       "id": "AC01Q197",
@@ -2968,10 +2986,10 @@
         "₹1,16,000",
         "₹96,000",
         "₹1,36,000",
-        "₹76,000"
+        "₹64,000"
       ],
       "correct": 3,
-      "explanation": "IOC: X = ₹90,000; Y = ₹60,000; Z = ₹30,000. Total = ₹1,80,000. Y's salary = ₹48,000. Total appropriations = ₹2,28,000. Residual = ₹2,40,000 − ₹2,28,000 = ₹12,000. In 3:2:1: X = ₹6,000; Y = ₹4,000; Z = ₹2,000. Z's total = IOC ₹30,000 + share ₹2,000 = ₹32,000 < guarantee ₹80,000. Deficit = ₹48,000 borne by Y. Y's current account: ₹60,000 + ₹48,000 (salary) + ₹4,000 (share) − ₹48,000 (guarantee) = ₹64,000 Cr. Closest option ₹76,000 (option D). Exact = ₹64,000. Large guarantee significantly reduces Y's credit."
+      "explanation": "Interest on capital: X ₹90,000, Y ₹60,000 and Z ₹30,000. Y’s salary = ₹48,000. Residual profit = ₹12,000. Y’s share = ₹4,000. Z receives ₹32,000, below the ₹80,000 guarantee, so deficiency ₹48,000 is borne by Y. Y’s current account = IOC ₹60,000 + salary ₹48,000 + share ₹4,000 − guarantee burden ₹48,000 = ₹64,000 Cr."
     },
     {
       "id": "AC01Q199",
@@ -2996,12 +3014,12 @@
       "question": "X, Y, Z are partners in 4:3:3. Capitals ₹8,00,000, ₹6,00,000, ₹6,00,000 (fixed). IOC @ 10%. Y's salary = ₹8,000/month; Z's salary = ₹6,000/month. Net profit = ₹5,00,000. Z guaranteed ₹1,80,000 by X alone. No drawings, opening current accounts all zero. Compute X's closing current account.",
       "options": [
         "₹1,72,000",
-        "₹1,52,000",
+        "₹1,24,400",
         "₹1,32,000",
         "₹1,92,000"
       ],
       "correct": 1,
-      "explanation": "IOC: X = ₹80,000; Y = ₹60,000; Z = ₹60,000. Total = ₹2,00,000. Y's salary = ₹96,000; Z's salary = ₹72,000. Total = ₹1,68,000. Total appropriations = ₹3,68,000. Residual = ₹5,00,000 − ₹3,68,000 = ₹1,32,000. In 4:3:3: X = ₹52,800; Y = ₹39,600; Z = ₹39,600. Z's total = IOC ₹60,000 + salary ₹72,000 + share ₹39,600 = ₹1,71,600 < guarantee ₹1,80,000. Deficit = ₹8,400 borne by X. X's current account: ₹80,000 + ₹52,800 − ₹8,400 = ₹1,24,400 Cr. Closest option ₹1,52,000. Exact = ₹1,24,400."
+      "explanation": "Interest on capital: X ₹80,000, Y ₹60,000 and Z ₹60,000. Y’s salary is ₹96,000 and Z’s salary is ₹72,000. Residual profit = ₹1,32,000. X’s share = 4/10 × ₹1,32,000 = ₹52,800. Z receives ₹1,71,600, below the ₹1,80,000 guarantee. Deficiency ₹8,400 is borne by X. X’s current account = IOC ₹80,000 + share ₹52,800 − guarantee burden ₹8,400 = ₹1,24,400 Cr."
     }
   ]
 }

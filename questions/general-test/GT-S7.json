@@ -407,8 +407,9 @@
         "2022",
         "2021"
       ],
-      "correct": 4,
-      "explanation": "Scanning all values: 6.8, 6.5, −6.6, 8.7, 7.2, 6.1. The maximum is 8.7% in 2021. This spike was largely due to the base effect from 2020's sharp contraction of −6.6%. On a line graph, this would be the highest point on the curve. The year 2022 (7.2%) is the second highest but still less than 2021's 8.7%."
+      "correct": 3,
+      "explanation": "Scanning all values: 6.8, 6.5, −6.6, 8.7, 7.2, 6.1. The maximum is 8.7% in 2021. This spike was largely due to the base effect from 2020's sharp contraction of −6.6%. On a line graph, this would be the highest point on the curve. The year 2022 (7.2%) is the second highest but still less than 2021's 8.7%.",
+      "correct_original": 4
     },
     {
       "id": "GT-S7Q28",
@@ -467,8 +468,9 @@
         "Ravi",
         "Meena"
       ],
-      "correct": 4,
-      "explanation": "English scores: Arun=90, Priya=85, Ravi=68, Meena=95, Suresh=72. Meena scored 95 in English, which is the highest among all students. Arun's score of 90 is second-highest, making it a common distractor. Ravi's 68 is the lowest. Reading the correct column (English) and identifying the maximum value is the only skill required here."
+      "correct": 3,
+      "explanation": "English scores: Arun=90, Priya=85, Ravi=68, Meena=95, Suresh=72. Meena scored 95 in English, which is the highest among all students. Arun's score of 90 is second-highest, making it a common distractor. Ravi's 68 is the lowest. Reading the correct column (English) and identifying the maximum value is the only skill required here.",
+      "correct_original": 4
     },
     {
       "id": "GT-S7Q32",
@@ -903,7 +905,7 @@
         "25.0%"
       ],
       "correct": 2,
-      "explanation": "2021 total: 100+90+60+40 = 290 thousand tonnes. 2023 total: 130+110+85+55 = 380 thousand tonnes. Percentage increase = (380−290)/290 × 100 = 90/290 × 100 = 31.03% ≈ 31.0%. Wait—recalculating: 90/290 = 0.3103 = 31.03%. But 90/290 = 0.31034... so 31.03% ≈ 31.0% (option C). However, checking option B: 29.41% = 90/306... Looking again: 290 → 380. 380/290 = 1.3103, growth = 31.03%. Correct answer is option C: 31.0%."
+      "explanation": "2021 total production = 100 + 90 + 60 + 40 = 290 thousand tonnes. 2023 total production = 130 + 110 + 85 + 55 = 380 thousand tonnes. Percentage increase = (380 - 290) / 290 x 100 = 90 / 290 x 100 = 31.03%, approximately 31.0%. Option C is correct."
     },
     {
       "id": "GT-S7Q61",
@@ -1048,12 +1050,12 @@
       "question": "From the company financial table (2021: Revenue=500, Profit=50; 2022: Rev=600, Profit=72; 2023: Rev=750, Profit=90 in crore Rs.), in 2023, operating costs are defined as Revenue − Profit. What is the percentage increase in operating costs from 2021 to 2023?",
       "options": [
         "40%",
-        "45%",
+        "46.67%",
         "50%",
         "55%"
       ],
-      "correct": 3,
-      "explanation": "Operating costs 2021: 500−50 = 450 crore. Operating costs 2023: 750−90 = 660 crore. Percentage increase = (660−450)/450 × 100 = 210/450 × 100 = 46.67% ≈ approximately 46.67%. The closest option is 45% (B). Wait: 210/450 = 0.4667 = 46.67%, which is closest to option C (50%) or B (45%). Checking: 450×1.5 = 675 (50% more) vs actual 660. 450×1.45 = 652.5. Neither matches exactly. Closest = 46.67% ≈ option B (45%) seems wrong. 210/450 = 7/15 = 46.67%, nearest option is C 50%. Correcting: answer is option C conceptually with explanation showing 46.67% is approximately 47%. Given options, closest is option B (45%) or C (50%). With 46.67%, option C (50%) rounds up; option B (45%) rounds down. Pick B as it's closer (1.67 pp vs 3.33 pp difference)."
+      "correct": 1,
+      "explanation": "Operating cost = Revenue - Profit. For 2021, operating cost = Rs.500 crore - Rs.50 crore = Rs.450 crore. For 2023, operating cost = Rs.750 crore - Rs.90 crore = Rs.660 crore. Percentage increase = (660 - 450) / 450 x 100 = 210 / 450 x 100 = 46.67%. Option B is correct."
     },
     {
       "id": "GT-S7Q71",
@@ -1187,8 +1189,8 @@
         "300:290",
         "1:1"
       ],
-      "correct": 3,
-      "explanation": "Dept A 3-year total: 80+100+120 = 300 crore. Dept B 3-year total: 70+100+120 = 290 crore. Ratio = 300:290 = 30:29. GCD(300,290)=10. Simplified: 30:29. None of the simple options (3:2, 1:1) match. Option C (300:290) shows the unsimplified form, which is equivalent to 30:29. This captures the near-parity between the two departments with A's 2021 lead giving it a slight edge overall."
+      "correct": 2,
+      "explanation": "Dept A three-year total = 80 + 100 + 120 = Rs.300 crore. Dept B three-year total = 70 + 100 + 120 = Rs.290 crore. Therefore the ratio of Dept A to Dept B is 300:290, which simplifies to 30:29. Option C is correct."
     },
     {
       "id": "GT-S7Q80",
@@ -1307,8 +1309,8 @@
         "128.75",
         "130.0"
       ],
-      "correct": 3,
-      "explanation": "Total accidents: 120+95+110+130+145+160+175+155+140+125+100+80 = 1535. Average = 1535 ÷ 12 = 127.92 ≈ 127.9. Verifying sum: 120+95=215; +110=325; +130=455; +145=600; +160=760; +175=935; +155=1090; +140=1230; +125=1355; +100=1455; +80=1535. 1535/12 = 127.92. Closest option is 127.5 (option B) but 1535/12 = 127.917, so option C (128.75) is further. B (127.5) is closest. Correct answer is B."
+      "correct": 1,
+      "explanation": "Total accidents in 2023 = 1535. Average monthly accidents = 1535 / 12 = 127.92, approximately 127.9. Among the given choices, 127.5 is the nearest value. Option B is correct."
     },
     {
       "id": "GT-S7Q88",
@@ -1518,7 +1520,7 @@
         "90.2%"
       ],
       "correct": 2,
-      "explanation": "2023 pass rates: Boys=88%, Girls=93%. Weighted average = (600×88 + 400×93) / (600+400) = (52800 + 37200) / 1000 = 90000/1000 = 90%. Wait: 600×88=52800; 400×93=37200; sum=90000; total students=1000; average=90000/1000=90%. Option C (90%) is correct. The simple average (88+93)/2=90.5% is incorrect because the groups are of unequal size. The weighted average accounts for boys outnumbering girls."
+      "explanation": "For 2023, boys pass rate = 88% and girls pass rate = 93%. Since there are 600 boys and 400 girls, use a weighted average: (600 x 88 + 400 x 93) / 1000 = (52,800 + 37,200) / 1000 = 90%. Option C is correct."
     },
     {
       "id": "GT-S7Q102",
@@ -1663,12 +1665,12 @@
       "question": "A table shows mobile phone sales (in lakhs) by brand: Brand/Quarter | Q1 | Q2 | Q3 | Q4 — Samsung: 45,50,48,55 — Apple: 20,25,22,30 — Xiaomi: 60,65,70,75 — Vivo: 30,28,32,35 — Others: 25,22,28,30. What is Xiaomi's market share by units in Q4, given total Q4 sales?",
       "options": [
         "32.5%",
-        "33.55%",
+        "33.33%",
         "34.0%",
         "35.0%"
       ],
-      "correct": 2,
-      "explanation": "Q4 totals: Samsung=55, Apple=30, Xiaomi=75, Vivo=35, Others=30. Total Q4 = 55+30+75+35+30 = 225 lakh units. Xiaomi's Q4 share = 75/225 × 100 = 33.33%. The closest option is B (33.55%) but 75/225 = 1/3 = 33.33%. The correct answer should be 33.33%, which is represented by option B as the nearest value—however, note that 75/225 is exactly 33.33%. This exact value falls closest to option B (33.55% rounds to 33.55 but exact is 33.33%). Selecting option A (32.5%) or C (34%) are further off. Option B at 33.55% is still closest."
+      "correct": 1,
+      "explanation": "Q4 total sales = Samsung 55 + Apple 30 + Xiaomi 75 + Vivo 35 + Others 30 = 225 lakh units. Xiaomi's Q4 share = 75 / 225 x 100 = 33.33%. Option B is correct."
     },
     {
       "id": "GT-S7Q112",
@@ -1738,12 +1740,12 @@
       "question": "From the mobile sales table, if Apple increases its Q4 sales by 20% while all other brands remain unchanged, what would be Apple's revised market share in Q4?",
       "options": [
         "15.25%",
-        "15.56%",
+        "15.58%",
         "16.0%",
         "16.5%"
       ],
-      "correct": 2,
-      "explanation": "Current Q4 Apple = 30 lakh. Revised Apple = 30 × 1.20 = 36 lakh. Increase = 6 lakh. New Q4 total = 225 + 6 = 231 lakh. New Apple share = 36/231 × 100 = 15.58% ≈ 15.56%. The total market also increases since Apple's additional sales are additive. 36/231 = 0.1558 = 15.58%. The closest option is B (15.56%). This tests that students update both the numerator (Apple's sales) and denominator (total sales) when one brand's sales change."
+      "correct": 1,
+      "explanation": "Current Q4 Apple sales = 30 lakh. After a 20% increase, Apple sales = 30 x 1.20 = 36 lakh. Total Q4 sales also increase by 6 lakh, from 225 lakh to 231 lakh. Revised Apple share = 36 / 231 x 100 = 15.58%. Option B is correct."
     },
     {
       "id": "GT-S7Q117",
@@ -1862,8 +1864,9 @@
         "44.0",
         "44.33"
       ],
-      "correct": 4,
-      "explanation": "Bharat's average = (45+40+48)/3 = 133/3 = 44.33. The sum 45+40=85; 85+48=133. Dividing 133 by 3 = 44.33 (repeating). Option C (44.0) would require a sum of 132. The fractional average 44.33 is a non-integer result since the sum (133) is not divisible by 3. This tests precise division with a remainder."
+      "correct": 3,
+      "explanation": "Bharat's average = (45+40+48)/3 = 133/3 = 44.33. The sum 45+40=85; 85+48=133. Dividing 133 by 3 = 44.33 (repeating). Option C (44.0) would require a sum of 132. The fractional average 44.33 is a non-integer result since the sum (133) is not divisible by 3. This tests precise division with a remainder.",
+      "correct_original": 4
     },
     {
       "id": "GT-S7Q125",
@@ -1952,8 +1955,9 @@
         "2022",
         "2023"
       ],
-      "correct": 4,
-      "explanation": "Q's time changes: 2020: 10.7 < 11.0 (improved); 2021: 10.4 < 10.7 (improved); 2022: 10.2 < 10.4 (improved); 2023: 10.3 > 10.2 (worsened ✓). In 2023, Q's time increased from 10.2s to 10.3s—a slower performance. In sprint events, a higher time = worse performance. This could indicate injury, burnout, or increased competition pressure. The only year of deterioration was 2023."
+      "correct": 3,
+      "explanation": "Q's time changes: 2020: 10.7 < 11.0 (improved); 2021: 10.4 < 10.7 (improved); 2022: 10.2 < 10.4 (improved); 2023: 10.3 > 10.2 (worsened ✓). In 2023, Q's time increased from 10.2s to 10.3s—a slower performance. In sprint events, a higher time = worse performance. This could indicate injury, burnout, or increased competition pressure. The only year of deterioration was 2023.",
+      "correct_original": 4
     },
     {
       "id": "GT-S7Q131",
@@ -1993,12 +1997,12 @@
       "question": "A table shows electricity consumption (in units) by sector: Sector/Year | 2020 | 2021 | 2022 — Industrial: 5000,5500,6000 — Commercial: 2000,2200,2500 — Residential: 3000,3200,3500 — Agricultural: 1500,1600,1800. What percentage of total 2022 electricity consumption was from the Residential sector?",
       "options": [
         "25.0%",
-        "25.18%",
+        "25.36%",
         "26.0%",
         "27.0%"
       ],
       "correct": 1,
-      "explanation": "2022 total: 6000+2500+3500+1800 = 13800 units. Residential 2022 = 3500 units. Share = 3500/13800 × 100 = 25.36%. Checking: 3500/13800 = 350/1380 = 35/138 = 0.2536 = 25.36%. None of the listed options is exactly 25.36%. The closest is A (25.0%), but B (25.18%) is also close. Exact calculation: 3500/13800 = 0.25362... ≈ 25.36%. Option B at 25.18% is slightly off; option A at 25.0% is further. This tests precision; the correct computation gives 25.36%, which is between the options—indicating option B at 25.18% is wrong and the answer nearest correct is A."
+      "explanation": "Total 2022 electricity consumption = 6000 + 2500 + 3500 + 1800 = 13,800 units. Residential consumption = 3,500 units. Residential share = 3500 / 13800 x 100 = 25.36%. Option B is correct."
     },
     {
       "id": "GT-S7Q134",
@@ -2072,8 +2076,9 @@
         "9600 units",
         "9700 units"
       ],
-      "correct": 4,
-      "explanation": "Residential total: 3000+3200+3500 = 9700 units. Step: 3000+3200=6200; 6200+3500=9700. This 3-year aggregate reflects the growing energy demand of India's expanding urban middle class. Option A (9400) would result from using 3200+3000+3200 and option C (9600) from 3000+3100+3500. The exact sum is 9700."
+      "correct": 3,
+      "explanation": "Residential total: 3000+3200+3500 = 9700 units. Step: 3000+3200=6200; 6200+3500=9700. This 3-year aggregate reflects the growing energy demand of India's expanding urban middle class. Option A (9400) would result from using 3200+3000+3200 and option C (9600) from 3000+3100+3500. The exact sum is 9700.",
+      "correct_original": 4
     },
     {
       "id": "GT-S7Q139",
@@ -2175,11 +2180,11 @@
         "13.2 pp",
         "14.4 pp",
         "15.0 pp",
-        "16.6 pp",
         "16.6 pp"
       ],
-      "correct": 2,
-      "explanation": "Gender gap 2021 = Male − Female = 84.7 − 70.3 = 14.4 percentage points. This is a direct subtraction of the 2021 literacy rates. The gender gap has been narrowing over time: 2001 gap = 75.3−53.7 = 21.6 pp; 2011 gap = 82.1−65.5 = 16.6 pp; 2021 gap = 14.4 pp. The consistent reduction reflects improvement in female education access in India."
+      "correct": 1,
+      "explanation": "Gender gap 2021 = Male − Female = 84.7 − 70.3 = 14.4 percentage points. This is a direct subtraction of the 2021 literacy rates. The gender gap has been narrowing over time: 2001 gap = 75.3−53.7 = 21.6 pp; 2011 gap = 82.1−65.5 = 16.6 pp; 2021 gap = 14.4 pp. The consistent reduction reflects improvement in female education access in India.",
+      "correct_content_review_original": 2
     },
     {
       "id": "GT-S7Q146",
@@ -2263,13 +2268,13 @@
       "difficulty": "difficult",
       "question": "A composite table shows the number of employees (in thousands) and average salary (in Rs. lakh per annum) by department: Dept | Employees | Avg Salary — IT: 50, 12 — Finance: 20, 15 — HR: 10, 8 — Operations: 30, 9 — Marketing: 15, 10. What is the total annual salary outgo for the IT department?",
       "options": [
-        "550 lakh",
-        "580 lakh",
-        "600 lakh",
-        "620 lakh"
+        "Rs.5,500 crore",
+        "Rs.5,800 crore",
+        "Rs.6,000 crore",
+        "Rs.6,200 crore"
       ],
-      "correct": 3,
-      "explanation": "IT total salary outgo = Employees × Average salary = 50,000 × Rs. 12 lakh = 600,000 lakh. Wait—re-reading: employees are in thousands (50 thousand = 50,000), and salary is in lakh per annum. Total = 50,000 × 12 lakh = 600,000 lakh = Rs. 6000 crore. If the question expects the answer in crore: 6000 crore. If the options are in crore (which makes more sense), option C = 600 crore × 10 = 6000 crore. Given options seem to be in thousands of crore or just crore, 50×12 = 600 (in consistent units), so option C (600) is correct."
+      "correct": 2,
+      "explanation": "IT employees = 50 thousand = 50,000 employees. Average salary = Rs.12 lakh per annum. Total annual salary outgo = 50,000 x Rs.12 lakh = Rs.6,00,000 lakh = Rs.6,000 crore. Option C is correct."
     },
     {
       "id": "GT-S7Q152",
@@ -2293,13 +2298,14 @@
       "difficulty": "moderate",
       "question": "From the departmental salary table (Finance: 20K employees, Avg salary=15 lakh; HR: 10K employees, Avg salary=8 lakh), what is the difference in total annual salary outgo between Finance and HR departments?",
       "options": [
-        "220 crore",
+        "2,200 crore",
         "219 crore",
         "220 crore",
         "222 crore"
       ],
-      "correct": 1,
-      "explanation": "Finance outgo = 20,000 × 15 lakh = 3,00,000 lakh = 3000 crore. HR outgo = 10,000 × 8 lakh = 80,000 lakh = 800 crore. Difference = 3000 − 800 = 2200 crore. If options are in crore and should read 2200 crore, the listed answer should be 2200. Given the options are labeled 220, 219, 220, 222, they might be in units of 10 crore. In that case 2200/10 = 220. Option A (220) is correct in units of 10-crore."
+      "correct": 0,
+      "explanation": "Finance outgo = 20,000 x ₹15 lakh = ₹3,00,000 lakh = ₹3,000 crore. HR outgo = 10,000 x ₹8 lakh = ₹80,000 lakh = ₹800 crore. Difference = ₹3,000 crore - ₹800 crore = ₹2,200 crore. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S7Q154",
@@ -2325,11 +2331,11 @@
       "options": [
         "10.32 lakh",
         "10.64 lakh",
-        "11.0 lakh",
+        "11.2 lakh",
         "11.5 lakh"
       ],
       "correct": 2,
-      "explanation": "Total salary cost = (50×12)+(20×15)+(10×8)+(30×9)+(15×10) = 600+300+80+270+150 = 1400 (in thousands of lakh). Total employees = 125 thousand. Weighted average = 1400/125 = 11.2 lakh. Hmm, 1400/125 = 11.2. None of the listed options is 11.2. Checking: 50×12=600, 20×15=300, 10×8=80, 30×9=270, 15×10=150. Sum=1400. 1400/125=11.2. Closest option is C (11.0). Given exact calculation is 11.2, selecting option C as closest is justified with explanation that 11.2 is the precise answer."
+      "explanation": "Weighted salary total = (50 x 12) + (20 x 15) + (10 x 8) + (30 x 9) + (15 x 10) = 600 + 300 + 80 + 270 + 150 = 1400. Total employees in the same thousand-unit base = 50 + 20 + 10 + 30 + 15 = 125. Weighted average salary = 1400 / 125 = 11.2 lakh. Option C is correct."
     },
     {
       "id": "GT-S7Q156",
@@ -2491,10 +2497,10 @@
         "4.28%",
         "5.0%",
         "5.88%",
-        "6.5%"
+        "13.33%"
       ],
       "correct": 3,
-      "explanation": "2022 total = 420+480 = 900 crore. 2023 total = 500+520 = 1020 crore. Percentage growth = (1020−900)/900 × 100 = 120/900 × 100 = 13.33%. The listed options don't match. Re-examining: 120/900 = 2/15 = 13.33%. No option shows 13.33%. The nearest is... none exactly. Among the listed options, option C (5.88%) = 900×1.0588 = 953, not 1020. Option D (6.5%) = 900×1.065 = 958.5. Actual growth is 13.33%—none match. In an exam context, if this were the question, the correct answer would be approximately 13.33%. However based on the options available, this question has an error."
+      "explanation": "Total sales in 2022 = 420 + 480 = Rs.900 crore. Total sales in 2023 = 500 + 520 = Rs.1,020 crore. Percentage growth = (1020 - 900) / 900 x 100 = 120 / 900 x 100 = 13.33%. Option D is correct."
     },
     {
       "id": "GT-S7Q167",
@@ -2851,10 +2857,10 @@
         "Combined rate 416.5/lakh",
         "Combined 413.3/lakh",
         "Combined 420/lakh",
-        "Combined 408/lakh"
+        "Combined 407/lakh"
       ],
-      "correct": 2,
-      "explanation": "Delhi 2023 crimes: 488 per lakh × 300 lakh (3 crore) = 146,400. Bangalore 2023 crimes: 245 per lakh × 150 lakh (1.5 crore) = 36,750. Total crimes = 183,150. Total population = 450 lakh. Combined rate = 183,150/450 = 407 per lakh. Hmm, 183,150/450 = 407. None of the options match exactly. 488×300=146400; 245×150=36750; sum=183150; /450=407. Closest is D (408). Selecting D as the approximate answer."
+      "correct": 3,
+      "explanation": "Delhi population = 3 crore = 300 lakh. Delhi crimes = 488 x 300 = 146,400. Bangalore population = 1.5 crore = 150 lakh. Bangalore crimes = 245 x 150 = 36,750. Total crimes = 183,150 and total population = 450 lakh. Combined crime rate = 183,150 / 450 = 407 per lakh. Option D is correct."
     },
     {
       "id": "GT-S7Q191",
@@ -2864,12 +2870,12 @@
       "question": "A bar graph shows the number of people (in millions) using renewable energy sources in India: Solar=120, Wind=85, Hydro=200, Biomass=60, Geothermal=5. What percentage of total renewable energy users rely on Hydro power?",
       "options": [
         "41.67%",
-        "42.0%",
+        "42.55%",
         "43.48%",
         "44.5%"
       ],
       "correct": 1,
-      "explanation": "Total = 120+85+200+60+5 = 470 million. Hydro share = 200/470 × 100 = 42.55%. None of the options shows 42.55% exactly. 200/470 = 20/47 = 0.42553 = 42.55%. Nearest options: A (41.67%) = 200/480, B (42.0%) = 200/476. The exact value 42.55% falls between B and C (43.48%=200/460). Given 200/470 ≈ 42.55%, the closest is B (42.0%). In an exam, B would be selected. With a correct denominator of 470, B is nearest."
+      "explanation": "Total renewable energy users = 120 + 85 + 200 + 60 + 5 = 470 million. Hydro users = 200 million. Hydro share = 200 / 470 x 100 = 42.55%. Option B is correct."
     },
     {
       "id": "GT-S7Q192",

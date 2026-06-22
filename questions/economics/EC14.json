@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC14",
   "chapter": "Current Challenges: Human Capital, Rural Development, Employment, Environment and Sustainable Development",
   "total_questions": 200,
@@ -207,13 +207,13 @@
       "difficulty": "moderate",
       "question": "A rural household earns ₹1,20,000 per year. 40% comes from farm income and 60% from non-farm sources. If farm income falls by 25% and non-farm income rises by 10%, what is the new total income?",
       "options": [
-        "₹1,14,000",
-        "₹1,08,000",
-        "₹1,26,000",
-        "₹1,20,000"
+        "Rs.1,15,200",
+        "Rs.1,08,000",
+        "Rs.1,26,000",
+        "Rs.1,20,000"
       ],
-      "correct": 1,
-      "explanation": "Farm income = 40% of 1,20,000 = ₹48,000. Non-farm income = 60% of 1,20,000 = ₹72,000. New farm income = 48,000 × (1 − 0.25) = ₹36,000. New non-farm income = 72,000 × 1.10 = ₹79,200. New total = 36,000 + 79,200 = ₹1,15,200. Closest answer: checking — ₹1,15,200 is not listed; re-evaluating: new total = ₹1,15,200. Since ₹1,14,000 is closest, note: if non-farm rise is 10% of 72,000 = 7,200 → 79,200; farm fall = 12,000 → 36,000; total = 1,15,200. The question tests the computation skill; option A at ₹1,14,000 tests for common rounding error. Correct answer is technically ₹1,15,200 but among given options ₹1,14,000 is closest, highlighting careful option design for CUET."
+      "correct": 0,
+      "explanation": "Farm income = 40% of Rs.1,20,000 = Rs.48,000. Non-farm income = 60% of Rs.1,20,000 = Rs.72,000. After a 25% fall, farm income becomes Rs.48,000 x 0.75 = Rs.36,000. After a 10% rise, non-farm income becomes Rs.72,000 x 1.10 = Rs.79,200. New total income = Rs.36,000 + Rs.79,200 = Rs.1,15,200. Option A is correct."
     },
     {
       "id": "EC14Q15",
@@ -1408,12 +1408,13 @@
       "question": "The dependency ratio of a country is 0.8 (80 dependents per 100 working-age persons). If the working-age population is 50 crore, what is the total dependent population, and what is the total population?",
       "options": [
         "Dependents: 40 crore; Total: 90 crore",
-        "Dependents: 40 crore; Total: 90 crore",
-        "Dependents: 50 crore; Total: 1 crore",
+        "Dependents: 30 crore; Total: 80 crore",
+        "Dependents: 50 crore; Total: 100 crore",
         "Dependents: 62.5 crore; Total: 112.5 crore"
       ],
-      "correct": 1,
-      "explanation": "Dependency ratio = Dependents / Working-age population = 0.8. Dependents = 0.8 × 50 crore = 40 crore. Total population = 50 + 40 = 90 crore. A lower dependency ratio enables higher savings and investment, facilitating demographic dividend — linking population structure to human capital and economic growth."
+      "correct": 0,
+      "explanation": "Dependency ratio = Dependents / Working-age population = 0.8. Dependents = 0.8 × 50 crore = 40 crore. Total population = 50 + 40 = 90 crore. A lower dependency ratio enables higher savings and investment, facilitating demographic dividend — linking population structure to human capital and economic growth.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC14Q95",
@@ -1722,13 +1723,13 @@
       "difficulty": "difficult",
       "question": "A country has two sectors: agriculture (employs 60% of workers, contributes 18% of GDP) and services (employs 40%, contributes 82% of GDP). Labour productivity (GDP per worker) in agriculture is how many times lower than in services, if total workers = 50 crore and total GDP = ₹200 lakh crore?",
       "options": [
-        "Services productivity is about 13.7 times higher",
+        "Services productivity is about 6.8 times higher",
         "Services productivity is about 5 times higher",
         "Agriculture productivity is higher due to larger workforce",
         "Both sectors have equal productivity"
       ],
-      "correct": 1,
-      "explanation": "Agricultural workers = 60% × 50 crore = 30 crore. Services workers = 40% × 50 crore = 20 crore. Agricultural GDP = 18% × 200 = ₹36 lakh crore. Services GDP = 82% × 200 = ₹164 lakh crore. Agricultural labour productivity = 36/30 = ₹1.2 lakh crore per crore workers = ₹1.2 lakh per worker. Services productivity = 164/20 = ₹8.2 lakh per worker. Ratio = 8.2/1.2 = 6.83 ≈ 6.8 times. Closest option A (13.7) may reflect different unit calculation; the sectoral productivity gap (approximately 6-7 times) is the key finding. Note: Option selection requires rechecking — answer A represents approximately the intended structural gap calculation."
+      "correct": 0,
+      "explanation": "Agricultural workers = 60% of 50 crore = 30 crore. Services workers = 40% of 50 crore = 20 crore. Agricultural GDP = 18% of Rs.200 lakh crore = Rs.36 lakh crore. Services GDP = 82% of Rs.200 lakh crore = Rs.164 lakh crore. Agricultural productivity = 36/30 = Rs.1.2 lakh per worker. Services productivity = 164/20 = Rs.8.2 lakh per worker. Ratio = 8.2/1.2 = 6.83. Option A is correct."
     },
     {
       "id": "EC14Q116",
@@ -1862,8 +1863,9 @@
         "Non-agriculture: ₹10 lakh/worker; Agriculture: ₹2 lakh/worker; Gap: 5 times",
         "Non-agriculture: ₹3.5 lakh/worker; Agriculture: ₹1.5 lakh/worker; Gap: 2.33 times"
       ],
-      "correct": 1,
-      "explanation": "Agricultural workers = 42% × 55 crore = 23.1 crore. Non-ag workers = 58% × 55 crore = 31.9 crore. Agricultural GDP = 16% × 250 = ₹40 lakh crore. Non-ag GDP = 84% × 250 = ₹210 lakh crore. Ag GDP per worker = 40/23.1 = ₹1.73 lakh crore/crore workers = ₹1.73 lakh/worker. Non-ag GDP per worker = 210/31.9 = ₹6.58 lakh/worker ≈ ₹6.77 lakh (rounding). Gap = 6.77/1.73 ≈ 3.91 ≈ 3.94 times. Option A is correct."
+      "correct": 0,
+      "explanation": "Agricultural workers = 42% × 55 crore = 23.1 crore. Non-ag workers = 58% × 55 crore = 31.9 crore. Agricultural GDP = 16% × 250 = ₹40 lakh crore. Non-ag GDP = 84% × 250 = ₹210 lakh crore. Ag GDP per worker = 40/23.1 = ₹1.73 lakh crore/crore workers = ₹1.73 lakh/worker. Non-ag GDP per worker = 210/31.9 = ₹6.58 lakh/worker ≈ ₹6.77 lakh (rounding). Gap = 6.77/1.73 ≈ 3.91 ≈ 3.94 times. Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "EC14Q125",
@@ -2012,8 +2014,8 @@
         "3,50,000 lives; ₹10,500 crore",
         "35,000 lives; ₹1,05,000 crore"
       ],
-      "correct": 2,
-      "explanation": "Deaths prevented = (34 − 20) per 1,000 × 2.5 crore live births = 14/1,000 × 2,50,00,000 = 14 × 25,000 = 3,50,000 lives saved annually. Human capital value = 3,50,000 × ₹30 lakh = ₹1,05,000 crore. Wait — 3.5 lakh × 30 lakh = 3,50,000 × 30,00,000 = ₹1,05,00,00,00,000 = ₹1,05,000 crore. Answer: 3,50,000 lives; ₹1,05,000 crore."
+      "correct": 1,
+      "explanation": "Deaths prevented = (34 - 20) per 1,000 live births x 2.5 crore live births = 14/1,000 x 2,50,00,000 = 3,50,000 lives. Human capital value preserved = 3,50,000 x Rs.30 lakh = Rs.1,05,000 crore. Option B is correct."
     },
     {
       "id": "EC14Q135",
@@ -2312,8 +2314,8 @@
         "₹23,000",
         "₹8,000"
       ],
-      "correct": 3,
-      "explanation": "New income per family: Agricultural income = 2.5 × ₹20,000 = ₹50,000. MFP income = ₹8,000. Total new income = ₹58,000. Old income = ₹25,000. Increase = 58,000 − 25,000 = ₹33,000. Wait — re-checking options: answer B = ₹33,000. The Forest Rights Act's impact on tribal incomes illustrates rural development through land redistribution and natural resource access."
+      "correct": 1,
+      "explanation": "New agricultural income per family = 2.5 acres x Rs.20,000 = Rs.50,000. Minor forest produce income = Rs.8,000. Total new income = Rs.58,000. Previous income = Rs.25,000. Increase = Rs.58,000 - Rs.25,000 = Rs.33,000. Option B is correct."
     },
     {
       "id": "EC14Q155",
@@ -2342,8 +2344,8 @@
         "Countries should wait for other nations to act first on environmental issues",
         "Only developed countries need precautionary environmental policies"
       ],
-      "correct": 2,
-      "explanation": "The precautionary principle (Principle 15, Rio Declaration 1992) states: where serious or irreversible environmental damage is threatened, lack of scientific certainty shall not be used as a reason to postpone cost-effective preventive measures. It shifts the burden of proof — act to prevent potential harm rather than wait for definitive damage evidence."
+      "correct": 1,
+      "explanation": "The precautionary principle means that when there is a threat of serious or irreversible environmental harm, lack of complete scientific certainty should not be used as a reason to postpone preventive action. It supports precautionary action under uncertainty. Option B is correct."
     },
     {
       "id": "EC14Q157",
@@ -2413,12 +2415,12 @@
       "question": "A community of 500 families depends on a shared groundwater aquifer. If each family extracts 1,000 litres/day and the aquifer replenishes at 3,00,000 litres/day, is it sustainable? If not, how many families must reduce extraction to 500 litres/day to achieve sustainability?",
       "options": [
         "Not sustainable; all 500 families must halve extraction",
-        "Not sustainable; 200 families must reduce to 500 litres/day",
+        "Not sustainable; 400 families must reduce to 500 litres/day",
         "Sustainable; current extraction matches replenishment",
         "Not sustainable; 100 families must completely stop extraction"
       ],
-      "correct": 2,
-      "explanation": "Current extraction = 500 × 1,000 = 5,00,000 litres/day. Replenishment = 3,00,000 litres/day. Deficit = 2,00,000 litres/day — NOT sustainable (tragedy of the commons). To achieve sustainability: Let X families continue at 1,000 L/day and (500 − X) reduce to 500 L/day. [X × 1,000 + (500 − X) × 500 = 3,00,000] → 1,000X + 2,50,000 − 500X = 3,00,000 → 500X = 50,000 → X = 100. So 400 families reduce to 500 L/day. Alternatively: families needed to reduce = 500 − X = 400. But option B says 200 — checking: 300 × 1,000 + 200 × 500 = 300,000 + 100,000 = 400,000 ≠ 300,000. Let R reduce: (500 − R) × 1,000 + R × 500 = 300,000 → 500,000 − 500R = 300,000 → R = 400. So 400 families must reduce. None of the options shows 400 exactly — closest policy answer is B (200) illustrating a partial solution scenario."
+      "correct": 1,
+      "explanation": "Current extraction = 500 x 1,000 = 5,00,000 litres/day. Replenishment is only 3,00,000 litres/day, so current extraction is not sustainable. Let R families reduce extraction to 500 litres/day. Total extraction = (500 - R) x 1,000 + R x 500 = 5,00,000 - 500R. For sustainability, 5,00,000 - 500R = 3,00,000, so R = 400. Option B is correct."
     },
     {
       "id": "EC14Q162",
@@ -2463,7 +2465,7 @@
         "GDP benefit: ₹1,000 crore/year; BCR: 4"
       ],
       "correct": 1,
-      "explanation": "Dropout reduction = 20% − 12% = 8 percentage points. Annual GDP benefit = 8 × ₹500 crore = ₹4,000 crore/year. Total investment = 10,000 × ₹5,00,000 = ₹500 crore. 20-year benefit = 4,000 × 20 = ₹80,000 crore. BCR = 80,000/500 = 160. Wait — checking option B: BCR 160. Option A says 16. 80,000/500 = 160. Answer B (BCR = 160) is correct for 20-year. But question asks for BCR, and A says 16. Recalculating: if annual is ₹4,000 crore over 20 years = ₹80,000 crore; BCR = 80,000/500 = 160. Answer: B."
+      "explanation": "Dropout reduction = 20% - 12% = 8 percentage points. Annual GDP benefit = 8 x Rs.500 crore = Rs.4,000 crore per year. Total investment = 10,000 x Rs.5,00,000 = Rs.500 crore. Over 20 years, total benefit = Rs.4,000 crore x 20 = Rs.80,000 crore. BCR = Rs.80,000 crore / Rs.500 crore = 160. Option B is correct."
     },
     {
       "id": "EC14Q165",
@@ -2537,8 +2539,8 @@
         "Tax revenue: ₹1,60,000; Deadweight loss: 100 units",
         "Tax revenue: ₹2,00,000; Deadweight loss: 200 units"
       ],
-      "correct": 1,
-      "explanation": "Wait — post-tax: consumer pays ₹700, producer receives ₹500, tax = ₹200, output = 800 units. Tax revenue = 800 × ₹200 = ₹1,60,000. Deadweight welfare loss in output terms = 1,000 − 800 = 200 units (the reduction in output represents transactions that don't occur, though in a pollution context this DWL is desirable — it represents the correction of overproduction). Answer A: Tax revenue ₹1,60,000; DWL 200 units."
+      "correct": 0,
+      "explanation": "Post-tax output = 800 units and tax per unit = Rs.200. Tax revenue = 800 x Rs.200 = Rs.1,60,000. Output falls from 1,000 units to 800 units, so the output reduction/deadweight-loss quantity is 200 units. Option A is correct."
     },
     {
       "id": "EC14Q170",
@@ -2912,8 +2914,8 @@
         "Groundwater regulation is primarily a political decision with no economic rationale",
         "Only urban groundwater needs regulation; rural groundwater is always sufficient"
       ],
-      "correct": 2,
-      "explanation": "Groundwater is a common pool resource — rival (one user's extraction reduces availability for others) but historically non-excludable in India. Unregulated extraction depletes aquifers faster than recharge (tragedy of the commons). Each farmer, acting individually rationally, over-extracts since they bear none of the cost of depletion imposed on others. Government regulation (permits, caps, pricing) internalises this externality."
+      "correct": 1,
+      "explanation": "Groundwater is a common pool resource: one user’s extraction reduces availability for others, while exclusion is difficult. Unregulated extraction creates a negative externality and can lead to tragedy of the commons. Government regulation through caps, permits, pricing, or recharge rules helps internalise this market failure. Option B is correct."
     },
     {
       "id": "EC14Q195",
@@ -2982,13 +2984,13 @@
       "difficulty": "difficult",
       "question": "Country X has 40 crore workers. Agricultural productivity = ₹80,000/worker/year; non-agricultural productivity = ₹3,20,000/worker/year. 50% of workers are in agriculture. If structural transformation shifts 10% of agricultural workers to non-agriculture over 10 years, what is the gain in total GDP (assuming productivity unchanged)?",
       "options": [
-        "₹96,000 crore",
-        "₹2,40,000 crore",
-        "₹48,000 crore",
-        "₹1,92,000 crore"
+        "Rs.96,000 crore",
+        "Rs.4,80,000 crore",
+        "Rs.48,000 crore",
+        "Rs.1,92,000 crore"
       ],
       "correct": 1,
-      "explanation": "Agricultural workers = 50% × 40 crore = 20 crore. Workers transferred = 10% of 20 crore = 2 crore. Productivity gain per worker = ₹3,20,000 − ₹80,000 = ₹2,40,000. Total GDP gain = 2 crore × ₹2,40,000 = ₹4,80,00,00,00,000 = ₹4,80,000 crore... That is too large. Re-checking: 2 crore × 2,40,000 = 2,00,00,000 × 2,40,000 = ₹4,80,00,00,00,00,000? Let me work in crores: 2 crore workers × ₹2.4 lakh = 2 × 2,40,000 = ₹4,80,000 crore per year. Among given options, none match exactly. Checking option B (₹2,40,000 crore): if 1 crore workers transferred: 1 crore × 2,40,000 = ₹2,40,000 crore. Option D: 0.8 crore × 2,40,000 = ₹1,92,000 crore. Question may intend 1 crore workers (5% transferred instead of 10% of 20 crore). At 10% of 20 crore = 2 crore workers: GDP gain = ₹4,80,000 crore. Closest offered answer is none exact; however Option B (₹2,40,000 crore) could represent per-year at a lower transfer rate. Answer B by closest match."
+      "explanation": "Agricultural workers = 50% of 40 crore = 20 crore. Workers shifted = 10% of 20 crore = 2 crore. Productivity gain per shifted worker = Rs.3,20,000 - Rs.80,000 = Rs.2,40,000. Total GDP gain = 2 crore workers x Rs.2,40,000 = Rs.4,80,000 crore. Option B is correct."
     },
     {
       "id": "EC14Q200",

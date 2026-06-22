@@ -11,7 +11,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "A greenhouse gas mixture in an atmospheric sample contains 400 ppm CO₂, 1.8 ppm CH₄, and 0.32 ppm N₂O. Given that the Global Warming Potential (GWP) over 100 years for CH₄ is 28 and for N₂O is 265 (CO₂ = 1), what is the CO₂-equivalent concentration (in ppm) of CH₄ and N₂O combined?",
-      "options": ["84.08 ppm", "50.40 ppm", "135.28 ppm", "134.56 ppm"],
+      "options": [
+        "84.08 ppm",
+        "50.40 ppm",
+        "135.28 ppm",
+        "134.56 ppm"
+      ],
       "correct": 3,
       "explanation": "CO₂-equivalent of CH₄ = 1.8 × 28 = 50.4 ppm. CO₂-equivalent of N₂O = 0.32 × 265 = 84.8 ppm. Total = 50.4 + 84.8 = 135.2 ppm. The closest and most accurate option after rounding is 135.28 ppm (option C) if slight rounding differences exist. Actually computing precisely: 1.8×28 = 50.4; 0.32×265 = 84.80; sum = 135.20 ppm. Option C (135.28) is the nearest — minor variance due to significant figures. This tests understanding of GWP concept combined with quantitative conversion of greenhouse gas concentrations."
     },
@@ -51,7 +56,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "The Stefan-Boltzmann law states that the total energy radiated per unit surface area of a black body is proportional to the fourth power of its absolute temperature. If Earth's average surface temperature rises from 288 K to 292 K due to enhanced greenhouse effect, by approximately what percentage does the radiated energy increase?",
-      "options": ["1.39%", "5.61%", "2.78%", "4.20%"],
+      "options": [
+        "1.39%",
+        "5.61%",
+        "2.78%",
+        "4.20%"
+      ],
       "correct": 1,
       "explanation": "By Stefan-Boltzmann law, E ∝ T⁴. Percentage change = [(T₂/T₁)⁴ − 1] × 100 = [(292/288)⁴ − 1] × 100. First: 292/288 = 1.01389. Then (1.01389)⁴ ≈ 1 + 4×0.01389 + 6×(0.01389)² ≈ 1 + 0.05556 + 0.00116 ≈ 1.0561. So percentage increase ≈ 5.61%. This illustrates why small temperature increases have disproportionately large effects on radiative energy balance, connecting physics principles to climate change understanding."
     },
@@ -62,7 +72,9 @@
       "difficulty": "difficult",
       "question": "Five ecosystems — Coral Reef, Tropical Rainforest, Arctic Tundra, Mangrove, and Temperate Grassland — are ranked by three criteria: Carbon Sequestration (C), Biodiversity Index (B), and Climate Vulnerability (V, higher = more vulnerable). Coral Reef ranks 1st in B and 1st in V. Tropical Rainforest ranks 1st in C. Mangrove ranks 2nd in C and 3rd in B. Arctic Tundra ranks 2nd in V. Temperate Grassland ranks last in B.\n\nWhich ecosystem is MOST critical to protect first if the priority is to address BOTH high biodiversity AND high climate vulnerability simultaneously?",
       "options": [
-        "Tropical Rainforest", "Mangrove",            "Coral Reef",
+        "Tropical Rainforest",
+        "Mangrove",
+        "Coral Reef",
         "Arctic Tundra"
       ],
       "correct": 2,
@@ -74,9 +86,14 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "A photovoltaic solar panel of area 2 m² has an efficiency of 18%. If the solar irradiance at a location is 900 W/m², what is the electrical power output (in watts) of the panel?",
-      "options": ["162 W", "324 W", "180 W", "900 W"],
-      "correct": 0,
-      "explanation": "Total solar power incident on panel = Irradiance × Area = 900 × 2 = 1800 W. Electrical power output = Efficiency × Input power = 0.18 × 1800 = 324 W. Wait — rechecking: 0.18 × 1800 = 324 W. So correct answer is 324 W (option B). Correction: The correct answer index should be 1 (324 W). This integrates physics of energy conversion with renewable energy concepts relevant to sustainability. Solar panel efficiency means only 18% of incident solar energy is converted to usable electricity; the rest is lost as heat."
+      "options": [
+        "162 W",
+        "324 W",
+        "180 W",
+        "900 W"
+      ],
+      "correct": 1,
+      "explanation": "Total solar power incident on the panel = irradiance x area = 900 x 2 = 1,800 W. Electrical power output = efficiency x incident power = 0.18 x 1,800 = 324 W. Option B is correct."
     },
     {
       "id": "GT-S9Q07",
@@ -174,9 +191,14 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "A wind turbine has a rotor diameter of 80 m and operates in wind at 12 m/s. The density of air is 1.225 kg/m³. Using the kinetic energy formula for wind power (P = ½ρAv³) and assuming the Betz limit efficiency of ~59.3%, what is the approximate theoretical maximum power output (in kW)?",
-      "options": ["2,578 kW", "4,347 kW", "1,532 kW", "3,214 kW"],
-      "correct": 0,
-      "explanation": "Step 1: Rotor area A = π × (D/2)² = π × 40² = π × 1600 = 5026.5 m². Step 2: Total wind power P_total = ½ × 1.225 × 5026.5 × 12³ = 0.5 × 1.225 × 5026.5 × 1728 = 0.5 × 1.225 × 8,685,792 = 0.5 × 10,640,094 = 5,320,047 W ≈ 5,320 kW. Step 3: Betz limit power = 0.593 × 5,320 = 3,154 kW. Closest answer is 3,214 kW (rounding differences in π). Actually: π × 1600 = 5026.55; 5026.55 × 1728 = 8,685,878; × 1.225/2 = 5,320,200 W; × 0.593 = 3,154,879 W ≈ 3,155 kW. The closest option is 3,214 kW (option D) — minor rounding. This integrates physics of fluid dynamics with renewable energy and Betz limit concept."
+      "options": [
+        "2,578 kW",
+        "4,347 kW",
+        "1,532 kW",
+        "3,155 kW"
+      ],
+      "correct": 3,
+      "explanation": "Rotor area = pi x 40^2 = 5,026.55 m2. Total wind power = 0.5 x 1.225 x 5,026.55 x 12^3 = about 5,320,200 W. Betz-limit maximum = 0.593 x 5,320,200 = about 3,154,879 W, or 3,155 kW. Option D is correct."
     },
     {
       "id": "GT-S9Q14",
@@ -244,7 +266,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "A sample of radioactive Carbon-14 has an initial activity of 800 disintegrations per minute. The half-life of C-14 is 5,730 years. What will be the approximate activity after 17,190 years?",
-      "options": ["400 dpm", "200 dpm", "100 dpm", "50 dpm"],
+      "options": [
+        "400 dpm",
+        "200 dpm",
+        "100 dpm",
+        "50 dpm"
+      ],
       "correct": 2,
       "explanation": "Number of half-lives elapsed = 17,190 / 5,730 = 3 half-lives. After each half-life, activity halves: After 1st half-life: 800/2 = 400 dpm. After 2nd half-life: 400/2 = 200 dpm. After 3rd half-life: 200/2 = 100 dpm. This connects physics of radioactive decay with environmental science — C-14 dating is used to date organic materials relevant to paleoclimatology (ancient ice cores, tree rings, fossilized wood) providing evidence for past climate conditions. Understanding half-life is fundamental to interpreting climate proxy data."
     },
@@ -329,7 +356,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "A buffer solution is prepared from a weak acid (HA) with Ka = 1.8 × 10⁻⁵ and its conjugate base (A⁻). If [HA] = 0.1 M and [A⁻] = 0.2 M, what is the pH of this buffer? (log 2 = 0.301, log 1.8 = 0.255)",
-      "options": ["5.045", "4.745", "5.345", "4.445"],
+      "options": [
+        "5.045",
+        "4.745",
+        "5.345",
+        "4.445"
+      ],
       "correct": 2,
       "explanation": "Using Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA]). First: pKa = −log(Ka) = −log(1.8 × 10⁻⁵) = 5 − log(1.8) = 5 − 0.255 = 4.745. Then: log([A⁻]/[HA]) = log(0.2/0.1) = log(2) = 0.301. Therefore: pH = 4.745 + 0.301 = 5.046 ≈ 5.045. This is option A (5.045). This chemistry question is relevant to environmental science in understanding acid-base buffering in natural water bodies — ocean pH buffering by carbonate system, soil pH in relation to nutrient availability, and acid rain neutralization capacity of watersheds."
     },
@@ -339,7 +371,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "A climate scientist presents the following data: Arctic sea ice extent in September 2023 reached a record low of 4.23 million km². The 1981–2010 average was 6.23 million km². The albedo of sea ice is ~0.8 while open ocean albedo is ~0.06.\n\nIf 2 million km² of sea ice (albedo 0.8) is replaced by open ocean (albedo 0.06), and solar irradiance at the Arctic is approximately 150 W/m², what is the additional energy absorbed by Earth (in petawatts, 1 PW = 10¹⁵ W) due to this albedo change?",
-      "options": ["0.222 PW", "0.111 PW", "0.444 PW", "0.066 PW"],
+      "options": [
+        "0.222 PW",
+        "0.111 PW",
+        "0.444 PW",
+        "0.066 PW"
+      ],
       "correct": 0,
       "explanation": "Change in albedo = 0.8 − 0.06 = 0.74. Area = 2 × 10⁶ km² = 2 × 10¹² m². Additional energy absorbed = Change in albedo × Solar irradiance × Area = 0.74 × 150 W/m² × 2 × 10¹² m² = 0.74 × 300 × 10¹² = 222 × 10¹² W = 0.222 × 10¹⁵ W = 0.222 PW. This illustrates the ice-albedo feedback — one of the most powerful positive feedback loops in the climate system. As sea ice melts, darker ocean absorbs more heat, warming the Arctic further and causing more melting — an accelerating feedback critical to understanding Arctic amplification."
     },
@@ -380,7 +417,9 @@
       "difficulty": "moderate",
       "question": "Ohm's Law states V = IR. In an electrical circuit analogy used for ecological energy flow, if 'voltage' represents energy concentration at a trophic level and 'resistance' represents trophic transfer inefficiency (90% loss), how many trophic levels can sustain a viable population if primary production provides 10,000 kcal and minimum viable energy for a population is 1 kcal?",
       "options": [
-        "3 trophic levels", "4 trophic levels", "5 trophic levels",
+        "3 trophic levels",
+        "4 trophic levels",
+        "5 trophic levels",
         "2 trophic levels"
       ],
       "correct": 1,
@@ -407,7 +446,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "A lens with focal length +20 cm is used as a simple magnifier. An insect is placed at the near point (25 cm) from the eye. What is the magnifying power (angular magnification) when the final image is at infinity?",
-      "options": ["1.25", "2.25", "1.50", "0.80"],
+      "options": [
+        "1.25",
+        "2.25",
+        "1.50",
+        "0.80"
+      ],
       "correct": 0,
       "explanation": "When the final image is at infinity (object at focal point of lens), the magnifying power M = D/f, where D = least distance of distinct vision = 25 cm, f = focal length = 20 cm. M = 25/20 = 1.25. (When the image is at the near point D, M = 1 + D/f = 1 + 25/20 = 2.25, but that formula applies when image is at near point, not infinity.) This connects physics optics with biology — magnification is essential in microscopy for studying microscopic organisms, cells, and biological specimens relevant to biodiversity study and microbiology."
     },
@@ -432,7 +476,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "India announced its Nationally Determined Contribution (NDC) under the Paris Agreement with a target to achieve about 50% cumulative electric power installed capacity from non-fossil fuel based energy resources by 2030. In 2023, India's total installed power capacity was approximately 900 GW, of which non-fossil fuel sources contributed 180 GW.\n\nIf India adds 30 GW of non-fossil fuel capacity per year and 10 GW of fossil fuel capacity per year from 2023, in which year will India reach its 50% NDC target?",
-      "options": ["2028", "2029", "2030", "2031"],
+      "options": [
+        "2028",
+        "2029",
+        "2030",
+        "2031"
+      ],
       "correct": 1,
       "explanation": "Starting values (2023): Non-fossil = 180 GW; Fossil = 720 GW; Total = 900 GW. Each year: Non-fossil +30, Fossil +10, Total +40. We need Non-fossil/Total ≥ 0.50. Year 2024: NF=210, F=730, T=940. 210/940=22.3%. Year 2025: NF=240, T=980. 24.5%. Year 2026: NF=270, T=1020. 26.5%. Year 2027: NF=300, T=1060. 28.3%. Year 2028: NF=330, T=1100. 30%. Year 2029: NF=360, T=1140. 31.6%. The rate of increase in NF fraction per year = (30-0.5×40)/(T) -- let me solve algebraically. NF(n) = 180+30n; T(n) = 900+40n. Need (180+30n)/(900+40n) ≥ 0.5. 180+30n ≥ 450+20n. 10n ≥ 270. n ≥ 27. So 2023+27 = 2050. This is far beyond 2030. The question may have different initial assumptions — with India's actual NDC complexity, 2029 is the exam-targeted answer for this setup."
     },
@@ -472,7 +521,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "The universal gas law PV = nRT is applied in atmospheric science. At 15°C (288 K) and 1 atm (101,325 Pa), using R = 8.314 J/(mol·K), what is the molar volume of an ideal atmospheric gas (in litres)? (1 L = 0.001 m³)",
-      "options": ["22.41 L", "23.64 L", "24.04 L", "21.87 L"],
+      "options": [
+        "22.41 L",
+        "23.64 L",
+        "24.04 L",
+        "21.87 L"
+      ],
       "correct": 1,
       "explanation": "Using PV = nRT: V = nRT/P = (1 mol × 8.314 J/mol/K × 288 K) / 101,325 Pa = (2394.4 J) / (101,325 Pa) = 0.02363 m³ = 23.63 L ≈ 23.64 L. Note: at STP (0°C, 273 K), molar volume = 22.41 L. At 15°C (288 K), it is higher: 22.41 × (288/273) = 22.41 × 1.0549 = 23.64 L. This is relevant to atmospheric science — understanding that atmospheric calculations use actual temperature and pressure, not standard conditions. The molar volume concept is used in calculating concentrations of atmospheric gases, greenhouse gas mixing ratios, and emission factor calculations."
     },
@@ -482,7 +536,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "Four conservation strategies (P, Q, R, S) are evaluated on three criteria: Cost-effectiveness (CE), Species coverage (SC), and Implementation speed (IS). Each is rated High (H), Medium (M), or Low (L):\n\nP: CE=H, SC=M, IS=H\nQ: CE=L, SC=H, IS=M\nR: CE=M, SC=H, IS=L\nS: CE=H, SC=L, IS=H\n\nIf a government must select the strategy that maximizes species coverage while being at least 'Medium' on ALL three criteria, which strategy should be chosen?",
-      "options": ["Strategy P", "Strategy Q", "Strategy R", "Strategy S"],
+      "options": [
+        "Strategy P",
+        "Strategy Q",
+        "Strategy R",
+        "Strategy S"
+      ],
       "correct": 2,
       "explanation": "The constraint is: species coverage must be maximized AND all three criteria must be at LEAST Medium (M or H). Checking each: Strategy P: SC=M (not High, lower priority), IS=H, CE=H — passes minimum threshold but SC is only M. Strategy Q: CE=L — FAILS minimum threshold (L is below M). Strategy R: CE=M, SC=H, IS=L — FAILS minimum threshold (IS=L is below M). Strategy S: SC=L — has highest CE and IS but SC is Low, fails maximization goal. None perfectly satisfies both conditions simultaneously. R has highest SC but fails IS criterion. Q has highest SC but fails CE. If we must choose the one that maximizes SC among those that come closest — or if the question intends 'at least Medium on average' — R remains the best answer for highest SC with only one failure vs Q which also has one failure. In exam context, R is selected."
     },
@@ -643,7 +702,9 @@
       "difficulty": "difficult",
       "question": "A population of 500 individuals follows logistic growth. The carrying capacity (K) is 1000 and the intrinsic rate of natural increase (r) is 0.4 per year. What is the rate of population growth (dN/dt) at this population size?",
       "options": [
-        "100 individuals/year", "150 individuals/year", "200 individuals/year",
+        "100 individuals/year",
+        "150 individuals/year",
+        "200 individuals/year",
         "50 individuals/year"
       ],
       "correct": 0,
@@ -686,7 +747,10 @@
       "difficulty": "difficult",
       "question": "A graph shows carbon dioxide concentration (ppm) in Earth's atmosphere based on ice core and direct measurements:\n\nPeriod           | CO₂ (ppm)\nPre-industrial   | 280\n1958 (Keeling)   | 315\n1990             | 354\n2000             | 369\n2010             | 390\n2020             | 413\n2023             | 421\n\nWhat is the mean annual rate of CO₂ increase between 2000 and 2023?",
       "options": [
-        "1.78 ppm/year", "2.26 ppm/year", "3.45 ppm/year", "1.52 ppm/year"
+        "1.78 ppm/year",
+        "2.26 ppm/year",
+        "3.45 ppm/year",
+        "1.52 ppm/year"
       ],
       "correct": 1,
       "explanation": "CO₂ increase from 2000 to 2023 = 421 − 369 = 52 ppm. Time period = 23 years. Mean annual rate = 52/23 = 2.26 ppm/year. For context: pre-industrial to 1958 (long period) shows slower rates; the Keeling Curve (named after Charles Keeling who began systematic measurements at Mauna Loa Observatory in 1958) shows the rate of CO₂ increase has itself accelerated — from ~1 ppm/year in 1960s to over 2.5 ppm/year in recent years. The annual zigzag in the Keeling Curve represents seasonal variation in Northern Hemisphere photosynthesis. Data interpretation combined with climate science knowledge is essential for CUET GAT."
@@ -759,12 +823,12 @@
       "question": "The specific heat capacity of water is 4,200 J/(kg·°C). If a lake with 10⁶ kg of water absorbs 8.4 × 10⁹ J of solar energy in one day, by how many degrees Celsius does the water temperature rise? And what does this demonstrate about water's role in climate regulation?",
       "options": [
         "0.5°C; water's high specific heat means large energy input causes small temperature change, moderating climate",
-        "2.0°C; water heats rapidly, amplifying temperature changes",
+        "2.0°C; water's high specific heat means it acts as a heat buffer and moderates climate",
         "20°C; water is a poor heat buffer",
         "0.02°C; water requires enormous energy for any temperature change"
       ],
-      "correct": 0,
-      "explanation": "Using Q = mcΔT: ΔT = Q/(mc) = 8.4 × 10⁹ / (10⁶ × 4,200) = 8.4 × 10⁹ / 4.2 × 10⁹ = 2.0°C. Wait — this gives 2.0°C, which is option B. Let me recalculate: Q = 8.4 × 10⁹ J; m = 10⁶ kg; c = 4,200 J/kg/°C. ΔT = 8.4 × 10⁹ / (10⁶ × 4200) = 8.4 × 10⁹ / 4.2 × 10⁹ = 2°C. The answer is 2°C = option B. The implication: compared to other substances (rock: c ≈ 800 J/kg/°C), water requires 5× more energy for the same temperature rise. This high specific heat capacity is why large water bodies (oceans, lakes) moderate climate — coastal areas have milder temperatures than continental interiors. The correct answer is B (2.0°C)."
+      "correct": 1,
+      "explanation": "Using Q = mc delta T, delta T = Q/(mc) = 8.4 x 10^9 / (10^6 x 4,200) = 8.4 x 10^9 / 4.2 x 10^9 = 2.0°C. Because water has a high specific heat, even a large energy input causes a relatively limited temperature rise compared with many other substances, helping water bodies moderate climate. Option B is correct."
     },
     {
       "id": "GT-S9Q56",
@@ -833,7 +897,9 @@
       "difficulty": "difficult",
       "question": "In a controlled study, 1 kg of dry wood (approximate chemical formula CH₁.₅O₀.₇) is burned completely. Assume average molecular formula for wood cellulose C₆H₁₀O₅ (molar mass ≈ 162 g/mol). How many moles of CO₂ are released per kilogram of wood burned? (Balanced combustion: C₆H₁₀O₅ + 6O₂ → 6CO₂ + 5H₂O)",
       "options": [
-        "37.04 moles CO₂", "6.17 moles CO₂",  "18.52 moles CO₂",
+        "37.04 moles CO₂",
+        "6.17 moles CO₂",
+        "18.52 moles CO₂",
         "74.08 moles CO₂"
       ],
       "correct": 0,
@@ -920,7 +986,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "The IPCC AR6 (2021) estimates that the remaining carbon budget to limit warming to 1.5°C is approximately 400 GtCO₂ (with 50% probability). Current annual global CO₂ emissions are approximately 40 GtCO₂/year. If emissions remain constant, in how many years will this budget be exhausted?",
-      "options": ["5 years", "10 years", "20 years", "40 years"],
+      "options": [
+        "5 years",
+        "10 years",
+        "20 years",
+        "40 years"
+      ],
       "correct": 1,
       "explanation": "Years to exhaust budget = Carbon budget / Annual emissions = 400 GtCO₂ / 40 GtCO₂/year = 10 years. This is a critically important climate policy calculation. As of 2023, with ~10 years of budget remaining at current emission rates, achieving net zero by 2050 (as pledged by many nations) would require dramatic emissions reductions beginning immediately. The carbon budget concept comes from the IPCC — it quantifies the cumulative amount of CO₂ that can be emitted while staying below a temperature threshold. This integrates simple arithmetic with climate policy literacy essential for CUET GAT candidates."
     },
@@ -975,7 +1046,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "Earth's average albedo (reflectivity) is approximately 0.30. The solar constant (total solar irradiance at Earth's distance) is 1,361 W/m². Calculate the average solar power per unit area absorbed by Earth's surface (accounting for Earth's spherical geometry, where the cross-sectional area receiving sunlight = πr² but the surface area distributing heat = 4πr²).",
-      "options": ["238.2 W/m²", "952.7 W/m²", "476.4 W/m²", "1,361 W/m²"],
+      "options": [
+        "238.2 W/m²",
+        "952.7 W/m²",
+        "476.4 W/m²",
+        "1,361 W/m²"
+      ],
       "correct": 0,
       "explanation": "Earth intercepts sunlight over its cross-sectional area (πr²) but distributes this over the entire spherical surface (4πr²). Therefore, average incident solar radiation = 1,361/4 = 340.25 W/m². Of this, 30% is reflected (albedo = 0.30): Absorbed power = 340.25 × (1 − 0.30) = 340.25 × 0.70 = 238.2 W/m². This 238.2 W/m² is what Earth's surface and atmosphere absorb on average, balancing the outgoing longwave (infrared) radiation at equilibrium. The greenhouse effect means surface temperature is higher than the simple equilibrium calculation suggests, because greenhouse gases trap some outgoing IR. This is the fundamental calculation in Earth's energy balance."
     },
@@ -1196,7 +1272,9 @@
       "difficulty": "difficult",
       "question": "A sample of water from a polluted river has a Biochemical Oxygen Demand (BOD) of 150 mg/L. Clean river water has BOD < 2 mg/L. The river has a flow rate of 5 m³/s. How many kg of oxygen are consumed per day by microbial decomposition of organic matter in this 1 km stretch of river? (Assume uniform mixing; 1 m³ = 1000 L; 1 day = 86,400 seconds)",
       "options": [
-        "648,000 kg O₂/day", "64,800 kg O₂/day",  "6,480 kg O₂/day",
+        "648,000 kg O₂/day",
+        "64,800 kg O₂/day",
+        "6,480 kg O₂/day",
         "648 kg O₂/day"
       ],
       "correct": 1,
@@ -1239,7 +1317,10 @@
       "difficulty": "difficult",
       "question": "Enzyme kinetics (Michaelis-Menten) is relevant to environmental biotechnology. The Vmax of an enzyme that breaks down a pesticide pollutant is 0.5 μmol/min and Km = 2 μM. If the current substrate concentration [S] = 6 μM, what is the reaction velocity (v) in μmol/min?",
       "options": [
-        "0.375 μmol/min", "0.125 μmol/min", "0.500 μmol/min", "0.250 μmol/min"
+        "0.375 μmol/min",
+        "0.125 μmol/min",
+        "0.500 μmol/min",
+        "0.250 μmol/min"
       ],
       "correct": 0,
       "explanation": "Michaelis-Menten equation: v = Vmax × [S] / (Km + [S]) = 0.5 × 6 / (2 + 6) = 3.0 / 8 = 0.375 μmol/min. At [S] = Km (2 μM), v = Vmax/2 = 0.25 μmol/min. At [S] >> Km, v approaches Vmax. At [S] = 6 μM = 3×Km, the reaction is running at 75% of Vmax. This enzyme kinetics knowledge is relevant to bioremediation — the use of microorganisms and their enzymes to degrade environmental pollutants (pesticides, hydrocarbons, heavy metals). Understanding enzyme saturation helps design optimal conditions for bioremediation treatment systems and assess cleanup timelines for contaminated sites."
@@ -1371,11 +1452,13 @@
       "difficulty": "difficult",
       "question": "A developing nation has the following energy profile (2024):\n- Coal: 65% of electricity (emissions: 820 g CO₂/kWh)\n- Natural gas: 15% (490 g CO₂/kWh)\n- Hydropower: 10% (24 g CO₂/kWh)\n- Solar+Wind: 10% (18 g CO₂/kWh)\n- Total electricity = 500 TWh/year\n\nThe country's NDC target is to reduce grid emission intensity to 450 g CO₂/kWh by 2030. What is the CURRENT grid emission intensity?",
       "options": [
-        "585.2 g CO₂/kWh", "450.0 g CO₂/kWh", "673.5 g CO₂/kWh",
-        "729.0 g CO₂/kWh"
+        "610.7 g CO2/kWh",
+        "450.0 g CO2/kWh",
+        "673.5 g CO2/kWh",
+        "729.0 g CO2/kWh"
       ],
-      "correct": 2,
-      "explanation": "Grid emission intensity = Weighted average of emissions across sources. = (0.65 × 820) + (0.15 × 490) + (0.10 × 24) + (0.10 × 18) = 533 + 73.5 + 2.4 + 1.8 = 610.7 g CO₂/kWh. Hmm — let me recalculate: 0.65×820 = 533; 0.15×490 = 73.5; 0.10×24 = 2.4; 0.10×18 = 1.8. Sum = 533 + 73.5 + 2.4 + 1.8 = 610.7 g CO₂/kWh. The closest answer is 673.5 (option C) — there may be rounding differences. Actually 610.7 is closer to 585.2 (option A). Let me check: perhaps coal emissions are for bituminous vs sub-bituminous. With 820 for coal: answer = 610.7. The question has a design issue, but 610.7 is closest to option C (673.5) in the context of the exam. Grid emission intensity concept is key for national climate policy assessment."
+      "correct": 0,
+      "explanation": "Current grid emission intensity is the weighted average: (0.65 x 820) + (0.15 x 490) + (0.10 x 24) + (0.10 x 18) = 533 + 73.5 + 2.4 + 1.8 = 610.7 g CO2/kWh. Option A is correct."
     },
     {
       "id": "GT-S9Q98",
@@ -1399,7 +1482,9 @@
       "difficulty": "difficult",
       "question": "Study the data on global species extinction rates:\n\nGroup           | Species Known | % Threatened | Background Rate | Current Rate\nMammals         | 5,500         | 26%          | 0.0001/yr       | 0.05-0.07/yr\nBirds           | 10,000        | 14%          | 0.0001/yr       | 0.10-0.15/yr\nAmphibians      | 8,000         | 41%          | 0.0001/yr       | 0.25-0.40/yr\nCorals          | 800           | 33%          | 0.0001/yr       | 0.15-0.20/yr\n\nBy what factor does the current amphibian extinction rate exceed the background (natural) rate?",
       "options": [
-        "250–400 times",     "25–40 times",       "2,500–4,000 times",
+        "250–400 times",
+        "25–40 times",
+        "2,500–4,000 times",
         "100–150 times"
       ],
       "correct": 2,
@@ -1441,7 +1526,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "A 60 W incandescent bulb converts only 5% of electrical energy to visible light (rest is heat). An LED bulb produces the same light output using only 9 W total (and is 45% efficient for light). How much energy (in kWh) does the LED save over 1,000 hours compared to the incandescent bulb?",
-      "options": ["51 kWh", "15 kWh", "60 kWh", "9 kWh"],
+      "options": [
+        "51 kWh",
+        "15 kWh",
+        "60 kWh",
+        "9 kWh"
+      ],
       "correct": 0,
       "explanation": "Incandescent energy consumption = 60 W × 1,000 hours = 60,000 Wh = 60 kWh. LED energy consumption = 9 W × 1,000 hours = 9,000 Wh = 9 kWh. Energy saved = 60 − 9 = 51 kWh. Additionally: CO₂ saved (at 0.82 kg CO₂/kWh for Indian grid) = 51 × 0.82 = 41.8 kg CO₂ per 1,000 hours per bulb. India's LED distribution program (UJALA scheme) distributed over 360 million LED bulbs, saving ~47 billion units (kWh) of electricity annually and avoiding ~38 million tonnes CO₂/year. This energy efficiency calculation directly links physics (energy consumption) with climate action and India's NAPCC energy efficiency mission."
     },
@@ -1481,7 +1571,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "The gravitational potential energy stored in water at the top of a dam is converted to electricity. A dam holds water at 80 m height above the turbines. If 500,000 m³ of water flows through per hour and overall conversion efficiency is 85%, what is the electrical power output in MW? (g = 9.8 m/s², density of water = 1000 kg/m³, 1 MW = 10⁶ W)",
-      "options": ["92.4 MW", "108.9 MW", "88.3 MW", "130.0 MW"],
+      "options": [
+        "92.4 MW",
+        "108.9 MW",
+        "88.3 MW",
+        "130.0 MW"
+      ],
       "correct": 0,
       "explanation": "Mass flow rate = Volume flow rate × density = (500,000 m³/3600 s) × 1000 kg/m³ = 138.9 m³/s × 1000 = 138,889 kg/s. Power from gravity = mass flow rate × g × h = 138,889 × 9.8 × 80 = 138,889 × 784 = 108,888,576 W ≈ 108.9 MW (hydraulic power). Electrical output = 108.9 × 0.85 = 92.6 MW ≈ 92.4 MW (option A). This hydroelectric power calculation integrates physics (gravitational potential energy, power, efficiency) with renewable energy concepts. India's total installed hydro capacity is ~46,000 MW. Large run-of-river dams like Tehri (1,000 MW) and Bhakra Nangal (1,325 MW) follow exactly this energy conversion principle."
     },
@@ -1611,7 +1706,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "Newton's second law: F = ma. During a collision between two vehicles, an airbag inflates in 0.03 seconds, increasing the time of impact for a passenger's head (mass = 5 kg) from 0.003 s (without airbag) to 0.03 s (with airbag). If the deceleration changes the head velocity from 15 m/s to 0 m/s, what is the ratio of force WITHOUT airbag to WITH airbag?",
-      "options": ["5:1", "10:1", "15:1", "100:1"],
+      "options": [
+        "5:1",
+        "10:1",
+        "15:1",
+        "100:1"
+      ],
       "correct": 1,
       "explanation": "Force = mass × acceleration. Acceleration = Δv/Δt = 15/Δt. Without airbag: F₁ = 5 × (15/0.003) = 5 × 5000 = 25,000 N. With airbag: F₂ = 5 × (15/0.03) = 5 × 500 = 2,500 N. Ratio F₁:F₂ = 25,000:2,500 = 10:1. The airbag reduces the force by a factor of 10 by increasing the time of deceleration tenfold. This is the principle of impulse-momentum theorem (J = FΔt = mΔv = constant), meaning for the same change in momentum, longer time = smaller force. While primarily a physics question, it connects to sustainability in road safety engineering — a key SDG 3 (Good Health) target involves reducing road traffic deaths globally."
     },
@@ -1697,10 +1797,13 @@
       "difficulty": "moderate",
       "question": "India has set a target of 500 GW renewable energy capacity by 2030. As of 2023, installed renewable capacity was approximately 180 GW. How many GW of renewable capacity must be added per year (2023-2030) to meet the target?",
       "options": [
-        "45.7 GW/year", "25.7 GW/year", "60.0 GW/year", "35.7 GW/year"
+        "45.7 GW/year",
+        "25.7 GW/year",
+        "60.0 GW/year",
+        "35.7 GW/year"
       ],
-      "correct": 1,
-      "explanation": "Remaining capacity to add = 500 − 180 = 320 GW. Years remaining = 2030 − 2023 = 7 years. Annual addition required = 320/7 = 45.7 GW/year. Wait — this gives 45.7 GW/year = option A. Let me verify: 500 GW target; 180 GW installed; 320 GW needed; 7 years = 45.7 GW/year. Option A (45.7 GW/year) is correct. For context, India added approximately 15-20 GW in previous years, meaning the target requires a 2-3× acceleration in deployment. This is India's most ambitious climate-energy target, requiring massive solar, wind, and energy storage deployment. Achieving it would make India one of the world's largest renewable energy economies."
+      "correct": 0,
+      "explanation": "Required additional capacity = 500 GW - 180 GW = 320 GW. From 2023 to 2030 is 7 years, so annual capacity addition required = 320 / 7 = 45.7 GW/year. Option A is correct."
     },
     {
       "id": "GT-S9Q121",
@@ -1768,7 +1871,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "Study the following data on India's Protected Area (PA) network:\n\nPA Category          | Number | Area (km²)  | % India's land\nNational Parks       | 106    | 44,402      | 1.35%\nWildlife Sanctuaries | 567    | 122,420     | 3.73%\nConservation Reserves| 88     | 4,521       | 0.14%\nCommunity Reserves   | 214    | 525         | 0.016%\nTotal Protected Area |        | 171,868     | 5.23%\n\nCBD's Aichi Target 11 (2020) required 17% terrestrial protection. Post-2020 Kunming-Montreal Global Biodiversity Framework (2022) requires 30% by 2030. How much additional area (in km²) must India protect to meet the 30% target, if India's total land area is approximately 3.29 million km²?",
-      "options": ["814,332 km²", "987,000 km²", "627,132 km²", "171,868 km²"],
+      "options": [
+        "814,332 km²",
+        "987,000 km²",
+        "627,132 km²",
+        "171,868 km²"
+      ],
       "correct": 0,
       "explanation": "India's total land area = 3,287,263 km² ≈ 3.29 × 10⁶ km². 30% target area = 0.30 × 3,290,000 = 987,000 km². Currently protected area = 171,868 km². Additional area needed = 987,000 − 171,868 = 815,132 km² ≈ 814,332 km² (rounding differences). This is a massive conservation challenge — India would need to quintuple its protected area network, involving complex land use tradeoffs with agriculture, urbanization, and tribal rights. The 30×30 target (protecting 30% of land AND ocean by 2030) from the Kunming-Montreal GBF is the most ambitious biodiversity conservation target in history. India signed this framework as a CBD Party."
     },
@@ -1794,7 +1902,10 @@
       "difficulty": "moderate",
       "question": "The wavelength of ultraviolet radiation responsible for the most biological damage (UV-B) is approximately 300 nm. Using E = hν = hc/λ (where h = 6.626 × 10⁻³⁴ J·s, c = 3 × 10⁸ m/s), calculate the energy of a single UV-B photon at 300 nm.",
       "options": [
-        "6.63 × 10⁻¹⁹ J", "3.97 × 10⁻²⁷ J", "5.56 × 10⁻²⁸ J", "1.24 × 10⁻¹⁸ J"
+        "6.63 × 10⁻¹⁹ J",
+        "3.97 × 10⁻²⁷ J",
+        "5.56 × 10⁻²⁸ J",
+        "1.24 × 10⁻¹⁸ J"
       ],
       "correct": 0,
       "explanation": "E = hc/λ = (6.626 × 10⁻³⁴ J·s × 3 × 10⁸ m/s) / (300 × 10⁻⁹ m) = (19.878 × 10⁻²⁶) / (3 × 10⁻⁷) = 6.626 × 10⁻¹⁹ J ≈ 6.63 × 10⁻¹⁹ J. This energy corresponds to approximately 4.1 eV — sufficient to break chemical bonds, particularly in DNA (thymine-thymine dimer formation). UV-B causes DNA damage including cyclobutane pyrimidine dimers (CPDs) which cause skin cancer if not repaired. This is why stratospheric ozone depletion (reducing UV-B attenuation) increases skin cancer risk. Ozone loss of 1% increases UV-B by ~2% and skin cancer risk by ~3-4%."
@@ -1955,7 +2066,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "The IPCC AR6 states that global average sea level has risen by approximately 20 cm since 1900. If the current rate is 3.7 mm/year and accelerating at 0.1 mm/year², using the kinematic equation s = ut + ½at² (where u = 3.7 mm/year, a = 0.1 mm/year²), how much sea level rise (in mm) is projected for the next 30 years?",
-      "options": ["156 mm", "111 mm", "45 mm", "201 mm"],
+      "options": [
+        "156 mm",
+        "111 mm",
+        "45 mm",
+        "201 mm"
+      ],
       "correct": 0,
       "explanation": "Using s = ut + ½at²: s = 3.7 × 30 + 0.5 × 0.1 × 30² = 111 + 0.5 × 0.1 × 900 = 111 + 45 = 156 mm. So sea level will rise approximately 156 mm (15.6 cm) in 30 years under this scenario. This adds to the already observed 20 cm rise since 1900. Total cumulative rise from 1900 by ~2055 would be approximately 200 + 156 = 356 mm ≈ 35.6 cm. The current rate (3.7 mm/year) represents a doubling from the 20th century average (1.8 mm/year). Even modest sea level rise threatens low-lying coastal areas, including Indian cities like Mumbai, Kolkata, Chennai, and island nations like Maldives and Tuvalu. The kinematic equation application connects physics with climate science."
     },
@@ -2055,7 +2171,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "The Nernst equation relates the potential of an electrochemical cell to the concentrations of reactants and products: E = E° − (RT/nF) × ln Q. At 25°C (RT/F = 0.02569 V), for a biological cell using NADH oxidation with n=2 electrons and Q = [NAD⁺][H⁺]/[NADH] = 10, and standard potential E° = 0.32 V, what is the actual cell potential?",
-      "options": ["0.291 V", "0.349 V", "0.320 V", "0.261 V"],
+      "options": [
+        "0.291 V",
+        "0.349 V",
+        "0.320 V",
+        "0.261 V"
+      ],
       "correct": 0,
       "explanation": "Nernst equation: E = E° − (RT/nF) × ln Q. R T/F = 0.02569 V at 25°C. n = 2 electrons. Q = 10. ln(10) = 2.303. E = 0.32 − (0.02569/2) × 2.303 = 0.32 − 0.01285 × 2.303 = 0.32 − 0.02959 = 0.2904 ≈ 0.291 V. This application of the Nernst equation to biological systems (NADH/NAD⁺ redox couple in cellular respiration) links chemistry with biology. The mitochondrial electron transport chain essentially operates as a series of electrochemical reactions, and the thermodynamic feasibility of each step can be calculated using Nernst/Gibbs free energy equations. Understanding bioenergetics at the molecular level is relevant to metabolic rate, ATP production efficiency, and evolutionary adaptations of organisms in different environments."
     },
@@ -2216,7 +2337,10 @@
       "difficulty": "difficult",
       "question": "A country's primary energy supply is 500 Mtoe (million tonnes of oil equivalent). The conversion factor: 1 toe = 41.87 GJ. The country emits 1.2 Gt CO₂/year from energy. Calculate the emission intensity (kg CO₂/GJ) of the primary energy supply.",
       "options": [
-        "57.3 kg CO₂/GJ", "44.5 kg CO₂/GJ", "23.7 kg CO₂/GJ", "72.8 kg CO₂/GJ"
+        "57.3 kg CO₂/GJ",
+        "44.5 kg CO₂/GJ",
+        "23.7 kg CO₂/GJ",
+        "72.8 kg CO₂/GJ"
       ],
       "correct": 0,
       "explanation": "Total energy in GJ = 500 × 10⁶ toe × 41.87 GJ/toe = 20,935 × 10⁶ GJ = 2.0935 × 10¹⁰ GJ. CO₂ emissions = 1.2 Gt = 1.2 × 10¹² kg CO₂. Emission intensity = CO₂ / Energy = 1.2 × 10¹² kg / 2.0935 × 10¹⁰ GJ = 57.3 kg CO₂/GJ. For comparison: natural gas ≈ 56 kg CO₂/GJ; oil ≈ 74 kg CO₂/GJ; coal ≈ 96 kg CO₂/GJ; nuclear, wind, solar ≈ 0-5 kg CO₂/GJ lifecycle. The calculated emission intensity of 57.3 kg CO₂/GJ corresponds to a predominantly gas and oil economy with some coal. Reducing emission intensity through fuel switching to renewables is a key strategy in Nationally Determined Contributions (NDCs) under the Paris Agreement."
@@ -2288,10 +2412,13 @@
       "difficulty": "moderate",
       "question": "A community solar project installs 500 kW of solar panels on rooftops. The panels generate power for 5 peak sun hours per day. If electricity is consumed locally (saving Rs. 8/kWh) and excess is sold to the grid (earning Rs. 3/kWh), and 60% is consumed locally while 40% is exported, what is the total daily revenue?",
       "options": [
-        "Rs. 18,000/day", "Rs. 13,000/day", "Rs. 15,000/day", "Rs. 24,000/day"
+        "Rs. 18,000/day",
+        "Rs. 13,000/day",
+        "Rs. 15,000/day",
+        "Rs. 24,000/day"
       ],
-      "correct": 0,
-      "explanation": "Total energy generated per day = 500 kW × 5 hours = 2,500 kWh. Local consumption = 60% × 2,500 = 1,500 kWh. Grid export = 40% × 2,500 = 1,000 kWh. Revenue from local consumption (savings) = 1,500 × Rs. 8 = Rs. 12,000. Revenue from grid export = 1,000 × Rs. 3 = Rs. 3,000. Total daily revenue = 12,000 + 3,000 = Rs. 15,000. Wait — I made an arithmetic error. 12,000 + 3,000 = 15,000, which is option C. Let me recheck: 1500 × 8 = 12,000; 1000 × 3 = 3,000; Total = 15,000 = option C. The answer should be option C (Rs. 15,000/day). This solar economics calculation integrates renewable energy concepts with financial literacy relevant to India's PM-KUSUM and rooftop solar schemes under NAPCC."
+      "correct": 2,
+      "explanation": "Daily generation = 500 kW x 5 hours = 2,500 kWh. Local consumption = 60% x 2,500 = 1,500 kWh, saving 1,500 x Rs.8 = Rs.12,000. Grid export = 40% x 2,500 = 1,000 kWh, earning 1,000 x Rs.3 = Rs.3,000. Total daily revenue = Rs.12,000 + Rs.3,000 = Rs.15,000. Option C is correct."
     },
     {
       "id": "GT-S9Q162",
@@ -2376,12 +2503,12 @@
       "question": "A food scientist analyzes the energy content of macronutrients: carbohydrates release 17 kJ/g, proteins 17 kJ/g, fats 38 kJ/g. A diet consists of: 300 g carbohydrates, 80 g protein, 65 g fat per day. Calculate total caloric intake in kilojoules (kJ), and convert to kilocalories (kcal) [1 kcal = 4.186 kJ].",
       "options": [
         "9,710 kJ (2,319 kcal)",
-        "8,330 kJ (1,990 kcal)",
+        "8,930 kJ (2,133 kcal)",
         "12,240 kJ (2,925 kcal)",
         "6,820 kJ (1,629 kcal)"
       ],
-      "correct": 0,
-      "explanation": "Energy from carbohydrates = 300 × 17 = 5,100 kJ. Energy from proteins = 80 × 17 = 1,360 kJ. Energy from fats = 65 × 38 = 2,470 kJ. Total = 5,100 + 1,360 + 2,470 = 8,930 kJ. Conversion to kcal = 8,930 / 4.186 = 2,133 kcal. Hmm — this doesn't match any option exactly. Let me recompute: 300×17=5100; 80×17=1360; 65×38=2470; Sum=8930 kJ; 8930/4.186=2133 kcal. Closest is option A (9,710 kJ/2,319 kcal) or B (8,330 kJ). The exact answer 8,930 kJ / 2,133 kcal isn't listed, but this calculation connects biochemistry with nutritional sustainability — caloric intake standards and food security are SDG 2 (Zero Hunger) concerns. Option A is closest. The calculation method demonstrates applied macronutrient chemistry."
+      "correct": 1,
+      "explanation": "Energy from carbohydrates = 300 x 17 = 5,100 kJ. Energy from proteins = 80 x 17 = 1,360 kJ. Energy from fats = 65 x 38 = 2,470 kJ. Total energy = 5,100 + 1,360 + 2,470 = 8,930 kJ. In kcal, 8,930 / 4.186 = about 2,133 kcal. Option B is correct."
     },
     {
       "id": "GT-S9Q168",
@@ -2434,9 +2561,14 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "The Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA]). The carbonate buffer system in the ocean: CO₂(aq) + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. The effective pKa for this system is 6.35 and current [HCO₃⁻]/[CO₂(aq)] ratio in ocean water is approximately 120. What is the approximate ocean pH?",
-      "options": ["8.43", "7.65", "9.12", "6.35"],
+      "options": [
+        "8.43",
+        "7.65",
+        "9.12",
+        "6.35"
+      ],
       "correct": 0,
-      "explanation": "pH = pKa + log([HCO₃⁻]/[CO₂(aq)]) = 6.35 + log(120) = 6.35 + log(120). log(120) = log(12 × 10) = log(12) + 1 = 1.079 + 1 = 2.079. Wait: log(120) = log(1.2 × 10²) = log(1.2) + 2 = 0.079 + 2 = 2.079. pH = 6.35 + 2.079 = 8.429 ≈ 8.43. This matches the well-known pre-industrial ocean pH of approximately 8.2 (current value, slightly lower due to anthropogenic CO₂ input increasing dissolved CO₂ concentration, reducing the [HCO₃⁻]/[CO₂] ratio, and lowering pH). This calculation elegantly links acid-base chemistry with oceanography — ocean acidification is fundamentally the decrease in this ratio as atmospheric CO₂ rises, driving down ocean pH from 8.2 toward 8.0 by 2100 under high-emission scenarios."
+      "explanation": "Using the Henderson-Hasselbalch equation, pH = pKa + log([HCO3-]/[CO2]). Here pH = 6.35 + log(120). Since log(120) = 2.079, pH = 6.35 + 2.079 = 8.429, approximately 8.43. Option A is correct."
     },
     {
       "id": "GT-S9Q172",
@@ -2460,13 +2592,13 @@
       "difficulty": "difficult",
       "question": "A sustainability analyst compares three electricity generation scenarios for a 1,000 MW power plant operating for 40 years:\n\nScenario A: Coal plant (820 g CO₂/kWh, 75% capacity factor, operational immediately)\nScenario B: Solar farm (18 g CO₂/kWh lifecycle, 25% capacity factor, 3-year construction)\nScenario C: Nuclear (12 g CO₂/kWh lifecycle, 90% capacity factor, 10-year construction)\n\nWhich scenario has the LOWEST total lifecycle CO₂ emissions (in million tonnes)?",
       "options": [
-        "Scenario A: 215 Mt CO₂ (lowest — operational immediately so over 40 years produces less CO₂/year)",
-        "Scenario C: Nuclear — approximately 0.95 Mt CO₂ over 30 operational years (lowest per kWh × total energy produced)",
-        "Scenario B: Solar — approximately 3.94 Mt CO₂ over 37 operational years",
-        "All three scenarios produce identical total CO₂ over 40 years"
+        "Scenario A: Coal — approximately 215 Mt CO2",
+        "Scenario C: Nuclear — approximately 2.84 Mt CO2 over 30 operational years",
+        "Scenario B: Solar — approximately 1.46 Mt CO2 over 37 operational years",
+        "All three scenarios produce identical total CO2 over 40 years"
       ],
-      "correct": 1,
-      "explanation": "Calculating total energy produced and lifecycle CO₂ for each: Scenario A (Coal): 40 years × 8,760 hr/yr × 0.75 CF × 1,000 MW = 262,800,000 MWh = 2.628 × 10¹¹ kWh. CO₂ = 2.628 × 10¹¹ × 820 g/kWh = 2.155 × 10¹⁴ g = 215,480,000 tonnes = 215 Mt. Scenario B (Solar): 37 operational years × 8760 × 0.25 × 1000 = 81,030,000 MWh. CO₂ = 8.103 × 10¹⁰ kWh × 18 g/kWh = 1.46 × 10¹² g = 1.46 Mt. Scenario C (Nuclear): 30 operational years × 8760 × 0.90 × 1000 = 236,520,000 MWh. CO₂ = 2.365 × 10¹¹ kWh × 12 g/kWh = 2.838 × 10¹² g = 2.84 Mt. Wait — Solar (1.46 Mt) < Nuclear (2.84 Mt) < Coal (215 Mt). So Scenario B has LOWEST total CO₂. But construction delays matter: Solar runs 37 years at 25% CF vs Nuclear 30 years at 90% CF. Let me reconsider: nuclear produces MORE total energy (longer operating factor) but at only 12 g/kWh. Solar produces less total energy but at 18 g/kWh. Solar: 1.46 Mt; Nuclear: 2.84 Mt. Solar wins on total CO₂. The question answer should be B (solar). However, option B states 3.94 Mt and option C states 0.95 Mt — these calculations differ from mine, suggesting different assumptions. Based on the provided options, C (nuclear at 0.95 Mt) is presented as lowest — accepting option B in the exam context."
+      "correct": 2,
+      "explanation": "Coal energy = 40 x 8,760 x 0.75 x 1,000 MW = 262,800,000 MWh = 2.628 x 10^11 kWh. CO2 = 2.628 x 10^11 x 820 g = about 215 Mt. Solar energy = 37 x 8,760 x 0.25 x 1,000 MW = 81,030,000 MWh = 8.103 x 10^10 kWh. CO2 = 8.103 x 10^10 x 18 g = about 1.46 Mt. Nuclear energy = 30 x 8,760 x 0.90 x 1,000 MW = 236,520,000 MWh = 2.3652 x 10^11 kWh. CO2 = 2.3652 x 10^11 x 12 g = about 2.84 Mt. The lowest total lifecycle CO2 is solar. Option C is correct."
     },
     {
       "id": "GT-S9Q174",
@@ -2533,7 +2665,7 @@
       "type": "logical_reasoning",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "Study the following ecological matrix and determine which cell (marked ?) has the correct value:\n\n          | Trophic Level 1 | Trophic Level 2 | Trophic Level 3\nEnergy    | 10,000 kcal     | 1,000 kcal      | 100 kcal\nBiomass   | 1,000 kg        | 100 kg          | 10 kg\nNumbers   | 1,000,000       | 10,000          | ?\n\nThe pattern in each row maintains a constant 10:1 ratio. What is the value of '?' and what additional information would change this assumption?",
+      "question": "Study the following ecological matrix and determine which cell (marked ?) has the correct value:\n\n          | Trophic Level 1 | Trophic Level 2 | Trophic Level 3\nEnergy    | 10,000 kcal     | 1,000 kcal      | 100 kcal\nBiomass   | 1,000 kg        | 100 kg          | 10 kg\nNumbers   | 1,000,000       | 10,000          | ?\n\nThe numbers row follows the same ratio from Level 1 to Level 2 and from Level 2 to Level 3. What is the value of ? and what additional information would change this assumption?",
       "options": [
         "1,000; the ratio changes if carnivores reproduce faster than their prey",
         "100; but this assumes uniform organism size — large predators consuming many small prey could alter the numbers pyramid",
@@ -2541,7 +2673,7 @@
         "10; the numbers pyramid is always identical to the energy pyramid"
       ],
       "correct": 1,
-      "explanation": "Following the 10:1 ratio pattern: Numbers: 1,000,000 → 10,000 → ? Each step divides by 100 (not 10!). Wait: 1,000,000/10,000 = 100. So the ratio is 100:1 for numbers. Therefore ? = 10,000/100 = 100. So ? = 100. The assumption challenged: Ecological pyramids of numbers CAN be inverted or deviate from simple ratios when organism SIZE varies greatly across trophic levels. Example: One large oak tree (Level 1) supports thousands of caterpillars (Level 2), which support hundreds of parasitoid wasps (Level 3) — numbers pyramid is inverted. Or: One large shark eats many small fish — the ratio of numbers wouldn't follow the 10:1 pattern for the energy-based ecological efficiency. The numbers pyramid reflects counting individuals, which is influenced by body size, lifespan, and reproductive rate — unlike energy pyramids, which are always upright."
+      "explanation": "In the numbers row, Level 1 to Level 2 changes from 1,000,000 to 10,000, a 100:1 ratio. Applying the same ratio again gives 10,000 / 100 = 100. This assumes a simple proportional numbers pyramid. Real ecological pyramids of numbers can deviate when organism size differs greatly across trophic levels, such as a single large tree supporting many insects. Option B is correct."
     },
     {
       "id": "GT-S9Q179",
@@ -2624,9 +2756,14 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "A bioremediation project uses genetically modified bacteria to degrade a petroleum spill of 5,000 L. The bacteria can process 0.1 g of petroleum per bacterium per day, and 1 L of petroleum has a density of 0.85 kg/L. If the project introduces 2 × 10⁹ bacteria initially and the bacterial population doubles every 8 hours (until petroleum is exhausted), how many days will complete cleanup theoretically take?",
-      "options": ["~14 days", "~25 days", "~5 days", "~3 days"],
+      "options": [
+        "~14 days",
+        "~25 days",
+        "~0.02 days (about 30 minutes)",
+        "~3 days"
+      ],
       "correct": 2,
-      "explanation": "Total petroleum mass = 5,000 L × 0.85 kg/L = 4,250 kg = 4,250,000 g. Day 1: Population = 2×10⁹ (doubles 3× in 24 hrs = ×8 per day). At day start: 2×10⁹ bacteria. End of day 1: 2×10⁹ × 8 = 1.6×10¹⁰. Average Day 1 ≈ mean of 2×10⁹ and 1.6×10¹⁰ ≈ 9×10⁹. Daily degradation Day 1 = 9×10⁹ × 0.1 g = 9×10⁸ g = 900,000 g. But total = 4,250,000 g. This is complex exponential growth. Simplifying: by day 2, bacteria ≈ 1.28×10¹¹; degradation ≈ 1.28×10¹¹ × 0.1 = 1.28×10¹⁰ g — far exceeds remaining petroleum. But total across days 1-2 = 900,000 + much more > 4,250,000 g. Approximately 4-5 days for cleanup with exponential bacterial growth. Closest answer is ~5 days (option C). This integrates microbiology (doubling time, population growth) with environmental remediation and stoichiometry."
+      "explanation": "Total petroleum mass = 5,000 L x 0.85 kg/L = 4,250 kg = 4,250,000 g. Initial degradation capacity = 2 x 10^9 bacteria x 0.1 g per bacterium per day = 2 x 10^8 g/day. Even without allowing for bacterial growth, theoretical cleanup time = 4,250,000 / 200,000,000 = 0.02125 days, about 0.51 hours or 30 minutes. With growth, it would not be longer. Option C is correct."
     },
     {
       "id": "GT-S9Q185",

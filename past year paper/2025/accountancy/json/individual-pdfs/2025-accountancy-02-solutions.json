@@ -1,0 +1,191 @@
+{
+  "subject": "Accountancy",
+  "subject_code": "301",
+  "year": "2025",
+  "paper": "2025-accountancy-02-solutions",
+  "total_questions": 11,
+  "chapters": [
+    {
+      "chapter_id": "3012025y02solutions",
+      "chapter": "Accountancy CUET 2025 Past Year Paper - 2025-accountancy-02-solutions",
+      "questions": [
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Aman and Riya share profits in the ratio 5:3. They admitted Kunal for 1 4 share, which he took equally from both. Calculate the new ratio.",
+          "options": [
+            "3 : 2 : 1",
+            "9 : 7 : 4",
+            "10 : 6 : 3",
+            "5 : 3 : 2"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Initial shares of Aman and Riya The ratio of their profits is 5 : 3 . Total parts = 5 + 3 = 8 . So, Aman’s share = 5 8, Riya’s share = 3 8. Step 2: Kunal’s admitted share Kunal is admitted for 1 4 share of the profits. So, the remaining share left for Aman and Riya together is: 1 − 1 4 = 3 4 Step 3: Kunal’s share is taken equally from Aman and Riya Kunal takes 1 4 share equally from both, so each gives: 1 2 × 1 4 = 1 8. Step 4: New shares of Aman, Riya, and Kunal Aman’s new share = 5 8 − 1 8 = 4 8 = 1 2 Riya’s new share = 3 8 − 1 8 = 2 8 = 1 4 Kunal’s share = 1 4 Step 5: Expressing the new shares in ratio form New ratio = 1 2 : 1 4 : 1 4 = 2 : 1 : 1 .",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A machinery worth 75,000 was undervalued by 10%. What will be its new value in the Balance Sheet?",
+          "options": [
+            "67,500",
+            "82,500",
+            "75,000",
+            "70,000"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understand undervaluation Undervaluation means the machinery’s value recorded is less than its actual value. Here, undervaluation is 10 Step 2: Calculate undervaluation amount Undervaluation = 10% × 75, 000 = 10 100 × 75, 000 = 7 , 500. Step 3: Calculate the new (corrected) value New value = Original value - Undervaluation = 75,000 - 7,500 = 67,500.",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A firm earned 90,000 profit. Mohit is guaranteed 40,000 for his 1 4 share. How much deficiency will others bear in 3:1 ratio?",
+          "options": [
+            "5,000",
+            "10,000",
+            "15,000",
+            "20,000"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Calculate Mohit’s actual share from profit Mohit’s share = 1 4 × 90, 000 = 22 , 500. Step 2: Guaranteed amount vs actual share Mohit is guaranteed 40,000 but actually earned 22,500, so deficiency in Mohit’s share = 40, 000 − 22, 500 = 17 , 500. Step 3: Remaining profit for others Total profit = 90,000, Mohit gets 40,000 guaranteed, so remaining profit for others = 90, 000 − 40, 000 = 50 , 000. Step 4: Others’ rightful share Since Mohit’s share is 1 4, others’ share is 3 4 Rightful share of others = 3 4 × 90, 000 = 67 , 500. Step 5: Deficiency borne by others Deficiency = Rightful share - actual share = 67, 500 − 50, 000 = 17 , 500. Step 6: Divide deficiency in ratio 3:1 Sum of ratio parts = 3 + 1 = 4 Each part = 17,500 4 = 4, 375 So, the shares are: - Partner 1 bears = 3 × 4, 375 = 13 , 125 - Partner 2 bears = 1 × 4, 375 = 4 , 375 Step 7: Answer for deficiency others bear The question typically asks how much deficiency others bear in total or how much one of them bears. The total deficiency is 17,500. However, sometimes, options correspond to a part. Checking options: none is 17,500, so likely question expects difference in Mohit’s share 17, 500 is split and the difference others bear in total = 17,500. If the question wants deficiency one partner bears in 3:1 ratio, the smaller part is 4,375 which does not match options, so possibly question options assume the difference Mohit has in share 17, 500 and part of 10,000 is the closest. If the question strictly asks ”how much deficiency will others bear in 3:1 ratio?” and answer options are given as in multiples of 5,000, then the deficiency is the difference Mohit has, 17, 500, split accordingly. Sometimes rounding or misinterpretation causes this. Based on 4 standard calculation, total deficiency others bear = 17,500.",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A firm has current assets 2,50,000 and current liabilities 1,00,000. Find the current ratio.",
+          "options": [
+            "1.5:1",
+            "2:1",
+            "2.5:1",
+            "3:1"
+          ],
+          "correct": 2,
+          "explanation": "The current ratio is calculated as: 6 Current Ratio = Current Assets Current Liabilities = 2, 50, 000 1, 00, 000 = 2.5 Thus, the current ratio is 2.5:1.",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q06",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If a partner is given salary and commission, how are these shown in the accounts?",
+          "options": [
+            "Credited to the partner’s capital account",
+            "Debited to the Profit and Loss Account",
+            "Debited to the Profit and Loss Appropriation Account",
+            "Debited to the Realization Account"
+          ],
+          "correct": 2,
+          "explanation": "When a partner is given salary or commission, these are treated as part of the profit-sharing arrangement and are shown in the Profit and Loss Appropriation Account. - The partner’s salary and commission are debited to the Profit and Loss Appropriation Account. - The corresponding credit goes to the individual partner’s capital account. The journal entry will be: Profit and Loss Appropriation Account Dr. Salary and Commission to Partner To Partner’s Capital Account",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "P and Q are partners sharing profits in a 5:3 ratio. They allow interest on capital at 6% p.a. If P’s capital is 1,20,000, what is the interest credited to his capital account?",
+          "options": [
+            "7,000",
+            "7,200",
+            "7,500",
+            "8,000"
+          ],
+          "correct": 1,
+          "explanation": "Interest on capital is calculated as a percentage of the partner’s capital. Interest on P’s Capital= 6 100 × 1, 20, 000 = 7 , 200 Thus, the interest credited to P’s capital account is 7,200.",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "R and S are partners in a 4:1 ratio. T is admitted and gets 1/5 share, equally from both. Find the new ratio.",
+          "options": [
+            "16:4:5",
+            "8:2:5",
+            "4:1:5",
+            "3:2:5"
+          ],
+          "correct": 0,
+          "explanation": "R and S are currently sharing profits in a 4:1 ratio. When T is admitted, he gets 1/5 of the total share, and this share will be equally distributed between R and S. - T’s share = 1 5 Thus, the remaining share is 1 − 1 5 = 4 5. 8 Since R and S share this remaining 4 5 in the ratio of 4:1, we need to split the remaining share between R and S. The total parts of the ratio = 4 + 1 = 5 . Thus, the share for R is: 4 5 × 4 5 = 16 25 The share for S is: 1 5 × 4 5 = 4 25 Therefore, the new ratio of R, S, and T is: R : S : T = 16 25 : 4 25 : 1 5 = 16 : 4 : 5 Thus, the new profit-sharing ratio is 16:4:5.",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "On the death of a partner, his capital account is credited with:",
+          "options": [
+            "Share of profit",
+            "Share of goodwill",
+            "Share of accumulated profits",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explanation": "On the death of a partner, the following amounts are credited to the deceased partner’s capital account: 1. The balance of the capital account at the time of death. 2. His share of the accumulated profits or losses. 9 3. His share of goodwill, if applicable. 4. Any outstanding loan amount due from the firm to the deceased partner. The journal entry for the death of a partner is: To Deceased Partner’s Capital Account Balance of capital and share of profits",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If unrecorded assets are taken over by a partner, the entry will be:",
+          "options": [
+            "To Unrecorded Assets Account",
+            "To Deceased Partner’s Capital Account",
+            "To Realisation Account",
+            "To Partner’s Capital Account"
+          ],
+          "correct": 3,
+          "explanation": "If unrecorded assets are taken over by a partner, the journal entry is: Unrecorded Assets Account Dr. To Partner’s Capital Account This entry reflects the transfer of unrecorded assets to the partner’s capital account. The value of the unrecorded assets is credited to the partner who takes them over.",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q11",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "600 shares of 10 each were issued at 20% premium. Final call of 3 not received on 100 shares. What is the forfeiture amount?",
+          "options": [
+            "2000 10",
+            "1800",
+            "1500",
+            "1000"
+          ],
+          "correct": 2,
+          "explanation": "- Face value of each share = 10 - Premium on each share = 20% of 10 = 2 - Total amount due per share = 10 + 2 + 3 = 15 For 100 shares, the final call of 3 is not received, so the amount to be forfeited for each share is: Forfeited Amount per Share = Total Amount Due − Amount Received = 15 − 12 = 3 Thus, the total forfeiture amount for 100 shares is: Forfeiture Amount = 100 × 3 = 300",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2025-2025-accountancy-02-solutions-Q12",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Purchase of land using a cheque is classified as: (Cash Flow Statement question)",
+          "options": [
+            "Operating Activity",
+            "Investing Activity",
+            "Financing Activity",
+            "Non-Cash Activity"
+          ],
+          "correct": 1,
+          "explanation": "The purchase of land is considered an investing activity. According to the cash flow statement classification, investing activities include the acquisition and disposal of 11 long-term assets, such as land, buildings, and equipment. Since a cheque is being used, it is a cash outflow associated with an investment in long-term assets. Thus, the purchase of land using a cheque is classified under Investing Activity.",
+          "source": "Individual PDF extraction: 2025-accountancy-02-solutions.pdf"
+        }
+      ]
+    }
+  ]
+}

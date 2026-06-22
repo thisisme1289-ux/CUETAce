@@ -92,8 +92,9 @@
         "P=Kali, Q=Godavari, R=Tapti, S=Narmada",
         "P=Sharda, Q=Mahanadi, R=Narmada, S=Tapti"
       ],
-      "correct": 4,
-      "explanation": "P: 'Kali' in Sanskrit means dark/black; the Kali/Sharda River originates in the Himalayas and is a tributary of the Ganga — however, 'Kali' fits the meaning clue. Q: must be east-flowing and peninsular — 'joins Bay of Bengal near Haridwar' is a trick; no peninsular river joins near Haridwar. Mahanadi is east-flowing, peninsular, and drains into Bay of Bengal. R: Narmada originates from Amarkantak in the Maikala Range (associated with Sahyadri/Vindhya complex) and drains into the Arabian Sea. S: Tapti also drains westward into the Arabian Sea via an estuary (not delta), like Narmada. Both Narmada and Tapti form estuaries. Option D is the best fit: Sharda (Himalayan, Ganga tributary), Mahanadi (east-flowing, peninsular), Narmada (Sahyadri-origin, Arabian Sea), Tapti (estuary, west-flowing)."
+      "correct": 3,
+      "explanation": "P: 'Kali' in Sanskrit means dark/black; the Kali/Sharda River originates in the Himalayas and is a tributary of the Ganga — however, 'Kali' fits the meaning clue. Q: must be east-flowing and peninsular — 'joins Bay of Bengal near Haridwar' is a trick; no peninsular river joins near Haridwar. Mahanadi is east-flowing, peninsular, and drains into Bay of Bengal. R: Narmada originates from Amarkantak in the Maikala Range (associated with Sahyadri/Vindhya complex) and drains into the Arabian Sea. S: Tapti also drains westward into the Arabian Sea via an estuary (not delta), like Narmada. Both Narmada and Tapti form estuaries. Option D is the best fit: Sharda (Himalayan, Ganga tributary), Mahanadi (east-flowing, peninsular), Narmada (Sahyadri-origin, Arabian Sea), Tapti (estuary, west-flowing).",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q07",
@@ -152,8 +153,9 @@
         "It contains the Deccan Trap, a large volcanic rock formation",
         "It is geologically the youngest landmass among India's physiographic divisions"
       ],
-      "correct": 4,
-      "explanation": "Option D is incorrect — the Peninsular Plateau is geologically the OLDEST landmass among India's physiographic divisions. It is part of the ancient Gondwana landmass, composed of some of the world's oldest rocks (Archaean/Precambrian). Options A, B, and C are all true: the plateau is made of ancient crystalline rocks; it slopes eastward (evidenced by the Godavari, Krishna, Mahanadi flowing east); and the Deccan Trap in Maharashtra-Karnataka region is a massive volcanic basalt formation created by volcanic eruptions about 65 million years ago. The Himalayas are the youngest physiographic feature of India."
+      "correct": 3,
+      "explanation": "Option D is incorrect — the Peninsular Plateau is geologically the OLDEST landmass among India's physiographic divisions. It is part of the ancient Gondwana landmass, composed of some of the world's oldest rocks (Archaean/Precambrian). Options A, B, and C are all true: the plateau is made of ancient crystalline rocks; it slopes eastward (evidenced by the Godavari, Krishna, Mahanadi flowing east); and the Deccan Trap in Maharashtra-Karnataka region is a massive volcanic basalt formation created by volcanic eruptions about 65 million years ago. The Himalayas are the youngest physiographic feature of India.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q11",
@@ -317,8 +319,9 @@
         "Kaveri",
         "Mahanadi"
       ],
-      "correct": 4,
-      "explanation": "The Mahanadi does NOT originate from the Western Ghats. It originates from the Sihawa hills in Chhattisgarh (part of the Eastern Highlands/Vindhya-Satpura complex). The Godavari originates at Trimbakeshwar near Nasik in the Western Ghats (Maharashtra). The Krishna originates at Mahabaleshwar in the Western Ghats. The Kaveri originates at Talakaveri in Kodagu (Coorg) in the Western Ghats of Karnataka. All three — Godavari, Krishna, Kaveri — are classic west-origin, east-flowing peninsular rivers, while the Mahanadi has a different origin in central India."
+      "correct": 3,
+      "explanation": "The Mahanadi does NOT originate from the Western Ghats. It originates from the Sihawa hills in Chhattisgarh (part of the Eastern Highlands/Vindhya-Satpura complex). The Godavari originates at Trimbakeshwar near Nasik in the Western Ghats (Maharashtra). The Krishna originates at Mahabaleshwar in the Western Ghats. The Kaveri originates at Talakaveri in Kodagu (Coorg) in the Western Ghats of Karnataka. All three — Godavari, Krishna, Kaveri — are classic west-origin, east-flowing peninsular rivers, while the Mahanadi has a different origin in central India.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q22",
@@ -542,8 +545,9 @@
         "The eastern coast is drier because the monsoon has already rained out over the Deccan Plateau by the time it reaches the east",
         "Both B and C together explain the phenomenon"
       ],
-      "correct": 4,
-      "explanation": "Both reasons B and C together explain the phenomenon. The Western Ghats force the moisture-laden Arabian Sea branch of the southwest monsoon upward (orographic lift), causing heavy precipitation on the windward western slopes (Malabar/Konkan — receiving 2,000–4,000 mm). By the time the winds descend on the leeward side (Deccan Plateau), they have lost most moisture — the rain shadow effect. Additionally, when the Bay of Bengal branch of the monsoon crosses the peninsula westward after depositing rain in Bengal/Orissa, there is little moisture left for the eastern coast during the main monsoon season. Hence option D (both B and C) is the most complete answer."
+      "correct": 3,
+      "explanation": "Both reasons B and C together explain the phenomenon. The Western Ghats force the moisture-laden Arabian Sea branch of the southwest monsoon upward (orographic lift), causing heavy precipitation on the windward western slopes (Malabar/Konkan — receiving 2,000–4,000 mm). By the time the winds descend on the leeward side (Deccan Plateau), they have lost most moisture — the rain shadow effect. Additionally, when the Bay of Bengal branch of the monsoon crosses the peninsula westward after depositing rain in Bengal/Orissa, there is little moisture left for the eastern coast during the main monsoon season. Hence option D (both B and C) is the most complete answer.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q37",
@@ -572,8 +576,9 @@
         "The Himalayas extend from the Indus gorge in the west to the Brahmaputra gorge in the east, spanning approximately 2,400 km",
         "The Himalayas consist primarily of sedimentary rock and have no igneous or metamorphic formations"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT correct. The Himalayas do contain igneous and metamorphic rocks in addition to sedimentary rock. The Great Himalayas (Himadri) contain large amounts of granite (igneous) and crystalline metamorphic rocks such as schist and gneiss in their core zones. While the outer ranges like the Shivaliks are primarily sedimentary (sandstone, conglomerate), the inner Himalayas have diverse rock types. Options A, B, and C are all correct: A — the Himalayas are classic fold mountains from plate collision; B — rivers like Indus, Brahmaputra, Sutlej predate the Himalayas (antecedent); C — the Himalayan arc spans ~2,400 km from Indus to Brahmaputra gorges."
+      "correct": 3,
+      "explanation": "Option D is NOT correct. The Himalayas do contain igneous and metamorphic rocks in addition to sedimentary rock. The Great Himalayas (Himadri) contain large amounts of granite (igneous) and crystalline metamorphic rocks such as schist and gneiss in their core zones. While the outer ranges like the Shivaliks are primarily sedimentary (sandstone, conglomerate), the inner Himalayas have diverse rock types. Options A, B, and C are all correct: A — the Himalayas are classic fold mountains from plate collision; B — rivers like Indus, Brahmaputra, Sutlej predate the Himalayas (antecedent); C — the Himalayan arc spans ~2,400 km from Indus to Brahmaputra gorges.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q39",
@@ -640,7 +645,7 @@
       "type": "logical_reasoning",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "A researcher studying river floods notes: 'River X floods its banks every year during monsoon, shifts its course frequently, is known as the 'Sorrow of Bengal,' deposits fertile silt but also causes massive destruction, and has built one of the world's largest deltas jointly with another river.'\n\nWhich river is X, and what is the delta system called?",
+      "question": "A researcher studying river systems notes: 'River X floods its banks during the monsoon in the Bengal plains, deposits fertile silt, and has built one of the world's largest deltas jointly with another major river.'\n\nWhich river is X, and what is the delta system called?",
       "options": [
         "Brahmaputra; Brahmaputra Delta",
         "Damodar; Ganga-Brahmaputra Delta",
@@ -648,7 +653,7 @@
         "Hooghly; Hooghly Delta"
       ],
       "correct": 2,
-      "explanation": "Historically, the Damodar River was called the 'Sorrow of Bengal' due to its devastating floods that shifted course frequently and caused widespread destruction in West Bengal. However, this title is more commonly applied to the Damodar than the Ganga itself. But the clue about 'one of the world's largest deltas jointly with another river' points to the Ganga, which builds the Sundarbans delta jointly with the Brahmaputra. Re-examining: the Damodar was historically 'Sorrow of Bengal'; the Ganga-Brahmaputra-Meghna system forms the Sundarbans. The best fit combining all clues (massive delta, Bengal's river) is the Ganga, with the Ganga-Brahmaputra Delta (Sundarbans) — the world's largest mangrove delta and largest river delta."
+      "explanation": "The clue about building one of the world's largest deltas jointly with another major river points to the Ganga. The Ganga and Brahmaputra, along with the Meghna distributary system in Bangladesh, form the Ganga-Brahmaputra Delta, including the Sundarbans region. The Damodar is historically known as the 'Sorrow of Bengal', but it is not the river that jointly builds the world's largest delta with the Brahmaputra. Option C is correct."
     },
     {
       "id": "GT-S3Q44",
@@ -797,8 +802,9 @@
         "Iron Ore → Aluminium → Odisha; Mica → Fertilizer → Bihar; Bauxite → Steel → Karnataka",
         "Limestone → Cement → Rajasthan; Copper → Electrical wiring → Rajasthan; Coal → Thermal power → Jharkhand"
       ],
-      "correct": 4,
-      "explanation": "Option D is correctly matched: Limestone → Cement (Rajasthan is a major limestone producer, home to large cement plants); Copper → Electrical wiring (Khetri copper mines in Jhunjhunu, Rajasthan, are India's largest copper producer; copper's primary industrial use is electrical wiring); Coal → Thermal power (Jharkhand's Jharia coalfield is India's richest coking coal reserve; coal is the primary fuel for thermal power plants). Option A is partially correct (Bauxite → Aluminium, Odisha is correct; Mica → Electronics is correct), but Goa → Iron Ore (not main producer). Option D is the cleanest fully correct set."
+      "correct": 3,
+      "explanation": "Option D is correctly matched: Limestone → Cement (Rajasthan is a major limestone producer, home to large cement plants); Copper → Electrical wiring (Khetri copper mines in Jhunjhunu, Rajasthan, are India's largest copper producer; copper's primary industrial use is electrical wiring); Coal → Thermal power (Jharkhand's Jharia coalfield is India's richest coking coal reserve; coal is the primary fuel for thermal power plants). Option A is partially correct (Bauxite → Aluminium, Odisha is correct; Mica → Electronics is correct), but Goa → Iron Ore (not main producer). Option D is the cleanest fully correct set.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q54",
@@ -887,8 +893,9 @@
         "Mangrove Forest",
         "Boreal Coniferous Forest"
       ],
-      "correct": 4,
-      "explanation": "Boreal Coniferous Forest (Taiga) is NOT a recognized natural vegetation type found in India. Boreal forests are characteristic of subarctic regions (Canada, Russia, Scandinavia) with extremely cold winters and short summers. India does have alpine/montane vegetation in the high Himalayas that superficially resembles some aspects of boreal forests (pine, fir, spruce), but this is classified as 'Montane Forest' or 'Alpine Vegetation,' not boreal. India's main natural vegetation types include: Tropical Evergreen (Kerala, NE India), Tropical Deciduous (most of India), Tropical Thorn/Arid (Rajasthan), Mangrove (Sundarbans, coastal areas), and Montane forests."
+      "correct": 3,
+      "explanation": "Boreal Coniferous Forest (Taiga) is NOT a recognized natural vegetation type found in India. Boreal forests are characteristic of subarctic regions (Canada, Russia, Scandinavia) with extremely cold winters and short summers. India does have alpine/montane vegetation in the high Himalayas that superficially resembles some aspects of boreal forests (pine, fir, spruce), but this is classified as 'Montane Forest' or 'Alpine Vegetation,' not boreal. India's main natural vegetation types include: Tropical Evergreen (Kerala, NE India), Tropical Deciduous (most of India), Tropical Thorn/Arid (Rajasthan), Mangrove (Sundarbans, coastal areas), and Montane forests.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q60",
@@ -897,13 +904,14 @@
       "difficulty": "difficult",
       "question": "A farmer in the Cauvery delta region grows two crops of rice per year. The first crop (Kuruvai) yields 4.5 tonnes/hectare and covers 0.8 hectares. The second crop (Samba) yields 5.5 tonnes/hectare and covers 0.6 hectares. Assuming the minimum support price (MSP) for rice is ₹2,183/quintal (1 quintal = 100 kg), what is the total revenue from both crops combined?",
       "options": [
-        "₹1,38,459",
+        "₹1,50,627",
         "₹1,27,440",
         "₹1,31,274",
         "₹1,44,580"
       ],
-      "correct": 1,
-      "explanation": "Kuruvai production = 4.5 t/ha × 0.8 ha = 3.6 tonnes = 36 quintals. Samba production = 5.5 t/ha × 0.6 ha = 3.3 tonnes = 33 quintals. Total production = 36 + 33 = 69 quintals. Revenue = 69 × ₹2,183 = ₹1,50,627. Recalculating: 69 × 2,183 = 69 × 2,000 + 69 × 183 = 1,38,000 + 12,627 = ₹1,50,627. None of the options match exactly; the closest available is ₹1,38,459 (option A). Given the multiple-choice constraint, option A represents the intended answer with slight variation in MSP or yield assumptions. The Cauvery delta in Tamil Nadu is a classic double-cropping rice region, with Kuruvai (short duration, June–September) and Samba (long duration, August–January) cycles."
+      "correct": 0,
+      "explanation": "Kuruvai production = 4.5 t/ha x 0.8 ha = 3.6 tonnes = 36 quintals. Samba production = 5.5 t/ha x 0.6 ha = 3.3 tonnes = 33 quintals. Total production = 36 + 33 = 69 quintals. Revenue = 69 x ₹2,183 = ₹1,50,627. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S3Q61",
@@ -1337,8 +1345,9 @@
         "Natural gas is found in abundance in the Krishna-Godavari (KG) basin in Andhra Pradesh, with the D6 block being a major find",
         "India has no proven oil reserves in Rajasthan; all oil is found either offshore or in Assam"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT correct — Rajasthan does have proven onshore oil reserves. The Barmer Basin (Rajasthan) has significant oil and gas reserves, developed by Cairn India (now Vedanta). The Mangala oil field in Barmer is one of India's largest onshore oil fields, producing over 1,50,000 barrels/day at peak. Options A, B, and C are correct: Bombay High (discovered 1974) is India's largest offshore field; Digboi in Assam (discovered 1889) has Asia's oldest operating refinery; the KG Basin's D6 block (Reliance Industries) was a major gas discovery in the 2000s. The Rajasthan omission in option D makes it factually wrong."
+      "correct": 3,
+      "explanation": "Option D is NOT correct — Rajasthan does have proven onshore oil reserves. The Barmer Basin (Rajasthan) has significant oil and gas reserves, developed by Cairn India (now Vedanta). The Mangala oil field in Barmer is one of India's largest onshore oil fields, producing over 1,50,000 barrels/day at peak. Options A, B, and C are correct: Bombay High (discovered 1974) is India's largest offshore field; Digboi in Assam (discovered 1889) has Asia's oldest operating refinery; the KG Basin's D6 block (Reliance Industries) was a major gas discovery in the 2000s. The Rajasthan omission in option D makes it factually wrong.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q90",
@@ -1442,8 +1451,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is FALSE — rivers originating in the Western Ghats do NOT generally flow west to east. The WESTERN side of the Western Ghats drains west into the Arabian Sea (Periyar, Bharathapuzha, Mandovi, Zuari, Sharavathi, etc.). The EASTERN side of the Western Ghats drains east into the Bay of Bengal (Godavari, Krishna, Kaveri). Reason R is TRUE — the Western Ghats do act as a watershed, with the Deccan Plateau sloping eastward causing rivers on its eastern drainage to flow toward the Bay of Bengal. So A is false (should say rivers on the eastern side flow east) while R is true. Hence option D: A is false but R is true."
+      "correct": 3,
+      "explanation": "Assertion A is FALSE — rivers originating in the Western Ghats do NOT generally flow west to east. The WESTERN side of the Western Ghats drains west into the Arabian Sea (Periyar, Bharathapuzha, Mandovi, Zuari, Sharavathi, etc.). The EASTERN side of the Western Ghats drains east into the Bay of Bengal (Godavari, Krishna, Kaveri). Reason R is TRUE — the Western Ghats do act as a watershed, with the Deccan Plateau sloping eastward causing rivers on its eastern drainage to flow toward the Bay of Bengal. So A is false (should say rivers on the eastern side flow east) while R is true. Hence option D: A is false but R is true.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q97",
@@ -1465,15 +1475,16 @@
       "type": "case_based",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "A geography professor explains: 'India's longitudinal extent from 68°7'E (Guhar Moti, Gujarat) to 97°25'E (Kibithoo, Arunachal Pradesh) creates a time difference of approximately 2 hours between the easternmost and westernmost points. However, India uses a single Standard Time (IST = UTC+5:30) to avoid confusion.'\n\nIf it is 10:00 AM IST at Guhar Moti (Gujarat, 68°7'E), what is the local solar time at Kibithoo (Arunachal Pradesh, 97°25'E), given that each degree of longitude = 4 minutes of time?",
+      "question": "A geography professor explains: 'India's longitudinal extent from 68°7'E (Guhar Moti, Gujarat) to 97°25'E (Kibithoo, Arunachal Pradesh) creates a time difference of approximately 2 hours between the easternmost and westernmost points. However, India uses a single Standard Time (IST = UTC+5:30) to avoid confusion.'\n\nIf it is 10:00 AM local solar time at Guhar Moti (Gujarat, 68°7'E), what is the local solar time at Kibithoo (Arunachal Pradesh, 97°25'E), given that each degree of longitude = 4 minutes of time?",
       "options": [
         "10:00 AM (same as IST, no difference)",
         "11:57 AM local solar time",
         "12:04 PM local solar time",
         "11:45 AM local solar time"
       ],
-      "correct": 3,
-      "explanation": "Longitudinal difference = 97°25' − 68°7' = 29°18'. Time difference = 29°18' × 4 min/degree = 29 × 4 + 18 × (4/60) = 116 + 1.2 = 117.2 min ≈ 117 min = 1 hour 57 min. If 10:00 AM IST is the standard time (based on 82.5°E), we need to find local solar time at 97°25'E. Difference between 97°25'E and 82.5°E = 14°55' = 14.917° × 4 min = 59.67 min ≈ 60 min = 1 hour ahead. So local solar time at Kibithoo = 10:00 AM + 1 hour = 11:00 AM approximately. Given calculation variation, the closest answer from options is 11:57 AM (option B). The 2-hour difference between Gujarat and Arunachal Pradesh explains why it gets dark much later in Gujarat than in Arunachal Pradesh at the same IST."
+      "correct": 1,
+      "explanation": "Longitudinal difference = 97°25' - 68°7' = 29°18'. Time difference = 29 x 4 minutes + 18' x 4/60 minutes = 116 + 1.2 = 117.2 minutes, or about 1 hour 57 minutes. Kibithoo lies east of Guhar Moti, so its local solar time is ahead. Therefore 10:00 AM at Guhar Moti corresponds to about 11:57 AM local solar time at Kibithoo. Option B is correct.",
+      "correct_content_review_original": 3
     },
     {
       "id": "GT-S3Q99",
@@ -1517,8 +1528,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is DEBATABLE and largely FALSE in its strong form. Research shows parts of the Sundarbans are actually declining — the delta is losing land to sea level rise and reduced sediment supply from the Ganga (affected by Farakka Barrage and upstream diversions). Some researchers argue the overall delta is in a net sediment deficit. Reason R, while partially true (Brahmaputra does carry enormous sediment — actually among the world's highest suspended sediment loads), does not fully counteract sediment trapping by dams and diversions. The overall picture is of a stressed delta, not one 'actively growing.' Hence A is largely false; R has some truth but overstates the Brahmaputra's compensatory role. Option D best fits: A is largely false, R has some truth."
+      "correct": 3,
+      "explanation": "Assertion A is DEBATABLE and largely FALSE in its strong form. Research shows parts of the Sundarbans are actually declining — the delta is losing land to sea level rise and reduced sediment supply from the Ganga (affected by Farakka Barrage and upstream diversions). Some researchers argue the overall delta is in a net sediment deficit. Reason R, while partially true (Brahmaputra does carry enormous sediment — actually among the world's highest suspended sediment loads), does not fully counteract sediment trapping by dams and diversions. The overall picture is of a stressed delta, not one 'actively growing.' Hence A is largely false; R has some truth but overstates the Brahmaputra's compensatory role. Option D best fits: A is largely false, R has some truth.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q102",
@@ -1547,8 +1559,9 @@
         "Ebony, rosewood, and mahogany are commonly found trees in these forests",
         "These forests are found extensively across peninsular India, from Rajasthan to Karnataka"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT correct. Tropical wet evergreen forests are NOT found extensively across peninsular India from Rajasthan to Karnataka — they require very high rainfall (>200 cm or >2,000 mm) with no pronounced dry season. In India, they are found in: (1) Western Ghats — Kerala, coastal Karnataka, Goa (windward side receiving 3,000+ mm); (2) Northeastern India — Assam, Meghalaya, Arunachal Pradesh (11,000+ mm in Meghalaya); (3) Andaman and Nicobar Islands. Rajasthan is arid/semi-arid and has absolutely no tropical wet evergreen forests. Options A, B, and C are all correct characteristics of these multi-storeyed, dense forests with 200+ tree species per hectare."
+      "correct": 3,
+      "explanation": "Option D is NOT correct. Tropical wet evergreen forests are NOT found extensively across peninsular India from Rajasthan to Karnataka — they require very high rainfall (>200 cm or >2,000 mm) with no pronounced dry season. In India, they are found in: (1) Western Ghats — Kerala, coastal Karnataka, Goa (windward side receiving 3,000+ mm); (2) Northeastern India — Assam, Meghalaya, Arunachal Pradesh (11,000+ mm in Meghalaya); (3) Andaman and Nicobar Islands. Rajasthan is arid/semi-arid and has absolutely no tropical wet evergreen forests. Options A, B, and C are all correct characteristics of these multi-storeyed, dense forests with 200+ tree species per hectare.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q104",
@@ -1577,8 +1590,9 @@
         "The Aravallis and Vindhyas form the Western Ghats while Satpura forms the Eastern Ghats",
         "These ranges all originated from the same Himalayan orogeny and are geologically young"
       ],
-      "correct": 2,
-      "explanation": "Option B is correct. These are distinct ranges with different geological origins: (1) Aravallis are among the world's oldest surviving fold mountains (over 1 billion years old, Pre-Cambrian), running through Rajasthan from Gujarat to Delhi — geologically eroded to low ridges. (2) Vindhyas: Ancient block mountains/escarpments in central India; geologically old, running east-west through MP. (3) Satpura: A range south of the Narmada, running parallel to the Vindhyas and Narmada valley (graben), with peaks like Dhupgarh (1,350 m, highest in MP). (4) These ranges form the watershed between the Ganga-Indus drainage to the north and the peninsular rivers (Godavari, Krishna) to the south. They are NOT geologically continuous, NOT related to the Himalayas, and are ancient pre-Himalayan features."
+      "correct": 1,
+      "explanation": "Option B is correct. These are distinct ranges with different geological origins: (1) Aravallis are among the world's oldest surviving fold mountains (over 1 billion years old, Pre-Cambrian), running through Rajasthan from Gujarat to Delhi — geologically eroded to low ridges. (2) Vindhyas: Ancient block mountains/escarpments in central India; geologically old, running east-west through MP. (3) Satpura: A range south of the Narmada, running parallel to the Vindhyas and Narmada valley (graben), with peaks like Dhupgarh (1,350 m, highest in MP). (4) These ranges form the watershed between the Ganga-Indus drainage to the north and the peninsular rivers (Godavari, Krishna) to the south. They are NOT geologically continuous, NOT related to the Himalayas, and are ancient pre-Himalayan features.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S3Q106",
@@ -1587,13 +1601,14 @@
       "difficulty": "difficult",
       "question": "Study this data on India's crop production and MSP:\n\nCrop | Area (M ha) | Production (MT) | MSP (₹/Quintal)\nWheat | 31 | 110 | 2,275\nRice | 44 | 130 | 2,183\nMustard | 9 | 12 | 5,650\nGram | 10 | 13 | 5,440\n\nWhich crop provides the highest revenue per hectare at MSP, and which provides the lowest?",
       "options": [
-        "Mustard highest (₹75,333/ha); Rice lowest (₹64,488/ha)",
+        "Wheat highest (₹80,726/ha); Rice lowest (₹64,488/ha)",
         "Gram highest (₹70,720/ha); Wheat lowest (₹80,677/ha)",
         "Mustard highest (₹75,333/ha); Wheat lowest (₹80,677/ha)",
         "Rice highest (₹64,488/ha); Gram lowest (₹70,720/ha)"
       ],
-      "correct": 1,
-      "explanation": "Revenue per hectare = (Production/Area) × MSP (converting to quintals: 1 tonne = 10 quintals). Wheat: (110/31) × 10 × 2,275 = 3.548 × 10 × 2,275 = 35.48 × 2,275 = ₹80,717/ha. Rice: (130/44) × 10 × 2,183 = 2.955 × 10 × 2,183 = 29.55 × 2,183 = ₹64,488/ha. Mustard: (12/9) × 10 × 5,650 = 1.333 × 10 × 5,650 = 13.33 × 5,650 = ₹75,322/ha. Gram: (13/10) × 10 × 5,440 = 1.3 × 10 × 5,440 = 13 × 5,440 = ₹70,720/ha. Highest = Wheat (₹80,717/ha); Lowest = Rice (₹64,488/ha). Wait — the option says Mustard highest, Rice lowest. Re-checking: Wheat gives ₹80,717 which is highest! Option A (Mustard highest, Rice lowest) has Rice as lowest correctly but Mustard is not the highest. The actual highest is Wheat. This is a tricky question where Option A partially matches — Rice IS the lowest."
+      "correct": 0,
+      "explanation": "Revenue per hectare = (Production/Area) x 10 quintals per tonne x MSP. Wheat: (110/31) x 10 x ₹2,275 = about ₹80,726/ha. Rice: (130/44) x 10 x ₹2,183 = about ₹64,488/ha. Mustard: (12/9) x 10 x ₹5,650 = about ₹75,333/ha. Gram: (13/10) x 10 x ₹5,440 = ₹70,720/ha. Wheat gives the highest revenue per hectare and rice gives the lowest. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S3Q107",
@@ -1889,11 +1904,11 @@
       "options": [
         "2.81 times",
         "3.52 times",
-        "4.07 times",
+        "4.38 times",
         "1.93 times"
       ],
       "correct": 2,
-      "explanation": "Global per capita freshwater = 46,800 BCM ÷ 8 billion people = 5.85 BCM/million people = 5,850 m³/person. Indian per capita freshwater = 1,869 BCM ÷ 1.4 billion = 1,335 m³/person. Ratio = 5,850 / 1,335 = 4.38 times. Closest option is 4.07 times (option C) — slight variation due to rounding of BCM figures. This stark ratio (global average person has ~4+ times more freshwater than the average Indian) highlights India's severe water stress despite being a major river nation. With per capita availability below 1,700 m³/year (the water stress threshold), India is already classified as 'water stressed' and trending toward 'water scarcity' (<1,000 m³/capita/year)."
+      "explanation": "Global per capita freshwater = 46,800 BCM / 8 billion people = 5,850 m³/person. India's population = 17.5% of 8 billion = 1.4 billion. Indian per capita freshwater = 1,869 BCM / 1.4 billion = about 1,335 m³/person. Ratio = 5,850 / 1,335 = about 4.38 times. Option C is correct."
     },
     {
       "id": "GT-S3Q127",
@@ -1907,8 +1922,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is FALSE — India does have an active volcano: Barren Island in the Andaman and Nicobar Islands is India's only active volcano and the only confirmed active volcano in South Asia. It last erupted significantly in 2017. There is also Narcondam Island (a dormant volcano) in the Andamans. Reason R is TRUE regarding the mainland Indian plate being tectonically stable (away from active plate boundaries) — so no volcanoes on peninsular India, Gangetic plains, or Himalayan region proper. But since A is false (Barren Island volcano exists), we have: A is false, R is true → Option D. The volcanic activity in Andamans is related to the subduction of the Indian plate under the Burma plate in the East."
+      "correct": 3,
+      "explanation": "Assertion A is FALSE — India does have an active volcano: Barren Island in the Andaman and Nicobar Islands is India's only active volcano and the only confirmed active volcano in South Asia. It last erupted significantly in 2017. There is also Narcondam Island (a dormant volcano) in the Andamans. Reason R is TRUE regarding the mainland Indian plate being tectonically stable (away from active plate boundaries) — so no volcanoes on peninsular India, Gangetic plains, or Himalayan region proper. But since A is false (Barren Island volcano exists), we have: A is false, R is true → Option D. The volcanic activity in Andamans is related to the subduction of the Indian plate under the Burma plate in the East.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q128",
@@ -1992,13 +2008,14 @@
       "difficulty": "difficult",
       "question": "The following table shows India's water usage by sector:\n\nSector | Water Usage (BCM/year) | % of Total\nAgriculture | 688 | 78%\nIndustry | 56 | 6%\nDomestic/Municipal | 56 | 6%\nEnvironmental flows | 88 | 10%\nTotal | 888 | 100%\n\nIf India could improve agricultural water use efficiency by 20% (from current 40% efficiency to 48% through drip/sprinkler irrigation), how many BCM of water would be saved annually?",
       "options": [
-        "137.6 BCM",
+        "114.7 BCM",
         "155.3 BCM",
         "172.0 BCM",
         "119.4 BCM"
       ],
-      "correct": 1,
-      "explanation": "Current agricultural water use = 688 BCM. Current efficiency = 40%, meaning only 40% of 688 BCM actually reaches crops = 275.2 BCM of 'productive' water use. Remaining 412.8 BCM is wasted (evaporation, seepage, runoff). Improved efficiency = 48%. At 48% efficiency, to deliver the same 275.2 BCM to crops: Required water = 275.2 / 0.48 = 573.3 BCM. Water saved = 688 − 573.3 = 114.7 BCM ≈ approximately 115–138 BCM range. Alternatively: 20% improvement in efficiency means 20% of 688 = 137.6 BCM saved if interpreted as direct 20% reduction. Option A (137.6 BCM) matches the straightforward 20% × 688 calculation, making it the intended answer. This saved water could supply domestic and industrial needs for years."
+      "correct": 0,
+      "explanation": "Current agricultural water use = 688 BCM. At 40% efficiency, productive water reaching crops = 688 x 0.40 = 275.2 BCM. If efficiency rises to 48%, the water required to deliver the same productive amount is 275.2 / 0.48 = 573.3 BCM. Water saved = 688 - 573.3 = 114.7 BCM. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S3Q134",
@@ -2027,8 +2044,9 @@
         "Nathu La — Sikkim — China (Tibet); Lipulekh — Uttarakhand — China (Tibet) via Nepal; Bomdi La — Arunachal Pradesh — China (Tibet)",
         "Zoji La — J&K — Afghanistan; Mana Pass — Uttarakhand — Pakistan; Rohtang Pass — HP — China"
       ],
-      "correct": 3,
-      "explanation": "Option C is correct: (1) Nathu La (4,310 m) in East Sikkim connects India with China (Tibet Autonomous Region); it was reopened in 2006 for border trade after decades of closure following 1962 war. (2) Lipulekh Pass (5,200 m) in Pithoragarh, Uttarakhand — connects India with China (Tibet) via the disputed Nepal border region; used historically for Kailash Mansarovar Yatra. (3) Bomdi La in West Kameng, Arunachal Pradesh — connects India with China (Tibet). Zoji La connects J&K with Ladakh (not Pakistan); Mana Pass connects Uttarakhand with Tibet; Shipki La connects Himachal with Tibet. Option A incorrectly shows Zoji La connecting to Pakistan."
+      "correct": 2,
+      "explanation": "Option C is correct: (1) Nathu La (4,310 m) in East Sikkim connects India with China (Tibet Autonomous Region); it was reopened in 2006 for border trade after decades of closure following 1962 war. (2) Lipulekh Pass (5,200 m) in Pithoragarh, Uttarakhand — connects India with China (Tibet) via the disputed Nepal border region; used historically for Kailash Mansarovar Yatra. (3) Bomdi La in West Kameng, Arunachal Pradesh — connects India with China (Tibet). Zoji La connects J&K with Ladakh (not Pakistan); Mana Pass connects Uttarakhand with Tibet; Shipki La connects Himachal with Tibet. Option A incorrectly shows Zoji La connecting to Pakistan.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "GT-S3Q136",
@@ -2068,12 +2086,12 @@
       "question": "India has 29 states and 7 Union Territories (as of the last major reorganization, before J&K bifurcation, now 28 states and 8 UTs). If the five largest states by area (Rajasthan 342,239 sq km, MP 308,252 sq km, Maharashtra 307,713 sq km, Uttar Pradesh 240,928 sq km, Gujarat 196,024 sq km) together cover what percentage of India's total area (3,287,263 sq km)?",
       "options": [
         "40.7%",
-        "43.2%",
+        "42.44%",
         "38.1%",
         "45.6%"
       ],
       "correct": 1,
-      "explanation": "Combined area of 5 largest states = 342,239 + 308,252 + 307,713 + 240,928 + 196,024 = 1,395,156 sq km. Percentage = (1,395,156 / 3,287,263) × 100 = 42.44% ≈ approximately 40.7% to 43.2%. Calculating precisely: 1,395,156 / 3,287,263 = 0.4244 = 42.44%. The closest option is 43.2% (option B) or 40.7% (option A). Given the calculation yields 42.44%, Option B (43.2%) is closest. Rajasthan, India's largest state by area, is larger than many European countries. These five states together cover nearly 43% of India's area but their population share is much lower relative to smaller but more densely populated states like UP and Bihar."
+      "explanation": "Combined area of the five largest states = 342,239 + 308,252 + 307,713 + 240,928 + 196,024 = 1,395,156 sq km. Percentage of India's total area = (1,395,156 / 3,287,263) x 100 = 42.44%. Option B is correct."
     },
     {
       "id": "GT-S3Q139",
@@ -2087,8 +2105,9 @@
         "Rihand Dam — Rihand River (Sone tributary) — Uttar Pradesh — creates the Govind Ballabh Pant Sagar reservoir",
         "Mettur Dam — Godavari River — Tamil Nadu — provides water for Tamil Nadu's delta agriculture"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT correct. The Mettur Dam is NOT on the Godavari — it is built on the Kaveri River in Salem district, Tamil Nadu. Mettur Dam (officially: Stanley Reservoir) is one of Tamil Nadu's largest dams and is critical for irrigation in the Cauvery delta (Thanjavur, Tiruvarur). Its opening each June marks the traditional beginning of the kuruvai paddy cultivation season in Tamil Nadu. Options A, B, and C are all correctly matched: Hirakud Dam on the Mahanadi is India's longest dam (26 km including earthen embankments); Nagarjuna Sagar Dam on the Krishna is indeed one of the world's largest masonry dams; Rihand Dam creates the Govind Ballabh Pant Sagar (India's largest man-made reservoir by volume)."
+      "correct": 3,
+      "explanation": "Option D is NOT correct. The Mettur Dam is NOT on the Godavari — it is built on the Kaveri River in Salem district, Tamil Nadu. Mettur Dam (officially: Stanley Reservoir) is one of Tamil Nadu's largest dams and is critical for irrigation in the Cauvery delta (Thanjavur, Tiruvarur). Its opening each June marks the traditional beginning of the kuruvai paddy cultivation season in Tamil Nadu. Options A, B, and C are all correctly matched: Hirakud Dam on the Mahanadi is India's longest dam (26 km including earthen embankments); Nagarjuna Sagar Dam on the Krishna is indeed one of the world's largest masonry dams; Rihand Dam creates the Govind Ballabh Pant Sagar (India's largest man-made reservoir by volume).",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q140",
@@ -2187,13 +2206,14 @@
       "difficulty": "difficult",
       "question": "A policy analyst notes: 'India's agricultural productivity remains well below potential. The national average yield for wheat is ~3.5 tonnes/ha while Punjab achieves 5.3 tonnes/ha, and global best practices (USA, France) achieve 6–8 tonnes/ha. If India could raise the national wheat yield from 3.5 to 5.0 tonnes/ha without expanding cultivated area (31 million ha), by how much would total wheat production increase?'\n\nCalculate the additional production and express as a percentage increase:",
       "options": [
-        "Additional 46.5 MT; 42.3% increase",
+        "Additional 46.5 MT; 42.9% increase",
         "Additional 30.0 MT; 43.8% increase (approximately)",
         "Additional 22.5 MT; 37.6% increase",
         "Additional 38.5 MT; 35.0% increase"
       ],
-      "correct": 2,
-      "explanation": "Current production = 31 M ha × 3.5 t/ha = 108.5 MT. New production at 5.0 t/ha = 31 × 5.0 = 155.0 MT. Additional production = 155.0 − 108.5 = 46.5 MT. Percentage increase = (46.5 / 108.5) × 100 = 42.86% ≈ 42.3–43.8%. The closest option is B (30 MT additional, 43.8% increase) and A (46.5 MT, 42.3%). The correct calculation gives 46.5 MT additional and ~42.9% increase. Option A correctly states 46.5 MT additional and 42.3% increase — it is the correct answer. This analysis shows India's 'yield gap' — the potential to double food production through yield improvement alone without any land expansion, which is both environmentally sustainable and achievable through better seed varieties, irrigation, and agronomy."
+      "correct": 0,
+      "explanation": "Current production = 31 M ha x 3.5 t/ha = 108.5 MT. New production at 5.0 t/ha = 31 x 5.0 = 155.0 MT. Additional production = 155.0 - 108.5 = 46.5 MT. Percentage increase = (46.5 / 108.5) x 100 = 42.86%, or about 42.9%. Option A is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "GT-S3Q147",
@@ -2222,8 +2242,9 @@
         "They include valuable timber species like teak, sal, sandalwood, and bamboo",
         "They are evergreen year-round and maintain a closed canopy even during the driest months"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT a feature of tropical deciduous forests — by definition, deciduous means trees shed their leaves seasonally. Tropical deciduous forests shed leaves during the dry season (typically February–May in India) to minimize water loss through transpiration when soil moisture is scarce. This creates an open canopy for several months, allowing light penetration and undergrowth development. Options A, B, and C are all correct: (A) Deciduous leaf-shedding is the defining characteristic; (B) Tropical deciduous forests cover about 65–70% of India's forest area, making them the most widespread; (C) They contain economically valuable species — teak (Tectona grandis) in central India, sal (Shorea robusta) in eastern India, sandalwood in Karnataka, and bamboo across much of the range."
+      "correct": 3,
+      "explanation": "Option D is NOT a feature of tropical deciduous forests — by definition, deciduous means trees shed their leaves seasonally. Tropical deciduous forests shed leaves during the dry season (typically February–May in India) to minimize water loss through transpiration when soil moisture is scarce. This creates an open canopy for several months, allowing light penetration and undergrowth development. Options A, B, and C are all correct: (A) Deciduous leaf-shedding is the defining characteristic; (B) Tropical deciduous forests cover about 65–70% of India's forest area, making them the most widespread; (C) They contain economically valuable species — teak (Tectona grandis) in central India, sal (Shorea robusta) in eastern India, sandalwood in Karnataka, and bamboo across much of the range.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q149",
@@ -2267,8 +2288,9 @@
         "Krishna forms the boundary between Telangana and Andhra Pradesh; Chambal forms part of the MP-Rajasthan boundary",
         "Narmada forms the boundary between Punjab and Haryana"
       ],
-      "correct": 3,
-      "explanation": "Option C is correct: The Krishna River forms part of the boundary between Telangana (north) and Andhra Pradesh (south) in its middle course. The Chambal River (a tributary of the Yamuna) forms a significant portion of the boundary between Rajasthan and Madhya Pradesh. Several other rivers also serve as state boundaries: Son forms part of UP-MP border, Mahanadi forms part of the Chhattisgarh-Odisha border, and the Narmada forms the Madhya Pradesh-Maharashtra border in its lower reaches (not Punjab-Haryana as in option D). River boundaries create governance challenges particularly for water sharing, fishing rights, and sand mining regulation between states."
+      "correct": 2,
+      "explanation": "Option C is correct: The Krishna River forms part of the boundary between Telangana (north) and Andhra Pradesh (south) in its middle course. The Chambal River (a tributary of the Yamuna) forms a significant portion of the boundary between Rajasthan and Madhya Pradesh. Several other rivers also serve as state boundaries: Son forms part of UP-MP border, Mahanadi forms part of the Chhattisgarh-Odisha border, and the Narmada forms the Madhya Pradesh-Maharashtra border in its lower reaches (not Punjab-Haryana as in option D). River boundaries create governance challenges particularly for water sharing, fishing rights, and sand mining regulation between states.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "GT-S3Q152",
@@ -2462,8 +2484,9 @@
         "Revenue ₹3,65,100; Can repay full principal of ₹3,50,000",
         "Revenue ₹1,98,600; Cannot repay any debt"
       ],
-      "correct": 1,
-      "explanation": "Year 2 cotton production = 1.5 t/ha × 3 ha = 4.5 tonnes = 45 quintals. Revenue = 45 × ₹6,620 = ₹2,97,900. Total principal debt = ₹2,00,000 (year 1) + ₹1,50,000 (year 2) = ₹3,50,000. Revenue (₹2,97,900) < Total debt (₹3,50,000), so Raman CANNOT repay the full principal. He still owes ₹52,100 in principal, plus accumulated interest at 24% annual (year 1: ₹48,000 + year 2: ₹36,000 interest = ₹84,000 additional). This scenario reflects the agrarian crisis in Vidarbha — one of India's most serious farmer suicide belt regions, where cotton farmers face debt traps due to crop failures (Pink Bollworm devastated Bt cotton from ~2015 onward), high input costs, and moneylender exploitation. Answer: Option A — revenue ₹2,97,900, cannot repay ₹3,50,000 principal."
+      "correct": 0,
+      "explanation": "Year 2 cotton production = 1.5 t/ha × 3 ha = 4.5 tonnes = 45 quintals. Revenue = 45 × ₹6,620 = ₹2,97,900. Total principal debt = ₹2,00,000 (year 1) + ₹1,50,000 (year 2) = ₹3,50,000. Revenue (₹2,97,900) < Total debt (₹3,50,000), so Raman CANNOT repay the full principal. He still owes ₹52,100 in principal, plus accumulated interest at 24% annual (year 1: ₹48,000 + year 2: ₹36,000 interest = ₹84,000 additional). This scenario reflects the agrarian crisis in Vidarbha — one of India's most serious farmer suicide belt regions, where cotton farmers face debt traps due to crop failures (Pink Bollworm devastated Bt cotton from ~2015 onward), high input costs, and moneylender exploitation. Answer: Option A — revenue ₹2,97,900, cannot repay ₹3,50,000 principal.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "GT-S3Q165",
@@ -2537,8 +2560,9 @@
         "It receives very heavy rainfall (2,000–3,000 mm) during the southwest monsoon",
         "It has wide, flat alluvial plains similar to the Ganga-Brahmaputra delta, suitable for large-scale rice and wheat cultivation"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT a characteristic of the Konkan Coast. The Konkan Coast does NOT have wide flat alluvial plains like the Ganga-Brahmaputra delta. It is a narrow coastal strip backed by the steep Western Ghats, with lateritic and red-yellow soils (not deep alluvial). The terrain is hilly and dissected by short, fast-flowing rivers. Wheat is NOT cultivated in the Konkan — it is a tropical region with too much rainfall and warm temperatures for wheat. Rice is grown but on terraced hill slopes, not in vast flat plains. Options A, B, and C are all correct Konkan characteristics: narrow coastal plain, cashew-coconut-mango cultivation (Alphonso mangoes from Ratnagiri are world-famous), and very heavy southwest monsoon rainfall."
+      "correct": 3,
+      "explanation": "Option D is NOT a characteristic of the Konkan Coast. The Konkan Coast does NOT have wide flat alluvial plains like the Ganga-Brahmaputra delta. It is a narrow coastal strip backed by the steep Western Ghats, with lateritic and red-yellow soils (not deep alluvial). The terrain is hilly and dissected by short, fast-flowing rivers. Wheat is NOT cultivated in the Konkan — it is a tropical region with too much rainfall and warm temperatures for wheat. Rice is grown but on terraced hill slopes, not in vast flat plains. Options A, B, and C are all correct Konkan characteristics: narrow coastal plain, cashew-coconut-mango cultivation (Alphonso mangoes from Ratnagiri are world-famous), and very heavy southwest monsoon rainfall.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q170",
@@ -2642,8 +2666,9 @@
         "The Brahmaputra forms the world's largest river island, Majuli, in Assam",
         "The Brahmaputra has the smallest river basin among all major Indian rivers due to the narrow Assam valley"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT correct — the Brahmaputra has one of the LARGEST river basins in India, not the smallest. The Brahmaputra's total basin area is about 5,80,000 sq km, of which approximately 5.8 lakh sq km is within Indian territory (Arunachal Pradesh, Assam, Meghalaya). While the Assam valley is narrow, the overall basin includes the vast Arunachal Pradesh highlands and the Tibetan plateau portion. Options A, B, and C are all correct: A — Tsangpo in Tibet, Dihang at Assam border, Brahmaputra in Assam, Jamuna in Bangladesh; B — Kaziranga National Park (2/3 of world's one-horned rhinos), Manas Tiger Reserve, high biodiversity; C — Majuli (2016 recognized as India's first river island district) is the world's largest river island at ~1,250 sq km."
+      "correct": 3,
+      "explanation": "Option D is NOT correct — the Brahmaputra has one of the LARGEST river basins in India, not the smallest. The Brahmaputra's total basin area is about 5,80,000 sq km, of which approximately 5.8 lakh sq km is within Indian territory (Arunachal Pradesh, Assam, Meghalaya). While the Assam valley is narrow, the overall basin includes the vast Arunachal Pradesh highlands and the Tibetan plateau portion. Options A, B, and C are all correct: A — Tsangpo in Tibet, Dihang at Assam border, Brahmaputra in Assam, Jamuna in Bangladesh; B — Kaziranga National Park (2/3 of world's one-horned rhinos), Manas Tiger Reserve, high biodiversity; C — Majuli (2016 recognized as India's first river island district) is the world's largest river island at ~1,250 sq km.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q177",
@@ -2747,8 +2772,9 @@
         "Statement 3 (Ganga has more tributaries)",
         "Statement 4 (All rivers drain into Arabian Sea or Bay of Bengal — incorrect because some drain into the Rann of Kutch and some into the Mannar Gulf)"
       ],
-      "correct": 4,
-      "explanation": "Statement 4 contains a misconception — not all Indian rivers drain into ONLY the Arabian Sea or Bay of Bengal. The Luni River in Rajasthan flows into the Rann of Kutch (a seasonal salt marsh/lake), not directly into any sea. Some smaller rivers in arid Rajasthan drain into inland playas (salt lakes) and never reach the sea. However, in broad terms, all major rivers do ultimately drain into one of the two water bodies. Statements 1, 2, and 3 are all accurate: (1) Himalayan rivers do carry more silt (softer Himalayan rock + heavier rainfall); (2) Peninsular rivers (rocky beds, steep gradients in upper courses) are indeed better suited for run-of-river hydropower; (3) Ganga has hundreds of tributaries (Yamuna, Ghaghra, Son, Kosi, Gandak, etc.) vs. Narmada's few short tributaries. Statement 4 is thus the misconception-containing statement."
+      "correct": 3,
+      "explanation": "Statement 4 contains a misconception — not all Indian rivers drain into ONLY the Arabian Sea or Bay of Bengal. The Luni River in Rajasthan flows into the Rann of Kutch (a seasonal salt marsh/lake), not directly into any sea. Some smaller rivers in arid Rajasthan drain into inland playas (salt lakes) and never reach the sea. However, in broad terms, all major rivers do ultimately drain into one of the two water bodies. Statements 1, 2, and 3 are all accurate: (1) Himalayan rivers do carry more silt (softer Himalayan rock + heavier rainfall); (2) Peninsular rivers (rocky beds, steep gradients in upper courses) are indeed better suited for run-of-river hydropower; (3) Ganga has hundreds of tributaries (Yamuna, Ghaghra, Son, Kosi, Gandak, etc.) vs. Narmada's few short tributaries. Statement 4 is thus the misconception-containing statement.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q184",
@@ -2807,8 +2833,9 @@
         "Bihar",
         "Madhya Pradesh"
       ],
-      "correct": 4,
-      "explanation": "Madhya Pradesh does NOT have the Ganga flowing through it. The Ganga flows through: Uttarakhand (from Gangotri glacier to Rishikesh and Haridwar) → Uttar Pradesh (from Haridwar through Allahabad/Prayagraj to Varanasi and beyond) → Bihar (through Patna, Bhagalpur) → Jharkhand (briefly, near the Sahebganj district) → West Bengal (from Farakka, splitting into Hooghly and continuing as Padma into Bangladesh). Madhya Pradesh borders UP and has rivers like Son, Betwa, Chambal (all Ganga tributaries) but the Ganga itself does not flow through MP territory. Options A, B, and C are all correct — Uttarakhand, UP, and Bihar are the primary Ganga-traversed states in order of the river's flow."
+      "correct": 3,
+      "explanation": "Madhya Pradesh does NOT have the Ganga flowing through it. The Ganga flows through: Uttarakhand (from Gangotri glacier to Rishikesh and Haridwar) → Uttar Pradesh (from Haridwar through Allahabad/Prayagraj to Varanasi and beyond) → Bihar (through Patna, Bhagalpur) → Jharkhand (briefly, near the Sahebganj district) → West Bengal (from Farakka, splitting into Hooghly and continuing as Padma into Bangladesh). Madhya Pradesh borders UP and has rivers like Son, Betwa, Chambal (all Ganga tributaries) but the Ganga itself does not flow through MP territory. Options A, B, and C are all correct — Uttarakhand, UP, and Bihar are the primary Ganga-traversed states in order of the river's flow.",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q188",
@@ -2912,8 +2939,9 @@
         "Gir National Park in Gujarat is the last remaining habitat of Asiatic lions",
         "Periyar National Park in Rajasthan is famous for wild elephants and tigers in a semi-arid landscape"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT correct — Periyar National Park is in KERALA, NOT Rajasthan. Periyar (also called Periyar Tiger Reserve), located in the Cardamom Hills of Kerala around Periyar Lake, is famous for wild elephants (one of India's largest elephant populations) and tigers, in a tropical moist deciduous forest and tropical evergreen forest landscape. It is definitely NOT in a semi-arid landscape — Kerala's Periyar receives 2,500+ mm of rainfall. Options A, B, and C are all correct: Jim Corbett (est. 1936, formerly Hailey NP) is indeed India's oldest; Kaziranga UNESCO status and rhino population are correct; Gir (Gujarat) is the only wild habitat of Asiatic lions (~675 lions as of 2020 census)."
+      "correct": 3,
+      "explanation": "Option D is NOT correct — Periyar National Park is in KERALA, NOT Rajasthan. Periyar (also called Periyar Tiger Reserve), located in the Cardamom Hills of Kerala around Periyar Lake, is famous for wild elephants (one of India's largest elephant populations) and tigers, in a tropical moist deciduous forest and tropical evergreen forest landscape. It is definitely NOT in a semi-arid landscape — Kerala's Periyar receives 2,500+ mm of rainfall. Options A, B, and C are all correct: Jim Corbett (est. 1936, formerly Hailey NP) is indeed India's oldest; Kaziranga UNESCO status and rhino population are correct; Gir (Gujarat) is the only wild habitat of Asiatic lions (~675 lions as of 2020 census).",
+      "correct_original": 4
     },
     {
       "id": "GT-S3Q195",
@@ -2957,8 +2985,9 @@
         "4.25 BCM",
         "2.75 BCM"
       ],
-      "correct": 2,
-      "explanation": "Large check dams: 45,000 × 50,000 m³ = 2,250,000,000 m³ = 2.25 BCM. Small check dams: 200,000 × 5,000 m³ = 1,000,000,000 m³ = 1.00 BCM. Farm ponds: 1,000,000 × 500 m³ = 500,000,000 m³ = 0.50 BCM. Total = 2.25 + 1.00 + 0.50 = 3.75 BCM. Wait, this gives 3.75 BCM (option A). Let me verify: all calculations correct. Option A (3.75 BCM) is the mathematically correct answer. This distributed water storage (3.75 BCM) is significant for local groundwater recharge and irrigation, though it's small compared to India's major reservoirs (total live storage ~300 BCM). The decentralized check dam model (Sardar Patel's Gujarat model, Anna Hazare's Ralegan Siddhi model) has been highly successful in drought-proofing villages in arid regions."
+      "correct": 0,
+      "explanation": "Large check dams: 45,000 x 50,000 m³ = 2,250,000,000 m³ = 2.25 BCM. Small check dams: 200,000 x 5,000 m³ = 1,000,000,000 m³ = 1.00 BCM. Farm ponds: 1,000,000 x 500 m³ = 500,000,000 m³ = 0.50 BCM. Total storage = 2.25 + 1.00 + 0.50 = 3.75 BCM. Option A is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "GT-S3Q198",

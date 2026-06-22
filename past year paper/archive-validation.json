@@ -1,0 +1,2227 @@
+{
+  "pdf_count": 180,
+  "question_json_count": 111,
+  "schema_error_count": 0,
+  "pdfs": [
+    {
+      "pdf_path": "past year paper/2022/accountancy/pdf/2022-accountancy.pdf",
+      "year": "2022",
+      "subject_key": "accountancy",
+      "bytes": 2101814,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/accountancy/pdf/careerindia/2022-accountancy-careerindia.pdf",
+      "year": "2022",
+      "subject_key": "accountancy",
+      "bytes": 1767990,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/accountancy/pdf/collegedunia/2022-accountancy-01-question-paper.pdf",
+      "year": "2022",
+      "subject_key": "accountancy",
+      "bytes": 7031408,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/accountancy/pdf/collegedunia/2022-accountancy-02-answer-key.pdf",
+      "year": "2022",
+      "subject_key": "accountancy",
+      "bytes": 111176,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/business-studies/pdf/2022-business-studies.pdf",
+      "year": "2022",
+      "subject_key": "business-studies",
+      "bytes": 2199180,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/business-studies/pdf/careerindia/2022-business-studies-careerindia.pdf",
+      "year": "2022",
+      "subject_key": "business-studies",
+      "bytes": 1872101,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/business-studies/pdf/collegedekho/2022-business-studies-collegedekho-set36.pdf",
+      "year": "2022",
+      "subject_key": "business-studies",
+      "bytes": 1865829,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/business-studies/pdf/collegedunia/2022-business-studies-01-question-paper.pdf",
+      "year": "2022",
+      "subject_key": "business-studies",
+      "bytes": 7693533,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/economics/pdf/2022-economics.pdf",
+      "year": "2022",
+      "subject_key": "economics",
+      "bytes": 4834632,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/economics/pdf/careerindia/2022-economics-careerindia.pdf",
+      "year": "2022",
+      "subject_key": "economics",
+      "bytes": 4455367,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/economics/pdf/collegedunia/2022-economics-01-question-paper.pdf",
+      "year": "2022",
+      "subject_key": "economics",
+      "bytes": 11289476,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/economics/pdf/collegedunia/2022-economics-02-answer-key.pdf",
+      "year": "2022",
+      "subject_key": "economics",
+      "bytes": 112275,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/english/pdf/2022-english.pdf",
+      "year": "2022",
+      "subject_key": "english",
+      "bytes": 2268918,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/english/pdf/collegedunia/2022-english-01-question-paper.pdf",
+      "year": "2022",
+      "subject_key": "english",
+      "bytes": 8939641,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/english/pdf/collegedunia/2022-english-02-solutions.pdf",
+      "year": "2022",
+      "subject_key": "english",
+      "bytes": 218732,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/2022-general-test.pdf",
+      "year": "2022",
+      "subject_key": "general-test",
+      "bytes": 1965134,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/careerindia/2022-general-test-careerindia.pdf",
+      "year": "2022",
+      "subject_key": "general-test",
+      "bytes": 1643749,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/collegedunia/2022-general-test-01-question-paper.pdf",
+      "year": "2022",
+      "subject_key": "general-test",
+      "bytes": 7676741,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/collegedunia/2022-general-test-02-question-paper.pdf",
+      "year": "2022",
+      "subject_key": "general-test",
+      "bytes": 165147,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/collegedunia/2022-general-test-03-solutions.pdf",
+      "year": "2022",
+      "subject_key": "general-test",
+      "bytes": 172860,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/accountancy/pdf/2023-accountancy.pdf",
+      "year": "2023",
+      "subject_key": "accountancy",
+      "bytes": 7992299,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/accountancy/pdf/collegedunia/2023-accountancy-01-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "accountancy",
+      "bytes": 7867865,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/accountancy/pdf/collegedunia/2023-accountancy-02-solutions.pdf",
+      "year": "2023",
+      "subject_key": "accountancy",
+      "bytes": 406242,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2023/accountancy/json/individual-pdfs/2023-accountancy-02-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2023/business-studies/pdf/2023-business-studies.pdf",
+      "year": "2023",
+      "subject_key": "business-studies",
+      "bytes": 7353015,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/business-studies/pdf/collegedunia/2023-business-studies-01-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "business-studies",
+      "bytes": 7867865,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/business-studies/pdf/collegedunia/2023-business-studies-02-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "business-studies",
+      "bytes": 6018033,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/business-studies/pdf/collegedunia/2023-business-studies-03-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "business-studies",
+      "bytes": 106932,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/2023-economics.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 8316916,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-01-answer-key.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 222371,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-01-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 825561,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-02-answer-key.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 270849,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-02-solutions.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 308224,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-03-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 474846,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-04-answer-key.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 270845,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-05-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 8889697,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-06-answer-key.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 264524,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-07-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 11731413,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-08-answer-key.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 264404,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-09-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 1450622,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-10-answer-key.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 264430,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-11-solutions.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 214846,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2023/economics/json/individual-pdfs/2023-economics-11-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-12-answer-key.pdf",
+      "year": "2023",
+      "subject_key": "economics",
+      "bytes": 1093410,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/english/pdf/2023-english.pdf",
+      "year": "2023",
+      "subject_key": "english",
+      "bytes": 14102175,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/english/pdf/collegedunia/2023-english-01-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "english",
+      "bytes": 2980136,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/english/pdf/collegedunia/2023-english-02-solutions.pdf",
+      "year": "2023",
+      "subject_key": "english",
+      "bytes": 232111,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2023/english/json/individual-pdfs/2023-english-02-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2023/english/pdf/collegedunia/2023-english-03-solutions.pdf",
+      "year": "2023",
+      "subject_key": "english",
+      "bytes": 942247,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/general-test/pdf/2023-general-test.pdf",
+      "year": "2023",
+      "subject_key": "general-test",
+      "bytes": 15701165,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/general-test/pdf/collegedunia/2023-general-test-01-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "general-test",
+      "bytes": 5952822,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2023/general-test/pdf/collegedunia/2023-general-test-02-question-paper.pdf",
+      "year": "2023",
+      "subject_key": "general-test",
+      "bytes": 316547,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2023/general-test/json/individual-pdfs/2023-general-test-02-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/2024-accountancy.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 795792,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-01-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1055208,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-02-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1055208,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-02-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-03-solutions.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 402905,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-03-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-04-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1056957,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-04-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-05-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1056957,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-05-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-06-solutions.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 412003,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-06-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-07-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1054017,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-07-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-08-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1054017,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-08-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-09-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 403768,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-09-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-10-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1053484,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-10-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-11-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1053484,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-11-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-12-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 403574,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-12-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-13-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 7212430,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-14-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 7212430,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-15-solutions.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 528232,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-15-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-16-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1055208,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-16-answer-key.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-17-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1056957,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-17-answer-key.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-18-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 1054017,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-18-answer-key.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-19-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "accountancy",
+      "bytes": 765353,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-19-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/2024-business-studies.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 854744,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-01-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 1067871,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-02-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 1067871,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-02-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-03-solutions.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 317547,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-03-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-04-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 1075151,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-04-answer-key.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-05-solutions.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 396532,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-05-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-06-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 1074440,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-06-answer-key.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-07-solutions.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 396024,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-07-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-08-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 1074885,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-08-answer-key.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-09-solutions.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 396556,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-09-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-10-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 6194316,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-11-solutions.pdf",
+      "year": "2024",
+      "subject_key": "business-studies",
+      "bytes": 328603,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/2024-economics.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 864469,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-01-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 1397319,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-02-solutions.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 373474,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-02-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-03-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 1398099,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-03-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-04-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 404489,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-04-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-05-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 1397234,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-05-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-06-solutions.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 373940,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-06-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-07-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 1397660,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-07-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-08-solutions.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 380167,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-08-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-09-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 3623651,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-10-solutions.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 231499,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-10-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-11-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 1114907,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-11-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-12-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 1115782,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-12-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-13-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 1423773,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-13-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-14-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "economics",
+      "bytes": 1115253,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-14-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/english/pdf/2024-english.pdf",
+      "year": "2024",
+      "subject_key": "english",
+      "bytes": 626334,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/english/pdf/collegedekho/2024-english-set-a-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "english",
+      "bytes": 951712,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/2024-general-test.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 2614547,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-01-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1312953,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-01-answer-key.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-02-answer-key.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1312953,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-02-answer-key.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-03-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 514743,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-04-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1603919,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-04-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-05-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1603919,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-05-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-06-solutions.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 476979,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-07-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1611289,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-07-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-08-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1611289,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-08-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-09-solutions.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 476895,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-10-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1296074,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-10-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-11-solutions.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 476817,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-12-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1489495,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-12-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-13-solutions.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 302959,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-14-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1317135,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-14-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-15-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1317135,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-15-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-16-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 523043,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-17-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 1313083,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-17-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-18-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 500714,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-19-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 999074,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-19-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-20-solutions.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 509777,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-21-question-paper.pdf",
+      "year": "2024",
+      "subject_key": "general-test",
+      "bytes": 939352,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-21-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/accountancy/pdf/2025-accountancy.pdf",
+      "year": "2025",
+      "subject_key": "accountancy",
+      "bytes": 6386023,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/accountancy/pdf/collegedunia/2025-accountancy-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "accountancy",
+      "bytes": 59325,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/accountancy/json/individual-pdfs/2025-accountancy-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/accountancy/pdf/collegedunia/2025-accountancy-02-solutions.pdf",
+      "year": "2025",
+      "subject_key": "accountancy",
+      "bytes": 106203,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/accountancy/json/individual-pdfs/2025-accountancy-02-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/accountancy/pdf/collegedunia/2025-accountancy-03-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "accountancy",
+      "bytes": 440222,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/2025-business-studies.pdf",
+      "year": "2025",
+      "subject_key": "business-studies",
+      "bytes": 6198377,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "business-studies",
+      "bytes": 5847854,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-02-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "business-studies",
+      "bytes": 132492,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-03-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "business-studies",
+      "bytes": 659400,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-03-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-04-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "business-studies",
+      "bytes": 43762,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-04-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-05-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "business-studies",
+      "bytes": 55200,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-05-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-official-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "business-studies",
+      "bytes": 57878,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/prepp/2025-business-studies-15-may-solutions.pdf",
+      "year": "2025",
+      "subject_key": "business-studies",
+      "bytes": 117809,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-15-may-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/economics/pdf/2025-economics.pdf",
+      "year": "2025",
+      "subject_key": "economics",
+      "bytes": 6016884,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/economics/pdf/collegedunia/2025-economics-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "economics",
+      "bytes": 5665593,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/2025-english.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 3995825,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 37416,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-02-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 38505,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-02-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-03-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 57831,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-03-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-04-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 39885,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-04-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-05-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 41118,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-05-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-06-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 40476,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-06-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-07-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 50848,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-07-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-08-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 38655,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-08-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-09-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 50646,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-09-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-10-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 37728,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-10-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-11-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 34004,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-11-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-12-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 47162,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-12-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-13-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 55200,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-13-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-june-2-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 40331,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-june-2-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-june-2-02-solutions.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 53793,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-june-2-02-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-13-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 47162,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-13-02-solutions.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 55141,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-02-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-13-03-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 55200,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-03-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-20-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 40476,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-20-02-solutions.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 83755,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-02-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-26-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 40636,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-26-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-26-02-solutions.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 58992,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-26-02-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-27-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 57831,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-27-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-29-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 39958,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-29-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-29-02-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 73507,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-29-02-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-31-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 37416,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-31-01-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-31-02-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 49337,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-31-02-question-paper.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/prepp/2025-english-may-14-solutions.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 41535,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-14-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/prepp/2025-english-may-20-solutions.pdf",
+      "year": "2025",
+      "subject_key": "english",
+      "bytes": 87991,
+      "main_json_exists": true,
+      "individual_json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-solutions.json"
+    },
+    {
+      "pdf_path": "past year paper/2025/general-test/pdf/2025-general-test.pdf",
+      "year": "2025",
+      "subject_key": "general-test",
+      "bytes": 5593612,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/general-test/pdf/collegedunia/2025-general-test-01-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "general-test",
+      "bytes": 5242850,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/2025/general-test/pdf/collegedunia/2025-general-test-02-question-paper.pdf",
+      "year": "2025",
+      "subject_key": "general-test",
+      "bytes": 782063,
+      "main_json_exists": true,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/aakash/cuet-2023-general-test-21-05-2023-solutions.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 694977,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-accountancy-answer-key-collegedunia.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 111176,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-accountancy-collegedunia.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 7031408,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-business-studies-collegedunia.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 7693533,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-economics-answer-key-collegedunia.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 112275,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-economics-collegedunia.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 11289476,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-general-test-collegedunia.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 7676741,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-general-test-solutions-collegedunia.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 172860,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/misfiled/CUET_UG_2025_Environmental_Science_sol_misfiled_from_economics.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 270667,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/answer keys/pdf/2022-answer-key.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 9350591,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/answer keys/pdf/2023-answer-key.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 2395644,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/answer keys/pdf/2024-answer-key.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 819058,
+      "main_json_exists": false,
+      "individual_json_path": null
+    },
+    {
+      "pdf_path": "past year paper/answer keys/pdf/2025-answer-key.pdf",
+      "year": null,
+      "subject_key": null,
+      "bytes": 354751,
+      "main_json_exists": false,
+      "individual_json_path": null
+    }
+  ],
+  "json_files": [
+    {
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "subject": "Accountancy",
+      "year": "2022",
+      "total_questions": 40,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "subject": "Business Studies",
+      "year": "2022",
+      "total_questions": 37,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "subject": "Economics",
+      "year": "2022",
+      "total_questions": 41,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2022/english/json/2022-english.json",
+      "subject": "English",
+      "year": "2022",
+      "total_questions": 47,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2022/general-test/json/2022-general-test.json",
+      "subject": "General Test",
+      "year": "2022",
+      "total_questions": 31,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "subject": "Accountancy",
+      "year": "2023",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/accountancy/json/individual-pdfs/2023-accountancy-02-solutions.json",
+      "subject": "Accountancy",
+      "year": "2023",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/business-studies/json/2023-business-studies.json",
+      "subject": "Business Studies",
+      "year": "2023",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/economics/json/2023-economics.json",
+      "subject": "Economics",
+      "year": "2023",
+      "total_questions": 42,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/economics/json/individual-pdfs/2023-economics-11-solutions.json",
+      "subject": "Economics",
+      "year": "2023",
+      "total_questions": 4,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/english/json/2023-english.json",
+      "subject": "English",
+      "year": "2023",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/english/json/individual-pdfs/2023-english-02-solutions.json",
+      "subject": "English",
+      "year": "2023",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/general-test/json/2023-general-test.json",
+      "subject": "General Test",
+      "year": "2023",
+      "total_questions": 58,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2023/general-test/json/individual-pdfs/2023-general-test-02-question-paper.json",
+      "subject": "General Test",
+      "year": "2023",
+      "total_questions": 28,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-01-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-02-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-03-solutions.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 15,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-04-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-05-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-06-solutions.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-07-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-08-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-09-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 15,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-10-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-11-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-12-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-15-solutions.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 49,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-16-answer-key.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-17-answer-key.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-18-answer-key.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-19-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/2024-business-studies.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-01-question-paper.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-02-question-paper.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-03-solutions.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-04-answer-key.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-05-solutions.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-06-answer-key.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-07-solutions.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-08-answer-key.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-09-solutions.json",
+      "subject": "Business Studies",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/2024-economics.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 49,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-01-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-02-solutions.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-03-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-04-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-05-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-06-solutions.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-07-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-08-solutions.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-10-solutions.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 14,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-11-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-12-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-13-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-14-question-paper.json",
+      "subject": "Economics",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/english/json/2024-english.json",
+      "subject": "English",
+      "year": "2024",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/2024-general-test.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 52,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-01-answer-key.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-02-answer-key.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-04-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-05-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-07-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-08-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-10-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-12-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-14-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-15-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-17-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 43,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-19-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 43,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-21-question-paper.json",
+      "subject": "General Test",
+      "year": "2024",
+      "total_questions": 44,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/accountancy/json/2025-accountancy.json",
+      "subject": "Accountancy",
+      "year": "2025",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/accountancy/json/individual-pdfs/2025-accountancy-01-question-paper.json",
+      "subject": "Accountancy",
+      "year": "2025",
+      "total_questions": 11,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/accountancy/json/individual-pdfs/2025-accountancy-02-solutions.json",
+      "subject": "Accountancy",
+      "year": "2025",
+      "total_questions": 11,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/business-studies/json/2025-business-studies.json",
+      "subject": "Business Studies",
+      "year": "2025",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-03-question-paper.json",
+      "subject": "Business Studies",
+      "year": "2025",
+      "total_questions": 25,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-04-question-paper.json",
+      "subject": "Business Studies",
+      "year": "2025",
+      "total_questions": 24,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-05-question-paper.json",
+      "subject": "Business Studies",
+      "year": "2025",
+      "total_questions": 5,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-15-may-solutions.json",
+      "subject": "Business Studies",
+      "year": "2025",
+      "total_questions": 15,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/economics/json/2025-economics.json",
+      "subject": "Economics",
+      "year": "2025",
+      "total_questions": 50,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/2025-english.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 49,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-01-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 10,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-02-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 14,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-03-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 14,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-04-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 12,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-05-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 13,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-06-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-07-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 18,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-08-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 11,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-09-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-10-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 9,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-11-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 5,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-12-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 5,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-13-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 5,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-june-2-01-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 14,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-june-2-02-solutions.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 14,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-01-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 5,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-02-solutions.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 5,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-03-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 5,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-14-solutions.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 5,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-01-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-02-solutions.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-solutions.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-26-01-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-26-02-solutions.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 16,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-27-01-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 14,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-29-01-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 12,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-29-02-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 12,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-31-01-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 10,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/english/json/individual-pdfs/2025-english-may-31-02-question-paper.json",
+      "subject": "English",
+      "year": "2025",
+      "total_questions": 10,
+      "errors": []
+    },
+    {
+      "json_path": "past year paper/2025/general-test/json/2025-general-test.json",
+      "subject": "General Test",
+      "year": "2025",
+      "total_questions": 50,
+      "errors": []
+    }
+  ],
+  "errors": []
+}

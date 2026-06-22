@@ -1,0 +1,162 @@
+[
+  {
+    "year": "2022",
+    "subject": "Accountancy",
+    "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+    "questions": 40,
+    "answers_mapped": 40,
+    "needs_review": false
+  },
+  {
+    "year": "2022",
+    "subject": "Business Studies",
+    "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+    "questions": 37,
+    "answers_mapped": 37,
+    "needs_review": true
+  },
+  {
+    "year": "2022",
+    "subject": "Economics",
+    "json_path": "past year paper/2022/economics/json/2022-economics.json",
+    "questions": 41,
+    "answers_mapped": 40,
+    "needs_review": false
+  },
+  {
+    "year": "2022",
+    "subject": "English",
+    "json_path": "past year paper/2022/english/json/2022-english.json",
+    "questions": 47,
+    "answers_mapped": 44,
+    "needs_review": false
+  },
+  {
+    "year": "2022",
+    "subject": "General Test",
+    "json_path": "past year paper/2022/general-test/json/2022-general-test.json",
+    "questions": 31,
+    "answers_mapped": 14,
+    "needs_review": true
+  },
+  {
+    "year": "2023",
+    "subject": "Accountancy",
+    "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+    "questions": 50,
+    "answers_mapped": 50,
+    "needs_review": false
+  },
+  {
+    "year": "2023",
+    "subject": "Business Studies",
+    "json_path": "past year paper/2023/business-studies/json/2023-business-studies.json",
+    "questions": 50,
+    "answers_mapped": 50,
+    "needs_review": false
+  },
+  {
+    "year": "2023",
+    "subject": "Economics",
+    "json_path": "past year paper/2023/economics/json/2023-economics.json",
+    "questions": 42,
+    "answers_mapped": 40,
+    "needs_review": false
+  },
+  {
+    "year": "2023",
+    "subject": "English",
+    "json_path": "past year paper/2023/english/json/2023-english.json",
+    "questions": 50,
+    "answers_mapped": 50,
+    "needs_review": false
+  },
+  {
+    "year": "2023",
+    "subject": "General Test",
+    "json_path": "past year paper/2023/general-test/json/2023-general-test.json",
+    "questions": 58,
+    "answers_mapped": 57,
+    "needs_review": false
+  },
+  {
+    "year": "2024",
+    "subject": "Accountancy",
+    "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+    "questions": 50,
+    "answers_mapped": 50,
+    "needs_review": false
+  },
+  {
+    "year": "2024",
+    "subject": "Business Studies",
+    "json_path": "past year paper/2024/business-studies/json/2024-business-studies.json",
+    "questions": 50,
+    "answers_mapped": 49,
+    "needs_review": false
+  },
+  {
+    "year": "2024",
+    "subject": "Economics",
+    "json_path": "past year paper/2024/economics/json/2024-economics.json",
+    "questions": 49,
+    "answers_mapped": 49,
+    "needs_review": false
+  },
+  {
+    "year": "2024",
+    "subject": "English",
+    "json_path": "past year paper/2024/english/json/2024-english.json",
+    "questions": 50,
+    "answers_mapped": 50,
+    "needs_review": false
+  },
+  {
+    "year": "2024",
+    "subject": "General Test",
+    "json_path": "past year paper/2024/general-test/json/2024-general-test.json",
+    "questions": 52,
+    "answers_mapped": 52,
+    "needs_review": false
+  },
+  {
+    "year": "2025",
+    "subject": "Accountancy",
+    "json_path": "past year paper/2025/accountancy/json/2025-accountancy.json",
+    "questions": 50,
+    "answers_mapped": 42,
+    "needs_review": false
+  },
+  {
+    "year": "2025",
+    "subject": "Business Studies",
+    "json_path": "past year paper/2025/business-studies/json/2025-business-studies.json",
+    "questions": 50,
+    "answers_mapped": 50,
+    "needs_review": false
+  },
+  {
+    "year": "2025",
+    "subject": "Economics",
+    "json_path": "past year paper/2025/economics/json/2025-economics.json",
+    "questions": 50,
+    "answers_mapped": 45,
+    "needs_review": false
+  },
+  {
+    "year": "2025",
+    "subject": "English",
+    "json_path": "past year paper/2025/english/json/2025-english.json",
+    "questions": 42,
+    "answers_mapped": 42,
+    "needs_review": false
+  },
+  {
+    "year": "2025",
+    "subject": "General Test",
+    "json_path": "past year paper/2025/general-test/json/2025-general-test.json",
+    "questions": 50,
+    "answers_mapped": 50,
+    "needs_review": false
+  }
+]

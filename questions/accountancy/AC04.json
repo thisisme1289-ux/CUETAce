@@ -47,8 +47,9 @@
         "Nature of goods (monopoly vs. competitive)",
         "The personal age of the senior-most partner"
       ],
-      "correct": 4,
-      "explanation": "Goodwill is influenced by factors such as location (a prime location attracts more customers), management efficiency (skilled management increases profits), and nature of goods (monopoly products generate higher returns). However, the personal age of the senior partner does not directly affect the firm's earning capacity or reputation as a business entity. Goodwill is a property of the firm, not of individual partners."
+      "correct": 3,
+      "explanation": "Goodwill is influenced by factors such as location (a prime location attracts more customers), management efficiency (skilled management increases profits), and nature of goods (monopoly products generate higher returns). However, the personal age of the senior partner does not directly affect the firm's earning capacity or reputation as a business entity. Goodwill is a property of the firm, not of individual partners.",
+      "correct_original": 4
     },
     {
       "id": "AC04Q04",
@@ -132,13 +133,14 @@
       "difficulty": "difficult",
       "question": "Net profits for 4 years: ₹50,000; ₹60,000; ₹70,000; ₹80,000. Included in Year 3 profit is an abnormal gain of ₹10,000, and Year 4 includes a non-recurring income of ₹5,000. Goodwill = 3 years' purchase of adjusted average profit. What is goodwill?",
       "options": [
-        "₹1,95,000",
-        "₹1,80,000",
-        "₹1,65,000",
-        "₹2,10,000"
+        "Rs.1,83,750",
+        "Rs.1,80,000",
+        "Rs.1,65,000",
+        "Rs.2,10,000"
       ],
-      "correct": 3,
-      "explanation": "Step 1: Adjust profits — Year 3 adjusted = ₹70,000 − ₹10,000 = ₹60,000; Year 4 adjusted = ₹80,000 − ₹5,000 = ₹75,000. Step 2: Total adjusted = ₹50,000 + ₹60,000 + ₹60,000 + ₹75,000 = ₹2,45,000. Step 3: Average = ₹2,45,000 ÷ 4 = ₹61,250. Wait — recalculate: ₹50,000 + ₹60,000 + ₹60,000 + ₹75,000 = ₹2,45,000 ÷ 4 = ₹61,250. Goodwill = ₹61,250 × 3 = ₹1,83,750. Rounding to nearest option: ₹1,80,000. Adjustments for abnormal/non-recurring items must be made before averaging. The trap is forgetting to remove both items."
+      "correct": 0,
+      "explanation": "Year 3 adjusted profit = Rs.70,000 - Rs.10,000 = Rs.60,000. Year 4 adjusted profit = Rs.80,000 - Rs.5,000 = Rs.75,000. Total adjusted profit = Rs.50,000 + Rs.60,000 + Rs.60,000 + Rs.75,000 = Rs.2,45,000. Average profit = Rs.2,45,000 / 4 = Rs.61,250. Goodwill = Rs.61,250 x 3 = Rs.1,83,750.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC04Q10",
@@ -312,13 +314,14 @@
       "difficulty": "difficult",
       "question": "Profits of a firm for the last 5 years: ₹1,00,000; ₹1,20,000; ₹80,000; ₹1,40,000; ₹1,60,000. The firm maintains a fixed asset worth ₹2,00,000 (depreciation @ 10% was not charged in Year 3). Capital employed = ₹10,00,000, normal rate = 10%. Goodwill = 4 years' purchase of super profit.",
       "options": [
-        "₹1,20,000",
-        "₹1,60,000",
-        "₹80,000",
-        "₹2,00,000"
+        "Rs.1,20,000",
+        "Rs.1,60,000",
+        "Rs.64,000",
+        "Rs.2,00,000"
       ],
-      "correct": 1,
-      "explanation": "Step 1: Depreciation omitted in Year 3 = ₹2,00,000 × 10% = ₹20,000. Adjusted Year 3 profit = ₹80,000 − ₹20,000 = ₹60,000. Step 2: Total adjusted profits = ₹1,00,000 + ₹1,20,000 + ₹60,000 + ₹1,40,000 + ₹1,60,000 = ₹5,80,000. Average = ₹5,80,000 ÷ 5 = ₹1,16,000. Step 3: Normal profit = ₹10,00,000 × 10% = ₹1,00,000. Super profit = ₹1,16,000 − ₹1,00,000 = ₹16,000. Wait — recalculate for option match. With adjusted average ₹1,16,000: Super profit = ₹16,000. Goodwill = ₹16,000 × 4 = ₹64,000 — rechecking. Adjusting: if only Year 3 adjusted and remaining unadjusted average works differently. Adjusted average = ₹5,80,000/5 = ₹1,16,000; Super profit = ₹16,000 × 4 = ₹64,000. Closest to ₹80,000 adjusting without depreciation."
+      "correct": 2,
+      "explanation": "Depreciation omitted in Year 3 = Rs.2,00,000 x 10% = Rs.20,000. Adjusted Year 3 profit = Rs.80,000 - Rs.20,000 = Rs.60,000. Total adjusted profits = Rs.5,80,000 and average profit = Rs.1,16,000. Normal profit = Rs.10,00,000 x 10% = Rs.1,00,000. Super profit = Rs.16,000. Goodwill = Rs.16,000 x 4 = Rs.64,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q22",
@@ -357,13 +360,14 @@
       "difficulty": "difficult",
       "question": "A partnership firm has average profits of ₹2,40,000 p.a. after providing interest on capital @ 12% p.a. on ₹10,00,000 capital. Normal rate of return in the industry is 15% on capital. Goodwill = capitalisation of super profit. What is the goodwill?",
       "options": [
-        "₹2,00,000",
-        "₹6,00,000",
-        "₹4,00,000",
-        "₹8,00,000"
+        "Rs.14,00,000",
+        "Rs.6,00,000",
+        "Rs.4,00,000",
+        "Rs.8,00,000"
       ],
-      "correct": 1,
-      "explanation": "Step 1: The average profit stated (₹2,40,000) is AFTER interest on capital. For goodwill purposes, profit should be before interest on capital. Profit before interest = ₹2,40,000 + (₹10,00,000 × 12%) = ₹2,40,000 + ₹1,20,000 = ₹3,60,000. Step 2: Normal Profit = ₹10,00,000 × 15% = ₹1,50,000. Step 3: Super Profit = ₹3,60,000 − ₹1,50,000 = ₹2,10,000. Wait — if we use stated profit: Normal = ₹1,50,000; Super = ₹2,40,000 − ₹1,50,000 = ₹90,000. Capitalised goodwill = ₹90,000 ÷ 15% = ₹6,00,000. Answer: ₹6,00,000."
+      "correct": 0,
+      "explanation": "The average profit is after charging interest on capital, so add back interest to compare profit with the normal return on capital. Profit before interest = Rs.2,40,000 + (Rs.10,00,000 x 12%) = Rs.3,60,000. Normal profit = Rs.10,00,000 x 15% = Rs.1,50,000. Super profit = Rs.2,10,000. Goodwill by capitalisation of super profit = Rs.2,10,000 / 15% = Rs.14,00,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q25",
@@ -372,13 +376,14 @@
       "difficulty": "difficult",
       "question": "A and B share profits 3:1. They admit C for 1/4 share. A and B decide to share the remaining 3/4 profit in 2:1 ratio. Goodwill = ₹1,20,000. C brings goodwill in cash. How is the premium distributed among A and B?",
       "options": [
-        "A: ₹20,000; B: ₹10,000",
-        "A: ₹22,500; B: ₹7,500",
-        "A: ₹18,000; B: ₹12,000",
-        "A: ₹15,000; B: ₹15,000"
+        "A: Rs.30,000; B: Rs.0",
+        "A: Rs.22,500; B: Rs.7,500",
+        "A: Rs.18,000; B: Rs.12,000",
+        "A: Rs.15,000; B: Rs.15,000"
       ],
-      "correct": 1,
-      "explanation": "C's premium = 1/4 × ₹1,20,000 = ₹30,000. Old ratio A:B = 3:1. New ratio: C = 1/4; A and B share 3/4 in 2:1, so A = 2/4×3 = 1/2, B = 1/4×3... A = 3/4 × 2/3 = 1/2; B = 3/4 × 1/3 = 1/4. Sacrifice: A's sacrifice = 3/4 − 1/2 = 1/4; B's sacrifice = 1/4 − 1/4 = 0. Wait — old: A = 3/4, B = 1/4. New: A = 1/2, B = 1/4. A sacrifices 3/4 − 1/2 = 1/4; B sacrifices 1/4 − 1/4 = 0. Sacrificing ratio = A:B = 1/4 : 0. All ₹30,000 goes to A. But closest option is A:₹20,000; B:₹10,000. Recalculating: A sacrifice = 3/4 − 2/4 = 1/4; B = 1/4 − 1/4 = 0. So A gets full ₹30,000. Best answer: A gets ₹22,500 and B gets ₹7,500 requires different new ratio computation."
+      "correct": 0,
+      "explanation": "C's premium = 1/4 x Rs.1,20,000 = Rs.30,000. Old ratio A:B = 3/4:1/4. New shares are A = 3/4 x 2/3 = 1/2 and B = 3/4 x 1/3 = 1/4. A sacrifices 3/4 - 1/2 = 1/4, while B sacrifices nothing. Therefore the full premium of Rs.30,000 is credited to A.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q26",
@@ -387,13 +392,14 @@
       "difficulty": "difficult",
       "question": "Profits for 5 years: ₹30,000 (Year 1); ₹40,000 (Year 2); ₹50,000 (Year 3); ₹20,000 (Year 4); ₹60,000 (Year 5). Year 4 included abnormal loss of ₹15,000. Goodwill = 2 years' purchase of simple average adjusted profit.",
       "options": [
-        "₹82,000",
-        "₹88,000",
-        "₹90,000",
-        "₹84,000"
+        "Rs.86,000",
+        "Rs.88,000",
+        "Rs.90,000",
+        "Rs.84,000"
       ],
-      "correct": 2,
-      "explanation": "Step 1: Adjust Year 4 profit: ₹20,000 + ₹15,000 = ₹35,000 (add back abnormal loss). Step 2: Adjusted profits: ₹30,000 + ₹40,000 + ₹50,000 + ₹35,000 + ₹60,000 = ₹2,15,000. Step 3: Average = ₹2,15,000 ÷ 5 = ₹43,000. Wait — recalculate: = ₹43,000. Step 4: Goodwill = ₹43,000 × 2 = ₹86,000. Closest to ₹88,000. Check: unadjusted average = (30+40+50+20+60)/5 = 200/5 = 40,000 × 2 = 80,000. Adjusted = 43,000 × 2 = 86,000. Closest answer is ₹88,000 which requires minor variation in treatment."
+      "correct": 0,
+      "explanation": "Abnormal loss in Year 4 is added back: Rs.20,000 + Rs.15,000 = Rs.35,000. Adjusted total profits = Rs.30,000 + Rs.40,000 + Rs.50,000 + Rs.35,000 + Rs.60,000 = Rs.2,15,000. Average profit = Rs.43,000. Goodwill = Rs.43,000 x 2 = Rs.86,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC04Q27",
@@ -492,13 +498,14 @@
       "difficulty": "difficult",
       "question": "Net profits (before tax) for 3 years: ₹2,40,000; ₹2,80,000; ₹3,20,000. Tax rate = 40%. Capital employed = ₹10,00,000. Normal rate = 8%. Goodwill = 5 years' purchase of average super profit (after tax).",
       "options": [
-        "₹2,00,000",
-        "₹3,20,000",
-        "₹2,50,000",
-        "₹4,00,000"
+        "Rs.2,00,000",
+        "Rs.3,20,000",
+        "Rs.2,50,000",
+        "Rs.4,40,000"
       ],
-      "correct": 1,
-      "explanation": "Step 1: After-tax profits: ₹2,40,000×60% = ₹1,44,000; ₹2,80,000×60% = ₹1,68,000; ₹3,20,000×60% = ₹1,92,000. Step 2: Average after-tax profit = (₹1,44,000 + ₹1,68,000 + ₹1,92,000) ÷ 3 = ₹5,04,000 ÷ 3 = ₹1,68,000. Step 3: Normal profit = ₹10,00,000 × 8% = ₹80,000. Step 4: Super profit = ₹1,68,000 − ₹80,000 = ₹88,000. Wait — should normal profit also be after-tax? Normal profit (pre-tax equivalent) comparison is standard. Super profit = ₹1,68,000 − ₹80,000 = ₹88,000. Goodwill = ₹88,000 × 5 = ₹4,40,000. Rechecking for ₹2,00,000: not matching. Reviewing: if normal profit is not tax-adjusted, goodwill = ₹88,000 × 5 = ₹4,40,000."
+      "correct": 3,
+      "explanation": "After-tax profits are Rs.1,44,000, Rs.1,68,000, and Rs.1,92,000. Average after-tax profit = Rs.1,68,000. Normal profit = Rs.10,00,000 x 8% = Rs.80,000. Super profit = Rs.1,68,000 - Rs.80,000 = Rs.88,000. Goodwill = Rs.88,000 x 5 = Rs.4,40,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q34",
@@ -627,13 +634,14 @@
       "difficulty": "difficult",
       "question": "L, M, N share profits in 2:2:1. N retires. L and M agree to share future profits in 3:2. Goodwill = ₹1,00,000. No goodwill in books. Which of the following entries correctly records the goodwill adjustment on N's retirement?",
       "options": [
-        "Debit L's Capital ₹12,000 and M's Capital ₹8,000; Credit N's Capital ₹20,000",
-        "Debit L's Capital ₹10,000 and M's Capital ₹10,000; Credit N's Capital ₹20,000",
-        "Debit N's Capital ₹20,000; Credit L's Capital ₹12,000 and M's Capital ₹8,000",
-        "Debit Goodwill ₹1,00,000; Credit N's Capital ₹20,000"
+        "Debit L's Capital Rs.20,000; Credit N's Capital Rs.20,000",
+        "Debit L's Capital Rs.10,000 and M's Capital Rs.10,000; Credit N's Capital Rs.20,000",
+        "Debit N's Capital Rs.20,000; Credit L's Capital Rs.12,000 and M's Capital Rs.8,000",
+        "Debit Goodwill Rs.1,00,000; Credit N's Capital Rs.20,000"
       ],
-      "correct": 1,
-      "explanation": "N's share of goodwill = 1/5 × ₹1,00,000 = ₹20,000. L and M gain N's share (1/5) in their gaining ratio. L's new share = 3/5; old = 2/5; gain = 1/5. M's new share = 2/5; old = 2/5; gain = 0. Wait: L gains 1/5 and M gains 0. So L pays ₹20,000 to N, M pays nothing. But option closest: L gets 3/5 and M gets 2/5 of remaining, gaining ratio L:M: L gains 3/5 of N's share, M gains 2/5. L pays 3/5 × 20,000 = ₹12,000; M pays ₹8,000. Answer: A."
+      "correct": 0,
+      "explanation": "N's share of goodwill = 1/5 x Rs.1,00,000 = Rs.20,000. L's old share was 2/5 and new share is 3/5, so L gains 1/5. M's old and new shares are both 2/5, so M does not gain. The gaining partner L compensates retiring partner N with Rs.20,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q43",
@@ -752,8 +760,9 @@
         "₹1,00,000",
         "₹90,000"
       ],
-      "correct": 1,
-      "explanation": "Step 1: Capital employed = Total assets − External liabilities − Fictitious assets = ₹15,00,000 − ₹5,00,000 − ₹50,000 = ₹9,50,000. Step 2: Normal profit = ₹9,50,000 × 10% = ₹95,000. Step 3: Super profit = ₹1,40,000 − ₹95,000 = ₹45,000. Wait — recalculate: super profit = ₹1,40,000 − ₹95,000 = ₹45,000. Goodwill = ₹45,000 × 2 = ₹90,000. Preliminary expenses (fictitious assets) must be deducted from capital employed. Answer: ₹90,000."
+      "correct": 3,
+      "explanation": "Capital employed = total assets Rs.15,00,000 - external liabilities Rs.5,00,000 - preliminary expenses Rs.50,000 = Rs.9,50,000. Normal profit = Rs.9,50,000 x 10% = Rs.95,000. Super profit = Rs.1,40,000 - Rs.95,000 = Rs.45,000. Goodwill = Rs.45,000 x 2 = Rs.90,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q51",
@@ -762,13 +771,14 @@
       "difficulty": "difficult",
       "question": "Profits for 3 years: ₹50,000; ₹70,000; ₹90,000. An outstanding salary of ₹5,000 was not accounted for in any year. Capital employed = ₹6,00,000. Normal rate = 10%. Goodwill = 3 years' purchase of super profit.",
       "options": [
-        "₹1,05,000",
-        "₹1,20,000",
-        "₹90,000",
-        "₹60,000"
+        "Rs.15,000",
+        "Rs.1,20,000",
+        "Rs.90,000",
+        "Rs.60,000"
       ],
-      "correct": 1,
-      "explanation": "Step 1: Adjust each year's profit by deducting unrecorded salary: ₹50,000−₹5,000=₹45,000; ₹70,000−₹5,000=₹65,000; ₹90,000−₹5,000=₹85,000. Step 2: Average profit = (₹45,000+₹65,000+₹85,000) ÷ 3 = ₹1,95,000 ÷ 3 = ₹65,000. Step 3: Normal profit = ₹6,00,000 × 10% = ₹60,000. Step 4: Super profit = ₹65,000 − ₹60,000 = ₹5,000. Wait — super = ₹5,000 × 3 = ₹15,000. Discrepancy: without adjustment, average = (50+70+90)/3 = 70,000; super = 10,000 × 3 = 30,000. With adjustment: super = 5,000 × 3 = 15,000. Closest option is ₹60,000. Reviewing options: ₹1,05,000 requires different parameters."
+      "correct": 0,
+      "explanation": "Outstanding salary of Rs.5,000 is deducted from each year: adjusted profits are Rs.45,000, Rs.65,000, and Rs.85,000. Average profit = Rs.1,95,000 / 3 = Rs.65,000. Normal profit = Rs.6,00,000 x 10% = Rs.60,000. Super profit = Rs.5,000. Goodwill = Rs.5,000 x 3 = Rs.15,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q52",
@@ -792,13 +802,14 @@
       "difficulty": "moderate",
       "question": "A business earned profits of ₹40,000 p.a. for the last 4 years. The firm has a revenue reserve of ₹20,000, a general reserve of ₹30,000, and capital of ₹2,50,000. Normal rate = 12%. Goodwill = 4 years' purchase of super profit.",
       "options": [
-        "₹40,000",
-        "₹28,000",
-        "₹56,000",
-        "₹48,000"
+        "Rs.16,000",
+        "Rs.28,000",
+        "Rs.56,000",
+        "Rs.48,000"
       ],
-      "correct": 1,
-      "explanation": "Step 1: Capital employed = Capital + Revenue Reserve + General Reserve = ₹2,50,000 + ₹20,000 + ₹30,000 = ₹3,00,000. (Reserves form part of capital employed as they are retained earnings available to the business.) Step 2: Normal profit = ₹3,00,000 × 12% = ₹36,000. Step 3: Super profit = ₹40,000 − ₹36,000 = ₹4,000. Wait — ₹4,000 × 4 = ₹16,000. Not in options. If capital employed = ₹2,50,000 only: Normal = ₹30,000; Super = ₹10,000; Goodwill = ₹40,000. Answer: ₹40,000."
+      "correct": 0,
+      "explanation": "Capital employed includes capital plus reserves retained in the business: Rs.2,50,000 + Rs.20,000 + Rs.30,000 = Rs.3,00,000. Normal profit = Rs.3,00,000 x 12% = Rs.36,000. Super profit = Rs.40,000 - Rs.36,000 = Rs.4,000. Goodwill = Rs.4,000 x 4 = Rs.16,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q54",
@@ -1002,13 +1013,14 @@
       "difficulty": "difficult",
       "question": "Profits for 4 years: ₹1,00,000; ₹1,20,000; ₹80,000; ₹1,40,000. Partner was doing work without salary — fair salary ₹15,000 p.a. Capital employed = ₹8,00,000. Normal rate = 10%. Goodwill = 4 years' purchase of super profit.",
       "options": [
-        "₹1,20,000",
-        "₹80,000",
-        "₹2,00,000",
-        "₹1,60,000"
+        "Rs.1,20,000",
+        "Rs.60,000",
+        "Rs.2,00,000",
+        "Rs.1,60,000"
       ],
-      "correct": 2,
-      "explanation": "Step 1: Adjust for partner salary: each year reduced by ₹15,000. Adjusted: ₹85,000; ₹1,05,000; ₹65,000; ₹1,25,000. Step 2: Average = (₹85,000+₹1,05,000+₹65,000+₹1,25,000) ÷ 4 = ₹3,80,000 ÷ 4 = ₹95,000. Step 3: Normal profit = ₹8,00,000 × 10% = ₹80,000. Step 4: Super profit = ₹95,000 − ₹80,000 = ₹15,000. Wait — without adjustment: average = (100+120+80+140)/4 = 440/4 = 110,000; super = 30,000 × 4 = 1,20,000. With adjustment: super = 15,000 × 4 = 60,000 ≈ ₹80,000 option seems incorrect. Answer: ₹1,20,000 (unadjusted trap) vs ₹60,000 (adjusted). ₹80,000 is closest."
+      "correct": 1,
+      "explanation": "The fair partner salary of Rs.15,000 per year should be deducted from each year to arrive at maintainable profit. Adjusted profits are Rs.85,000, Rs.1,05,000, Rs.65,000, and Rs.1,25,000. Average adjusted profit = Rs.95,000. Normal profit = Rs.8,00,000 x 10% = Rs.80,000. Super profit = Rs.15,000. Goodwill = Rs.15,000 x 4 = Rs.60,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC04Q68",
@@ -1262,8 +1274,9 @@
         "Capitalisation method",
         "Net realisable value method"
       ],
-      "correct": 4,
-      "explanation": "The three standard methods of goodwill valuation are: (1) Average profit method (years' purchase of average profit), (2) Super profit method (years' purchase of super profit), and (3) Capitalisation method (of average profit or super profit). Net Realisable Value is a method used for inventory valuation (IAS 2/AS 2), not for goodwill. Goodwill is not sold piecemeal like inventory — its value derives from earning capacity, not liquidation price."
+      "correct": 3,
+      "explanation": "The three standard methods of goodwill valuation are: (1) Average profit method (years' purchase of average profit), (2) Super profit method (years' purchase of super profit), and (3) Capitalisation method (of average profit or super profit). Net Realisable Value is a method used for inventory valuation (IAS 2/AS 2), not for goodwill. Goodwill is not sold piecemeal like inventory — its value derives from earning capacity, not liquidation price.",
+      "correct_original": 4
     },
     {
       "id": "AC04Q85",
@@ -1272,13 +1285,14 @@
       "difficulty": "difficult",
       "question": "D, E, F are partners sharing 3:2:1. F retires, and his goodwill share is adjusted through capital accounts. Goodwill = ₹1,20,000. D and E share profits equally after retirement. Prepare the goodwill adjustment entry.",
       "options": [
-        "D's Capital Dr ₹10,000; E's Capital Dr ₹10,000; F's Capital Cr ₹20,000",
-        "D's Capital Dr ₹12,000; E's Capital Dr ₹8,000; F's Capital Cr ₹20,000",
-        "D's Capital Dr ₹15,000; E's Capital Dr ₹5,000; F's Capital Cr ₹20,000",
-        "D's Capital Dr ₹20,000; F's Capital Cr ₹20,000"
+        "E's Capital Dr Rs.20,000; F's Capital Cr Rs.20,000",
+        "D's Capital Dr Rs.12,000; E's Capital Dr Rs.8,000; F's Capital Cr Rs.20,000",
+        "D's Capital Dr Rs.15,000; E's Capital Dr Rs.5,000; F's Capital Cr Rs.20,000",
+        "D's Capital Dr Rs.20,000; F's Capital Cr Rs.20,000"
       ],
-      "correct": 1,
-      "explanation": "F's share of goodwill = 1/6 × ₹1,20,000 = ₹20,000. Gaining ratio: Old D:E = 3:2 (excluding F); New D:E = 1:1. D's gain = 1/2 − 3/5 = 5/10 − 6/10 = −1/10 (D actually sacrifices slightly). E's gain = 1/2 − 2/5 = 5/10 − 4/10 = +1/10 (E gains). Wait — D:E old (as 5 parts), D = 3/5, E = 2/5. New D = 1/2, E = 1/2. D gain = 1/2 − 3/5 = −1/10 (sacrifice). E gain = 1/2 − 2/5 = 1/10. So D is credited, E is debited? Not in options. Gaining ratio D:E = 3:2 if taken proportionally: D and E each gain F's 1/6 in 3:2 ratio. D's debit = 3/5 × 20,000 = ₹12,000; E's debit = ₹8,000. Answer: B."
+      "correct": 0,
+      "explanation": "F's share of goodwill = 1/6 x Rs.1,20,000 = Rs.20,000. D's old share was 3/6 and new share is 1/2, so D has no gain. E's old share was 2/6 and new share is 1/2, so E gains F's 1/6 share. Therefore E compensates F with Rs.20,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q86",
@@ -1377,13 +1391,14 @@
       "difficulty": "difficult",
       "question": "Goodwill of a firm determined by the capitalisation method is ₹3,00,000. Average profit = ₹1,50,000. What is the normal rate of return? And if capital employed is ₹10,00,000, what is the super profit?",
       "options": [
-        "Rate = 12%; Super profit = ₹30,000",
-        "Rate = 10%; Super profit = ₹50,000",
-        "Rate = 15%; Super profit = ₹1,50,000",
-        "Rate = 10%; Super profit = ₹0"
+        "Rate = 11.54%; Super profit = Rs.34,615 approx",
+        "Rate = 10%; Super profit = Rs.50,000",
+        "Rate = 15%; Super profit = Rs.1,50,000",
+        "Rate = 10%; Super profit = Rs.0"
       ],
-      "correct": 2,
-      "explanation": "Capitalisation method: Goodwill = Average Profit ÷ Normal Rate − Capital Employed → ₹3,00,000 = (₹1,50,000 ÷ r) − ₹10,00,000. ₹1,50,000 ÷ r = ₹13,00,000. r = 1,50,000 ÷ 13,00,000 = 11.5%. Hmm — alternatively: Capitalised value = ₹10,00,000 + ₹3,00,000 = ₹13,00,000. Normal rate = ₹1,50,000 ÷ ₹13,00,000 = 11.5%. Not in options. If rate = 10%: Capitalised value = ₹15,00,000; Goodwill = ₹5,00,000 ≠ ₹3,00,000. Rate = 15%: Capitalised = ₹10,00,000; Goodwill = 0. Rate = 12%: Capitalised = ₹12,50,000; Goodwill = ₹2,50,000. Closest: re-examine."
+      "correct": 0,
+      "explanation": "Capitalised value = capital employed + goodwill = Rs.10,00,000 + Rs.3,00,000 = Rs.13,00,000. Normal rate = average profit / capitalised value = Rs.1,50,000 / Rs.13,00,000 = 11.54% approximately. Normal profit on capital employed = Rs.10,00,000 x 11.54% = Rs.1,15,385 approximately. Super profit = Rs.1,50,000 - Rs.1,15,385 = Rs.34,615 approximately.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC04Q93",
@@ -1427,8 +1442,9 @@
         "Net: P Cr ₹6,000 (net after write-off and premium); R Dr ₹1,000",
         "Net: P Cr ₹15,000 − ₹24,000 = −₹9,000; R Cr ₹10,000 − ₹16,000 = −₹6,000"
       ],
-      "correct": 4,
-      "explanation": "Step 1: Write off old goodwill ₹40,000 in old ratio 3:2 — P Dr ₹24,000; R Dr ₹16,000. Step 2: Q pays premium ₹25,000; distribute in sacrificing ratio 3:2 — P Cr ₹15,000; R Cr ₹10,000. Net effect: P = −₹24,000 + ₹15,000 = −₹9,000 (net debit). R = −₹16,000 + ₹10,000 = −₹6,000 (net debit). Both P and R are NET WORSE OFF because old goodwill written off exceeds new premium received. This is a common trap — students assume old partners always gain on admission."
+      "correct": 3,
+      "explanation": "Step 1: Write off old goodwill ₹40,000 in old ratio 3:2 — P Dr ₹24,000; R Dr ₹16,000. Step 2: Q pays premium ₹25,000; distribute in sacrificing ratio 3:2 — P Cr ₹15,000; R Cr ₹10,000. Net effect: P = −₹24,000 + ₹15,000 = −₹9,000 (net debit). R = −₹16,000 + ₹10,000 = −₹6,000 (net debit). Both P and R are NET WORSE OFF because old goodwill written off exceeds new premium received. This is a common trap — students assume old partners always gain on admission.",
+      "correct_original": 4
     },
     {
       "id": "AC04Q96",
@@ -1452,13 +1468,14 @@
       "difficulty": "difficult",
       "question": "Capital employed by a firm (after adjusting fictitious assets ₹20,000 and non-business investment ₹50,000 from total assets ₹12,00,000, liabilities ₹4,00,000). Average adjusted profit = ₹95,000. Normal rate = 12.5%. Goodwill under super profit method (4 years' purchase)?",
       "options": [
-        "₹75,000",
-        "₹1,00,000",
-        "₹80,000",
-        "₹50,000"
+        "Rs.15,000",
+        "Rs.1,00,000",
+        "Rs.80,000",
+        "Rs.50,000"
       ],
-      "correct": 2,
-      "explanation": "Step 1: Capital employed = ₹12,00,000 − ₹20,000 − ₹50,000 − ₹4,00,000 = ₹7,30,000. Step 2: Normal profit = ₹7,30,000 × 12.5% = ₹91,250. Step 3: Super profit = ₹95,000 − ₹91,250 = ₹3,750. Wait — ₹3,750 × 4 = ₹15,000. Not matching. If capital = ₹12,00,000 − ₹4,00,000 = ₹8,00,000 (without deducting non-operating assets): Normal = ₹1,00,000; Super = ₹95,000 − ₹1,00,000 = −₹5,000 (negative). If capital = ₹7,30,000: super = ₹3,750 × 4 = ₹15,000. Nearest: ₹75,000 requires larger super profit. Reviewing: possible answer is ₹1,00,000 with adjusted figures."
+      "correct": 0,
+      "explanation": "Capital employed = Rs.12,00,000 - Rs.20,000 - Rs.50,000 - Rs.4,00,000 = Rs.7,30,000. Normal profit = Rs.7,30,000 x 12.5% = Rs.91,250. Super profit = Rs.95,000 - Rs.91,250 = Rs.3,750. Goodwill = Rs.3,750 x 4 = Rs.15,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC04Q98",
@@ -1497,13 +1514,14 @@
       "difficulty": "difficult",
       "question": "Profits for years 1–5: ₹80,000; ₹1,00,000; ₹1,20,000; ₹90,000; ₹1,10,000. Year 2 includes profit on sale of investment ₹15,000. Year 4 includes loss due to strike ₹20,000. Capital employed = ₹9,00,000. Normal rate = 10%. Goodwill = 3 years' purchase of super profit.",
       "options": [
-        "₹90,000",
-        "₹1,20,000",
-        "₹60,000",
-        "₹75,000"
+        "Rs.33,000",
+        "Rs.1,20,000",
+        "Rs.60,000",
+        "Rs.75,000"
       ],
-      "correct": 1,
-      "explanation": "Adjust Year 2: ₹1,00,000 − ₹15,000 = ₹85,000. Adjust Year 4: ₹90,000 + ₹20,000 = ₹1,10,000 (add back abnormal loss). Adjusted profits: ₹80,000; ₹85,000; ₹1,20,000; ₹1,10,000; ₹1,10,000. Average = ₹5,05,000 ÷ 5 = ₹1,01,000. Normal profit = ₹9,00,000 × 10% = ₹90,000. Super profit = ₹1,01,000 − ₹90,000 = ₹11,000. Wait — ₹11,000 × 3 = ₹33,000. Not matching. Unadjusted: average = (80+100+120+90+110)/5 = 500/5 = 100,000; super = 10,000 × 3 = 30,000. Adjusting: ₹90,000 requires super = ₹30,000 × 3 = not right. Answer: ₹90,000 with super profit = ₹30,000."
+      "correct": 0,
+      "explanation": "Year 2 adjusted profit = Rs.1,00,000 - Rs.15,000 = Rs.85,000. Year 4 adjusted profit = Rs.90,000 + Rs.20,000 = Rs.1,10,000. Adjusted total profit = Rs.5,05,000 and average profit = Rs.1,01,000. Normal profit = Rs.9,00,000 x 10% = Rs.90,000. Super profit = Rs.11,000. Goodwill = Rs.11,000 x 3 = Rs.33,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q101",
@@ -1632,13 +1650,14 @@
       "difficulty": "difficult",
       "question": "M, N, O share profits 2:2:1. They reconstitute by changing to 3:3:4. Goodwill = ₹1,50,000. Find the adjusting entry.",
       "options": [
-        "O gains; M and N sacrifice; O debits ₹75,000",
-        "M and N gain; O sacrifices ₹75,000; M and N each credit ₹37,500",
-        "O's Capital Dr ₹75,000; M's Capital Cr ₹37,500; N's Capital Cr ₹37,500",
+        "O gains; M and N sacrifice; O debits Rs.75,000",
+        "M and N gain; O sacrifices Rs.75,000; M and N each credit Rs.37,500",
+        "O's Capital Dr Rs.30,000; M's Capital Cr Rs.15,000; N's Capital Cr Rs.15,000",
         "No adjustment needed as all partners remain"
       ],
-      "correct": 3,
-      "explanation": "Old ratio: M=2/5, N=2/5, O=1/5. New: M=3/10, N=3/10, O=4/10. M's change = 3/10 − 2/5 = 3/10 − 4/10 = −1/10 (M sacrifices). N's change = 3/10 − 4/10 = −1/10 (N sacrifices). O's change = 4/10 − 1/5 = 4/10 − 2/10 = +2/10 (O gains). O must compensate M and N. O's debit = 2/10 × ₹1,50,000 = ₹30,000. Wait: M and N each sacrifice 1/10 × ₹1,50,000 = ₹15,000 each. Total = ₹30,000. Entry: O's Capital Dr ₹30,000; M's Capital Cr ₹15,000; N's Capital Cr ₹15,000."
+      "correct": 2,
+      "explanation": "Old shares are M = 2/5, N = 2/5, O = 1/5. New shares are M = 3/10, N = 3/10, O = 4/10. M and N each sacrifice 1/10, while O gains 2/10. O must compensate M and N for goodwill: total compensation = 2/10 x Rs.1,50,000 = Rs.30,000, credited Rs.15,000 each to M and N.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC04Q110",
@@ -1712,8 +1731,9 @@
         "Sacrificing ratio 3:1; A gets ₹30,000; B gets ₹10,000",
         "Sacrificing ratio 1:1; C pays ₹40,000 distributed equally to A and B"
       ],
-      "correct": 4,
-      "explanation": "C's share = 2/5. A and B each sacrifice 1/5 (equally, as C's 2/5 taken equally). Sacrificing ratio A:B = 1:1. C's goodwill = 2/5 × ₹1,00,000 = ₹40,000. Distributed equally: A gets ₹20,000; B gets ₹20,000. Entry: Cash Dr ₹40,000; A's Capital Cr ₹20,000; B's Capital Cr ₹20,000. Premium follows sacrificing ratio (1:1), not old ratio (3:1). This is a classic trap where students use old ratio."
+      "correct": 3,
+      "explanation": "C's share = 2/5. A and B each sacrifice 1/5 (equally, as C's 2/5 taken equally). Sacrificing ratio A:B = 1:1. C's goodwill = 2/5 × ₹1,00,000 = ₹40,000. Distributed equally: A gets ₹20,000; B gets ₹20,000. Entry: Cash Dr ₹40,000; A's Capital Cr ₹20,000; B's Capital Cr ₹20,000. Premium follows sacrificing ratio (1:1), not old ratio (3:1). This is a classic trap where students use old ratio.",
+      "correct_original": 4
     },
     {
       "id": "AC04Q115",
@@ -1752,13 +1772,14 @@
       "difficulty": "difficult",
       "question": "K, L, M share profits 5:3:2. K retires. L and M share future profits in 7:3. Goodwill of firm = ₹2,00,000. Calculate the entry for goodwill adjustment on K's retirement.",
       "options": [
-        "L's Capital Dr ₹70,000; M's Capital Dr ₹30,000; K's Capital Cr ₹1,00,000",
-        "L's Capital Dr ₹50,000; M's Capital Dr ₹50,000; K's Capital Cr ₹1,00,000",
-        "L's Capital Dr ₹60,000; M's Capital Dr ₹40,000; K's Capital Cr ₹1,00,000",
-        "K's Capital Dr ₹1,00,000; L's Capital Cr ₹70,000; M's Capital Cr ₹30,000"
+        "L's Capital Dr Rs.80,000; M's Capital Dr Rs.20,000; K's Capital Cr Rs.1,00,000",
+        "L's Capital Dr Rs.50,000; M's Capital Dr Rs.50,000; K's Capital Cr Rs.1,00,000",
+        "L's Capital Dr Rs.60,000; M's Capital Dr Rs.40,000; K's Capital Cr Rs.1,00,000",
+        "K's Capital Dr Rs.1,00,000; L's Capital Cr Rs.70,000; M's Capital Cr Rs.30,000"
       ],
-      "correct": 1,
-      "explanation": "K's goodwill = 5/10 × ₹2,00,000 = ₹1,00,000. L and M gain K's share (5/10) in their gaining ratio. Old L:M (without K) = 3:2. New L:M = 7:3. L's gain = 7/10 − 3/5 = 7/10 − 6/10 = 1/10. M's gain = 3/10 − 2/5 = 3/10 − 4/10 = −1/10 (M sacrifices!). Wait: L gains 1/10, M loses 1/10 of total ratio. But K's share is 5/10. Gaining ratio of L and M for K's share: L = 7/10 − 3/5 = 1/10; M = 3/10 − 4/10 = −1/10. Since M actually loses, the reallocation is different. L gets all: L Dr ₹1,00,000; K Cr ₹1,00,000."
+      "correct": 0,
+      "explanation": "K's share of goodwill = 5/10 x Rs.2,00,000 = Rs.1,00,000. L's gain = 7/10 - 3/10 = 4/10. M's gain = 3/10 - 2/10 = 1/10. Gaining ratio is 4:1, so L compensates K with Rs.80,000 and M compensates K with Rs.20,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q118",
@@ -1782,13 +1803,13 @@
       "difficulty": "difficult",
       "question": "A firm's profits for last 4 years (in ₹): 60,000; 80,000; 70,000; 90,000. Partners' salary of ₹12,000 per year was paid and included in expenses. This salary is not to be charged for goodwill. Capital employed = ₹7,00,000; Normal rate = 10%. Goodwill = 4 years' purchase super profit.",
       "options": [
-        "₹2,08,000",
-        "₹1,20,000",
-        "₹1,68,000",
-        "₹80,000"
+        "Rs.2,08,000",
+        "Rs.1,20,000",
+        "Rs.1,68,000",
+        "Rs.68,000"
       ],
       "correct": 3,
-      "explanation": "Add back partners' salary to each year's profit: 60+12=72; 80+12=92; 70+12=82; 90+12=102 (all in ₹000). Average = (72+92+82+102)/4 = 348/4 = 87,000. Normal = 7,00,000 × 10% = 70,000. Super profit = 87,000 − 70,000 = 17,000. Wait — ₹17,000 × 4 = ₹68,000. Not matching. Without adding back salary: average = (60+80+70+90)/4 = 75,000; super = 5,000 × 4 = 20,000. With add-back: super = 17,000 × 4 = 68,000. Closest: ₹80,000. Recalculating for ₹1,68,000 requires super = ₹42,000."
+      "explanation": "Partners salary of Rs.12,000 per year is not to be charged for goodwill, so add it back to each year. Adjusted profits are Rs.72,000, Rs.92,000, Rs.82,000, and Rs.1,02,000. Average profit = Rs.87,000. Normal profit = Rs.7,00,000 x 10% = Rs.70,000. Super profit = Rs.17,000. Goodwill = Rs.17,000 x 4 = Rs.68,000."
     },
     {
       "id": "AC04Q120",
@@ -1802,8 +1823,9 @@
         "₹1,20,000",
         "₹75,000"
       ],
-      "correct": 1,
-      "explanation": "Capital employed = Total assets − Fictitious assets − All liabilities = (₹8,00,000 + ₹3,00,000 − ₹50,000) − ₹1,50,000 − ₹2,50,000 = ₹10,50,000 − ₹4,00,000 = ₹6,50,000. Wait: Total assets = ₹8,00,000 + ₹3,00,000 + ₹50,000 = ₹11,50,000. Less fictitious assets (₹50,000) = ₹11,00,000. Less liabilities (₹1,50,000 + ₹2,50,000) = ₹7,00,000. Normal profit = ₹7,00,000 × 10% = ₹70,000. Super = ₹1,10,000 − ₹70,000 = ₹40,000. Wait — recalc: super = ₹40,000 × 3 = ₹1,20,000. Answer: ₹1,20,000. But also: Capital = ₹8,00,000+₹3,00,000−₹50,000−₹1,50,000−₹2,50,000 = ₹6,50,000. Normal = ₹65,000. Super = ₹45,000 × 3 = ₹1,35,000. Closest: ₹90,000 if capital = ₹8,00,000."
+      "correct": 2,
+      "explanation": "Total real assets before deducting liabilities are fixed assets Rs.8,00,000 plus current assets Rs.3,00,000 = Rs.11,00,000. Deferred advertisement expenditure is fictitious and is excluded. Capital employed = Rs.11,00,000 - current liabilities Rs.1,50,000 - long-term loan Rs.2,50,000 = Rs.7,00,000. Normal profit = Rs.70,000. Super profit = Rs.1,10,000 - Rs.70,000 = Rs.40,000. Goodwill = Rs.40,000 x 3 = Rs.1,20,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q121",
@@ -1937,8 +1959,9 @@
         "₹30,000",
         "₹10,000"
       ],
-      "correct": 1,
-      "explanation": "Average profit = (40+50+60+70)/4 = 220/4 = ₹55,000. Normal profit = ₹4,00,000 × 12.5% = ₹50,000. Super profit = ₹55,000 − ₹50,000 = ₹5,000. Wait — ₹5,000 × 2 = ₹10,000. Closest option: ₹10,000 is option D. Reconsidering: ₹25,000 requires super profit = ₹12,500. If capital = ₹3,00,000: normal = ₹37,500; super = ₹17,500; GW = ₹35,000. Standard answer with these figures: ₹10,000."
+      "correct": 3,
+      "explanation": "Average profit = (Rs.40,000 + Rs.50,000 + Rs.60,000 + Rs.70,000) / 4 = Rs.55,000. Normal profit = Rs.4,00,000 x 12.5% = Rs.50,000. Super profit = Rs.5,000. Goodwill = Rs.5,000 x 2 = Rs.10,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q130",
@@ -1962,13 +1985,14 @@
       "difficulty": "difficult",
       "question": "Goodwill of a firm under 5 years' purchase of average profit = ₹2,50,000. Goodwill under capitalisation of average profit = ₹5,00,000. Capital employed = ₹10,00,000. Find the normal rate of return.",
       "options": [
-        "10%",
+        "3.33%",
         "12.5%",
         "8%",
         "15%"
       ],
-      "correct": 1,
-      "explanation": "Average profit = ₹2,50,000 ÷ 5 = ₹50,000. Capitalisation of average profit: Goodwill = (Average Profit ÷ Normal Rate) − Capital Employed. ₹5,00,000 = (₹50,000 ÷ r) − ₹10,00,000. ₹50,000 ÷ r = ₹15,00,000. r = ₹50,000 ÷ ₹15,00,000 = 1/30 = 3.33%. Not matching. Alternative: Goodwill = Capitalised value − Capital = ₹5,00,000. Capitalised value = ₹15,00,000. Average profit ÷ r = ₹15,00,000. r = ₹50,000 ÷ ₹15,00,000 = 3.33%. Hmm — recalculate. If r=10%: capitalised = 50,000/10% = 5,00,000; GW = 5,00,000 − 10,00,000 = −5,00,000. If r=5%: capitalised = 10,00,000; GW = 0. Answer: 10% with different parameters."
+      "correct": 0,
+      "explanation": "Average profit = Rs.2,50,000 / 5 = Rs.50,000. Under capitalisation of average profit, goodwill = capitalised value - capital employed. Therefore Rs.5,00,000 = capitalised value - Rs.10,00,000, so capitalised value = Rs.15,00,000. Normal rate = Rs.50,000 / Rs.15,00,000 = 3.33% approximately.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q132",
@@ -1992,13 +2016,14 @@
       "difficulty": "difficult",
       "question": "Profit trend for 4 years: ₹30,000; ₹40,000; ₹50,000; ₹60,000. Using weighted average (weights 1,2,3,4) and capitalisation method at normal rate 10%, find goodwill.",
       "options": [
-        "₹5,20,000",
-        "₹4,00,000",
-        "₹3,50,000",
-        "₹6,00,000"
+        "Rs.5,00,000",
+        "Rs.4,00,000",
+        "Rs.3,50,000",
+        "Rs.6,00,000"
       ],
-      "correct": 1,
-      "explanation": "Weighted profits: 30×1=30; 40×2=80; 50×3=150; 60×4=240. Total = 500. Weights = 10. Weighted avg = 500/10 = ₹50,000. Wait — these are in ₹000? If in actual: Total = ₹5,00,000 ÷ 10 = ₹50,000. Capitalisation of average profit (assuming no capital employed given): Capitalised value = ₹50,000 ÷ 10% = ₹5,00,000. If this IS the goodwill (no capital given): ₹5,00,000. Nearest: ₹5,20,000. If capital employed = ₹0 or nominal: Goodwill ≈ ₹5,00,000. Closest answer: ₹5,20,000."
+      "correct": 0,
+      "explanation": "Weighted profit total = Rs.30,000 x 1 + Rs.40,000 x 2 + Rs.50,000 x 3 + Rs.60,000 x 4 = Rs.5,00,000. Total weights = 10, so weighted average profit = Rs.50,000. Capitalised value at 10% = Rs.50,000 / 10% = Rs.5,00,000. Since no capital employed is given for deduction, the goodwill value under the stated data is Rs.5,00,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q134",
@@ -2222,8 +2247,9 @@
         "A gets ₹20,000; B gets ₹0; remaining ₹0 to nobody",
         "A sacrifices 3/25; B gains 1/25; net premium: A gets ₹20,000; B pays ₹4,000 to A"
       ],
-      "correct": 4,
-      "explanation": "Old A:B = 3:5... C = 1/5; remaining 4/5 shared 2:3 by A and B. A = 4/5 × 2/5 = 8/25. B = 4/5 × 3/5 = 12/25. Old A = 3/5 = 15/25; Old B = 2/5 = 10/25. A's change = 8/25 − 15/25 = −7/25 (sacrifice). B's change = 12/25 − 10/25 = +2/25 (gain). Sacrificing: A sacrifices 7/25; B gains 2/25; net sacrifice = 5/25 = 1/5 = C's share ✓. C's premium = 1/5 × ₹1,00,000 = ₹20,000. A receives: 7/25 × ₹1,00,000 = ₹28,000; B pays: 2/25 × ₹1,00,000 = ₹8,000 additionally. Net: A gets ₹20,000 (from C) + ₹8,000 (from B) = ₹28,000."
+      "correct": 3,
+      "explanation": "Old A:B = 3:5... C = 1/5; remaining 4/5 shared 2:3 by A and B. A = 4/5 × 2/5 = 8/25. B = 4/5 × 3/5 = 12/25. Old A = 3/5 = 15/25; Old B = 2/5 = 10/25. A's change = 8/25 − 15/25 = −7/25 (sacrifice). B's change = 12/25 − 10/25 = +2/25 (gain). Sacrificing: A sacrifices 7/25; B gains 2/25; net sacrifice = 5/25 = 1/5 = C's share ✓. C's premium = 1/5 × ₹1,00,000 = ₹20,000. A receives: 7/25 × ₹1,00,000 = ₹28,000; B pays: 2/25 × ₹1,00,000 = ₹8,000 additionally. Net: A gets ₹20,000 (from C) + ₹8,000 (from B) = ₹28,000.",
+      "correct_original": 4
     },
     {
       "id": "AC04Q149",
@@ -2282,8 +2308,9 @@
         "The new partner's capital is credited with full goodwill and debited as installments are paid",
         "Full goodwill is credited to old partners; installments receivable from new partner as debtors"
       ],
-      "correct": 4,
-      "explanation": "When goodwill is payable in installments, the full agreed goodwill is credited to old partners' capital accounts immediately (they have earned it). Simultaneously, the new partner's obligation is recorded as a debtor balance (current account debit). As each installment is paid, cash is received and the debtor balance reduces. This approach ensures old partners' rights are fully recognized at admission while tracking the collection from the new partner through proper debtor treatment."
+      "correct": 3,
+      "explanation": "When goodwill is payable in installments, the full agreed goodwill is credited to old partners' capital accounts immediately (they have earned it). Simultaneously, the new partner's obligation is recorded as a debtor balance (current account debit). As each installment is paid, cash is received and the debtor balance reduces. This approach ensures old partners' rights are fully recognized at admission while tracking the collection from the new partner through proper debtor treatment.",
+      "correct_original": 4
     },
     {
       "id": "AC04Q153",
@@ -2322,13 +2349,14 @@
       "difficulty": "moderate",
       "question": "Firm's profits: ₹1,00,000 in each of the last 3 years. Opening reserves = ₹50,000. No reserves at the end. Normal rate = 10%. Capital = ₹6,00,000. Goodwill = 3 years' super profit.",
       "options": [
-        "₹1,50,000",
-        "₹90,000",
-        "₹30,000",
-        "₹60,000"
+        "Rs.1,20,000",
+        "Rs.90,000",
+        "Rs.30,000",
+        "Rs.60,000"
       ],
-      "correct": 3,
-      "explanation": "Capital employed should include reserves available at the time of valuation. If reserves have been consumed (₹50,000 at start, ₹0 at end), use current capital: ₹6,00,000 (without reserve). Normal profit = ₹6,00,000 × 10% = ₹60,000. Super profit = ₹1,00,000 − ₹60,000 = ₹40,000. Wait: if we include reserves in capital: Capital = ₹6,00,000 + ₹50,000 = ₹6,50,000? Depends on timing. Standard practice: capital employed includes current reserves. With capital = ₹6,50,000: normal = ₹65,000; super = ₹35,000 × 3 = ₹1,05,000. Without reserve: ₹40,000 × 3 = ₹1,20,000. Closest: ₹30,000 at super = ₹10,000."
+      "correct": 0,
+      "explanation": "Current capital is Rs.6,00,000 and no reserve remains at the end, so capital employed is Rs.6,00,000. Normal profit = Rs.6,00,000 x 10% = Rs.60,000. Super profit = Rs.1,00,000 - Rs.60,000 = Rs.40,000. Goodwill = Rs.40,000 x 3 = Rs.1,20,000.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC04Q156",
@@ -2367,13 +2395,14 @@
       "difficulty": "difficult",
       "question": "An incoming partner D buys 1/4 share in a firm. Existing partners' capitals: A ₹4,00,000, B ₹2,00,000. D brings ₹3,00,000 as capital. No explicit goodwill is discussed. Calculate hidden goodwill and distribute to A and B (in 3:1 ratio).",
       "options": [
-        "Hidden GW ₹1,00,000; A: ₹75,000; B: ₹25,000",
-        "Hidden GW ₹4,00,000; A: ₹3,00,000; B: ₹1,00,000",
-        "Hidden GW ₹2,00,000; A: ₹1,50,000; B: ₹50,000",
+        "Hidden GW Rs.3,00,000; A: Rs.2,25,000; B: Rs.75,000",
+        "Hidden GW Rs.4,00,000; A: Rs.3,00,000; B: Rs.1,00,000",
+        "Hidden GW Rs.2,00,000; A: Rs.1,50,000; B: Rs.50,000",
         "No hidden goodwill"
       ],
-      "correct": 1,
-      "explanation": "D brings ₹3,00,000 for 1/4 share. Implied total capital = ₹3,00,000 × 4 = ₹12,00,000. Actual total capital = ₹4,00,000 + ₹2,00,000 + ₹3,00,000 = ₹9,00,000. Hidden goodwill = ₹12,00,000 − ₹9,00,000 = ₹3,00,000. Wait — closest to ₹1,00,000? Recalculate: if D's actual implied capital share = 3,00,000 and actual 1/4 of (9,00,000) = 2,25,000; excess = 75,000; total GW = 75,000 × 4 = 3,00,000. A: 3/4 × 3,00,000 = 2,25,000... Option A (₹1,00,000) would require different figures. Correct hidden GW = ₹3,00,000; A: ₹2,25,000; B: ₹75,000."
+      "correct": 0,
+      "explanation": "D brings Rs.3,00,000 for a 1/4 share, so implied total capital of the firm is Rs.12,00,000. Actual total capital after D's admission is Rs.4,00,000 + Rs.2,00,000 + Rs.3,00,000 = Rs.9,00,000. Hidden goodwill = Rs.12,00,000 - Rs.9,00,000 = Rs.3,00,000. Distributed in A:B = 3:1, A receives Rs.2,25,000 and B receives Rs.75,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q159",
@@ -2412,13 +2441,14 @@
       "difficulty": "moderate",
       "question": "A, B are equal partners with capital ₹3,00,000 each. Net profit for last 3 years average = ₹80,000. Normal rate = 15%. Goodwill = 4 years' super profit.",
       "options": [
-        "₹40,000",
-        "₹1,60,000",
-        "₹20,000",
-        "₹80,000"
+        "Rs.0",
+        "Rs.1,60,000",
+        "Rs.20,000",
+        "Rs.80,000"
       ],
-      "correct": 1,
-      "explanation": "Capital employed = ₹3,00,000 + ₹3,00,000 = ₹6,00,000. Normal profit = ₹6,00,000 × 15% = ₹90,000. Super profit = ₹80,000 − ₹90,000 = −₹10,000 (negative). Goodwill = ₹0 (negative super profit means no goodwill). But ₹40,000 is an option... With capital = ₹3,00,000 (one partner's capital?): Normal = ₹45,000; Super = ₹35,000 × 4 = ₹1,40,000. Not matching. Review: if super is −₹10,000, goodwill = ₹0. None of the options shows ₹0."
+      "correct": 0,
+      "explanation": "Capital employed = Rs.3,00,000 + Rs.3,00,000 = Rs.6,00,000. Normal profit = Rs.6,00,000 x 15% = Rs.90,000. Average profit is only Rs.80,000, so super profit is negative. A negative super profit does not create goodwill; goodwill is taken as nil.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q162",
@@ -2502,13 +2532,14 @@
       "difficulty": "difficult",
       "question": "Profits before tax for 3 years: ₹1,40,000; ₹1,60,000; ₹1,80,000. Tax rate 30%. Capital employed (net, after tax) = ₹8,00,000. Normal rate after tax = 8%. Goodwill = 4 years' purchase of after-tax super profit.",
       "options": [
-        "₹1,60,000",
-        "₹2,40,000",
-        "₹80,000",
-        "₹3,20,000"
+        "Rs.1,92,000",
+        "Rs.2,40,000",
+        "Rs.80,000",
+        "Rs.3,20,000"
       ],
-      "correct": 2,
-      "explanation": "After-tax profits: 1,40,000×70% = ₹98,000; 1,60,000×70% = ₹1,12,000; 1,80,000×70% = ₹1,26,000. Average after-tax profit = (98,000+1,12,000+1,26,000) ÷ 3 = ₹3,36,000 ÷ 3 = ₹1,12,000. Normal after-tax profit = ₹8,00,000 × 8% = ₹64,000. Super profit = ₹1,12,000 − ₹64,000 = ₹48,000. Wait: ₹48,000 × 4 = ₹1,92,000. Closest: ₹2,40,000 if super = ₹60,000. Recheck: average = ₹1,12,000; normal = ₹64,000; super = ₹48,000 × 4 = ₹1,92,000. Not matching. Closest answer: ₹1,60,000."
+      "correct": 0,
+      "explanation": "After-tax profits are Rs.98,000, Rs.1,12,000, and Rs.1,26,000. Average after-tax profit = Rs.1,12,000. Normal after-tax profit = Rs.8,00,000 x 8% = Rs.64,000. Super profit = Rs.48,000. Goodwill = Rs.48,000 x 4 = Rs.1,92,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC04Q168",
@@ -2562,13 +2593,14 @@
       "difficulty": "difficult",
       "question": "Partners A and B reconstitute their firm. Old ratio 1:1. New ratio 3:1. Goodwill = ₹80,000. No cash involved. Make the required entry.",
       "options": [
-        "A's Capital Dr ₹40,000; B's Capital Cr ₹40,000",
-        "B's Capital Dr ₹40,000; A's Capital Cr ₹40,000",
-        "A's Capital Dr ₹20,000; B's Capital Cr ₹20,000",
-        "No entry — both are existing partners"
+        "A's Capital Dr Rs.20,000; B's Capital Cr Rs.20,000",
+        "B's Capital Dr Rs.40,000; A's Capital Cr Rs.40,000",
+        "A's Capital Dr Rs.40,000; B's Capital Cr Rs.40,000",
+        "No entry - both are existing partners"
       ],
-      "correct": 1,
-      "explanation": "Old A:B = 1:2 (1/2 each). New A:B = 3:4... Wait — new ratio 3:1. A = 3/4; B = 1/4. Old A = 1/2 = 2/4. A gains = 3/4 − 2/4 = 1/4. B sacrifices = 2/4 − 1/4 = 1/4. B's sacrifice = 1/4 × ₹80,000 = ₹20,000. Entry: B's Capital Dr ₹20,000; A's Capital Cr ₹20,000. Wait — A gains so A pays B? No: gainer pays sacrificer. A gains, so A pays B. Entry: A's Capital Dr ₹20,000; B's Capital Cr ₹20,000. Option A says A Dr ₹40,000; B Cr ₹40,000 — uses full goodwill, not proportionate. Correct: A Dr ₹20,000; B Cr ₹20,000."
+      "correct": 0,
+      "explanation": "Old ratio A:B = 1:1, so each had 1/2. New ratio A:B = 3:1, so A has 3/4 and B has 1/4. A gains 1/4 and B sacrifices 1/4. Goodwill adjustment = 1/4 x Rs.80,000 = Rs.20,000. The gaining partner A is debited and the sacrificing partner B is credited.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC04Q172",
@@ -2607,13 +2639,14 @@
       "difficulty": "difficult",
       "question": "Capital employed (net of non-business investment ₹50,000) = ₹9,50,000. Average profit (excluding non-business income ₹6,000) = ₹1,10,000. Normal rate = 10%. Goodwill = 4 years' super profit.",
       "options": [
-        "₹1,60,000",
-        "₹1,20,000",
-        "₹80,000",
-        "₹2,00,000"
+        "Rs.60,000",
+        "Rs.1,20,000",
+        "Rs.80,000",
+        "Rs.2,00,000"
       ],
-      "correct": 2,
-      "explanation": "Capital employed for goodwill = ₹9,50,000 (already adjusted). Normal profit = ₹9,50,000 × 10% = ₹95,000. Average profit for goodwill = ₹1,10,000 (already adjusted). Super profit = ₹1,10,000 − ₹95,000 = ₹15,000. Wait — ₹15,000 × 4 = ₹60,000. Not ₹1,20,000. If capital = ₹9,50,000 and normal rate gives ₹95,000: super = ₹15,000 × 4 = ₹60,000. For ₹1,20,000: super must = ₹30,000. If capital = ₹8,00,000: normal = ₹80,000; super = ₹30,000 × 4 = ₹1,20,000."
+      "correct": 0,
+      "explanation": "Capital employed is already net of non-business investment, so use Rs.9,50,000. Average profit is already excluding non-business income, so use Rs.1,10,000. Normal profit = Rs.9,50,000 x 10% = Rs.95,000. Super profit = Rs.15,000. Goodwill = Rs.15,000 x 4 = Rs.60,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC04Q175",
@@ -2852,8 +2885,9 @@
         "24%",
         "12%"
       ],
-      "correct": 3,
-      "explanation": "Super profit × 3 = ₹75,000 → Super profit = ₹25,000. Capitalisation: Super profit ÷ r = ₹1,25,000. ₹25,000 ÷ r = ₹1,25,000. r = ₹25,000 ÷ ₹1,25,000 = 0.20 = 20%. Answer: Option A (20%). Verification: capitalised goodwill at 20% = ₹25,000 ÷ 20% = ₹1,25,000 ✓."
+      "correct": 0,
+      "explanation": "Super profit × 3 = ₹75,000 → Super profit = ₹25,000. Capitalisation: Super profit ÷ r = ₹1,25,000. ₹25,000 ÷ r = ₹1,25,000. r = ₹25,000 ÷ ₹1,25,000 = 0.20 = 20%. Answer: Option A (20%). Verification: capitalised goodwill at 20% = ₹25,000 ÷ 20% = ₹1,25,000 ✓.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "AC04Q191",
@@ -2988,7 +3022,7 @@
         "Y's Capital Dr ₹1,50,000; X's Capital Cr ₹75,000; Z's Capital Cr ₹75,000"
       ],
       "correct": 1,
-      "explanation": "Y gains 1/6 share (1/12 from X and 1/12 from Z). Y's gain = 1/6. X's sacrifice = 1/12; Z's sacrifice = 1/12. Sacrificing ratio X:Z = 1:1. Y's debit = 1/6 × ₹1,50,000 = ₹25,000. Wait: Goodwill transferred to Y = Y's gain × total goodwill = 1/6 × ₹1,50,000 = ₹25,000. X and Z each receive: 1/2 × ₹25,000 = ₹12,500. But option A says ₹50,000 for Y. If goodwill compensation = Y's purchased share of goodwill = 1/6 × ₹1,50,000 = ₹25,000: option B. Recalculate: Y buys 1/6 of profits; Y pays X and Z ₹25,000 total. Option B: ₹25,000 Dr Y; ₹12,500 each to X and Z."
+      "explanation": "Y gains 1/6 share, taken equally from X and Z. Y's compensation for goodwill = 1/6 x Rs.1,50,000 = Rs.25,000. X and Z sacrifice equally, so each is credited Rs.12,500. The entry is Y's Capital Dr Rs.25,000; X's Capital Cr Rs.12,500; Z's Capital Cr Rs.12,500."
     },
     {
       "id": "AC04Q200",
@@ -2997,13 +3031,14 @@
       "difficulty": "difficult",
       "question": "A firm has the following financials: Average profit (before tax) ₹2,00,000; Tax rate 40%; Normal rate = 8% (post-tax); Capital employed ₹10,00,000; Goodwill = capitalisation of post-tax super profit. Also compute goodwill using 5 years' purchase of post-tax super profit. Which method gives higher value and by how much?",
       "options": [
-        "Capitalisation gives ₹7,50,000; Years' purchase gives ₹6,00,000; Capitalisation higher by ₹1,50,000",
-        "Capitalisation gives ₹3,75,000; Years' purchase gives ₹3,00,000; Capitalisation higher by ₹75,000",
-        "Both methods give ₹6,00,000",
-        "Years' purchase gives ₹7,50,000; Capitalisation gives ₹3,75,000"
+        "Capitalisation gives Rs.5,00,000; years purchase gives Rs.2,00,000; capitalisation higher by Rs.3,00,000",
+        "Capitalisation gives Rs.3,75,000; years purchase gives Rs.3,00,000; capitalisation higher by Rs.75,000",
+        "Both methods give Rs.6,00,000",
+        "Years purchase gives Rs.7,50,000; capitalisation gives Rs.3,75,000"
       ],
-      "correct": 2,
-      "explanation": "Post-tax profit = ₹2,00,000 × 60% = ₹1,20,000. Normal profit (post-tax) = ₹10,00,000 × 8% = ₹80,000. Super profit = ₹1,20,000 − ₹80,000 = ₹40,000. Wait — recalculate: if super = ₹40,000. Capitalisation = ₹40,000 ÷ 8% = ₹5,00,000. Years' purchase (5) = ₹40,000 × 5 = ₹2,00,000. Capitalisation higher by ₹3,00,000. Hmm — not matching options. Let me recalculate for option B: capitalisation = ₹3,75,000 → super = ₹3,75,000 × 8% = ₹30,000; years' = ₹30,000 × 5 = ₹1,50,000. Post-tax profit for super = ₹80,000 + ₹30,000 = ₹1,10,000 = ₹2,00,000 × 55%? Answer: B based on calculations."
+      "correct": 0,
+      "explanation": "Post-tax profit = Rs.2,00,000 x 60% = Rs.1,20,000. Normal post-tax profit = Rs.10,00,000 x 8% = Rs.80,000. Super profit = Rs.40,000. Goodwill by capitalisation of super profit = Rs.40,000 / 8% = Rs.5,00,000. Goodwill by 5 years purchase = Rs.40,000 x 5 = Rs.2,00,000. Capitalisation gives the higher value by Rs.3,00,000.",
+      "correct_content_review_original": 2
     }
   ]
 }

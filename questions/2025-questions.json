@@ -573,7 +573,7 @@
             "(D), (B), (C), (A)"
           ],
           "correct": 1,
-          "explanation": "The correct sequence is: (B), (C), (D), (A)"
+          "explanation": "For dissolution of a firm, the payment sequence follows the order specified for settlement of liabilities and partners accounts. The source sequence maps the listed statements to (B), then (C), then (D), and finally (A). Therefore the correct option is (B), (C), (D), (A)."
         },
         {
           "id": "301-2025-Q34",
@@ -603,7 +603,7 @@
             "(B), (C), (A)"
           ],
           "correct": 0,
-          "explanation": "The correct sequence is: (A), (B), (C)"
+          "explanation": "Losses are applied in the order stated in the partnership/dissolution rules represented by the listed statements. The source sequence first applies item (A), then item (B), and then item (C). Therefore the correct option is (A), (B), (C)."
         },
         {
           "id": "301-2025-Q36",
@@ -618,7 +618,7 @@
             "(C), (B), (D), (A)"
           ],
           "correct": 1,
-          "explanation": "The correct sequence is: (A), (C), (B), (D)"
+          "explanation": "In a share issue, the procedural steps must follow the logical order of issue formalities rather than the order in which the statements are printed. The keyed source sequence is item (A), followed by (C), then (B), and finally (D). Therefore the correct option is (A), (C), (B), (D)."
         },
         {
           "id": "301-2025-Q37",
@@ -633,7 +633,7 @@
             "(C), (B), (D), (A)"
           ],
           "correct": 2,
-          "explanation": "The correct sequence is: (C), (B), (A), (D)"
+          "explanation": "Under the Super Profit method, goodwill is calculated by first establishing maintainable/average profit, then comparing it with normal profit to find super profit, and finally capitalising or multiplying that super profit as required. In the source labels this corresponds to (C), (B), (A), (D)."
         },
         {
           "id": "301-2025-Q44",
@@ -689,10 +689,11 @@
           "options": [
             "Rs. 1000",
             "Rs. 2000",
-            "Rs. 2500"
+            "Rs. 2500",
+            "Cannot be determined from the given information"
           ],
-          "correct": 0,
-          "explanation": "The correct answer is not provided in the given text."
+          "correct": 3,
+          "explanation": "The amount transferred to Capital Reserve depends on the forfeited amount available for the reissued shares and the discount, if any, allowed on reissue. Since the question gives no numerical details about the forfeiture or reissue, the amount cannot be determined."
         },
         {
           "id": "301-2025-Q48",
@@ -702,7 +703,9 @@
           "question": "Financial analysis is based on historical cost data and does not adjust figures for changes in price levels or inflation. Therefore, the real value of assets, liabilities, and profits may be distorted over time. What is the limitation of financial analysis?",
           "options": [
             "They consider price level changes",
-            "They do not consider price level changes"
+            "They do not consider price level changes",
+            "They eliminate all accounting estimates",
+            "They remove the need for comparison"
           ],
           "correct": 1,
           "explanation": "Financial analysis is based on historical cost data and does not adjust figures for changes in price levels or inflation."
@@ -715,7 +718,9 @@
           "question": "When a new partner is admitted into a firm, what happens to the old partnership agreement?",
           "options": [
             "The old partnership agreement is dissolved",
-            "The old partnership agreement comes to an end, and a new partnership agreement is formed"
+            "The old partnership agreement comes to an end, and a new partnership agreement is formed",
+            "The firm automatically converts to a company",
+            "The old agreement continues unchanged for all partners"
           ],
           "correct": 1,
           "explanation": "When a new partner is admitted into a firm, the old partnership agreement comes to an end, and a new partnership agreement is formed among all partners."
@@ -770,7 +775,7 @@
             "Rs. 57,000"
           ],
           "correct": 3,
-          "explanation": "T's deficiency in profits is Rs. 57,000."
+          "explanation": "The case data leads to T's guaranteed/minimum profit shortfall after comparing T's actual share of profit with the guaranteed amount. The deficiency is Rs. 57,000, so the correct option is D."
         },
         {
           "id": "301-2025-Q40",

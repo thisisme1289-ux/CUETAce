@@ -1,0 +1,815 @@
+{
+  "subject": "Economics",
+  "subject_code": "309",
+  "year": "2024",
+  "paper": "2024-economics-02-solutions",
+  "total_questions": 50,
+  "chapters": [
+    {
+      "chapter_id": "3092024s02solutions",
+      "chapter": "Economics CUET 2024 Past Year Paper - 2024-economics-02-solutions",
+      "questions": [
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "depicts what has actually happened.",
+          "options": [
+            "Ex-Ante",
+            "Ex-Post",
+            "Constant",
+            "Variable"
+          ],
+          "correct": 1,
+          "explanation": "Ex-post refers to something that is analyzed after the fact or based on actual out- comes, while Ex-Ante refers to predictions made beforehand.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the value of Investment Multiplier is 5 and the increased income is 800 crore in an economy, then find the value of change in the investment in the economy.",
+          "options": [
+            "4000 crore",
+            "120 crore",
+            "400 crore",
+            "160 crore"
+          ],
+          "correct": 2,
+          "explanation": "The investment multiplier (K) is the ratio of the change in income (Y) to the change in investment (I). The formula isK = ∆Y ∆I . Rearranging the formula, we get∆I = ∆Y K = 800 5 = 400 crore.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following statements are true? (A) Quantitative tools control the extent of money supply by changing the CRR. 1 (B) There are two types of open market operations – outright and upright. (C) A fall in the bank rate can decrease the money supply. (D) Selling of a bond by RBI leads to reduction in quantity of reserves. (E) The RBI can influence money supply by changing the rate at which it gives loan to the commercial banks. Choose from the options given below :",
+          "options": [
+            "(A), (C) and (D) only",
+            "(A), (B) and (D) only",
+            "(B), (D) and (E) only",
+            "(A), (D) and (E) only"
+          ],
+          "correct": 3,
+          "explanation": "- (A) is true because CRR (Cash Reserve Ratio) is a quantitative tool used to control the money supply. - (D) is true because selling a bond reduces the reserves in the banking system. - (E) is true as RBI controls money supply by adjusting the rate at which it lends to commercial banks. - (B) is false as there is no such thing as ”upright” operations, only ”outright” operations exist. - (C) is false because a fall in the bank rate usually increases the money supply.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Paradox of Thrift means:",
+          "options": [
+            "If all the people of the economy increase the proportion of income they save, the total value of investment in the economy will not increase, it will either decline or remain unchanged.",
+            "If all the people of the economy increase the proportion of income they spend, the total value of savings in the economy will not increase, it will either decline or remain unchanged.",
+            "If all the people of the economy decrease the proportion of income they save, the total value of savings in the economy will not increase, it will either decline or remain unchanged.",
+            "If all the people of the economy increase the proportion of income they save, the total value of savings in the economy will not increase, it will either decline or remain unchanged. 2"
+          ],
+          "correct": 3,
+          "explanation": "The paradox of thrift refers to a situation where increased saving by individuals leads to a decrease in aggregate demand and overall economic growth. When everyone tries to save more, consumption falls, leading to lower demand, and eventually, the total savings might decline as income levels drop.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II: List-I List-II (A) Bank Rate (I) Securities are pledged in order to repurchase (B) Marginal Standing Facility (II) Minimum rate at which funds are provided for long term (C) Repo Rate (III) Also known as Penal Interest Rate (D) Reverse Repo Rate (IV) Central Bank borrows funds from commercial banks Choose from the options given below:",
+          "options": [
+            "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+            "(A) - (II), (B) - (III), (C) - (I), (D) - (IV)",
+            "(A) - (III), (B) - (II), (C) - (IV), (D) - (I)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 3,
+          "explanation": "- (A) Bank Rate is also known as the penal interest rate, making option (III) correct. - (B) Marginal Standing Facility allows the central bank to borrow funds from commercial banks, making option (IV) correct. - (C) Repo Rate involves pledging securities in order to repurchase, making option (I) correct. - (D) Reverse Repo Rate is the minimum rate at which funds are provided for the long term, making option (II) correct. 3",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q06",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following is not a function of Central Bank?",
+          "options": [
+            "It controls the money supply in the economy through different rates.",
+            "It acts as a banker to the government.",
+            "It accepts deposits and gives loans to people.",
+            "It issues the currency of the country."
+          ],
+          "correct": 2,
+          "explanation": "The Central Bank does not directly accept deposits from or lend money to indi- viduals. These are functions performed by commercial banks. The Central Bank focuses on controlling monetary policy, managing currency issuance, and serving as a banker to the government.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Article 112 deals with:",
+          "options": [
+            "Consolidated Fund of India",
+            "Public Account",
+            "Union Budget",
+            "Contingency Fund"
+          ],
+          "correct": 2,
+          "explanation": "Article 112 of the Indian Constitution specifies the presentation of the Union Bud- get, which includes a detailed annual financial statement. 4",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "All those elements which create liability and decrease the assets of government are known as:",
+          "options": [
+            "Capital Receipts",
+            "Capital Payments",
+            "Revenue Receipts",
+            "Revenue Payments"
+          ],
+          "correct": 0,
+          "explanation": "Capital receipts are non-recurring and involve items that increase the liabilities of the government or reduce its assets. Examples include loans raised by the government, borrowings from the public, and the sale of assets.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the following elements in correct chronological sequence (earliest to latest): (A) Smithsonian Agreement (B) Bretton Woods Conference (C) Establishment of WTO (D) Gold Standard Choose from the options given below:",
+          "options": [
+            "(A), (B), (C), (D)",
+            "(D), (B), (A), (C)",
+            "(D), (A), (B), (C)",
+            "(C), (B), (D), (A)"
+          ],
+          "correct": 1,
+          "explanation": "- (D) Gold Standard was used in the 19th and early 20th centuries. - (B) Bretton Woods Conference occurred in 1944. - (A) Smithsonian Agreement was signed in 1971. - (C) Establishment of WTO happened in 1995.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Under flexible exchange rate, when the price of domestic currency in terms of for- eign currency increases, it is called .",
+          "options": [
+            "Depreciation of domestic currency",
+            "Appreciation of domestic currency",
+            "Devaluation of domestic currency",
+            "Revaluation of domestic currency"
+          ],
+          "correct": 1,
+          "explanation": "Under a flexible (floating) exchange rate system, when the value of the domestic currency increases in comparison to a foreign currency, it is known as appreciation. This means that more foreign currency can be purchased with the same amount of domestic cur- rency.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q11",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II: List-I List-II (A) Pegged exchange rate system (I) Setting up of IMF and World Bank (B) Managed floating (II) Fixed exchange rate system (C) Bretton Woods Conference (III) Dirty floating (D) Third element in BOP (IV) Error and Omission Account Choose from the options given below:",
+          "options": [
+            "(A) - (II), (B) - (I), (C) - (III), (D) - (IV) 6",
+            "(A) - (II), (B) - (III), (C) - (I), (D) - (IV)",
+            "(A) - (I), (B) - (III), (C) - (IV), (D) - (II)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 1,
+          "explanation": "- (A) Pegged exchange rate system refers to a fixed exchange rate system, making option (II) correct. - (B) Managed floating is also known as dirty floating, making option (III) correct. - (C) Bretton Woods Conference led to the setting up of the IMF and World Bank, making option (I) correct. - (D) The third element in the Balance of Payments (BOP) is the Error and Omission Account, making option (IV) correct.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q12",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Casualization of workforce would result in:",
+          "options": [
+            "Decrease in the vulnerability of the workforce.",
+            "Increase in the vulnerability of the workforce.",
+            "Increase in the number of regular workers.",
+            "Income and employment stability."
+          ],
+          "correct": 1,
+          "explanation": "Casualization refers to a process where more workers are employed in temporary, irregular, or part-time jobs rather than stable, permanent employment. This makes workers more vulnerable to job loss, lack of benefits, and income instability.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q13",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct chronological sequence in ascending order (earliest to latest): (A) Establishment of NABARD (B) FRBMA (Fiscal Responsibility and Budget Management Act) 7 (C) Third Five Year Plan (D) Nationalization of RBI Choose from the options given below:",
+          "options": [
+            "(A), (B), (C), (D)",
+            "(A), (C), (B), (D)",
+            "(D), (A), (B), (C)",
+            "(D), (C), (A), (B)"
+          ],
+          "correct": 3,
+          "explanation": "- (D) Nationalization of RBI occurred in 1949. - (C) The Third Five Year Plan was introduced in 1961. - (A) NABARD was established in 1982. - (B) The FRBMA was enacted in 2003.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q14",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "implies that resource extraction is not above the rate of regeneration of resources and the wastes generated are within the assimilating capacity of the environ- ment.",
+          "options": [
+            "Absorptive capacity",
+            "Carrying capacity",
+            "Subsistence capacity",
+            "Exhaustive capacity"
+          ],
+          "correct": 1,
+          "explanation": "Carrying capacity refers to the maximum rate at which resources can be used with- out depleting them and ensures that waste generated does not exceed the environment’s ability to absorb it. 8",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q15",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Government of India enacted the Right to Education Act in 2009 to make free edu- cation a Fundamental Right of all children in the age group of years.",
+          "options": [
+            "4 – 10",
+            "6 – 12",
+            "6 – 14",
+            "8 – 15"
+          ],
+          "correct": 2,
+          "explanation": "The Right to Education Act provides free and compulsory education to children aged 6 to 14 years in India, making it a fundamental right under Article 21A of the Constitu- tion.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q16",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Following are the sources of electricity generation in India. Arrange them in correct sequence on the basis of total power generation capacity (higher to lower): (A) Nuclear (B) Thermal (C) New and renewable energy (D) Hydro Choose from the options given below:",
+          "options": [
+            "(A), (B), (C), (D)",
+            "(A), (C), (B), (D) 9",
+            "(B), (C), (D), (A)",
+            "(B), (D), (C), (A)"
+          ],
+          "correct": 3,
+          "explanation": "The correct order of electricity generation capacity in India is Thermal (B), Hydro (D), New and Renewable Energy (C), and Nuclear (A).",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q17",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the following items in correct sequence: (A) Competition Act (B) FEMA (C) FERA (D) MRTP Choose from the options given below:",
+          "options": [
+            "(A), (B), (C), (D)",
+            "(A), (C), (B), (D)",
+            "(D), (C), (B), (A)",
+            "(C), (B), (D), (A)"
+          ],
+          "correct": 2,
+          "explanation": "- (D) MRTP (Monopolies and Restrictive Trade Practices Act) was enacted in 1969. - (C) FERA (Foreign Exchange Regulation Act) was passed in 1973. - (B) FEMA (Foreign Exchange Management Act) replaced FERA in 1999. - (A) Competition Act was introduced in 2002.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q18",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The Great Leap Forward (GLF) campaign was initiated in .",
+          "options": [
+            "1948",
+            "1938",
+            "1958",
+            "1942"
+          ],
+          "correct": 2,
+          "explanation": "The Great Leap Forward (GLF) was a social and economic campaign initiated by the Chinese Communist Party in 1958, led by Mao Zedong. Its goal was to rapidly transform China from an agrarian society into a socialist society through rapid industrialization and collectivization.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q19",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II: List-I List-II (A) Great Leap Forward (I) Protecting the future generation (B) Mao Zedong (II) Aimed at industrializing the country on a massive scale (C) Brundtland Commission (III) Introduced the Great Proletarian Cultural Revolution (D) Our Common Future (IV) Seminal report that explained sustainable development as meeting the basic needs of all for a better life Choose from the options given below:",
+          "options": [
+            "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+            "(A) - (III), (B) - (II), (C) - (I), (D) - (IV)",
+            "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 2,
+          "explanation": "- (A) Great Leap Forward was aimed at industrializing the country on a massive scale, making option (II) correct. - (B) Mao Zedong introduced the Great Proletarian Cultural Revolution, making option (III) correct. - (C) The Brundtland Commission’s report was titled 11 ”Our Common Future” and explained sustainable development, making option (IV) correct. - (D) ”Our Common Future” focused on protecting the future generation, making option (I) correct.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q20",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Second phase of Green Revolution is termed from:",
+          "options": [
+            "mid 1960s to mid 1970s",
+            "mid 1970s to mid 1980s",
+            "mid 1950s to mid 1960s",
+            "mid 1980s to mid 1990s"
+          ],
+          "correct": 1,
+          "explanation": "The second phase of the Green Revolution in India started in the mid-1970s and extended into the mid-1980s, focusing on extending the benefits of the first phase to other crops and regions.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q21",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "During 1980s, the growth rate in Pakistan improved on account of which of the following reasons?",
+          "options": [
+            "Institutionalized process of technical change",
+            "A good harvest",
+            "Sustainable export of manufactured goods",
+            "High amount of foreign direct investment inflow"
+          ],
+          "correct": 1,
+          "explanation": "Pakistan’s growth rate in the 1980s improved primarily due to a series of good harvests that contributed significantly to the agricultural sector’s growth. 12",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q22",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "When there is unexpected rise in the sales .",
+          "options": [
+            "Aggregate demand would decline.",
+            "There will be unplanned accumulation of inventories.",
+            "There will be unplanned decumulation of inventories.",
+            "Normal profit would be lower."
+          ],
+          "correct": 2,
+          "explanation": "When sales unexpectedly rise, businesses will see a reduction in their inventory levels, resulting in unplanned decumulation of inventories until they can replenish stock to meet demand.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q23",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "During festive season, the currency deposit ratio .",
+          "options": [
+            "decreases",
+            "increases",
+            "has no impact on it",
+            "first decreases then increases"
+          ],
+          "correct": 1,
+          "explanation": "During the festive season, people tend to withdraw more cash for spending, which increases the currency deposit ratio as more currency circulates in the economy compared to deposits.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q24",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "European Monetary Union was created in .",
+          "options": [
+            "1996",
+            "1994",
+            "1999",
+            "2002"
+          ],
+          "correct": 2,
+          "explanation": "The European Monetary Union (EMU) was established in 1999, marking the launch of the euro as an official currency and the implementation of a unified monetary policy among member states.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q25",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the correct statement in the context of Circular Flow of Income in a two- sector economy:",
+          "options": [
+            "Household receives factor services from firms.",
+            "Household invests while firm saves.",
+            "Firms produce goods and services.",
+            "Household supplies factor services to Government."
+          ],
+          "correct": 2,
+          "explanation": "In a two-sector model, firms produce goods and services, while households supply factor services (like labor) to firms and receive income in return.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q26",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the correct set of statements. (A) Ex Ante Saving represents what is actually planned to save. (B) Ex Post Saving represents what is actually planned to save. (C) Ex Post Saving depicts what has actually happened. 14 (D) Ex Ante Post Saving represents what is actually saved. Choose from the options given below:",
+          "options": [
+            "(A) and (D) only",
+            "(A) and (C) only",
+            "(B) and (D) only",
+            "(C) and (D) only"
+          ],
+          "correct": 1,
+          "explanation": "- (A) Ex Ante Saving refers to what is planned to be saved. - (C) Ex Post Saving refers to what has actually been saved or happened.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q27",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II: List-I (Elements) List-II (Features) (A) Annual Financial Statement (I) Create liabilities or reduce financial assets (B) Capital Receipts (II) Trade surplus (C) Capital Payment (III) Main budget document (D) Export >Import (IV) Create financial assets or reduce liabilities Choose from the options given below:",
+          "options": [
+            "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+            "(A) - (III), (B) - (I), (C) - (IV), (D) - (II)",
+            "(A) - (III), (B) - (II), (C) - (IV), (D) - (I)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 3,
+          "explanation": "- (A) Annual Financial Statement is the main budget document, making option (III) correct. - (B) Capital Receipts create financial assets or reduce liabilities, making option (IV) correct. - (C) Capital Payments create liabilities or reduce financial assets, making option (I) correct. - (D) Export >Import leads to a trade surplus, making option (II) correct. 15",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q28",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "How is civic authority getting benefitted due to biocomposting?",
+          "options": [
+            "They have to dispose increased quantity of waste.",
+            "They don’t have to dispose any waste.",
+            "Because civic authority has no role in waste management.",
+            "They have to dispose reduced quantity of waste."
+          ],
+          "correct": 3,
+          "explanation": "The passage mentions that biocomposting helps civic authorities because they have to dispose of a reduced quantity of waste due to the conversion of organic matter into compost.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q29",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct statement concerned with the passage:",
+          "options": [
+            "Earthworm takes equal time to convert organic matter into compost with respect to normal 16 composting process.",
+            "Earthworm takes more time to convert organic matter into compost with respect to normal composting process.",
+            "Earthworm takes less time to convert organic matter into compost with respect to normal composting process.",
+            "Comparison between earthworm-based composting and normal composting cannot be made."
+          ],
+          "correct": 2,
+          "explanation": "The passage clearly states that earthworms can convert organic matter into compost faster than the normal composting process.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q30",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Water bodies including ground water system have suffered due to:",
+          "options": [
+            "Biocomposting",
+            "Chemical contamination and increased demand for irrigation",
+            "Organic farming",
+            "Increased fertility of land"
+          ],
+          "correct": 1,
+          "explanation": "The passage mentions that water bodies, including the groundwater system, have suffered due to chemical contamination and the increasing demand for irrigation caused by the switch from compost to chemical fertilizers.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q31",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In certain parts of the country, cattle are maintained only because they .",
+          "options": [
+            "Produce milk to increase income of farmers 17",
+            "Produce dung which is an important fertilizer and soil conditioner",
+            "Work as insect repellants",
+            "Are a symbol of traditional ethics and values"
+          ],
+          "correct": 1,
+          "explanation": "The passage mentions that in certain parts of the country, cattle are maintained because their dung serves as an important fertilizer and soil conditioner, especially in areas that prioritize organic farming practices.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q32",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What should be the suitable title for the above passage?",
+          "options": [
+            "Biocomposting",
+            "Biopest Control",
+            "Traditional Knowledge and Practice",
+            "Uses of Chemical Fertilizers"
+          ],
+          "correct": 0,
+          "explanation": "The passage focuses on the use of biocomposting, particularly the role of earth- worms and organic waste in producing compost, and how this method is helping reduce waste and improve soil health.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q33",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Before the British rule, India was well known for which manufacturing industries’ products?",
+          "options": [
+            "Cotton and Silk or Khadi textiles",
+            "Cotton and Engineering products",
+            "Cotton and Silk textiles, metal and precious stones, etc.",
+            "Engineering goods and precious metals"
+          ],
+          "correct": 2,
+          "explanation": "The passage mentions that India was particularly well known for its handicraft industries in the fields of cotton and silk textiles, as well as metal and precious stone works, which had a global market.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q34",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What kind of interests was the colonial government concerned with in the economic 19 policy for Indian industries?",
+          "options": [
+            "To promote the handicraft industries of India",
+            "Promote and protect small scale industries of India",
+            "Protect and promote the economic interests of Indian industry along with their home coun- try",
+            "Provide protection and promotion of the economic interests of their home country"
+          ],
+          "correct": 3,
+          "explanation": "The passage clearly states that the colonial government’s policies were more fo- cused on promoting the economic interests of Britain rather than the development of Indian industries.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q35",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the economists who estimated India’s National Income and Per Capita In- come.",
+          "options": [
+            "Dadabhai Naoroji, William Digby, Bernier, V .K.R.V . Rao and R.C. Desai",
+            "Dadabhai Naoroji, William Digby, Findlay Shirras, V .K.R.V . Rao and R.C. Desai",
+            "Dadabhai Naoroji, Jagdish Bhagwati, V .K.R.V . Rao and R.C. Desai",
+            "Dadabhai Naoroji, Findlay Shrirras and V .K.R.V . Rao"
+          ],
+          "correct": 1,
+          "explanation": "The passage lists these five individuals as notable estimators who attempted to measure India’s national and per capita income during the colonial period.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q36",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What was the country’s growth of aggregate real output during the first half of the 20 20th century?",
+          "options": [
+            "The country’s growth of aggregate real output was less than two percent coupled with a meagre one percent growth in per capita output per year.",
+            "The country’s growth of aggregate real output was less than two percent coupled with a meagre one and a half percent growth in per capita output per year.",
+            "The country’s growth of aggregate real output was less than two and a half percent coupled with a meagre half percent growth in per capita output per year.",
+            "The country’s growth of aggregate real output was less than two percent coupled with a meagre half percent growth in per capita output per year."
+          ],
+          "correct": 3,
+          "explanation": "The passage states that the country’s aggregate real output grew at less than two percent, with a meagre half percent growth in per capita output per year.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q37",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "According to the passage, which of the following statement was true about Indian industries’ products?",
+          "options": [
+            "Indian products were of inferior quality and cheap in the worldwide market.",
+            "Indian products were promoted by the colonial government and competed with other coun- tries’ markets also.",
+            "Indian products enjoyed a worldwide market based on quality of material used and the high standard of craftsmanship.",
+            "Indian products’ raw material for primary goods was imported from the other countries and it helped to increase export."
+          ],
+          "correct": 2,
+          "explanation": "The passage highlights that before British rule, India’s handicraft industries pro- duced high-quality products, which were renowned globally for their craftsmanship and ma- terial quality. 21",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q38",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "is a market where economic agents can freely exchange their endowments with each other.",
+          "options": [
+            "Market economy",
+            "Centrally planned economy",
+            "Aggregate demand based economy",
+            "Aggregate supply based economy"
+          ],
+          "correct": 0,
+          "explanation": "A market economy is characterized by free exchanges of goods and services where economic agents such as consumers and producers interact based on supply and demand.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q39",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following are correct statements? (A) Marginal Utility is the change in Total Utility due to consumption of one additional unit of commodity. (B) Two Indifference Curves intersect each other. (C) Marginal Utility becomes Zero at a level when Total Utility remains constant. (D) Diminishing Marginal Rate of Substitution does not affect Indifference Curve. (E) Indifference Curve slopes downwards from left to right. Choose from the options given below:",
+          "options": [
+            "(A), (B) and (E) only",
+            "(A), (C) and (E) only",
+            "(A), (D) and (E) only",
+            "(B), (D) and (E) only 22"
+          ],
+          "correct": 1,
+          "explanation": "- (A) Marginal Utility is indeed the change in Total Utility due to the consumption of one additional unit. - (C) Marginal Utility becomes zero when Total Utility reaches a constant level. - (E) The Indifference Curve slopes downward from left to right because as the quantity of one good decreases, the quantity of the other good must increase to maintain the same utility.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q40",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II: List-I (Characteristic) List-II (Implication) (A) Equilibrium (I) Plans of all the consumers and firms in the market match (B) Excess supply (II) Demand decreases with an increase in income (C) Inferior good (III) Supply is greater than market demand (D) Price ceiling (IV) Imposition of upper limit by government Choose from the options given below:",
+          "options": [
+            "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+            "(A) - (I), (B) - (III), (C) - (II), (D) - (IV)",
+            "(A) - (I), (B) - (III), (C) - (IV), (D) - (II)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 1,
+          "explanation": "- (A) Equilibrium refers to the point where the plans of all the consumers and firms match, making option (I) correct. - (B) Excess supply means supply is greater than market demand, making option (III) correct. - (C) An inferior good sees a decrease in demand when income increases, making option (II) correct. - (D) Price ceiling refers to the imposition of an upper limit by the government, making option (IV) correct. 23",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q41",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "When Elasticity of Demand Curve is 1 at every point on the Demand Curve, this curve is known as:",
+          "options": [
+            "Perfectly inelastic demand curve",
+            "Perfectly elastic demand curve",
+            "Rectangular Hyperbola",
+            "Greater than unitary demand curve"
+          ],
+          "correct": 2,
+          "explanation": "A demand curve with unitary elasticity at every point is a rectangular hyperbola, where the total revenue remains constant at all points along the curve.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q42",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "According to the Theory of Consumer Behaviour, Inequality p1x1 + p2x2 ≤ M is called the Consumer’s .",
+          "options": [
+            "Budget",
+            "Budget Set",
+            "Budget Constraint",
+            "Budget Behaviour"
+          ],
+          "correct": 2,
+          "explanation": "The inequality p1x1 +p2x2 ≤ M represents the consumer’s budget constraint, show- ing the combinations of goods the consumer can afford within their income.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q43",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct statements from the following: (A) Adam Smith is termed as Father of Modern Economics. (B) J.M. Keynes gave the Theory of Income, Output and Employment. (C) Four Sector Model = C + I + G + (X – M) (D) Store of value is primary function of money. Choose from the options given below:",
+          "options": [
+            "(A), (B) and (D) only",
+            "(A), (B) and (C) only",
+            "(A), (B), (C) and (D)",
+            "(B), (C) and (D) only"
+          ],
+          "correct": 1,
+          "explanation": "- (A) Adam Smith is indeed known as the Father of Modern Economics. - (B) J.M. Keynes is famous for the Theory of Income, Output, and Employment. - (C) The four-sector model represents consumption (C), investment (I), government spending (G), and net exports (X – M).",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q44",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Rearrange the given statements in proper chronological sequence in an ascending order (earliest to latest): (A) General theory of Employment, Interest and Money by Keynes. (B) Mahalanobis was made a fellow of Britain’s Royal Society. (C) An Inquiry into the Nature and Cause of the Wealth of Nations by Adam Smith. (D) The Economic Consequences of the Peace by Keynes. Choose from the options given below:",
+          "options": [
+            "(C), (D), (A), (B)",
+            "(A), (B), (C), (D)",
+            "(A), (C), (B), (D) 25",
+            "(D), (A), (C), (B)"
+          ],
+          "correct": 0,
+          "explanation": "- (C) Adam Smith’s ”Wealth of Nations” was published in 1776. - (D) Keynes’s ”The Economic Consequences of the Peace” was published in 1919. - (A) Keynes’s ”General Theory of Employment, Interest and Money” was published in 1936. - (B) Mahalanobis was made a fellow of Britain’s Royal Society in 1945.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q45",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If there is no government and no foreign trade, then:",
+          "options": [
+            "G = T = M = X >1",
+            "G = T = M = X = 1",
+            "G = T = M = X = 0",
+            "G = T = M = X <1"
+          ],
+          "correct": 2,
+          "explanation": "If there is no government and no foreign trade, then government spending (G), taxes (T), imports (M), and exports (X) all equal zero. There would be no government-related economic activity or external trade.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q46",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The value of Nominal GDP is $ 1100 and the value of Real GDP is $ 1000. Find the value of GDP deflator.",
+          "options": [
+            "0.9",
+            "1.1",
+            "1",
+            "0.8"
+          ],
+          "correct": 1,
+          "explanation": "The GDP deflator is calculated as GDP Deflator = Nominal GDP Real GDP = 1100 1000 = 1.1.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q47",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the correct statements: (A) Stocks are defined over a period of time. (B) Flows are defined over a period of time. (C) Flows are defined at a particular point of time. (D) Stocks are defined at a particular point of time. (E) GV A at factor costs + Indirect Taxes – Subsidies = GV A at market prices. Choose from the options given below:",
+          "options": [
+            "(A), (C) and (E) only",
+            "(B), (C) and (D) only",
+            "(B), (D) and (E) only",
+            "(C), (D) and (E) only"
+          ],
+          "correct": 2,
+          "explanation": "- (B) Flows are defined over a period of time. - (D) Stocks are defined at a particular point of time. - (E) GV A at factor costs plus indirect taxes minus subsidies gives GV A at market prices.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q48",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the supply of final goods is assumed to be infinitely elastic at constant price over a short period of time, Aggregate output is determined solely by the value of Aggregate demand. This is called Principle.",
+          "options": [
+            "Aggregate supply",
+            "Aggregate demand 27",
+            "Effective demand",
+            "Perfectly inelastic demand"
+          ],
+          "correct": 2,
+          "explanation": "The principle of effective demand states that in the short term, when prices are constant and supply is infinitely elastic, aggregate output is determined by aggregate demand.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q49",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Nominal Interest Rate =",
+          "options": [
+            "Real Interest Rate × Inflation Rate",
+            "Real Interest Rate – Inflation rate",
+            "Real Interest Rate / Inflation rate",
+            "Real Interest Rate + Inflation rate"
+          ],
+          "correct": 3,
+          "explanation": "The nominal interest rate is equal to the real interest rate plus the inflation rate, as per the Fisher equation.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        },
+        {
+          "id": "309-2024-2024-economics-02-solutions-Q50",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Value of MPS (Marginal Propensity to Save) is increased from 0.4 to 0.5. What would be the impact on Multiplier?",
+          "options": [
+            "The size of the multiplier would be increased.",
+            "The size of the multiplier would remain same.",
+            "Value of multiplier is undetermined with the given information.",
+            "The size of the multiplier would be decreased."
+          ],
+          "correct": 3,
+          "explanation": "The multiplier is inversely related to the MPS. The formula for the multiplier is Multiplier = 1 MPS. When MPS increases from 0.4 to 0.5, the multiplier decreases because the 28 denominator increases.",
+          "source": "Individual PDF extraction: 2024-economics-02-solutions.pdf"
+        }
+      ]
+    }
+  ]
+}

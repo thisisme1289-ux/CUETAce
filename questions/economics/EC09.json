@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC09",
   "chapter": "Income and Employment (Aggregate Demand, Two-Sector Model, Multiplier, Excess/Deficient Demand)",
   "total_questions": 200,
@@ -182,8 +182,9 @@
         "₹1,200 crore",
         "₹1,600 crore"
       ],
-      "correct": 4,
-      "explanation": "K = 1/MPS = 1/0.25 = 4. ΔY = K × ΔI = 4 × 400 = ₹1,600 crore."
+      "correct": 3,
+      "explanation": "K = 1/MPS = 1/0.25 = 4. ΔY = K × ΔI = 4 × 400 = ₹1,600 crore.",
+      "correct_original": 4
     },
     {
       "id": "EC09Q13",
@@ -212,8 +213,9 @@
         "₹650 crore",
         "₹700 crore"
       ],
-      "correct": 4,
-      "explanation": "Equilibrium: Y = C + I = 50 + 0.6Y + 150. Y - 0.6Y = 200. 0.4Y = 200. Y = 500. But wait — the inflationary gap means actual AD equilibrium is above full employment. Recalculating: If inflationary gap = 100 and full employment = 600, current equilibrium = 600 + 100 = 700. Verification: At Y=500 (formula result), this contradicts. The question tests that current equilibrium exceeds full employment by the gap = 600 + 100 = ₹700 crore."
+      "correct": 3,
+      "explanation": "The question states that the current equilibrium income is Rs.100 crore above the full employment income of Rs.600 crore. Therefore, current equilibrium income = 600 + 100 = Rs.700 crore.",
+      "correct_original": 4
     },
     {
       "id": "EC09Q15",
@@ -227,8 +229,9 @@
         "AD equals AS at a level below full employment",
         "Both B and C are correct"
       ],
-      "correct": 4,
-      "explanation": "Deficient demand (also called deflationary gap) occurs when AD is less than the full employment level of AS. This means the equilibrium is established below the full employment level, and AD is insufficient to generate full employment. Both B and C describe this situation correctly."
+      "correct": 3,
+      "explanation": "Deficient demand (also called deflationary gap) occurs when AD is less than the full employment level of AS. This means the equilibrium is established below the full employment level, and AD is insufficient to generate full employment. Both B and C describe this situation correctly.",
+      "correct_original": 4
     },
     {
       "id": "EC09Q16",
@@ -242,8 +245,9 @@
         "10",
         "0.1"
       ],
-      "correct": 3,
-      "explanation": "K = 1/(1 - MPC) = 1/(1 - 0.9) = 1/0.1 = 10."
+      "correct": 2,
+      "explanation": "The investment multiplier is K = 1/(1 - MPC). With MPC = 0.9, K = 1/(1 - 0.9) = 1/0.1 = 10. This means a ₹1 increase in autonomous investment can raise equilibrium income by ₹10. Option C is correct.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC09Q17",
@@ -252,13 +256,15 @@
       "difficulty": "difficult",
       "question": "Economy Z has: C = 80 + 0.7Y and Investment = ₹220 crore. Full employment income is ₹1,100 crore. What type of gap exists and what is its magnitude?",
       "options": [
-        "Inflationary gap of ₹100 crore",
-        "Deflationary gap of ₹100 crore",
-        "Inflationary gap of ₹200 crore",
+        "Inflationary gap of Rs.100 crore",
+        "Deflationary gap of Rs.30 crore",
+        "Inflationary gap of Rs.200 crore",
         "No gap exists"
       ],
-      "correct": 4,
-      "explanation": "Equilibrium: Y = 80 + 0.7Y + 220 → 0.3Y = 300 → Y = ₹1,000 crore. Full employment income = ₹1,100 crore. Since Y* (1,000) < YFE (1,100), there is a deflationary gap. Deflationary gap = Full employment AD - Current equilibrium AD. At Y=1,100: AD = 80 + 0.7(1,100) + 220 = 80 + 770 + 220 = 1,070. AS = 1,100. Gap = 1,100 - 1,070 = ₹30 crore. None of the standard options match, but the deflationary gap concept applies — closest answer is deflationary gap."
+      "correct": 1,
+      "explanation": "Equilibrium income: Y = 80 + 0.7Y + 220, so 0.3Y = 300 and Y = Rs.1,000 crore. Full employment income is Rs.1,100 crore, so the economy has deficient demand. At YFE = 1,100, AD = 80 + 0.7(1,100) + 220 = Rs.1,070 crore. The deflationary gap is 1,100 - 1,070 = Rs.30 crore.",
+      "correct_original": 4,
+      "correct_content_review_original": 3
     },
     {
       "id": "EC09Q18",
@@ -362,8 +368,9 @@
         "1.25",
         "1.33"
       ],
-      "correct": 3,
-      "explanation": "Initial Y: Y = 150 + 0.6Y + 100 → 0.4Y = 250 → Y₁ = ₹625 crore. K = 1/0.4 = 2.5. ΔY = 2.5 × 50 = ₹125 crore. New Y₂ = 625 + 125 = ₹750 crore. Ratio = 750/625 = 1.20. Wait — recalculate: 750/625 = 1.20. Option B is correct. Correct answer index = 2."
+      "correct": 1,
+      "explanation": "Initial equilibrium income: Y = 150 + 0.6Y + 100, so 0.4Y = 250 and Y1 = Rs.625 crore. The multiplier is 1/(1 - 0.6) = 2.5. A Rs.50 crore investment injection raises income by 2.5 x 50 = Rs.125 crore, so Y2 = Rs.750 crore. The ratio Y2/Y1 = 750/625 = 1.20.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "EC09Q25",
@@ -437,8 +444,9 @@
         "₹600 crore",
         "₹800 crore"
       ],
-      "correct": 4,
-      "explanation": "S = Y - C = Y - (200 + 0.75Y) = -200 + 0.25Y. Setting S = 0: -200 + 0.25Y = 0 → Y = 200/0.25 = ₹800 crore. At ₹800 crore, all income is consumed and savings are zero."
+      "correct": 3,
+      "explanation": "S = Y - C = Y - (200 + 0.75Y) = -200 + 0.25Y. Setting S = 0: -200 + 0.25Y = 0 → Y = 200/0.25 = ₹800 crore. At ₹800 crore, all income is consumed and savings are zero.",
+      "correct_original": 4
     },
     {
       "id": "EC09Q30",
@@ -452,8 +460,9 @@
         "Reduction in government expenditure",
         "Decrease in taxes to boost consumption"
       ],
-      "correct": 4,
-      "explanation": "A deflationary gap requires increasing AD. Decreasing taxes raises disposable income, boosting consumption and AD. Option A (higher bank rate) reduces credit, lowering AD. Option B (selling securities) reduces money supply, lowering AD. Option C (reducing G) directly lowers AD. Only option D correctly increases AD to correct deficient demand."
+      "correct": 3,
+      "explanation": "A deflationary gap requires increasing AD. Decreasing taxes raises disposable income, boosting consumption and AD. Option A (higher bank rate) reduces credit, lowering AD. Option B (selling securities) reduces money supply, lowering AD. Option C (reducing G) directly lowers AD. Only option D correctly increases AD to correct deficient demand.",
+      "correct_original": 4
     },
     {
       "id": "EC09Q31",
@@ -492,13 +501,13 @@
       "difficulty": "moderate",
       "question": "If equilibrium income is ₹1,800 crore, autonomous consumption is ₹200 crore, and MPC = 0.6, what is the level of autonomous investment?",
       "options": [
-        "₹280 crore",
-        "₹320 crore",
-        "₹350 crore",
-        "₹400 crore"
+        "Rs.280 crore",
+        "Rs.320 crore",
+        "Rs.520 crore",
+        "Rs.400 crore"
       ],
       "correct": 2,
-      "explanation": "At equilibrium: Y = C + I → 1800 = 200 + 0.6(1800) + I → 1800 = 200 + 1080 + I → I = 1800 - 1280 = ₹520. Hmm — recalculate: Y = C̄ + MPC×Y + I → Y - MPC×Y = C̄ + I → Y(1-MPC) = C̄ + I → 1800(0.4) = 200 + I → 720 = 200 + I → I = ₹520 crore. None matches — but closest approach: If S = I condition: S = -200 + 0.4(1800) = -200 + 720 = ₹520 crore = I. So I = ₹520 crore. The correct answer should be recalculated: using different values — if Y=1,000: 1000(0.4)=400-200=I=200. Let the standard version be: Y=1,300, C̄=200, MPC=0.6: I=1300×0.4-200=520-200=320. So with Y=₹1,300 crore the answer is ₹320 crore."
+      "explanation": "At equilibrium, Y = C + I. Therefore, 1,800 = 200 + 0.6(1,800) + I = 200 + 1,080 + I. Hence I = 1,800 - 1,280 = Rs.520 crore."
     },
     {
       "id": "EC09Q34",
@@ -602,8 +611,9 @@
         "Deflationary gap; increase investment by ₹100 crore",
         "No gap exists; economy is already at full employment"
       ],
-      "correct": 3,
-      "explanation": "Current equilibrium: Y = 200 + 0.5Y + 400 → 0.5Y = 600 → Y = ₹1,200 crore. YFE = ₹1,500 crore. Gap = 1,500 - 1,200 = ₹300 crore (deflationary). K = 1/(1-0.5) = 2. Required ΔI = 300/2 = ₹150 crore. Wait — answer is B (₹150 crore), making correct = 2."
+      "correct": 1,
+      "explanation": "Current equilibrium income: Y = 200 + 0.5Y + 400, so 0.5Y = 600 and Y = Rs.1,200 crore. Full employment income is Rs.1,500 crore, so there is a deflationary gap. The income gap is Rs.300 crore and the multiplier is 1/(1 - 0.5) = 2. Required investment injection = 300/2 = Rs.150 crore.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC09Q41",
@@ -687,13 +697,14 @@
       "difficulty": "difficult",
       "question": "Two economies A and B have consumption functions: C_A = 50 + 0.9Y and C_B = 100 + 0.6Y. Both have autonomous investment of ₹200 crore. Which economy has higher equilibrium income and by how much?",
       "options": [
-        "Economy A by ₹1,250 crore",
-        "Economy B by ₹500 crore",
-        "Economy A by ₹500 crore",
-        "Economy B by ₹1,250 crore"
+        "Economy A by Rs.1,750 crore",
+        "Economy B by Rs.500 crore",
+        "Economy A by Rs.500 crore",
+        "Economy B by Rs.1,250 crore"
       ],
-      "correct": 1,
-      "explanation": "Y_A: Y = 50 + 0.9Y + 200 → 0.1Y = 250 → Y_A = ₹2,500 crore. Y_B: Y = 100 + 0.6Y + 200 → 0.4Y = 300 → Y_B = ₹750 crore. Economy A has higher equilibrium income by 2,500 - 750 = ₹1,750 crore. Closest option: A by ₹1,250. Rechecking: Y_B = 300/0.4 = 750. Difference = 2500 - 750 = 1750. Let me correct: The answer should be 'Economy A by ₹1,750 crore'. Selecting closest: Option A."
+      "correct": 0,
+      "explanation": "For Economy A: Y = 50 + 0.9Y + 200, so 0.1Y = 250 and Y = Rs.2,500 crore. For Economy B: Y = 100 + 0.6Y + 200, so 0.4Y = 300 and Y = Rs.750 crore. Economy A has higher equilibrium income by 2,500 - 750 = Rs.1,750 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q47",
@@ -962,8 +973,9 @@
         "An increase in autonomous consumption",
         "Both A and C"
       ],
-      "correct": 4,
-      "explanation": "AD = C̄ + cY + I. An upward shift (parallel shift) occurs due to an increase in autonomous components. Increase in C̄ shifts AD up. Increase in I shifts AD up. An increase in MPC changes the slope of AD (rotates it upward). Option D (Both A and C) correctly identifies that increased MPC (slope change) and increased C̄ both shift AD upward (though in different ways)."
+      "correct": 3,
+      "explanation": "AD = C̄ + cY + I. An upward shift (parallel shift) occurs due to an increase in autonomous components. Increase in C̄ shifts AD up. Increase in I shifts AD up. An increase in MPC changes the slope of AD (rotates it upward). Option D (Both A and C) correctly identifies that increased MPC (slope change) and increased C̄ both shift AD upward (though in different ways).",
+      "correct_original": 4
     },
     {
       "id": "EC09Q65",
@@ -992,8 +1004,9 @@
         "Reduce money supply so investment falls by ₹60 crore",
         "Both B and C can eliminate the gap"
       ],
-      "correct": 4,
-      "explanation": "Current Y: Y = 300 + 0.6Y + 900 → 0.4Y = 1200 → Y = ₹3,000. YFE = ₹2,700. Since Y > YFE, there IS excess demand. Gap calculation: At YFE=2,700: AD = 300 + 0.6(2,700) + 900 = 300 + 1,620 + 900 = 2,820. AS = 2,700. Inflationary gap = 2,820 - 2,700 = ₹120. K = 2.5. To reduce Y to 2,700: Need ΔY = -300. ΔI = -300/2.5 = -₹120. Reduce investment by ₹120 crore. Both B and C reduce investment (different transmission mechanisms, same result) — hence answer D."
+      "correct": 3,
+      "explanation": "Current Y: Y = 300 + 0.6Y + 900 → 0.4Y = 1200 → Y = ₹3,000. YFE = ₹2,700. Since Y > YFE, there IS excess demand. Gap calculation: At YFE=2,700: AD = 300 + 0.6(2,700) + 900 = 300 + 1,620 + 900 = 2,820. AS = 2,700. Inflationary gap = 2,820 - 2,700 = ₹120. K = 2.5. To reduce Y to 2,700: Need ΔY = -300. ΔI = -300/2.5 = -₹120. Reduce investment by ₹120 crore. Both B and C reduce investment (different transmission mechanisms, same result) — hence answer D.",
+      "correct_original": 4
     },
     {
       "id": "EC09Q67",
@@ -1122,13 +1135,14 @@
       "difficulty": "difficult",
       "question": "Economy A: C = 200 + 0.6Y, I = ₹400 crore. Economy A is experiencing 20% unemployment. If each ₹100 crore increase in income reduces unemployment by 1 percentage point, how much must investment rise to achieve full employment?",
       "options": [
-        "ΔI = ₹500 crore",
-        "ΔI = ₹250 crore",
-        "ΔI = ₹125 crore",
-        "ΔI = ₹200 crore"
+        "Delta I = Rs.800 crore",
+        "Delta I = Rs.250 crore",
+        "Delta I = Rs.125 crore",
+        "Delta I = Rs.200 crore"
       ],
-      "correct": 1,
-      "explanation": "Current Y: Y = 200 + 0.6Y + 400 → 0.4Y = 600 → Y = ₹1,500 crore. To eliminate 20% unemployment, income must rise by 20 × 100 = ₹2,000 crore. Target Y = 1,500 + 2,000 = ₹3,500 crore. K = 1/0.4 = 2.5. Required ΔI = 2,000/2.5 = ₹800 crore. None match — recalculate: if 1 percentage point needs ΔY = 100: for 20% → ΔY = 2,000. ΔI = 2,000/2.5 = 800. Closest: None perfectly. Selecting option A as closest to ₹500."
+      "correct": 0,
+      "explanation": "Current equilibrium income is found from Y = 200 + 0.6Y + 400, so 0.4Y = 600 and Y = Rs.1,500 crore. A 20 percentage-point unemployment reduction requires income to rise by 20 x Rs.100 crore = Rs.2,000 crore. The multiplier is 1/(1 - 0.6) = 2.5, so required investment increase = 2,000/2.5 = Rs.800 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q76",
@@ -1197,13 +1211,13 @@
       "difficulty": "difficult",
       "question": "First-round effect of investment injection = ₹300 crore. MPC = 0.8. What is the total income generated in rounds 1 through 3, and what is the total (infinite sum)?",
       "options": [
-        "Round 1-3: ₹779.4 crore; Total: ₹1,500 crore",
-        "Round 1-3: ₹740 crore; Total: ₹1,500 crore",
-        "Round 1-3: ₹779.4 crore; Total: ₹1,200 crore",
-        "Round 1-3: ₹580 crore; Total: ₹1,200 crore"
+        "Round 1-3: Rs.779.4 crore; Total: Rs.1,500 crore",
+        "Round 1-3: Rs.732 crore; Total: Rs.1,500 crore",
+        "Round 1-3: Rs.779.4 crore; Total: Rs.1,200 crore",
+        "Round 1-3: Rs.580 crore; Total: Rs.1,200 crore"
       ],
       "correct": 1,
-      "explanation": "Round 1: ₹300. Round 2: 0.8 × 300 = ₹240. Round 3: 0.8 × 240 = ₹192. Sum (1-3) = 300 + 240 + 192 = ₹732 crore. Total (∞): K × ΔI = (1/0.2) × 300 = 5 × 300 = ₹1,500 crore. Hmm — round 1-3 = 732, not 779.4. Selecting A (closest total of 1,500 crore)."
+      "explanation": "Round 1 income is Rs.300 crore. Round 2 is 0.8 x 300 = Rs.240 crore, and round 3 is 0.8 x 240 = Rs.192 crore. Thus, income generated in the first three rounds = 300 + 240 + 192 = Rs.732 crore. The total infinite multiplier effect is (1/0.2) x 300 = Rs.1,500 crore."
     },
     {
       "id": "EC09Q81",
@@ -1257,13 +1271,14 @@
       "difficulty": "difficult",
       "question": "Economy: C̄ = ₹100 crore, MPC = 0.5, I = ₹150 crore. New information: MPC increases to 0.8 and I decreases by ₹30 crore simultaneously. Find the change in equilibrium income.",
       "options": [
-        "Income increases by ₹250 crore",
-        "Income decreases by ₹100 crore",
-        "Income increases by ₹750 crore",
-        "Income increases by ₹1,000 crore"
+        "Income increases by Rs.250 crore",
+        "Income decreases by Rs.100 crore",
+        "Income increases by Rs.600 crore",
+        "Income increases by Rs.1,000 crore"
       ],
-      "correct": 3,
-      "explanation": "Original Y: Y(1-0.5) = 100+150 → 0.5Y = 250 → Y₁ = ₹500 crore. New: C̄=100, MPC=0.8, I=120. Y(1-0.8) = 100+120 → 0.2Y = 220 → Y₂ = ₹1,100 crore. ΔY = 1,100 - 500 = ₹600 crore increase. Closest option: C (₹750) or D (₹1,000). Actually ΔY = ₹600 crore — selecting closest available."
+      "correct": 2,
+      "explanation": "Original equilibrium: Y(1 - 0.5) = 100 + 150, so Y1 = Rs.500 crore. After MPC rises to 0.8 and investment falls to Rs.120 crore, Y(1 - 0.8) = 100 + 120, so Y2 = Rs.1,100 crore. The change in equilibrium income is 1,100 - 500 = Rs.600 crore increase.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC09Q85",
@@ -1287,13 +1302,14 @@
       "difficulty": "difficult",
       "question": "Economy P: C = 100 + 0.75Y, I = ₹300 crore, YFE = ₹2,500 crore. A natural disaster destroys capital worth ₹400 crore (reducing investment to -₹100 crore). What is the new deflationary gap?",
       "options": [
-        "Deflationary gap of ₹400 crore",
-        "Deflationary gap of ₹100 crore",
+        "Deflationary gap of Rs.400 crore",
+        "Deflationary gap of Rs.100 crore",
         "Economy cannot have negative investment",
-        "Deflationary gap of ₹200 crore"
+        "Deflationary gap of Rs.625 crore"
       ],
-      "correct": 2,
-      "explanation": "Original Y: Y = 100 + 0.75Y + 300 → 0.25Y = 400 → Y = ₹1,600 crore (already below YFE). New I = 300 - 400 = -₹100 crore. New Y: 0.25Y = 100 + (-100) = 0 → Y = ₹0. At YFE = 2,500: AD = 100 + 0.75(2,500) + (-100) = 100 + 1,875 - 100 = ₹1,875 crore. AS = ₹2,500 crore. Deflationary gap = 2,500 - 1,875 = ₹625 crore. None match exactly; closest is D."
+      "correct": 3,
+      "explanation": "After the disaster, investment becomes Rs.-100 crore. At full employment income of Rs.2,500 crore, AD = 100 + 0.75(2,500) - 100 = Rs.1,875 crore. Aggregate supply at full employment is Rs.2,500 crore. Therefore, the deflationary gap is 2,500 - 1,875 = Rs.625 crore.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC09Q87",
@@ -1517,8 +1533,9 @@
         "₹250 crore",
         "₹1,875 crore"
       ],
-      "correct": 2,
-      "explanation": "ΔI = ΔY / K = 750 / 2.5 = ₹300 crore."
+      "correct": 1,
+      "explanation": "The multiplier relation is ΔY = K x ΔI. Therefore the required autonomous investment increase is ΔI = ΔY/K = ₹750 crore / 2.5 = ₹300 crore. Option B is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC09Q102",
@@ -1664,11 +1681,11 @@
       "options": [
         "0.20",
         "-0.10",
-        "0.10",
+        "0",
         "-0.20"
       ],
       "correct": 2,
-      "explanation": "C = 400 + 0.8(2,000) = 400 + 1,600 = ₹2,000 crore. S = Y - C = 2,000 - 2,000 = ₹0. APS = S/Y = 0/2,000 = 0. Hmm — at Y = 2,000, S = 0. Break-even point. Try Y = 1,000: C = 400 + 800 = 1,200. S = 1,000 - 1,200 = -200. APS = -200/1,000 = -0.20. If Y = 3,000: C = 400 + 2,400 = 2,800. S = 200. APS = 200/3,000 = 0.067. At Y = 2,000 (break-even), APS = 0. But APC = 1. Without more clarity: at Y = ₹2,000 APS = 0. The question likely intends Y = 1,000: answer = -0.20."
+      "explanation": "At Y = Rs.2,000 crore, C = 400 + 0.8(2,000) = Rs.2,000 crore. Saving S = Y - C = 2,000 - 2,000 = 0. Therefore, APS = S/Y = 0/2,000 = 0."
     },
     {
       "id": "EC09Q112",
@@ -1772,8 +1789,9 @@
         "Reduction in cash reserve ratio (CRR)",
         "Increase in government expenditure on infrastructure"
       ],
-      "correct": 4,
-      "explanation": "Options A, B, C are monetary measures: (A) Lower bank rate → cheaper credit → more investment. (B) Buying securities → increases money supply → more credit. (C) Lower CRR → banks can lend more → higher investment. Option D (government expenditure) is a FISCAL measure, not monetary. The question asks for what is NOT a monetary measure."
+      "correct": 3,
+      "explanation": "Options A, B, C are monetary measures: (A) Lower bank rate → cheaper credit → more investment. (B) Buying securities → increases money supply → more credit. (C) Lower CRR → banks can lend more → higher investment. Option D (government expenditure) is a FISCAL measure, not monetary. The question asks for what is NOT a monetary measure.",
+      "correct_original": 4
     },
     {
       "id": "EC09Q119",
@@ -1785,10 +1803,11 @@
         "₹40 crore",
         "₹240 crore",
         "₹60 crore",
-        "₹40 crore"
+        "₹160 crore"
       ],
-      "correct": 1,
-      "explanation": "At equilibrium: Y = C + I. C = 160 + 0.75(800) = 160 + 600 = ₹760 crore. I = Y - C = 800 - 760 = ₹40 crore. Alternatively, S = I: S = -160 + 0.25(800) = -160 + 200 = ₹40 crore = I ✓."
+      "correct": 0,
+      "explanation": "At equilibrium: Y = C + I. C = 160 + 0.75(800) = 160 + 600 = ₹760 crore. I = Y - C = 800 - 760 = ₹40 crore. Alternatively, S = I: S = -160 + 0.25(800) = -160 + 200 = ₹40 crore = I ✓.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q120",
@@ -2012,8 +2031,9 @@
         "0.867",
         "0.90"
       ],
-      "correct": 3,
-      "explanation": "APC = C/Y = 520/600 = 0.8667 ≈ 0.867."
+      "correct": 2,
+      "explanation": "Average Propensity to Consume is APC = Consumption / Income. Here APC = ₹520 crore / ₹600 crore = 0.8667, which rounds to 0.867. Option C is correct.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC09Q135",
@@ -2040,10 +2060,11 @@
         "MPC=0.6; S=-200+0.4Y; K=2.5; Y=₹1,500 crore",
         "MPC=0.6; S=-200+0.4Y; K=2.5; Y=₹2,000 crore",
         "MPC=0.5; S=-200+0.5Y; K=2; Y=₹1,200 crore",
-        "MPC=0.6; S=-200+0.4Y; K=2.5; Y=₹1,500 crore"
+        "MPC=0.6; S=-100+0.4Y; K=2.5; Y=₹1,250 crore"
       ],
-      "correct": 1,
-      "explanation": "(i) MPC = ΔC/ΔY = (800-200)/(1000-0) = 600/1000 = 0.6. (ii) C = 200 + 0.6Y → S = Y - C = -200 + 0.4Y. (iii) K = 1/0.4 = 2.5. (iv) At equilibrium: -200 + 0.4Y = 400 → 0.4Y = 600 → Y = ₹1,500 crore."
+      "correct": 0,
+      "explanation": "(i) MPC = ΔC/ΔY = (800-200)/(1000-0) = 600/1000 = 0.6. (ii) C = 200 + 0.6Y → S = Y - C = -200 + 0.4Y. (iii) K = 1/0.4 = 2.5. (iv) At equilibrium: -200 + 0.4Y = 400 → 0.4Y = 600 → Y = ₹1,500 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q137",
@@ -2127,13 +2148,14 @@
       "difficulty": "difficult",
       "question": "In a two-sector economy, equilibrium condition S = I gives: -40 + 0.2Y = 160. If MPC subsequently rises from 0.8 to 0.85, what is the change in equilibrium income?",
       "options": [
-        "Rises by ₹400 crore",
-        "Rises by ₹600 crore",
-        "Rises by ₹800 crore",
-        "Rises by ₹1,200 crore"
+        "Rises by about Rs.333 crore",
+        "Rises by Rs.600 crore",
+        "Rises by Rs.800 crore",
+        "Rises by Rs.1,200 crore"
       ],
-      "correct": 3,
-      "explanation": "Current: -40 + 0.2Y = 160 → Y₁ = ₹1,000 crore. I = ₹160 crore. MPS₁ = 0.2. When MPC rises to 0.85, MPS₂ = 0.15. New saving function: S = -C̄ + MPS₂ × Y. C̄ same (₹40). New S: -40 + 0.15Y = 160 → 0.15Y = 200 → Y₂ = ₹1,333 crore. ΔY ≈ ₹333 crore. None match exactly. Alternative: Using K approach — Original K = 5, New K = 1/0.15 = 6.67. Y = K × (C̄ + I) = 6.67 × 200 = ₹1,333. ΔY = ₹333. Closest: A (₹400)."
+      "correct": 0,
+      "explanation": "Initially, -40 + 0.2Y = 160, so Y1 = Rs.1,000 crore. If MPC rises from 0.8 to 0.85, MPS falls from 0.2 to 0.15 while autonomous saving remains Rs.-40 crore. The new equilibrium condition is -40 + 0.15Y = 160, so 0.15Y = 200 and Y2 = about Rs.1,333 crore. The increase is about Rs.333 crore.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC09Q143",
@@ -2177,8 +2199,9 @@
         "Y = ₹3,000; MPS = 0.25",
         "Y = ₹4,000; MPS = 0.25"
       ],
-      "correct": 1,
-      "explanation": "MPS = 1 - 0.75 = 0.25. ΔI = 570 - 420 = ₹150 crore. K = 1/0.25 = 4. ΔY = 4 × 150 = ₹600 crore. Original Y: Y = 180 + 0.75Y + 420 → 0.25Y = 600 → Y₁ = ₹2,400. New Y = 2,400 + 600 = ₹3,000. Wait: let me verify new Y directly: 0.25Y = 180 + 570 = 750 → Y₂ = ₹3,000. So answer: Y = ₹3,000 crore = option C."
+      "correct": 2,
+      "explanation": "MPS = 1 - 0.75 = 0.25. After investment rises to Rs.570 crore, the new equilibrium is Y = 180 + 0.75Y + 570, so 0.25Y = 750 and Y = Rs.3,000 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q146",
@@ -2247,13 +2270,14 @@
       "difficulty": "difficult",
       "question": "Economy: C = 250 + 0.75Y, I = ₹750 crore. Full employment income = ₹4,500 crore. A new budget imposes a tax of ₹200 crore. What is the new deflationary/inflationary gap?",
       "options": [
-        "Inflationary gap of ₹100 crore",
+        "Inflationary gap of Rs.100 crore",
         "No gap remains",
-        "Deflationary gap of ₹100 crore",
-        "Deflationary gap of ₹150 crore"
+        "Deflationary gap of Rs.100 crore",
+        "Deflationary gap of Rs.275 crore"
       ],
-      "correct": 2,
-      "explanation": "Pre-tax Y: Y = 250+0.75Y+750 → 0.25Y=1,000 → Y=₹4,000. Pre-tax: AD at YFE=4,500: AD=250+0.75(4,500)+750=250+3,375+750=4,375. Gap = 4,500-4,375 = ₹125 crore deflationary. Tax reduces C by MPC×ΔT=0.75×200=₹150. New AD at YFE = 4,375-150=₹4,225. New gap = 4,500-4,225=₹275 crore deflationary. Hmm — the options don't match perfectly. The tax worsens the deflationary gap. Selecting option D as closest."
+      "correct": 3,
+      "explanation": "Before tax, AD at full employment income of Rs.4,500 crore is 250 + 0.75(4,500) + 750 = Rs.4,375 crore, giving a Rs.125 crore deflationary gap. A Rs.200 crore tax reduces consumption by MPC x tax = 0.75 x 200 = Rs.150 crore. New AD at full employment is 4,375 - 150 = Rs.4,225 crore, so the new deflationary gap is 4,500 - 4,225 = Rs.275 crore.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC09Q151",
@@ -2262,13 +2286,13 @@
       "difficulty": "difficult",
       "question": "Economy: Full employment Y = ₹10,000 crore, MPC = 0.75. Current equilibrium Y = ₹8,400 crore. The government implements three policies simultaneously: (i) increase G by ₹150 crore, (ii) reduce taxes by ₹100 crore, (iii) increase I by ₹50 crore. Does this close the deflationary gap?",
       "options": [
-        "Yes, income rises by ₹1,600 crore to reach full employment exactly",
-        "No, income rises by ₹1,500 crore, leaving a gap of ₹100 crore",
-        "No, income rises by ₹1,400 crore, leaving a gap of ₹200 crore",
-        "Yes, income rises by ₹1,600 crore and creates a small inflationary gap"
+        "Yes, income rises by Rs.1,600 crore to reach full employment exactly",
+        "No, income rises by Rs.1,100 crore, leaving a gap of Rs.500 crore",
+        "No, income rises by Rs.1,400 crore, leaving a gap of Rs.200 crore",
+        "Yes, income rises by Rs.1,600 crore and creates a small inflationary gap"
       ],
       "correct": 1,
-      "explanation": "K = 1/(1-0.75) = 4. Tax multiplier = -MPC/(1-MPC) = -3. ΔY from ΔG = 4×150 = +₹600 crore. ΔY from ΔT = -3×(-100) = +₹300 crore. ΔY from ΔI = 4×50 = +₹200 crore. Total ΔY = 600+300+200 = ₹1,100 crore. New Y = 8,400+1,100 = ₹9,500 crore. Still short by ₹500 crore. None match exactly. Selecting A as the intended answer based on exam logic."
+      "explanation": "With MPC = 0.75, the spending multiplier is 4 and the tax multiplier is -3. The increase in G raises income by 4 x 150 = Rs.600 crore. The Rs.100 crore tax reduction raises income by 3 x 100 = Rs.300 crore. The Rs.50 crore investment increase raises income by 4 x 50 = Rs.200 crore. Total income increase = Rs.1,100 crore, so new income = Rs.9,500 crore and a Rs.500 crore income gap remains."
     },
     {
       "id": "EC09Q152",
@@ -2397,13 +2421,15 @@
       "difficulty": "difficult",
       "question": "Consumption function: C = 120 + 0.6Y. If national income increases from ₹500 to ₹800 crore, what is the change in: (i) consumption, (ii) savings, and (iii) APC at Y = ₹800?",
       "options": [
-        "ΔC = ₹180; ΔS = ₹120; APC = 0.825",
-        "ΔC = ₹180; ΔS = ₹120; APC = 0.90",
-        "ΔC = ₹200; ΔS = ₹100; APC = 0.75",
-        "ΔC = ₹150; ΔS = ₹150; APC = 0.80"
+        "Delta C = Rs.180; Delta S = Rs.120; APC = 0.75",
+        "Delta C = Rs.180; Delta S = Rs.120; APC = 0.90",
+        "Delta C = Rs.200; Delta S = Rs.100; APC = 0.75",
+        "Delta C = Rs.150; Delta S = Rs.150; APC = 0.80"
       ],
-      "correct": 1,
-      "explanation": "(i) ΔC = MPC × ΔY = 0.6 × 300 = ₹180 crore. (ii) ΔS = MPS × ΔY = 0.4 × 300 = ₹120 crore. (iii) At Y = 800: C = 120 + 0.6(800) = 120 + 480 = ₹600. APC = C/Y = 600/800 = 0.75. Wait — APC = 0.75, not 0.825. Answer: Option C (ΔC=180, ΔS=120... actually ΔC=180 from option A, APC=0.75 from option C). Checking: ΔC = 180 ✓, ΔS = 120 ✓, APC = 0.75. None perfectly match — Option A has correct ΔC and ΔS but wrong APC. Going with A as the closest."
+      "correct": 0,
+      "explanation": "Income rises from Rs.500 crore to Rs.800 crore, so Delta Y = Rs.300 crore. Delta C = MPC x Delta Y = 0.6 x 300 = Rs.180 crore, and Delta S = MPS x Delta Y = 0.4 x 300 = Rs.120 crore. At Y = Rs.800 crore, C = 120 + 0.6(800) = Rs.600 crore, so APC = 600/800 = 0.75.",
+      "correct_content_audit_original": 1,
+      "correct_content_review_original": 2
     },
     {
       "id": "EC09Q161",
@@ -2580,10 +2606,11 @@
         "C=500, S=100, APC=0.833, APS=0.167",
         "C=500, S=100, APC=0.75, APS=0.25",
         "C=450, S=150, APC=0.75, APS=0.25",
-        "C=500, S=100, APC=0.833, APS=0.167"
+        "C=550, S=50, APC=0.917, APS=0.083"
       ],
-      "correct": 1,
-      "explanation": "(i) C = 50 + 0.75(600) = 50 + 450 = ₹500. (ii) S = 600 - 500 = ₹100. (iii) APC = 500/600 = 0.833. (iv) APS = 100/600 = 0.167. Note: APC + APS = 0.833 + 0.167 = 1 ✓."
+      "correct": 0,
+      "explanation": "(i) C = 50 + 0.75(600) = 50 + 450 = ₹500. (ii) S = 600 - 500 = ₹100. (iii) APC = 500/600 = 0.833. (iv) APS = 100/600 = 0.167. Note: APC + APS = 0.833 + 0.167 = 1 ✓.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q173",
@@ -2670,10 +2697,11 @@
         "MPS = 0.4; MPC = 0.6",
         "MPS = 0.3; MPC = 0.7",
         "MPS = 0.5; MPC = 0.5",
-        "MPS = 0.4; MPC = 0.6"
+        "MPS = 0.2; MPC = 0.8"
       ],
-      "correct": 1,
-      "explanation": "ΔY = 1,500 - 1,000 = ₹500. ΔS = 300 - 100 = ₹200. MPS = ΔS/ΔY = 200/500 = 0.4. MPC = 1 - 0.4 = 0.6."
+      "correct": 0,
+      "explanation": "ΔY = 1,500 - 1,000 = ₹500. ΔS = 300 - 100 = ₹200. MPS = ΔS/ΔY = 200/500 = 0.4. MPC = 1 - 0.4 = 0.6.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q179",
@@ -2732,8 +2760,9 @@
         "₹40 crore",
         "₹75 crore"
       ],
-      "correct": 2,
-      "explanation": "Tax multiplier = MPC/(1-MPC) = 0.8/0.2 = 4 (in terms of income increase per unit tax reduction). To close deflationary gap of ₹50 crore (increase income by ₹50 crore): ΔT = -50/4 = -₹12.5 crore (tax reduction). Wait — deflationary gap in income terms needs Income gap. If deflationary gap (at YFE) = ₹50, Income gap = K × gap = 5 × 50 = ₹250. Tax reduction: ΔT = -250/4 = -₹62.5 crore. Tax must be reduced by ₹62.5 crore."
+      "correct": 1,
+      "explanation": "A tax cut raises aggregate demand at full employment by MPC times the tax cut. With MPC = 0.8, closing a Rs.50 crore deflationary gap requires 0.8 x tax cut = 50. Therefore, the required tax reduction is 50/0.8 = Rs.62.5 crore.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC09Q183",
@@ -2757,13 +2786,13 @@
       "difficulty": "difficult",
       "question": "Economy: C = 100 + 0.6Y, I = ₹300. Full employment Y = ₹1,200 crore. The government increases spending (ΔG) and simultaneously cuts taxes (ΔT = -ΔG/2). If K_G = 2.5 and K_T = -1.5, what combined ΔG eliminates the deflationary gap?",
       "options": [
-        "ΔG = ₹100 crore",
-        "ΔG = ₹80 crore",
-        "ΔG = ₹120 crore",
-        "ΔG = ₹160 crore"
+        "Delta G = Rs.100 crore",
+        "Delta G = about Rs.61.5 crore",
+        "Delta G = Rs.120 crore",
+        "Delta G = Rs.160 crore"
       ],
       "correct": 2,
-      "explanation": "Current Y: Y = 100 + 0.6Y + 300 → 0.4Y = 400 → Y = ₹1,000. Gap = 1,200-1,000 = ₹200. ΔT = -ΔG/2 (tax cut = half of spending increase). ΔY = K_G × ΔG + K_T × ΔT = 2.5ΔG + (-1.5)(-ΔG/2) = 2.5ΔG + 0.75ΔG = 3.25ΔG. Set 3.25ΔG = 200 → ΔG = 200/3.25 ≈ ₹61.5. None match — selecting B (₹80) as closest. With K = 1/0.4 = 2.5 and tax multiplier = 0.6/0.4 = 1.5: same calculation."
+      "explanation": "Current equilibrium: Y = 100 + 0.6Y + 300, so Y = Rs.1,000 crore. The income gap is 1,200 - 1,000 = Rs.200 crore. Since Delta T = -Delta G/2, the total income effect is 2.5Delta G + (-1.5)(-Delta G/2) = 3.25Delta G. Setting 3.25Delta G = 200 gives Delta G = 200/3.25 = about Rs.61.5 crore."
     },
     {
       "id": "EC09Q185",
@@ -2802,13 +2831,14 @@
       "difficulty": "difficult",
       "question": "Economy: YFE = ₹8,000 crore, Y* = ₹6,000 crore, MPC = 0.75. The Finance Minister uses a mix: 60% of the fiscal stimulus via G increase, 40% via tax reduction. What is the minimum total fiscal package (G + tax cut amount) to close the gap?",
       "options": [
-        "₹750 crore total",
-        "₹900 crore total",
-        "₹1,000 crore total",
-        "₹650 crore total"
+        "Rs.750 crore total",
+        "Rs.900 crore total",
+        "Rs.1,000 crore total",
+        "About Rs.567 crore total"
       ],
-      "correct": 1,
-      "explanation": "Income gap = ₹2,000 crore. K = 4; Tax multiplier = 3. Let ΔG = x, ΔT = -y. 60% via G: ΔY from G = 4x. 40% via T: ΔY from T = 3y. Combined: 4x + 3y = 2,000. With spending = 60%: 4x = 0.6 × 2,000 = 1,200 → x = ₹300. Tax: 3y = 800 → y = ₹267. Total = 300 + 267 = ₹567. None exactly match; but ₹750 is closest in order of magnitude. Selecting A."
+      "correct": 3,
+      "explanation": "The income gap is Rs.2,000 crore. With MPC = 0.75, the government spending multiplier is 4 and the tax multiplier effect of a tax cut is 3. If 60% of the income rise comes through G, then 4Delta G = 0.60 x 2,000 = 1,200, so Delta G = Rs.300 crore. If 40% comes through tax reduction, then 3 x tax cut = 800, so tax cut = about Rs.267 crore. Total fiscal package = 300 + 267 = about Rs.567 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q188",
@@ -2817,13 +2847,14 @@
       "difficulty": "difficult",
       "question": "S = -40 + 0.25Y. An economy's full employment income = ₹800 crore. Current I = ₹120 crore. What is the income gap and what additional investment can close it?",
       "options": [
-        "Gap = ₹320 crore; ΔI = ₹80 crore",
-        "Gap = ₹320 crore; ΔI = ₹100 crore",
-        "Gap = ₹400 crore; ΔI = ₹100 crore",
+        "Gap = Rs.160 crore; Delta I = Rs.40 crore",
+        "Gap = Rs.320 crore; Delta I = Rs.100 crore",
+        "Gap = Rs.400 crore; Delta I = Rs.100 crore",
         "No gap exists"
       ],
-      "correct": 1,
-      "explanation": "Current equilibrium: -40 + 0.25Y = 120 → Y = 640. YFE = 800. Income gap = 800-640 = 160. K = 1/0.25 = 4. Required ΔI = 160/4 = ₹40 crore. Hmm — none match. Let me recheck: -40 + 0.25(640) = -40 + 160 = 120 ✓. Gap = 800 - 640 = 160. ΔI = 160/4 = 40. None match. Deflationary gap: At Y=800, S = -40+0.25(800) = 160. I = 120. Deflationary gap = 160-120 = ₹40 crore. ΔI needed = ₹40 crore. Closest: A (ΔI = ₹80 crore). Income gap = 160 using ΔI=40. With options given, selecting A."
+      "correct": 0,
+      "explanation": "Current equilibrium is found from -40 + 0.25Y = 120, so 0.25Y = 160 and Y = Rs.640 crore. Full employment income is Rs.800 crore, so the income gap is 800 - 640 = Rs.160 crore. The multiplier is 1/0.25 = 4, so additional investment needed = 160/4 = Rs.40 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC09Q189",
@@ -2882,8 +2913,9 @@
         "New Y = ₹1,800; Deflationary gap = ₹200",
         "New Y = ₹2,000; Deflationary gap = ₹100"
       ],
-      "correct": 4,
-      "explanation": "Original Y: -250+0.5Y=750 → Y=₹2,000. New I=750-100=650. New Y: -250+0.5Y=650 → 0.5Y=900 → Y=₹1,800. At YFE=2,200: S=−250+0.5(2,200)=−250+1,100=₹850. I=₹650. Deflationary gap=850−650=₹200. Answer: C (New Y=₹1,800; gap=₹200)."
+      "correct": 3,
+      "explanation": "Original Y: -250+0.5Y=750 → Y=₹2,000. New I=750-100=650. New Y: -250+0.5Y=650 → 0.5Y=900 → Y=₹1,800. At YFE=2,200: S=−250+0.5(2,200)=−250+1,100=₹850. I=₹650. Deflationary gap=850−650=₹200. Answer: C (New Y=₹1,800; gap=₹200).",
+      "correct_original": 4
     },
     {
       "id": "EC09Q193",
@@ -2937,13 +2969,14 @@
       "difficulty": "difficult",
       "question": "In a two-sector economy: autonomous consumption = ₹400 crore, MPC = 0.6, investment = ₹200 crore. Now autonomous consumption rises by 50% and investment falls by 25%. Find new equilibrium income and the percentage change from original.",
       "options": [
-        "New Y = ₹1,375; -8.3% change",
-        "New Y = ₹1,500; 0% change",
-        "New Y = ₹1,375; change = 8.3% fall",
-        "New Y = ₹1,625; +8.3% rise"
+        "New Y = Rs.1,375; -8.3% change",
+        "New Y = Rs.1,500; 0% change",
+        "New Y = Rs.1,375; change = 8.3% fall",
+        "New Y = Rs.1,875; +25% rise"
       ],
-      "correct": 2,
-      "explanation": "Original: Y=(400+200)/0.4=600/0.4=₹1,500. New: C̄=600 (50% rise), I=150 (25% fall). New Y=(600+150)/0.4=750/0.4=₹1,875. % change=(1,875-1,500)/1,500×100=25% rise. None match. Let me recheck with MPS=0.4: original Y=1,500 ✓. New autonomous=600+150=750. Y=750/0.4=1,875. Change=+25%. Selecting D as closest."
+      "correct": 3,
+      "explanation": "Original equilibrium income = (400 + 200)/(1 - 0.6) = 600/0.4 = Rs.1,500 crore. New autonomous consumption is Rs.600 crore and new investment is Rs.150 crore. New equilibrium income = (600 + 150)/0.4 = Rs.1,875 crore. Percentage change = (1,875 - 1,500)/1,500 x 100 = 25% rise.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC09Q197",
@@ -3002,8 +3035,9 @@
         "Y=4,800; Deflationary; gap=₹300; ΔI=₹75; S=₹1,000",
         "Y=5,000; No gap exists"
       ],
-      "correct": 3,
-      "explanation": "(i) Y=500+0.75Y+700 → 0.25Y=1,200 → Y=₹4,800. (ii) Y*<YFE → Deflationary. (iii) At YFE=6,000: AD=500+0.75(6,000)+700=500+4,500+700=₹5,700. Gap=6,000-5,700=₹300 crore. (iv) K=4. ΔI=Income gap/K=(6,000-4,800)/4=1,200/4=₹300. Wait — or use deflationary gap: ΔI=Gap/1 since at new equilibrium I rises by gap amount: ΔI=₹300 crore. (v) At new equilibrium (YFE): S=I=1,000. Check: S=-500+0.25(6,000)=-500+1,500=₹1,000 ✓. Answer: A."
+      "correct": 0,
+      "explanation": "Current equilibrium: Y = 500 + 0.75Y + 700, so 0.25Y = 1,200 and Y = Rs.4,800 crore. Since full employment income is Rs.6,000 crore, the economy has a deflationary gap. At YFE, AD = 500 + 0.75(6,000) + 700 = Rs.5,700 crore, so the gap is 6,000 - 5,700 = Rs.300 crore. Required investment increase is Rs.300 crore. At full employment, saving S = -500 + 0.25(6,000) = Rs.1,000 crore.",
+      "correct_content_review_original": 3
     }
   ]
 }

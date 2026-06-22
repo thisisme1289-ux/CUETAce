@@ -12,13 +12,14 @@
       "difficulty": "moderate",
       "question": "A and B share profits in the ratio of 3:2. They admit C for 1/5 share. C acquires his share equally from A and B. What is the new profit-sharing ratio of A, B, and C?",
       "options": [
-        "A) 5:4:1",
+        "A) 5:3:2",
         "B) 7:6:2",
         "C) 7:5:3",
         "D) 13:12:5"
       ],
-      "correct": 3,
-      "explanation": "Old ratio A:B = 3:2. C gets 1/5, acquired equally from A and B, i.e., 1/10 each. A's new share = 3/5 - 1/10 = 6/10 - 1/10 = 5/10. B's new share = 2/5 - 1/10 = 4/10 - 1/10 = 3/10. C's share = 1/5 = 2/10. New ratio = 5:3:2. Wait—recalculate: A = 3/5 - 1/10 = 5/10; B = 2/5 - 1/10 = 3/10; C = 2/10. Ratio = 5:3:2. None match exactly; let's verify option D: C gets 1/5 from A and B in ratio 3:2, so A sacrifices 3/5×1/5 = 3/25, B sacrifices 2/5×1/5 = 2/25. A's new = 3/5-3/25 = 15/25-3/25 = 12/25; B's new = 2/5-2/25 = 10/25-2/25 = 8/25 (incorrect path). Correct answer using equal acquisition: New ratio A:B:C = 5:3:2."
+      "correct": 0,
+      "explanation": "C gets 1/5 share, acquired equally from A and B, so each old partner sacrifices 1/10. A's new share = 3/5 - 1/10 = 5/10. B's new share = 2/5 - 1/10 = 3/10. C's share = 1/5 = 2/10. New ratio = 5:3:2.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC05Q02",
@@ -167,8 +168,9 @@
         "C) 1:1:1",
         "D) 3:3:4"
       ],
-      "correct": 2,
-      "explanation": "Old ratio A:B:C = 4:3:2 (total 9). New ratio A:B:C:D = 4:3:2:1 (total 10). Convert to same denominator: Old ratio = 40/90:30/90:20/90. New ratio = 36/90:27/90:18/90:9/90. Sacrificing ratio: A = 40/90 - 36/90 = 4/90; B = 30/90 - 27/90 = 3/90; C = 20/90 - 18/90 = 2/90. Ratio = 4:3:2. Wait, that is option A. Let me recheck: Old A = 4/9; New A = 4/10. A's sacrifice = 4/9 - 4/10 = 40/90 - 36/90 = 4/90. Similarly B = 3/90, C = 2/90. Sacrificing ratio = 4:3:2. Correct answer is A."
+      "correct": 0,
+      "explanation": "Old shares are A = 4/9, B = 3/9, and C = 2/9. New shares are A = 4/10, B = 3/10, C = 2/10, and D = 1/10. Sacrifice: A = 4/9 - 4/10 = 4/90, B = 3/90, and C = 2/90. Sacrificing ratio = 4:3:2.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC05Q12",
@@ -212,8 +214,9 @@
         "C) ₹1,80,000",
         "D) ₹1,25,000"
       ],
-      "correct": 1,
-      "explanation": "Total capital of new firm = ₹6,00,000. R's share = 1/4. R's capital = 1/4 × ₹6,00,000 = ₹1,50,000. However, if total capital is ₹6,00,000 and R's share is 1/4, remaining 3/4 should be ₹4,50,000 (P and Q together). But P+Q already have ₹4,50,000, so R brings ₹1,50,000. Wait—recalculating: Adjusted capital approach: New total capital = ₹6,00,000. R's share = 1/4 so R brings 1/4 × 6,00,000 = ₹1,50,000. If the question implies R brings capital such that his proportionate share of ₹6,00,000 is covered, answer is ₹1,50,000 (Option A). But if total capital is determined AFTER R brings in capital and existing capitals are adjusted, the answer changes. Standard approach: R brings ₹1,50,000."
+      "correct": 0,
+      "explanation": "Total capital of the new firm is Rs.6,00,000. R's share is 1/4. Therefore R's capital = 1/4 x Rs.6,00,000 = Rs.1,50,000. Existing capitals of P and Q already total Rs.4,50,000, which is the remaining 3/4 share.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC05Q15",
@@ -257,8 +260,9 @@
         "C) Loss ₹13,000",
         "D) Profit ₹7,000"
       ],
-      "correct": 3,
-      "explanation": "Revaluation Account: Credit (gains): Machinery appreciation = 20% × 1,20,000 = ₹24,000. Debit (losses): Provision for Bad Debts increased = ₹8,000; Outstanding Salary = ₹5,000. Total losses = ₹13,000. Net profit on revaluation = ₹24,000 - ₹13,000 = ₹11,000. Wait: Option A is ₹11,000. General Reserve ₹50,000 is NOT part of Revaluation—it's directly distributed. So net revaluation profit = ₹11,000 (Option A). Correcting: Answer is A (₹11,000 profit)."
+      "correct": 0,
+      "explanation": "Machinery appreciation = 20% of Rs.1,20,000 = Rs.24,000. Provision for bad debts increases by Rs.8,000 and outstanding salary of Rs.5,000 is recorded, so total revaluation losses are Rs.13,000. Net revaluation profit = Rs.24,000 - Rs.13,000 = Rs.11,000. General Reserve is distributed separately and is not part of Revaluation Account.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC05Q18",
@@ -372,13 +376,13 @@
       "difficulty": "difficult",
       "question": "Rahul and Priya are equal partners with capitals of ₹2,00,000 each. They admit Raj for 1/5 share. At admission: Land (BV ₹1,00,000) revalued to ₹1,50,000; Debtors (BV ₹60,000) with provision for bad debts ₹3,000—provision to be increased to ₹6,000; Investments (BV ₹80,000) revalued to ₹70,000. What is revaluation profit/loss distributed to each old partner?",
       "options": [
-        "A) Profit ₹37,000 each",
-        "B) Profit ₹20,000 each",
-        "C) Loss ₹7,000 each",
-        "D) Profit ₹17,000 each"
+        "A) Profit Rs.37,000 each",
+        "B) Profit Rs.20,000 each",
+        "C) Loss Rs.7,000 each",
+        "D) Profit Rs.18,500 each"
       ],
       "correct": 3,
-      "explanation": "Revaluation Account: Credits (gains): Land appreciation = ₹1,50,000 - ₹1,00,000 = ₹50,000. Debits (losses): Additional provision for bad debts = ₹6,000 - ₹3,000 = ₹3,000; Investment written down = ₹80,000 - ₹70,000 = ₹10,000. Total losses = ₹13,000. Net revaluation profit = ₹50,000 - ₹13,000 = ₹37,000. Old ratio = 1:1 (equal). Each partner gets = ₹37,000/2 = ₹18,500. Closest option is D (₹17,000). The exact answer is ₹18,500 each; however if provision is read differently the answer adjusts. With the given data, each partner receives ₹18,500."
+      "explanation": "Land appreciation = Rs.50,000. Additional provision for bad debts = Rs.3,000 and investments loss = Rs.10,000. Net revaluation profit = Rs.50,000 - Rs.13,000 = Rs.37,000. Rahul and Priya are equal partners, so each receives Rs.18,500."
     },
     {
       "id": "AC05Q26",
@@ -417,13 +421,14 @@
       "difficulty": "difficult",
       "question": "P and Q share profits in 3:1. R is admitted for 1/5 share. It is agreed that P will sacrifice 1/10 from his share and Q will sacrifice 1/10 from his share. What is R's new share and what is the new ratio?",
       "options": [
-        "A) R: 1/5; P:Q:R = 11:3:6",
+        "A) R: 2/10; P:Q:R = 13:3:4",
         "B) R: 2/10; P:Q:R = 11:3:6",
         "C) R: 2/10; P:Q:R = 7:1:2",
         "D) R: 1/5; P:Q:R = 5:3:2"
       ],
-      "correct": 1,
-      "explanation": "P's old share = 3/4; P sacrifices 1/10. P's new share = 3/4 - 1/10 = 15/20 - 2/20 = 13/20. Q's old share = 1/4; Q sacrifices 1/10. Q's new share = 1/4 - 1/10 = 5/20 - 2/20 = 3/20. R's share = 1/10 + 1/10 = 2/10 = 4/20. New ratio = 13:3:4 (total 20). Check: 13+3+4 = 20. Option B says 11:3:6 which is incorrect. None of the options exactly match 13:3:4. The closest conceptual approach is R gets 2/10 = 1/5 which matches the question requirement."
+      "correct": 0,
+      "explanation": "P's old share = 3/4 = 15/20. P sacrifices 1/10 = 2/20, so P's new share = 13/20. Q's old share = 1/4 = 5/20. Q sacrifices 1/10 = 2/20, so Q's new share = 3/20. R receives 2/10 = 4/20. New ratio = 13:3:4.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC05Q29",
@@ -497,8 +502,9 @@
         "C) ₹37,500",
         "D) ₹30,000"
       ],
-      "correct": 2,
-      "explanation": "Old ratio A:B = 1:1. Revaluation profit: Building +30,000; Stock -10,000; Provision -5,000. Net = +₹15,000. A's share = 1/2 × 15,000 = ₹7,500. General Reserve: A's share = 1/2 × 20,000 = ₹10,000. Goodwill (sacrificing ratio = old ratio 1:1): A's share = 1/2 × 25,000 = ₹12,500. Total credit to A = 7,500 + 10,000 + 12,500 = ₹30,000. Wait—that matches option D. Rechecking: 7,500 + 10,000 + 12,500 = ₹30,000. Correct answer is D."
+      "correct": 3,
+      "explanation": "Revaluation profit = Rs.30,000 - Rs.10,000 - Rs.5,000 = Rs.15,000. A's share in equal ratio = Rs.7,500. General Reserve credit to A = Rs.10,000. Goodwill premium credit to A = Rs.12,500. Total credit to A's Capital Account = Rs.7,500 + Rs.10,000 + Rs.12,500 = Rs.30,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC05Q34",
@@ -523,12 +529,12 @@
       "question": "Vikas and Vijay are in 7:3 ratio. They admit Vishal for 1/5 share. Vikas agrees to sacrifice 3/20 and Vijay sacrifices 1/20 of total profit. What are their new ratios respectively and what is the new ratio of the firm?",
       "options": [
         "A) Vikas: 7/20; Vijay: 5/20; Vishal: 4/20; Ratio 7:5:4",
-        "B) Vikas: 11/20; Vijay: 3/20; Vishal: 4/20; Ratio 11:3:4",
+        "B) Vikas: 11/20; Vijay: 5/20; Vishal: 4/20; Ratio 11:5:4",
         "C) Vikas: 8/20; Vijay: 4/20; Vishal: 4/20; Ratio 2:1:1",
         "D) Vikas: 9/20; Vijay: 5/20; Vishal: 4/20; Ratio 9:5:4"
       ],
       "correct": 1,
-      "explanation": "Old ratio: Vikas = 7/10 = 14/20; Vijay = 3/10 = 6/20. Vikas sacrifices 3/20. Vijay sacrifices 1/20. Vishal gets = 3/20 + 1/20 = 4/20 = 1/5. ✓ (matches given). New shares: Vikas = 14/20 - 3/20 = 11/20. Vijay = 6/20 - 1/20 = 5/20. Vishal = 4/20. New ratio = 11:5:4. Option B shows 11:3:4 which is incorrect. The correct new ratio is 11:5:4. None of the options show this exactly; closest check: option D shows 9:5:4 (incorrect) and B shows 11:3:4 (Vijay should be 5, not 3). The correct answer based on calculation is 11:5:4."
+      "explanation": "Vikas old share = 7/10 = 14/20 and Vijay old share = 3/10 = 6/20. Vikas sacrifices 3/20 and Vijay sacrifices 1/20, so Vishal receives 4/20. New shares are Vikas 11/20, Vijay 5/20, and Vishal 4/20. New ratio = 11:5:4."
     },
     {
       "id": "AC05Q36",
@@ -602,8 +608,9 @@
         "C) ₹20,000 transferred to Revaluation A/c; ₹10,000 transferred to old partners",
         "D) Full ₹30,000 remains as reserve"
       ],
-      "correct": 1,
-      "explanation": "Investment Fluctuation Reserve (IFR) exists to cover potential fall in investment value. Here investments are valued ₹20,000 ABOVE book value (appreciation). Since there is no fall in investment value (in fact investments have appreciated), the entire IFR is surplus. IFR surplus treatment: ₹20,000 worth of appreciation means the reserve of ₹30,000 is more than adequate. The entire ₹30,000 IFR (since there's no loss—investments appreciated) is transferred to old partners in old ratio 3:2. Wait—when investments appreciate: the IFR is not needed, so full ₹30,000 goes to old partners. But the appreciation itself is credited via Revaluation. So answer should be A: Full ₹30,000 transferred to old partners."
+      "correct": 0,
+      "explanation": "Investment Fluctuation Reserve is maintained against a possible fall in investment value. Since investments are valued Rs.20,000 above book value, there is no fall to absorb. The appreciation is recorded through Revaluation Account, and the full reserve of Rs.30,000 is transferred to old partners in their old ratio 3:2.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC05Q41",
@@ -702,13 +709,13 @@
       "difficulty": "difficult",
       "question": "Hidden Goodwill Problem: D and E share profits in 3:2. F is admitted for 1/3 share by bringing ₹1,20,000 as capital. D's capital = ₹2,00,000 and E's capital = ₹1,50,000. What is the hidden goodwill of the firm?",
       "options": [
-        "A) ₹90,000",
-        "B) ₹1,50,000",
-        "C) ₹30,000",
-        "D) ₹45,000"
+        "A) No hidden goodwill",
+        "B) Rs.1,50,000",
+        "C) Rs.30,000",
+        "D) Rs.45,000"
       ],
       "correct": 0,
-      "explanation": "F brings ₹1,20,000 for 1/3 share. Total capital of firm based on F's contribution = ₹1,20,000 × 3 = ₹3,60,000. Actual capital of firm = D's capital + E's capital + F's capital = 2,00,000 + 1,50,000 + 1,20,000 = ₹4,70,000. Wait—the actual combined capitals already exceed ₹3,60,000. Recomputing: Total capital implied by F's contribution = 1,20,000/1×3 = ₹3,60,000. Actual capital (only old partners D+E) = 2,00,000+1,50,000 = ₹3,50,000. Old partners' share in new firm = 2/3. So 2/3 of total = ₹3,50,000. Total = ₹3,50,000×3/2 = ₹5,25,000. But F brings ₹1,20,000 for 1/3, implying total should be ₹3,60,000. Goodwill = ₹3,60,000 - (3,50,000+1,20,000) = negative? Hidden goodwill = Implied total - Actual total. Implied = ₹3,60,000; Actual old partners' capitals = ₹3,50,000 for 2/3. Implied value of firm = 3×1,20,000 = ₹3,60,000. Old partners' capital should be 2/3 × 3,60,000 = ₹2,40,000. But actual = ₹3,50,000. No hidden goodwill in this direction. Standard formula: Total implied capital = F's capital/F's share = 1,20,000/(1/3) = ₹3,60,000. Total actual capital = ₹3,50,000 + ₹1,20,000 = ₹4,70,000. Goodwill = ₹4,70,000 - ₹3,60,000 = ₹1,10,000. Closest is ₹90,000 (option A) but exact is ₹1,10,000."
+      "explanation": "F brings Rs.1,20,000 for 1/3 share, so implied total capital = Rs.1,20,000 / (1/3) = Rs.3,60,000. Actual total capital after admission = Rs.2,00,000 + Rs.1,50,000 + Rs.1,20,000 = Rs.4,70,000. Since actual capital is higher than implied capital, no hidden goodwill arises from these figures."
     },
     {
       "id": "AC05Q48",
@@ -752,8 +759,9 @@
         "C) X: ₹18,000; Y: ₹12,000; Z: Nil",
         "D) X: ₹20,000; Y: ₹5,000; Z: ₹5,000"
       ],
-      "correct": 0,
-      "explanation": "Old ratio X:Y:Z = 3:2:1 (total 6). New ratio X:Y:Z:W = 3:2:1:1 (total 7). Sacrificing ratio: X = 3/6 - 3/7 = 21/42 - 18/42 = 3/42. Y = 2/6 - 2/7 = 14/42 - 12/42 = 2/42. Z = 1/6 - 1/7 = 7/42 - 6/42 = 1/42. Sacrificing ratio = 3:2:1. Total goodwill = ₹30,000. X = 3/6×30,000 = ₹15,000; Y = 2/6×30,000 = ₹10,000; Z = 1/6×30,000 = ₹5,000. This matches Option B. Wait—sacrificing ratio = 3:2:1 (total 6): X=₹15,000, Y=₹10,000, Z=₹5,000. Option B is correct."
+      "correct": 1,
+      "explanation": "Old ratio X:Y:Z = 3:2:1. New ratio X:Y:Z:W = 3:2:1:1. Sacrifices are 3/42, 2/42, and 1/42, so the sacrificing ratio is 3:2:1. W pays Rs.30,000 goodwill; X receives Rs.15,000, Y receives Rs.10,000, and Z receives Rs.5,000.",
+      "correct_content_audit_original": 0
     },
     {
       "id": "AC05Q51",
@@ -1063,12 +1071,12 @@
       "question": "L, M, N share profits in 4:3:3. O is admitted for 1/5. Old partners agree that only L and M will sacrifice in 4:3 ratio. N makes no sacrifice. What is the new profit ratio of all four partners?",
       "options": [
         "A) L:M:N:O = 20:15:15:10",
-        "B) L:M:N:O = 16:9:15:10",
+        "B) L:M:N:O = 20:15:21:14",
         "C) L:M:N:O = 24:17:30:10",
         "D) L:M:N:O = 20:17:30:9"
       ],
       "correct": 1,
-      "explanation": "Old ratio L:M:N = 4:3:3 (total 10). O gets 1/5 = 2/10. L and M sacrifice in 4:3 ratio (total 7). L's sacrifice = 4/7 × 2/10 = 8/70. M's sacrifice = 3/7 × 2/10 = 6/70. N sacrifices nothing. Common denominator = 70. L's new = 4/10 - 8/70 = 28/70 - 8/70 = 20/70. M's new = 3/10 - 6/70 = 21/70 - 6/70 = 15/70. N's new = 3/10 = 21/70. O's share = 2/10 = 14/70. New ratio = 20:15:21:14. Option B shows 16:9:15:10 which doesn't match. Let me verify N = 3/10 = 21/70 not 15. None of the options match 20:15:21:14 exactly."
+      "explanation": "O's share is 1/5 = 2/10. L and M sacrifice this share in 4:3 ratio. L sacrifices 8/70 and M sacrifices 6/70. L's new share = 28/70 - 8/70 = 20/70. M's new share = 21/70 - 6/70 = 15/70. N does not sacrifice, so N remains 21/70. O = 14/70. New ratio = 20:15:21:14."
     },
     {
       "id": "AC05Q72",
@@ -1127,8 +1135,9 @@
         "C) ₹5,30,000",
         "D) ₹6,00,000"
       ],
-      "correct": 2,
-      "explanation": "Before S's admission, total assets = 2,00,000+1,00,000+1,00,000+50,000 = ₹4,50,000. Add S's contribution: Capital ₹1,00,000 + Goodwill premium ₹30,000 = ₹1,30,000 cash into firm. New total assets = 4,50,000 + 1,30,000 = ₹5,80,000. Wait—if goodwill is retained: then Premium for Goodwill remains. Creditors side: General Reserve ₹60,000 + P&L ₹40,000 + A's Capital + B's Capital (will increase by distributions) + S's Capital + Creditors. Let's just compute: Cash increases by ₹1,30,000. Total assets = ₹4,50,000 + ₹1,30,000 = ₹5,80,000. Option A = ₹5,80,000. Correct."
+      "correct": 0,
+      "explanation": "Before admission, total assets are Rs.2,00,000 + Rs.1,00,000 + Rs.1,00,000 + Rs.50,000 = Rs.4,50,000. S brings Rs.1,00,000 capital and Rs.30,000 goodwill, increasing cash by Rs.1,30,000. Total balance sheet after admission before revaluation = Rs.4,50,000 + Rs.1,30,000 = Rs.5,80,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC05Q76",
@@ -1167,13 +1176,14 @@
       "difficulty": "difficult",
       "question": "E and F are partners in 2:1. G is admitted for 1/5 share. Balance sheet shows: Goodwill ₹15,000 (existing); General Reserve ₹45,000; P&L Loss A/c (Dr.) ₹9,000. Firm's goodwill on G's admission = ₹75,000. G brings his share of goodwill in cash. What are the net adjustments to E's capital (ignoring revaluation)?",
       "options": [
-        "A) Net credit of ₹26,000",
-        "B) Net credit of ₹20,000",
-        "C) Net debit of ₹4,000",
-        "D) Net credit of ₹14,000"
+        "A) Net credit of Rs.24,000",
+        "B) Net credit of Rs.20,000",
+        "C) Net debit of Rs.4,000",
+        "D) Net credit of Rs.14,000"
       ],
-      "correct": 1,
-      "explanation": "G's goodwill = 1/5 × ₹75,000 = ₹15,000 cash. Old ratio E:F = 2:1. Step 1: Write off existing goodwill ₹15,000 → E debited = 2/3 × 15,000 = ₹10,000. Step 2: Distribute General Reserve ₹45,000 → E credited = 2/3 × 45,000 = ₹30,000. Step 3: Distribute P&L Loss ₹9,000 → E debited = 2/3 × 9,000 = ₹6,000. Step 4: G's goodwill ₹15,000 in sacrificing ratio (2:1) → E credited = 2/3 × 15,000 = ₹10,000. Net for E = -10,000 + 30,000 - 6,000 + 10,000 = +₹24,000. Closest option is B (₹20,000). Exact = ₹24,000."
+      "correct": 0,
+      "explanation": "E is debited Rs.10,000 for writing off existing goodwill, credited Rs.30,000 for General Reserve, debited Rs.6,000 for P&L loss, and credited Rs.10,000 for G's goodwill premium. Net effect on E's capital = -10,000 + 30,000 - 6,000 + 10,000 = credit Rs.24,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC05Q79",
@@ -1197,13 +1207,13 @@
       "difficulty": "difficult",
       "question": "Weighted Average Profit Method: Profits of a firm: Year 1 (weight 1) ₹80,000; Year 2 (weight 2) ₹1,00,000; Year 3 (weight 3) ₹1,20,000. Goodwill = 3 years' purchase. A new partner takes 1/4 share. What is his goodwill contribution?",
       "options": [
-        "A) ₹82,500",
-        "B) ₹1,00,000",
-        "C) ₹27,500",
-        "D) ₹30,000"
+        "A) Rs.80,000",
+        "B) Rs.1,00,000",
+        "C) Rs.27,500",
+        "D) Rs.30,000"
       ],
       "correct": 0,
-      "explanation": "Weighted average profit = (80,000×1 + 1,00,000×2 + 1,20,000×3)/(1+2+3) = (80,000 + 2,00,000 + 3,60,000)/6 = 6,40,000/6 = ₹1,06,667. Goodwill = 1,06,667 × 3 = ₹3,20,000 (approximately). New partner's share = 1/4. Goodwill contribution = 1/4 × 3,20,000 = ₹80,000. None of the options match exactly. Let me recompute: Weighted sum = 80,000+2,00,000+3,60,000 = 6,40,000. Total weights = 6. WA profit = 6,40,000/6 = 1,06,667. Goodwill = 3,20,000. 1/4 = ₹80,000. Option A (₹82,500) is nearest but not exact."
+      "explanation": "Weighted average profit = (Rs.80,000 x 1 + Rs.1,00,000 x 2 + Rs.1,20,000 x 3) / 6 = Rs.1,06,666.67. Goodwill = Rs.1,06,666.67 x 3 = Rs.3,20,000. New partner takes 1/4 share, so goodwill contribution = Rs.3,20,000 x 1/4 = Rs.80,000."
     },
     {
       "id": "AC05Q81",
@@ -1562,8 +1572,9 @@
         "C) ₹5,000",
         "D) ₹45,000"
       ],
-      "correct": 1,
-      "explanation": "Normal profit = Capital employed × Rate = ₹5,00,000 × 10% = ₹50,000. Super profit = Average profit - Normal profit = ₹75,000 - ₹50,000 = ₹25,000. Goodwill of firm = Super profit × Years' purchase = ₹25,000 × 3 = ₹75,000. New partner's share = 1/5. Premium = 1/5 × ₹75,000 = ₹15,000. Wait—let me recheck option A: ₹15,000. The premium for goodwill = 1/5 × ₹75,000 = ₹15,000. Option A is correct."
+      "correct": 0,
+      "explanation": "Normal profit = Rs.5,00,000 x 10% = Rs.50,000. Super profit = Rs.75,000 - Rs.50,000 = Rs.25,000. Goodwill of the firm = Rs.25,000 x 3 = Rs.75,000. New partner premium for 1/5 share = Rs.75,000 x 1/5 = Rs.15,000.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC05Q105",
@@ -1662,13 +1673,14 @@
       "difficulty": "difficult",
       "question": "Before admission of C, the firm has: Land ₹5,00,000; Machinery ₹3,00,000; Stock ₹2,00,000. On revaluation: Land up by 30%; Machinery down by 10%; Stock up by 5%. A and B are in 3:2. What is each partner's share of revaluation profit?",
       "options": [
-        "A) A: ₹1,05,000; B: ₹70,000",
-        "B) A: ₹84,000; B: ₹56,000",
-        "C) A: ₹90,000; B: ₹60,000",
-        "D) A: ₹63,000; B: ₹42,000"
+        "A) A: Rs.78,000; B: Rs.52,000",
+        "B) A: Rs.84,000; B: Rs.56,000",
+        "C) A: Rs.90,000; B: Rs.60,000",
+        "D) A: Rs.63,000; B: Rs.42,000"
       ],
-      "correct": 1,
-      "explanation": "Revaluation: Land appreciation = 30% × 5,00,000 = ₹1,50,000. Machinery loss = 10% × 3,00,000 = ₹30,000. Stock appreciation = 5% × 2,00,000 = ₹10,000. Net revaluation profit = 1,50,000 - 30,000 + 10,000 = ₹1,30,000 (wait) = ₹1,30,000. Hmm—let's check: 1,50,000+10,000-30,000 = ₹1,30,000. But none of the options... wait: A's share = 3/5×1,30,000 = ₹78,000? Not listed. Let me recompute: Net = 1,50,000-30,000+10,000 = 1,30,000. Hmm, ₹78,000 for A. Actually if Stock is down: 1,50,000-30,000-10,000 = 1,10,000. A = 3/5×1,10,000 = ₹66,000. Still not matching. If only land and machinery: 1,50,000-30,000 = 1,20,000. A = ₹72,000. Still no. Let me try: Land+Stock = 1,50,000+10,000 = gain 1,60,000; Machinery loss = 30,000. Net = 1,40,000. A = 3/5×1,40,000 = ₹84,000; B = 2/5 = ₹56,000. Option B matches!"
+      "correct": 0,
+      "explanation": "Land appreciation = Rs.1,50,000. Machinery loss = Rs.30,000. Stock appreciation = Rs.10,000. Net revaluation profit = Rs.1,50,000 - Rs.30,000 + Rs.10,000 = Rs.1,30,000. A and B share in 3:2, so A receives Rs.78,000 and B receives Rs.52,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC05Q112",
@@ -1742,8 +1754,9 @@
         "C) Deficit ₹6,000",
         "D) Deficit ₹30,000"
       ],
-      "correct": 2,
-      "explanation": "S's share = 1/6. S's goodwill = 1/6 × ₹1,80,000 = ₹30,000. Wait—S brings ₹30,000 which exactly equals the required goodwill. So there's no deficit! Unless the question uses a different calculation. Let me re-read: Goodwill = ₹1,80,000. S's share = 1/6. Required = ₹30,000. Paid = ₹30,000. Deficit = ₹0. Option A (no deficit) is correct. However, if the question intended total goodwill = ₹2,16,000: 1/6×2,16,000 = ₹36,000; deficit = ₹6,000. With ₹1,80,000: Answer = Option A (no deficit)."
+      "correct": 0,
+      "explanation": "S's goodwill share = 1/6 x Rs.1,80,000 = Rs.30,000. S brings Rs.30,000 as goodwill cash, exactly matching the required amount. Therefore there is no deficit.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC05Q117",
@@ -1782,13 +1795,13 @@
       "difficulty": "difficult",
       "question": "Ram, Shyam, and Ghanshyam are in ratio 3:2:1. Mohan is admitted for 2/9 share. The new ratio of Ram:Shyam:Ghanshyam:Mohan = 2:2:1:2 (total 7). Mohan pays ₹84,000 as goodwill. How is goodwill distributed among old partners?",
       "options": [
-        "A) Ram: ₹42,000; Shyam: ₹28,000; Ghanshyam: ₹14,000",
-        "B) Ram: ₹54,000; Shyam: ₹30,000; Ghanshyam: ₹0",
-        "C) Ram: ₹36,000; Shyam: ₹24,000; Ghanshyam: ₹24,000",
-        "D) Ram: ₹28,000; Shyam: ₹14,000; Ghanshyam: ₹42,000"
+        "A) Ram: Rs.42,000; Shyam: Rs.28,000; Ghanshyam: Rs.14,000",
+        "B) Ram: Rs.63,000; Shyam: Rs.14,000; Ghanshyam: Rs.7,000",
+        "C) Ram: Rs.36,000; Shyam: Rs.24,000; Ghanshyam: Rs.24,000",
+        "D) Ram: Rs.28,000; Shyam: Rs.14,000; Ghanshyam: Rs.42,000"
       ],
       "correct": 1,
-      "explanation": "Old ratio R:S:G = 3:2:1 (total 6). New ratio R:S:G:M = 2:2:1:2 (total 7). Sacrificing ratio: R = 3/6-2/7 = 21/42-12/42 = 9/42. S = 2/6-2/7 = 14/42-12/42 = 2/42. G = 1/6-1/7 = 7/42-6/42 = 1/42. Sacrificing ratio = 9:2:1 (total 12). Goodwill = ₹84,000. R = 9/12×84,000 = ₹63,000. S = 2/12×84,000 = ₹14,000. G = 1/12×84,000 = ₹7,000. Total = ₹84,000 ✓. None of the options match ₹63,000:₹14,000:₹7,000. Option B is closest but still different."
+      "explanation": "Old shares are Ram 3/6, Shyam 2/6, and Ghanshyam 1/6. New shares are Ram 2/7, Shyam 2/7, Ghanshyam 1/7, and Mohan 2/7. Sacrifices are Ram 9/42, Shyam 2/42, and Ghanshyam 1/42, giving sacrificing ratio 9:2:1. Mohan pays Rs.84,000 goodwill, so Ram receives Rs.63,000, Shyam Rs.14,000, and Ghanshyam Rs.7,000."
     },
     {
       "id": "AC05Q120",
@@ -1817,8 +1830,9 @@
         "C) ₹1,60,000",
         "D) ₹40,000"
       ],
-      "correct": 1,
-      "explanation": "Normal profit = ₹12,00,000 × 12% = ₹1,44,000. Super profit = ₹2,00,000 - ₹1,44,000 = ₹56,000. Goodwill = ₹56,000 × 4 = ₹2,24,000. New partner's share = 1/4. Premium = 1/4 × ₹2,24,000 = ₹56,000. Option A (₹56,000) is correct. Wait—option A = ₹56,000. Yes, the premium for goodwill is ₹56,000. Option A."
+      "correct": 0,
+      "explanation": "Normal profit = Rs.12,00,000 x 12% = Rs.1,44,000. Super profit = Rs.2,00,000 - Rs.1,44,000 = Rs.56,000. Goodwill = Rs.56,000 x 4 = Rs.2,24,000. New partner premium for 1/4 share = Rs.2,24,000 x 1/4 = Rs.56,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC05Q122",
@@ -2007,13 +2021,14 @@
       "difficulty": "difficult",
       "question": "P and Q are in 3:2. R admitted for 1/4. Goodwill = ₹1,00,000. R brings 75% goodwill in cash; remaining 25% through capital adjustment. Capital adjustment for remaining goodwill—what is the entry?",
       "options": [
-        "A) R's Capital Dr. ₹6,250; P's Capital Cr. ₹3,750; Q's Capital Cr. ₹2,500",
-        "B) R's Capital Dr. ₹25,000; P's Capital Cr. ₹15,000; Q's Capital Cr. ₹10,000",
-        "C) R's Capital Dr. ₹6,250; P's Capital Cr. ₹3,750; Q's Capital Cr. ₹2,500",
-        "D) P's Capital Dr.; Q's Capital Dr. → R's Capital Cr."
+        "A) R's Capital Dr. Rs.6,250; P's Capital Cr. Rs.3,750; Q's Capital Cr. Rs.2,500",
+        "B) R's Capital Dr. Rs.25,000; P's Capital Cr. Rs.15,000; Q's Capital Cr. Rs.10,000",
+        "C) R's Capital Dr. Rs.18,750; P's Capital Cr. Rs.11,250; Q's Capital Cr. Rs.7,500",
+        "D) P's Capital Dr.; Q's Capital Dr. -> R's Capital Cr."
       ],
-      "correct": 1,
-      "explanation": "R's total goodwill = 1/4 × 1,00,000 = ₹25,000. 75% in cash = ₹18,750. Remaining 25% = ₹6,250 through capital adjustment. Wait—R's Capital Dr. ₹6,250 → P's Capital Cr. ₹3,750 (3/5); Q's Capital Cr. ₹2,500 (2/5). But option B says ₹25,000. That would be for full goodwill adjustment through capitals. If only 25% = ₹6,250 is adjusted through capitals: R's Capital Dr. ₹6,250 → P Cr. ₹3,750; Q Cr. ₹2,500. Options A and C show same amount ₹6,250 which appears correct. The answer should be the ₹6,250 adjustment."
+      "correct": 0,
+      "explanation": "R's total goodwill share = 1/4 x Rs.1,00,000 = Rs.25,000. R brings 75% in cash = Rs.18,750. Remaining goodwill adjusted through capital = Rs.6,250. This is credited to P and Q in 3:2 ratio: P Rs.3,750 and Q Rs.2,500. Entry: R's Capital Dr. Rs.6,250; To P's Capital Rs.3,750; To Q's Capital Rs.2,500.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC05Q135",
@@ -2042,8 +2057,9 @@
         "C) F brings in ₹12,500",
         "D) No adjustment for F"
       ],
-      "correct": 0,
-      "explanation": "Total capital = 7,00,000+3,00,000+2,50,000 = ₹12,50,000. Required capitals: E = 7/12×12,50,000 = ₹7,29,167; F = 3/12×12,50,000 = ₹3,12,500; G = 2/12×12,50,000 = ₹2,08,333. Actual: E = ₹7,00,000 (deficit ₹29,167); F = ₹3,00,000 (deficit ₹12,500); G = ₹2,50,000 (excess ₹41,667). F's deficit = ₹12,500. F needs to bring in ₹12,500. Wait—checking option A: ₹87,500? Let me recompute if new total should be different. With rounded ratios: F required = 3/12×12,50,000 = ₹3,12,500. F actual = ₹3,00,000. F's deficit = ₹12,500. So F brings ₹12,500 = Option C."
+      "correct": 2,
+      "explanation": "Total capital = Rs.7,00,000 + Rs.3,00,000 + Rs.2,50,000 = Rs.12,50,000. F's required capital in the 7:3:2 ratio is 3/12 x Rs.12,50,000 = Rs.3,12,500. F's actual capital is Rs.3,00,000, so F must bring Rs.12,500.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC05Q137",
@@ -2298,7 +2314,7 @@
         "D) ₹1,00,000"
       ],
       "correct": 0,
-      "explanation": "F brings ₹3,00,000 for 1/4 share. Implied total capital = ₹3,00,000 / (1/4) = ₹12,00,000. Actual total capital (after F's admission) = C's ₹5,00,000 + D's ₹3,00,000 + F's ₹3,00,000 = ₹11,00,000. Hidden goodwill = Implied total - Actual total = ₹12,00,000 - ₹11,00,000 = ₹1,00,000. Wait—Option D = ₹1,00,000. But alternatively: Net assets = ₹8,00,000. Implied firm value = ₹12,00,000. Goodwill = ₹12,00,000 - ₹8,00,000 = ₹4,00,000 (Option A). The two approaches give different answers. Using net assets basis: Goodwill = ₹4,00,000."
+      "explanation": "F pays Rs.3,00,000 for 1/4 share, implying total firm value of Rs.12,00,000. Net assets are Rs.8,00,000. Hidden goodwill = Rs.12,00,000 - Rs.8,00,000 = Rs.4,00,000."
     },
     {
       "id": "AC05Q154",
@@ -2507,8 +2523,9 @@
         "C) ₹7,11,000",
         "D) ₹8,31,000"
       ],
-      "correct": 0,
-      "explanation": "A's capital = ₹2,37,000; B = ₹2,37,000; C = ₹2,37,000; D = ₹90,000. Goodwill ₹30,000 goes to old partners A, B, C (increases their capitals). Total capital including goodwill distribution: A = 2,37,000+10,000 = 2,47,000; B = 2,47,000; C = 2,47,000; D = 90,000. Total = 7,41,000+90,000 = ₹8,31,000? Wait—without goodwill in capitals: A+B+C+D = 7,11,000+90,000 = ₹8,01,000 (if goodwill not added to A,B,C capitals yet). If goodwill ₹30,000 added to A,B,C equally: each +₹10,000. Total = ₹8,01,000+₹30,000 = ₹8,31,000. Option A (₹8,01,000) is pre-goodwill distribution. Option D (₹8,31,000) is post-goodwill."
+      "correct": 3,
+      "explanation": "Old partners' capitals after revaluation and reserve distribution total Rs.2,37,000 x 3 = Rs.7,11,000. D brings Rs.90,000 capital and Rs.30,000 goodwill. If goodwill is retained and credited equally to old partners, capital accounts increase by another Rs.30,000. Total capital = Rs.7,11,000 + Rs.90,000 + Rs.30,000 = Rs.8,31,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC05Q168",
@@ -2564,13 +2581,13 @@
       "difficulty": "difficult",
       "question": "Average Profit Method with Fluctuation: A firm had profits of ₹50,000; ₹70,000; ₹90,000; ₹1,10,000; ₹1,30,000 over 5 years. A one-time loss of ₹10,000 occurred in year 3. Goodwill = 3 years' purchase. New partner takes 1/6. What is premium?",
       "options": [
-        "A) ₹16,667",
-        "B) ₹15,000",
-        "C) ₹18,000",
-        "D) ₹20,000"
+        "A) Rs.46,000",
+        "B) Rs.15,000",
+        "C) Rs.18,000",
+        "D) Rs.20,000"
       ],
       "correct": 0,
-      "explanation": "Total profits = 50,000+70,000+90,000+1,10,000+1,30,000 = ₹4,50,000. Adjust for one-time loss in year 3: Add back ₹10,000 (non-recurring). Adjusted total = ₹4,60,000. Average = 4,60,000/5 = ₹92,000. Goodwill = 92,000×3 = ₹2,76,000. New partner's premium = 1/6×2,76,000 = ₹46,000. Hmm, not matching options. Without adjustment: average = ₹90,000. Goodwill = ₹2,70,000. Premium = 1/6×2,70,000 = ₹45,000. Still not matching. Options show much smaller amounts suggesting smaller profits base. If profits are ₹50k-₹1,30k/10: average = ₹9,000, goodwill = ₹27,000, premium = ₹4,500. None match. With given data, ₹46,000 premium; closest option—none exactly match."
+      "explanation": "The one-time loss of Rs.10,000 in Year 3 is added back. Adjusted total profit = Rs.4,50,000 + Rs.10,000 = Rs.4,60,000. Average profit = Rs.92,000. Goodwill = Rs.92,000 x 3 = Rs.2,76,000. New partner premium for 1/6 share = Rs.2,76,000 x 1/6 = Rs.46,000."
     },
     {
       "id": "AC05Q172",
@@ -2624,13 +2641,14 @@
       "difficulty": "difficult",
       "question": "A firm's goodwill was ₹2,00,000 (in books). On admission of C, new goodwill = ₹3,00,000. A and B are in 3:2. C gets 1/5 share. C brings goodwill. Pass all necessary goodwill entries and compute the net change in A's Capital.",
       "options": [
-        "A) A's Capital net increase = ₹24,000",
-        "B) A's Capital net decrease = ₹24,000",
-        "C) A's Capital net increase = ₹36,000",
-        "D) A's Capital net increase = ₹18,000"
+        "A) A's Capital net increase = Rs.24,000",
+        "B) A's Capital net decrease = Rs.84,000",
+        "C) A's Capital net increase = Rs.36,000",
+        "D) A's Capital net increase = Rs.18,000"
       ],
-      "correct": 3,
-      "explanation": "Step 1: Write off existing goodwill ₹2,00,000 in old ratio 3:2. A's debit = 3/5×2,00,000 = ₹1,20,000. Step 2: C's goodwill = 1/5×3,00,000 = ₹60,000. Distributed in sacrificing ratio (= old ratio 3:2). A's credit = 3/5×60,000 = ₹36,000. Net effect on A = -1,20,000+36,000 = -₹84,000. None of the options show -₹84,000. Perhaps the question means new goodwill raised partially: if existing goodwill ₹2,00,000 stays and C brings additional: C pays 1/5×3,00,000 = ₹60,000. A gets 3/5×60,000 = ₹36,000 (increase). Old goodwill write-off: A loses ₹1,20,000. Net = -₹84,000. Option D (₹18,000) doesn't match."
+      "correct": 1,
+      "explanation": "Existing goodwill of Rs.2,00,000 is written off in old ratio 3:2, so A is debited Rs.1,20,000. C's goodwill premium = 1/5 x Rs.3,00,000 = Rs.60,000, credited to old partners in 3:2 ratio; A receives Rs.36,000. Net change in A's Capital = Rs.36,000 credit - Rs.1,20,000 debit = Rs.84,000 decrease.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC05Q176",
@@ -2909,13 +2927,14 @@
       "difficulty": "difficult",
       "question": "E and F are equal partners with capitals ₹5,00,000 each. G admitted for 1/5 on 1.7.2024. G pays ₹1,20,000 goodwill and ₹2,00,000 capital. Goodwill distributed and withdrawn by E and F. Year ending 31.3.2025: Profit = ₹1,20,000. What is G's profit share for this year?",
       "options": [
-        "A) ₹24,000",
-        "B) ₹20,000",
-        "C) ₹12,000",
-        "D) ₹6,000"
+        "A) Rs.24,000",
+        "B) Rs.18,000",
+        "C) Rs.12,000",
+        "D) Rs.6,000"
       ],
-      "correct": 2,
-      "explanation": "G admitted on 1.7.2024. Year ends 31.3.2025. Period with G = 9 months (July to March). Period without G = 3 months (April to June). Old ratio E:F = 1:1. New ratio E:F:G = 2:2:1. First 3 months profit (April-June): ₹1,20,000 × 3/12 = ₹30,000. Shared by E and F equally: ₹15,000 each. Last 9 months (July-March): ₹1,20,000 × 9/12 = ₹90,000. New ratio 2:2:1. G = 1/5 × ₹90,000 = ₹18,000. Wait—let me recalculate: G's total = ₹18,000 for the 9 months. Closest to Option C (₹12,000). With different ratios: If 2:1:2 or exact new ratio = E:F:G = ?: 1/5 of 9-month profit = 1/5×90,000 = ₹18,000. Not matching. Option C (₹12,000) = 1/5×60,000 (for 6 months?) unclear."
+      "correct": 1,
+      "explanation": "G is admitted on 1 July 2024 and the year ends on 31 March 2025, so G is entitled to profit for 9 months. Profit for 9 months = Rs.1,20,000 x 9/12 = Rs.90,000. G share in the new ratio is 1/5, so G profit share = Rs.90,000 x 1/5 = Rs.18,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC05Q195",

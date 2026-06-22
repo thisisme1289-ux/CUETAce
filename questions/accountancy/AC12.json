@@ -92,8 +92,8 @@
         "₹10,05,000",
         "₹9,85,000"
       ],
-      "correct": 3,
-      "explanation": "Amount from debentures at par: 4,000 × ₹100 = ₹4,00,000. Amount from debentures at premium (15%): 3,000 × ₹115 = ₹3,45,000. Amount from debentures at discount (10%): 3,000 × ₹90 = ₹2,70,000. Total cash received = ₹4,00,000 + ₹3,45,000 + ₹2,70,000 = ₹10,15,000. However, 'net proceeds' after netting discount against premium: Securities Premium = 3,000 × ₹15 = ₹45,000; Discount = 3,000 × ₹10 = ₹30,000. Net cash = ₹10,15,000 but total bank = ₹10,15,000. Wait — the question asks total amount received = ₹4,00,000 + ₹3,45,000 + ₹2,70,000 = ₹10,15,000. Option C ₹10,05,000 is incorrect. The correct answer is ₹10,15,000 — option B. Note: re-checking — correct answer index is 2 (₹10,15,000)."
+      "correct": 1,
+      "explanation": "Amount received from debentures issued at par = 4,000 x Rs.100 = Rs.4,00,000. Amount received from debentures issued at 15% premium = 3,000 x Rs.115 = Rs.3,45,000. Amount received from debentures issued at 10% discount = 3,000 x Rs.90 = Rs.2,70,000. Total amount received = Rs.4,00,000 + Rs.3,45,000 + Rs.2,70,000 = Rs.10,15,000. Option B is correct."
     },
     {
       "id": "AC12Q07",
@@ -197,8 +197,9 @@
         "Interest on Debentures A/c Dr. ₹1,23,300; Outstanding Interest Payable Cr. ₹1,23,300",
         "Debenture Interest A/c Dr. ₹1,35,000; Interest Payable A/c Cr. ₹1,35,000"
       ],
-      "correct": 4,
-      "explanation": "Annual interest = 9% × (3,000 × ₹500) = 9% × ₹15,00,000 = ₹1,35,000. Interest is on face value (₹500), not the discounted issue price (₹460). Since interest is due but unpaid, it is accrued: Debenture Interest A/c Dr. ₹1,35,000 → Interest Payable (Outstanding) Cr. ₹1,35,000. Option C is wrong because it uses issue price (₹460) for calculation. Option B uses wrong account names. Accrued interest is a current liability until paid."
+      "correct": 3,
+      "explanation": "Annual interest = 9% × (3,000 × ₹500) = 9% × ₹15,00,000 = ₹1,35,000. Interest is on face value (₹500), not the discounted issue price (₹460). Since interest is due but unpaid, it is accrued: Debenture Interest A/c Dr. ₹1,35,000 → Interest Payable (Outstanding) Cr. ₹1,35,000. Option C is wrong because it uses issue price (₹460) for calculation. Option B uses wrong account names. Accrued interest is a current liability until paid.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q14",
@@ -632,8 +633,9 @@
         "For consideration other than cash",
         "Against accumulated profits as bonus"
       ],
-      "correct": 4,
-      "explanation": "Debentures can be issued: (a) for cash at par, (b) for cash at premium, (c) for cash at discount, and (d) for consideration other than cash (e.g., to vendors for assets or business purchase). Issuing debentures against accumulated profits as bonus is NOT a valid mode — bonus shares are issued from accumulated profits, not debentures. Debentures represent loan capital and create debt; they cannot be issued as bonus instruments from reserves, as that would conflate equity and debt capital."
+      "correct": 3,
+      "explanation": "Debentures can be issued: (a) for cash at par, (b) for cash at premium, (c) for cash at discount, and (d) for consideration other than cash (e.g., to vendors for assets or business purchase). Issuing debentures against accumulated profits as bonus is NOT a valid mode — bonus shares are issued from accumulated profits, not debentures. Debentures represent loan capital and create debt; they cannot be issued as bonus instruments from reserves, as that would conflate equity and debt capital.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q43",
@@ -647,8 +649,9 @@
         "Debenture Interest ₹60,000; Discount written off ₹5,000",
         "Debenture Interest ₹30,000; Discount written off ₹10,000"
       ],
-      "correct": 1,
-      "explanation": "Annual interest = 8% × ₹10,00,000 = ₹80,000. Period: April–December (9 months). Interest = ₹80,000 × 9/12 = ₹60,000. Paid on 30th Sept (6 months) = ₹40,000. Accrued Oct–Dec (3 months) = ₹20,000. Total interest charged to P&L = ₹60,000. Total discount = 5% × ₹10,00,000 = ₹50,000. Annual write-off (1/5th) = ₹10,000. P&L entries: Debenture Interest ₹60,000; Discount on Issue written off ₹10,000. Option A is correct."
+      "correct": 0,
+      "explanation": "Annual interest = 8% × ₹10,00,000 = ₹80,000. Period: April–December (9 months). Interest = ₹80,000 × 9/12 = ₹60,000. Paid on 30th Sept (6 months) = ₹40,000. Accrued Oct–Dec (3 months) = ₹20,000. Total interest charged to P&L = ₹60,000. Total discount = 5% × ₹10,00,000 = ₹50,000. Annual write-off (1/5th) = ₹10,000. P&L entries: Debenture Interest ₹60,000; Discount on Issue written off ₹10,000. Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC12Q44",
@@ -1002,13 +1005,13 @@
       "difficulty": "difficult",
       "question": "Ridge Ltd. issued 15,000, 8% Debentures of ₹100 each. 10,000 at par (cash); 3,000 at 12% premium (cash); 2,000 to vendor for plant at 10% discount. Annual interest = ₹1,20,000 (on full face value). What is the net proceeds from total debenture issue?",
       "options": [
-        "₹15,00,000",
-        "₹14,96,000",
-        "₹14,76,000",
-        "₹15,36,000"
+        "Rs.15,00,000",
+        "Rs.14,96,000",
+        "Rs.14,76,000",
+        "Rs.15,16,000"
       ],
       "correct": 3,
-      "explanation": "Cash from 10,000 at par = ₹10,00,000. Cash from 3,000 at 12% premium = 3,000 × ₹112 = ₹3,36,000. Non-cash for vendor (2,000 at discount) = no cash received. Total cash = ₹10,00,000 + ₹3,36,000 = ₹13,36,000. Wait — but 'net proceeds' in terms of total consideration: vendor receives 2,000 × ₹90 = ₹1,80,000 worth. Total consideration = ₹13,36,000 + ₹1,80,000 = ₹15,16,000. If question means total cash only: ₹13,36,000. The answer closest in options considering total cash ₹10,00,000 + ₹3,36,000 = ₹13,36,000; total proceeds including vendor ₹15,16,000. Option D ₹15,36,000 is closest (slight rounding). For cash only: ₹13,36,000 not in options — option D nearest to total all-in."
+      "explanation": "Cash proceeds from 10,000 debentures at par = Rs.10,00,000. Cash proceeds from 3,000 debentures at 12% premium = 3,000 x Rs.112 = Rs.3,36,000. Debentures issued to vendor at 10% discount represent non-cash consideration of 2,000 x Rs.90 = Rs.1,80,000. Net proceeds/consideration from the total issue = Rs.10,00,000 + Rs.3,36,000 + Rs.1,80,000 = Rs.15,16,000. Option D is correct."
     },
     {
       "id": "AC12Q68",
@@ -1037,8 +1040,8 @@
         "₹7,500",
         "₹22,500"
       ],
-      "correct": 2,
-      "explanation": "Total discount = 6% × (4,000 × ₹500) = ₹1,20,000. Annual write-off = ₹1,20,000 ÷ 4 = ₹30,000. But debentures were issued on 1st July 2023, and year ends 31st March 2024 — only 9 months in Year 1. First-year write-off = ₹30,000 × 9/12 = ₹22,500. Wait — many exam questions write off equally over years regardless of partial year. If strict time-proportionate: ₹22,500. Option D = ₹22,500. The time-apportioned approach is technically correct, so first-year write-off = ₹22,500."
+      "correct": 3,
+      "explanation": "Total discount = 6% of 4,000 x Rs.500 = Rs.1,20,000. Written off equally over 4 years gives annual write-off of Rs.30,000. The debentures were issued on 1 July 2023 and the year ends on 31 March 2024, so the first accounting year covers 9 months. First-year write-off = Rs.30,000 x 9/12 = Rs.22,500. Option D is correct."
     },
     {
       "id": "AC12Q70",
@@ -1262,8 +1265,9 @@
         "Securities Premium Reserve (Shareholders' Equity)",
         "Discount on Issue of Debentures"
       ],
-      "correct": 4,
-      "explanation": "Discount on Issue of Debentures is a fictitious asset — it appears on the ASSETS side of the Balance Sheet (under Other Non-Current Assets/Miscellaneous Expenditure), NOT on the liabilities side. Options A, B, and C are all on the liabilities/equity side: Debentures are non-current liabilities; Accrued Interest is a current liability; Securities Premium Reserve is part of Reserves & Surplus under Shareholders' Equity. Discount on Issue is the only one that incorrectly belongs on the assets side."
+      "correct": 3,
+      "explanation": "Discount on Issue of Debentures is a fictitious asset — it appears on the ASSETS side of the Balance Sheet (under Other Non-Current Assets/Miscellaneous Expenditure), NOT on the liabilities side. Options A, B, and C are all on the liabilities/equity side: Debentures are non-current liabilities; Accrued Interest is a current liability; Securities Premium Reserve is part of Reserves & Surplus under Shareholders' Equity. Discount on Issue is the only one that incorrectly belongs on the assets side.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q85",
@@ -1352,8 +1356,9 @@
         "₹20,000",
         "₹18,000"
       ],
-      "correct": 4,
-      "explanation": "Annual interest = 8% × (5,000 × ₹100) = ₹40,000. Half-yearly interest = ₹20,000 (for April–September). TDS @ 10% on ₹20,000 = ₹2,000. Net paid to debentureholders = ₹20,000 − ₹2,000 = ₹18,000. Journal entry 30th Sept: Debenture Interest A/c Dr. ₹20,000 → Bank Cr. ₹18,000; TDS Payable Cr. ₹2,000. Bank receives only ₹18,000 credit (outflow). Option D is correct."
+      "correct": 3,
+      "explanation": "Annual interest = 8% × (5,000 × ₹100) = ₹40,000. Half-yearly interest = ₹20,000 (for April–September). TDS @ 10% on ₹20,000 = ₹2,000. Net paid to debentureholders = ₹20,000 − ₹2,000 = ₹18,000. Journal entry 30th Sept: Debenture Interest A/c Dr. ₹20,000 → Bank Cr. ₹18,000; TDS Payable Cr. ₹2,000. Bank receives only ₹18,000 credit (outflow). Option D is correct.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q91",
@@ -1412,8 +1417,8 @@
         "Cash ₹9,90,000; SP ₹20,000; Discount ₹10,000 — same as A",
         "Cash ₹10,10,000; SP ₹20,000; Discount ₹10,000"
       ],
-      "correct": 1,
-      "explanation": "Cash from 4,000 at 5% premium = 4,000 × ₹105 = ₹4,20,000. Cash from 4,000 at par = 4,000 × ₹100 = ₹4,00,000. Cash from 2,000 at 5% discount = 2,000 × ₹95 = ₹1,90,000. Total cash = ₹4,20,000 + ₹4,00,000 + ₹1,90,000 = ₹10,10,000. Securities Premium = 4,000 × ₹5 = ₹20,000. Discount on Issue = 2,000 × ₹5 = ₹10,000. So Option D (Cash ₹10,10,000) is actually correct for cash — but let me recheck A: ₹9,90,000 is incorrect. Option D ₹10,10,000 is the right cash amount. Correct answer = D."
+      "correct": 3,
+      "explanation": "Cash from 4,000 debentures at 5% premium = 4,000 x Rs.105 = Rs.4,20,000. Cash from 4,000 debentures at par = Rs.4,00,000. Cash from 2,000 debentures at 5% discount = 2,000 x Rs.95 = Rs.1,90,000. Total cash received = Rs.10,10,000. Securities Premium = 4,000 x Rs.5 = Rs.20,000. Discount on Issue = 2,000 x Rs.5 = Rs.10,000. Option D is correct."
     },
     {
       "id": "AC12Q95",
@@ -1457,8 +1462,9 @@
         "Securities Premium ₹20,000; Discount ₹30,000",
         "Securities Premium ₹Nil; Discount ₹10,000"
       ],
-      "correct": 2,
-      "explanation": "Tranche (i): Securities Premium = 2,000 × ₹10 = ₹20,000. Tranche (ii): Discount on Issue = 3,000 × ₹10 = ₹30,000. Tranche (iii): No premium/discount. Write off discount against premium: ₹30,000 > ₹20,000. After full Securities Premium (₹20,000) is used, remaining discount = ₹30,000 − ₹20,000 = ₹10,000 remains as fictitious asset. Securities Premium = ₹Nil; Discount on Issue balance = ₹10,000. Option D is correct."
+      "correct": 3,
+      "explanation": "Tranche (i): Securities Premium = 2,000 × ₹10 = ₹20,000. Tranche (ii): Discount on Issue = 3,000 × ₹10 = ₹30,000. Tranche (iii): No premium/discount. Write off discount against premium: ₹30,000 > ₹20,000. After full Securities Premium (₹20,000) is used, remaining discount = ₹30,000 − ₹20,000 = ₹10,000 remains as fictitious asset. Securities Premium = ₹Nil; Discount on Issue balance = ₹10,000. Option D is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC12Q98",
@@ -1487,8 +1493,9 @@
         "SP ₹3,20,000; Discount ₹4,00,000 — both wrong scale",
         "SP ₹3,20,000; Discount ₹50,000"
       ],
-      "correct": 1,
-      "explanation": "40% at ₹104: Face = ₹8,00,000; Premium = ₹4 per ₹100 = 4% × ₹8,00,000 = ₹32,000. 35% at par: Face = ₹7,00,000; No premium/discount. 25% at ₹92: Face = ₹5,00,000; Discount = ₹8 per ₹100 = 8% × ₹5,00,000 = ₹40,000. Securities Premium = ₹32,000; Discount on Issue = ₹40,000. Note: Options show ₹32,000 and ₹40,000 in A and B — both are the same. Correct values: SP ₹32,000; Discount ₹40,000. Option A is correct."
+      "correct": 0,
+      "explanation": "40% at ₹104: Face = ₹8,00,000; Premium = ₹4 per ₹100 = 4% × ₹8,00,000 = ₹32,000. 35% at par: Face = ₹7,00,000; No premium/discount. 25% at ₹92: Face = ₹5,00,000; Discount = ₹8 per ₹100 = 8% × ₹5,00,000 = ₹40,000. Securities Premium = ₹32,000; Discount on Issue = ₹40,000. Note: Options show ₹32,000 and ₹40,000 in A and B — both are the same. Correct values: SP ₹32,000; Discount ₹40,000. Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC12Q100",
@@ -1577,8 +1584,9 @@
         "Asset Account (for non-cash issue)",
         "Securities Premium Reserve (at time of issue at premium)"
       ],
-      "correct": 4,
-      "explanation": "Securities Premium Reserve is CREDITED (not debited) when debentures are issued at a premium — it increases as a reserve. Options A, B, and C are all correct debit entries: Bank is debited for cash received; Discount on Issue is debited for the capital loss; Asset Account is debited for non-cash acquisitions. Securities Premium Reserve is only debited when it is being USED (e.g., to write off discount), not when it is created at the time of issue."
+      "correct": 3,
+      "explanation": "Securities Premium Reserve is CREDITED (not debited) when debentures are issued at a premium — it increases as a reserve. Options A, B, and C are all correct debit entries: Bank is debited for cash received; Discount on Issue is debited for the capital loss; Asset Account is debited for non-cash acquisitions. Securities Premium Reserve is only debited when it is being USED (e.g., to write off discount), not when it is created at the time of issue.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q106",
@@ -1662,13 +1670,14 @@
       "difficulty": "difficult",
       "question": "Keystone Ltd. issued 6,000, 10% Debentures of ₹100 each at par on 1st July 2023. Interest is payable on 31st December and 30th June every year. Books close 31st March. TDS @10%. What is the Outstanding Interest on Debentures shown in Balance Sheet on 31st March 2024?",
       "options": [
-        "₹60,000",
-        "₹54,000",
-        "₹27,000",
-        "₹30,000"
+        "Rs.60,000",
+        "Rs.54,000",
+        "Rs.27,000",
+        "Rs.15,000"
       ],
-      "correct": 4,
-      "explanation": "Annual interest = 10% × (6,000 × ₹100) = ₹60,000. Half-yearly = ₹30,000. Paid on 31st December 2023 (net of TDS). Next payment due 30th June 2024. At 31st March 2024: interest accrued for Jan–March (3 months) = ₹60,000 × 3/12 = ₹15,000. Wait — half-yearly cycle: 31st Dec and 30th June. At 31st March: 3 months of the second half-year (Jan–March) have passed but ₹30,000 for the full period (Jan–June) is not yet due. Accrued = ₹30,000 × 3/6 = ₹15,000. But if full half-year accrual is shown: ₹30,000. Standard exam approach: outstanding = interest accrued but not due = ₹15,000. Option D = ₹30,000 (full half-year outstanding — alternative approach)."
+      "correct": 3,
+      "explanation": "Annual interest = 10% of 6,000 x Rs.100 = Rs.60,000. Interest is payable half-yearly on 31 December and 30 June. The 31 December 2023 interest has already been paid. On 31 March 2024, interest for January to March has accrued but is not yet due: Rs.60,000 x 3/12 = Rs.15,000. This is shown as outstanding/accrued interest. Option D is correct.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q112",
@@ -1742,8 +1751,9 @@
         "Discount ₹28,000; Premium ₹12,000; Cash ₹10,00,000",
         "Discount ₹7,000; Premium ₹3,000; Cash ₹9,84,000"
       ],
-      "correct": 1,
-      "explanation": "7,000 at ₹96: Cash = 7,000 × ₹96 = ₹6,72,000; Discount = 7,000 × ₹4 = ₹28,000. 3,000 at ₹104: Cash = 3,000 × ₹104 = ₹3,12,000; Premium = 3,000 × ₹4 = ₹12,000. Total cash = ₹6,72,000 + ₹3,12,000 = ₹9,84,000. Discount = ₹28,000; Premium = ₹12,000. Net cash = ₹9,84,000. Option A is correct."
+      "correct": 0,
+      "explanation": "7,000 at ₹96: Cash = 7,000 × ₹96 = ₹6,72,000; Discount = 7,000 × ₹4 = ₹28,000. 3,000 at ₹104: Cash = 3,000 × ₹104 = ₹3,12,000; Premium = 3,000 × ₹4 = ₹12,000. Total cash = ₹6,72,000 + ₹3,12,000 = ₹9,84,000. Discount = ₹28,000; Premium = ₹12,000. Net cash = ₹9,84,000. Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC12Q117",
@@ -1787,8 +1797,9 @@
         "On transfer to P&L: P&L A/c Dr. → Debenture Interest A/c Cr.",
         "On accrual: Bank Dr. → Debenture Interest Cr."
       ],
-      "correct": 4,
-      "explanation": "Option D is incorrect. On accrual of interest, Bank is NOT debited — cash has not been received (interest is an expense, not income). Accrual entry: Debenture Interest Dr. → Outstanding Interest Payable Cr. Bank is only involved when cash is actually paid. Option D reverses the entry and incorrectly treats interest as income (crediting Debenture Interest while debiting Bank is an income receipt pattern, not an expense). Options A, B, and C are all correct entries in the interest accounting cycle."
+      "correct": 3,
+      "explanation": "Option D is incorrect. On accrual of interest, Bank is NOT debited — cash has not been received (interest is an expense, not income). Accrual entry: Debenture Interest Dr. → Outstanding Interest Payable Cr. Bank is only involved when cash is actually paid. Option D reverses the entry and incorrectly treats interest as income (crediting Debenture Interest while debiting Bank is an income receipt pattern, not an expense). Options A, B, and C are all correct entries in the interest accounting cycle.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q120",
@@ -1817,8 +1828,9 @@
         "Debentures ₹6,00,000; SPR ₹20,000; Discount ₹10,000",
         "Debentures ₹4,24,000; SPR ₹16,000; Discount ₹8,000"
       ],
-      "correct": 1,
-      "explanation": "Total debentures (face value) = 12,000 × ₹50 = ₹6,00,000. Cash issue (8,000 at ₹52): SPR = 8,000 × ₹2 = ₹16,000. Vendor issue (4,000 at ₹48): Discount = 4,000 × ₹2 = ₹8,000. Balance Sheet 31st March 2024 (no write-off): Debentures ₹6,00,000 (Non-Current Liability); Securities Premium Reserve ₹16,000 (Equity); Discount on Issue ₹8,000 (Other Non-Current Asset — fictitious). Option A is correct."
+      "correct": 0,
+      "explanation": "Total debentures (face value) = 12,000 × ₹50 = ₹6,00,000. Cash issue (8,000 at ₹52): SPR = 8,000 × ₹2 = ₹16,000. Vendor issue (4,000 at ₹48): Discount = 4,000 × ₹2 = ₹8,000. Balance Sheet 31st March 2024 (no write-off): Debentures ₹6,00,000 (Non-Current Liability); Securities Premium Reserve ₹16,000 (Equity); Discount on Issue ₹8,000 (Other Non-Current Asset — fictitious). Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC12Q122",
@@ -1862,8 +1874,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "A is false — debentures at premium are LESS attractive to investors (they pay more upfront for the same face value and fixed return). Investors prefer discount issues where they pay less for the same return, resulting in a higher effective yield. R is true — premium pricing does reflect stronger creditworthiness and market confidence in the issuer. However, A incorrectly concludes that premium is more attractive to investors. Investor attractiveness relates to yield (return on investment), not market confidence alone."
+      "correct": 3,
+      "explanation": "A is false — debentures at premium are LESS attractive to investors (they pay more upfront for the same face value and fixed return). Investors prefer discount issues where they pay less for the same return, resulting in a higher effective yield. R is true — premium pricing does reflect stronger creditworthiness and market confidence in the issuer. However, A incorrectly concludes that premium is more attractive to investors. Investor attractiveness relates to yield (return on investment), not market confidence alone.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q125",
@@ -1877,8 +1890,8 @@
         "₹1,60,000",
         "₹60,000"
       ],
-      "correct": 1,
-      "explanation": "Current balance = ₹1,20,000 (remaining). Total write-off period = 6 years; annual write-off = Total ÷ 6. After 2 years, balance = Total − (2 × Annual). Let Total = X. Remaining = X − 2(X/6) = X(1 − 1/3) = 2X/3 = ₹1,20,000 → X = ₹1,80,000. Annual write-off = ₹30,000. Written off = 2 × ₹30,000 = ₹60,000. Wait: balance after 2 years = ₹1,20,000 means 2/6 written off = 1/3 of total written off. 2/3 remaining = ₹1,20,000 → Total = ₹1,80,000. Written off = ₹60,000. Option A (₹40,000) is incorrect. Option D (₹60,000) is correct."
+      "correct": 3,
+      "explanation": "Let the original discount be X. It is written off over 6 years, so after 2 years, 2/6 or 1/3 has been written off and 2/3 remains. The current balance Rs.1,20,000 is therefore 2/3 of X. Hence X = Rs.1,80,000. Amount already written off = 1/3 of Rs.1,80,000 = Rs.60,000. Option D is correct."
     },
     {
       "id": "AC12Q126",
@@ -2012,8 +2025,9 @@
         "Debentures Account (Credit)",
         "Securities Premium Reserve (Credit)"
       ],
-      "correct": 4,
-      "explanation": "Securities Premium Reserve (Credit) is NOT part of the entry for debentures issued at DISCOUNT. Securities Premium arises only when debentures are issued at PREMIUM. For discount issue: Bank Dr. (issue price) + Discount on Issue Dr. → Debentures Cr. (face value). There is no Securities Premium entry when issue price < face value. Including Securities Premium Credit in a discount entry would be a fundamental accounting error."
+      "correct": 3,
+      "explanation": "Securities Premium Reserve (Credit) is NOT part of the entry for debentures issued at DISCOUNT. Securities Premium arises only when debentures are issued at PREMIUM. For discount issue: Bank Dr. (issue price) + Discount on Issue Dr. → Debentures Cr. (face value). There is no Securities Premium entry when issue price < face value. Including Securities Premium Credit in a discount entry would be a fundamental accounting error.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q135",
@@ -2027,8 +2041,8 @@
         "17,647 debentures; ₹2,64,705 discount",
         "20,000 debentures; ₹3,53,000 discount"
       ],
-      "correct": 1,
-      "explanation": "Purchase consideration = ₹15,00,000 + ₹7,00,000 − ₹0 (no liabilities assumed) = ₹22,00,000. Wait — we assume all assets, no liabilities. PC = ₹22,00,000. Cash = ₹5,00,000. Balance by debentures = ₹17,00,000. Issue price = ₹100 − 15% = ₹85. Number = ₹17,00,000 ÷ ₹85 = 20,000. Face value = 20,000 × ₹100 = ₹20,00,000. Discount = ₹20,00,000 − ₹17,00,000 = ₹3,00,000. Option A: 20,000 debentures; Discount ₹3,00,000."
+      "correct": 0,
+      "explanation": "Purchase consideration = building Rs.15,00,000 + equipment Rs.7,00,000 = Rs.22,00,000. Cash paid = Rs.5,00,000, so balance payable by debentures = Rs.17,00,000. Debentures are issued at 15% discount, so issue price = Rs.85 per debenture. Number of debentures = Rs.17,00,000 / Rs.85 = 20,000. Face value = 20,000 x Rs.100 = Rs.20,00,000, so discount on issue = Rs.20,00,000 - Rs.17,00,000 = Rs.3,00,000. Option A is correct."
     },
     {
       "id": "AC12Q136",
@@ -2087,8 +2101,9 @@
         "SPR Dr. ₹1,60,000 → Discount Cr. ₹1,60,000",
         "P&L Dr. ₹1,60,000 → Discount Cr. ₹1,60,000"
       ],
-      "correct": 2,
-      "explanation": "Balance of Discount at start of Year 5 = ₹1,60,000. Total original discount over 5 years means ₹1,60,000 is the balance in year 4 (4 years gone, 1 remaining — so balance is 1/5 of original if written off equally). Annual write-off = total/5. If ₹1,60,000 is balance after 4 write-offs, then 1/5 of original = ₹40,000 → total = ₹2,00,000. 5th year write-off = ₹40,000. SPR = ₹2,40,000 (more than enough). Entry: SPR Dr. ₹40,000 → Discount on Issue Cr. ₹40,000. Option A is correct (P&L Dr. Nil; SPR Dr. ₹40,000)."
+      "correct": 0,
+      "explanation": "Balance of Discount at start of Year 5 = ₹1,60,000. Total original discount over 5 years means ₹1,60,000 is the balance in year 4 (4 years gone, 1 remaining — so balance is 1/5 of original if written off equally). Annual write-off = total/5. If ₹1,60,000 is balance after 4 write-offs, then 1/5 of original = ₹40,000 → total = ₹2,00,000. 5th year write-off = ₹40,000. SPR = ₹2,40,000 (more than enough). Entry: SPR Dr. ₹40,000 → Discount on Issue Cr. ₹40,000. Option A is correct (P&L Dr. Nil; SPR Dr. ₹40,000).",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC12Q140",
@@ -2147,8 +2162,9 @@
         "₹75,000",
         "₹67,500"
       ],
-      "correct": 4,
-      "explanation": "Annual interest = 10% × (1,500 × ₹1,000) = ₹1,50,000. Half-yearly interest = ₹75,000. TDS on half-yearly = 10% × ₹75,000 = ₹7,500. Net Bank payment = ₹75,000 − ₹7,500 = ₹67,500. Entry: Debenture Interest Dr. ₹75,000 → Bank Cr. ₹67,500; TDS Payable Cr. ₹7,500. Bank paid = ₹67,500. Option D."
+      "correct": 3,
+      "explanation": "Annual interest = 10% × (1,500 × ₹1,000) = ₹1,50,000. Half-yearly interest = ₹75,000. TDS on half-yearly = 10% × ₹75,000 = ₹7,500. Net Bank payment = ₹75,000 − ₹7,500 = ₹67,500. Entry: Debenture Interest Dr. ₹75,000 → Bank Cr. ₹67,500; TDS Payable Cr. ₹7,500. Bank paid = ₹67,500. Option D.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q144",
@@ -2177,8 +2193,8 @@
         "Lower total assets when issued at discount",
         "Discount issue increases cash assets"
       ],
-      "correct": 2,
-      "explanation": "When debentures are issued at discount: Bank is debited at issue price (less than face) AND Discount on Issue is debited (fictitious asset equal to discount amount). Total assets debit = Bank + Discount = face value. For par issue: Bank debited at face value only. Both cases: total assets increase by face value (= total debenture credit). But for discount issue, total assets are the same (Bank at issue price + Discount = face value). Wait — technically same increase in total assets by face value in both cases. However, composition differs: par has more cash; discount has less cash but adds fictitious asset. Total assets increase = face value in both cases."
+      "correct": 0,
+      "explanation": "When debentures are issued at discount, Bank is debited with the issue price and Discount on Issue is debited with the discount. Together these equal the face value credited to Debentures. When debentures are issued at par, Bank alone is debited with the face value. Thus total assets increase by the same face-value amount in both cases, though the discount issue has less cash and a separate discount asset. Option A is correct."
     },
     {
       "id": "AC12Q146",
@@ -2313,7 +2329,7 @@
         "Goodwill ₹3,00,000; 20,000 debentures; FV ₹20,00,000"
       ],
       "correct": 1,
-      "explanation": "Net assets ₹38,00,000 > PC ₹35,00,000 → Capital Reserve = ₹3,00,000. Debenture consideration = ₹35,00,000 − ₹8,00,000 = ₹27,00,000. Issue price = ₹100 + 12.5% = ₹112.50. Number = ₹27,00,000 ÷ ₹112.50 = 24,000. Wait: ₹27,00,000 ÷ ₹112.50 = 24,000. Face value = 24,000 × ₹100 = ₹24,00,000. SPR = 24,000 × ₹12.50 = ₹3,00,000. Let me recheck: 24,000 × ₹112.50 = ₹27,00,000. ✓. Option B: CR ₹3,00,000; 24,000 debentures; FV ₹24,00,000. But Option A says FV ₹20,00,000 (wrong). Option C has 24,000 debentures but FV ₹20,00,000 (wrong). Correct is B."
+      "explanation": "Net assets of Rs.38,00,000 exceed purchase consideration of Rs.35,00,000, so Capital Reserve = Rs.3,00,000. Balance settled through debentures = Rs.35,00,000 - Rs.8,00,000 = Rs.27,00,000. Issue price at 12.5% premium = Rs.112.50 per debenture. Number of debentures = Rs.27,00,000 / Rs.112.50 = 24,000. Face value = 24,000 x Rs.100 = Rs.24,00,000. Option B is correct."
     },
     {
       "id": "AC12Q155",
@@ -2342,8 +2358,9 @@
         "Factory Dr. ₹5,00,000 → Debentures Cr. ₹4,50,000; Discount Cr. ₹50,000",
         "Factory Dr. ₹5,50,000 → Debentures Cr. ₹5,00,000; SPR Cr. ₹50,000"
       ],
-      "correct": 2,
-      "explanation": "Issue price = ₹90 per debenture (10% discount on ₹100). Vendor receives debentures worth ₹4,50,000 (5,000 × ₹90). Factory recorded at consideration = ₹4,50,000. Discount on Issue = 5,000 × ₹10 = ₹50,000. Entry: Factory Dr. ₹4,50,000; Discount on Issue Dr. ₹50,000 → 11% Debentures Cr. ₹5,00,000 (face value). Option B is correct. Debentures are always credited at face value; asset at consideration (issue price); discount bridges the gap."
+      "correct": 1,
+      "explanation": "Issue price = ₹90 per debenture (10% discount on ₹100). Vendor receives debentures worth ₹4,50,000 (5,000 × ₹90). Factory recorded at consideration = ₹4,50,000. Discount on Issue = 5,000 × ₹10 = ₹50,000. Entry: Factory Dr. ₹4,50,000; Discount on Issue Dr. ₹50,000 → 11% Debentures Cr. ₹5,00,000 (face value). Option B is correct. Debentures are always credited at face value; asset at consideration (issue price); discount bridges the gap.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC12Q157",
@@ -2357,8 +2374,8 @@
         "₹1,00,000",
         "₹3,00,000"
       ],
-      "correct": 1,
-      "explanation": "Annual interest = 10% × ₹40,00,000 = ₹4,00,000. Half-yearly = ₹2,00,000. Interest is payable 31st March and 30th September. Year closes 30th June. Interest for April–June (3 months, post-31st March payment) has accrued but next payment is 30th September. Outstanding = ₹4,00,000 × 3/12 = ₹1,00,000. Wait — half-yearly cycle: payment 31st March (Oct–March = 6 months) and 30th September (April–Sept = 6 months). At 30th June (year-end): 3 months of April-June interest is outstanding. Outstanding = ₹2,00,000 × 3/6 = ₹1,00,000. Option C = ₹1,00,000."
+      "correct": 2,
+      "explanation": "Annual interest = 10% of Rs.40,00,000 = Rs.4,00,000. Interest is payable on 31 March and 30 September. After the 31 March payment, interest for April to June has accrued by the 30 June year-end. Outstanding interest = Rs.4,00,000 x 3/12 = Rs.1,00,000. Option C is correct."
     },
     {
       "id": "AC12Q158",
@@ -2522,8 +2539,9 @@
         "Discount ₹85,000; Rate 1%",
         "Discount ₹85,000; Rate 5%"
       ],
-      "correct": 2,
-      "explanation": "Face value = ₹8,50,000 (from accounting equation — total assets increase = face value). Discount = ₹85,000 (given). Discount rate = ₹85,000 ÷ ₹8,50,000 × 100 = 10%. Bank received = ₹7,65,000 = ₹8,50,000 − ₹85,000. Verification: ₹7,65,000 + ₹85,000 = ₹8,50,000. Discount = ₹85,000; Rate = 10%. Option B is correct."
+      "correct": 1,
+      "explanation": "Face value = ₹8,50,000 (from accounting equation — total assets increase = face value). Discount = ₹85,000 (given). Discount rate = ₹85,000 ÷ ₹8,50,000 × 100 = 10%. Bank received = ₹7,65,000 = ₹8,50,000 − ₹85,000. Verification: ₹7,65,000 + ₹85,000 = ₹8,50,000. Discount = ₹85,000; Rate = 10%. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC12Q169",
@@ -2702,8 +2720,9 @@
         "Securities Premium Reserve Cr. at premium amount",
         "Bank Account Dr. at issue price"
       ],
-      "correct": 4,
-      "explanation": "When debentures are issued for consideration other than cash (asset acquisition), no Bank/Cash entry is passed. Option D (Bank Dr.) would only appear in a cash transaction. The correct entries are: Asset Dr. (at consideration/issue price) → Debentures Cr. (face value) + Securities Premium Cr. (premium). Bank is not involved. Options A, B, and C are all correct entries for non-cash premium debenture issue."
+      "correct": 3,
+      "explanation": "When debentures are issued for consideration other than cash (asset acquisition), no Bank/Cash entry is passed. Option D (Bank Dr.) would only appear in a cash transaction. The correct entries are: Asset Dr. (at consideration/issue price) → Debentures Cr. (face value) + Securities Premium Cr. (premium). Bank is not involved. Options A, B, and C are all correct entries for non-cash premium debenture issue.",
+      "correct_original": 4
     },
     {
       "id": "AC12Q181",
@@ -2742,13 +2761,13 @@
       "difficulty": "difficult",
       "question": "Crystal Waters Ltd. issued 12,000, 9% Debentures of ₹250 each. 5,000 at ₹240 (cash); 4,000 at ₹250 (cash); 3,000 at ₹265 (vendor for pipeline). Discount to be written off against Securities Premium only. After write-off, remaining SPR balance?",
       "options": [
-        "₹25,000",
-        "₹45,000",
-        "₹20,000",
-        "₹5,000"
+        "Rs.25,000",
+        "Nil",
+        "Rs.20,000",
+        "Rs.5,000"
       ],
       "correct": 1,
-      "explanation": "Discount: 5,000 × ₹10 = ₹50,000. SPR from vendor debentures: 3,000 × ₹15 = ₹45,000. Write off: SPR ₹45,000 used → Discount reduced by ₹45,000. Remaining discount = ₹50,000 − ₹45,000 = ₹5,000 (still as fictitious asset). Remaining SPR = ₹0 (all used). Wait — question asks SPR balance: ₹0 after write-off. But ₹5,000 discount remains. So SPR = ₹0 and remaining Discount = ₹5,000. None of the options show SPR = 0. Re-reading: SPR ₹45,000; Discount ₹50,000. After using all SPR: Remaining SPR = ₹0; Remaining Discount = ₹5,000. Option D ₹5,000 is the remaining discount, not SPR."
+      "explanation": "Discount on cash issue = 5,000 x Rs.10 = Rs.50,000. Securities Premium from vendor debentures = 3,000 x Rs.15 = Rs.45,000. If discount is written off against Securities Premium only, the full Rs.45,000 premium is used. Remaining Securities Premium balance = Nil, and remaining Discount on Issue = Rs.5,000. Option B is correct."
     },
     {
       "id": "AC12Q184",
@@ -2792,8 +2811,9 @@
         "Bank Dr. ₹6,000 → Discount Cr. ₹6,000",
         "Debentures Dr. ₹6,000 → Discount Cr. ₹6,000"
       ],
-      "correct": 1,
-      "explanation": "In the final year, the last installment of Discount on Issue is written off. Since Securities Premium was not mentioned (assume not available or already used), it is charged to P&L. Entry: P&L A/c Dr. ₹6,000 → Discount on Issue of Debentures A/c Cr. ₹6,000. This eliminates the fictitious asset and charges the final installment to profit. After this entry, Discount on Issue = nil. Option A is correct."
+      "correct": 0,
+      "explanation": "In the final year, the last installment of Discount on Issue is written off. Since Securities Premium was not mentioned (assume not available or already used), it is charged to P&L. Entry: P&L A/c Dr. ₹6,000 → Discount on Issue of Debentures A/c Cr. ₹6,000. This eliminates the fictitious asset and charges the final installment to profit. After this entry, Discount on Issue = nil. Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC12Q187",
@@ -2892,13 +2912,13 @@
       "difficulty": "difficult",
       "question": "Radium Ltd. issued 12,000, 10% Debentures of ₹100 each: 5,000 at ₹95; 4,000 at ₹100; 3,000 at ₹110 — all for cash. Annual interest = ₹1,20,000. Net cash received and balance of Discount on Issue (after applying SPR to offset discount):",
       "options": [
-        "Cash ₹11,75,000; Net Discount ₹Nil",
-        "Cash ₹11,75,000; Net Discount ₹25,000",
-        "Cash ₹11,75,000; Net Discount ₹Nil — same as A",
-        "Cash ₹12,00,000; Net Discount ₹Nil"
+        "Cash Rs.12,05,000; Net Discount Nil",
+        "Cash Rs.11,75,000; Net Discount Rs.25,000",
+        "Cash Rs.11,75,000; Net Discount Nil",
+        "Cash Rs.12,00,000; Net Discount Nil"
       ],
-      "correct": 1,
-      "explanation": "5,000 at ₹95: Cash = ₹4,75,000; Discount = 5,000 × ₹5 = ₹25,000. 4,000 at ₹100: Cash = ₹4,00,000; No discount/premium. 3,000 at ₹110: Cash = ₹3,30,000; SPR = 3,000 × ₹10 = ₹30,000. Total cash = ₹4,75,000 + ₹4,00,000 + ₹3,30,000 = ₹12,05,000. Wait — let me recalculate: ₹4,75,000 + ₹4,00,000 + ₹3,30,000 = ₹12,05,000. Hmm, none of options show ₹12,05,000. Let me try: 5,000 × ₹95 = ₹4,75,000; 4,000 × ₹100 = ₹4,00,000; 3,000 × ₹110 = ₹3,30,000 → Total = ₹12,05,000. SPR ₹30,000 offsets Discount ₹25,000 → Net Discount = Nil; Net SPR = ₹5,000. Cash ₹12,05,000 not in options — closest Option D ₹12,00,000. For exam: answer A with ₹11,75,000 may assume 5,000 × ₹95 = ₹4,75,000 and rest differently."
+      "correct": 0,
+      "explanation": "Cash from 5,000 debentures at Rs.95 = Rs.4,75,000. Cash from 4,000 debentures at Rs.100 = Rs.4,00,000. Cash from 3,000 debentures at Rs.110 = Rs.3,30,000. Total cash received = Rs.12,05,000. Discount = 5,000 x Rs.5 = Rs.25,000. Securities Premium = 3,000 x Rs.10 = Rs.30,000. After applying Securities Premium to offset discount, net Discount on Issue is Nil and Rs.5,000 premium remains. Option A is correct."
     },
     {
       "id": "AC12Q194",
@@ -2972,8 +2992,8 @@
         "Debentures ₹18,00,000; SPR Nil; Discount ₹Nil",
         "Debentures ₹18,00,000; SPR ₹30,000; Discount Nil — same as A"
       ],
-      "correct": 1,
-      "explanation": "SPR: 4,000 × ₹15 = ₹60,000. Discount: 6,000 × ₹10 = ₹60,000. After write-off: SPR Dr. ₹60,000 → Discount Cr. ₹60,000. Net: SPR = Nil; Discount = Nil. Wait — option A shows SPR ₹30,000 and Discount Nil, which doesn't match. Let me re-examine: SPR ₹60,000; Discount ₹60,000. Full write-off: both = Nil. But options don't show both nil. Option C shows SPR Nil; Discount Nil — that's the correct net result. Option C."
+      "correct": 2,
+      "explanation": "Securities Premium = 4,000 x Rs.15 = Rs.60,000. Discount on Issue = 6,000 x Rs.10 = Rs.60,000. After writing off the discount against the premium, both Securities Premium and Discount on Issue have nil balances. Debentures remain at face value Rs.18,00,000. Option C is correct."
     },
     {
       "id": "AC12Q199",

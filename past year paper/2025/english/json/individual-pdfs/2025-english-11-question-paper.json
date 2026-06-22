@@ -1,0 +1,95 @@
+{
+  "subject": "English",
+  "subject_code": "101",
+  "year": "2025",
+  "paper": "2025-english-11-question-paper",
+  "total_questions": 5,
+  "chapters": [
+    {
+      "chapter_id": "1012025uestionpaper",
+      "chapter": "English CUET 2025 Past Year Paper - 2025-english-11-question-paper",
+      "questions": [
+        {
+          "id": "101-2025-2025-english-11-question-paper-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Pick the word that is closest in meaning to ‘Reveal’.",
+          "options": [
+            "Hide",
+            "Conceal",
+            "Disclose",
+            "Suppress"
+          ],
+          "correct": 2,
+          "explanation": "Disclose means to reveal or make something known.",
+          "source": "Individual PDF extraction: 2025-english-11-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-11-question-paper-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the synonym of ‘Rebuke’.",
+          "options": [
+            "Praise",
+            "Scold",
+            "Accept",
+            "Encourage"
+          ],
+          "correct": 1,
+          "explanation": "Rebuke means to scold or criticize someone sharply.",
+          "source": "Individual PDF extraction: 2025-english-11-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-11-question-paper-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the synonym for ‘Practical’.",
+          "options": [
+            "Unrealistic",
+            "Impractical",
+            "Useful",
+            "Idealistic"
+          ],
+          "correct": 2,
+          "explanation": "Practical means useful, sensible, or suited to real situations.",
+          "source": "Individual PDF extraction: 2025-english-11-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-11-question-paper-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Select the word opposite in meaning to ‘Transparent’.",
+          "options": [
+            "Clear",
+            "Opaque",
+            "See-through",
+            "Translucent"
+          ],
+          "correct": 1,
+          "explanation": "Opaque is the opposite of transparent because it does not allow light to pass through clearly.",
+          "source": "Individual PDF extraction: 2025-english-11-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-11-question-paper-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the antonym of ‘Generous’.",
+          "options": [
+            "Kind",
+            "Stingy",
+            "Charitable",
+            "Giving"
+          ],
+          "correct": 1,
+          "explanation": "Stingy is the antonym of generous.",
+          "source": "Individual PDF extraction: 2025-english-11-question-paper.pdf"
+        }
+      ]
+    }
+  ]
+}

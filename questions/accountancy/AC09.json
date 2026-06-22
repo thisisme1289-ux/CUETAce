@@ -272,8 +272,9 @@
         "₹12,00,000",
         "₹13,20,000"
       ],
-      "correct": 1,
-      "explanation": "Subscribed and fully paid = 1,20,000 × ₹10 = ₹12,00,000. Subscribed but not fully paid (amount called) = 20,000 × ₹7 = ₹1,40,000. Calls in arrear = 20,000 × (₹7 − ₹6) = ₹20,000 (shown separately as deduction). Share Capital shown = ₹12,00,000 + ₹1,40,000 − ₹20,000 = ₹13,20,000. Wait — actually per Schedule III format: Subscribed but not fully paid shows called amount (₹1,40,000), then calls in arrear (₹20,000) is deducted. Total = ₹12,00,000 + ₹1,40,000 − ₹20,000 = ₹13,20,000. But if calls in arrear is shown under Other Current Assets (not deducted here), total = ₹12,00,000 + ₹1,40,000 = ₹13,40,000."
+      "correct": 3,
+      "explanation": "Subscribed and fully paid capital = 1,20,000 x Rs.10 = Rs.12,00,000. Subscribed but not fully paid called amount = 20,000 x Rs.7 = Rs.1,40,000. Calls in arrear = 20,000 x Rs.1 = Rs.20,000. Paid-up share capital shown = 12,00,000 + 1,40,000 - 20,000 = Rs.13,20,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC09Q19",
@@ -332,8 +333,9 @@
         "Details of shareholders holding more than 5% shares",
         "Market price of shares on stock exchange"
       ],
-      "correct": 4,
-      "explanation": "The Notes to Accounts on Share Capital (as per Schedule III, Companies Act 2013) must disclose: authorized capital details (number and nominal value), issued/subscribed/paid-up capital, reconciliation of number of shares outstanding at beginning and end, rights/restrictions on shares, shares held by holding company, and details of shareholders holding more than 5% shares. Market price of shares on stock exchange is NOT disclosed in Notes to Accounts as it is an external market data point, not an accounting disclosure requirement."
+      "correct": 3,
+      "explanation": "The Notes to Accounts on Share Capital (as per Schedule III, Companies Act 2013) must disclose: authorized capital details (number and nominal value), issued/subscribed/paid-up capital, reconciliation of number of shares outstanding at beginning and end, rights/restrictions on shares, shares held by holding company, and details of shareholders holding more than 5% shares. Market price of shares on stock exchange is NOT disclosed in Notes to Accounts as it is an external market data point, not an accounting disclosure requirement.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q23",
@@ -377,8 +379,9 @@
         "A is true but R is false",
         "A is false and R is also false"
       ],
-      "correct": 4,
-      "explanation": "Both Assertion A and Reason R are false. A company is NOT required to issue both equity and preference shares. A company can be incorporated and operate with only equity share capital. The Companies Act, 2013 does NOT mandate the issuance of preference shares — it only provides the legal framework if a company chooses to issue them. Many companies operate successfully with only equity shares. Hence, both statements are incorrect."
+      "correct": 3,
+      "explanation": "Both Assertion A and Reason R are false. A company is NOT required to issue both equity and preference shares. A company can be incorporated and operate with only equity share capital. The Companies Act, 2013 does NOT mandate the issuance of preference shares — it only provides the legal framework if a company chooses to issue them. Many companies operate successfully with only equity shares. Hence, both statements are incorrect.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q26",
@@ -497,8 +500,9 @@
         "Equity shares receive variable dividend; preference shares receive fixed dividend",
         "Equity shares are always redeemable; preference shares are always irredeemable"
       ],
-      "correct": 4,
-      "explanation": "Option D is INCORRECT as a factual statement. Equity shares are generally NOT redeemable — they are permanent capital. It is Preference Shares that can be redeemable (and under Companies Act 2013, must be redeemed within 20 years). So the statement in D reverses the correct position. Options A, B, and C are all correct differences: equity shareholders bear residual risk; equity shares carry full voting rights while preference shares have restricted voting rights; equity dividend is variable while preference dividend is fixed."
+      "correct": 3,
+      "explanation": "Option D is INCORRECT as a factual statement. Equity shares are generally NOT redeemable — they are permanent capital. It is Preference Shares that can be redeemable (and under Companies Act 2013, must be redeemed within 20 years). So the statement in D reverses the correct position. Options A, B, and C are all correct differences: equity shareholders bear residual risk; equity shares carry full voting rights while preference shares have restricted voting rights; equity dividend is variable while preference dividend is fixed.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q34",
@@ -542,8 +546,9 @@
         "(i) ₹18,00,000; (ii) ₹16,40,000; (iii) ₹16,40,000",
         "(i) ₹18,80,000; (ii) ₹16,40,000; (iii) ₹15,60,000"
       ],
-      "correct": 2,
-      "explanation": "Preference Shares: 10,000 × ₹100 = ₹10,00,000 (fully paid). Equity Shares: 80,000 × ₹10 = ₹8,00,000 (face value). (i) Subscribed Capital = ₹10,00,000 + ₹8,00,000 = ₹18,00,000. (ii) Called-up Capital = ₹10,00,000 (preference, fully called) + 80,000 × ₹8 = ₹10,00,000 + ₹6,40,000 = ₹16,40,000. (iii) Paid-up Capital = ₹10,00,000 + 80,000 × ₹7.50 = ₹10,00,000 + ₹6,00,000 = ₹16,00,000. Wait — but calls in arrear = 80,000 × (₹8−₹7.50) = ₹40,000. Paid-up = ₹16,40,000 − ₹40,000 = ₹16,00,000. So option A has correct paid-up. Let me recalculate: ₹10,00,000 + ₹6,00,000 = ₹16,00,000. Correct answer is option A."
+      "correct": 0,
+      "explanation": "Preference share capital = 10,000 x Rs.100 = Rs.10,00,000. Equity subscribed capital = 80,000 x Rs.10 = Rs.8,00,000, so subscribed capital = Rs.18,00,000. Called-up capital = 10,00,000 + 80,000 x Rs.8 = Rs.16,40,000. Paid-up capital = 10,00,000 + 80,000 x Rs.7.50 = Rs.16,00,000.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC09Q37",
@@ -582,13 +587,14 @@
       "difficulty": "difficult",
       "question": "Prism Ltd. is being wound up. Its assets realise ₹80,00,000. Liabilities: Trade Payables ₹15,00,000; Debentures ₹20,00,000. Share Capital: 1,000, 10% Preference Shares of ₹1,000 each (carrying arrears of 2 years); 50,000 Equity Shares of ₹10 each. What will equity shareholders receive per share?",
       "options": [
-        "₹8 per share",
-        "₹6 per share",
-        "₹5 per share",
-        "₹3 per share"
+        "Rs.8 per share",
+        "Rs.66 per share",
+        "Rs.5 per share",
+        "Rs.3 per share"
       ],
-      "correct": 2,
-      "explanation": "Total assets realised = ₹80,00,000. Less: Trade Payables = ₹15,00,000. Less: Debentures = ₹20,00,000. Balance = ₹45,00,000. Preference Share Capital = 1,000 × ₹1,000 = ₹10,00,000. Preference Dividend Arrears = 2 × 10% × ₹10,00,000 = ₹2,00,000. Total to preference shareholders = ₹12,00,000. Balance for equity = ₹45,00,000 − ₹12,00,000 = ₹33,00,000. Wait — equity paid-up = 50,000 × ₹10 = ₹5,00,000. Amount per equity share = ₹33,00,000 ÷ 50,000 = ₹66 per share... Let me re-check. Actually per share surplus = ₹33,00,000/50,000 = ₹6.60? No: Balance for equity = ₹45,00,000−₹12,00,000=₹33,00,000. Per share = ₹33,00,000/50,000 = ₹6.60. Closest option is ₹6 per share (Option B). The answer is ₹6 (approximate)."
+      "correct": 1,
+      "explanation": "Assets realised = Rs.80,00,000. After paying trade payables of Rs.15,00,000 and debentures of Rs.20,00,000, Rs.45,00,000 remains. Preference shareholders receive capital of Rs.10,00,000 plus two years arrears of dividend of Rs.2,00,000, total Rs.12,00,000. Balance for equity = Rs.33,00,000. Per equity share = 33,00,000/50,000 = Rs.66.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC09Q40",
@@ -857,8 +863,9 @@
         "Share capital of a company is divided into transferable units called shares",
         "Both a company and a partnership can have unlimited number of members"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT a valid distinguishing characteristic — it is actually wrong. A company can have unlimited members (for public companies), but a partnership firm cannot have more than 50 partners (under the Companies Act, 2013). A private company has a maximum of 200 members. So both do NOT have unlimited members — in fact partnerships have stricter limits. Options A, B, and C are genuine distinctions: companies can access public capital markets (partnerships cannot), shareholders have limited liability (partners generally have unlimited liability), and shares in a company are freely transferable."
+      "correct": 3,
+      "explanation": "Option D is NOT a valid distinguishing characteristic — it is actually wrong. A company can have unlimited members (for public companies), but a partnership firm cannot have more than 50 partners (under the Companies Act, 2013). A private company has a maximum of 200 members. So both do NOT have unlimited members — in fact partnerships have stricter limits. Options A, B, and C are genuine distinctions: companies can access public capital markets (partnerships cannot), shareholders have limited liability (partners generally have unlimited liability), and shares in a company are freely transferable.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q58",
@@ -872,8 +879,9 @@
         "₹28,80,000",
         "₹29,40,000 and Calls in Advance shown separately under Current Liabilities"
       ],
-      "correct": 4,
-      "explanation": "The correct Balance Sheet presentation is nuanced. Paid-up Capital = Called-up Capital − Calls in Arrear = ₹30,00,000 − ₹1,20,000 = ₹28,80,000. Calls in Advance (₹60,000) is NOT added to Share Capital — it is shown under 'Other Current Liabilities.' Therefore, Share Capital on the Balance Sheet = ₹28,80,000. And separately, Calls in Advance = ₹60,000 appears under Current Liabilities. Option D correctly states ₹29,40,000... actually ₹28,80,000 is the Share Capital, and Calls in Advance is separate. The question framing makes Option D the most complete answer."
+      "correct": 3,
+      "explanation": "The correct Balance Sheet presentation is nuanced. Paid-up Capital = Called-up Capital − Calls in Arrear = ₹30,00,000 − ₹1,20,000 = ₹28,80,000. Calls in Advance (₹60,000) is NOT added to Share Capital — it is shown under 'Other Current Liabilities.' Therefore, Share Capital on the Balance Sheet = ₹28,80,000. And separately, Calls in Advance = ₹60,000 appears under Current Liabilities. Option D correctly states ₹29,40,000... actually ₹28,80,000 is the Share Capital, and Calls in Advance is separate. The question framing makes Option D the most complete answer.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q59",
@@ -1062,13 +1070,14 @@
       "difficulty": "difficult",
       "question": "Mars Ltd. has: 10% Preference Shares = 1,000 shares of ₹100 each (cumulative, 2 years arrears). Equity Shares = 10,000 shares of ₹10 each. The company earned ₹50,000 profit and declared maximum possible equity dividend. What is the equity dividend per share?",
       "options": [
-        "₹2.00 per share",
-        "₹1.70 per share",
-        "₹1.80 per share",
-        "₹2.00 per share after paying ₹30,000 to preference"
+        "Rs.2.00 per share",
+        "Rs.1.70 per share",
+        "Rs.1.80 per share",
+        "Rs.1.50 per share"
       ],
-      "correct": 2,
-      "explanation": "Annual preference dividend = 10% × (1,000 × ₹100) = ₹10,000. Arrears for 2 years = 2 × ₹10,000 = ₹20,000. Current year preference dividend = ₹10,000. Total preference payment = ₹30,000. Balance for equity = ₹50,000 − ₹30,000 = ₹20,000. Wait: ₹20,000 ÷ 10,000 equity shares = ₹2 per share. Hmm, that's Option A. Let me verify: if 3 years arrears: 3 × ₹10,000 = ₹30,000 arrears + ₹10,000 current = ₹40,000. Balance = ₹50,000 − ₹40,000 = ₹10,000. Per share = ₹1. With 2-year arrears: ₹30,000 total to preference; equity gets ₹20,000 ÷ 10,000 = ₹2 per share. Correct answer is ₹2.00 per share (Option A/D)."
+      "correct": 0,
+      "explanation": "Annual preference dividend = 10% x 1,000 x Rs.100 = Rs.10,000. Arrears for 2 years = Rs.20,000 and current year preference dividend = Rs.10,000, so total preference payment = Rs.30,000. Balance for equity = Rs.50,000 - Rs.30,000 = Rs.20,000. Equity dividend per share = 20,000/10,000 = Rs.2.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC09Q72",
@@ -1092,13 +1101,14 @@
       "difficulty": "difficult",
       "question": "Neptune Ltd. extracts: 6% Cumulative Preference Shares: 2,000 shares of ₹100 each, 4 years dividend in arrears. Equity Shares: 50,000 shares of ₹10 each. Available for distribution: ₹1,50,000. The company pays arrears first, then current year preference, then equity. How much do equity shareholders receive?",
       "options": [
-        "₹54,000",
-        "₹66,000",
-        "₹1,50,000",
-        "₹0"
+        "Rs.54,000",
+        "Rs.90,000",
+        "Rs.1,50,000",
+        "Rs.0"
       ],
-      "correct": 2,
-      "explanation": "Annual preference dividend = 6% × 2,000 × ₹100 = ₹12,000. Arrears (4 years) = 4 × ₹12,000 = ₹48,000. Current year preference = ₹12,000. Total preference = ₹48,000 + ₹12,000 = ₹60,000. Wait: 4 years arrears means 4 past years unpaid; current = 5th year? Or 4 years including current? Typically 4 years in arrears means 4 past years. Total preference = ₹48,000 + ₹12,000 current = ₹60,000. Alternatively if arrears include current: only ₹48,000 total. Let's use 4 past years + current = ₹60,000. Balance for equity = ₹1,50,000 − ₹60,000 = ₹90,000. Per share = ₹90,000/50,000 = ₹1.80. None match exactly; if only arrears (no current since declaring): ₹1,50,000−₹48,000=₹1,02,000. Closest ₹66,000: ₹1,50,000−₹84,000=₹66,000 (7 years × ₹12,000). Answer: B."
+      "correct": 1,
+      "explanation": "Annual preference dividend = 6% x 2,000 x Rs.100 = Rs.12,000. Four years arrears = Rs.48,000. Current year preference dividend = Rs.12,000. Total preference payment = Rs.60,000. Equity shareholders receive Rs.1,50,000 - Rs.60,000 = Rs.90,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC09Q74",
@@ -1127,8 +1137,9 @@
         "Debentures",
         "Trade Payables"
       ],
-      "correct": 4,
-      "explanation": "Capital structure refers to the mix of long-term financing sources used by a company. It typically includes: Equity Share Capital, Preference Share Capital, Reserves and Surplus, and Long-term Borrowings including Debentures. Trade Payables are short-term obligations (current liabilities) arising from normal business operations — they are NOT part of the capital structure. Capital structure deals with permanent or long-term capital, not short-term operational payables. Options A, B, and C are all valid components of capital structure."
+      "correct": 3,
+      "explanation": "Capital structure refers to the mix of long-term financing sources used by a company. It typically includes: Equity Share Capital, Preference Share Capital, Reserves and Surplus, and Long-term Borrowings including Debentures. Trade Payables are short-term obligations (current liabilities) arising from normal business operations — they are NOT part of the capital structure. Capital structure deals with permanent or long-term capital, not short-term operational payables. Options A, B, and C are all valid components of capital structure.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q76",
@@ -1187,8 +1198,9 @@
         "₹55,000",
         "₹0"
       ],
-      "correct": 3,
-      "explanation": "Non-Cumulative Preference Shares: Arrears from past 2 years are LOST — they cannot be claimed. Current year preference dividend = 11% × 5,000 × ₹100 = ₹55,000. Distributable profit = ₹1,20,000. After paying current year preference dividend = ₹1,20,000 − ₹55,000 = ₹65,000 available for equity. Wait: but the question asks how much equity shareholders receive. If ₹65,000 is distributed to equity shareholders: per share = ₹65,000 ÷ 1,00,000 = ₹0.65 per share. Total equity dividend = ₹65,000. Answer is ₹65,000. But I wrote ₹55,000 as correct (option C = ₹55,000)? Equity gets ₹1,20,000 − ₹55,000 = ₹65,000. Correct answer is Option B: ₹65,000."
+      "correct": 1,
+      "explanation": "For non-cumulative preference shares, dividends unpaid in earlier years are not carried forward. Current year preference dividend = 11% x 5,000 x Rs.100 = Rs.55,000. Equity shareholders receive the remaining distributable profit: Rs.1,20,000 - Rs.55,000 = Rs.65,000.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "AC09Q80",
@@ -1322,8 +1334,9 @@
         "Conversion of fully paid-up shares into stock",
         "Issue of shares at a price below face value for the purpose of reconstruction"
       ],
-      "correct": 4,
-      "explanation": "Section 61 of the Companies Act, 2013 permits the following alterations of share capital: (a) Increase authorized capital; (b) Consolidate shares (e.g., 10 shares of ₹10 → 1 share of ₹100); (c) Sub-divide shares (e.g., 1 share of ₹100 → 10 shares of ₹10); (d) Convert fully paid shares into stock or vice versa; (e) Cancel unissued shares. Issue of shares below face value (at discount) is NOT a permitted alteration under Section 61 — and is generally prohibited under the Act (except Sweat Equity under Section 54). Option D is therefore not a valid Section 61 alteration."
+      "correct": 3,
+      "explanation": "Section 61 of the Companies Act, 2013 permits the following alterations of share capital: (a) Increase authorized capital; (b) Consolidate shares (e.g., 10 shares of ₹10 → 1 share of ₹100); (c) Sub-divide shares (e.g., 1 share of ₹100 → 10 shares of ₹10); (d) Convert fully paid shares into stock or vice versa; (e) Cancel unissued shares. Issue of shares below face value (at discount) is NOT a permitted alteration under Section 61 — and is generally prohibited under the Act (except Sweat Equity under Section 54). Option D is therefore not a valid Section 61 alteration.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q89",
@@ -1352,8 +1365,9 @@
         "Correct — the disclosure satisfies Schedule III requirements as XYZ holds >5%",
         "Incorrect — the disclosure should also include the number of shares and percentage at the beginning and end of year"
       ],
-      "correct": 4,
-      "explanation": "Schedule III requires the following for shareholders holding >5%: (a) Name of shareholder, (b) Number of shares held, (c) Percentage of total shares. The disclosure must be made for the shares held at the end of the year. Additionally, companies must provide a reconciliation of shares outstanding at the beginning and end of the reporting period. The disclosure in the question omits the beginning-of-year comparison. While the basic disclosure (name, number, percentage) appears present, the complete Schedule III requirement includes movement during the year. Option D correctly identifies the incompleteness of the disclosure."
+      "correct": 3,
+      "explanation": "Schedule III requires the following for shareholders holding >5%: (a) Name of shareholder, (b) Number of shares held, (c) Percentage of total shares. The disclosure must be made for the shares held at the end of the year. Additionally, companies must provide a reconciliation of shares outstanding at the beginning and end of the reporting period. The disclosure in the question omits the beginning-of-year comparison. While the basic disclosure (name, number, percentage) appears present, the complete Schedule III requirement includes movement during the year. Option D correctly identifies the incompleteness of the disclosure.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q91",
@@ -1457,8 +1471,9 @@
         "₹53,00,000",
         "₹52,00,000"
       ],
-      "correct": 3,
-      "explanation": "Fully paid shares: 5,00,000 shares × ₹10 = ₹50,00,000 (face value) — these are the 5,50,000 − 50,000 = 5,00,000 fully subscribed shares. But wait — we need to clarify: 5,50,000 total subscribed; 50,000 shares called only ₹8 (₹6 face + ₹2 premium). Remaining 5,00,000 shares are presumably fully paid ₹12 each? If so: 5,00,000 × ₹10 = ₹50,00,000 face; 50,000 × ₹6 = ₹3,00,000 called face value. Paid-up face value = ₹53,00,000. Premium on fully paid (5,00,000×₹2) = ₹10,00,000 in SPR; premium called on 50,000 = ₹2 called × 50,000 = ₹1,00,000 in SPR. Paid-up Capital = ₹53,00,000."
+      "correct": 2,
+      "explanation": "Subscribed shares are 5,50,000. Of these, 5,00,000 shares are fully paid on face value, giving Rs.50,00,000 share capital. For the remaining 50,000 shares, face value called is Rs.6 per share, giving Rs.3,00,000. Paid-up share capital excludes securities premium, so paid-up share capital = Rs.50,00,000 + Rs.3,00,000 = Rs.53,00,000.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC09Q98",
@@ -1497,13 +1512,13 @@
       "difficulty": "difficult",
       "question": "Zenith Ltd. plans to issue 2,00,000 shares of ₹10 each. Applications received: 3,00,000. The company allots to all applicants on pro-rata. Excess application money is adjusted towards allotment money (₹4 per share allotted). Mr. Roy applied for 1,200 shares. How much allotment money does Mr. Roy owe after adjusting excess application money? (Application money ₹3 per share)",
       "options": [
-        "₹800",
-        "₹400",
-        "₹1,200",
-        "₹0"
+        "Rs.800",
+        "Rs.2,000",
+        "Rs.1,200",
+        "Rs.0"
       ],
       "correct": 1,
-      "explanation": "Pro-rata: 2,00,000/3,00,000 = 2/3. Shares allotted to Mr. Roy = 1,200 × 2/3 = 800 shares. Application money paid = 1,200 × ₹3 = ₹3,600. Application money for allotted shares = 800 × ₹3 = ₹2,400. Excess application money = ₹3,600 − ₹2,400 = ₹1,200. Total allotment money due = 800 × ₹4 = ₹3,200. Less: Excess application adjusted = ₹1,200. Net allotment money payable by Roy = ₹3,200 − ₹1,200 = ₹2,000. Hmm, none match. If allotment = ₹3 per share (not ₹4): 800×₹3=₹2,400−₹1,200=₹1,200. With allotment ₹2: 800×₹2=₹1,600−₹1,200=₹400. Answer likely ₹400 (Option B) with allotment ₹2/share adjustment."
+      "explanation": "Allotment ratio = 2,00,000/3,00,000 = 2/3. Mr. Roy is allotted 1,200 x 2/3 = 800 shares. Application money paid = 1,200 x Rs.3 = Rs.3,600. Application money required for allotted shares = 800 x Rs.3 = Rs.2,400. Excess application money = Rs.1,200. Allotment due = 800 x Rs.4 = Rs.3,200. Net allotment payable = 3,200 - 1,200 = Rs.2,000."
     },
     {
       "id": "AC09Q101",
@@ -1577,8 +1592,9 @@
         "A is true but R is false",
         "A is false and R is also true"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is FALSE — Securities Premium Reserve cannot be used to write off general business losses or accumulated revenue losses. Section 52 specifies only specific permitted uses: bonus shares, preliminary expenses, underwriting commission/discount on share/debenture issue, premium on debenture/preference share redemption, and buyback expenses. Writing off operational losses is NOT permitted. Reason R is TRUE — Section 52 of the Companies Act, 2013 prohibits use of SPR for writing off accumulated losses. Hence A is false (reverses the position) and R is true."
+      "correct": 3,
+      "explanation": "Assertion A is FALSE — Securities Premium Reserve cannot be used to write off general business losses or accumulated revenue losses. Section 52 specifies only specific permitted uses: bonus shares, preliminary expenses, underwriting commission/discount on share/debenture issue, premium on debenture/preference share redemption, and buyback expenses. Writing off operational losses is NOT permitted. Reason R is TRUE — Section 52 of the Companies Act, 2013 prohibits use of SPR for writing off accumulated losses. Hence A is false (reverses the position) and R is true.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q106",
@@ -1615,15 +1631,16 @@
       "type": "case_based",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "Sirius Ltd. has a paid-up equity share capital of ₹1,00,00,000 (1,00,00,000 shares of ₹1 each) and wants to consolidate these into shares of ₹100 each. Post-consolidation, a major shareholder Ramesh holds 5,00,000 new shares. What was his original holding before consolidation?",
+      "question": "Sirius Ltd. has a paid-up equity share capital of Rs.1,00,00,000 (1,00,00,000 shares of Rs.1 each) and wants to consolidate these into shares of Rs.100 each. Post-consolidation, a major shareholder Ramesh holds 50,000 new shares. What was his original holding before consolidation?",
       "options": [
         "5,00,000 shares of ₹1",
         "50,00,000 shares of ₹1",
         "5,00,00,000 shares of ₹1",
         "500 shares of ₹100"
       ],
-      "correct": 2,
-      "explanation": "Consolidation ratio: ₹100 new share = 100 × ₹1 old shares. If Ramesh holds 5,00,000 new shares of ₹100 each, his original holding before consolidation = 5,00,000 × 100 = 5,00,00,000... Wait: 1 new ₹100 share = 100 old ₹1 shares. So 5,00,000 new shares = 5,00,000 × 100 = 5,00,00,000 old shares. But total shares before = 1,00,00,000 shares of ₹1. That would mean Ramesh held more than 100% — impossible. Recalculation: Total capital = ₹1,00,00,000. New shares = 1,00,00,000/100 = 1,00,000 shares of ₹100. If Ramesh holds 5,00,000 — that exceeds total. Corrected: Ramesh holds 50,000 new shares → old holding = 50,000 × 100 = 50,00,000. Answer: B."
+      "correct": 1,
+      "explanation": "One new share of Rs.100 is equal to 100 old shares of Rs.1 each. If Ramesh holds 50,000 new shares after consolidation, his original holding was 50,000 x 100 = 50,00,000 old shares of Rs.1 each.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC09Q109",
@@ -1652,8 +1669,9 @@
         "Details of shares allotted without payment being received in cash in last 5 years",
         "The market capitalization of the company's shares at the Balance Sheet date"
       ],
-      "correct": 4,
-      "explanation": "Schedule III requires the following disclosures in Notes to Accounts on Share Capital: (a) Reconciliation of number of shares at beginning and end; (b) Rights, preferences, and restrictions on each class; (c) Shares held by holding company or subsidiaries; (d) Shareholders with >5% holding (name, number, %); (e) Shares allotted as fully paid-up pursuant to contracts without cash payment (last 5 years); (f) Bonus shares and buyback shares history (5 years). Market capitalization is market-determined data, NOT an accounting disclosure — it is NOT required under Schedule III. Option D is the correct answer."
+      "correct": 3,
+      "explanation": "Schedule III requires the following disclosures in Notes to Accounts on Share Capital: (a) Reconciliation of number of shares at beginning and end; (b) Rights, preferences, and restrictions on each class; (c) Shares held by holding company or subsidiaries; (d) Shareholders with >5% holding (name, number, %); (e) Shares allotted as fully paid-up pursuant to contracts without cash payment (last 5 years); (f) Bonus shares and buyback shares history (5 years). Market capitalization is market-determined data, NOT an accounting disclosure — it is NOT required under Schedule III. Option D is the correct answer.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q111",
@@ -1862,8 +1880,9 @@
         "10,000 votes — preference shareholders cannot vote",
         "10,000 votes from equity only as preference cannot vote here"
       ],
-      "correct": 4,
-      "explanation": "This is a crucial distinction. Under Section 47(2) of the Companies Act, 2013, preference shareholders have voting rights ONLY on resolutions that directly affect their rights, or when preference dividend is in arrears. Since this resolution does NOT affect preference share rights, and assuming dividend is not in arrears, preference shareholders CANNOT vote on this resolution. Therefore, only equity shareholders can vote: 10,000 equity shares × 1 vote = 10,000 votes. Options A (15,000) and B (11,000) incorrectly include preference votes on a matter that doesn't affect them."
+      "correct": 3,
+      "explanation": "This is a crucial distinction. Under Section 47(2) of the Companies Act, 2013, preference shareholders have voting rights ONLY on resolutions that directly affect their rights, or when preference dividend is in arrears. Since this resolution does NOT affect preference share rights, and assuming dividend is not in arrears, preference shareholders CANNOT vote on this resolution. Therefore, only equity shareholders can vote: 10,000 equity shares × 1 vote = 10,000 votes. Options A (15,000) and B (11,000) incorrectly include preference votes on a matter that doesn't affect them.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q125",
@@ -1907,8 +1926,9 @@
         "General Reserve",
         "Revaluation Reserve"
       ],
-      "correct": 4,
-      "explanation": "Bonus shares can be issued by capitalizing: Securities Premium Reserve, Capital Redemption Reserve, and free reserves (like General Reserve). However, Revaluation Reserve is specifically EXCLUDED from the sources that can be used for bonus share issue. This is because Revaluation Reserve arises from upward revaluation of assets — it's not a realized/earned profit. SEBI regulations and the Companies Act specify that only genuine free reserves and specific reserves (SPR, CRR) can be used. Revaluation surplus could be wiped out if the asset value falls, so it cannot be capitalized into permanent share capital."
+      "correct": 3,
+      "explanation": "Bonus shares can be issued by capitalizing: Securities Premium Reserve, Capital Redemption Reserve, and free reserves (like General Reserve). However, Revaluation Reserve is specifically EXCLUDED from the sources that can be used for bonus share issue. This is because Revaluation Reserve arises from upward revaluation of assets — it's not a realized/earned profit. SEBI regulations and the Companies Act specify that only genuine free reserves and specific reserves (SPR, CRR) can be used. Revaluation surplus could be wiped out if the asset value falls, so it cannot be capitalized into permanent share capital.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q128",
@@ -1952,8 +1972,9 @@
         "A is true but R is false",
         "A is false and R is also false"
       ],
-      "correct": 4,
-      "explanation": "Both A and R are false. In cases of oversubscription, a company does NOT HAVE to allot to all applicants on pro-rata basis. The company has multiple options: (a) Full pro-rata allotment, (b) Reject some applications entirely (usually smaller ones) and allot in full to others, (c) Partial rejection plus pro-rata for the rest. The Companies Act, 2013 does NOT mandate compulsory pro-rata allotment. The company has discretion in how it handles oversubscription, within the constraints of not allotting more than the issued capital. Hence both the mandatory nature (A) and the legal requirement (R) are incorrect."
+      "correct": 3,
+      "explanation": "Both A and R are false. In cases of oversubscription, a company does NOT HAVE to allot to all applicants on pro-rata basis. The company has multiple options: (a) Full pro-rata allotment, (b) Reject some applications entirely (usually smaller ones) and allot in full to others, (c) Partial rejection plus pro-rata for the rest. The Companies Act, 2013 does NOT mandate compulsory pro-rata allotment. The company has discretion in how it handles oversubscription, within the constraints of not allotting more than the issued capital. Hence both the mandatory nature (A) and the legal requirement (R) are incorrect.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q131",
@@ -1967,8 +1988,9 @@
         "₹900",
         "₹600"
       ],
-      "correct": 1,
-      "explanation": "Calls in Advance = 5,000 shares × ₹4 (final call amount) = ₹20,000. Interest = ₹20,000 × 6/100 × 6/12 = ₹20,000 × 0.06 × 0.5 = ₹600. Wait: ₹20,000 × 0.03 = ₹600. Hmm, let me recalculate: if only ₹3 paid in advance (towards final call of ₹4): Calls in Advance = 5,000 × ₹3 = ₹15,000. Interest = ₹15,000 × 6% × 6/12 = ₹15,000 × 0.03 = ₹450. The question says ₹3 paid in advance of the final call. Calls in advance = ₹15,000. Interest = ₹450. Correct answer is ₹450 = Option A."
+      "correct": 0,
+      "explanation": "The amount paid in advance is Rs.3 per share on 5,000 shares, so calls in advance = 5,000 x Rs.3 = Rs.15,000. Interest for 6 months at 6% p.a. = 15,000 x 6/100 x 6/12 = Rs.450.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC09Q132",
@@ -2027,8 +2049,9 @@
         "Share Capital ₹90,00,000; SPR ₹5,00,000; GR ₹10,00,000; P&L ₹10,00,000",
         "Share Capital ₹90,00,000; SPR ₹15,00,000; GR ₹5,00,000; P&L ₹10,00,000"
       ],
-      "correct": 2,
-      "explanation": "1:2 bonus = 1 share for every 2 held. Bonus shares = 6,00,000/2 = 3,00,000 shares. Bonus amount = 3,00,000 × ₹10 = ₹30,00,000. Source: First SPR (₹15,00,000), then General Reserve (₹30,00,000 − ₹15,00,000 = ₹15,00,000 from GR). New Share Capital = ₹60,00,000 + ₹30,00,000 = ₹90,00,000. New SPR = ₹15,00,000 − ₹15,00,000 = ₹0. New GR = ₹20,00,000 − ₹15,00,000 = ₹5,00,000. P&L remains ₹10,00,000. Answer: Option B."
+      "correct": 1,
+      "explanation": "1:2 bonus = 1 share for every 2 held. Bonus shares = 6,00,000/2 = 3,00,000 shares. Bonus amount = 3,00,000 × ₹10 = ₹30,00,000. Source: First SPR (₹15,00,000), then General Reserve (₹30,00,000 − ₹15,00,000 = ₹15,00,000 from GR). New Share Capital = ₹60,00,000 + ₹30,00,000 = ₹90,00,000. New SPR = ₹15,00,000 − ₹15,00,000 = ₹0. New GR = ₹20,00,000 − ₹15,00,000 = ₹5,00,000. P&L remains ₹10,00,000. Answer: Option B.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC09Q136",
@@ -2117,8 +2140,9 @@
         "Lock-in period of 3 years applies to Sweat Equity Shares",
         "Sweat Equity Shares can be issued only once in a financial year per class of shares, with no limit on total percentage"
       ],
-      "correct": 4,
-      "explanation": "Section 54 conditions for Sweat Equity Shares include: (a) Special resolution required, (b) Must be of same class as existing shares, (c) 3-year lock-in period from date of allotment. Option D is INCORRECT — there IS a limit: SEBI regulations cap sweat equity at 15% of existing paid-up equity share capital in a year or shares of the value of ₹5 crore, whichever is higher. There's also a ceiling of 25% of the paid-up equity capital of the company at any time. So the statement that there's 'no limit on total percentage' is false and hence not a valid condition — Option D is the NOT type answer."
+      "correct": 3,
+      "explanation": "Section 54 conditions for Sweat Equity Shares include: (a) Special resolution required, (b) Must be of same class as existing shares, (c) 3-year lock-in period from date of allotment. Option D is INCORRECT — there IS a limit: SEBI regulations cap sweat equity at 15% of existing paid-up equity share capital in a year or shares of the value of ₹5 crore, whichever is higher. There's also a ceiling of 25% of the paid-up equity capital of the company at any time. So the statement that there's 'no limit on total percentage' is false and hence not a valid condition — Option D is the NOT type answer.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q142",
@@ -2142,13 +2166,13 @@
       "difficulty": "difficult",
       "question": "Proxima Ltd. has Authorized Capital of ₹1,00,00,000 (10,00,000 equity shares of ₹10 each). Issued = 8,00,000 shares at ₹14. Applications = 9,00,000 shares. Pro-rata allotment. Allotment money = ₹3 per share (additional to application ₹2 per share, balance on calls). Excess application money adjusted to allotment. Calculate net allotment money still receivable from applicants after adjustment.",
       "options": [
-        "₹9,00,000",
-        "₹6,00,000",
-        "₹15,00,000",
-        "₹24,00,000"
+        "Rs.9,00,000",
+        "Rs.6,00,000",
+        "Rs.22,00,000",
+        "Rs.24,00,000"
       ],
       "correct": 2,
-      "explanation": "Total shares issued/allotted = 8,00,000. Pro-rata: 8,00,000/9,00,000 = 8/9 ratio. Total allotment due = 8,00,000 × ₹3 = ₹24,00,000. Application money received for 9,00,000 shares at ₹2 = ₹18,00,000. Application money for 8,00,000 allotted shares = 8,00,000 × ₹2 = ₹16,00,000. Excess application money = ₹18,00,000 − ₹16,00,000 = ₹2,00,000 (for 1,00,000 unallotted shares × ₹2). Excess adjusted against allotment. Net allotment receivable = ₹24,00,000 − ₹2,00,000 = ₹22,00,000. None match — let me recalculate with different logic. Option B ₹6,00,000 may be based on alternative interpretation."
+      "explanation": "Total allotment money due = 8,00,000 x Rs.3 = Rs.24,00,000. Application money received = 9,00,000 x Rs.2 = Rs.18,00,000, while application money needed for allotted shares = 8,00,000 x Rs.2 = Rs.16,00,000. Excess application money = Rs.2,00,000. Net allotment receivable = 24,00,000 - 2,00,000 = Rs.22,00,000."
     },
     {
       "id": "AC09Q144",
@@ -2177,8 +2201,9 @@
         "₹0 — no CRR needed when redeemed from profits",
         "₹8,00,000"
       ],
-      "correct": 2,
-      "explanation": "Redemption amount = 2,00,000 × ₹12 = ₹24,00,000. Premium on redemption = 2,00,000 × ₹2 = ₹4,00,000 (funded from SPR: ₹4,00,000 from ₹8,00,000 SPR). Face value of shares = ₹20,00,000. Funding from current profits = ₹20,00,000 (face value). When redeemed from profits (not fresh issue), CRR must be created = nominal value of shares redeemed from profits = ₹20,00,000. Wait — if partly from profits (say ₹12,00,000) and partly from fresh issue (₹8,00,000), CRR = ₹12,00,000. Without fresh issue info: CRR = face value redeemed from distributable profits = ₹20,00,000. Answer: ₹20,00,000 = Option A."
+      "correct": 0,
+      "explanation": "The nominal value of preference shares redeemed is Rs.20,00,000. The premium on redemption is Rs.4,00,000 and can be met from Securities Premium Reserve. Since the nominal value is redeemed out of current profits and no fresh issue is stated, Capital Redemption Reserve must be created for Rs.20,00,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC09Q146",
@@ -2207,8 +2232,9 @@
         "₹6,000",
         "₹10,000"
       ],
-      "correct": 1,
-      "explanation": "Mr. X paid only ₹2 per share (application). Total called up to Final Call = ₹2 + ₹3 + ₹3 + ₹2 = ₹10 per share (full face value). Amount paid by Mr. X = ₹2 per share. Calls in Arrear from Mr. X = (₹10 − ₹2) × 1,000 shares = ₹8 × 1,000 = ₹8,000. This includes: Allotment (₹3,000) + First Call (₹3,000) + Final Call (₹2,000) = ₹8,000 total in arrear. All other shareholders (49,000) paid fully. Total Calls in Arrear of the company = ₹8,000. Answer: Option A."
+      "correct": 0,
+      "explanation": "Mr. X paid only ₹2 per share (application). Total called up to Final Call = ₹2 + ₹3 + ₹3 + ₹2 = ₹10 per share (full face value). Amount paid by Mr. X = ₹2 per share. Calls in Arrear from Mr. X = (₹10 − ₹2) × 1,000 shares = ₹8 × 1,000 = ₹8,000. This includes: Allotment (₹3,000) + First Call (₹3,000) + Final Call (₹2,000) = ₹8,000 total in arrear. All other shareholders (49,000) paid fully. Total Calls in Arrear of the company = ₹8,000. Answer: Option A.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC09Q148",
@@ -2222,8 +2248,9 @@
         "A is true but R is false",
         "A is false and R is also false"
       ],
-      "correct": 4,
-      "explanation": "Both A and R are false. Assertion A is false — preference shares (and other securities) can be issued through multiple routes including: (a) public issue (prospectus), (b) rights issue, (c) private placement (to selected investors without a public prospectus). Reason R is false — SEBI DOES permit private placement of non-convertible preference shares and other securities under the Companies Act and SEBI regulations. SEBI (Issue and Listing of Non-Convertible Securities) Regulations, 2021 govern such issuances. Both statements overstate the restrictions on preference share issuance methods."
+      "correct": 3,
+      "explanation": "Both A and R are false. Assertion A is false — preference shares (and other securities) can be issued through multiple routes including: (a) public issue (prospectus), (b) rights issue, (c) private placement (to selected investors without a public prospectus). Reason R is false — SEBI DOES permit private placement of non-convertible preference shares and other securities under the Companies Act and SEBI regulations. SEBI (Issue and Listing of Non-Convertible Securities) Regulations, 2021 govern such issuances. Both statements overstate the restrictions on preference share issuance methods.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q149",
@@ -2282,8 +2309,9 @@
         "Shares are freely transferable (subject to company's Articles for private companies)",
         "Maximum liability of members equals the total assets of the company"
       ],
-      "correct": 4,
-      "explanation": "Option D is NOT a feature — it is actually a misstatement. In a company limited by shares, members' (shareholders') liability is LIMITED to the unpaid amount on their shares, NOT to the total assets of the company. The company itself is responsible for its debts up to its total assets, but individual shareholders don't bear liability beyond their investment. Options A (separate legal entity — Salomon v. Salomon), B (perpetual succession — company continues regardless of membership changes), and C (transferability — free transfer for public companies; restricted for private companies) are all genuine features of a company."
+      "correct": 3,
+      "explanation": "Option D is NOT a feature — it is actually a misstatement. In a company limited by shares, members' (shareholders') liability is LIMITED to the unpaid amount on their shares, NOT to the total assets of the company. The company itself is responsible for its debts up to its total assets, but individual shareholders don't bear liability beyond their investment. Options A (separate legal entity — Salomon v. Salomon), B (perpetual succession — company continues regardless of membership changes), and C (transferability — free transfer for public companies; restricted for private companies) are all genuine features of a company.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q153",
@@ -2309,11 +2337,12 @@
       "options": [
         "₹8,40,000",
         "₹7,00,000",
-        "₹8,40,000",
+        "₹6,00,000",
         "₹7,40,000"
       ],
-      "correct": 1,
-      "explanation": "Initial Shareholders' Funds = Share Capital (₹5,00,000) + Reserves (₹2,00,000) = ₹7,00,000. New shares: 10,000 × ₹10 = ₹1,00,000 to Share Capital; 10,000 × ₹4 = ₹40,000 to Securities Premium Reserve. Total increase in Shareholders' Funds = ₹1,40,000. New Shareholders' Funds = ₹7,00,000 + ₹1,40,000 = ₹8,40,000. New Share Capital = ₹5,00,000 + ₹1,00,000 = ₹6,00,000. New Reserves = ₹2,00,000 + ₹40,000 = ₹2,40,000. Total = ₹8,40,000. Cash received = 10,000 × ₹14 = ₹1,40,000 — this increases both assets and shareholders' funds."
+      "correct": 0,
+      "explanation": "Initial shareholders' funds = share capital ₹5,00,000 + reserves ₹2,00,000 = ₹7,00,000. New issue increases share capital by ₹1,00,000 and securities premium by ₹40,000. New shareholders' funds = ₹7,00,000 + ₹1,40,000 = ₹8,40,000. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC09Q155",
@@ -2342,8 +2371,9 @@
         "Shortfall of ₹4,00,000",
         "Shortfall of ₹45,000"
       ],
-      "correct": 2,
-      "explanation": "Annual preference dividend = 9% × 10,000 × ₹100 = ₹90,000. Arrears for 4 years = 4 × ₹90,000 = ₹3,60,000. Current year = ₹90,000. Total preference due = ₹3,60,000 + ₹90,000 = ₹4,50,000. Available reserves = ₹5,00,000. Since ₹5,00,000 > ₹4,50,000, there is NO shortfall — the company can fully pay all preference obligations. Wait: ₹5,00,000 − ₹4,50,000 = ₹50,000 surplus. So Option A (no shortfall) is correct. But if available = ₹4,10,000: shortfall = ₹40,000. With ₹5,00,000 available and ₹4,50,000 needed: no shortfall. Answer: A."
+      "correct": 0,
+      "explanation": "Annual preference dividend = 9% x 10,000 x Rs.100 = Rs.90,000. Arrears for 4 years = Rs.3,60,000 and current year dividend = Rs.90,000, so total preference obligation = Rs.4,50,000. Available reserves are Rs.5,00,000, so there is no shortfall.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC09Q157",
@@ -2382,13 +2412,14 @@
       "difficulty": "difficult",
       "question": "Leonis Ltd. is being wound up. Assets realize ₹45,00,000. Liabilities: Secured Debentures ₹10,00,000; Unsecured Creditors ₹8,00,000; Liquidation Expenses ₹1,00,000. 8% Preference Shares: 500 shares × ₹1,000 = ₹5,00,000 (1 year dividend in arrears). Equity Share Capital: 1,00,000 × ₹10 = ₹10,00,000. Calculate what equity shareholders receive per share.",
       "options": [
-        "₹10.60 per share",
-        "₹9.60 per share",
-        "₹10 per share",
-        "₹11 per share"
+        "Rs.20.60 per share",
+        "Rs.9.60 per share",
+        "Rs.10 per share",
+        "Rs.11 per share"
       ],
-      "correct": 1,
-      "explanation": "Total realized = ₹45,00,000. Less: Liquidation expenses = ₹1,00,000. Balance = ₹44,00,000. Less: Secured Debentures = ₹10,00,000. Less: Unsecured Creditors = ₹8,00,000. Balance = ₹26,00,000. Preference Capital = ₹5,00,000. Preference Dividend Arrear = 8% × ₹5,00,000 = ₹40,000. Total to preference = ₹5,40,000. Balance for equity = ₹26,00,000 − ₹5,40,000 = ₹20,60,000. Equity shares = 1,00,000 × ₹10 = ₹10,00,000. Per share = ₹20,60,000 ÷ 1,00,000 = Wait: 1,00,000 shares. ₹20,60,000 / 1,00,000 = ₹20.60? That doesn't match. Equity = ₹10,00,000 paid-up; total available = ₹20,60,000; per share = ₹20,60,000/1,00,000 = ₹20.60. No match. Revised: per share amount = ₹10.60 if 2,00,000 shares? With 1,00,000 shares: ₹20.60 per share. Option A ₹10.60 would require 2,00,000 shares or different asset total. With 2,00,000 shares: ₹20,60,000/2,00,000 = ₹10.30. Close to ₹10.60 with slight variation. Answer: A."
+      "correct": 0,
+      "explanation": "Assets realised = Rs.45,00,000. After liquidation expenses, secured debentures and unsecured creditors, amount left = 45,00,000 - 1,00,000 - 10,00,000 - 8,00,000 = Rs.26,00,000. Preference shareholders receive capital Rs.5,00,000 plus arrear dividend Rs.40,000, total Rs.5,40,000. Balance for equity = Rs.20,60,000. Per equity share = 20,60,000/1,00,000 = Rs.20.60.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC09Q160",
@@ -2522,8 +2553,9 @@
         "₹6,75,000",
         "₹1,80,000"
       ],
-      "correct": 1,
-      "explanation": "Called-up per share = ₹11 (₹9 face + ₹2 premium called). Paid-up per share = ₹9.50. Calls in Arrear per share = ₹11 − ₹9.50 = ₹1.50. Number of subscribed shares = 4,50,000. Total Calls in Arrear = 4,50,000 × ₹1.50 = ₹6,75,000. Wait — Calls in Arrear only arises on those who haven't paid. If ALL 4,50,000 shareholders paid ₹9.50 instead of ₹11: Total Calls in Arrear = 4,50,000 × ₹1.50 = ₹6,75,000. But typically not all default. If the question means average: ₹6,75,000 = Option C. If specific shareholders: impossible to calculate without that info. Answer C = ₹6,75,000 based on all shares."
+      "correct": 2,
+      "explanation": "Called-up amount per share = Rs.11 and paid-up amount per share = Rs.9.50. Calls in arrear per share = Rs.1.50. For 4,50,000 subscribed shares, calls in arrear = 4,50,000 x Rs.1.50 = Rs.6,75,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC09Q169",
@@ -2567,8 +2599,9 @@
         "Share Capital ₹30,00,000; SPR ₹2,40,000",
         "Share Capital ₹25,00,000; SPR ₹2,00,000"
       ],
-      "correct": 1,
-      "explanation": "Rights issue: 1 for 5 → New shares = 2,50,000/5 = 50,000 shares at ₹14. New Share Capital = 50,000 × ₹10 = ₹5,00,000. New SPR = 50,000 × (₹14 − ₹10) = 50,000 × ₹4 = ₹2,00,000. Post-issue Share Capital = ₹25,00,000 + ₹5,00,000 = ₹30,00,000. Post-issue SPR = ₹0 + ₹2,00,000 = ₹2,00,000 (assuming no prior SPR). Total new equity Share Capital = ₹30,00,000; SPR = ₹2,00,000. Cash received from rights issue = 50,000 × ₹14 = ₹7,00,000. Answer: Option A."
+      "correct": 0,
+      "explanation": "Rights issue: 1 for 5 → New shares = 2,50,000/5 = 50,000 shares at ₹14. New Share Capital = 50,000 × ₹10 = ₹5,00,000. New SPR = 50,000 × (₹14 − ₹10) = 50,000 × ₹4 = ₹2,00,000. Post-issue Share Capital = ₹25,00,000 + ₹5,00,000 = ₹30,00,000. Post-issue SPR = ₹0 + ₹2,00,000 = ₹2,00,000 (assuming no prior SPR). Total new equity Share Capital = ₹30,00,000; SPR = ₹2,00,000. Cash received from rights issue = 50,000 × ₹14 = ₹7,00,000. Answer: Option A.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC09Q172",
@@ -2628,7 +2661,7 @@
         "₹12,30,000"
       ],
       "correct": 2,
-      "explanation": "Per Schedule III format for Notes to Accounts on Share Capital: Subscribed and Called-up = 1,50,000 × ₹8 = ₹12,00,000. Less: Calls in Arrear = (₹60,000). Paid-up Capital = ₹12,00,000 − ₹60,000 = ₹11,40,000. Note: Calls in Advance (₹30,000) is separately shown under Current Liabilities and is NOT part of Paid-up Capital. The face value per share on fully paid basis would be ₹10, but only ₹8 has been called. Paid-up Capital on Balance Sheet = ₹11,40,000. Wait: ₹12,00,000 − ₹60,000 = ₹11,40,000. Answer: C = ₹11,40,000."
+      "explanation": "Subscribed and called-up capital = 1,50,000 x Rs.8 = Rs.12,00,000. Less calls in arrear = Rs.60,000. Paid-up capital = Rs.11,40,000. Calls in advance is shown separately as a current liability and is not added to paid-up capital."
     },
     {
       "id": "AC09Q176",
@@ -2672,8 +2705,9 @@
         "All three shareholders",
         "Only Mr. Bhatt and Mrs. Jha"
       ],
-      "correct": 1,
-      "explanation": "Disclosure threshold = more than 5% of total paid-up equity share capital. Total shares = 20,000. 5% threshold = 1,000 shares. Mr. Bhatt = 1,500/20,000 = 7.5% → Must disclose. Mrs. Jha = 1,200/20,000 = 6% → Must disclose. XYZ Ltd. = 5,000/20,000 = 25% → Must disclose. All three exceed the 5% threshold. Hence, ALL THREE must be disclosed in Notes to Accounts. Option A (only XYZ) is wrong. Option D (only Mr. Bhatt and Mrs. Jha) excludes XYZ. The correct answer is option C — all three, not just XYZ Ltd. which has 25%."
+      "correct": 2,
+      "explanation": "Disclosure threshold = more than 5% of total paid-up equity share capital. Total shares = 20,000. 5% threshold = 1,000 shares. Mr. Bhatt = 1,500/20,000 = 7.5% → Must disclose. Mrs. Jha = 1,200/20,000 = 6% → Must disclose. XYZ Ltd. = 5,000/20,000 = 25% → Must disclose. All three exceed the 5% threshold. Hence, ALL THREE must be disclosed in Notes to Accounts. Option A (only XYZ) is wrong. Option D (only Mr. Bhatt and Mrs. Jha) excludes XYZ. The correct answer is option C — all three, not just XYZ Ltd. which has 25%.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC09Q179",
@@ -2792,8 +2826,10 @@
         "Equity gets ₹4,000; preference gets ₹36,000",
         "Equity gets ₹0; preference gets ₹40,000, ₹5,000 arrears remain"
       ],
-      "correct": 4,
-      "explanation": "Annual preference dividend = 9% × ₹1,00,000 = ₹9,000. 2 years arrears = ₹18,000. Current year preference = ₹9,000. Total preference due = ₹18,000 + ₹9,000 = ₹27,000. Available profit = ₹40,000. Since ₹40,000 > ₹27,000, preference is fully paid = ₹27,000. Balance for equity = ₹40,000 − ₹27,000 = ₹13,000. Equity gets ₹13,000. Wait — but this is ₹13,000 for equity out of ₹5,00,000 equity capital = 2.6% dividend. So Equity DOES get something: ₹13,000. Correct answer should be Option A: Equity gets ₹13,000. None of the options exactly match — Option A is closest."
+      "correct": 0,
+      "explanation": "Annual preference dividend = 9% x Rs.1,00,000 = Rs.9,000. Two years arrears = Rs.18,000 and current year preference dividend = Rs.9,000, so total preference due = Rs.27,000. Profit available is Rs.40,000, leaving Rs.13,000 for equity shareholders.",
+      "correct_original": 4,
+      "correct_content_review_original": 3
     },
     {
       "id": "AC09Q187",
@@ -2834,11 +2870,12 @@
       "options": [
         "₹1,01,00,000",
         "₹85,00,000",
-        "₹1,01,00,000",
+        "₹96,00,000",
         "₹1,00,00,000"
       ],
-      "correct": 1,
-      "explanation": "Equity Share Capital = ₹80,00,000. Preference Share Capital = ₹5,00,000. Total Share Capital = ₹85,00,000. Reserves and Surplus = Securities Premium Reserve = ₹16,00,000. Total Shareholders' Funds = ₹85,00,000 + ₹16,00,000 = ₹1,01,00,000. Amount actually received from equity shareholders = 8,00,000 × (₹10 + ₹2 premium) = ₹96,00,000. Amount received from preference shareholders = ₹5,00,000. Total raised = ₹1,01,00,000 = Shareholders' Funds. This checks out. Answer: ₹1,01,00,000 (Option A)."
+      "correct": 0,
+      "explanation": "Equity share capital = ₹80,00,000 and preference share capital = ₹5,00,000, so total share capital = ₹85,00,000. Securities premium reserve = ₹16,00,000. Total shareholders' funds = ₹85,00,000 + ₹16,00,000 = ₹1,01,00,000. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC09Q190",
@@ -2897,8 +2934,9 @@
         "₹2,00,000",
         "₹60,000"
       ],
-      "correct": 1,
-      "explanation": "First Call = ₹2 per share. Shares on which first call defaulted = 10,000. Calls in Arrear = 10,000 × ₹2 = ₹20,000. All other shareholders (6,00,000 − 10,000 = 5,90,000) paid. Calls in Arrear = ₹20,000. The earlier pro-rata allotment and application refund do not affect Calls in Arrear calculation — that is straightforward: defaulted shares × call amount = ₹20,000. This ₹20,000 is shown as deduction from Called-up Capital in the Share Capital Notes. Answer: Option A = ₹20,000."
+      "correct": 0,
+      "explanation": "First Call = ₹2 per share. Shares on which first call defaulted = 10,000. Calls in Arrear = 10,000 × ₹2 = ₹20,000. All other shareholders (6,00,000 − 10,000 = 5,90,000) paid. Calls in Arrear = ₹20,000. The earlier pro-rata allotment and application refund do not affect Calls in Arrear calculation — that is straightforward: defaulted shares × call amount = ₹20,000. This ₹20,000 is shown as deduction from Called-up Capital in the Share Capital Notes. Answer: Option A = ₹20,000.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC09Q194",
@@ -2957,8 +2995,9 @@
         "0.25",
         "0.21"
       ],
-      "correct": 2,
-      "explanation": "Debt = Long-term Borrowings = ₹15,00,000 (typically, current liabilities excluded from traditional D/E ratio). Shareholders' Equity = Share Capital + Reserves = ₹50,00,000 + ₹10,00,000 + ₹5,00,000 + ₹8,00,000 = ₹73,00,000. Wait: if total debt includes current liabilities too: Total Debt = ₹15,00,000 + ₹12,00,000 = ₹27,00,000. D/E = ₹27,00,000 / ₹73,00,000 = 0.37. With only LTB: D/E = ₹15,00,000 / ₹73,00,000 = 0.205 ≈ 0.21 (Option D). With current liabilities included: 0.37. None match perfectly. If Equity = ₹50,00,000 only: D/E = ₹15,00,000/₹50,00,000 = 0.30. Option B (0.57) = ₹15,00,000 + ₹12,00,000 = ₹27,00,000 / ₹47,00,000. Various interpretations. Most standard = Option B."
+      "correct": 3,
+      "explanation": "For the standard debt-to-equity ratio, debt means long-term borrowings. Shareholders equity = share capital + general reserve + securities premium + P&L surplus = 50,00,000 + 10,00,000 + 5,00,000 + 8,00,000 = Rs.73,00,000. Debt-to-equity ratio = 15,00,000/73,00,000 = 0.205, approximately 0.21.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC09Q198",
@@ -2987,8 +3026,9 @@
         "A is true but R is false",
         "A is false and R is also false"
       ],
-      "correct": 4,
-      "explanation": "Both A and R are FALSE. Assertion A is false: The Share Capital shown on the Balance Sheet is the PAID-UP Capital (= Called-up − Calls in Arrear), which equals the amount actually received. However, this may be LESS than the full face value of issued shares (because of uncalled capital and calls in arrear). The subscribed capital at face value may exceed the paid-up amount. Reason R is false: Companies can issue shares by making calls in installments — shares need not be fully paid immediately. Companies Act and SEBI permit installment payments. Many companies issue shares where only part of the face value is called initially. Both statements are incorrect."
+      "correct": 3,
+      "explanation": "Both A and R are FALSE. Assertion A is false: The Share Capital shown on the Balance Sheet is the PAID-UP Capital (= Called-up − Calls in Arrear), which equals the amount actually received. However, this may be LESS than the full face value of issued shares (because of uncalled capital and calls in arrear). The subscribed capital at face value may exceed the paid-up amount. Reason R is false: Companies can issue shares by making calls in installments — shares need not be fully paid immediately. Companies Act and SEBI permit installment payments. Many companies issue shares where only part of the face value is called initially. Both statements are incorrect.",
+      "correct_original": 4
     },
     {
       "id": "AC09Q200",

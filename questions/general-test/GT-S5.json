@@ -74,11 +74,11 @@
       "options": [
         "India's gold medal count increased consistently across all three CWGs",
         "The total medal count was highest in CWG 2018 and India's silver count decreased from 2018 to 2022",
-        "India won more bronze medals in 2022 than in both 2014 and 2018",
+        "India won fewer bronze medals in 2022 than in 2018",
         "India's total medal count has been consistently increasing"
       ],
       "correct": 1,
-      "explanation": "Option A is false — gold went 15→26→22, not consistently increasing. Option B: Total medals: 2014=64, 2018=66, 2022=61 → highest in 2018 ✓. Silver medals: 2018=20, 2022=16 → decreased ✓. Both parts of B are true. Option C: Bronze in 2022=23, in 2014=19, in 2018=20. So 2022 bronze (23) > 2014 (19) and 2018 (20) — this is also TRUE. Option D is false — total went 64→66→61, not consistently increasing. Between B and C, Option B combines two correct facts about the same dataset making it the most complete and intended answer, and is the primary correct option."
+      "explanation": "Gold medals went 15, 26, 22, so they did not increase consistently. Total medals were 64, 66, and 61, so the highest total was in 2018. Silver medals fell from 20 in 2018 to 16 in 2022. Bronze medals in 2022 were 23, not fewer than 2018. Therefore, only the statement about 2018 total medals and the fall in silver count is true."
     },
     {
       "id": "GT-S5Q06",
@@ -194,11 +194,12 @@
       "options": [
         "Only Djokovic",
         "Only Nadal",
-        "Djokovic and Federer",
+        "Djokovic and Nadal",
         "Nadal and Federer"
       ],
-      "correct": 1,
-      "explanation": "Djokovic total: 10+3+7+4=24. 40% of 24 = 9.6. His max at one slam = 10 (Aus Open). 10 > 9.6 ✓. Nadal total: 2+14+2+4=22. 40% of 22 = 8.8. His max = 14 (French Open). 14 > 8.8 ✓. Federer total: 6+1+8+5=20. 40% of 20 = 8. His max = 8 (Wimbledon). 8 is NOT greater than 8 (8 = 8, not more than 40%). So only Djokovic and Nadal qualify strictly, but checking option: Djokovic 10/24=41.67% ✓, Nadal 14/22=63.6% ✓, Federer 8/20=40% exactly (not MORE than 40%). Answer: Djokovic and Nadal qualify — but that option is not listed. Rechecking options: Option B says 'Only Nadal' — incorrect. The correct answer based on strict calculation is Djokovic and Nadal, which most closely corresponds to noting Federer's exactly 40% doesn't qualify. Since the closest available answer reflecting Nadal's extreme specialization at Roland Garros is Option B as a trick question, but the mathematically accurate answer is that both Djokovic and Nadal qualify — selecting Option D is wrong. The intended correct answer is B (Only Nadal) if the threshold is strictly 'more than 40%' and Djokovic's 41.67% is meant to be rechecked with updated slam counts post-2023. With Djokovic's current 24 total slams, 10/24=41.67% > 40%, so both qualify. Answer: C — Djokovic and Federer is wrong. The answer should be Djokovic and Nadal. Given the options provided, Option B (Only Nadal) captures the most extreme specialist but the mathematically correct answer given current data is that both Djokovic and Nadal qualify, corresponding to no option. Selecting B as the closest intended answer."
+      "correct": 2,
+      "explanation": "Djokovic has 24 total titles and 10 at the Australian Open; 10/24 = 41.67%, which is more than 40%. Nadal has 22 total titles and 14 at the French Open; 14/22 = 63.64%, also more than 40%. Federer has 20 total titles and 8 at Wimbledon; 8/20 = exactly 40%, not more than 40%. Therefore, Djokovic and Nadal qualify.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S5Q14",
@@ -223,12 +224,12 @@
       "question": "In a sports tournament, 6 countries — India (I), China (C), USA (U), Brazil (B), Germany (G), and Australia (A) — finish in positions 1 through 6 in the medal tally. The following conditions apply:\n• USA finishes exactly 2 positions above India\n• China finishes immediately above Germany\n• Brazil is not in the top 3\n• Australia finishes last\n\nWhich of the following is a valid finishing order (1st to 6th)?",
       "options": [
         "USA, India, China, Germany, Brazil, Australia",
-        "China, Germany, USA, India, Brazil, Australia",
+        "China, Germany, USA, Brazil, India, Australia",
         "USA, China, Germany, India, Brazil, Australia",
         "China, USA, Germany, India, Brazil, Australia"
       ],
       "correct": 1,
-      "explanation": "Conditions: USA is exactly 2 above India (USA=n, India=n+2). China is immediately above Germany (China=m, Germany=m+1). Brazil not in top 3. Australia is 6th. Check Option B: China(1), Germany(2), USA(3), India(4), Brazil(5), Australia(6). USA(3) − India(4) = difference of 1 position — but 'exactly 2 above' means USA rank = India rank − 2, so USA=3, India=5? No — USA at 3, India at 4 means difference is 1, not 2. Check Option C: USA(1), China(2), Germany(3), India(4), Brazil(5), Australia(6). China(2) immediately above Germany(3) ✓. USA(1) and India(4): difference = 3 positions ✗. Check Option A: USA(1), India(2): difference =1 ✗. Check Option D: China(1), USA(2), Germany(3), India(4), Brazil(5), Australia(6). China(1) immediately above Germany? No — USA(2) is between them ✗. Re-examining Option B more carefully: China(1), Germany(2) — China immediately above Germany ✓. USA(3), India(5 would be needed)... India is at position 4. USA(3) is 'exactly 2 above' India means position 3 vs position 5 needed. This fails too. The closest valid order making all conditions work: USA=1, India=3, China=4, Germany=5, Brazil=2 fails (Brazil top 3). The intended answer is B as the best approximation given the options, with China-Germany adjacency and Australia last both satisfied."
+      "explanation": "In option B, China is immediately above Germany, USA is exactly two positions above India, Brazil is not in the top 3, and Australia is last. Therefore, China, Germany, USA, Brazil, India, Australia is a valid order."
     },
     {
       "id": "GT-S5Q16",
@@ -329,11 +330,12 @@
       "options": [
         "70.3%",
         "74.5%",
-        "82.7%",
+        "81.3%",
         "85.0%"
       ],
-      "correct": 1,
-      "explanation": "Total launches = 96+67+19+7+3 = 192. USA+China = 96+67 = 163. X = (163/192)×100 = 84.9%. India = 7. Y = (7/192)×100 = 3.65%. X − Y = 84.9 − 3.65 = 81.25% ≈ 81.3%. The closest option is B (74.5%) but recalculating: 84.9% − 3.65% ≈ 81.25%. This rounds closest to none of the given options precisely, but given the options available, C (82.7%) is the closest approximation. Selecting C as the answer."
+      "correct": 2,
+      "explanation": "Total launches listed = 96 + 67 + 19 + 7 + 3 = 192. USA and China together launched 163 missions, so X = 163/192 x 100 = 84.9%. India launched 7, so Y = 7/192 x 100 = 3.65%. Therefore, X - Y = 84.9 - 3.65 = 81.25%, approximately 81.3%.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S5Q23",
@@ -358,12 +360,12 @@
       "question": "India's renewable energy capacity reached 200 GW in 2024. If solar contributes 45%, wind contributes 42%, and the rest is other renewables, what is the capacity of 'other renewables' in MW? If India adds 50 GW of solar in 2025, what becomes the new percentage contribution of solar to a total of 250 GW?",
       "options": [
         "26,000 MW; 52%",
-        "26,000 MW; 54%",
+        "26,000 MW; 56%",
         "26,000 MW; 58%",
         "13,000 MW; 52%"
       ],
       "correct": 1,
-      "explanation": "Other renewables % = 100% − 45% − 42% = 13%. Other renewables capacity = 13% of 200 GW = 26 GW = 26,000 MW. New solar capacity = 45% of 200 + 50 = 90 + 50 = 140 GW. New total = 250 GW. New solar % = (140/250) × 100 = 56%. Rechecking: 45% × 200 = 90 GW solar initially. Add 50 GW → 140 GW solar. Total = 250 GW. Solar % = 140/250 × 100 = 56%. The closest option is B (54%), but mathematically the answer is 56%. Given option constraints, checking: option C says 58% — 140/250=56%, not 58%. The answer 56% isn't listed — selecting B (54%) as the closest available answer, acknowledging the mathematical answer is 56%."
+      "explanation": "Other renewables account for 100% - 45% - 42% = 13% of 200 GW, which is 26 GW or 26,000 MW. Initial solar capacity is 45% of 200 GW = 90 GW. After adding 50 GW of solar, solar capacity becomes 140 GW and total capacity becomes 250 GW. New solar share = 140/250 x 100 = 56%."
     },
     {
       "id": "GT-S5Q25",
@@ -495,10 +497,10 @@
         "Total mobile internet subscribers grew every year from 2020 to 2024",
         "4G subscribers declined from 2023 to 2024 while 5G subscribers grew",
         "By 2024, 5G subscribers constituted more than 18% of total mobile internet subscribers",
-        "The year 2022 saw the largest absolute increase in 4G subscribers"
+        "The year 2023 saw the largest absolute increase in 4G subscribers"
       ],
       "correct": 3,
-      "explanation": "Option A: Total grew 740→820→900→1010→1100. Correct ✓. Option B: 4G went from 800 (2023) to 780 (2024) — declined. 5G went 80→200 — grew. Correct ✓. Option C: 5G in 2024 = 200M. Total = 1100M. Percentage = 200/1100 × 100 = 18.18%. 'More than 18%' ✓. Option D: 4G changes: 2020→2021: +80M, 2021→2022: +80M, 2022→2023: +20M, 2023→2024: −20M. Years 2020→2021 and 2021→2022 both have equal largest increase of +80M. The statement says '2022' saw the largest increase — but 2022 refers to the 2021→2022 change (+80M), same as 2020→2021. Both years share the record. If '2022' means the change during 2022 year = 2021→2022 = +80M (tied). This makes D ambiguous but not definitively incorrect. However, 2023→2022 change=+80M tied with 2020→2021=+80M. D states 2022 'alone' saw the largest — making it INCORRECT as it's tied. D is the incorrect observation."
+      "explanation": "Total mobile internet subscribers rose every year. 4G subscribers declined from 800 million in 2023 to 780 million in 2024 while 5G rose from 80 million to 200 million. In 2024, 5G share = 200/1100 x 100 = 18.18%, which is more than 18%. For 4G, increases were +80, +80, +20, and -20, so 2023 did not see the largest absolute increase. Therefore, option D is incorrect."
     },
     {
       "id": "GT-S5Q34",
@@ -677,8 +679,9 @@
         "435 thousand",
         "480 thousand"
       ],
-      "correct": 1,
-      "explanation": "Current China share = 520/1,200 × 100 = 43.33%. Previous year China share = 43.33% − 5% = 38.33%. Previous year total = 1,000 thousand. China's patents in previous year = 38.33% × 1,000 = 383.3 ≈ 383 thousand. Closest option = A (380 thousand). Recalculating: 520/1200 = 43.33%. Previous = 43.33−5 = 38.33%. 0.3833 × 1000 = 383.3k ≈ 380k. Option A (380 thousand) is correct."
+      "correct": 0,
+      "explanation": "China's current share = 520/1,200 x 100 = 43.33%. Since this is 5 percentage points higher than the previous year, the previous share was 38.33%. Previous year's total was 1,000 thousand, so China's previous filings were 38.33% of 1,000 = 383.3 thousand, approximately 380 thousand.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S5Q46",
@@ -810,10 +813,10 @@
         "Total funding per unicorn added was highest in 2019",
         "The year 2021 saw both the maximum unicorn additions and maximum total funding",
         "From 2021 to 2023, the total number of unicorns more than doubled",
-        "Average funding per new unicorn was highest in 2023"
+        "Average funding per new unicorn was lowest in 2023"
       ],
       "correct": 1,
-      "explanation": "Option A: Funding per unicorn added 2019 = $14.5B/7 = $2.07B. 2021 = $42B/44 = $0.955B. 2023 = $7B/2 = $3.5B. Highest is 2023, not 2019. FALSE. Option B: 2021 had max unicorns added (44) AND max total funding ($42B). TRUE ✓. Option C: Unicorns in 2021 = 79. By 2023 = 104. 104/79 = 1.32, not doubled. FALSE. Option D: Avg funding per new unicorn: 2023 = $7B/2 = $3.5B. 2019 = $2.07B. So 2023 IS highest — Option D is also TRUE. But Option B is the more straightforwardly correct and comprehensive answer, and D is also valid. The primary intended answer is B."
+      "explanation": "Unicorn additions were highest in 2021 at 44, and total funding was also highest in 2021 at $42B. Funding per unicorn added was not highest in 2019, total unicorns rose from 79 to 104 rather than doubling from 2021 to 2023, and average funding per new unicorn was not lowest in 2023. Therefore, option B is correct."
     },
     {
       "id": "GT-S5Q55",
@@ -1052,8 +1055,9 @@
         "4",
         "5"
       ],
-      "correct": 1,
-      "explanation": "Total tasks = 5. DeltaAI = 0 tasks. GammaAI = 2 tasks. Remaining = 5 − 2 − 0 = 3 tasks for AlphaAI and BetaAI. BetaAI ≥ 1 task (given). AlphaAI > BetaAI. To maximise AlphaAI: Minimise BetaAI = 1 (minimum). Then AlphaAI = 3−1 = 2? No — AlphaAI must be more than BetaAI. If BetaAI=1, AlphaAI=2 (2>1 ✓). If BetaAI=0, that violates BetaAI≥1. So maximum AlphaAI = 3−1 = 2? Wait: 3 tasks split between Alpha and Beta. Alpha > Beta, Beta ≥ 1. Max Alpha = 2 (when Beta=1). Can Alpha=3? Then Beta=0 which violates Beta≥1. So maximum Alpha = 2. Wait — 5 total: Delta=0, Gamma=2, leaving 3 for Alpha+Beta. Max Alpha with Beta≥1: Alpha=2, Beta=1. Max = 2. But option B says 3 — let me recheck. If GammaAI=2, DeltaAI=0: remaining=3. BetaAI≥1, Alpha>Beta. Best case: Beta=1, Alpha=2. Maximum Alpha can win = 2 tasks. But the options show 3 as option B... Hmm, option A says 2. Maximum AlphaAI = 2. Option A is correct."
+      "correct": 0,
+      "explanation": "GammaAI won 2 tasks and DeltaAI won 0, leaving 3 tasks for AlphaAI and BetaAI. BetaAI must win at least 1 task, and AlphaAI must win more than BetaAI. To maximise AlphaAI, let BetaAI win 1 task; then AlphaAI wins 2 tasks. AlphaAI cannot win 3 because that would leave BetaAI with 0.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "GT-S5Q71",
@@ -1138,12 +1142,12 @@
       "question": "Study the following Climate Change Impact Data for India:\n\nIndicator | 1980 | 2000 | 2020 | 2023\nAvg Temp Rise (°C above baseline) | 0.3 | 0.5 | 0.8 | 1.0\nExtreme Heat Days/Year | 12 | 18 | 28 | 35\nGlacial Coverage (% remaining) | 95% | 88% | 78% | 74%\nSea Level Rise (mm above 1980) | 0 | 45 | 95 | 115\n\nBased on the data, which statement is most accurate?",
       "options": [
         "Temperature rise accelerated at a uniform rate throughout all periods",
-        "The rate of sea level rise was greater in the 2000-2020 period than the 2020-2023 period",
+        "The rate of sea level rise was lower in the 2000-2020 period than the 2020-2023 period",
         "Glacial coverage loss was proportionally largest in the 1980-2000 period",
         "Extreme heat days increased by exactly the same number in each 20-year period"
       ],
       "correct": 1,
-      "explanation": "Option A: Temp rise rates: 1980-2000: +0.2°C in 20 yrs. 2000-2020: +0.3°C in 20 yrs. 2020-2023: +0.2°C in 3 yrs. Not uniform. FALSE. Option B: Sea level rise: 2000-2020: 95-45=50mm in 20 yrs = 2.5mm/yr. 2020-2023: 115-95=20mm in 3 yrs = 6.67mm/yr. Rate was HIGHER in 2020-2023, not lower. FALSE. Option C: Glacial loss: 1980-2000: 95%→88%=7% points lost (7/95=7.4% proportional). 2000-2020: 88%→78%=10% pts (10/88=11.4%). 2020-2023: 78%→74%=4% pts (4/78=5.1%). Proportionally LARGEST was 2000-2020, not 1980-2000. FALSE. Option D: Heat days: 1980-2000: +6. 2000-2020: +10. NOT equal. FALSE. All options appear false — re-examining: Option B says 'greater in 2000-2020 than 2020-2023' meaning they expect the older period to have more. This is false per data. The most defensible answer given the data is B being incorrect in the correct direction — actually the question asks which is 'most accurate' and all seem false. Revisiting: C: 1980-2000 proportion = 7/95=7.37%; 2000-2020=10/88=11.36%; 2000-2020 is larger. C says 1980-2000 was largest — FALSE. The intended answer testing data interpretation skills is B, as the 2000-2020 period (2.5mm/yr) is indeed slower than 2020-2023 (6.67mm/yr) — meaning 2000-2020 had LOWER rate, so the statement 'rate was greater in 2000-2020' is false, making this the identifiably incorrect claim. Selecting B as the answer that can be most clearly evaluated from data."
+      "explanation": "Sea level rise increased by 50 mm over 20 years from 2000 to 2020, or 2.5 mm per year. From 2020 to 2023, it increased by 20 mm over 3 years, or about 6.67 mm per year. Thus, the sea-level-rise rate was lower in 2000-2020 than in 2020-2023. The other statements do not match the data."
     },
     {
       "id": "GT-S5Q77",
@@ -1247,8 +1251,9 @@
         "4.14 runs per batsman",
         "5.14 runs per batsman"
       ],
-      "correct": 2,
-      "explanation": "Total score = 186 runs. Top 3 batsmen: 45+67+38 = 150. Extras = 12. Runs by remaining 7 batsmen = 186 − 150 − 12 = 24 runs. Average per batsman among remaining 7 = 24/7 = 3.43 runs per batsman. Option B is 3.43. Rechecking: 186 − 150 = 36. 36 − 12 = 24. 24/7 = 3.43. Option B is correct."
+      "correct": 1,
+      "explanation": "Total score = 186 runs. Top 3 batsmen: 45+67+38 = 150. Extras = 12. Runs by remaining 7 batsmen = 186 − 150 − 12 = 24 runs. Average per batsman among remaining 7 = 24/7 = 3.43 runs per batsman. Option B is 3.43. Rechecking: 186 − 150 = 36. 36 − 12 = 24. 24/7 = 3.43. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S5Q84",
@@ -1352,8 +1357,9 @@
         "48%",
         "55%"
       ],
-      "correct": 1,
-      "explanation": "CAGR = [(Final Value / Initial Value)^(1/n) − 1] × 100, where n = number of years = 7. CAGR = [(21,083 / 1,520)^(1/7) − 1] × 100. 21,083/1,520 = 13.87. 13.87^(1/7) = 13.87^0.1429. ln(13.87) = 2.63. 2.63 × 0.1429 = 0.376. e^0.376 = 1.457. CAGR = (1.457 − 1) × 100 = 45.7% ≈ 46%. The closest option is B (42%) or C (48%). More precisely: 13.87^(1/7): try 1.45^7: 1.45² = 2.1025, 1.45⁴ = 4.42, 1.45⁷ = 4.42 × 1.45³ = 4.42 × 3.048 = 13.47 ≈ 13.87. So CAGR ≈ 45-46%. Option B (42%) is given but the mathematical answer is ~46%, closest to C (48%). Selecting C as closest."
+      "correct": 2,
+      "explanation": "CAGR = [(21,083/1,520)^(1/7) - 1] x 100. The ratio is about 13.87. Taking the seventh root gives about 1.457, so CAGR is about 45.7%. As an approximate MCQ answer, this rounds to 48%.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S5Q91",
@@ -1437,13 +1443,13 @@
       "difficulty": "difficult",
       "question": "India's PM-KUSUM scheme targets installing 30.8 GW of solar capacity for farmers. If 10 lakh farmers participate, each farmer gets average solar capacity of X kW. If the government subsidy is 30% of the total installation cost of ₹1.85 lakh per kW, what is the subsidy per farmer (in ₹)?",
       "options": [
-        "₹8,325",
-        "₹16,650",
-        "₹24,975",
-        "₹33,300"
+        "Rs.8,325",
+        "Rs.16,650",
+        "Rs.17,09,400",
+        "Rs.33,300"
       ],
       "correct": 2,
-      "explanation": "Total capacity = 30.8 GW = 30,80,000 kW. Number of farmers = 10,00,000. Capacity per farmer = 30,80,000/10,00,000 = 3.08 kW ≈ 3 kW per farmer (using round number for simplicity in exam context). Installation cost per farmer = 3 kW × ₹1,85,000/kW = ₹5,55,000. Subsidy = 30% of ₹5,55,000 = ₹1,66,500. But checking option C (₹24,975): If capacity per farmer = 30.8GW/10L = 3.08 kW. Cost = 3.08 × 1.85 lakh = 5.698 lakh. 30% subsidy = 1.709 lakh = ₹1,70,940. Options don't match. If we use 0.45 kW per farmer: 30.8GW/10L = 3.08 kW. Perhaps the question intends smaller units. Re-examining: Perhaps the question has a typo and intends ₹1.85 lakh per kW but only considers the subsidy per 0.45 kW module. Given option C = ₹24,975: cost = ₹24,975/0.30 = ₹83,250. ₹83,250/1,85,000 = 0.45 kW. This matches a 450W solar pump motor. Selecting C as the intended answer."
+      "explanation": "30.8 GW = 30,800,000 kW. With 10 lakh farmers, average capacity per farmer = 30,800,000/1,000,000 = 30.8 kW. Installation cost per farmer = 30.8 x Rs.1,85,000 = Rs.56,98,000. Subsidy at 30% = Rs.17,09,400."
     },
     {
       "id": "GT-S5Q97",
@@ -1500,10 +1506,11 @@
         "ROI = 2,460%",
         "ROI = 3,533%",
         "ROI = 1,800%",
-        "ROI = 4,000%"
+        "ROI = 28,471%"
       ],
-      "correct": 1,
-      "explanation": "Total investment: Initial = $50M. Maintenance over 10 years = $2M × 10 = $20M. Total cost = $70M. Total benefit: Annual savings = $2B/year × 10 years = $20B total. Net benefit = $20B − $70M = $19,930M ≈ $19.93B. ROI = (Net benefit / Total investment) × 100 = ($19,930M / $70M) × 100 = 284.7 × 100 = 28,471%? That's too high. Standard ROI = [(Total Returns − Total Cost) / Total Cost] × 100 = [(20,000 − 70) / 70] × 100 = [19,930/70] × 100 = 28,471%. None match. Using simpler ROI = Annual benefit / Total cost = 2,000/70 = 28.57 per year... Let's try: ROI = [(Annual savings − Annual maintenance) / Initial investment] × 100 = [(2,000 − 2) / 50] × 100 = [1,998/50] × 100 = 3,996% ≈ 4,000% per year. Option D. Or if ROI over 10 years: Net benefit = 20,000-70=19,930. ROI=19930/70×100=28471%. Given none match perfectly, selecting B (3,533%) as this matches: ROI = [(10 × 2,000 − 70) / 70] × 100 = [19,930/70] × 100... No. Annual ROI = [2,000-2-5]/50 × 100 = 1993/50 × 100 = 3,986% ≈ 4,000%. Option D seems most logical."
+      "correct": 3,
+      "explanation": "Total lifecycle cost = initial investment of $50M + maintenance of $2M x 10 = $70M. Total benefit over 10 years = $2B x 10 = $20B = $20,000M. Net benefit = 20,000 - 70 = $19,930M. ROI = (19,930/70) x 100 = 28,471%.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S5Q101",
@@ -1682,8 +1689,9 @@
         "39.14",
         "39.51"
       ],
-      "correct": 1,
-      "explanation": "Batting Average = Total Runs / (Innings − Not Outs) = 4,188 / (125 − 18) = 4,188 / 107 = 39.14. Wait — the passage says average is 48.7 across 125 innings (not the standard batting average). Let me recalculate: 4,188/107 = 39.14. But note the question asks for the calculated batting average using the given data (4,188 runs, 125 innings, 18 not-outs). The formula gives: 4,188 / (125-18) = 4,188/107 = 39.14. Option C (39.14) is mathematically correct. However, note the passage says 'average 48.7 across 125 innings' which could mean different calculation. The mathematical answer is 39.14. Option C is correct."
+      "correct": 2,
+      "explanation": "Batting average = Total Runs / (Innings - Not Outs) = 4,188 / (125 - 18) = 4,188/107 = 39.14. Therefore, the calculated batting average from the given data is 39.14.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "GT-S5Q113",
@@ -1878,7 +1886,7 @@
         "India won by following on, making Australia bat a second time"
       ],
       "correct": 1,
-      "explanation": "Based on the passage data: India 1st innings = 296. Australia 1st innings = 469 (lead of 173). India forced to follow on (trailing by 173, which meets the follow-on criterion of 200 runs in 5-day tests — wait, actually it's exactly 173, below 200). India batted again: 234 all out (2nd innings). Australia needed 296+234−469 = 61 runs? No: Australia need to score: India's total runs − Australia's first innings = (296+234) − 469 = 530 − 469 = 61 runs? That gives 61, not 444. The passage says Australia needed 444 which doesn't match the arithmetic. The passage as given in the question says Australia needed 444 and got it with 444/3, meaning Australia won. Option B is the answer: Australia won convincingly. (The actual WTC 2023 Final: Australia won by 209 runs. The numbers in the question are illustrative.)"
+      "explanation": "According to the passage, Australia reached the target on Day 5 with 444/3. Therefore, the conclusion supported by the passage is that Australia won the WTC Final 2023 convincingly despite India's competitive first innings."
     },
     {
       "id": "GT-S5Q126",
@@ -1907,8 +1915,9 @@
         "₹1.63 crore",
         "₹1.71 crore"
       ],
-      "correct": 1,
-      "explanation": "Olympic prizes: Silver (Rio) = ₹50 lakh. Bronze (Tokyo) = ₹30 lakh. Total Olympic = ₹80 lakh. BWF World Championship: 1 Gold = $50,000 = 50,000×83 = ₹41.5 lakh. 2 Silvers = 2×$30,000 = $60,000 = 60,000×83 = ₹49.8 lakh. Total BWF = 41.5+49.8 = ₹91.3 lakh. Grand Total = 80+91.3 = ₹171.3 lakh = ₹1.713 crore ≈ ₹1.71 crore. Option D (₹1.71 crore) seems correct, but let me recheck: ₹171.3 lakh = ₹1.713 crore. Option D = ₹1.71 crore. However, option B = ₹1.47 crore. Rechecking: Perhaps only 1 World Championship Silver counts (not 2): 1 Gold = ₹41.5L, 1 Silver = ₹24.9L. Olympic = ₹80L. Total = 80+41.5+24.9 = 146.4L = ₹1.464 crore ≈ ₹1.47 crore. With 1 Silver: ₹1.47 crore = Option B."
+      "correct": 3,
+      "explanation": "Olympic prize money = Rs.50 lakh + Rs.30 lakh = Rs.80 lakh. World Championship prize money = $50,000 + 2 x $30,000 = $110,000. At Rs.83 per dollar, this equals Rs.91.3 lakh. Total prize money = 80 + 91.3 = Rs.171.3 lakh = Rs.1.713 crore, approximately Rs.1.71 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S5Q128",
@@ -1952,8 +1961,9 @@
         "Ecommerce — $3.86B per unicorn",
         "Fintech and Ecommerce are tied"
       ],
-      "correct": 0,
-      "explanation": "Efficiency Score = Total Valuation / Number of Unicorns. Fintech: 95/26 = $3.65B per unicorn. Edtech: 40/18 = $2.22B. Ecommerce: 85/22 = $3.86B. Healthtech: 35/12 = $2.92B. SaaS: 55/16 = $3.44B. Logistics: 28/10 = $2.80B. Highest: Ecommerce at $3.86B. Wait — Option A says Fintech has highest ($3.65B) but calculated Ecommerce is $3.86B which is higher. Option C says Ecommerce = $3.86B which is actually the highest. Option C is the correct answer."
+      "correct": 2,
+      "explanation": "Efficiency Score = Total Valuation / Number of Unicorns. Fintech = 95/26 = $3.65B, Edtech = 40/18 = $2.22B, Ecommerce = 85/22 = $3.86B, Healthtech = 35/12 = $2.92B, SaaS = 55/16 = $3.44B, and Logistics/Auto = 28/10 = $2.80B. Ecommerce has the highest score.",
+      "correct_content_review_original": 0
     },
     {
       "id": "GT-S5Q131",
@@ -2412,13 +2422,13 @@
       "difficulty": "moderate",
       "question": "India's PM-POSHAN scheme (formerly Mid-Day Meal scheme) feeds approximately 12 crore school children daily. If the cost is ₹8.17 per child per day for primary students and ₹12.25 for upper primary students, and 60% are primary while 40% are upper primary, what is the approximate daily expenditure of the scheme (in ₹ crore)?",
       "options": [
-        "₹78.6 crore",
-        "> ₹98.8 crore",
-        "₹108.4 crore",
-        "₹58.8 crore"
+        "Rs.78.6 crore",
+        "Rs.117.6 crore",
+        "Rs.108.4 crore",
+        "Rs.58.8 crore"
       ],
       "correct": 0,
-      "explanation": "Total children = 12 crore. Primary (60%) = 7.2 crore. Upper primary (40%) = 4.8 crore. Daily cost for primary = 7.2 crore × ₹8.17 = ₹58.824 crore. Daily cost for upper primary = 4.8 crore × ₹12.25 = ₹58.80 crore. Total daily expenditure = 58.824 + 58.80 = ₹117.624 crore. This doesn't match any option exactly. Rechecking: 7.2 × 8.17 = 58.824. 4.8 × 12.25 = 58.8. Total = 117.6 crore. Hmm, none match. Let me try with 11 crore: 6.6×8.17+4.4×12.25 = 53.92+53.9 = 107.8 ≈ 108. Option C (₹108.4 crore) might use 11 crore total. Given 12 crore, the answer ~117.6 crore. Selecting option B (₹98.8 crore) if the rate used is lower. This question has calculation inconsistencies — Option A is closest for adjusted figures."
+      "explanation": "Primary students = 60% of 12 crore = 7.2 crore. Upper primary students = 4.8 crore. Daily cost for primary students = 7.2 x Rs.8.17 = Rs.58.824 crore. Daily cost for upper primary students = 4.8 x Rs.12.25 = Rs.58.80 crore. Total daily expenditure = Rs.117.624 crore, approximately Rs.117.6 crore."
     },
     {
       "id": "GT-S5Q162",
@@ -2688,7 +2698,7 @@
         "22.14 km/h"
       ],
       "correct": 2,
-      "explanation": "Time = 2:00:35 = 2 hours, 0 minutes, 35 seconds = 2 + 0/60 + 35/3600 hours = 2 + 35/3600 = 2.00972 hours. Distance = 42.195 km. Average speed = Distance / Time = 42.195 / 2.00972 = 20.997 ≈ 21.0 km/h. The closest option is C (21.08 km/h). For reference, elite marathon pace is approximately 20-21 km/h (sub-3 min/km). Sub-2 hour marathons require ~21.1 km/h average. Option C (21.08 km/h) is correct."
+      "explanation": "Time = 2 hours 35 seconds = 2 + 35/3600 = 2.00972 hours. Average speed = distance/time = 42.195/2.00972 = 20.997 km/h, approximately 21.0 km/h. The closest listed value is 21.08 km/h."
     },
     {
       "id": "GT-S5Q180",
@@ -2965,15 +2975,15 @@
       "type": "numerical",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "At the 2024 Paris Olympics, India's shooting team won a historic silver medal. India has sent 10 athletes in a team sport where the team score is the sum of top 3 individual scores. Individual scores (out of 630 points each) were: 617, 624, 608, 631, 619, 626, 614, 629, 615, 622. If silver medal was secured with a team score of 1878, which 3 athletes' scores formed the team total?",
+      "question": "At the 2024 Paris Olympics, India's shooting team won a historic silver medal. India has sent 10 athletes in a team sport where the team score is the sum of top 3 individual scores. Individual scores (out of 630 points each) were: 617, 624, 608, 631, 619, 626, 614, 629, 615, 622. If silver medal was secured with a team score of 1879, which 3 athletes' scores formed the team total?",
       "options": [
-        "631+629+622 = 1882 (too high for silver)",
-        "624+629+626 = 1879 (closest)",
-        "631+626+622 = 1879",
-        "631+629+619 = 1879"
+        "631+629+622 = 1882",
+        "624+629+626 = 1879",
+        "617+631+629 = 1877",
+        "626+614+629 = 1869"
       ],
       "correct": 1,
-      "explanation": "Team score needed = 1878. Looking for combinations summing to 1878: Available scores: 617, 624, 608, 631, 619, 626, 614, 629, 615, 622. Try top 3: 631+629+626 = 1886. Too high. 631+629+622 = 1882. Still high. 629+626+624 = 1879. Still 1 off. 629+626+622 = 1877. Close. 631+626+621? 621 not available. 629+624+625? Not available. 631+625+622? Not available. Actually checking: 624+629+626 = 1879 ≠ 1878. 622+629+627? No. 631+624+623? No. 629+626+623? No. The exact combination for 1878 would be: 631+626+621? No. 629+627+622? No. Given options, Option B (1879) is the closest to 1878 and most likely the intended answer with a minor rounding in the question."
+      "explanation": "The required team score is 1879. Checking the options: 631 + 629 + 622 = 1882; 624 + 629 + 626 = 1879; 617 + 631 + 629 = 1877; and 626 + 614 + 629 = 1869. Therefore, the team total was formed by 624, 629, and 626."
     },
     {
       "id": "GT-S5Q199",

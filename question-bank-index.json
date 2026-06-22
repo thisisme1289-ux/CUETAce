@@ -1,0 +1,4270 @@
+{
+  "generatedAt": "2026-06-09T17:37:16.608Z",
+  "entries": [
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC01",
+      "chapter": "Fundamentals of Partnership",
+      "sourcePath": "questions/accountancy/AC01.json",
+      "storagePath": "question-bank/chapters/accountancy/AC01.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC02",
+      "chapter": "Capital & Profit Sharing",
+      "sourcePath": "questions/accountancy/AC02.json",
+      "storagePath": "question-bank/chapters/accountancy/AC02.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "ACO3",
+      "chapter": "Reconstitution (Change in Ratio)",
+      "sourcePath": "questions/accountancy/AC03.json",
+      "storagePath": "question-bank/chapters/accountancy/ACO3.json",
+      "count": 180,
+      "answersMapped": 180,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC04",
+      "chapter": "Goodwill",
+      "sourcePath": "questions/accountancy/AC04.json",
+      "storagePath": "question-bank/chapters/accountancy/AC04.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC05",
+      "chapter": "Admission of a Partner",
+      "sourcePath": "questions/accountancy/AC05.json",
+      "storagePath": "question-bank/chapters/accountancy/AC05.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC06",
+      "chapter": "Retirement/Death of a Partner",
+      "sourcePath": "questions/accountancy/AC06.json",
+      "storagePath": "question-bank/chapters/accountancy/AC06.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC07",
+      "chapter": "Dissolution of Partnership Firm",
+      "sourcePath": "questions/accountancy/AC07.json",
+      "storagePath": "question-bank/chapters/accountancy/AC07.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC08",
+      "chapter": "Realisation Account (Dissolution)",
+      "sourcePath": "questions/accountancy/AC08.json",
+      "storagePath": "question-bank/chapters/accountancy/AC08.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC09",
+      "chapter": "Share Capital",
+      "sourcePath": "questions/accountancy/AC09.json",
+      "storagePath": "question-bank/chapters/accountancy/AC09.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC10",
+      "chapter": "Issue of Shares",
+      "sourcePath": "questions/accountancy/AC10.json",
+      "storagePath": "question-bank/chapters/accountancy/AC10.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC11",
+      "chapter": "Forfeiture & Reissue of Shares",
+      "sourcePath": "questions/accountancy/AC11.json",
+      "storagePath": "question-bank/chapters/accountancy/AC11.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC12",
+      "chapter": "Debentures",
+      "sourcePath": "questions/accountancy/AC12.json",
+      "storagePath": "question-bank/chapters/accountancy/AC12.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC13",
+      "chapter": "Financial Statements",
+      "sourcePath": "questions/accountancy/AC13.json",
+      "storagePath": "question-bank/chapters/accountancy/AC13.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC14",
+      "chapter": "Comparative & Common Size Statements",
+      "sourcePath": "questions/accountancy/AC14.json",
+      "storagePath": "question-bank/chapters/accountancy/AC14.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC15",
+      "chapter": "Accounting Ratios",
+      "sourcePath": "questions/accountancy/AC15.json",
+      "storagePath": "question-bank/chapters/accountancy/AC15.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "chapterId": "AC16",
+      "chapter": "Cash Flow Statement",
+      "sourcePath": "questions/accountancy/AC16.json",
+      "storagePath": "question-bank/chapters/accountancy/AC16.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS01",
+      "chapter": "Nature and Significance of Management (Concept, Objectives, Levels, Functions, Coordination)",
+      "sourcePath": "questions/business-studies/BS01.json",
+      "storagePath": "question-bank/chapters/business-studies/BS01.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS02",
+      "chapter": "BS02 — Principles of Management (Fayol's 14 Principles, Taylor's Scientific Management)",
+      "sourcePath": "questions/business-studies/BS02.json",
+      "storagePath": "question-bank/chapters/business-studies/BS02.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS03",
+      "chapter": "Business Environment (Meaning, Importance, Dimensions — Economic, Social, Technological, Political, Legal)",
+      "sourcePath": "questions/business-studies/BS03.json",
+      "storagePath": "question-bank/chapters/business-studies/BS03.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS04",
+      "chapter": "BS04 — Planning (Meaning, Features, Importance, Limitations, Process, Types of Plans)",
+      "sourcePath": "questions/business-studies/BS04.json",
+      "storagePath": "question-bank/chapters/business-studies/BS04.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS05",
+      "chapter": "Organising (Process, Structures, Formal/Informal, Delegation, Decentralisation)",
+      "sourcePath": "questions/business-studies/BS05.json",
+      "storagePath": "question-bank/chapters/business-studies/BS05.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS06",
+      "chapter": "BS06 — Staffing (Need, Process, Recruitment Sources, Selection, Training and Development)",
+      "sourcePath": "questions/business-studies/BS06.json",
+      "storagePath": "question-bank/chapters/business-studies/BS06.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS07",
+      "chapter": "BS07 — Directing (Supervision, Motivation — Maslow, Financial/Non-Financial Incentives, Leadership, Communication)",
+      "sourcePath": "questions/business-studies/BS07.json",
+      "storagePath": "question-bank/chapters/business-studies/BS07.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS08",
+      "chapter": "Controlling (Meaning, Importance, Relationship with Planning, Steps in Control Process)",
+      "sourcePath": "questions/business-studies/BS08.json",
+      "storagePath": "question-bank/chapters/business-studies/BS08.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS09",
+      "chapter": "BS09 — Business Finance (Financial Decisions, Planning, Capital Structure, Fixed and Working Capital)",
+      "sourcePath": "questions/business-studies/BS09.json",
+      "storagePath": "question-bank/chapters/business-studies/BS09.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS10",
+      "chapter": "BS10 — Financial Markets (Money Market, Capital Market, Stock Exchange, Depository/Demat, SEBI)",
+      "sourcePath": "questions/business-studies/BS10.json",
+      "storagePath": "question-bank/chapters/business-studies/BS10.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "case_based",
+        "concept",
+        "definition",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS11",
+      "chapter": "Marketing (Meaning, Functions, Marketing Mix — Product, Price, Place, Promotion)",
+      "sourcePath": "questions/business-studies/BS11.json",
+      "storagePath": "question-bank/chapters/business-studies/BS11.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "chapterId": "BS12",
+      "chapter": "Consumer Protection (Importance, Rights, Responsibilities, Act 2019, Redressal, NGOs)",
+      "sourcePath": "questions/business-studies/BS12.json",
+      "storagePath": "question-bank/chapters/business-studies/BS12.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "not_type",
+        "statement_based"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC01",
+      "chapter": "Introduction to Microeconomics (Meaning, Central Problems, Consumer's Budget and Optimal Choice)",
+      "sourcePath": "questions/economics/EC01.json",
+      "storagePath": "question-bank/chapters/economics/EC01.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC02",
+      "chapter": "Consumer's Equilibrium and Demand (Utility Approach, Demand Curve, Elasticity of Demand)",
+      "sourcePath": "questions/economics/EC02.json",
+      "storagePath": "question-bank/chapters/economics/EC02.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC03",
+      "chapter": "Production and Costs (Production Function, TP/MP/AP, Cost Curves, Revenue, Producer's Equilibrium)",
+      "sourcePath": "questions/economics/EC03.json",
+      "storagePath": "question-bank/chapters/economics/EC03.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC04",
+      "chapter": "Perfect Competition and Supply (Features, Profit Maximisation, Price Determination, Supply Curve, Elasticity of Supply)",
+      "sourcePath": "questions/economics/EC04.json",
+      "storagePath": "question-bank/chapters/economics/EC04.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC05",
+      "chapter": "Market Equilibrium (Equilibrium Price, Excess Demand/Supply, Price Ceiling and Price Floor)",
+      "sourcePath": "questions/economics/EC05.json",
+      "storagePath": "question-bank/chapters/economics/EC05.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC06",
+      "chapter": "National Income Accounting (Circular Flow, GDP Methods — Value Added, Expenditure, Income)",
+      "sourcePath": "questions/economics/EC06.json",
+      "storagePath": "question-bank/chapters/economics/EC06.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC07",
+      "chapter": "Aggregates and GDP Welfare (Factor Cost, Basic Prices, Market Price, Nominal vs Real GDP)",
+      "sourcePath": "questions/economics/EC07.json",
+      "storagePath": "question-bank/chapters/economics/EC07.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC08",
+      "chapter": "Money and Banking (Money Supply, Money Creation, Central Bank — RBI, Monetary Policy Tools)",
+      "sourcePath": "questions/economics/EC08.json",
+      "storagePath": "question-bank/chapters/economics/EC08.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC09",
+      "chapter": "Income and Employment (Aggregate Demand, Two-Sector Model, Multiplier, Excess/Deficient Demand)",
+      "sourcePath": "questions/economics/EC09.json",
+      "storagePath": "question-bank/chapters/economics/EC09.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC10",
+      "chapter": "Government Budget (Meaning, Objectives, Components, Revenue vs Capital, Budget Deficits)",
+      "sourcePath": "questions/economics/EC10.json",
+      "storagePath": "question-bank/chapters/economics/EC10.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC11",
+      "chapter": "Open Economy Macroeconomics (BOP Accounts, BOP Surplus/Deficit, Exchange Rate Systems, Managed Floating)",
+      "sourcePath": "questions/economics/EC11.json",
+      "storagePath": "question-bank/chapters/economics/EC11.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC12",
+      "chapter": "EC12 — Development Policies 1947–90 (Indian Economy at Independence, Five Year Plans, Agriculture, Industry, Trade)",
+      "sourcePath": "questions/economics/EC12.json",
+      "storagePath": "question-bank/chapters/economics/EC12.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC13",
+      "chapter": "Economic Reforms Since 1991 (Liberalisation, Privatisation, Globalisation — LPG Policy, Appraisal)",
+      "sourcePath": "questions/economics/EC13.json",
+      "storagePath": "question-bank/chapters/economics/EC13.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC14",
+      "chapter": "Current Challenges: Human Capital, Rural Development, Employment, Environment and Sustainable Development",
+      "sourcePath": "questions/economics/EC14.json",
+      "storagePath": "question-bank/chapters/economics/EC14.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "chapterId": "EC15",
+      "chapter": "Development Experience: India vs Neighbours (Growth, Population, Sectoral Development, HDI Comparison)",
+      "sourcePath": "questions/economics/EC15.json",
+      "storagePath": "question-bank/chapters/economics/EC15.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "definition",
+        "graph_based",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "English",
+      "subjectSlug": "english",
+      "chapterId": "EN-S1",
+      "chapter": "",
+      "sourcePath": "questions/english/EN-S1.json",
+      "storagePath": "question-bank/chapters/english/EN-S1.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "grammar",
+        "match_following",
+        "not_type",
+        "para_jumble",
+        "rc_based",
+        "statement_based",
+        "vocabulary"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "English",
+      "subjectSlug": "english",
+      "chapterId": "EN-S2",
+      "chapter": "",
+      "sourcePath": "questions/english/EN-S2.json",
+      "storagePath": "question-bank/chapters/english/EN-S2.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "para_jumble"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "English",
+      "subjectSlug": "english",
+      "chapterId": "EN-S3",
+      "chapter": "",
+      "sourcePath": "questions/english/EN-S3.json",
+      "storagePath": "question-bank/chapters/english/EN-S3.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "grammar",
+        "match_following",
+        "rc_based",
+        "statement_based",
+        "vocabulary"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "English",
+      "subjectSlug": "english",
+      "chapterId": "EN-S4",
+      "chapter": "",
+      "sourcePath": "questions/english/EN-S4.json",
+      "storagePath": "question-bank/chapters/english/EN-S4.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "grammar",
+        "not_type",
+        "rc_based",
+        "statement_based",
+        "vocabulary"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "English",
+      "subjectSlug": "english",
+      "chapterId": "EN-S5",
+      "chapter": "",
+      "sourcePath": "questions/english/EN-S5.json",
+      "storagePath": "question-bank/chapters/english/EN-S5.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "grammar",
+        "not_type",
+        "statement_based",
+        "vocabulary"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S1",
+      "chapter": "Indian Polity (Constitution and Preamble, Fundamental Rights and Duties, Parliament and Legislature, Executive and Judiciary, Local Government and Elections)",
+      "sourcePath": "questions/general-test/GT-S1.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S1.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "data_interpretation",
+        "logical_reasoning",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S2",
+      "chapter": "Indian History (Ancient India, Medieval India, Modern India and Freedom Struggle, Important Events and Dates, Important Personalities)",
+      "sourcePath": "questions/general-test/GT-S2.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S2.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "data_interpretation",
+        "logical_reasoning",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S3",
+      "chapter": "GT-S3 — Indian Geography (Physical Features, Climate and Rivers, Resources and Agriculture)",
+      "sourcePath": "questions/general-test/GT-S3.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S3.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "data_interpretation",
+        "definition",
+        "logical_reasoning",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S4",
+      "chapter": "GT-S4 — Indian Economy (Basics and Planning, Banking and Finance, Trade and Budget, Government Schemes and Policies)",
+      "sourcePath": "questions/general-test/GT-S4.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S4.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "data_interpretation",
+        "definition",
+        "logical_reasoning",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S5",
+      "chapter": "GT-S5 — General Awareness (Awards and Honours, Sports and Games, Science and Technology, Current Affairs)",
+      "sourcePath": "questions/general-test/GT-S5.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S5.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "data_interpretation",
+        "definition",
+        "logical_reasoning",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S6",
+      "chapter": "Quantitative Aptitude (Percentage, Profit and Loss, Simple and Compound Interest, Ratio and Proportion, Time and Work, Speed Distance and Time, Problems on Ages, Number Series, Letter and Alphabet Series)",
+      "sourcePath": "questions/general-test/GT-S6.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S6.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "data_interpretation",
+        "logical_reasoning",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S7",
+      "chapter": "Data Interpretation (Tables, Bar Graphs, Pie Charts, Line Graphs)",
+      "sourcePath": "questions/general-test/GT-S7.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S7.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "data_interpretation",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S8",
+      "chapter": "Reasoning (Analogies, Classification, Coding-Decoding, Blood Relations, Direction and Distance, Ranking and Order, Syllogisms, Statements and Assumptions, Cause and Effect)",
+      "sourcePath": "questions/general-test/GT-S8.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S8.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "data_interpretation",
+        "logical_reasoning",
+        "not_type"
+      ]
+    },
+    {
+      "mode": "chapter",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "chapterId": "GT-S9",
+      "chapter": "GT-S9 — General Science and Environment (Physics Chemistry and Biology Basics, Biodiversity, Climate Change and Sustainability)",
+      "sourcePath": "questions/general-test/GT-S9.json",
+      "storagePath": "question-bank/chapters/general-test/GT-S9.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "types": [
+        "assertion_reason",
+        "case_based",
+        "concept",
+        "data_interpretation",
+        "definition",
+        "logical_reasoning",
+        "not_type",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2022",
+      "needsReview": true,
+      "reviewReasons": [
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "storagePath": "question-bank/past-years/2022/accountancy.json",
+      "count": 40,
+      "answersMapped": 40,
+      "readinessQuestions": 40,
+      "readinessAnswersMapped": 40,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2022",
+      "needsReview": true,
+      "reviewReasons": [
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts",
+        "low_source_confidence"
+      ],
+      "sourcePath": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "storagePath": "question-bank/past-years/2022/business-studies.json",
+      "count": 37,
+      "answersMapped": 37,
+      "readinessQuestions": 37,
+      "readinessAnswersMapped": 37,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2022",
+      "needsReview": true,
+      "reviewReasons": [
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2022/economics/json/2022-economics.json",
+      "storagePath": "question-bank/past-years/2022/economics.json",
+      "count": 41,
+      "answersMapped": 41,
+      "readinessQuestions": 41,
+      "readinessAnswersMapped": 41,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2022",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2022/english/json/2022-english.json",
+      "storagePath": "question-bank/past-years/2022/english.json",
+      "count": 47,
+      "answersMapped": 47,
+      "readinessQuestions": 47,
+      "readinessAnswersMapped": 47,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq",
+        "rc_based"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2022",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2022/general-test/json/2022-general-test.json",
+      "storagePath": "question-bank/past-years/2022/general-test.json",
+      "count": 31,
+      "answersMapped": 31,
+      "readinessQuestions": 31,
+      "readinessAnswersMapped": 31,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2023",
+      "needsReview": true,
+      "reviewReasons": [
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "storagePath": "question-bank/past-years/2023/accountancy.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2023",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2023/business-studies/json/2023-business-studies.json",
+      "storagePath": "question-bank/past-years/2023/business-studies.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2023",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2023/economics/json/2023-economics.json",
+      "storagePath": "question-bank/past-years/2023/economics.json",
+      "count": 42,
+      "answersMapped": 42,
+      "readinessQuestions": 42,
+      "readinessAnswersMapped": 42,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2023",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2023/english/json/2023-english.json",
+      "storagePath": "question-bank/past-years/2023/english.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2023",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2023/general-test/json/2023-general-test.json",
+      "storagePath": "question-bank/past-years/2023/general-test.json",
+      "count": 58,
+      "answersMapped": 58,
+      "readinessQuestions": 58,
+      "readinessAnswersMapped": 58,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "needsReview": true,
+      "reviewReasons": [
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "storagePath": "question-bank/past-years/2024/accountancy.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/business-studies/json/2024-business-studies.json",
+      "storagePath": "question-bank/past-years/2024/business-studies.json",
+      "count": 50,
+      "answersMapped": 49,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 49,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "needsReview": true,
+      "reviewReasons": [
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/2024-economics.json",
+      "storagePath": "question-bank/past-years/2024/economics.json",
+      "count": 49,
+      "answersMapped": 49,
+      "readinessQuestions": 49,
+      "readinessAnswersMapped": 49,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2024",
+      "needsReview": true,
+      "reviewReasons": [
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/english/json/2024-english.json",
+      "storagePath": "question-bank/past-years/2024/english.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "needsReview": true,
+      "reviewReasons": [
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/2024-general-test.json",
+      "storagePath": "question-bank/past-years/2024/general-test.json",
+      "count": 52,
+      "answersMapped": 52,
+      "readinessQuestions": 52,
+      "readinessAnswersMapped": 52,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2025",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2025/accountancy/json/2025-accountancy.json",
+      "storagePath": "question-bank/past-years/2025/accountancy.json",
+      "count": 50,
+      "answersMapped": 42,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 42,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2025",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/business-studies/json/2025-business-studies.json",
+      "storagePath": "question-bank/past-years/2025/business-studies.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2025",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2025/economics/json/2025-economics.json",
+      "storagePath": "question-bank/past-years/2025/economics.json",
+      "count": 50,
+      "answersMapped": 45,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 45,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/2025-english.json",
+      "storagePath": "question-bank/past-years/2025/english.json",
+      "count": 49,
+      "answersMapped": 49,
+      "readinessQuestions": 49,
+      "readinessAnswersMapped": 49,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2025",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/general-test/json/2025-general-test.json",
+      "storagePath": "question-bank/past-years/2025/general-test.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2023",
+      "paper": "2023-accountancy-02-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2023/accountancy/json/individual-pdfs/2023-accountancy-02-solutions.json",
+      "storagePath": "question-bank/past-years/2023/accountancy/individual/2023-accountancy-02-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2023",
+      "paper": "2023-economics-11-solutions",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers"
+      ],
+      "sourcePath": "past year paper/2023/economics/json/individual-pdfs/2023-economics-11-solutions.json",
+      "storagePath": "question-bank/past-years/2023/economics/individual/2023-economics-11-solutions.json",
+      "count": 4,
+      "answersMapped": 0,
+      "readinessQuestions": 4,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2023",
+      "paper": "2023-english-02-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2023/english/json/individual-pdfs/2023-english-02-solutions.json",
+      "storagePath": "question-bank/past-years/2023/english/individual/2023-english-02-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2023",
+      "paper": "2023-general-test-02-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2023/general-test/json/individual-pdfs/2023-general-test-02-question-paper.json",
+      "storagePath": "question-bank/past-years/2023/general-test/individual/2023-general-test-02-question-paper.json",
+      "count": 28,
+      "answersMapped": 28,
+      "readinessQuestions": 28,
+      "readinessAnswersMapped": 28,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-01-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-01-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-02-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-02-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-02-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-03-solutions",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-03-solutions.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-03-solutions.json",
+      "count": 15,
+      "answersMapped": 14,
+      "readinessQuestions": 15,
+      "readinessAnswersMapped": 14,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-04-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-04-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-04-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-05-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-05-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-05-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-06-solutions",
+      "needsReview": true,
+      "reviewReasons": [
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-06-solutions.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-06-solutions.json",
+      "count": 16,
+      "answersMapped": 16,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 16,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-07-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-07-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-07-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-08-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-08-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-08-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-09-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-09-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-09-question-paper.json",
+      "count": 15,
+      "answersMapped": 15,
+      "readinessQuestions": 15,
+      "readinessAnswersMapped": 15,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-10-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-10-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-10-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-11-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-11-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-11-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-12-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-12-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-12-question-paper.json",
+      "count": 16,
+      "answersMapped": 15,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 15,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-15-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-15-solutions.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-15-solutions.json",
+      "count": 49,
+      "answersMapped": 49,
+      "readinessQuestions": 49,
+      "readinessAnswersMapped": 49,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-16-answer-key",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-16-answer-key.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-16-answer-key.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-17-answer-key",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-17-answer-key.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-17-answer-key.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-18-answer-key",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-18-answer-key.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-18-answer-key.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2024",
+      "paper": "2024-accountancy-19-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/accountancy/json/individual-pdfs/2024-accountancy-19-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/accountancy/individual/2024-accountancy-19-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-01-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-01-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-02-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-02-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-02-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-03-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-03-solutions.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-03-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-04-answer-key",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-04-answer-key.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-04-answer-key.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-05-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-05-solutions.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-05-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-06-answer-key",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-06-answer-key.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-06-answer-key.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-07-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-07-solutions.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-07-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-08-answer-key",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-08-answer-key.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-08-answer-key.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2024",
+      "paper": "2024-business-studies-09-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/business-studies/json/individual-pdfs/2024-business-studies-09-solutions.json",
+      "storagePath": "question-bank/past-years/2024/business-studies/individual/2024-business-studies-09-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-01-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-01-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-02-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-02-solutions.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-02-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-03-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-03-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-03-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-04-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-04-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-04-question-paper.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-05-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-05-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-05-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-06-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-06-solutions.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-06-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-07-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-07-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-07-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-08-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-08-solutions.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-08-solutions.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readinessQuestions": 50,
+      "readinessAnswersMapped": 50,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-10-solutions",
+      "needsReview": true,
+      "reviewReasons": [
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-10-solutions.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-10-solutions.json",
+      "count": 14,
+      "answersMapped": 14,
+      "readinessQuestions": 14,
+      "readinessAnswersMapped": 14,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-11-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-11-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-11-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-12-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-12-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-12-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-13-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-13-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-13-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "year": "2024",
+      "paper": "2024-economics-14-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/economics/json/individual-pdfs/2024-economics-14-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/economics/individual/2024-economics-14-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-01-answer-key",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-01-answer-key.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-01-answer-key.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-02-answer-key",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-02-answer-key.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-02-answer-key.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-04-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-04-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-04-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-05-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts",
+        "page_or_ocr_artifacts"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-05-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-05-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-07-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-07-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-07-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-08-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-08-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-08-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-10-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-10-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-10-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-12-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-12-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-12-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-14-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-14-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-14-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-15-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-15-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-15-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-17-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-17-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-17-question-paper.json",
+      "count": 43,
+      "answersMapped": 0,
+      "readinessQuestions": 43,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-19-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "placeholder_options",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-19-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-19-question-paper.json",
+      "count": 43,
+      "answersMapped": 0,
+      "readinessQuestions": 43,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "year": "2024",
+      "paper": "2024-general-test-21-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options"
+      ],
+      "sourcePath": "past year paper/2024/general-test/json/individual-pdfs/2024-general-test-21-question-paper.json",
+      "storagePath": "question-bank/past-years/2024/general-test/individual/2024-general-test-21-question-paper.json",
+      "count": 44,
+      "answersMapped": 0,
+      "readinessQuestions": 44,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2025",
+      "paper": "2025-accountancy-01-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers"
+      ],
+      "sourcePath": "past year paper/2025/accountancy/json/individual-pdfs/2025-accountancy-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/accountancy/individual/2025-accountancy-01-question-paper.json",
+      "count": 11,
+      "answersMapped": 7,
+      "readinessQuestions": 11,
+      "readinessAnswersMapped": 7,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "year": "2025",
+      "paper": "2025-accountancy-02-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/accountancy/json/individual-pdfs/2025-accountancy-02-solutions.json",
+      "storagePath": "question-bank/past-years/2025/accountancy/individual/2025-accountancy-02-solutions.json",
+      "count": 11,
+      "answersMapped": 11,
+      "readinessQuestions": 11,
+      "readinessAnswersMapped": 11,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2025",
+      "paper": "2025-business-studies-03-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers",
+        "weak_or_polluted_options",
+        "weak_or_polluted_prompts"
+      ],
+      "sourcePath": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-03-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/business-studies/individual/2025-business-studies-03-question-paper.json",
+      "count": 25,
+      "answersMapped": 0,
+      "readinessQuestions": 25,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2025",
+      "paper": "2025-business-studies-04-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers"
+      ],
+      "sourcePath": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-04-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/business-studies/individual/2025-business-studies-04-question-paper.json",
+      "count": 24,
+      "answersMapped": 0,
+      "readinessQuestions": 24,
+      "readinessAnswersMapped": 0,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2025",
+      "paper": "2025-business-studies-05-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-05-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/business-studies/individual/2025-business-studies-05-question-paper.json",
+      "count": 5,
+      "answersMapped": 5,
+      "readinessQuestions": 5,
+      "readinessAnswersMapped": 5,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "year": "2025",
+      "paper": "2025-business-studies-15-may-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/business-studies/json/individual-pdfs/2025-business-studies-15-may-solutions.json",
+      "storagePath": "question-bank/past-years/2025/business-studies/individual/2025-business-studies-15-may-solutions.json",
+      "count": 15,
+      "answersMapped": 15,
+      "readinessQuestions": 15,
+      "readinessAnswersMapped": 15,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-01-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-01-question-paper.json",
+      "count": 10,
+      "answersMapped": 10,
+      "readinessQuestions": 10,
+      "readinessAnswersMapped": 10,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-02-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-02-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-02-question-paper.json",
+      "count": 14,
+      "answersMapped": 14,
+      "readinessQuestions": 14,
+      "readinessAnswersMapped": 14,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-03-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers"
+      ],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-03-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-03-question-paper.json",
+      "count": 14,
+      "answersMapped": 12,
+      "readinessQuestions": 14,
+      "readinessAnswersMapped": 12,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-04-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-04-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-04-question-paper.json",
+      "count": 12,
+      "answersMapped": 12,
+      "readinessQuestions": 12,
+      "readinessAnswersMapped": 12,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-05-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-05-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-05-question-paper.json",
+      "count": 13,
+      "answersMapped": 13,
+      "readinessQuestions": 13,
+      "readinessAnswersMapped": 13,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-06-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-06-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-06-question-paper.json",
+      "count": 16,
+      "answersMapped": 16,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 16,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-07-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-07-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-07-question-paper.json",
+      "count": 18,
+      "answersMapped": 18,
+      "readinessQuestions": 18,
+      "readinessAnswersMapped": 18,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-08-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-08-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-08-question-paper.json",
+      "count": 11,
+      "answersMapped": 11,
+      "readinessQuestions": 11,
+      "readinessAnswersMapped": 11,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-09-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers"
+      ],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-09-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-09-question-paper.json",
+      "count": 16,
+      "answersMapped": 15,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 15,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-10-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-10-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-10-question-paper.json",
+      "count": 9,
+      "answersMapped": 9,
+      "readinessQuestions": 9,
+      "readinessAnswersMapped": 9,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-11-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-11-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-11-question-paper.json",
+      "count": 5,
+      "answersMapped": 5,
+      "readinessQuestions": 5,
+      "readinessAnswersMapped": 5,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-12-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-12-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-12-question-paper.json",
+      "count": 5,
+      "answersMapped": 5,
+      "readinessQuestions": 5,
+      "readinessAnswersMapped": 5,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-13-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-13-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-13-question-paper.json",
+      "count": 5,
+      "answersMapped": 5,
+      "readinessQuestions": 5,
+      "readinessAnswersMapped": 5,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-june-2-01-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-june-2-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-june-2-01-question-paper.json",
+      "count": 14,
+      "answersMapped": 14,
+      "readinessQuestions": 14,
+      "readinessAnswersMapped": 14,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-june-2-02-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-june-2-02-solutions.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-june-2-02-solutions.json",
+      "count": 14,
+      "answersMapped": 14,
+      "readinessQuestions": 14,
+      "readinessAnswersMapped": 14,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-13-01-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-13-01-question-paper.json",
+      "count": 5,
+      "answersMapped": 5,
+      "readinessQuestions": 5,
+      "readinessAnswersMapped": 5,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-13-02-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-02-solutions.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-13-02-solutions.json",
+      "count": 5,
+      "answersMapped": 5,
+      "readinessQuestions": 5,
+      "readinessAnswersMapped": 5,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-13-03-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-13-03-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-13-03-question-paper.json",
+      "count": 5,
+      "answersMapped": 5,
+      "readinessQuestions": 5,
+      "readinessAnswersMapped": 5,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-14-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-14-solutions.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-14-solutions.json",
+      "count": 5,
+      "answersMapped": 5,
+      "readinessQuestions": 5,
+      "readinessAnswersMapped": 5,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-20-01-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-20-01-question-paper.json",
+      "count": 16,
+      "answersMapped": 16,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 16,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-20-02-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-02-solutions.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-20-02-solutions.json",
+      "count": 16,
+      "answersMapped": 16,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 16,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-20-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-20-solutions.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-20-solutions.json",
+      "count": 16,
+      "answersMapped": 16,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 16,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-26-01-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-26-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-26-01-question-paper.json",
+      "count": 16,
+      "answersMapped": 16,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 16,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-26-02-solutions",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-26-02-solutions.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-26-02-solutions.json",
+      "count": 16,
+      "answersMapped": 16,
+      "readinessQuestions": 16,
+      "readinessAnswersMapped": 16,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-27-01-question-paper",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing_or_invalid_answers"
+      ],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-27-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-27-01-question-paper.json",
+      "count": 14,
+      "answersMapped": 12,
+      "readinessQuestions": 14,
+      "readinessAnswersMapped": 12,
+      "readyForStudentUse": false,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-29-01-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-29-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-29-01-question-paper.json",
+      "count": 12,
+      "answersMapped": 12,
+      "readinessQuestions": 12,
+      "readinessAnswersMapped": 12,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-29-02-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-29-02-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-29-02-question-paper.json",
+      "count": 12,
+      "answersMapped": 12,
+      "readinessQuestions": 12,
+      "readinessAnswersMapped": 12,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-31-01-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-31-01-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-31-01-question-paper.json",
+      "count": 10,
+      "answersMapped": 10,
+      "readinessQuestions": 10,
+      "readinessAnswersMapped": 10,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-individual",
+      "subject": "English",
+      "subjectSlug": "english",
+      "year": "2025",
+      "paper": "2025-english-may-31-02-question-paper",
+      "needsReview": false,
+      "reviewReasons": [],
+      "sourcePath": "past year paper/2025/english/json/individual-pdfs/2025-english-may-31-02-question-paper.json",
+      "storagePath": "question-bank/past-years/2025/english/individual/2025-english-may-31-02-question-paper.json",
+      "count": 10,
+      "answersMapped": 10,
+      "readinessQuestions": 10,
+      "readinessAnswersMapped": 10,
+      "readyForStudentUse": true,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-import-pack",
+      "subject": "General Test",
+      "subjectSlug": "general-test",
+      "subjectCode": "501",
+      "year": "2022-2025",
+      "packId": "GT-PYP-2022-2025",
+      "chapterId": "GT-PYP-2022-2025",
+      "chapter": "CUET 2022-2025 General Test Previous-Year Additions",
+      "sourcePath": "past year paper/import-packs/2022-2025-general-test-ready-additions.json",
+      "storagePath": "question-bank/import-packs/GT-PYP-2022-2025.json",
+      "sourceQueue": "past year paper/add-candidate-queue.json",
+      "count": 167,
+      "answersMapped": 167,
+      "readyForStudentUse": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "needsChapterReview": 0,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "logical_reasoning",
+        "mcq",
+        "numerical"
+      ]
+    },
+    {
+      "mode": "pyp-import-pack",
+      "subject": "Economics",
+      "subjectSlug": "economics",
+      "subjectCode": "309",
+      "year": "2023-2024",
+      "packId": "EC-PYP-2023-2024",
+      "chapterId": "EC-PYP-2023-2024",
+      "chapter": "CUET 2023-2024 Economics Previous-Year Additions",
+      "sourcePath": "past year paper/import-packs/2023-2024-economics-ready-additions.json",
+      "storagePath": "question-bank/import-packs/EC-PYP-2023-2024.json",
+      "sourceQueue": "past year paper/add-candidate-queue.json",
+      "count": 238,
+      "answersMapped": 238,
+      "readyForStudentUse": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "needsChapterReview": 0,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-import-pack",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "subjectCode": "305",
+      "year": "2023",
+      "packId": "BS-PYP-2023",
+      "chapterId": "BS-PYP-2023",
+      "chapter": "CUET 2023 Business Studies Previous-Year Additions",
+      "sourcePath": "past year paper/import-packs/2023-business-studies-ready-additions.json",
+      "storagePath": "question-bank/import-packs/BS-PYP-2023.json",
+      "sourceQueue": "past year paper/add-candidate-queue.json",
+      "count": 50,
+      "answersMapped": 50,
+      "readyForStudentUse": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "needsChapterReview": 0,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-import-pack",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "subjectCode": "305",
+      "year": "2024",
+      "packId": "BS-PYP-2024",
+      "chapterId": "BS-PYP-2024",
+      "chapter": "CUET 2024 Business Studies Previous-Year Additions",
+      "sourcePath": "past year paper/import-packs/2024-business-studies-ready-additions.json",
+      "storagePath": "question-bank/import-packs/BS-PYP-2024.json",
+      "sourceQueue": "past year paper/add-candidate-queue.json",
+      "count": 200,
+      "answersMapped": 200,
+      "readyForStudentUse": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "needsChapterReview": 0,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-import-pack",
+      "subject": "Accountancy",
+      "subjectSlug": "accountancy",
+      "subjectCode": "301",
+      "year": "2024-2025",
+      "packId": "AC-PYP-2024-2025",
+      "chapterId": "AC-PYP-2024-2025",
+      "chapter": "CUET 2024-2025 Accountancy Previous-Year Additions",
+      "sourcePath": "past year paper/import-packs/2025-accountancy-ready-additions.json",
+      "storagePath": "question-bank/import-packs/AC-PYP-2024-2025.json",
+      "sourceQueue": "past year paper/add-candidate-queue.json",
+      "count": 108,
+      "answersMapped": 108,
+      "readyForStudentUse": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "needsChapterReview": 0,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-import-pack",
+      "subject": "Business Studies",
+      "subjectSlug": "business-studies",
+      "subjectCode": "305",
+      "year": "2025",
+      "packId": "BS-PYP-2025",
+      "chapterId": "BS-PYP-2025",
+      "chapter": "CUET 2025 Business Studies Previous-Year Additions",
+      "sourcePath": "past year paper/import-packs/2025-business-studies-ready-additions.json",
+      "storagePath": "question-bank/import-packs/BS-PYP-2025.json",
+      "sourceQueue": "past year paper/add-candidate-queue.json",
+      "count": 65,
+      "answersMapped": 65,
+      "readyForStudentUse": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "needsChapterReview": 0,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "mcq"
+      ]
+    },
+    {
+      "mode": "pyp-import-pack",
+      "subject": "English",
+      "subjectSlug": "english",
+      "subjectCode": "101",
+      "year": "2022-2025",
+      "packId": "EN-PYP-2022-2025",
+      "chapterId": "EN-PYP-2022-2025",
+      "chapter": "CUET 2022-2025 English Previous-Year Additions",
+      "sourcePath": "past year paper/import-packs/2025-english-ready-additions.json",
+      "storagePath": "question-bank/import-packs/EN-PYP-2022-2025.json",
+      "sourceQueue": "past year paper/add-candidate-queue.json",
+      "count": 495,
+      "answersMapped": 495,
+      "readyForStudentUse": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "needsChapterReview": 0,
+      "levels": [
+        "L2"
+      ],
+      "types": [
+        "grammar",
+        "logical_reasoning",
+        "rc_based",
+        "vocabulary"
+      ]
+    }
+  ]
+}

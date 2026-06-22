@@ -62,8 +62,9 @@
         "It is meant to answer legal disputes",
         "Allocation of funds to the most productive uses"
       ],
-      "correct": 4,
-      "explanation": "The correct answer is based on the core idea that financial markets connect surplus funds with deficit needs.\nAllocation of funds to the most productive uses is the only option that fits the role of the market in mobilising savings and allocating funds.\nThe remaining options refer to unrelated economic activities or ignore the distinction between financial assets and physical goods."
+      "correct": 3,
+      "explanation": "The correct answer is based on the core idea that financial markets connect surplus funds with deficit needs.\nAllocation of funds to the most productive uses is the only option that fits the role of the market in mobilising savings and allocating funds.\nThe remaining options refer to unrelated economic activities or ignore the distinction between financial assets and physical goods.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q05",
@@ -137,8 +138,9 @@
         "They connect buyers with warehouse owners",
         "They connect investors with borrowers"
       ],
-      "correct": 4,
-      "explanation": "The correct answer is based on the core idea that financial markets connect surplus funds with deficit needs.\nThey connect investors with borrowers is the only option that fits the role of the market in mobilising savings and allocating funds.\nThe remaining options refer to unrelated economic activities or ignore the distinction between financial assets and physical goods."
+      "correct": 3,
+      "explanation": "The correct answer is based on the core idea that financial markets connect surplus funds with deficit needs.\nThey connect investors with borrowers is the only option that fits the role of the market in mobilising savings and allocating funds.\nThe remaining options refer to unrelated economic activities or ignore the distinction between financial assets and physical goods.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q10",
@@ -287,8 +289,9 @@
         "A school buys textbooks from a shop",
         "A surplus household invests in market securities and a company receives funds"
       ],
-      "correct": 4,
-      "explanation": "The correct answer is based on the core idea that financial markets connect surplus funds with deficit needs.\nA surplus household invests in market securities and a company receives funds is the only option that fits the role of the market in mobilising savings and allocating funds.\nThe remaining options refer to unrelated economic activities or ignore the distinction between financial assets and physical goods."
+      "correct": 3,
+      "explanation": "The correct answer is based on the core idea that financial markets connect surplus funds with deficit needs.\nA surplus household invests in market securities and a company receives funds is the only option that fits the role of the market in mobilising savings and allocating funds.\nThe remaining options refer to unrelated economic activities or ignore the distinction between financial assets and physical goods.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q20",
@@ -362,8 +365,9 @@
         "bond share",
         "Treasury bill"
       ],
-      "correct": 4,
-      "explanation": "Treasury bill is correct because it is the standard short-term government security issued at a discount.\nIt is a money market instrument and is repaid at face value on maturity.\nEquity and bonds are not the best fit for very short-term government borrowing."
+      "correct": 3,
+      "explanation": "Treasury bill is correct because it is the standard short-term government security issued at a discount.\nIt is a money market instrument and is repaid at face value on maturity.\nEquity and bonds are not the best fit for very short-term government borrowing.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q25",
@@ -377,8 +381,9 @@
         "depository market",
         "Call money market"
       ],
-      "correct": 4,
-      "explanation": "Call money market is correct because it deals in very short-term borrowing and lending between banks.\nIt is used for overnight or very short-duration fund management.\nPrimary market, capital market, and depository services do not serve this same liquidity purpose."
+      "correct": 3,
+      "explanation": "Call money market is correct because it deals in very short-term borrowing and lending between banks.\nIt is used for overnight or very short-duration fund management.\nPrimary market, capital market, and depository services do not serve this same liquidity purpose.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q26",
@@ -557,8 +562,9 @@
         "Commercial bill",
         "certificate of deposit"
       ],
-      "correct": 4,
-      "explanation": "Certificate of deposit is correct because banks issue it as a negotiable short-term instrument.\nIts purpose is to mobilise money market funds from investors or institutions.\nIt is different from share-related corporate actions and trade bills."
+      "correct": 3,
+      "explanation": "Certificate of deposit is correct because banks issue it as a negotiable short-term instrument.\nIts purpose is to mobilise money market funds from investors or institutions.\nIt is different from share-related corporate actions and trade bills.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q38",
@@ -602,8 +608,9 @@
         "It guarantees capital gains like equity",
         "It is a low-cost unsecured short-term instrument"
       ],
-      "correct": 4,
-      "explanation": "It is a low-cost unsecured short-term instrument is correct because that is the core strength of commercial paper.\nA strong credit rating allows such a company to raise working capital efficiently.\nThe other options confuse CP with equity, exchange functions, or guaranteed-return products."
+      "correct": 3,
+      "explanation": "It is a low-cost unsecured short-term instrument is correct because that is the core strength of commercial paper.\nA strong credit rating allows such a company to raise working capital efficiently.\nThe other options confuse CP with equity, exchange functions, or guaranteed-return products.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q41",
@@ -677,8 +684,9 @@
         "Money market is only for stock exchange settlement",
         "Money market handles short-term funds while capital market handles long-term funds"
       ],
-      "correct": 4,
-      "explanation": "Money market handles short-term funds while capital market handles long-term funds is correct because maturity is the key distinction.\nThis differentiation helps investors and businesses choose the right source of funds.\nThe other options incorrectly mix the roles of the two markets."
+      "correct": 3,
+      "explanation": "Money market handles short-term funds while capital market handles long-term funds is correct because maturity is the key distinction.\nThis differentiation helps investors and businesses choose the right source of funds.\nThe other options incorrectly mix the roles of the two markets.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q46",
@@ -737,8 +745,9 @@
         "Land acquisition",
         "Working capital requirement"
       ],
-      "correct": 4,
-      "explanation": "Working capital requirement is correct because money market instruments are used for short-term business needs.\nThe market is designed to manage day-to-day liquidity and temporary gaps.\nThe other options involve long-term or unrelated business purposes."
+      "correct": 3,
+      "explanation": "Working capital requirement is correct because money market instruments are used for short-term business needs.\nThe market is designed to manage day-to-day liquidity and temporary gaps.\nThe other options involve long-term or unrelated business purposes.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q50",
@@ -767,8 +776,9 @@
         "Commercial paper",
         "Treasury bill"
       ],
-      "correct": 4,
-      "explanation": "Treasury bill is correct because it is a short-term government security with very low credit risk.\nIt is widely regarded as one of the safest money market instruments.\nCommercial paper, debentures, and equity shares do not provide the same government-backed safety."
+      "correct": 3,
+      "explanation": "Treasury bill is correct because it is a short-term government security with very low credit risk.\nIt is widely regarded as one of the safest money market instruments.\nCommercial paper, debentures, and equity shares do not provide the same government-backed safety.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q52",
@@ -812,8 +822,9 @@
         "Government — Commercial paper",
         "Bank — Certificate of deposit"
       ],
-      "correct": 4,
-      "explanation": "Bank — Certificate of deposit is correct because CDs are issued by banks as short-term negotiable deposits.\nThis match is a basic money market distinction.\nThe other options confuse government, stock exchange, and company roles."
+      "correct": 3,
+      "explanation": "Bank — Certificate of deposit is correct because CDs are issued by banks as short-term negotiable deposits.\nThis match is a basic money market distinction.\nThe other options confuse government, stock exchange, and company roles.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q55",
@@ -857,8 +868,9 @@
         "Equity dilution",
         "certificate of deposit"
       ],
-      "correct": 4,
-      "explanation": "Certificate of deposit is correct because it is a bank-issued short-term instrument for raising temporary funds.\nIt does not alter ownership and fits the money market nature of bank borrowing.\nRights issue, bonus shares, and equity dilution are capital market concepts."
+      "correct": 3,
+      "explanation": "Certificate of deposit is correct because it is a bank-issued short-term instrument for raising temporary funds.\nIt does not alter ownership and fits the money market nature of bank borrowing.\nRights issue, bonus shares, and equity dilution are capital market concepts.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q58",
@@ -932,8 +944,9 @@
         "Money market",
         "Primary market"
       ],
-      "correct": 4,
-      "explanation": "Primary market is correct because it deals with the first issue of securities by the company.\nThe issuer receives funds directly from investors in this market.\nSecondary market involves resale of existing securities, not fresh issue."
+      "correct": 3,
+      "explanation": "Primary market is correct because it deals with the first issue of securities by the company.\nThe issuer receives funds directly from investors in this market.\nSecondary market involves resale of existing securities, not fresh issue.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q63",
@@ -947,8 +960,9 @@
         "Treasury market",
         "Secondary market"
       ],
-      "correct": 4,
-      "explanation": "Secondary market is correct because the trade is between investors in already issued securities.\nThe company does not receive fresh funds from this transaction.\nThis is different from the primary market where securities are first issued."
+      "correct": 3,
+      "explanation": "Secondary market is correct because the trade is between investors in already issued securities.\nThe company does not receive fresh funds from this transaction.\nThis is different from the primary market where securities are first issued.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q64",
@@ -962,8 +976,9 @@
         "Bonus issue",
         "Rights issue"
       ],
-      "correct": 4,
-      "explanation": "Rights issue is correct because shares are offered first to existing shareholders.\nThis preserves pre-emptive rights and is a method of raising funds in the primary market.\nIt is different from bonus issue, where no new money is collected."
+      "correct": 3,
+      "explanation": "Rights issue is correct because shares are offered first to existing shareholders.\nThis preserves pre-emptive rights and is a method of raising funds in the primary market.\nIt is different from bonus issue, where no new money is collected.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q65",
@@ -977,8 +992,9 @@
         "Buyback",
         "Private placement"
       ],
-      "correct": 4,
-      "explanation": "Private placement is correct because securities are offered to selected persons rather than the general public.\nIt is a primary market method used for quicker and targeted fund raising.\nPublic issue, stock split, and buyback do not describe the same transaction."
+      "correct": 3,
+      "explanation": "Private placement is correct because securities are offered to selected persons rather than the general public.\nIt is a primary market method used for quicker and targeted fund raising.\nPublic issue, stock split, and buyback do not describe the same transaction.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q66",
@@ -1037,8 +1053,9 @@
         "It does not involve securities",
         "It deals in medium and long-term funds"
       ],
-      "correct": 4,
-      "explanation": "It deals in medium and long-term funds is correct because that is the defining feature of the capital market.\nThis market supports long-term finance for businesses and governments.\nThe other options describe either money market features or incorrect ideas."
+      "correct": 3,
+      "explanation": "It deals in medium and long-term funds is correct because that is the defining feature of the capital market.\nThis market supports long-term finance for businesses and governments.\nThe other options describe either money market features or incorrect ideas.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q70",
@@ -1097,8 +1114,9 @@
         "Private placement",
         "Bonus issue"
       ],
-      "correct": 4,
-      "explanation": "Bonus issue is correct because free additional shares are allotted without collecting new funds.\nIt is a corporate action linked with the capital market.\nRights issue and private placement involve raising money, while treasury bills are government money market instruments."
+      "correct": 3,
+      "explanation": "Bonus issue is correct because free additional shares are allotted without collecting new funds.\nIt is a corporate action linked with the capital market.\nRights issue and private placement involve raising money, while treasury bills are government money market instruments.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q74",
@@ -1172,8 +1190,9 @@
         "Depository issue of certificates",
         "Secondary market trading of existing securities"
       ],
-      "correct": 4,
-      "explanation": "Secondary market trading of existing securities is correct because the trade occurs between investors after issue.\nThe company does not receive new capital in this transaction.\nPrimary market, money market, and depository issue are different concepts."
+      "correct": 3,
+      "explanation": "Secondary market trading of existing securities is correct because the trade occurs between investors after issue.\nThe company does not receive new capital in this transaction.\nPrimary market, money market, and depository issue are different concepts.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q79",
@@ -1262,8 +1281,9 @@
         "SEBI has cancelled all trading",
         "Public issue has attracted more demand than supply"
       ],
-      "correct": 4,
-      "explanation": "Public issue has attracted more demand than supply is correct because oversubscription means investor demand exceeded shares offered.\nThis indicates strong market response in the primary market.\nThe other options have no connection with the subscription process."
+      "correct": 3,
+      "explanation": "Public issue has attracted more demand than supply is correct because oversubscription means investor demand exceeded shares offered.\nThis indicates strong market response in the primary market.\nThe other options have no connection with the subscription process.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q85",
@@ -1352,8 +1372,9 @@
         "Stock exchange is part of the money market only",
         "Stock exchange is a major part of the secondary market"
       ],
-      "correct": 4,
-      "explanation": "Stock exchange is a major part of the secondary market is correct because it provides the organised platform for resale of securities.\nThis is central to capital market functioning.\nThe other options confuse the exchange with depository, money market, or issuance functions."
+      "correct": 3,
+      "explanation": "Stock exchange is a major part of the secondary market is correct because it provides the organised platform for resale of securities.\nThis is central to capital market functioning.\nThe other options confuse the exchange with depository, money market, or issuance functions.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q91",
@@ -1367,8 +1388,9 @@
         "Commercial bill discounting only",
         "Capital market funds"
       ],
-      "correct": 4,
-      "explanation": "Capital market funds are correct because the expansion need is long term.\nShort-term borrowing cannot match a five-year production expansion plan.\nThe other options are temporary financing arrangements, not long-term capital sources."
+      "correct": 3,
+      "explanation": "Capital market funds are correct because the expansion need is long term.\nShort-term borrowing cannot match a five-year production expansion plan.\nThe other options are temporary financing arrangements, not long-term capital sources.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q92",
@@ -1427,8 +1449,9 @@
         "Secondary market",
         "Primary market"
       ],
-      "correct": 4,
-      "explanation": "Primary market is correct because the issuer is selling new securities directly to investors.\nThis is the initial stage of capital raising.\nSecondary market involves investor-to-investor trading after issue."
+      "correct": 3,
+      "explanation": "Primary market is correct because the issuer is selling new securities directly to investors.\nThis is the initial stage of capital raising.\nSecondary market involves investor-to-investor trading after issue.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q96",
@@ -1457,8 +1480,9 @@
         "Call money",
         "Debenture"
       ],
-      "correct": 4,
-      "explanation": "Debenture is correct because it is a long-term debt instrument.\nIt belongs to the capital market and helps in medium- or long-term fund raising.\nThe other options are short-term money market instruments or interbank arrangements."
+      "correct": 3,
+      "explanation": "Debenture is correct because it is a long-term debt instrument.\nIt belongs to the capital market and helps in medium- or long-term fund raising.\nThe other options are short-term money market instruments or interbank arrangements.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q98",
@@ -1532,8 +1556,9 @@
         "Commercial bill discounting",
         "Trading on stock exchange"
       ],
-      "correct": 4,
-      "explanation": "Trading on stock exchange is correct because brokerage, contract note, and settlement are part of exchange trading.\nThis is the normal process in the secondary market.\nThe other options are unrelated to securities trading procedure."
+      "correct": 3,
+      "explanation": "Trading on stock exchange is correct because brokerage, contract note, and settlement are part of exchange trading.\nThis is the normal process in the secondary market.\nThe other options are unrelated to securities trading procedure.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q103",
@@ -1682,8 +1707,9 @@
         "Underwriting",
         "Marketability"
       ],
-      "correct": 4,
-      "explanation": "Marketability is correct because listing on the exchange increases the ease with which a security can be sold.\nThis is one of the main benefits of stock exchange trading.\nThe other options refer to debt repayment, issue support, or pricing methods."
+      "correct": 3,
+      "explanation": "Marketability is correct because listing on the exchange increases the ease with which a security can be sold.\nThis is one of the main benefits of stock exchange trading.\nThe other options refer to debt repayment, issue support, or pricing methods.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q113",
@@ -1757,8 +1783,9 @@
         "Register with depository → issue new shares → settle with RBI",
         "Place order through broker → trade executed → contract note received"
       ],
-      "correct": 4,
-      "explanation": "Place order through broker → trade executed → contract note received is correct because this is the normal exchange trading sequence.\nThe investor places the order, the broker executes it, and the contract note confirms the trade.\nThe other sequences mix issue-stage and post-trade processes incorrectly."
+      "correct": 3,
+      "explanation": "Place order through broker → trade executed → contract note received is correct because this is the normal exchange trading sequence.\nThe investor places the order, the broker executes it, and the contract note confirms the trade.\nThe other sequences mix issue-stage and post-trade processes incorrectly.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q118",
@@ -1802,8 +1829,9 @@
         "Opening a bank loan account",
         "Order placement and settlement"
       ],
-      "correct": 4,
-      "explanation": "Order placement and settlement is correct because the trading procedure begins with the order and ends with settlement.\nThis is the core of exchange trading mechanics.\nThe other options refer to issue market, money market, or banking activities."
+      "correct": 3,
+      "explanation": "Order placement and settlement is correct because the trading procedure begins with the order and ends with settlement.\nThis is the core of exchange trading mechanics.\nThe other options refer to issue market, money market, or banking activities.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q121",
@@ -1847,8 +1875,9 @@
         "A security kept only in cash form",
         "A security approved for trading on an exchange"
       ],
-      "correct": 4,
-      "explanation": "A security approved for trading on an exchange is correct because listing gives the security exchange access.\nListing helps with liquidity, price discovery, and marketability.\nThe other options misrepresent the nature of listed securities."
+      "correct": 3,
+      "explanation": "A security approved for trading on an exchange is correct because listing gives the security exchange access.\nListing helps with liquidity, price discovery, and marketability.\nThe other options misrepresent the nature of listed securities.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q124",
@@ -1862,8 +1891,9 @@
         "Treasury bill maturity",
         "Price discovery reflecting demand and supply"
       ],
-      "correct": 4,
-      "explanation": "Price discovery reflecting demand and supply is correct because share prices change as market participants react to new information.\nGood results increase demand, which can push prices up.\nThe other options relate to different financial market processes."
+      "correct": 3,
+      "explanation": "Price discovery reflecting demand and supply is correct because share prices change as market participants react to new information.\nGood results increase demand, which can push prices up.\nThe other options relate to different financial market processes.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q125",
@@ -1907,8 +1937,9 @@
         "A bank receipt",
         "A security not meeting listing requirements"
       ],
-      "correct": 4,
-      "explanation": "A security not meeting listing requirements is correct because the exchange applies norms before listing.\nThis protects investors and supports market integrity.\nThe other options are not candidates for listing approval in the same sense."
+      "correct": 3,
+      "explanation": "A security not meeting listing requirements is correct because the exchange applies norms before listing.\nThis protects investors and supports market integrity.\nThe other options are not candidates for listing approval in the same sense.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q128",
@@ -1982,8 +2013,9 @@
         "Demat accounts issue new shares",
         "Trading takes place on exchange, while ownership is held in electronic form through depository accounts"
       ],
-      "correct": 4,
-      "explanation": "Trading takes place on exchange, while ownership is held in electronic form through depository accounts is correct because the functions are complementary.\nThe exchange facilitates trade and the depository records ownership electronically.\nThis separation improves efficiency and reduces paper-related risk."
+      "correct": 3,
+      "explanation": "Trading takes place on exchange, while ownership is held in electronic form through depository accounts is correct because the functions are complementary.\nThe exchange facilitates trade and the depository records ownership electronically.\nThis separation improves efficiency and reduces paper-related risk.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q133",
@@ -2012,8 +2044,9 @@
         "Issuing prospectus to public",
         "Facilitating trade execution for investors"
       ],
-      "correct": 4,
-      "explanation": "Facilitating trade execution for investors is correct because brokers act as intermediaries in the trading process.\nThey place and manage orders on behalf of clients.\nRegulation, electronic holding, and prospectus issuance belong to other institutions."
+      "correct": 3,
+      "explanation": "Facilitating trade execution for investors is correct because brokers act as intermediaries in the trading process.\nThey place and manage orders on behalf of clients.\nRegulation, electronic holding, and prospectus issuance belong to other institutions.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q135",
@@ -2057,8 +2090,9 @@
         "Depository fee structure",
         "Market-driven valuation"
       ],
-      "correct": 4,
-      "explanation": "Market-driven valuation is correct because stock prices are determined by demand and supply in the market.\nStrong demand relative to supply pushes the price upward.\nThe other options do not explain the exchange price mechanism."
+      "correct": 3,
+      "explanation": "Market-driven valuation is correct because stock prices are determined by demand and supply in the market.\nStrong demand relative to supply pushes the price upward.\nThe other options do not explain the exchange price mechanism.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q138",
@@ -2072,8 +2106,9 @@
         "SEBI registration certificate",
         "Confirmation of transaction details by the broker"
       ],
-      "correct": 4,
-      "explanation": "Confirmation of transaction details by the broker is correct because the contract note documents the trade.\nIt acts as evidence of the order executed on the exchange.\nThe other items are associated with issue, depository opening, or regulatory registration."
+      "correct": 3,
+      "explanation": "Confirmation of transaction details by the broker is correct because the contract note documents the trade.\nIt acts as evidence of the order executed on the exchange.\nThe other items are associated with issue, depository opening, or regulatory registration.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q139",
@@ -2117,8 +2152,9 @@
         "Commercial paper",
         "Demat account"
       ],
-      "correct": 4,
-      "explanation": "Demat account is correct because it keeps securities in electronic form and removes paper-related risk.\nThis makes transfer safer and settlement easier.\nThe other options are unrelated to secure holding of securities."
+      "correct": 3,
+      "explanation": "Demat account is correct because it keeps securities in electronic form and removes paper-related risk.\nThis makes transfer safer and settlement easier.\nThe other options are unrelated to secure holding of securities.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q142",
@@ -2162,8 +2198,9 @@
         "They manage bank deposits only",
         "They provide electronic holding and transfer of securities"
       ],
-      "correct": 4,
-      "explanation": "They provide electronic holding and transfer of securities is correct because that is the depository's core role.\nThis supports safe and efficient settlement of market transactions.\nThe other options describe unrelated banking or corporate functions."
+      "correct": 3,
+      "explanation": "They provide electronic holding and transfer of securities is correct because that is the depository's core role.\nThis supports safe and efficient settlement of market transactions.\nThe other options describe unrelated banking or corporate functions.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q145",
@@ -2177,8 +2214,9 @@
         "Government tax collection",
         "Electronic safekeeping and easy transfer"
       ],
-      "correct": 4,
-      "explanation": "Electronic safekeeping and easy transfer is correct because a demat account holds securities in digital form.\nThis makes transactions quick and secure.\nThe other options have no direct relationship with depository services."
+      "correct": 3,
+      "explanation": "Electronic safekeeping and easy transfer is correct because a demat account holds securities in digital form.\nThis makes transactions quick and secure.\nThe other options have no direct relationship with depository services.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q146",
@@ -2327,8 +2365,9 @@
         "Insurance policy",
         "Depository system"
       ],
-      "correct": 4,
-      "explanation": "Depository system is correct because it speeds up credit and delivery through electronic settlement.\nThis is important for modern exchange trading and low settlement risk.\nCommercial paper, call market, and insurance do not perform this custody function."
+      "correct": 3,
+      "explanation": "Depository system is correct because it speeds up credit and delivery through electronic settlement.\nThis is important for modern exchange trading and low settlement risk.\nCommercial paper, call market, and insurance do not perform this custody function.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q156",
@@ -2387,8 +2426,9 @@
         "Call money system",
         "Depository system"
       ],
-      "correct": 4,
-      "explanation": "Depository system is correct because electronic storage and transfer by book entry are its defining features.\nIt replaces the older paper-based settlement model.\nPrimary issue, money market, and call money systems are different financial market segments."
+      "correct": 3,
+      "explanation": "Depository system is correct because electronic storage and transfer by book entry are its defining features.\nIt replaces the older paper-based settlement model.\nPrimary issue, money market, and call money systems are different financial market segments.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q160",
@@ -2417,8 +2457,9 @@
         "Stock exchange broker",
         "SEBI"
       ],
-      "correct": 4,
-      "explanation": "SEBI is correct because it is the main regulator of the securities market.\nIt protects investors and takes action against unfair practices and intermediaries.\nThe other options are either market participants or unrelated registration bodies."
+      "correct": 3,
+      "explanation": "SEBI is correct because it is the main regulator of the securities market.\nIt protects investors and takes action against unfair practices and intermediaries.\nThe other options are either market participants or unrelated registration bodies.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q162",
@@ -2687,8 +2728,9 @@
         "Free shares to everyone",
         "Fair disclosures and monitoring market participants"
       ],
-      "correct": 4,
-      "explanation": "Fair disclosures and monitoring market participants is correct because SEBI reduces fraud and information gaps.\nThis helps investors make informed choices.\nSEBI does not guarantee profit or eliminate all risk."
+      "correct": 3,
+      "explanation": "Fair disclosures and monitoring market participants is correct because SEBI reduces fraud and information gaps.\nThis helps investors make informed choices.\nSEBI does not guarantee profit or eliminate all risk.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q180",
@@ -2792,8 +2834,9 @@
         "Working capital financing",
         "Regulatory supervision"
       ],
-      "correct": 4,
-      "explanation": "Regulatory supervision is correct because SEBI monitors and controls the behaviour of market intermediaries.\nThis protects investors and preserves market order.\nIPO, dematerialisation, and working capital financing are not the same function."
+      "correct": 3,
+      "explanation": "Regulatory supervision is correct because SEBI monitors and controls the behaviour of market intermediaries.\nThis protects investors and preserves market order.\nIPO, dematerialisation, and working capital financing are not the same function.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q187",
@@ -2822,8 +2865,9 @@
         "Merchant retailer",
         "SEBI"
       ],
-      "correct": 4,
-      "explanation": "SEBI is correct because it is the authority that checks malpractice in the securities market.\nIt aims to protect investors and enforce discipline.\nThe other options are market participants or unrelated entities, not the main regulator."
+      "correct": 3,
+      "explanation": "SEBI is correct because it is the authority that checks malpractice in the securities market.\nIt aims to protect investors and enforce discipline.\nThe other options are market participants or unrelated entities, not the main regulator.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q189",
@@ -2837,8 +2881,9 @@
         "Elimination of all market competition",
         "Protection of investors through disclosure"
       ],
-      "correct": 4,
-      "explanation": "Protection of investors through disclosure is correct because material facts help investors judge the issue fairly.\nThis is a central SEBI objective in issue management.\nThe other options do not reflect the purpose of securities disclosure norms."
+      "correct": 3,
+      "explanation": "Protection of investors through disclosure is correct because material facts help investors judge the issue fairly.\nThis is a central SEBI objective in issue management.\nThe other options do not reflect the purpose of securities disclosure norms.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q190",
@@ -2912,8 +2957,9 @@
         "Only cash lending by banks",
         "Market intermediaries and issue-related practices"
       ],
-      "correct": 4,
-      "explanation": "Market intermediaries and issue-related practices is correct because SEBI regulates participants and public issues in the securities market.\nIts scope is specifically tied to fair market functioning.\nThe other options belong to unrelated sectors."
+      "correct": 3,
+      "explanation": "Market intermediaries and issue-related practices is correct because SEBI regulates participants and public issues in the securities market.\nIts scope is specifically tied to fair market functioning.\nThe other options belong to unrelated sectors.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q195",
@@ -2957,8 +3003,9 @@
         "SEBI — paper certificate printing",
         "SEBI — investor protection"
       ],
-      "correct": 4,
-      "explanation": "SEBI — investor protection is correct because this is the central purpose of the market regulator.\nSEBI ensures fair practices, disclosure, and orderly development.\nThe other pairs wrongly assign banking, issuance, or printing functions to SEBI."
+      "correct": 3,
+      "explanation": "SEBI — investor protection is correct because this is the central purpose of the market regulator.\nSEBI ensures fair practices, disclosure, and orderly development.\nThe other pairs wrongly assign banking, issuance, or printing functions to SEBI.",
+      "correct_original": 4
     },
     {
       "id": "BS10Q198",

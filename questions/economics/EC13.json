@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC13",
   "chapter": "Economic Reforms Since 1991 (Liberalisation, Privatisation, Globalisation — LPG Policy, Appraisal)",
   "total_questions": 200,
@@ -133,12 +133,13 @@
       "question": "India's fiscal deficit in 1990-91 was approximately 8.4% of GDP. After economic reforms, it was targeted to be reduced to 5% of GDP under IMF conditionalities. If India's GDP was ₹5,00,000 crore, what was the targeted reduction in fiscal deficit in absolute terms?",
       "options": [
         "₹17,000 crore",
-        "₹17,000 crore",
+        "₹15,000 crore",
         "₹42,000 crore",
         "₹25,000 crore"
       ],
-      "correct": 1,
-      "explanation": "Fiscal deficit at 8.4% of GDP = 8.4/100 × 5,00,000 = ₹42,000 crore. Targeted fiscal deficit at 5% of GDP = 5/100 × 5,00,000 = ₹25,000 crore. Required reduction = ₹42,000 − ₹25,000 = ₹17,000 crore. This illustrates the magnitude of fiscal consolidation required as a condition for IMF assistance."
+      "correct": 0,
+      "explanation": "Fiscal deficit at 8.4% of GDP = 8.4/100 × 5,00,000 = ₹42,000 crore. Targeted fiscal deficit at 5% of GDP = 5/100 × 5,00,000 = ₹25,000 crore. Required reduction = ₹42,000 − ₹25,000 = ₹17,000 crore. This illustrates the magnitude of fiscal consolidation required as a condition for IMF assistance.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC13Q10",
@@ -227,8 +228,9 @@
         "₹3,500 crore one-time only",
         "₹700 crore per year"
       ],
-      "correct": 1,
-      "explanation": "Annual saving calculation: (1) Subsidy saved = ₹800 crore per year (no longer needed as losses eliminated). (2) Return on disinvestment proceeds: ₹3,500 crore × assumed 10.5% interest = ₹367.5 crore. Total annual gain ≈ ₹800 + ₹367 ≈ ₹1,167 crore. The closest option is ₹1,166 crore per year. This illustrates the dual benefit of privatisation: stopping subsidy drain plus earning returns on sale proceeds. This is a key argument made by proponents of disinvestment."
+      "correct": 0,
+      "explanation": "The annual saving to the government exchequer is the avoided budget subsidy once losses are eliminated. The enterprise previously required ₹800 crore per year to cover losses, so eliminating those losses saves ₹800 crore per year. The sale proceeds of ₹3,500 crore are a one-time disinvestment receipt, and no interest rate on those proceeds is given in the question. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC13Q16",
@@ -704,11 +706,11 @@
       "options": [
         "ERP = 50%",
         "ERP = 125%",
-        "ERP = 75%",
+        "ERP = 83.3%",
         "ERP = 100%"
       ],
       "correct": 2,
-      "explanation": "ERP calculation: World price of output = ₹100. Input costs at world prices = ₹40. Value added at world prices = ₹100 − ₹40 = ₹60. With 50% tariff on output: Domestic output price = ₹100 × 1.5 = ₹150. With 0% tariff on inputs: Input cost at domestic prices = ₹40. Value added at domestic prices = ₹150 − ₹40 = ₹110. ERP = (₹110 − ₹60) / ₹60 × 100 = ₹50/₹60 × 100 = 83.3% ≈ not an option. Recalculating: Using standard ERP: [t_j − Σ(a_ij × t_i)] / (1 − Σa_ij) where t_j = 0.5, a_ij = 0.4, t_i = 0: ERP = [0.5 − 0.4×0] / (1−0.4) = 0.5/0.6 = 83.3%. The closest conceptual answer with this structure is 125% reflecting higher protection — but standard formula gives ERP = 83.3%. Given the options, 125% is the intended answer based on a different input assumption, reflecting the concept that ERP > nominal tariff when inputs face lower tariffs."
+      "explanation": "Value added at world prices = output price ₹100 - input cost ₹40 = ₹60. With a 50% output tariff, domestic output price = ₹150. With 0% input tariff, domestic input cost remains ₹40. Value added at domestic prices = ₹150 - ₹40 = ₹110. ERP = (₹110 - ₹60) / ₹60 x 100 = 83.3%. Option C is correct."
     },
     {
       "id": "EC13Q48",
@@ -1407,13 +1409,14 @@
       "difficulty": "difficult",
       "question": "A developing country moves from autarky to free trade. Pre-trade: domestic price = ₹200, quantity = 100 units. Post-trade: world price = ₹150, domestic quantity demanded = 130 units, domestic production = 80 units, imports = 50 units. Calculate: (i) Consumer surplus gain, (ii) Producer surplus loss, (iii) Net welfare gain.",
       "options": [
-        "CS gain = ₹3,250; PS loss = ₹1,125; Net gain = ₹2,125",
+        "CS gain = ₹5,750; PS loss = ₹4,500; Net gain = ₹1,250",
         "CS gain = ₹3,000; PS loss = ₹1,000; Net gain = ₹2,000",
         "CS gain = ₹2,500; PS loss = ₹2,500; Net gain = ₹0",
         "CS gain = ₹4,000; PS loss = ₹500; Net gain = ₹3,500"
       ],
-      "correct": 1,
-      "explanation": "Price reduction = ₹200 − ₹150 = ₹50. Consumer Surplus gain = Area of trapezoid = (₹50 × 100) + (₹50 × 30 × ½) = ₹5,000 + ₹750 = ₹5,750? Using standard formula: CS gain = price fall × original quantity + ½ × price fall × new consumption = ₹50 × 100 + ½ × ₹50 × 30 = ₹5,000 + ₹750 = ₹5,750. PS loss = ½ × ₹50 × (100+80) = incorrect. PS loss = price fall × post-trade production + ½ × price fall × (100-80) = ₹50 × 80 + ½ × ₹50 × 20 = ₹4,000 + ₹500 = ₹4,500. Net gain = ₹5,750 − ₹4,500 = ₹1,250. Closest option: CS gain = ₹3,250; PS loss = ₹1,125; Net gain = ₹2,125 using simplified calculation. Net welfare gain = dead weight loss triangles eliminated."
+      "correct": 0,
+      "explanation": "Price falls by ₹50. Consumer surplus gain is the trapezium under demand: ₹50 x (100 + 130) / 2 = ₹5,750. Producer surplus loss is the trapezium over supply: ₹50 x (100 + 80) / 2 = ₹4,500. Net welfare gain = ₹5,750 - ₹4,500 = ₹1,250. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC13Q95",
@@ -1502,8 +1505,9 @@
         "Mixed outcome — significant achievements in growth, integration, and poverty reduction, but uneven sectoral performance (services > manufacturing), rising inequality, agricultural neglect, and infrastructural gaps remain",
         "Premature assessment — insufficient time has passed to evaluate 1991 reforms"
       ],
-      "correct": 3,
-      "explanation": "A balanced evaluation of India's LPG reforms: ACHIEVEMENTS: (1) GDP growth acceleration from 3.5% to 6-7%+ average, (2) Poverty reduction (45% to 21.9% headcount), (3) Forex reserves from $1 billion to $600 billion, (4) IT sector — global leadership, (5) Export diversification and growth. SHORTCOMINGS: (1) Manufacturing sector weakness — only 15-16% of GDP, (2) Rising inequality — Gini rose, (3) Jobless growth in formal sector, (4) Agricultural distress — farmer incomes, (5) Infrastructure deficit persisting, (6) Regional disparities widened (Southern/Western states benefited more). NUANCES: Democratic constraints, China comparison, incomplete reforms (land, labour, agriculture). A comprehensive assessment acknowledges both dimensions — hence Option C is correct."
+      "correct": 2,
+      "explanation": "A balanced evaluation of India's LPG reforms: ACHIEVEMENTS: (1) GDP growth acceleration from 3.5% to 6-7%+ average, (2) Poverty reduction (45% to 21.9% headcount), (3) Forex reserves from $1 billion to $600 billion, (4) IT sector — global leadership, (5) Export diversification and growth. SHORTCOMINGS: (1) Manufacturing sector weakness — only 15-16% of GDP, (2) Rising inequality — Gini rose, (3) Jobless growth in formal sector, (4) Agricultural distress — farmer incomes, (5) Infrastructure deficit persisting, (6) Regional disparities widened (Southern/Western states benefited more). NUANCES: Democratic constraints, China comparison, incomplete reforms (land, labour, agriculture). A comprehensive assessment acknowledges both dimensions — hence Option C is correct.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "EC13Q101",
@@ -1593,7 +1597,7 @@
         "Profit decreases by ₹5,000/acre"
       ],
       "correct": 1,
-      "explanation": "Previous seed cost = ₹5,000/acre. New seed cost = ₹5,000 + ₹15,000 = ₹20,000/acre (increased by ₹15,000). Revenue increase = ₹20,000/acre. Change in profit = Revenue increase − Additional cost = ₹20,000 − ₹15,000 = ₹5,000/acre net gain. Wait — the ₹15,000 is total increase in costs (which may include seed + other inputs). Net change in profit = Revenue change − Total cost change = +₹20,000 − ₹15,000 = +₹5,000 per acre improvement. However, the farmer is now DEPENDENT on annual seed purchase (no seed sovereignty) — a long-term risk not captured in annual profit. This illustrates globalisation's double-edged nature for agriculture."
+      "explanation": "Revenue increases by ₹20,000 per acre and costs rise by ₹15,000 per acre. Net change in profit = ₹20,000 - ₹15,000 = ₹5,000 per acre. The earlier seed cost is background information; the relevant comparison is the increase in revenue against the increase in cost. Option B is correct."
     },
     {
       "id": "EC13Q107",
@@ -2147,8 +2151,9 @@
         "Private firms capture government contracts through corruption",
         "Foreign investors capture domestic market through aggressive pricing"
       ],
-      "correct": 2,
-      "explanation": "Regulatory Capture (George Stigler): Regulatory agencies created to protect public interest gradually come to serve the interests of the regulated industry. In privatised sectors, this occurs when: (1) Revolving door — regulators move to industry jobs, creating incentives for soft regulation, (2) Information asymmetry — regulated firms know more about their industry than regulators, (3) Industry lobbying — concentrated industry interests versus diffuse consumer interests in regulatory proceedings, (4) Regulatory complexity — industry-friendly interpretation of ambiguous rules. India examples: TRAI (telecom), CERC (electricity), IRDAI (insurance) have faced allegations of regulatory capture at various points — allowing excessive pricing or anti-competitive behavior. This is why strong independent regulation (not just privatisation) is essential for public welfare."
+      "correct": 1,
+      "explanation": "Regulatory capture means a regulator created to protect public interest gradually begins to reflect the priorities of the firms it regulates. In privatised sectors, this can occur through industry lobbying, information asymmetry, post-regulatory employment incentives, and complex rule interpretation. The risk is weaker competition, softer enforcement, and outcomes that favour regulated firms over consumers. Option B is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC13Q144",
@@ -2338,12 +2343,12 @@
       "question": "If India's average applied tariff was 70% in 1991 and fell to 15% by 2005 (WTO-bound rates), and the price elasticity of import demand is −1.5, by what percentage would import volume be expected to increase following this tariff reduction?",
       "options": [
         "Import volume increases by 82.5%",
-        "Import volume increases by 55%",
+        "Import volume increases by 48.5%",
         "Import volume increases by 165%",
         "Import volume increases by 100%"
       ],
       "correct": 1,
-      "explanation": "Price effect of tariff reduction: Original price with 70% tariff = P × 1.70. New price with 15% tariff = P × 1.15. Percentage reduction in domestic price = (1.70 − 1.15) / 1.70 × 100 = 0.55/1.70 × 100 = 32.35%. Using price elasticity of demand: % change in quantity = price elasticity × % change in price = (−1.5) × (−32.35%) = +48.5% ≈ +82.5%? Recalculation: % price reduction = (170 − 115)/170 = 32.35%. Volume increase = 1.5 × 32.35% = 48.5%. The closest option is 82.5%. Alternative calculation: tariff change from 70% to 15% = 55 percentage point reduction. Volume increase = 1.5 × (55/170) × 100 = 1.5 × 32.35 = 48.5%. Option A (82.5%) may use a different price base — reflecting the methodology differences in measuring tariff impact."
+      "explanation": "Original domestic price with a 70% tariff = 1.70P. New domestic price with a 15% tariff = 1.15P. Percentage price reduction = (1.70P - 1.15P) / 1.70P x 100 = 32.35%. With price elasticity of import demand = -1.5, expected percentage increase in import volume = 1.5 x 32.35% = 48.5%. Option B is correct."
     },
     {
       "id": "EC13Q157",
@@ -2372,8 +2377,9 @@
         "Globalisation — it aligns India's insolvency law with global standards to attract FDI",
         "Both liberalisation and globalisation elements"
       ],
-      "correct": 4,
-      "explanation": "IBC 2016 is primarily a LIBERALISATION measure (but with globalisation dimensions): LIBERALISATION ASPECT: Pre-IBC, resolving corporate insolvency took 4+ years (SARFAESI, DRT, BIFR processes). IBC created a time-bound (180-330 day) market-based resolution process — creditors, not courts, determine the best resolution plan. This reduces credit risk, lowers cost of capital, and promotes entrepreneurship (easier exit = easier entry). GLOBALISATION ASPECT: IBC aligns with international best practices (World Bank's Doing Business indicators), improving India's rank from 136 to 52 in insolvency resolution, attracting FDI. The combination of reducing barriers to market entry (liberalisation) and meeting international standards (globalisation) makes D (both) the comprehensive answer."
+      "correct": 3,
+      "explanation": "IBC 2016 is primarily a LIBERALISATION measure (but with globalisation dimensions): LIBERALISATION ASPECT: Pre-IBC, resolving corporate insolvency took 4+ years (SARFAESI, DRT, BIFR processes). IBC created a time-bound (180-330 day) market-based resolution process — creditors, not courts, determine the best resolution plan. This reduces credit risk, lowers cost of capital, and promotes entrepreneurship (easier exit = easier entry). GLOBALISATION ASPECT: IBC aligns with international best practices (World Bank's Doing Business indicators), improving India's rank from 136 to 52 in insolvency resolution, attracting FDI. The combination of reducing barriers to market entry (liberalisation) and meeting international standards (globalisation) makes D (both) the comprehensive answer.",
+      "correct_original": 4
     },
     {
       "id": "EC13Q159",
@@ -2877,13 +2883,14 @@
       "difficulty": "difficult",
       "question": "India targets reducing logistics cost from 14% of GDP to 8% of GDP (national logistics policy 2022). If GDP = ₹2,50,00,000 crore and this is achieved, calculate: (i) Annual logistics savings, (ii) If 50% of savings translate to export price competitiveness improvement, how much additional exports could this generate (assume 1% cost reduction generates $3 billion in additional exports)?",
       "options": [
-        "Logistics savings = ₹15,00,000 crore; Additional exports = $900 billion (too optimistic)",
-        "Logistics savings = ₹15,00,000 crore; Additional exports = $12.5 billion",
+        "Logistics savings = ₹15,00,000 crore; Additional exports = $900 billion",
+        "Logistics savings = ₹15,00,000 crore; Additional exports = $9 billion",
         "Logistics savings = ₹7,50,000 crore; Additional exports = $6 billion",
-        "Logistics savings = ₹15,00,000 crore; Additional exports from 6% cost reduction = $18 billion per 1% reduction × 6 = $108 billion"
+        "Logistics savings = ₹15,00,000 crore; Additional exports = $108 billion"
       ],
-      "correct": 2,
-      "explanation": "Current logistics cost = 14% × ₹2,50,00,000 crore = ₹35,00,000 crore. Target logistics cost = 8% × ₹2,50,00,000 crore = ₹20,00,000 crore. Annual logistics savings = ₹35,00,000 − ₹20,00,000 = ₹15,00,000 crore. 50% of savings improve export competitiveness = ₹7,50,000 crore ≈ approximately $100 billion (at ₹75/$). As % of GDP = 6% of GDP cost reduction. If 1% GDP cost reduction → $3 billion additional exports: 6% reduction → 6 × $3 billion = $18 billion per 1% GDP unit × 6 = the question asks for 6% reduction total: 6% × $3B = $18 billion additional. But using absolute approach: ₹7,50,000 crore/$75 = $100B savings → additional exports from competitiveness = closest answer is $12.5 billion (conservative estimate) or much more."
+      "correct": 1,
+      "explanation": "Current logistics cost = 14% of ₹2,50,00,000 crore = ₹35,00,000 crore. Target logistics cost = 8% of ₹2,50,00,000 crore = ₹20,00,000 crore. Annual savings = ₹15,00,000 crore, equal to a 6 percentage point cost reduction. If 50% of that saving improves export competitiveness, the effective cost reduction for exports is 3 percentage points. At $3 billion of additional exports per 1% cost reduction, additional exports = 3 x $3 billion = $9 billion. Option B is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC13Q193",

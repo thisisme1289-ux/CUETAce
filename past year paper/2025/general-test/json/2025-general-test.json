@@ -1,0 +1,814 @@
+{
+  "subject": "General Test",
+  "subject_code": "501",
+  "year": "2025",
+  "total_questions": 50,
+  "chapters": [
+    {
+      "chapter_id": "5012025",
+      "chapter": "General Test CUET 2025 Past Year Paper",
+      "questions": [
+        {
+          "id": "501-2025-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If 36: 84 :: 42: X, then the value of X, is:",
+          "options": [
+            "18",
+            "98",
+            "72",
+            "48"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThe given expression is a proportion. In a proportion a: b :: c: d, the product of the extremes\n(a and d) is equal to the product of the means (b and c).\nSo,a×d=b×c.\nStep 2: Key Formula or Approach:\nGiven proportion: 36 : 84 :: 42 :X.\nHere, a = 36, b = 84, c = 42, and d = X.\nUsing the rule of proportion:\n36×X= 84×42\nStep 3: Detailed Explanation:\nTo find the value of X, we need to solve the equation from Step 2.\n36×X= 84×42\nIsolating X:\n1\nX= 84×42\n36\nWe can simplify the fraction. We know that 42 = 6×7 and 36 = 6×6.\nX= 84×(6×7)\n6×6\nCancel out a 6 from the numerator and denominator:\nX= 84×7\n6\nNow, we can divide 84 by 6. 84÷6 = 14.\nX= 14×7\nX= 98\nStep 4: Final Answer:\nThe value of X is 98.\nQuick Tip\nIn proportion problems, you can also simplify the first ratio before solving. 36 : 84\ncan be simplified by dividing both numbers by their greatest common divisor, which is\n12. 36÷12 = 3 and 84÷12 = 7. So the proportion becomes 3 : 7 :: 42 :X. Now,\n3×X= 7×42, which givesX= (7×42)/3 = 7×14 = 98.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Ram purchased a watch at a cost of \\( \\left(\\frac{9}{10}\\right)^{th} \\) of the original cost and sold at 8% more than the original cost. His profit/loss is",
+          "options": [
+            "20% profit",
+            "20% loss",
+            "18% profit",
+            "18% loss"
+          ],
+          "correct": 0,
+          "explanation": "2\nStep 1: Understanding the Concept:\nThis problem involves calculating the profit percentage. Profit percentage is calculated on the\ncost price (the price at which Ram purchased the watch), not the original cost.\nProfit = Selling Price (SP) - Cost Price (CP)\nProfit % =\n\u0000Profit\nCP\n\u0001\n×100\nStep 2: Key Formula or Approach:\nLet the original cost of the watch be Rs. 100. This makes the calculation easier.\n1. Calculate Ram’s Cost Price (CP).\n2. Calculate Ram’s Selling Price (SP).",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the simple interest of the following cases in decreasing order-",
+          "options": [
+            "The simple interest on Rs 6600 at 5% per annum for 2 yrs.",
+            "The simple interest on Rs 200 at 6% per annum for 5 yrs.",
+            "The simple interest on Rs 840 at 5% per annum for 4 yrs.",
+            "The simple interest on Rs 5000 at 12% per annum for 2 yrs."
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThe question requires calculating the Simple Interest (SI) for four different cases and then ar-\nranging the amounts in descending order (largest to smallest).\nStep 2: Key Formula or Approach:\nThe formula for Simple Interest is:\nSI= P×R×T\n100\nwhere P is the Principal amount, R is the Rate of interest per annum, and T is the Time in years.\nStep 3: Detailed Explanation:\nLet’s calculate the SI for each case:\nCase (A):P = 6600, R = 5, T = 2\nSIA = 6600×5×2\n100 = 66×10 = Rs. 660\nCase (B):P = 200, R = 6, T = 5\nSIB = 200×6×5\n100 = 2×30 = Rs. 60\nCase (C):P = 840, R = 5, T = 4\nSIC = 840×5×4\n100 = 840×20\n100 = 84×2 = Rs. 168\nCase (D):P = 5000, R = 12, T = 2\nSID = 5000×12×2\n100 = 50×24 = Rs. 1200\nNow, we compare the SI values:\nSID = 1200\nSIA = 660\nSIC = 168\nSIB = 60\nThe decreasing order is 1200>660>168>60, which corresponds to (D)>(A)>(C)>(B).\n4\nStep 4: Final Answer:\nThe correct decreasing order of the simple interests is (D), (A), (C), (B).\nQuick Tip\nFor quick mental estimation, you can look at the product of R and T (interest for the\nwhole period) or P and R. For (D), 5000×12% = 600 per year, so 1200 for 2 years. For\n(A), 6600×5% = 330 per year, so 660 for ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Four circles of equal radius are drawn with centers, A, B, C and D such that ABCD is a square of side 14 cm and the circles touch externally as in the figure. The area of the shaded region bounded by the 4 circles is: (Take \\( \\pi = \\frac{22}{7} \\))",
+          "options": [
+            "24 cm\\(^2\\)",
+            "42 cm\\(^2\\)",
+            "96 cm\\(^2\\)",
+            "54 cm\\(^2\\)"
+          ],
+          "correct": 1,
+          "explanation": "The square has side 14 cm, so each circle has radius 7 cm because adjacent circles touch externally. The shaded region inside the square but outside the four quarter-circles equals the area of the square minus the area of one full circle: \\(14 \\times 14 - \\frac{22}{7} \\times 7^2 = 196 - 154 = 42\\) cm\\(^2\\). The correct answer is 42 cm\\(^2\\).",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The distance between points A (-5, 7) and B (-1, 3) is:",
+          "options": [
+            "4 units",
+            "6 units",
+            "\\(4\\sqrt{2}\\) units",
+            "7 units"
+          ],
+          "correct": 2,
+          "explanation": "Using the distance formula, \\(d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}\\). For A(-5, 7) and B(-1, 3), \\(d = \\sqrt{(-1+5)^2 + (3-7)^2} = \\sqrt{4^2 + (-4)^2} = \\sqrt{32} = 4\\sqrt{2}\\).",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q06",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The marks out of 50 obtained by 100 students in a test are given below as:\nFind the value of the (3 mode - 2 median).",
+          "options": [
+            "27.5",
+            "31",
+            "30",
+            "28.8"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThis problem involves calculating basic probabilities for a single roll of a standard six-sided\ndie. The sample space (all possible outcomes) is S ={1, 2, 3, 4, 5, 6}. The total number of\noutcomes is 6.\nProbability of an event E is given by P(E) = Number of favorable outcomes\nTotal number of outcomes .\nStep 2: Key Formula or Approach:\nWe will evaluate the probability for each statement (A), (B), (C), and (D) and check if it is\n9\ncorrect.\nStep 3: Detailed Explanation:\n(A) The probability of getting a number greater than 4:\nThe numbers greater than 4 are{5, 6}. There are 2 favorable outcomes.\nP(A) = 2\n6 = 1\n3. This statement iscorrect.\n(B) The probability of getting a number greater than or equal to 4:\nThe numbers greater than or equal to 4 are{4, 5, 6}. There are 3 favorable outcomes.\nP(B) = 3\n6 = 1\n2. The statement says the probability is 1\n3, so this statement isincorrect.\n(C) The probability of getting a number less than or equal to 3:\nThe numbers less than or equal to 3 are{1, 2, 3}. There are 3 favorable outcomes.\nP(C) = 3\n6 = 1\n2. This statement iscorrect.\n(D) The probability of getting a number less than or equal to 6:\nThe numbers less than ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Suppose we throw a dice once. Then, which one of the following is/are correct?",
+          "options": [
+            "The probability of getting a number greater than 4 is \\( \\frac{1}{3} \\).",
+            "The probability of getting a number greater than or equal to 4 is \\( \\frac{1}{3} \\).",
+            "The probability of getting a number less than or equal to 3 is \\( \\frac{1}{2} \\).",
+            "The probability of getting a number less than or equal to 6 is 1."
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThis question requires calculation and solving of permutations ( nPr) and combinations ( nCr).\nStep 2: Key Formula or Approach:\nPermutation formula: nPr = n!\n(n−r)! =n(n−1)(n−2)...(n−r+ 1)\nCombination formula: nCr = n!\nr!(n−r)! = n(n−1)...(n−r+1)\nr!\nStep 3: Detailed Explanation:\n(A) 8P3 −10 C3:\n8P3 = 8×7×6 = 336\n10C3 = 10×9×8\n3×2×1 = 10×3×4 = 120\nValue = 336−120 = 216. So,(A) matches (III).\n(B) 8P5:\n8P5 = 8×7×6×5×4 = 56×120 = 6720. So,(B) matches (IV).\n(C) nP4 = 360, find n:\nn(n−1)(n−2)(n−3) = 360. We need to find four consecutive integers whose product is 360.\nWe can test values. Let’s try n=6: 6×5×4×3 = 30×12 = 360. This is correct.\nSo, n = 6.(C) matches (I).\n(D) nC2 = 210, find n:\nn(n−1)\n2 = 210\nn(n−1) = 420. We need two consecutive integers whose product is 420.\nWe know 20×20 = 400. Let’s try n=21.\n21×(21−1) = 21×20 = 420. This is correct.\nSo, n = 21.(D) matches (II).\nThe correct matching is: (A)-(III), (B)-(IV), (C)-(I), (D)-(II).\nStep 4: Final Answer:\nThe correct option that reflects this matching is (3).\nQuick Tip\nFor solving equations like nPr =kor nCr =k, instead of expanding into complex\npolynomials, try to estimate and test integer valu",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II\nChoose the correct answer from the options given below:",
+          "options": [
+            "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+            "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)",
+            "(A) - (IV), (B) - (I), (C) - (II), (D) - (III)"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a word problem involving ages that can be solved by setting up a system of linear\nequations.\nStep 2: Key Formula or Approach:\nLet F be the present age of the father and S be the present age of the son.\nTranslate the given statements into two equations.\n1. ”The present age of a father is 4 years more than double the age of his son.” =⇒F= 2S+4\n2. ”After 10 years, the father’s age is 30 years more than his son.”\nFather’s age after 10 years = F + 10\nSon’s age after 10 years = S + 10\n=⇒(F+ 10) = (S+ 10) + 30\nStep 3: Detailed Explanation:\nWe have two equations:\n(1)F= 2S+ 4\n(2)F+ 10 =S+ 40 =⇒F=S+ 30\nNow we can solve this system. Since both equations are equal to F, we can set them equal to\neach other:\n2S+ 4 =S+ 30\nSubtract S from both sides:\nS+ 4 = 30\nSubtract 4 from both sides:\nS= 26\nThe son’s present age is 26 years.\nNow, find the father’s present age using either equation. Let’s use equation (2):\nF=S+ 30 = 26 + 30 = 56\nLet’s verify with equation (1):\nF= 2S+ 4 = 2(26) + 4 = 52 + 4 = 56\nBoth equations give the same result. The father’s present age is 56 years.\nStep 4: Final Answer:\nThe present age of the father is 56 years.\n12\nQuick Tip\nAlways d",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The present age of a father is 4 years more than double the age of his son. After 10 years, the father's age is 30 years more than his son. Then the present age of father is:",
+          "options": [
+            "26 years",
+            "28 years",
+            "56 years",
+            "60 years"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a trigonometry problem involving angles of elevation. Complementary angles are two\nangles that add up to 90 degrees. We can use the tangent function to relate the height of the\ntower to the distances and angles.\nStep 2: Key Formula or Approach:\nLet ’h’ be the height of the tower.\nLet the two points be at distances ’a’ and ’b’ from the base (a=5m, b=20m).\nLet the angles of elevation beθand 90 ◦ −θ. A standard result for this setup is that the height\nof the towerh=\n√\nab.\nStep 3: Detailed Explanation:\nLet the height of the tower be h. The two points are at distances 5 m and 20 m from the base.\nLet the angle of elevation from the point at 20 m beθ.\nSo, tan(θ) = h\n20 – (1)\nThe angle of elevation from the point at 5 m is complementary, so it is 90 ◦ −θ.\nSo, tan(90◦ −θ) = h\n5 – (2)\nUsing the trigonometric identity tan(90 ◦ −θ) = cot(θ), we can rewrite equation (2):\ncot(θ) = h\n5\nSince cot(θ) = 1\ntan(θ), we can multiply the two tangent expressions:\ntan(θ)×cot(θ) =\n\u0000 h\n20\n\u0001\n×\n\u0000 h\n5\n\u0001\nWe know that tan(θ)×cot(θ) = 1.\n1 = h2\n100\n13\nh2 = 100\nh=\n√\n100 = 10\nm (Height must be positive).\nStep 4: Final Answer:\nThe height of the tower is 10 m.\nQuick Tip\nThere",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The angles of elevation of the top of a tower from two points at a distance of 5 meters and 20 meters along the same straight line from the base of the tower, are complementary. Find the height of the tower.",
+          "options": [
+            "10 m",
+            "15 m",
+            "\\(10\\sqrt{3}\\) m",
+            "20 m"
+          ],
+          "correct": 0,
+          "explanation": "Let the tower height be \\(h\\). If the angles of elevation from distances 5 m and 20 m are complementary, then \\(\\tan \\theta \\times \\tan(90^\\circ-\\theta)=1\\). Therefore, \\(\\frac{h}{5} \\times \\frac{h}{20}=1\\), so \\(h^2=100\\) and \\(h=10\\) m. The correct height is 10 m.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q11",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The base diameter of a cylinder is 21 cm and the height is 28 cm. Which of the following statements are correct?\n(A) Radius of cylinder = 10.5 cm\n(B) Volume = 12936 cm\\(^3\\)\n(C) Curved Surface Area = 1848 cm\\(^2\\)\n(D) Total surface area = 2541 cm\\(^2\\)",
+          "options": [
+            "(A), (B) and (C) only",
+            "(A), (C) and (D) only",
+            "(B), (C) and (D) only",
+            "(A), (B), (C) and (D)"
+          ],
+          "correct": 1,
+          "explanation": "The radius is \\(21/2 = 10.5\\) cm, so statement A is correct. The volume is \\(\\frac{22}{7} \\times 10.5^2 \\times 28 = 9702\\) cm\\(^3\\), so statement B is incorrect. The curved surface area is \\(2 \\times \\frac{22}{7} \\times 10.5 \\times 28 = 1848\\) cm\\(^2\\), so statement C is correct. The total surface area is \\(2\\pi r(h+r)=2 \\times \\frac{22}{7} \\times 10.5 \\times 38.5 = 2541\\) cm\\(^2\\), so statement D is correct.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q12",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "P and Q can complete a job in 24 days working together. P can alone complete it in 32 days. Both of them worked together for 8 days and then P left. The number of days Q will take to complete the remaining job is:",
+          "options": [
+            "26 days",
+            "30 days",
+            "64 days",
+            "60 days"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis problem involves relative speed in the context of boats and streams.\nDownstream speed (S D): Speed of boat in still water (S B) + Speed of stream (S S).\nUpstream speed (S U): Speed of boat in still water (S B) - Speed of stream (S S).\nSpeed of stream (S S) = SD−SU\n2 .\nStep 2: Key Formula or Approach:\n1. Calculate the downstream speed (S D). 2. Calculate the upstream speed (S U). 3. Use the\nformula to find the speed of the stream. Remember to convert time from minutes to hours.\nStep 3: Detailed Explanation:\nDownstream journey (along the stream):\nDistance = 10 km.\nTime = 30 minutes = 30\n60 hours = 0.5 hours.\nDownstream speed (S D) = Distance\nTime = 10\n0.5 = 20 km/h.\nUpstream journey (returning):\nDistance = 10 km.\nTime = 40 minutes = 40\n60 hours = 2\n3 hours.\nUpstream speed (S U) = Distance\nTime = 10\n2/3 = 10× 3\n2 = 15 km/h.\nCalculate the speed of the stream:\nSpeed of stream (S S) = SD−SU\n2\nSS = 20−15\n2 = 5\n2 = 2.5 km/h.\nStep 4: Final Answer:\nThe speed of the stream is 2.5 km/h.\n17\nQuick Tip\nRemember these two key formulas: Speed of stream = (Downstream Speed - Upstream\nSpeed) / 2 Speed of boat in still water = (Downstream Speed + Upstream Speed)",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q13",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A person rows a boat 10 kms along the stream in 30 minutes and returns to the starting point in 40 minutes. The speed of the stream is:",
+          "options": [
+            "17.5 km/h",
+            "2.5 km/h",
+            "5 km/h",
+            "15 km/h"
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThe unit digit of the result of a power depends only on the unit digit of the base number.\nStep 2: Key Formula or Approach:\nTo find the unit digit of (37) 2, we only need to consider the unit digit of the base, which is 7.\nWe then need to find the unit digit of 7 2.\nStep 3: Detailed Explanation:\nThe base of the number is 37. The unit digit of 37 is 7.\nThe expression is (37) 2, which is 37×37.\nThe unit digit of the result will be the unit digit of the product of the unit digits of the numbers\nbeing multiplied.\nUnit digit of (37) 2 = Unit digit of (7×7).\n7×7 = 49.\nThe unit digit of 49 is 9.\nStep 4: Final Answer:\nThe unit place digit of the number (37) 2 is 9.\nQuick Tip\nTo find the unit digit of any number raised to a power, you only need to look at the unit\ndigit of the base. For example, the unit digit of (123) 2 is the same as the unit digit of\n32, which is 9.\n18",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q14",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The unit place digit of the number \\((37)^2\\) is:",
+          "options": [
+            "2",
+            "3",
+            "7",
+            "9"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThe number of plants in the rows forms an arithmetic progression (AP), as the difference be-\ntween consecutive terms is constant.\nStep 2: Key Formula or Approach:\nThe formula for the nth term of an AP is:\nan =a 1 + (n−1)d\nwherea n is the nth term,a 1 is the first term, n is the number of terms, and d is the common\ndifference.\nWe need to find ’n’ (the number of rows).\nStep 3: Detailed Explanation:\nThe sequence of the number of plants is 23, 21, 19, ... , 5.\nThe first term,a 1 = 23.\nThe last term,a n = 5.\nThe common difference,d= 21−23 =−2.\nNow, substitute these values into the nth term formula:\n5 = 23 + (n−1)(−2)\nSubtract 23 from both sides:\n5−23 = (n−1)(−2)\n−18 = (n−1)(−2)\nDivide both sides by -2:\n−18\n−2 =n−1\n9 =n−1\nAdd 1 to both sides:\nn= 10\nStep 4: Final Answer:\nThere are 10 rows in the flower bed.\n19\nQuick Tip\nWhen you identify a sequence as an arithmetic progression, clearly list the values of the\nfirst term (a 1), the last term (a n), and the common difference (d) before plugging them\ninto the formula. This minimizes errors.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q15",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In a flower bed there are 23 rose plants in the first row, 21 in the second, 19 in the third and so on. There are 5 rose plants in the last row. Then the number of rows in the flower bed is:",
+          "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a mixed series problem with three components in each term: a letter, a number, and\nanother letter. We need to find the pattern for each component separately to identify the outlier.\nStep 2: Key Formula or Approach:\n1. Analyze the pattern of the first letter of each term.\n2. Analyze the pattern of the last letter of each term.\n3. Analyze the pattern of the number in each term.\nStep 3: Detailed Explanation:\nThe series is: H4Q, K10N, N20K, Q43H, T90E.\nPattern of the first letter:\nH (8th letter) +3− − →K (11th)+3− − →N (14th)+3− − →Q (17th)+3− − →T (20th).\nThis pattern is consistent throughout the series.\nPattern of the last letter:\nQ (17th letter) −3− − →N (14th)−3− − →K (11th)−3− − →H (8th)−3− − →E (5th).\nThis pattern is also consistent throughout the series.\nPattern of the number:\nThe numbers are 4, 10, 20, 43, 90.\nLet’s look for a recursive pattern, where each number is derived from the previous one. A\ncommon pattern is of the forma n =k·a n−1 +c. Let’s try k=2.\nLet’s assume there is a consistent rule that one term breaks. Let’s test the rulea n = 2×a n−1 +\n(n−1) starting from the first term.\nTerm 1 number = 4.\n20\nTerm 2 number should be: ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q16",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the term which doesn't fit into the series given below:\nH4Q, K10N, N20K, Q43H, T90E",
+          "options": [
+            "H4Q",
+            "K10N",
+            "Q43H",
+            "T90E"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a visual reasoning problem where we need to find which of the four option figures con-\ntains the target figure hidden within it, without any rotation or resizing.\nStep 2: Detailed Explanation:\nWe need to carefully examine each option to locate the given figure. The target figure is an\nirregular shape composed of a quadrilateral base with a triangle on top.\n•Option 1:Does not contain the exact shape of the given figure. The proportions and\nangles of the internal shapes do not match.\n•Option 2:The given figure is clearly embedded in the top-left portion of this option figure.\nAll lines and vertices of the target shape match a part of this option figure perfectly.\n•Option 3:Contains similar components, but they are not arranged in the same configu-\nration as the target figure.\n•Option 4:Does not contain the target figure.\nStep 3: Final Answer:\nThe given figure is embedded in option figure 2.\nQuick Tip\nWhen solving embedded figure questions, focus on a unique feature of the target shape,\nlike a specific angle or an oddly shaped corner. Then, scan the options specifically for\nthat feature to quickly identify the correct figure.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q17",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Given figure is embedded in any one of the four option figures. Find the option figure which contains the given figure as its part.",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a problem about a faulty clock that loses time at a constant rate. We need to find the\nactual time elapsed when the faulty clock shows a certain amount of time has passed.\nStep 2: Key Formula or Approach:\n1. Calculate the total time elapsed on the faulty clock.\n2. Find the relationship between the time measured by the faulty clock and the correct clock.\n3. Calculate the actual time elapsed.\n4. Determine the correct time.\nStep 3: Detailed Explanation:\nThe clock is set at 5 a.m. on Day 1. We need the time when it shows 10 p.m. on Day 4.\nTime elapsed on the faulty clock:\nFrom Day 1, 5 a.m. to Day 4, 5 a.m. = 3 full days = 3×24 = 72 hours.\nFrom Day 4, 5 a.m. to Day 4, 10 p.m. = 17 hours.\nTotal time shown by the faulty clock = 72 + 17 = 89 hours.\nNow, let’s find the rate. The clock loses 16 minutes in 24 hours.\nSo, when 24 hours of correct time have passed, the faulty clock has only shown 23 hours and\n44 minutes.\n23 hours 44 minutes = 23 44\n60 hours = 23 11\n15 hours = 356\n15 hours.\nThis means 356\n15 hours on the faulty clock = 24 hours of correct time.\nSo, 1 hour on the faulty clock = 24× 15\n356 hours of correct time = 90\n89 hours of correct ti",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q18",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A clock is set right at 5 a.m. The clock loses 16 minutes in 24 hours. What will be the correct approximate time when the clock indicates 10 p.m. on 4th day?",
+          "options": [
+            "11 p.m",
+            "9 p.m",
+            "11 a.m",
+            "11.30 p.m"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nTo find the day of the week for a future date, we need to calculate the total number of days\nbetween the two dates and find the number of ”odd days.” An odd day is the remainder ob-\ntained when the total number of days is divided by 7.\nStep 2: Key Formula or Approach:\n1. Count the number of remaining days in the starting month.\n2. Count the number of days in the full months in between.\n3. Count the number of days in the target month.\n4. Sum the days, divide by 7 to find the odd days, and add them to the starting day.\nStep 3: Detailed Explanation:\nThe starting date is 1st July 2022 (Sunday). The target date is 1st November 2022.\nNumber of days in each month:\n•July:31 days. Remaining days = 31−1 = 30 days.\n•August:31 days.\n•September:30 days.\n•October:31 days.\n•November:1 day (up to the 1st).\nTotal number of days = 30 + 31 + 30 + 31 + 1 = 123 days.\nNow, find the number of odd days by dividing the total days by 7:\n123÷7 gives a quotient of 17 and a remainder of 4.\nSo, there are 4 odd days.\nThe day on 1st November 2022 will be 4 days after Sunday.\nSunday + 1 day = Monday\nSunday + 2 days = Tuesday\nSunday + 3 days = Wednesday\nSunday + 4 days = Thursday\n",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q19",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If 1st July 2022 was Sunday, then what was the day on 1st November 2022?",
+          "options": [
+            "Monday",
+            "Tuesday",
+            "Thursday",
+            "Friday"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis problem requires identifying the underlying pattern in a 3x3 matrix of figures, either row-\nwise or column-wise, to determine the missing figure.\n25\nStep 2: Detailed Explanation:\nLet’s analyze the matrix row by row to find a consistent pattern. A plausible pattern relates\nto the number of shaded sub-sections within the main shape.\n•Row 1 (Triangles):The figure in column 2 has1shaded section. The figure in column\n3 has1shaded section.\n•Row 2 (Circles):The figure in column 2 has1shaded section. The figure in column 3\nhas2shaded sections (a semicircle).\n•Row 3 (Squares):The figure in column 2 has1shaded section.\nLet’s check the options:\n•Option 1: 2 shaded regions.\n•Option 2: 4 shaded regions.\n•Option 3: 1 shaded region.\n•Option 4: The whole figure is shaded (can be considered 1 or 4 regions depending on\ninterpretation, but the pattern is inside the ’X’ division).\nOption 2 fits the pattern of the number of shaded regions doubling in the third column (1→\n2→4).\nStep 3: Final Answer:\nFollowing the pattern of the number of shaded regions in the third column doubling from one\nrow to the next, the missing figure must have 4 shaded regions. Therefore, ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q20",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Complete the following figure matrix.",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a coded blood relation problem. We need to decode the given expression step-by-step\nto draw a family tree and determine the relationship between H and U.\nStep 2: Key Formula or Approach:\nDecode each symbol from left to right to build the family relationships.\n•U C=⇒U is the daughter of C.\n•C - D=⇒C is the wife of D. (This makes C female, D male, and D the father of U).\n•D + H=⇒D is the brother of H. (H is the sibling of U’s father).\n•H + T=⇒H is the brother of T. (This confirms H is male).\nStep 3: Detailed Explanation:\n1. FromU C, we know U is the daughter of C.\n2. FromC - D, we know C is the wife of D. This means D is the husband of C. Since U is C’s\ndaughter, D is U’s father.\n3. FromD + H, we know D is the brother of H. This means H is the sibling of U’s father, D.\n4. FromH + T, we know H is the brother of T. This explicitly tells us that H is male.\nCombining the information: H is the male sibling (brother) of D, and D is the father of U. The\nbrother of one’s father is their paternal uncle.\nStep 4: Final Answer:\nH is the Uncle of U.\nQuick Tip\nWhen solving coded blood relation problems, draw a simple family tree as you decode\neach part of",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q21",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If A + B means A is the brother of B; A * B means A is the sister of B; A # B means A is the daughter of B and A - B means A is the wife of B, then in the expression U # C - D + H + T, how is H related to U?",
+          "options": [
+            "Father",
+            "Uncle",
+            "Aunt",
+            "Brother"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nA mirror image with the mirror on the right side involves lateral inversion. This means the left\npart of the figure appears on the right, and the right part appears on the left. The top and\nbottom parts remain unchanged.\nStep 2: Detailed Explanation:\nLet’s analyze the components of the original figure, fig(x):\n•A large outer triangle.\n•A filled circle in thetop-leftsection.\n•An upward-pointing arrow slightly to therightof the center.\n•A small shaded triangle in thebottom-leftcorner.\nNow, let’s see how these components appear in the mirror image:\n•The outer triangle will remain unchanged.\n28\n•The filled circle from the top-left will move to thetop-right.\n•The arrow from the right of center will move to theleftof center.\n•The small shaded triangle from the bottom-left should move to thebottom-right.\nNow let’s examine the options:\n•Option 1:The circle is on the right, the arrow is on the left, and the shaded triangle is\non the right. This appears to be a correct full reflection.\n•Option 2:The circle is on the right (correctly reflected), the arrow is on the left (correctly\nreflected), but the shaded triangle remains on the left (incorrectly not refle",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q22",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct mirror image of fig(x), when mirror is placed at the right side.",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a coding-decoding problem based on the rearrangement of letters. We need to identify\nthe pattern used to transform the word ALPHABET into TEBAHPLA.\nStep 2: Detailed Explanation:\nLet’s write the word and the code and compare them:\nWord: A L P H A B E T\nCode: T E B A H P L A\n29\nIf we write the original word ”ALPHABET” in reverse order, we get ”T E B A H P L A”.\nThe coding logic is simply to reverse the order of the letters in the word.\nNow, we apply the same logic to the word ”DECIPHER”.\nWord: D E C I P H E R\nReversing the order of the letters, we get: R E H P I C E D.\nStep 3: Final Answer:\nThe code for DECIPHER is REHPICED.\nQuick Tip\nWhen the letters in the coded word are the same as the original word, the logic is always\na rearrangement. The first pattern to check for is a simple reversal of the entire word.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q23",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In a certain code, ALPHABET is written as TEBAHPLA. How is DECIPHER written in that code?",
+          "options": [
+            "REPHCIED",
+            "REPHICED",
+            "REIPHCED",
+            "REHPICED"
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a classification or ”odd one out” problem. We need to find the common property among\nthree of the options and identify the option that does not share this property.\nStep 2: Detailed Explanation:\nLet’s analyze the physical state of each substance at normal room temperature:\n•Milk:is a liquid.\n•Water:is a liquid.\n•Oil:is a liquid.\n•Sugar:is a solid (crystalline).\nThe common property among Milk, Water, and Oil is that they are all liquids. Sugar is the\nonly solid among the options.\n30\nStep 3: Final Answer:\nSugar is the odd one out because it is a solid, while the other three are liquids.\nQuick Tip\nIn ”odd one out” questions with common nouns, consider their basic properties first, such\nas physical state (solid, liquid, gas), category (fruit, vegetable, mineral), or function.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q24",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In the following options, four words have been given, out of which three are alike in some manner, while the fourth one is different. Choose out the odd one.",
+          "options": [
+            "Milk",
+            "Water",
+            "Oil",
+            "Sugar"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThis problem involves tracking movement in different directions and calculating the final dis-\nplacement from the starting point. We can visualize this on a coordinate plane.\nStep 2: Key Formula or Approach:\nLet the initial position be the origin (0, 0). We will track the net movement in the North-South\nand East-West directions.\nStep 3: Detailed Explanation:\nLet’s trace the girl’s path step-by-step:\n1.Walks 20 meters towards North:The girl moves 20m up. Her position is now 20m\nNorth of the start.\n2.Turning to her left, she walks 50 meters:From North, left is West. She moves 50m\nWest. Her position is 20m North and 50m West of the start.\n3.Turning to her right, she walks 40 metres:From West, right is North. She moves\nanother 40m North. Her total northward distance from the start is now 20 + 40 = 60m. Her\nposition is 60m North and 50m West of the start.\n4.Again, she turns to her right and walks 50 metres:From North, right is East. She\nmoves 50m East. This eastward movement of 50m exactly cancels out her previous westward\nmovement of 50m.\nFinal Position:\nHer net movement East-West is 50m West−50m East = 0m.\nHer net movement North-South is 20m North + ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q25",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A girl walks 20 meters towards North. Then, turning to her left, she walks 50 meters. Then, turning to her right, she walks 40 metres. Again, she turns to her right and walks 50 metres. How far is she from her initial position?",
+          "options": [
+            "60 metres",
+            "50 metres",
+            "20 metres",
+            "40 metres"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThis problem deals with ranking and position in a linear arrangement. There is a standard\nformula to find the position from one end if the position from the other end and the total\nnumber of items are known.\nStep 2: Key Formula or Approach:\nThe formula is:\nPosition from Right End = (Total Number of people) - (Position from Left End) + 1\nStep 3: Detailed Explanation:\nTotal number of children = 30.\nNeelam’s position from the left = 17.\nUsing the formula:\nNeelam’s position from the right = 30−17 + 1\n= 13 + 1\n= 14.\nStep 4: Final Answer:\nThe position of Neelam from the right is 14th.\n32\nQuick Tip\nThe ’+1’ in the formula is crucial because when you subtract the left position from the\ntotal, you are counting the number of people to the right of the person, not including the\nperson themselves. Adding 1 gives their actual rank from the right.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q26",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Thirty children are standing in a row facing North. If in this row Neelam is seventeenth from the left then what is the position of Neelam from the right?",
+          "options": [
+            "17",
+            "13",
+            "14",
+            "15"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a number series problem where we need to identify the pattern governing the sequence\nof numbers to find the next term.\nStep 2: Key Formula or Approach:\nA common method to find the pattern is to calculate the difference between consecutive terms.\nStep 3: Detailed Explanation:\nLet’s find the difference between each pair of consecutive numbers in the series:\n•9−6 = 3\n•14−9 = 5\n•21−14 = 7\n•30−21 = 9\nThe differences are 3, 5, 7, 9. This is a sequence of consecutive odd numbers.\nThe next odd number in this sequence will be 11.\nTo find the next term in the original series, we add this difference to the last term (30).\nNext term = 30 + 11 = 41.\nStep 4: Final Answer:\nThe number that will come in place of the question mark is 41.\n33\nQuick Tip\nWhen faced with a number series, always start by checking the differences between consec-\nutive terms. If the first-level differences don’t show a clear pattern, check the differences\nof the differences (second-level differences).",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q27",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What will come in place of the question mark in the following numerical series?\n6, 9, 14, 21, 30, ?",
+          "options": [
+            "36",
+            "41",
+            "62",
+            "59"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a matrix puzzle where the numbers in the grid follow a certain logical pattern, either\nrow-wise, column-wise, or diagonally. We need to find this pattern to determine the missing\nnumber.\nStep 2: Detailed Explanation:\nLet’s analyze the patterns in the matrix.\nPattern 1: Row-wise Logic\n•Row 1:6, 10, 14. The difference between consecutive numbers is +4. (6 + 4 = 10,\n10 + 4 = 14). This is an arithmetic progression.\n•Row 2:9, 15, 21. The difference between consecutive numbers is +6. (9 + 6 = 15,\n15 + 6 = 21). This is also an arithmetic progression.\n•Row 3:12, 20, ?. The difference between the first two numbers is +8. (12 + 8 = 20).\nThe common differences in the rows are increasing by 2 (4, 6, 8). Following this logic, the\nnext number in the third row should also be found by adding 8. So, 20 + 8 = 28.\nPattern 2: Column-wise Logic\n•Column 1:6, 9, 12. The difference is +3. (6 + 3 = 9, 9 + 3 = 12).\n•Column 2:10, 15, 20. The difference is +5. (10 + 5 = 15, 15 + 5 = 20).\n•Column 3:14, 21, ?. The difference is +7. (14 + 7 = 21). The common differences in\nthe columns are also increasing by 2 (3, 5, 7). Following this logic, the next number in the\nthird",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q28",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the missing number from the given alternatives.",
+          "options": [
+            "28",
+            "36",
+            "42",
+            "43"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a linear arrangement puzzle. We need to use the given conditions to determine the\nexact position of some of the people in the line of 7. Let’s denote the positions 1 (first, ahead)\nto 7 (last, behind).\nStep 2: Detailed Explanation:\nLet’s break down the information and build the arrangement:\n1. There are 7 positions: (1, 2, 3, 4, 5, 6, 7)\n2.Condition: W & V are fourth and fifth in line respectively.\nThis gives us: W V =⇒Position 4 = W, Position 5 = V.\n3.Condition: W is immediately behind T.\nThis means T comes just before W. Since W is at position 4, T must be at position 3.\nThe line is now: T W V (T=3, W=4, V=5)\n4.Condition: There is exactly one person standing between V and Z.\nV is at position 5. The person between V and Z is at position 6, so Z must be at position 7.\n(Z cannot be at position 3, as T is there).\nThe line is now: T W V Z (T=3, W=4, V=5, Z=7)\n5.Condition: Y is behind both U & W.\nW is at position 4. So Y must be at a position greater than 4. The available positions are 6.\n(Position 5 is V, Position 7 is Z). So, Y must be at position 6.\nThe line is now: T W V Y Z (T=3, W=4, V=5, Y=6, Z=7)\n35\n6. The remaining people are U and X,",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q29",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Seven people T, U, V, W, X, Y & Z are standing in a single line facing a milk - booth. X is somewhere ahead of Y. There is exactly one person standing between V and Z. W is immediately behind T. Y is behind both U & W. If W & V are fourth and fifth in line respectively, then which of the following must be true?",
+          "options": [
+            "T is first",
+            "Z is first",
+            "Y is sixth",
+            "Y is seventh"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a spatial reasoning puzzle known as figure formation. We need to mentally rotate and\njoin the given pieces to see which combination forms a perfect square.\nStep 2: Detailed Explanation:\nLet’s analyze the shapes of the pieces and how they might fit together to form the corners and\nedges of a square.\n•Figure (A):This piece has a 90-degree angle that can form the top-left corner of the\nsquare. It has a complex, stepped bottom edge.\n•Figure (C):This piece has a 90-degree angle that can form the bottom-right corner of\nthe square. Its top edge is stepped in a way that is complementary to the bottom edge of\nfigure (A).\n•Fitting (A) and (C):If we place (A) in the top-left and (C) in the bottom-right, their\nstepped edges will interlock perfectly. This combination creates a large shape with a\n’V’-shaped gap in the middle.\n•Figure (B):This piece is shaped like an arrowhead. The top of the arrowhead is a ’V’-\nshape that perfectly matches the ’V’-shaped gap created by fitting (A) and (C) together.\n•Combining (A), (B), and (C):When piece (B) is inserted into the gap between pieces\n(A) and (C), all the edges align to form a complete, solid square.\n•Figur",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q30",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Select the figures which, when fitted with each other, will form a complete square.",
+          "options": [
+            "(A), (B) and (D) only",
+            "(A), (B) and (C) only",
+            "(A), (B), (C)&(D)",
+            "(B), (C), & (D) only"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks to identify the first COVID-19 vaccine that was developed indigenously in\nIndia. ”Indigenous” means developed and manufactured within the country.\nStep 2: Detailed Explanation:\n•COVAXIN:This vaccine was developed by Bharat Biotech, an Indian biotechnology\ncompany, in collaboration with the Indian Council of Medical Research (ICMR) and the\nNational Institute of Virology (NIV). It is a wholly indigenous vaccine.\n•COVISHIELD:This vaccine was developed by Oxford University and AstraZeneca. It\nwas manufactured in India by the Serum Institute of India, but the development was not\nindigenous.\n•SPUTNIK-V:This is a Russian vaccine, developed by the Gamaleya Research Institute\nof Epidemiology and Microbiology.\n•MODERNA:This is an American vaccine, developed by Moderna, Inc.\nBased on this, COVAXIN was the first vaccine to be developed entirely in India.\nStep 3: Final Answer:\nThe first indigenous COVID-19 vaccine developed in India was COVAXIN.\nQuick Tip\nRemember the key distinction: COVAXIN was ”Made in India, Developed in India,”\nwhile COVISHIELD was ”Made in India, Developed Abroad.”",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q31",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The first Indigenous vaccine of COVID-19 developed in India was....",
+          "options": [
+            "COVAXIN",
+            "COVISHIELD",
+            "SPUTNIK-V",
+            "MODERNA"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks for the definition of Kinematics, a branch of classical mechanics.\nStep 2: Detailed Explanation:\nKinematics is the branch of physics that describes themotion of an objectwithout consid-\nering the forces that cause the motion. It focuses on concepts like displacement, velocity, and\nacceleration. The other options relate to different fields of physics:\n•Material property: Relates to materials science.\n•Elastic property: Relates to the study of solids and materials.\n•Optical property: Relates to optics.\nStep 3: Final Answer:\nKinematics deals with the motion of an object.\nQuick Tip\nAssociate ”Kinematics” with words like ”kinetic” or ”cinema,” which all relate to move-\nment. This helps remember that it’s the study of motion.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q32",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Kinematics deal with the",
+          "options": [
+            "Motion of an object",
+            "Material property of an object",
+            "Elastic property of an object",
+            "Optical property of an object"
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks about the chemical precursor used in the industrial synthesis of chloroform\n(CHCl3).\nStep 2: Detailed Explanation:\nChloroform is produced industrially by the chlorination of methane. The reaction involves heat-\ning a mixture of chlorine and methane gas. This process is a free-radical substitution reaction\n39\nand produces a mixture of chlorinated methanes (chloromethane, dichloromethane, chloroform,\nand carbon tetrachloride), which are then separated by distillation. The primary starting gas\nisMethane(CH 4).\nCH4 + Cl2 →CH 3Cl + HCl\nCH3Cl + Cl2 →CH 2Cl2 + HCl\nCH2Cl2 + Cl2 →CHCl 3 (Chloroform) + HCl\nStep 3: Final Answer:\nMethane is the gas used to make chloroform.\nQuick Tip\nRemember the names of the first few alkanes: Methane (1 carbon), Ethane (2 carbons),\nPropane (3 carbons). Chloroform has one carbon atom, which is a strong clue that it’s\nderived from methane.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q33",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The gas which is used to make chloroform is",
+          "options": [
+            "Cyanogen",
+            "Radon",
+            "Propane",
+            "Methane"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks to identify the first of the 24 Tirthankaras (spiritual teachers) in Jainism.\nStep 2: Detailed Explanation:\nAccording to Jain tradition, the spiritual history of the present cosmic age is marked by 24\nTirthankaras.\n•The first Tirthankara wasRishabhnath(also known as Rishabhadeva or Adinatha).\n•The 23rd Tirthankara was Parshvanatha.\n•The 24th and last Tirthankara wasMahavira.\n•Arishtanemi (or Neminatha) was the 22nd Tirthankara.\n•Sambhavnath was the 3rd Tirthankara.\n40\nStep 3: Final Answer:\nThe first Tirthankara in Jainism is believed to be Rishabhnath.\nQuick Tip\nFor exams, it’s most important to remember the 1st Tirthankara (Rishabhnath), the 23rd\n(Parshvanatha), and the 24th (Mahavira), as they are the most historically significant\nand frequently asked about.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q34",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The first Tirthankara in Jainism is believed to be......",
+          "options": [
+            "Arishtanemi",
+            "Sambhavnath",
+            "Rishabhnath",
+            "Mahavira"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks for the more common name of the Ilbary dynasty, which ruled the Delhi\nSultanate.\nStep 2: Detailed Explanation:\nThe Mamluk Dynasty, which ruled the Delhi Sultanate from 1206 to 1290, is commonly known\nas theSlave Dynasty. The term ”Ilbary dynasty” refers specifically to the lineage of Iltut-\nmish, a prominent ruler of this dynasty who belonged to the Ilbary tribe of Turks. Since many\nearly rulers of this dynasty, including its founder Qutb al-Din Aibak and Iltutmish himself, had\norigins as slaves (mamluks), the entire dynasty is popularly called the Slave Dynasty.\nStep 3: Final Answer:\nThe Ilbary dynasty is famously known as The Slave Dynasty.\nQuick Tip\nRemember the order of the Delhi Sultanate dynasties: Slave, Khilji, Tughlaq, Sayyid,\nand Lodhi. The Ilbary rulers are part of the first dynasty, the Slave Dynasty.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q35",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The Ilbary dynasty is famously known as",
+          "options": [
+            "The Slave Dynasty",
+            "The Khilji Dynasty",
+            "The Tughlaq Dynasty",
+            "The Lodhi Dynasty"
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks to identify the political movement associated with the famous slogan by Bal\nGangadhar Tilak.\nStep 2: Detailed Explanation:\nThe powerful slogan, ”Swaraj is my birthright and I shall have it” (Swarajya is my birthright\nand I shall have it), was given by the nationalist leader Bal Gangadhar Tilak. He used this\nslogan extensively to mobilize the Indian masses during theHome Rule Movement(1916-\n1918). The movement, led by Tilak and Annie Besant, aimed to achieve self-government or\n’home rule’ for India under the British Empire. This slogan became the cornerstone of the\nmovement’s ideology, emphasizing the natural right of Indians to govern themselves.\nStep 3: Final Answer:\nThe slogan is associated with the Home Rule Movement.\nQuick Tip\nAssociate key slogans with the leaders who gave them and the movements during which\nthey were popularized. Tilak’s ”Swaraj is my birthright” is one of the most famous slogans\nof the Indian independence struggle, intrinsically linked to the Home Rule Movement.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q36",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The slogan, 'Swaraj is my birthright and I shall have it' is associated with",
+          "options": [
+            "The Khilafat Movement",
+            "The Poona Pact",
+            "Civil Disobedience Movement",
+            "Home Rule Movement"
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks to identify the incorrect statement among the given facts about India’s\nChandrayaan-3 mission.\n42\nStep 2: Detailed Explanation:\nLet’s evaluate each statement:\n•1. Launched from Vikram Sarabhai Space Centre on July 14, 2023:This state-\nment isincorrect. Chandrayaan-3 was launched from theSatish Dhawan Space Cen-\ntrein Sriharikota, Andhra Pradesh, not the Vikram Sarabhai Space Centre in Thiru-\nvananthapuram. The launch date of July 14, 2023, is correct.\n•2. India became the 4th country to land on the Moon:This is correct. India\njoined the United States, the former Soviet Union, and China as the only countries to\nhave successfully soft-landed a spacecraft on the Moon.\n•3. It consists of a lunar lander named Vikram and a rover named Pragyan:\nThis is correct. These are the names of the lander and rover, respectively.\n•4. It became the first mission to land near the lunar South Pole:This is correct.\nChandrayaan-3 achieved the historic milestone of being the first-ever mission to soft-land\nin the lunar south polar region.\nStep 3: Final Answer:\nThe incorrect statement is the one about the launch site.\nQuick Tip\nRemember that ISRO’s prima",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q37",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following statements is incorrect for Chandrayaan-3?",
+          "options": [
+            "Launched from Vikram Sarabhai Space Centre on July 14, 2023",
+            "India became the 4th country to land on the Moon.",
+            "It consists of a lunar lander named Vikram and a rover named Pragyan.",
+            "It became the first mission to land near the lunar South Pole."
+          ],
+          "correct": 0,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks for the purpose of the IUCN Red List. IUCN stands for the International\nUnion for Conservation of Nature.\nStep 2: Detailed Explanation:\nThe IUCN Red List of Threatened Species, also known as the IUCN Red List, is the world’s most\n43\ncomprehensive inventory of the global conservation status of biological species. It uses a set of\nprecise criteria to evaluate the extinction risk of thousands of species and subspecies. The list\nclassifies species into categories such as Critically Endangered, Endangered, Vulnerable, Near\nThreatened, etc. Therefore, it is a catalogue ofspecies threatened with risk of extinction.\nStep 3: Final Answer:\nThe IUCN Red List is a catalogue of species threatened with risk of extinction.\nQuick Tip\nAssociate ”IUCN” with nature conservation and ”Red List” with danger or warning.\nThis makes it easy to remember that it’s a list of species in danger of extinction.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q38",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The IUCN Red List is a catalogue of --",
+          "options": [
+            "Species threatened with risk of extinction",
+            "Red Sea",
+            "Hot Springs",
+            "Rivers"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis question requires matching famous authors with their well-known literary works.\nStep 2: Detailed Explanation:\nLet’s match each author from List-I with their work from List-II:\n•(A) William Shakespeare:A renowned English playwright. One of his famous plays is\n(II) The Tempest.\n•(B) Lewis Carroll:The pen name for Charles Lutwidge Dodgson, famous for his\nchildren’s literature. He wroteAlice’s Adventures in Wonderlandand its sequel,(III)\nThrough the Looking-Glass.\n•(C) E M Forster:An English novelist. His most celebrated work is(IV) A Passage\nto India.\n44\n•(D) Bernard Shaw:An Irish playwright. He wrote the play(I) Man of Destiny.\nThe correct matching is: A→II, B→III, C→IV, D→I.\nStep 3: Final Answer:\nBased on the correct pairings, option (2) presents the correct combination.\nQuick Tip\nEven if you are unsure about all the matches, try to match the ones you know for sure.\nFor instance, knowing that Shakespeare wrote The Tempest (A-II) and E M Forster wrote\nA Passage to India (C-IV) would be enough to identify option (2) as the only correct\nchoice.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q39",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II\nChoose the correct answer from the options given below:",
+          "options": [
+            "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+            "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)",
+            "(A) - (III), (B) - (II), (C) - (I), (D) - (IV)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks to identify the key physiological functions of calcium in the human body.\nStep 2: Detailed Explanation:\nLet’s evaluate each function:\n•(A) Bone formation:This is the most well-known function of calcium. About 99\n•(B) Blood clotting:Calcium ions (Ca 2+) are an essential cofactor in the blood coagu-\nlation cascade, required for the activation of several clotting factors. This is correct.\n•(C) Muscle function:Calcium ions are crucial for muscle contraction. The release of\ncalcium from the sarcoplasmic reticulum triggers the interaction between actin and myosin\nfilaments, causing the muscle to contract. This is correct.\n45\n•(D) Blood formation:Blood formation, or hematopoiesis, primarily requires iron (for\nhemoglobin), vitamin B12, and folic acid. While calcium is vital for the overall health of\nthe body, it is not a direct or primary component in the synthesis of blood cells.\nStep 3: Final Answer:\nCalcium plays a key role in bone formation, blood clotting, and muscle function. Therefore,\nthe correct option includes (A), (B), and (C).\nQuick Tip\nRemember the three ’B’s and an ’M’ for calcium’s main roles outside of bones: Blood\n(clott",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q40",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In humans, calcium plays a role in",
+          "options": [
+            "Bone formation",
+            "Blood clotting",
+            "Muscle function",
+            "Blood formation"
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThis question requires arranging major national events/policies of India in chronological order,\nfrom earliest to latest.\nStep 2: Detailed Explanation:\nLet’s find the year of occurrence for each event:\n•(D) Economic Liberalization:A series of major economic reforms in India was initiated\nin1991.\n•(C) Right to Information Act:The RTI Act was passed by the Parliament of India\non 15 June 2005 and came fully into force on 12 October2005.\n•(B) Mars Orbiter Mission (Mangalyaan):The mission was launched on 5 November\n2013by ISRO.\n•(A) Swachh Bharat Abhiyaan:This nationwide cleanliness campaign was officially\nlaunched on 2 October2014.\n46\nThe chronological order is 1991→2005→2013→2014.\nThis corresponds to the sequence (D), (C), (B), (A).\nStep 3: Final Answer:\nThe correct chronological order of the events is (D), (C), (B), (A).\nQuick Tip\nFor chronological questions, associating events with the approximate decade or the Prime\nMinister in power can be a helpful memory aid. (e.g., Liberalization - P.V. Narasimha\nRao/Manmohan Singh; RTI - Manmohan Singh; Mars Mission/Swachh Bharat - Man-\nmohan Singh/Narendra Modi).",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q41",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the sequence of national events in the order of their occurrence.",
+          "options": [
+            "Swachh Bharat Abhiyaan",
+            "Mars Orbiter Mission",
+            "Right to Information Act",
+            "Economic Liberalization"
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThis question requires arranging major international events in chronological order, from the\nearliest to the most recent.\nStep 2: Detailed Explanation:\nLet’s determine the year of each event:\n•(D) Establishment of the United Nations:The UN was founded after World War II,\nwith its charter being signed on 26 June 1945 and coming into force on 24 October1945.\n•(A) Fall of the Berlin Wall:The Berlin Wall, which divided East and West Berlin, fell\non November 9,1989. This event symbolized the end of the Cold War.\n•(B) Apartheid ends in South Africa:The process of dismantling apartheid began in\nthe early 1990s, culminating in the first multiracial democratic election in1994, which\nbrought Nelson Mandela to power.\n47\n•(C) Adoption of Sustainable Development Goals (SDGs) by UN Member\nStates:The SDGs were adopted by all United Nations Member States in2015as a\nuniversal call to action to end poverty, protect the planet, and ensure that all people enjoy\npeace and prosperity by 2030.\nThe chronological order is 1945→1989→1994→2015.\nThis corresponds to the sequence (D), (A), (B), (C).\nStep 3: Final Answer:\nThe correct chronological sequence is (D), (A), (B), (C)",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q42",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the following international events in chronological sequence of their occurrence.",
+          "options": [
+            "Fall of the Berlin Wall",
+            "Apartheid ends in South Africa",
+            "Adoption of Sustainable Development Goals by UN Member States.",
+            "Establishment of the United Nations"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks to identify the specific geographical feature (a strait) that separates India’s\nAndaman Islands from the islands belonging to Myanmar.\nStep 2: Detailed Explanation:\nThe Andaman and Nicobar Islands are an archipelago in the Bay of Bengal. The northernmost\nisland group of the Andamans is North Andaman Island. To the north of this lies the Coco\nIslands, which are politically part of Myanmar. The narrow but strategically important body\nof water that separates India’s North Andaman Island from Myanmar’s Coco Islands is known\nas theCoco Straitor Coco Channel.\nStep 3: Final Answer:\nThe strait that separates the North Andaman islands from the islands of Myanmar is the Coco\nStrait.\n48\nQuick Tip\nRemember the key geographical separators for the Andaman Nicobar chain: The Ten\nDegree Channel separates the Andaman Islands from the Nicobar Islands, and the Coco\nStrait separates the Andamans from Myanmar’s islands to the north.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q43",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The strait that separates the North Andaman islands from the group of islands of Myanmar is...",
+          "options": [
+            "Andaman Strait",
+            "Coco Strait",
+            "Preparis Strait",
+            "Cabot Strait"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThis question tests knowledge of the specific provisions of the Indian Constitution, particularly\nthose related to citizenship (Part II, Articles 5-11).\nStep 2: Detailed Explanation:\nLet’s briefly look at the relevant articles on citizenship:\n•Article 5: Deals with citizenship at the commencement of the Constitution. (Option 4)\n•Article 6: Deals with the rights of citizenship of certain persons who have migrated to\nIndia from Pakistan. (Option 1)\n•Article 8: Deals with the rights of citizenship of certain persons of Indian origin residing\noutside India. (Option 2)\n•Article 9:Explicitly states that ”No person shall be a citizen of India by virtue of article\n5, or be deemed to be a citizen of India by virtue of article 6 or article 8, if he has voluntarily\nacquired the citizenship of any foreign State.” This article establishes the principle that\nIndian citizenship is lost upon the acquisition of a foreign citizenship.\nStep 3: Final Answer:\nArticle 9 of the Indian Constitution deals with persons who voluntarily acquire foreign citizen-\nship, stating they shall cease to be Indian citizens.\nQuick Tip\nRemember the core principle of Indian citizenship: ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q44",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Article 9 of the Indian Constitution deals with",
+          "options": [
+            "Persons who migrated to India from Pakistan",
+            "Indians who reside outside India",
+            "Persons who voluntarily acquire foreign citizenship",
+            "Right to citizenship at the commencement of the constitution"
+          ],
+          "correct": 3,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks for the primary objective of the GST Compensation Fund, which was estab-\nlished as part of the GST regime in India.\nStep 2: Detailed Explanation:\nThe Goods and Services Tax (GST) is a destination-based consumption tax that replaced many\nindirect taxes levied by the central and state governments. When GST was introduced, many\nstates feared a loss of revenue as their own taxing powers would be subsumed. To address\nthis concern and bring states on board for the reform, the central government enacted the GST\n(Compensation to States) Act, 2017. This act provides for a mechanism tocompensate states\nfor any loss of revenuethey might incur due to the implementation of GST for a period of\nfive years (initially from 2017 to 2022). The compensation is funded through a ’Compensation\nCess’ levied on certain goods.\nStep 3: Final Answer:\nThe main purpose of the fund is to compensate states for the loss of revenue due to the\nimplementation of GST.\nQuick Tip\nThe name itself provides a strong clue: ”GSTCompensationFund.” The fund is de-\nsigned to compensate someone for something. In the context of the federal GST structure,\nthis compensation is fr",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q45",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The main purpose of the Goods and Services Tax (GST) compensation fund is",
+          "options": [
+            "To provide funding for infrastructure development.",
+            "To provide relief to taxpayers who have paid excess tax.",
+            "To support the development of micro, small and medium enterprises (MSMEs)",
+            "To compensate states for the loss of revenue due to the implementation of GST."
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThis question tests knowledge of basic cloud classification in meteorology.\nStep 2: Detailed Explanation:\nLet’s evaluate each statement about clouds:\n•(A) Clouds are classified according to their appearance and height.This is\ncorrect. The primary international system of cloud classification uses a Latin-based\nsystem that groups clouds by their form (appearance - e.g., cirrus, stratus, cumulus) and\ntheir altitude or height (e.g., high, middle, low).\n•(B) Cirrus clouds are high altitude clouds, which are usually feathery shaped\nand composed entirely of ice crystals.This is acorrectdescription. Cirrus clouds\nare thin, wispy, and found at high altitudes where temperatures are low enough for them\nto be made of ice crystals.\n•(C) Nimbostratus clouds are mid level clouds producing sporadic rain.This is\nlargelycorrect. Nimbostratus clouds are typically found in the low to middle altitudes\nand are dark, grey, featureless layers associated with continuous (rather than sporadic\nor showery) rain or snow. The term ”sporadic” might be slightly imprecise, but the\nclassification as a mid-level rain-producing cloud is correct.\n•(D) Altocumulus are the heap-like cl",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q46",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Clouds are the masses of small water droplets or tiny ice crystals.",
+          "options": [
+            "Clouds are classified according to their appearance and height.",
+            "Cirrus clouds are high altitude clouds, which are usually feathery shaped and composed entirely of ice crystals.",
+            "Nimbostratus clouds are mid level clouds producing sporadic rain.",
+            "Altocumulus are the heap-like clouds having flat bases and rounded tops."
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThis is a general knowledge question asking to identify the state for which Aizawl is the capital\ncity.\nStep 2: Detailed Explanation:\nLet’s list the capitals of the states given in the options:\n•Meghalaya: Capital is Shillong.\n•Nagaland: Capital is Kohima.\n•Mizoram:Capital isAizawl.\n•Tripura: Capital is Agartala.\nStep 3: Final Answer:\nAizawl is the capital of Mizoram.\nQuick Tip\nIt is essential to memorize the states and capitals of India, especially for the North-Eastern\nstates as they are frequently asked in competitive exams.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q47",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Aizawl is the capital of",
+          "options": [
+            "Meghalaya",
+            "Nagaland",
+            "Mizoram",
+            "Tripura"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThis question tests general knowledge about countries and their official currencies.\nStep 2: Detailed Explanation:\nLet’s match each country in List-I with its correct currency in List-II:\n•(A) Japan:The official currency of Japan is the(II) Yen.\n•(B) Russia:The official currency of Russia is the(III) Ruble.\n•(C) China:The official currency of China is the Renminbi, and its basic unit is the(IV)\nYuan.\n•(D) Norway:The official currency of Norway is the Norwegian(I) Krone.\nThe correct matching is: A→II, B→III, C→IV, D→I.\nStep 3: Final Answer:\nBased on the correct pairings, option (3) presents the correct combination.\nQuick Tip\nWhen preparing for general knowledge, create a list of important countries, their capi-\ntals, and their currencies. Focus on countries frequently in the news and major world\neconomies.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q48",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match the countries with their respective currencies:\nChoose the correct answer from the options given below:",
+          "options": [
+            "(A) - (IV), (B) - (II), (C) - (III), (D) - (I)",
+            "(A) - (III), (B) - (II), (C) - (IV), (D) - (I)",
+            "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 2,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks to identify the river associated with a specific geographical feature in India,\n53\nthe Gandikota Gorge.\nStep 2: Detailed Explanation:\nGandikota is a village and historical fort on the right bank of thePenna River(also known as\nPennar) in the Kadapa district of Andhra Pradesh. The river has carved a deep gorge through\nthe Erramala hills, creating a spectacular landscape that is often referred to as the ”Grand\nCanyon of India.” The other rivers listed flow through entirely different regions of India and\nare not associated with this gorge.\nStep 3: Final Answer:\nThe Penna river flows through the Gandikota Gorge.\nQuick Tip\nRemember geographical ”nicknames” and their locations. ”Grand Canyon of India” is a\npopular name for the Gandikota Gorge, which is firmly associated with the Penna River\nin Andhra Pradesh.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q49",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The river which flows through the Grand Canyon of India, also known as the Gandikota Gorge is",
+          "options": [
+            "Ganga",
+            "Krishna",
+            "Penna",
+            "Brahmaputra"
+          ],
+          "correct": 1,
+          "explanation": "Step 1: Understanding the Concept:\nThe question asks about the origin of the National Emblem of India, specifically the ruler and\nthe location of the original artifact.\nStep 2: Detailed Explanation:\nThe National Emblem of India is an adaptation of the Lion Capital ofAshoka, an ancient\nsculpture dating back to around 250 BCE. This capital was originally placed on top of a pillar at\nthe important Buddhist site ofSarnath, near Varanasi in Uttar Pradesh. The capital features\nfour Asiatic lions standing back to back, mounted on an abacus with a frieze carrying high-relief\nsculptures of an elephant, a galloping horse, a bull, and a lion, separated by intervening wheels\n(Dharma Chakras). The emblem was officially adopted on 26 January 1950.\nStep 3: Final Answer:\nThe National Emblem of India has been adopted from the capital of King Ashoka which was\nsituated in Sarnath.\n54\nQuick Tip\nThe Ashoka Chakra (the wheel) in the center of the Indian flag and the Lion Capital\nas the National Emblem are both from the same source: the Ashokan pillar at Sarnath.\nThis connection makes it easier to remember.\n55",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2025-Q50",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The National Emblem of India has been adopted from the capital of King _________ which was situated in _________.",
+          "options": [
+            "Akbar, Agra",
+            "Ashoka, Sarnath",
+            "Ashoka, Sanchi",
+            "Akbar, Delhi"
+          ],
+          "correct": 3,
+          "explanation": "5\nshares\nSHARE ON FACEBOOK\nSHARE ON TWITTER\nCUET Questions\n1\n.\nMatch the electromagnetic waves in Column I with their common applications in Column II.\nColumn I\nColumn II\n(A)\nGamma rays\n(I)\nRadar communication\n(B)\nX-rays\n(II)\nCancer treatment\n(C)\nMicrowaves\n(III)\nBone imaging\n(D)\nRadio waves\n(IV)\nBroadcasting\nChoose the correct answer from the options given below:\nA-II, B-III, C-I, D-IV\nA-I, B-II, C-IV, D-III\nA-II, B-IV, C-I, D-III\nA-III, B-II, C-IV, D-I\nView Solution\n2\n.\nFill in the blank by choosing the correct option.\nThe communication model proposed by Harold Lasswell is represented as:\n\\[ \\text{Who} \\rightarrow \\text{Says What} \\rightarrow \\underline{\\hspace{2cm}} \\rightarrow \\text{To Whom} \\rightarrow \\text{With What Effect} \\]\nIn Which Channel\nThrough Which Government\nThrough Which Newspaper\nAt What Time\nView Solution\n3\n.\nMatch the following electromagnetic waves with their applications.\nColumn I\nColumn II\n(A)\nGamma Rays\n(I)\nRadar Communication\n(B)\nX-rays\n(II)\nCancer Treatment\n(C)\nMicrowaves\n(III)\nMedical Imaging\n(D)\nRadio Waves\n(IV)\nBroadcasting\nChoose the correct answer from the options given below:\nA-II, B-III, C-I, D-IV\nA-I, B-II, C-IV, D-III\nA-II, B-IV, C-I, D-III\nA-III",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        }
+      ]
+    }
+  ]
+}

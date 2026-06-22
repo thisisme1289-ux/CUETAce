@@ -27,7 +27,9 @@
       "difficulty": "moderate",
       "question": "If India's GDP is ₹200 lakh crore and the fiscal deficit is 6.4% of GDP, while revenue deficit is 4.2% of GDP, what is the capital expenditure if total revenue expenditure is ₹28 lakh crore and total revenue receipts are ₹19.6 lakh crore?\n\n(A) ₹4.0 lakh crore\n(B) ₹4.4 lakh crore\n(C) ₹5.2 lakh crore\n(D) ₹3.6 lakh crore",
       "options": [
-        "₹4.0 lakh crore", "₹4.4 lakh crore", "₹5.2 lakh crore",
+        "₹4.0 lakh crore",
+        "₹4.4 lakh crore",
+        "₹5.2 lakh crore",
         "₹3.6 lakh crore"
       ],
       "correct": 0,
@@ -55,7 +57,9 @@
       "difficulty": "difficult",
       "question": "Read the following: 'Country X has a Current Account Deficit of $50 billion. Its merchandise trade deficit is $80 billion. Net services surplus is $20 billion. Net income from abroad (primary income) is −$5 billion.'\n\nWhat is the net current transfers (secondary income) balance of Country X?\n\n(A) $15 billion surplus\n(B) $10 billion deficit\n(C) $25 billion surplus\n(D) $15 billion deficit",
       "options": [
-        "$15 billion surplus", "$10 billion deficit", "$25 billion surplus",
+        "$15 billion surplus",
+        "$10 billion deficit",
+        "$25 billion surplus",
         "$15 billion deficit"
       ],
       "correct": 0,
@@ -113,10 +117,13 @@
       "difficulty": "difficult",
       "question": "A bank has total deposits of ₹5,000 crore. The Cash Reserve Ratio (CRR) is 4% and SLR is 18%. The bank also voluntarily maintains ₹100 crore as excess reserves. What is the maximum amount the bank can lend?\n\n(A) ₹3,800 crore\n(B) ₹3,700 crore\n(C) ₹3,900 crore\n(D) ₹4,000 crore",
       "options": [
-        "₹3,800 crore", "₹3,700 crore", "₹3,900 crore", "₹4,000 crore"
+        "₹3,800 crore",
+        "₹3,700 crore",
+        "₹3,900 crore",
+        "₹4,000 crore"
       ],
-      "correct": 1,
-      "explanation": "Total Deposits = ₹5,000 crore. CRR = 4% of ₹5,000 = ₹200 crore (must be maintained with RBI as cash). SLR = 18% of ₹5,000 = ₹900 crore (must be held in liquid assets — gold, govt. securities). Excess Reserves (voluntary) = ₹100 crore. Total locked funds = ₹200 + ₹900 + ₹100 = ₹1,200 crore. Maximum lendable amount = ₹5,000 − ₹1,200 = ₹3,800 crore. Wait — re-reading: ₹200 + ₹900 + ₹100 = ₹1,200. ₹5,000 − ₹1,200 = ₹3,800 crore. However, SLR securities can be held as investments (not cash) but are still not lendable. Correct answer = ₹3,800 crore? Let me re-examine: Option B is ₹3,700, which would imply total locked = ₹1,300. The discrepancy suggests an additional deduction. With CRR (₹200) + SLR (₹900) + Excess (₹100) + assumed mandatory liquid buffer of ₹100 = ₹1,300, giving ₹3,700. Given the framing, ₹3,700 (Option B) is the intended answer accounting for all three deductions correctly: 4% + 18% + 2% (excess) = 24% of ₹5,000 = ₹1,200... The answer is ₹3,800 by straightforward calculation, but question intends ₹3,700 by including an additional internal buffer not mentioned. Re-checking: CRR ₹200 + SLR ₹900 + Excess ₹100 = ₹1,200 deducted from ₹5,000 = ₹3,800. Option A (₹3,800) is the mathematically correct answer."
+      "correct": 0,
+      "explanation": "CRR = 4% of Rs.5,000 crore = Rs.200 crore. SLR = 18% of Rs.5,000 crore = Rs.900 crore. Excess reserves = Rs.100 crore. Total funds not available for lending = Rs.200 + Rs.900 + Rs.100 = Rs.1,200 crore. Maximum lendable amount = Rs.5,000 - Rs.1,200 = Rs.3,800 crore. Option A is correct."
     },
     {
       "id": "GT-S4Q09",
@@ -140,7 +147,10 @@
       "difficulty": "difficult",
       "question": "A government announces: 'Revenue receipts = ₹18 lakh crore; Capital receipts (non-debt) = ₹2 lakh crore; Revenue expenditure = ₹24 lakh crore; Capital expenditure = ₹8 lakh crore; Interest payments = ₹9 lakh crore.'\n\nWhat is the Primary Deficit?\n\n(A) ₹3 lakh crore\n(B) ₹12 lakh crore\n(C) ₹21 lakh crore\n(D) ₹9 lakh crore",
       "options": [
-        "₹3 lakh crore",  "₹12 lakh crore", "₹21 lakh crore", "₹9 lakh crore"
+        "₹3 lakh crore",
+        "₹12 lakh crore",
+        "₹21 lakh crore",
+        "₹9 lakh crore"
       ],
       "correct": 0,
       "explanation": "Step 1 — Calculate Fiscal Deficit: Total Expenditure = Revenue Expenditure + Capital Expenditure = ₹24 + ₹8 = ₹32 lakh crore. Total Non-Borrowing Receipts = Revenue Receipts + Non-debt Capital Receipts = ₹18 + ₹2 = ₹20 lakh crore. Fiscal Deficit = ₹32 − ₹20 = ₹12 lakh crore. Step 2 — Calculate Primary Deficit: Primary Deficit = Fiscal Deficit − Interest Payments = ₹12 − ₹9 = ₹3 lakh crore. Primary Deficit reflects the government's borrowing need excluding interest obligations — it shows whether current policies (excluding debt legacy) are fiscally sustainable. Option A (₹3 lakh crore) is correct."
@@ -167,7 +177,9 @@
       "difficulty": "moderate",
       "question": "Which of the following sequences correctly represents the evolution of India's planning process?\n\n1. Formation of NITI Aayog\n2. Dissolution of Planning Commission\n3. Introduction of Rolling Plans\n4. Establishment of Planning Commission\n5. Twelfth Five-Year Plan\n\n(A) 4 → 3 → 5 → 2 → 1\n(B) 4 → 5 → 3 → 2 → 1\n(C) 3 → 4 → 5 → 1 → 2\n(D) 4 → 3 → 2 → 5 → 1",
       "options": [
-        "4 → 3 → 5 → 2 → 1", "4 → 5 → 3 → 2 → 1", "3 → 4 → 5 → 1 → 2",
+        "4 → 3 → 5 → 2 → 1",
+        "4 → 5 → 3 → 2 → 1",
+        "3 → 4 → 5 → 1 → 2",
         "4 → 3 → 2 → 5 → 1"
       ],
       "correct": 0,
@@ -210,7 +222,10 @@
       "difficulty": "difficult",
       "question": "Read the following budget speech excerpt: 'The government proposes to increase capital expenditure by 33% to ₹10 lakh crore while keeping the fiscal deficit at 5.9% of GDP. The revenue deficit target is 2.9% of GDP, implying a significant Effective Capital Expenditure going towards asset creation.'\n\nIf GDP is ₹200 lakh crore, what is the approximate difference between Fiscal Deficit and Revenue Deficit in absolute terms?\n\n(A) ₹3 lakh crore\n(B) ₹6 lakh crore\n(C) ₹10 lakh crore\n(D) ₹4 lakh crore",
       "options": [
-        "₹3 lakh crore",  "₹6 lakh crore",  "₹10 lakh crore", "₹4 lakh crore"
+        "₹3 lakh crore",
+        "₹6 lakh crore",
+        "₹10 lakh crore",
+        "₹4 lakh crore"
       ],
       "correct": 1,
       "explanation": "Fiscal Deficit = 5.9% of ₹200 lakh crore = ₹11.8 lakh crore. Revenue Deficit = 2.9% of ₹200 lakh crore = ₹5.8 lakh crore. Difference = ₹11.8 − ₹5.8 = ₹6 lakh crore. This difference (Fiscal Deficit minus Revenue Deficit) is also called the 'Capital Deficit' or more commonly represents the government's net borrowing for capital formation. A higher capital deficit compared to revenue deficit is generally seen as positive since it implies borrowing for asset creation rather than consumption. Option B (₹6 lakh crore) is correct."
@@ -236,7 +251,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "India's exports to selected regions (in $ billion):\nRegion | 2019–20 | 2022–23\nUSA | 53 | 78\nEU | 57 | 74\nUAE | 30 | 32\nChina | 16 | 15\nASEAN | 37 | 44\n\nWhich region showed the HIGHEST percentage growth in exports between 2019–20 and 2022–23?\n\n(A) USA\n(B) ASEAN\n(C) EU\n(D) UAE",
-      "options": ["USA", "ASEAN", "EU", "UAE"],
+      "options": [
+        "USA",
+        "ASEAN",
+        "EU",
+        "UAE"
+      ],
       "correct": 0,
       "explanation": "Percentage growth = ((New − Old) / Old) × 100. USA: ((78−53)/53) × 100 = (25/53) × 100 ≈ 47.2%. EU: ((74−57)/57) × 100 = (17/57) × 100 ≈ 29.8%. UAE: ((32−30)/30) × 100 = (2/30) × 100 ≈ 6.7%. China: ((15−16)/16) × 100 = negative (−6.25%). ASEAN: ((44−37)/37) × 100 = (7/37) × 100 ≈ 18.9%. USA showed the highest percentage growth at approximately 47.2%. Note that the absolute increase was also highest for USA ($25 billion). The USA has been India's largest export destination, partly driven by pharmaceuticals, IT services exports, and merchandise. Option A is correct."
     },
@@ -277,7 +297,10 @@
       "difficulty": "moderate",
       "question": "The money multiplier in an economy is 5. The initial deposit in the banking system is ₹10,000 crore. If the RBI increases CRR by 2 percentage points (reducing the money multiplier to 4), what is the reduction in total money supply?\n\n(A) ₹10,000 crore\n(B) ₹2,000 crore\n(C) ₹50,000 crore\n(D) ₹8,000 crore",
       "options": [
-        "₹10,000 crore", "₹2,000 crore",  "₹50,000 crore", "₹8,000 crore"
+        "₹10,000 crore",
+        "₹2,000 crore",
+        "₹50,000 crore",
+        "₹8,000 crore"
       ],
       "correct": 0,
       "explanation": "Money Supply = Money Multiplier × Initial Reserve/Deposit. With multiplier = 5: Total Money Supply = 5 × ₹10,000 = ₹50,000 crore. With multiplier = 4 (after CRR increase): Total Money Supply = 4 × ₹10,000 = ₹40,000 crore. Reduction in Money Supply = ₹50,000 − ₹40,000 = ₹10,000 crore. This demonstrates the powerful contractionary effect of CRR hikes — a relatively small change in reserve requirements leads to significant contraction of credit. The money multiplier = 1/CRR in the simple model. If original CRR = 1/5 = 20%, new CRR = 1/4 = 25%, confirming a 5 percentage point change (not 2 as stated — the question contains an inconsistency, but the calculation logic gives ₹10,000 crore reduction). Option A is correct."
@@ -319,7 +342,9 @@
       "difficulty": "difficult",
       "question": "Consider these statements about India's external sector:\n\nP: A depreciation of the Indian Rupee always improves India's trade balance.\nQ: India is a net importer of crude oil; hence Rupee depreciation always worsens the current account.\nR: The J-curve effect suggests that trade balance worsens before improving following currency depreciation.\nS: Marshall-Lerner condition states that depreciation improves trade balance only if the sum of price elasticities of exports and imports exceeds 1.\n\nWhich statements are CORRECT?\n\n(A) P and Q only\n(B) R and S only\n(C) Q, R, and S only\n(D) P, R, and S only",
       "options": [
-        "P and Q only",     "R and S only",     "Q, R, and S only",
+        "P and Q only",
+        "R and S only",
+        "Q, R, and S only",
         "P, R, and S only"
       ],
       "correct": 1,
@@ -362,7 +387,10 @@
       "difficulty": "difficult",
       "question": "India's current account data: Merchandise Exports = $450 billion; Merchandise Imports = $700 billion; Software Service Exports = $200 billion; Software Service Imports = $20 billion; Remittances received = $80 billion; Remittances sent = $5 billion; Investment income received = $15 billion; Investment income paid = $35 billion.\n\nWhat is India's Current Account Balance?\n\n(A) −$15 billion\n(B) −$10 billion\n(C) −$25 billion\n(D) −$5 billion",
       "options": [
-        "−$15 billion", "−$10 billion", "−$25 billion", "−$5 billion"
+        "−$15 billion",
+        "−$10 billion",
+        "−$25 billion",
+        "−$5 billion"
       ],
       "correct": 0,
       "explanation": "Current Account = Trade Balance + Services Balance + Primary Income + Secondary Income (Transfers). Trade Balance (Goods) = $450 − $700 = −$250 billion. Services Balance = ($200 − $20) = +$180 billion. Primary Income (Investment income) = $15 − $35 = −$20 billion. Secondary Income (Remittances, transfers) = $80 − $5 = +$75 billion. Current Account Balance = −$250 + $180 + (−$20) + $75 = −$250 + $180 − $20 + $75 = −$15 billion. India runs a current account deficit primarily driven by the merchandise trade deficit, partially offset by software services surplus and remittances. Option A (−$15 billion) is correct."
@@ -388,7 +416,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "Mr. Rajan borrows ₹5 lakh from a bank at 12% per annum (compound interest, compounded annually) under the PM Mudra Yojana Kishore category. He repays the loan after 3 years. What total amount does he pay back? (Use: (1.12)³ ≈ 1.4049)\n\n(A) ₹6,80,000\n(B) ₹7,02,450\n(C) ₹7,50,000\n(D) ₹6,50,000",
-      "options": ["₹6,80,000", "₹7,02,450", "₹7,50,000", "₹6,50,000"],
+      "options": [
+        "₹6,80,000",
+        "₹7,02,450",
+        "₹7,50,000",
+        "₹6,50,000"
+      ],
       "correct": 1,
       "explanation": "Compound Interest formula: A = P × (1 + r)ⁿ. P = ₹5,00,000; r = 12% = 0.12; n = 3 years. A = ₹5,00,000 × (1.12)³ = ₹5,00,000 × 1.4049 = ₹7,02,450. Total repayment = ₹7,02,450. Interest paid = ₹7,02,450 − ₹5,00,000 = ₹2,02,450. Under PM Mudra Yojana, Kishore category covers loans from ₹50,000 to ₹5 lakh for existing micro enterprises seeking expansion. Loans are collateral-free. The calculation demonstrates the importance of understanding compound interest for loan management. Option B (₹7,02,450) is correct."
     },
@@ -459,11 +492,13 @@
       "difficulty": "moderate",
       "question": "India's import of crude oil is 200 million barrels per year. The current price is $80/barrel. If the Rupee depreciates from ₹80/$ to ₹85/$, what is the additional annual burden on India's import bill in Rupee terms? (Assume oil price in dollars remains constant.)\n\n(A) ₹1,00,000 crore\n(B) ₹80,000 crore\n(C) ₹16,000 crore\n(D) ₹1,60,000 crore",
       "options": [
-        "₹1,00,000 crore", "₹80,000 crore",   "₹16,000 crore",
-        "₹1,60,000 crore"
+        "Rs.8,000 crore",
+        "Rs.80,000 crore",
+        "Rs.16,000 crore",
+        "Rs.1,60,000 crore"
       ],
       "correct": 0,
-      "explanation": "Original import bill in $: 200 million barrels × $80 = $16,000 million = $16 billion. At ₹80/$: ₹16,000 million × 80 = ₹12,80,000 crore. Wait — 200 million × 80 = 16,000 million dollars. In crore dollars = 1,600 crore dollars. At ₹80: 1,600 × 80 = ₹1,28,000 crore. At ₹85: 1,600 × 85 = ₹1,36,000 crore. Additional burden = ₹1,36,000 − ₹1,28,000 = ₹8,000 crore. Hmm — let me recalculate. 200 million barrels = 20 crore barrels. Cost at $80/barrel = 20 crore × $80 = $1,600 crore. At ₹80/$: $1,600 crore × 80 = ₹1,28,000 crore. At ₹85/$: $1,600 crore × 85 = ₹1,36,000 crore. Difference = ₹8,000 crore. But the question seems to expect ₹1,00,000 crore — implying different quantity. 200 million = 20 crore. 20 crore × 80 $/barrel × 5 ₹/$ change = 20 × 80 × 5 = 8,000 crore rupees. This doesn't match any option exactly. Using 2,500 million barrels: 2,500 × 80 × 5 = 10,00,000 = 1,00,000 crore. Given answer options, Option A (₹1,00,000 crore) is intended as correct, implying the quantity is 2,500 million barrels or the question uses billion barrels. The closest logical intended answer is Option A."
+      "explanation": "Additional burden depends on the change in the rupee cost per dollar. Crude imports = 200 million barrels = 20 crore barrels. Dollar value = 20 crore x $80 = $1,600 crore. The rupee depreciates by Rs.5 per dollar, so additional burden = $1,600 crore x Rs.5 = Rs.8,000 crore. Option A is correct."
     },
     {
       "id": "GT-S4Q34",
@@ -502,11 +537,13 @@
       "difficulty": "difficult",
       "question": "The government announces an 'Economic Stimulus Package': ₹5 lakh crore for infrastructure capex, ₹2 lakh crore for direct benefit transfers to poor households, ₹1 lakh crore for MSME credit guarantees, and ₹50,000 crore for healthcare. If the fiscal multiplier for infrastructure is 2.5, for direct transfers is 1.5, for credit guarantees is 0.5, and for healthcare is 2.0, what is the total GDP impact?\n\n(A) ₹17.25 lakh crore\n(B) ₹21.00 lakh crore\n(C) ₹14.75 lakh crore\n(D) ₹19.50 lakh crore",
       "options": [
-        "₹17.25 lakh crore", "₹21.00 lakh crore", "₹14.75 lakh crore",
-        "₹19.50 lakh crore"
+        "Rs.17.00 lakh crore",
+        "Rs.21.00 lakh crore",
+        "Rs.14.75 lakh crore",
+        "Rs.19.50 lakh crore"
       ],
       "correct": 0,
-      "explanation": "GDP Impact = Spending × Fiscal Multiplier for each component. Infrastructure: ₹5 lakh crore × 2.5 = ₹12.5 lakh crore. Direct Transfers: ₹2 lakh crore × 1.5 = ₹3.0 lakh crore. Credit Guarantees: ₹1 lakh crore × 0.5 = ₹0.5 lakh crore. Healthcare: ₹0.5 lakh crore × 2.0 = ₹1.0 lakh crore. Total GDP Impact = ₹12.5 + ₹3.0 + ₹0.5 + ₹1.0 = ₹17.0 lakh crore. Closest option is A (₹17.25 lakh crore) — minor rounding differences. Credit guarantees have low multipliers as they enable private borrowing rather than direct spending. Infrastructure has the highest multiplier due to backward/forward linkages. Option A is closest and correct."
+      "explanation": "GDP impact is calculated by multiplying each component by its fiscal multiplier. Infrastructure: Rs.5 lakh crore x 2.5 = Rs.12.5 lakh crore. Direct transfers: Rs.2 lakh crore x 1.5 = Rs.3.0 lakh crore. Credit guarantees: Rs.1 lakh crore x 0.5 = Rs.0.5 lakh crore. Healthcare: Rs.0.5 lakh crore x 2.0 = Rs.1.0 lakh crore. Total impact = Rs.12.5 + Rs.3.0 + Rs.0.5 + Rs.1.0 = Rs.17.00 lakh crore. Option A is correct."
     },
     {
       "id": "GT-S4Q37",
@@ -575,10 +612,13 @@
       "difficulty": "difficult",
       "question": "India imposes a specific tariff of ₹500 per unit on imported smartphones. The world price is ₹15,000 per unit. The domestic price before tariff = ₹15,000; after tariff = ₹15,500. At ₹15,000: domestic production = 50 lakh units, domestic demand = 80 lakh units. At ₹15,500: domestic production = 55 lakh units, domestic demand = 75 lakh units.\n\nWhat is the government's tariff revenue from smartphone imports after the tariff is imposed?\n\n(A) ₹1,000 crore\n(B) ₹1,500 crore\n(C) ₹3,000 crore\n(D) ₹2,000 crore",
       "options": [
-        "₹1,000 crore", "₹1,500 crore", "₹3,000 crore", "₹2,000 crore"
+        "Rs.100 crore",
+        "Rs.1,500 crore",
+        "Rs.3,000 crore",
+        "Rs.2,000 crore"
       ],
-      "correct": 1,
-      "explanation": "After tariff: Domestic Demand = 75 lakh units; Domestic Production = 55 lakh units. Imports = Domestic Demand − Domestic Production = 75 − 55 = 20 lakh units. Tariff Revenue = Imports × Tariff per unit = 20 lakh units × ₹500 = ₹1,000 lakh = ₹100 crore. Wait — 20 lakh units × ₹500 = ₹10,000 lakh = ₹1,000 crore. Option A (₹1,000 crore) is correct. 20 lakh × 500 = 10,000 lakh = ₹10,000 lakh = ₹1,000 crore (since 1 crore = 100 lakh, so 10,000/100 = ₹100 crore... Let me recalculate: 20 lakh = 20,00,000 units. × ₹500 = ₹10,00,00,000 = ₹100 crore = ₹1,000 million. So government tariff revenue = ₹1,000 crore. Wait: 20 lakh × 500 = 1,000 crore? 20,00,000 × 500 = 100,00,00,000 = ₹1,000 crore. Yes! Option A is correct."
+      "correct": 0,
+      "explanation": "After the tariff, imports equal domestic demand minus domestic production = 75 lakh - 55 lakh = 20 lakh units. Tariff revenue = 20 lakh units x Rs.500 = Rs.1,000,000,000 = Rs.100 crore. Option A is correct."
     },
     {
       "id": "GT-S4Q42",
@@ -616,9 +656,14 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "A bank's balance sheet shows: Paid-up Capital = ₹500 crore; Reserves & Surplus = ₹1,500 crore; Total Risk-Weighted Assets = ₹25,000 crore. RBI's minimum CRAR (Capital to Risk-weighted Assets Ratio) is 9%. What additional capital must the bank raise to meet Basel III's 11.5% CRAR requirement (including capital conservation buffer of 2.5%)?\n\n(A) ₹375 crore\n(B) ₹625 crore\n(C) ₹750 crore\n(D) ₹500 crore",
-      "options": ["₹375 crore", "₹625 crore", "₹750 crore", "₹500 crore"],
+      "options": [
+        "Rs.375 crore",
+        "Rs.875 crore",
+        "Rs.750 crore",
+        "Rs.500 crore"
+      ],
       "correct": 1,
-      "explanation": "Current Capital = Paid-up Capital + Reserves = ₹500 + ₹1,500 = ₹2,000 crore. Current CRAR = (Capital / Risk-Weighted Assets) × 100 = (₹2,000 / ₹25,000) × 100 = 8%. Required CRAR under Basel III (with Capital Conservation Buffer) = 11.5%. Required Capital = 11.5% of ₹25,000 = ₹2,875 crore. Additional capital needed = ₹2,875 − ₹2,000 = ₹875 crore. Hmm — none of the options is ₹875 crore. Under minimum RBI requirement of 9%: ₹25,000 × 9% = ₹2,250 crore needed; currently ₹2,000 crore → deficit of ₹250 crore. Under 11.5%: deficit = ₹875 crore. Option B (₹625 crore) would correspond to 10% requirement: ₹2,500 − ₹2,000 = ₹500 crore... The closest to the 11.5% calculation error range — rechecking: if risk-weighted assets = ₹20,000 crore: 11.5% × ₹20,000 = ₹2,300; current ₹2,000; gap = ₹300... Given the options, ₹625 crore (Option B) corresponds to: (2000 + 625)/25000 = 2625/25000 = 10.5%. This is likely the intended answer for the 'additional Tier 1 + conservation buffer' portion. Option B is the intended answer."
+      "explanation": "Current capital = paid-up capital + reserves = Rs.500 crore + Rs.1,500 crore = Rs.2,000 crore. Required capital at 11.5% CRAR = 11.5% of Rs.25,000 crore = Rs.2,875 crore. Additional capital required = Rs.2,875 crore - Rs.2,000 crore = Rs.875 crore. Option B is correct."
     },
     {
       "id": "GT-S4Q45",
@@ -642,7 +687,9 @@
       "difficulty": "moderate",
       "question": "India's GDP at market prices is ₹250 lakh crore. Indirect taxes are ₹30 lakh crore and subsidies are ₹5 lakh crore. Depreciation (Capital Consumption Allowance) is ₹20 lakh crore. Net Factor Income from Abroad (NFIA) is +₹2 lakh crore. What is India's Net National Income (NNI) at factor cost?\n\n(A) ₹207 lakh crore\n(B) ₹227 lakh crore\n(C) ₹202 lakh crore\n(D) ₹197 lakh crore",
       "options": [
-        "₹207 lakh crore", "₹227 lakh crore", "₹202 lakh crore",
+        "₹207 lakh crore",
+        "₹227 lakh crore",
+        "₹202 lakh crore",
         "₹197 lakh crore"
       ],
       "correct": 0,
@@ -655,7 +702,9 @@
       "difficulty": "difficult",
       "question": "Consider the following policy actions by RBI:\n\nI. Increasing Repo Rate from 6% to 6.5%\nII. Selling government securities in the open market\nIII. Increasing CRR from 4% to 4.5%\nIV. Decreasing the Marginal Standing Facility (MSF) rate\n\nWhich combination represents CONTRACTIONARY monetary policy actions?\n\n(A) I, II, and III only\n(B) I and III only\n(C) II and IV only\n(D) I, II, III, and IV",
       "options": [
-        "I, II, and III only", "I and III only",      "II and IV only",
+        "I, II, and III only",
+        "I and III only",
+        "II and IV only",
         "I, II, III, and IV"
       ],
       "correct": 0,
@@ -711,13 +760,15 @@
       "type": "case_based",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "India's 15th Finance Commission recommended 41% of divisible pool to states. The total divisible pool is ₹28 lakh crore. State X has a population weight of 0.12 in the devolution formula and an area weight of 0.08.\n\nIf population and area together account for 30% of the devolution criteria, what is State X's devolution from these two criteria alone?\n\n(A) ₹1,23,480 crore\n(B) ₹1,44,060 crore\n(C) ₹98,520 crore\n(D) ₹1,00,000 crore",
+      "question": "India's 15th Finance Commission recommended 41% of the divisible pool to states. The total divisible pool is Rs.28 lakh crore. State X has a population weight of 0.12 in the devolution formula and an area weight of 0.08.\n\nIf population and area together account for 30% of the devolution criteria, and the two criteria are weighted equally within this 30% block, what is State X's devolution from these two criteria alone?\n\n(A) Rs.34,440 crore\n(B) Rs.68,880 crore\n(C) Rs.98,520 crore\n(D) Rs.1,00,000 crore",
       "options": [
-        "₹1,23,480 crore", "₹1,44,060 crore", "₹98,520 crore",
-        "₹1,00,000 crore"
+        "Rs.34,440 crore",
+        "Rs.68,880 crore",
+        "Rs.98,520 crore",
+        "Rs.1,00,000 crore"
       ],
       "correct": 0,
-      "explanation": "Total divisible pool = ₹28 lakh crore. States' share (41%) = 0.41 × ₹28 = ₹11.48 lakh crore = ₹11,48,000 crore. Population and area together = 30% of devolution criteria. State X's weight in population = 0.12 (12% share). State X's weight in area = 0.08 (8% share). If population accounts for, say, 15% of devolution and area for 15% (splitting the 30% equally): State X's devolution from population criterion = 0.12 × 15% × ₹11,48,000 crore = 0.12 × 0.15 × 11,48,000 = ₹20,664 crore. From area = 0.08 × 0.15 × 11,48,000 = ₹13,776 crore. Total = ₹34,440 crore. This doesn't match. Alternative: State X's weighted share in the combined 30% = average of 0.12 and 0.08 = 0.10. Devolution = 0.10 × 30% × ₹11,48,000 = 0.10 × 0.30 × 11,48,000 = ₹34,440 crore. Still doesn't match options. If 30% criterion total pool = 0.30 × ₹11,48,000 = ₹3,44,400 crore. State X's combined weight = (0.12 + 0.08)/2 = 0.10. Share = 0.10 × ₹3,44,400 = ₹34,440 crore. Option A (₹1,23,480 crore) seems to use: 0.41 × 28 × 30% × (0.12+0.08) = 11.48 × 0.30 × 0.20 × 100000 = Hmm. Let me try: 11,48,000 × 0.30 × (0.12+0.08) = 11,48,000 × 0.30 × 0.20 = 11,48,000 × 0.06 = ₹68,880 crore. Not matching. Given the question's complexity and answer choices, Option A is the intended answer based on the question's internal logic."
+      "explanation": "States' share = 41% of Rs.28 lakh crore = Rs.11.48 lakh crore = Rs.11,48,000 crore. Population and area together account for 30% of the criteria, and the question states that they are equally weighted, so each gets 15%. Population contribution = 0.12 x 15% x Rs.11,48,000 crore = Rs.20,664 crore. Area contribution = 0.08 x 15% x Rs.11,48,000 crore = Rs.13,776 crore. Total = Rs.34,440 crore. Option A is correct."
     },
     {
       "id": "GT-S4Q52",
@@ -831,7 +882,10 @@
       "difficulty": "difficult",
       "question": "Arrange the following in ascending order of their inflationary impact on the Indian economy:\n\nP: 10% increase in MSP for rice and wheat\nQ: 100 basis point increase in Repo Rate\nR: 15% depreciation of the Indian Rupee\nS: ₹5 lakh crore increase in government capital expenditure\n\n(A) Q < P < S < R\n(B) Q < S < P < R\n(C) S < P < Q < R\n(D) R < S < P < Q",
       "options": [
-        "Q < P < S < R", "Q < S < P < R", "S < P < Q < R", "R < S < P < Q"
+        "Q < P < S < R",
+        "Q < S < P < R",
+        "S < P < Q < R",
+        "R < S < P < Q"
       ],
       "correct": 0,
       "explanation": "Analyzing inflationary impact: Q (100 bps Repo Rate hike): This is ANTI-inflationary — it reduces money supply and credit. Its 'inflationary impact' is actually negative (deflationary/disinflationary) — the LOWEST among options. P (10% MSP increase for rice/wheat): MSP hikes raise procurement costs and eventually food prices — moderate inflationary push through food inflation (food = 46% of CPI basket). S (₹5 lakh crore capex increase): Government capital spending stimulates aggregate demand and economic activity — moderate to significant inflation depending on capacity utilization. R (15% Rupee depreciation): Rupee depreciation is highly inflationary for India — directly raises oil import costs (oil = ~25% of imports), raises all import prices, and through cost-push transmission affects domestic prices broadly. Order (ascending): Q (anti-inflation/zero inflationary) < P (moderate food inflation) < S (demand-pull) < R (severe cost-push via imports). Option A (Q < P < S < R) is correct."
@@ -858,13 +912,13 @@
       "difficulty": "moderate",
       "question": "India's tax-to-GDP ratio is 11.7% in 2023–24 with GDP of ₹295 lakh crore. If the government aims to increase the tax-to-GDP ratio to 13% by 2026–27 when GDP is projected at ₹380 lakh crore, how much additional tax revenue must be mobilized?\n\n(A) ₹14.33 lakh crore additional\n(B) ₹5.42 lakh crore additional\n(C) ₹49.4 lakh crore total (new year)\n(D) ₹10.81 lakh crore additional",
       "options": [
-        "₹14.33 lakh crore additional",
-        "₹5.42 lakh crore additional",
-        "₹49.4 lakh crore total (new year)",
-        "₹10.81 lakh crore additional"
+        "Rs.14.89 lakh crore additional",
+        "Rs.5.42 lakh crore additional",
+        "Rs.49.4 lakh crore total (new year)",
+        "Rs.10.81 lakh crore additional"
       ],
-      "correct": 1,
-      "explanation": "Current Tax Revenue (2023–24) = 11.7% of ₹295 lakh crore = ₹34.515 lakh crore. Target Tax Revenue (2026–27) = 13% of ₹380 lakh crore = ₹49.4 lakh crore. Additional tax revenue needed = ₹49.4 − ₹34.515 = ₹14.885 lakh crore... Hmm, closest option is A (₹14.33 lakh crore) but exact calculation gives ₹14.885 lakh crore. Option B (₹5.42 lakh crore) would represent: if tax revenue grows only with GDP at 11.7% rate: 11.7% of ₹380 = ₹44.46 lakh crore; gap = ₹49.4 − ₹44.46 = ₹4.94 lakh crore ≈ ₹5 lakh crore extra needed BEYOND natural revenue growth. This interpretation — additional revenue beyond what would come from GDP growth — = Option B. This is the more meaningful policy question. Option B represents the additional mobilization effort needed. Answer is B."
+      "correct": 0,
+      "explanation": "Current tax revenue = 11.7% of Rs.295 lakh crore = Rs.34.515 lakh crore. Target tax revenue = 13% of Rs.380 lakh crore = Rs.49.4 lakh crore. Additional tax revenue to be mobilized = Rs.49.4 - Rs.34.515 = Rs.14.885 lakh crore, approximately Rs.14.89 lakh crore. Option A is correct."
     },
     {
       "id": "GT-S4Q62",
@@ -902,9 +956,14 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "India's FDI inflows by sector ($ billion, 2022–23):\nSector | Inflows\nServices | 15.4\nComputer Software & Hardware | 17.2\nTrading | 5.1\nTelecommunication | 4.4\nAutomobile | 4.0\nChemicals | 2.3\nPharma | 3.2\nConstruction | 2.5\nOthers | 10.9\nTotal | 65.0\n\nWhat percentage of total FDI came from the top 3 sectors?\n\n(A) 53.1%\n(B) 58.0%\n(C) 47.2%\n(D) 61.5%",
-      "options": ["53.1%", "58.0%", "47.2%", "61.5%"],
-      "correct": 0,
-      "explanation": "Top 3 sectors by FDI inflows: 1st: Computer Software & Hardware = $17.2 billion. 2nd: Services = $15.4 billion. 3rd: Trading = $5.1 billion. Top 3 Total = $17.2 + $15.4 + $5.1 = $37.7 billion. Percentage of total = ($37.7 / $65.0) × 100 = 57.99%... That's approximately 58%, matching Option B. Wait — let me verify: 37.7/65 = 0.58 = 58%. So Option B (58.0%) seems correct. But let me check if 'Others' should be excluded from 'top 3.' Without 'Others' as a single category: top 3 are CS&H (17.2), Services (15.4), Trading (5.1) = 37.7/65 = 58%. Option B appears correct. Given calculation, Option B (58.0%) is the answer."
+      "options": [
+        "53.1%",
+        "58.0%",
+        "47.2%",
+        "61.5%"
+      ],
+      "correct": 1,
+      "explanation": "The top three named sectors by FDI inflows are Computer Software & Hardware ($17.2 billion), Services ($15.4 billion), and Trading ($5.1 billion). Their combined inflow is $37.7 billion. Percentage of total FDI = ($37.7 / $65.0) x 100 = 58.0%. Option B is correct."
     },
     {
       "id": "GT-S4Q65",
@@ -957,7 +1016,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "India's Wholesale Price Index (WPI) base year is 2011–12. In 2023–24, the WPI is 165.2. The Consumer Price Index (CPI) in 2023–24 is 178.6 (base 2012). Inflation measured by WPI is 2.3% and by CPI is 5.4%.\n\nIf a basket of goods cost ₹10,000 in the base year for both indices, what is the difference in the estimated basket cost in 2023–24 according to WPI versus CPI?\n\n(A) ₹1,340\n(B) ₹1,024\n(C) ₹1,586\n(D) ₹862",
-      "options": ["₹1,340", "₹1,024", "₹1,586", "₹862"],
+      "options": [
+        "₹1,340",
+        "₹1,024",
+        "₹1,586",
+        "₹862"
+      ],
       "correct": 0,
       "explanation": "Cost according to WPI: (165.2/100) × ₹10,000 = ₹16,520. Cost according to CPI: (178.6/100) × ₹10,000 = ₹17,860. Difference = ₹17,860 − ₹16,520 = ₹1,340. This difference reflects the structural difference between WPI and CPI: WPI measures price changes at the wholesale/producer level (weights: manufactured products 64%, primary articles 22.6%, fuel and power 13.1%); CPI measures retail price changes from a consumer perspective (weights: food 46%, housing 10%, fuel 7%, etc.). Services (which have significant weight in CPI) are not captured in WPI. Services inflation is consistently higher than goods inflation in India. Option A (₹1,340) is correct."
     },
@@ -1043,7 +1107,9 @@
       "difficulty": "difficult",
       "question": "India's Union Budget Revenue Receipts breakdown (₹ lakh crore):\nSource | 2022–23 | 2023–24\nCorporation Tax | 8.6 | 9.2\nPersonal Income Tax | 8.3 | 10.4\nGST | 8.9 | 9.6\nCustoms | 2.1 | 2.1\nExcise | 3.3 | 3.0\nNon-Tax Revenue | 3.6 | 4.1\nTotal | 34.8 | 38.4\n\nWhich tax showed the LARGEST absolute increase AND simultaneously the LARGEST share increase in total receipts?\n\n(A) GST\n(B) Personal Income Tax\n(C) Corporation Tax\n(D) Non-Tax Revenue",
       "options": [
-        "GST",                 "Personal Income Tax", "Corporation Tax",
+        "GST",
+        "Personal Income Tax",
+        "Corporation Tax",
         "Non-Tax Revenue"
       ],
       "correct": 1,
@@ -1086,7 +1152,10 @@
       "difficulty": "difficult",
       "question": "Consider the following statements about India's public debt:\n\nStatement 1: India's public debt is predominantly domestically held, reducing exchange rate risk.\nStatement 2: A high public debt-to-GDP ratio automatically leads to sovereign default.\nStatement 3: The debt sustainability depends on the differential between interest rate (r) and GDP growth rate (g); if g > r, debt ratio tends to fall even without primary surplus.\nStatement 4: India's external debt forms about 20% of its total public debt.\n\nIdentify the CORRECT statements.\n\n(A) 1, 3, and 4\n(B) 1 and 3 only\n(C) 2 and 4 only\n(D) 1, 2, and 3",
       "options": [
-        "1, 3, and 4",  "1 and 3 only", "2 and 4 only", "1, 2, and 3"
+        "1, 3, and 4",
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2, and 3"
       ],
       "correct": 1,
       "explanation": "Statement 1: TRUE — India's public debt is ~97% rupee-denominated and domestically held (mainly by banks, insurance companies, provident funds), significantly reducing exchange rate and rollover risk compared to countries with high foreign-currency debt. Statement 2: FALSE — High debt/GDP ratio does NOT automatically cause default. Japan has ~250% debt/GDP without defaulting. Default risk depends on ability to service debt (growth, revenue), currency denomination, and institutional capacity. Statement 3: TRUE — This is fundamental fiscal sustainability mathematics: d(Debt/GDP)/dt = (r−g) × (Debt/GDP) − Primary Surplus/GDP. When g > r, the debt ratio automatically declines. This is why high-growth periods are critical for fiscal consolidation. Statement 4: India's total external debt is approximately $620 billion (2023), while central government debt is ~₹155 lakh crore (~$1.9 trillion). External debt is roughly 30–33% of total debt, not 20%. FALSE as stated. So Statements 1 and 3 are correct. Option B is correct."
@@ -1478,8 +1547,9 @@
         "25% real growth; 40% nominal growth",
         "16% nominal growth; 12% real growth"
       ],
-      "correct": 1,
-      "explanation": "Nominal GDP Growth = (700 − 500) / 500 × 100 = 40%. To find Real GDP Growth: Real GDP = Nominal GDP / Price Index. Real GDP 2020 (base) = $500 billion. Price Index in 2025 (with 25% cumulative inflation) = 1.25. Real GDP 2025 = $700 / 1.25 = $560 billion. Real GDP Growth = (560 − 500) / 500 × 100 = 60/500 × 100 = 12%. Alternative formula: (1 + Nominal Growth) = (1 + Real Growth) × (1 + Inflation). 1.40 = (1 + Real Growth) × 1.25. 1 + Real Growth = 1.40/1.25 = 1.12. Real Growth = 12%. So: 40% nominal growth and 12% real growth. Option A is correct."
+      "correct": 0,
+      "explanation": "Nominal GDP Growth = (700 − 500) / 500 × 100 = 40%. To find Real GDP Growth: Real GDP = Nominal GDP / Price Index. Real GDP 2020 (base) = $500 billion. Price Index in 2025 (with 25% cumulative inflation) = 1.25. Real GDP 2025 = $700 / 1.25 = $560 billion. Real GDP Growth = (560 − 500) / 500 × 100 = 60/500 × 100 = 12%. Alternative formula: (1 + Nominal Growth) = (1 + Real Growth) × (1 + Inflation). 1.40 = (1 + Real Growth) × 1.25. 1 + Real Growth = 1.40/1.25 = 1.12. Real Growth = 12%. So: 40% nominal growth and 12% real growth. Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "GT-S4Q104",
@@ -1593,11 +1663,13 @@
       "difficulty": "moderate",
       "question": "India's goods exports were ₹22 lakh crore in 2022–23. The government provides a 5% export incentive on 60% of exports and 3% on the remaining 40%. What is the total export incentive cost to the government?\n\n(A) ₹1.54 lakh crore\n(B) ₹1.10 lakh crore\n(C) ₹1.32 lakh crore\n(D) ₹0.88 lakh crore",
       "options": [
-        "₹1.54 lakh crore", "₹1.10 lakh crore", "₹1.32 lakh crore",
-        "₹0.88 lakh crore"
+        "Rs.0.924 lakh crore",
+        "Rs.1.10 lakh crore",
+        "Rs.1.32 lakh crore",
+        "Rs.0.88 lakh crore"
       ],
       "correct": 0,
-      "explanation": "Exports with 5% incentive = 60% of ₹22 lakh crore = ₹13.2 lakh crore. Incentive = 5% of ₹13.2 = ₹0.66 lakh crore. Exports with 3% incentive = 40% of ₹22 lakh crore = ₹8.8 lakh crore. Incentive = 3% of ₹8.8 = ₹0.264 lakh crore. Total incentive = ₹0.66 + ₹0.264 = ₹0.924 lakh crore. Hmm — this doesn't match Option A. Let me recalculate: 0.05 × 0.60 × 22 = 0.05 × 13.2 = 0.66. 0.03 × 0.40 × 22 = 0.03 × 8.8 = 0.264. Total = 0.924 lakh crore. Not matching. Effective rate = 0.60 × 5% + 0.40 × 3% = 3% + 1.2% = 4.2%. Total = 4.2% of 22 = 0.924 lakh crore ≈ ₹0.924 lakh crore. Closest is Option C (₹1.32)? No — 6% of 22 = 1.32. None of the options is ₹0.924 lakh crore. The intended calculation may use different percentages. Given that 7% of 22 = 1.54, Option A may be calculated as (5+3+... additional percentages). As the intended answer, Option A appears to be set as the answer with a different numerical setup in the original question design."
+      "explanation": "Exports receiving 5% incentive = 60% of Rs.22 lakh crore = Rs.13.2 lakh crore, so incentive = 5% of Rs.13.2 lakh crore = Rs.0.66 lakh crore. Remaining exports = 40% of Rs.22 lakh crore = Rs.8.8 lakh crore, so incentive = 3% of Rs.8.8 lakh crore = Rs.0.264 lakh crore. Total incentive cost = Rs.0.66 + Rs.0.264 = Rs.0.924 lakh crore. Option A is correct."
     },
     {
       "id": "GT-S4Q112",
@@ -1756,7 +1828,9 @@
       "difficulty": "moderate",
       "question": "India's tax revenue elasticity with respect to GDP is 1.4 (meaning for every 1% increase in GDP, tax revenues increase by 1.4%). If GDP grows by 10% nominally and current tax revenues are ₹34 lakh crore, what will tax revenues be next year?\n\n(A) ₹38.76 lakh crore\n(B) ₹37.40 lakh crore\n(C) ₹36.00 lakh crore\n(D) ₹40.00 lakh crore",
       "options": [
-        "₹38.76 lakh crore", "₹37.40 lakh crore", "₹36.00 lakh crore",
+        "₹38.76 lakh crore",
+        "₹37.40 lakh crore",
+        "₹36.00 lakh crore",
         "₹40.00 lakh crore"
       ],
       "correct": 0,
@@ -1873,7 +1947,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "The Finance Minister presents: 'Capital Expenditure = ₹10 lakh crore (3.3% of GDP); of this, ₹1.3 lakh crore is grants-in-aid to states for creation of capital assets. Effective Capital Expenditure (including capital grants to states) = ₹10 lakh crore.' Revenue Expenditure = ₹35 lakh crore. Total Expenditure = ₹45 lakh crore. Revenue Receipts = ₹26.5 lakh crore.\n\nWhat is the Revenue Deficit as % of total expenditure?\n\n(A) 18.9%\n(B) 25.6%\n(C) 12.2%\n(D) 30.1%",
-      "options": ["18.9%", "25.6%", "12.2%", "30.1%"],
+      "options": [
+        "18.9%",
+        "25.6%",
+        "12.2%",
+        "30.1%"
+      ],
       "correct": 0,
       "explanation": "Revenue Deficit = Revenue Expenditure − Revenue Receipts = ₹35 − ₹26.5 = ₹8.5 lakh crore. Revenue Deficit as % of Total Expenditure = (₹8.5 / ₹45) × 100 = 18.89% ≈ 18.9%. This metric shows what proportion of total government spending is financed by current income versus borrowing for consumption purposes. A high revenue deficit as % of total expenditure indicates fiscal stress — nearly 19% of all government spending is on consumption that cannot be covered by current revenues, requiring borrowing. This also means a large portion of capital spending must be debt-financed as well. Option A (18.9%) is correct."
     },
@@ -1958,7 +2037,12 @@
       "level": "L2",
       "difficulty": "moderate",
       "question": "India's current account: Goods exports = $450 bn, Goods imports = $714 bn, Services exports = $325 bn (of which IT = $200 bn), Services imports = $160 bn, Primary income balance = −$20 bn, Remittances received = $107 bn, Other transfers = −$3 bn. Calculate the Current Account Balance.\n\n(A) −$15 bn\n(B) −$25 bn\n(C) −$5 bn\n(D) +$15 bn",
-      "options": ["−$15 bn", "−$25 bn", "−$5 bn", "+$15 bn"],
+      "options": [
+        "−$15 bn",
+        "−$25 bn",
+        "−$5 bn",
+        "+$15 bn"
+      ],
       "correct": 0,
       "explanation": "Current Account = Goods + Services + Primary Income + Secondary Income (transfers). Goods: $450 − $714 = −$264 bn. Services: $325 − $160 = +$165 bn. Primary Income: −$20 bn. Secondary Income: Remittances $107 − Other transfers $3 = +$104 bn. CAB = −$264 + $165 + (−$20) + $104 = −$264 + $165 − $20 + $104 = −$264 + $249 = −$15 bn. India's current account deficit is largely driven by the merchandise trade deficit, partially cushioned by the large services surplus (especially IT) and significant remittances (India is consistently the world's largest remittance receiver). Option A (−$15 bn) is correct."
     },
@@ -1969,7 +2053,9 @@
       "difficulty": "difficult",
       "question": "Four economists make predictions about India's economy:\nEconomist A: 'Rising interest rates will definitely reduce inflation.'\nEconomist B: 'Rising interest rates will definitely improve the Rupee.'\nEconomist C: 'Rising interest rates might reduce growth.'\nEconomist D: 'Rising interest rates will definitely increase government interest payments.'\n\nWhich economists made DEFENSIBLE (not overstated) claims?\n\n(A) A, B, C, and D\n(B) C and D only\n(C) A and D only\n(D) B, C, and D only",
       "options": [
-        "A, B, C, and D",   "C and D only",     "A and D only",
+        "A, B, C, and D",
+        "C and D only",
+        "A and D only",
         "B, C, and D only"
       ],
       "correct": 1,
@@ -2057,10 +2143,13 @@
       "difficulty": "difficult",
       "question": "India's steel industry data: Domestic production cost = ₹45,000/tonne; World market price = $500/tonne (≈ ₹41,500 at ₹83/$). Government imposes specific tariff of ₹5,000/tonne. Consumer surplus loss = area of trapezoid between old and new price. With tariff: domestic production rises from 50 million tonnes to 60 million tonnes; domestic consumption falls from 80 to 75 million tonnes.\n\nWhat is the government's tariff revenue from steel imports?\n\n(A) ₹75,000 crore\n(B) ₹37,500 crore\n(C) ₹25,000 crore\n(D) ₹50,000 crore",
       "options": [
-        "₹75,000 crore", "₹37,500 crore", "₹25,000 crore", "₹50,000 crore"
+        "Rs.7,500 crore",
+        "Rs.37,500 crore",
+        "Rs.25,000 crore",
+        "Rs.50,000 crore"
       ],
       "correct": 0,
-      "explanation": "After tariff: Domestic production = 60 million tonnes; Domestic consumption = 75 million tonnes. Steel imports = Domestic Consumption − Domestic Production = 75 − 60 = 15 million tonnes. Government tariff revenue = Imports × Tariff = 15 million tonnes × ₹5,000/tonne = 15,000,000 × 5,000 = ₹75,000,000,000 = ₹75,000 crore (₹750 billion = ₹75,000 crore). 15 million = 1.5 crore tonnes. 1.5 crore × ₹5,000 = ₹7,500 crore... Wait. 15 million tonnes × ₹5,000/tonne = 75,000 million rupees = ₹75,000 crore. 75,000 million = 75 billion = 75,000 crore rupees. Yes — 15 × 10^6 × 5000 = 75 × 10^9 rupees = ₹75,000 crore. Option A is correct."
+      "explanation": "After the tariff, imports = domestic consumption - domestic production = 75 million tonnes - 60 million tonnes = 15 million tonnes, or 1.5 crore tonnes. Tariff revenue = 1.5 crore tonnes x Rs.5,000 per tonne = Rs.7,500 crore. Option A is correct."
     },
     {
       "id": "GT-S4Q144",
@@ -2084,7 +2173,9 @@
       "difficulty": "difficult",
       "question": "India's banking system shows: Gross NPA Ratio = 3.9% (March 2023, improved from peak 11.5% in 2018). Net NPA = 1.0%. Capital Adequacy (CRAR) = 17.1%. Credit Growth = 15%.\n\nUsing this data, a bank analyst makes four observations:\nI. Indian banks are now healthier than during the 2018 NPA crisis\nII. The banking system has adequate capital to absorb potential losses\nIII. Credit growth suggests strong economic activity\nIV. Net NPA of 1.0% means all problem loans are fully provisioned\n\nWhich observations are analytically CORRECT?\n\n(A) I, II, and III only\n(B) All four are correct\n(C) I and IV only\n(D) II and III only",
       "options": [
-        "I, II, and III only",  "All four are correct", "I and IV only",
+        "I, II, and III only",
+        "All four are correct",
+        "I and IV only",
         "II and III only"
       ],
       "correct": 0,
@@ -2111,7 +2202,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "India faces two simultaneous policy goals: (1) Achieve 3% fiscal deficit within 2 years; (2) Maintain 8% GDP growth. A committee makes four recommendations:\n\nX: Cut all social sector spending by 40%\nY: Increase capital expenditure by 20% while cutting revenue expenditure\nZ: Introduce a GST rationalization that broadens the base and raises tax buoyancy\nW: Take on additional external debt to maintain spending\n\nWhich combination of recommendations is INTERNALLY CONSISTENT with achieving BOTH goals simultaneously?\n\n(A) X and W\n(B) Y and Z\n(C) X and Z\n(D) W only",
-      "options": ["X and W", "Y and Z", "X and Z", "W only"],
+      "options": [
+        "X and W",
+        "Y and Z",
+        "X and Z",
+        "W only"
+      ],
       "correct": 1,
       "explanation": "Analysis of each recommendation vis-à-vis both goals: X (Cut social spending 40%): Improves fiscal deficit ✓ but severely damages human capital, demand, and health/education outcomes → likely REDUCES long-term growth. Conflict with Goal 2 (8% growth). W (Additional external debt): Temporarily maintains spending but increases fiscal deficit interest burden → worsens fiscal sustainability. Conflicts with Goal 1. Y (Higher capex + cut revenue expenditure): Capex has high multiplier → supports 8% growth ✓. Cutting revenue expenditure (subsidies, transfers) reduces total spending → helps fiscal consolidation ✓. Also improves quality of spending (capex vs revenue). CONSISTENT WITH BOTH GOALS. Z (GST base broadening): Higher tax revenues → reduces fiscal deficit without cutting productive spending ✓. No direct negative growth impact — broader base with better compliance may actually improve resource allocation ✓. CONSISTENT WITH BOTH GOALS. Y and Z together represent a credible strategy: spend smarter (higher capex/lower revenue) + collect more (better tax system). Option B is correct."
     },
@@ -2157,8 +2253,8 @@
         "Remains unchanged",
         "Decreases by approximately 2 percentage points"
       ],
-      "correct": 0,
-      "explanation": "Debt/GDP = ₹155/₹270 = 57.4%. r (interest rate) = 7%; g (GDP growth) = 8%. (r−g) = 7% − 8% = −1%. (r−g) × Debt/GDP = −1% × 57.4% = −0.574 pp. Primary Surplus/GDP = ₹3/₹270 = 1.11%. Δ(Debt/GDP) = (r-g) × (Debt/GDP) − Primary Surplus/GDP = −0.574% − 1.11% = −1.684 pp. This is approximately −1.7 percentage points, closest to Option D (−2 pp). However, if we use slightly different numbers: (−1%) × 0.574 = −0.574. Primary Surplus/GDP = 3/270 = 1.11%. Net = −0.574 − 1.11 = −1.68 pp. This is approximately −1.7 pp. The closest option... D says approximately 2 pp decrease. Hmm — Option A says 0.5 pp decrease. Given the calculation gives −1.7 pp, Option D (−2 pp) is closest. Let me re-examine. If primary deficit instead: −0.574 + primary deficit would increase ratio. But primary SURPLUS means: change = (r-g)×D/Y − Primary Surplus/Y = −0.574 − 1.11 = −1.68 ≈ −2%. Option D is the correct answer based on calculation."
+      "correct": 3,
+      "explanation": "Debt/GDP = Rs.155 lakh crore / Rs.270 lakh crore = 57.4%. Since r = 7% and g = 8%, (r - g) = -1%. The interest-growth effect is -1% x 57.4% = -0.574 percentage points. Primary surplus/GDP = Rs.3 lakh crore / Rs.270 lakh crore = 1.11 percentage points. Change in Debt/GDP = -0.574 - 1.11 = -1.684 percentage points, approximately a 2 percentage point decrease. Option D is correct."
     },
     {
       "id": "GT-S4Q151",
@@ -2212,7 +2308,10 @@
       "difficulty": "difficult",
       "question": "A small open economy (India-like) faces: Real GDP = ₹100 lakh crore; Consumption = ₹60 lakh crore; Government Expenditure = ₹18 lakh crore; Investment = ₹28 lakh crore; Exports = ₹30 lakh crore.\n\nUsing the National Income Identity Y = C + I + G + (X − M), what are the imports (M)?\n\n(A) ₹36 lakh crore\n(B) ₹28 lakh crore\n(C) ₹20 lakh crore\n(D) ₹40 lakh crore",
       "options": [
-        "₹36 lakh crore", "₹28 lakh crore", "₹20 lakh crore", "₹40 lakh crore"
+        "₹36 lakh crore",
+        "₹28 lakh crore",
+        "₹20 lakh crore",
+        "₹40 lakh crore"
       ],
       "correct": 0,
       "explanation": "National Income Identity: Y = C + I + G + (X − M). ₹100 = ₹60 + ₹28 + ₹18 + (₹30 − M). ₹100 = ₹106 + ₹30 − M. ₹100 = ₹136 − M. M = ₹136 − ₹100 = ₹36 lakh crore. Trade Balance = X − M = ₹30 − ₹36 = −₹6 lakh crore (trade deficit). This is consistent with India-like economies having a trade deficit despite strong domestic demand. The identity check: C + I + G = ₹60 + ₹28 + ₹18 = ₹106 lakh crore (Domestic Absorption). GDP = ₹100 lakh crore. Excess absorption over GDP = ₹6 lakh crore = Trade Deficit. This macroeconomic identity (GDP = Domestic Absorption + Net Exports) is fundamental. Option A (₹36 lakh crore) is correct."
@@ -2269,7 +2368,10 @@
       "difficulty": "difficult",
       "question": "India's trade in pharmaceuticals: Generic drug exports = $25 billion; API (Active Pharmaceutical Ingredient) imports = $4 billion; Finished formulation imports = $1.5 billion; Pharma services exports = $2 billion. India's total pharma exports including services = $27 billion. Pharma's trade surplus excluding services = ?\n\n(A) $19.5 billion\n(B) $23.5 billion\n(C) $25 billion\n(D) $21 billion",
       "options": [
-        "$19.5 billion", "$23.5 billion", "$25 billion",   "$21 billion"
+        "$19.5 billion",
+        "$23.5 billion",
+        "$25 billion",
+        "$21 billion"
       ],
       "correct": 0,
       "explanation": "Pharma trade surplus excluding services: Pharma Exports (goods only) = Generic drug exports = $25 billion. Pharma Imports (goods only) = API imports + Finished formulation imports = $4 + $1.5 = $5.5 billion. Pharma Trade Surplus (goods) = $25 − $5.5 = $19.5 billion. Note: Pharma services exports ($2 bn) are excluded as per the question's 'excluding services' specification. India's pharmaceutical sector is a major contributor to the current account — it's one of India's few manufacturing sectors where it has strong global competitiveness. India is the world's largest generic medicine supplier by volume. The API import dependence (primarily from China) is a strategic vulnerability that PLI schemes aim to address. Option A ($19.5 billion) is correct."
@@ -2341,7 +2443,9 @@
       "difficulty": "moderate",
       "question": "India's fiscal consolidation road map: Target to reduce fiscal deficit from 6.4% to 4.5% of GDP over 4 years. GDP is growing at 10% nominal per year (base GDP = ₹200 lakh crore). If the fiscal deficit must fall by 0.475 percentage points per year, what is the absolute fiscal deficit target in Year 4?\n\n(A) ₹13.16 lakh crore\n(B) ₹10.50 lakh crore\n(C) ₹12.83 lakh crore\n(D) ₹9.90 lakh crore",
       "options": [
-        "₹13.16 lakh crore", "₹10.50 lakh crore", "₹12.83 lakh crore",
+        "₹13.16 lakh crore",
+        "₹10.50 lakh crore",
+        "₹12.83 lakh crore",
         "₹9.90 lakh crore"
       ],
       "correct": 0,
@@ -2359,8 +2463,8 @@
         "She can take any amount as RBI caps only apply to the primary lender",
         "The cap is per lender, not per borrower, so no restriction"
       ],
-      "correct": 1,
-      "explanation": "Under RBI's revised Regulatory Framework for Microfinance Loans (March 2022): The 50% repayment cap applies to TOTAL loan obligations of the household across ALL lenders, not per lender. Current EMI calculation: Flat rate 22% on ₹50,000 for 24 months. Annual interest = ₹50,000 × 22% = ₹11,000. Total interest for 2 years = ₹22,000. Total repayment = ₹72,000. Monthly EMI = ₹72,000/24 = ₹3,000/month. Repayment cap = 50% of ₹10,000 = ₹5,000/month. Current EMI = ₹3,000 (within cap — ₹2,000 headroom). Additional EMI capacity = ₹5,000 − ₹3,000 = ₹2,000/month. This is the TOTAL capacity for additional loans. If another 24-month flat loan: additional loan capacity ≈ ₹2,000 × 24 / 1.22 ≈ ₹39,300 max additional loan. But since the question asks about maximum and the cap is household-wide (Option C and D are wrong), Option B seems incorrect if there IS headroom. Given the question's intent and that actual headroom exists (₹2,000/month remaining), Option A (₹30,000) might be the approximate intended answer. However, strictly Option B says 'current EMI exceeds cap' which is incorrect (₹3,000 < ₹5,000). The intended answer seems to be A or the question intends that the current EMI already equals the cap — upon re-examination, if the question intends the cap has been hit, Option B. Given ambiguity, Option B is the designed answer in the question setter's intent."
+      "correct": 0,
+      "explanation": "Under RBI's microfinance framework, the 50% repayment cap applies to total household loan obligations across lenders. Current loan repayment = principal Rs.50,000 + flat interest for two years at 22% per annum (Rs.22,000) = Rs.72,000. Monthly instalment = Rs.72,000 / 24 = Rs.3,000. Repayment cap = 50% of Rs.10,000 monthly income = Rs.5,000, leaving Rs.2,000 monthly headroom. A further 24-month flat-rate loan of Rs.30,000 would require repayment of Rs.30,000 x 1.44 = Rs.43,200, or Rs.1,800 per month, which stays within the cap. Option A is correct."
     },
     {
       "id": "GT-S4Q165",
@@ -2383,7 +2487,12 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "Consider India's tax policy changes:\nPolicy P: Corporate tax rate reduced from 30% to 22% (2019)\nPolicy Q: New manufacturing companies get 15% tax rate (2019)\nPolicy R: GST rate rationalization — moving items from 28% slab to 18%\nPolicy S: Abolishing DDT (Dividend Distribution Tax) and taxing dividends in shareholders' hands\n\nWhich policy primarily aims to ATTRACT FOREIGN INVESTMENT rather than primarily addressing domestic tax equity or consumption?\n\n(A) R and S\n(B) P and Q\n(C) S only\n(D) R only",
-      "options": ["R and S", "P and Q", "S only", "R only"],
+      "options": [
+        "R and S",
+        "P and Q",
+        "S only",
+        "R only"
+      ],
       "correct": 1,
       "explanation": "Analyzing each policy's primary motivation: Policy P (CIT 30%→22%): Reduces corporate tax rate — brings India's rate in line with Asian competitors (Singapore 17%, Malaysia 24%, Vietnam 20%). Primary motivation: making India competitive for ATTRACTING DOMESTIC AND FOREIGN INVESTMENT — a signal to global corporations considering India. Policy Q (New manufacturers at 15%): Even more attractive rate specifically for NEW manufacturing companies — explicitly designed to attract Greenfield manufacturing investment (domestic and foreign) — directly targets FDI in manufacturing (Apple suppliers, semiconductor companies, etc.). Primary motivation: ATTRACTING FOREIGN MANUFACTURING INVESTMENT. Policy R (GST rationalization to 18%): Primarily reduces consumer prices and improves consumption — domestic equity/consumption motivation. Policy S (Abolishing DDT): DDT was internationally seen as unusual (tax at company level on dividends); removing it and taxing in shareholders' hands follows international norms — improves equity for high-income shareholders but primarily motivates REPATRIATION OF DIVIDENDS by foreign investors who previously got no credit for DDT in their home countries. S has FDI-attraction angle too, but P and Q are MORE directly FDI-focused. Option B (P and Q) is the best answer."
     },
@@ -2559,10 +2668,13 @@
       "difficulty": "moderate",
       "question": "India's average import tariff on a product = 30%. Exporters from Country X (with which India has an FTA) pay 5% tariff. Exporters from Country Y (no FTA) pay 30%. India's total imports of this product = ₹10,000 crore: ₹3,000 crore from X, ₹7,000 crore from Y. What is India's total tariff revenue from this product?\n\n(A) ₹2,250 crore\n(B) ₹3,000 crore\n(C) ₹2,450 crore\n(D) ₹2,100 crore",
       "options": [
-        "₹2,250 crore", "₹3,000 crore", "₹2,450 crore", "₹2,100 crore"
+        "₹2,250 crore",
+        "₹3,000 crore",
+        "₹2,450 crore",
+        "₹2,100 crore"
       ],
-      "correct": 2,
-      "explanation": "Tariff revenue from Country X: ₹3,000 crore × 5% = ₹150 crore. Tariff revenue from Country Y: ₹7,000 crore × 30% = ₹2,100 crore. Note: ₹7,000 is the c.i.f. import value; tariff is levied on this value. Hmm — but the ₹7,000 and ₹3,000 are stated as the value of imports. If these are the pre-tariff values (which is standard — tariff is applied to the import value, CIF price). Total tariff revenue = ₹150 + ₹2,100 = ₹2,250 crore. Option A (₹2,250 crore)... But I calculated ₹2,250. Let me recheck: ₹3,000 × 5% = ₹150. ₹7,000 × 30% = ₹2,100. Total = ₹2,250 crore. Option A is ₹2,250 crore. Option C is ₹2,450 crore. My calculation gives ₹2,250. Option A should be the answer. But the question marks C as correct — if the import values given (₹3,000 and ₹7,000) are post-tariff values... then: Pre-tariff X value = 3,000/1.05 = ₹2,857; tariff = 0.05 × 2,857 = ₹143. Not clean. The straightforward calculation gives ₹2,250 → Option A is the correct answer."
+      "correct": 0,
+      "explanation": "Tariff revenue from Country X = Rs.3,000 crore x 5% = Rs.150 crore. Tariff revenue from Country Y = Rs.7,000 crore x 30% = Rs.2,100 crore. Total tariff revenue = Rs.150 crore + Rs.2,100 crore = Rs.2,250 crore. Option A is correct."
     },
     {
       "id": "GT-S4Q179",
@@ -2601,7 +2713,9 @@
       "difficulty": "difficult",
       "question": "Government announces Scheme X: 'All registered MSMEs will receive 6% interest subvention on term loans up to ₹1 crore. Total MSME term credit outstanding = ₹20 lakh crore. Assume 40% of this is within the ₹1 crore per unit limit and qualifies for subvention.'\n\nWhat is the ANNUAL fiscal cost of this scheme?\n\n(A) ₹1.2 lakh crore\n(B) ₹48,000 crore\n(C) ₹1 lakh crore\n(D) ₹24,000 crore",
       "options": [
-        "₹1.2 lakh crore", "₹48,000 crore",   "₹1 lakh crore",
+        "₹1.2 lakh crore",
+        "₹48,000 crore",
+        "₹1 lakh crore",
         "₹24,000 crore"
       ],
       "correct": 1,
@@ -2718,9 +2832,14 @@
       "level": "L3",
       "difficulty": "difficult",
       "question": "India's Human Development Report Data (2022–23):\nIndicator | India | Sri Lanka | Bangladesh | Pakistan | Nepal\nHDI Score | 0.633 | 0.780 | 0.661 | 0.544 | 0.601\nGNI per capita ($PPP) | 6,590 | 10,927 | 5,693 | 4,624 | 3,457\nLife Expectancy | 67.7 | 76.4 | 73.6 | 66.6 | 69.9\nMean Years Schooling | 6.57 | 10.56 | 6.20 | 4.28 | 5.19\n\nWhich South Asian country demonstrates the BEST 'Human Development Efficiency' (highest HDI relative to GNI per capita)?\n\n(A) India\n(B) Sri Lanka\n(C) Bangladesh\n(D) Nepal",
-      "options": ["India", "Sri Lanka", "Bangladesh", "Nepal"],
-      "correct": 2,
-      "explanation": "Human Development Efficiency ≈ HDI / GNI per capita (higher = better HDI for given income level). India: 0.633 / 6,590 = 0.0000960. Sri Lanka: 0.780 / 10,927 = 0.0000714. Bangladesh: 0.661 / 5,693 = 0.0001161. Pakistan: 0.544 / 4,624 = 0.0001176. Nepal: 0.601 / 3,457 = 0.0001738. Nepal has the highest ratio (0.0001738) meaning it achieves the most HDI per dollar of GNI. Bangladesh (0.0001161) is second. Sri Lanka actually has the LOWEST efficiency ratio despite high HDI — it achieves its high HDI through high income. But wait — the question asks which country demonstrates BEST HDI relative to GNI, meaning achieving high HDI with relatively lower income (like Kerala model). Bangladesh (HDI 0.661 from GNI $5,693) is notable — it's higher HDI than India despite lower GNI per capita, largely from impressive gains in female education, life expectancy, and child health. If the question means Bangladesh has HIGHER HDI than India at LOWER income — Bangladesh demonstrates better HDI efficiency than India. Option C (Bangladesh) is the answer intended."
+      "options": [
+        "India",
+        "Sri Lanka",
+        "Bangladesh",
+        "Nepal"
+      ],
+      "correct": 3,
+      "explanation": "Human Development Efficiency can be approximated as HDI divided by GNI per capita. India: 0.633/6590 = 0.0000960. Sri Lanka: 0.780/10927 = 0.0000714. Bangladesh: 0.661/5693 = 0.0001161. Pakistan: 0.544/4624 = 0.0001176. Nepal: 0.601/3457 = 0.0001738. Among the listed answer options, Nepal has the highest HDI relative to GNI per capita. Option D is correct."
     },
     {
       "id": "GT-S4Q190",
@@ -2764,8 +2883,8 @@
         "₹0 saved — same under both",
         "₹17,500 tax saved"
       ],
-      "correct": 0,
-      "explanation": "New Tax Regime tax slabs (post-Budget 2023): 0–3 lakh: 0%; 3–6 lakh: 5%; 6–9 lakh: 10%; 9–12 lakh: 15%. For ₹7 lakh income: Tax = 0 (on ₹3 lakh) + 5% on ₹3 lakh = ₹15,000 + 10% on ₹1 lakh = ₹10,000. Total tax = ₹25,000. But with Section 87A rebate for income up to ₹7 lakh under new regime: FULL REBATE. Net tax = ₹0. Under old regime for ₹7 lakh (without deductions): 0–2.5 lakh: 0%; 2.5–5 lakh: 5% = ₹12,500; 5–7 lakh: 20% = ₹40,000. Total = ₹52,500. With Section 87A rebate under old regime (income up to ₹5 lakh): No rebate at ₹7 lakh income. Net tax under old regime = ₹52,500. Tax saving = ₹52,500 − ₹0 = ₹52,500. Hmm — Option B (₹52,500) is the calculated saving. But the question says Option A (₹25,000) is correct. If comparing new regime tax without rebate (₹25,000) vs old regime (₹52,500), saving = ₹27,500... The exact answer from calculation is ₹52,500 saving. Option B should be the answer. Given that ₹25,000 represents the tax liability before rebate in new regime, and the full saving is ₹52,500, Option B is the correct answer."
+      "correct": 1,
+      "explanation": "Under the new regime, tax before rebate on Rs.7 lakh is Rs.25,000, but the Section 87A rebate makes the net tax zero for eligible income up to Rs.7 lakh. Under the old regime without deductions, tax on Rs.7 lakh is 5% on Rs.2.5 lakh to Rs.5 lakh = Rs.12,500 plus 20% on Rs.5 lakh to Rs.7 lakh = Rs.40,000, totaling Rs.52,500. Tax saving = Rs.52,500 - Rs.0 = Rs.52,500. Option B is correct."
     },
     {
       "id": "GT-S4Q193",
@@ -2779,8 +2898,9 @@
         "Only 1, 2, and 3 are correct; 4 and 5 are wrong",
         "1, 2, 3, 4, and 5 — all correct"
       ],
-      "correct": 2,
-      "explanation": "Checking each pairing: 1. PM-KISAN → Ministry of Agriculture & Farmers Welfare ✓ CORRECT. 2. Jal Jeevan Mission → Ministry of Jal Shakti ✓ CORRECT (Ministry created 2019 merging Water Resources and Drinking Water ministries). 3. PM Awas Yojana (Urban) → Ministry of Housing & Urban Affairs ✓ CORRECT. (PM Awas Yojana Rural is under Ministry of Rural Development). 4. National Health Mission → Ministry of AYUSH ✗ INCORRECT. NHM is under the Ministry of Health & Family Welfare, not AYUSH. AYUSH (Ayurveda, Yoga, Unani, Siddha, Homeopathy) is a separate Ministry handling traditional medicine — it has PM Swasthya Suraksha Yojana components but NOT NHM. 5. PM Garib Kalyan Ann Yojana → Ministry of Consumer Affairs, Food & Public Distribution ✓ CORRECT — free food grain distribution falls under this ministry (Food Corporation of India, PDS infrastructure). Hence 1, 2, 3, and 5 are correct; 4 is wrong. Option A is correct."
+      "correct": 0,
+      "explanation": "Checking each pairing: 1. PM-KISAN → Ministry of Agriculture & Farmers Welfare ✓ CORRECT. 2. Jal Jeevan Mission → Ministry of Jal Shakti ✓ CORRECT (Ministry created 2019 merging Water Resources and Drinking Water ministries). 3. PM Awas Yojana (Urban) → Ministry of Housing & Urban Affairs ✓ CORRECT. (PM Awas Yojana Rural is under Ministry of Rural Development). 4. National Health Mission → Ministry of AYUSH ✗ INCORRECT. NHM is under the Ministry of Health & Family Welfare, not AYUSH. AYUSH (Ayurveda, Yoga, Unani, Siddha, Homeopathy) is a separate Ministry handling traditional medicine — it has PM Swasthya Suraksha Yojana components but NOT NHM. 5. PM Garib Kalyan Ann Yojana → Ministry of Consumer Affairs, Food & Public Distribution ✓ CORRECT — free food grain distribution falls under this ministry (Food Corporation of India, PDS infrastructure). Hence 1, 2, 3, and 5 are correct; 4 is wrong. Option A is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S4Q194",
@@ -2849,7 +2969,9 @@
       "difficulty": "difficult",
       "question": "India's MSME sector statistics: Total MSMEs = 6.3 crore; Employment = 11 crore workers; Contribution to GDP = 30%; Contribution to Exports = 45%. India's GDP = ₹295 lakh crore; Total merchandise exports = ₹36 lakh crore.\n\nWhat is the average annual output per MSME unit (in lakh rupees)?\n\n(A) ₹14.05 lakh per unit\n(B) ₹28.10 lakh per unit\n(C) ₹7.03 lakh per unit\n(D) ₹4.70 lakh per unit",
       "options": [
-        "₹14.05 lakh per unit", "₹28.10 lakh per unit", "₹7.03 lakh per unit",
+        "₹14.05 lakh per unit",
+        "₹28.10 lakh per unit",
+        "₹7.03 lakh per unit",
         "₹4.70 lakh per unit"
       ],
       "correct": 0,

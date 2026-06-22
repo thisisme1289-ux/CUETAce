@@ -1,0 +1,128 @@
+{
+  "overall_status": "partial",
+  "requirements": [
+    {
+      "requirement": "Create a folder named past year paper",
+      "status": "complete",
+      "evidence": "past year paper"
+    },
+    {
+      "requirement": "Organize PDFs year-wise and subject-wise for Accountancy, Business Studies, Economics, English, and General Test",
+      "status": "complete",
+      "evidence": {
+        "pdf_count": 180,
+        "bad_pdf_count": 0,
+        "integrity_file": "past year paper/pdf-integrity.json"
+      }
+    },
+    {
+      "requirement": "Find CUET UG papers back to the earliest available year",
+      "status": "complete",
+      "evidence": {
+        "earliest_available_year": "2022",
+        "note": "CUET UG was introduced in 2022; no NTA CUET UG papers were found for 2020-2021.",
+        "source_report": "past year paper/SOURCE_REPORT.md"
+      }
+    },
+    {
+      "requirement": "Convert extracted questions to the existing website JSON format",
+      "status": "partial",
+      "evidence": {
+        "question_json_count": 111,
+        "schema_error_count": 0,
+        "indexed_files": 113,
+        "indexed_questions": 3754,
+        "indexed_answers_mapped": 1676
+      }
+    },
+    {
+      "requirement": "Every downloaded paper should be represented by JSON where extraction is reliable",
+      "status": "partial",
+      "evidence": {
+        "main_year_subject_json_files": 20,
+        "individual_pdf_json_files": 91,
+        "needs_review_rows": 7,
+        "needs_review": [
+          {
+            "year": "2022",
+            "subject": "Business Studies",
+            "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+            "questions": 37,
+            "answers_mapped": 37,
+            "needs_review": true,
+            "weak_options": 28
+          },
+          {
+            "year": "2024",
+            "subject": "Accountancy",
+            "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+            "questions": 50,
+            "answers_mapped": 50,
+            "needs_review": true,
+            "weak_options": 31
+          },
+          {
+            "year": "2024",
+            "subject": "Business Studies",
+            "json_path": "past year paper/2024/business-studies/json/2024-business-studies.json",
+            "questions": 50,
+            "answers_mapped": 49,
+            "needs_review": true,
+            "weak_options": 34
+          },
+          {
+            "year": "2024",
+            "subject": "Economics",
+            "json_path": "past year paper/2024/economics/json/2024-economics.json",
+            "questions": 49,
+            "answers_mapped": 49,
+            "needs_review": true,
+            "weak_options": 33
+          },
+          {
+            "year": "2024",
+            "subject": "General Test",
+            "json_path": "past year paper/2024/general-test/json/2024-general-test.json",
+            "questions": 52,
+            "answers_mapped": 52,
+            "needs_review": true,
+            "weak_options": 17
+          },
+          {
+            "year": "2025",
+            "subject": "Accountancy",
+            "json_path": "past year paper/2025/accountancy/json/2025-accountancy.json",
+            "questions": 50,
+            "answers_mapped": 42,
+            "needs_review": true,
+            "weak_options": 48
+          },
+          {
+            "year": "2025",
+            "subject": "Economics",
+            "json_path": "past year paper/2025/economics/json/2025-economics.json",
+            "questions": 50,
+            "answers_mapped": 45,
+            "needs_review": true,
+            "weak_options": 50
+          }
+        ]
+      }
+    },
+    {
+      "requirement": "Make generated PYP JSON available to the website/index/upload workflow",
+      "status": "complete",
+      "evidence": {
+        "question_bank_index": "question-bank-index.json",
+        "pyp_entries": 35,
+        "pyp_questions": 3754,
+        "import_index": "past year paper/import-index.json"
+      }
+    }
+  ],
+  "next_actions": [
+    "Manually review or replace weak-source PDFs for the rows listed in archive-summary.json.",
+    "Do not treat needs_review rows as polished student-facing content until checked.",
+    "Run npm run pyp:audit, npm run pyp:pdf-integrity, and npm run pyp:index after future changes."
+  ]
+}

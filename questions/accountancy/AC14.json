@@ -182,8 +182,9 @@
         "+200%",
         "Cannot be calculated as base year figure is negative"
       ],
-      "correct": 4,
-      "explanation": "When the base year (Year 1) figure is negative (a loss of ₹80,000), percentage change cannot be meaningfully calculated using the standard formula. The formula (Change / Base Year) × 100 would yield a misleading result because a negative denominator reverses the sign interpretation. In such cases, NCERT and NTA guidelines specify that the percentage change should be left blank or marked as 'Not Applicable'. This is a classic CUET trap — students must know that the formula breaks down with negative base figures."
+      "correct": 3,
+      "explanation": "When the base year (Year 1) figure is negative (a loss of ₹80,000), percentage change cannot be meaningfully calculated using the standard formula. The formula (Change / Base Year) × 100 would yield a misleading result because a negative denominator reverses the sign interpretation. In such cases, NCERT and NTA guidelines specify that the percentage change should be left blank or marked as 'Not Applicable'. This is a classic CUET trap — students must know that the formula breaks down with negative base figures.",
+      "correct_original": 4
     },
     {
       "id": "AC14Q13",
@@ -272,8 +273,9 @@
         "Absolute increase ₹96,000; % change 40%; Year 2 CL as % of TA = 30%",
         "Absolute increase ₹96,000; % change 35%; Year 2 CL as % of TA = 24%"
       ],
-      "correct": 1,
-      "explanation": "Absolute change = 3,36,000 − 2,40,000 = ₹96,000. Percentage change = (96,000 / 2,40,000) × 100 = 40%. Common-size % for Year 2 = (Current Liabilities / Total Assets) × 100 = (3,36,000 / 14,00,000) × 100 = 24%. So option A is correct. Note: The common-size percentage for Year 1 = (2,40,000/12,00,000)×100 = 20%, which has risen to 24%, indicating that current liabilities are forming a larger proportion of total assets — a potential liquidity concern."
+      "correct": 0,
+      "explanation": "Absolute change = 3,36,000 − 2,40,000 = ₹96,000. Percentage change = (96,000 / 2,40,000) × 100 = 40%. Common-size % for Year 2 = (Current Liabilities / Total Assets) × 100 = (3,36,000 / 14,00,000) × 100 = 24%. So option A is correct. Note: The common-size percentage for Year 1 = (2,40,000/12,00,000)×100 = 20%, which has risen to 24%, indicating that current liabilities are forming a larger proportion of total assets — a potential liquidity concern.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC14Q19",
@@ -287,8 +289,9 @@
         "They cannot be prepared when a company has only one year of data",
         "They facilitate easy identification of trends in financial performance"
       ],
-      "correct": 4,
-      "explanation": "Option D describes an ADVANTAGE, not a limitation — facilitating trend identification is precisely why comparative statements are prepared. The actual limitations include: (A) Changes in accounting policies (e.g., changing depreciation method) make figures non-comparable; (B) Inflation distorts comparisons as ₹1,00,000 in Year 1 has different purchasing power from ₹1,00,000 in Year 2; (C) At least two years' data is necessary to prepare comparative statements. Option D is NOT a limitation, making it the correct answer to this 'not_type' question."
+      "correct": 3,
+      "explanation": "Option D describes an ADVANTAGE, not a limitation — facilitating trend identification is precisely why comparative statements are prepared. The actual limitations include: (A) Changes in accounting policies (e.g., changing depreciation method) make figures non-comparable; (B) Inflation distorts comparisons as ₹1,00,000 in Year 1 has different purchasing power from ₹1,00,000 in Year 2; (C) At least two years' data is necessary to prepare comparative statements. Option D is NOT a limitation, making it the correct answer to this 'not_type' question.",
+      "correct_original": 4
     },
     {
       "id": "AC14Q20",
@@ -452,8 +455,9 @@
         "A is false but R is true",
         "Both A and R are false"
       ],
-      "correct": 3,
-      "explanation": "Assertion A is FALSE. If revenue grows by 20% but net profit grows by only 10%, operational efficiency is actually DETERIORATING — profit is not keeping pace with revenue growth. The Net Profit Ratio (common-size %) would decrease in this scenario. Reason R is TRUE — for efficiency to improve, profit growth rate must equal or exceed revenue growth rate. Since A incorrectly concludes improvement when there is actually deterioration, A is false. R correctly states the principle for improving efficiency, making R true. Hence option C is correct."
+      "correct": 2,
+      "explanation": "Assertion A is FALSE. If revenue grows by 20% but net profit grows by only 10%, operational efficiency is actually DETERIORATING — profit is not keeping pace with revenue growth. The Net Profit Ratio (common-size %) would decrease in this scenario. Reason R is TRUE — for efficiency to improve, profit growth rate must equal or exceed revenue growth rate. Since A incorrectly concludes improvement when there is actually deterioration, A is false. R correctly states the principle for improving efficiency, making R true. Hence option C is correct.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "AC14Q31",
@@ -467,8 +471,9 @@
         "FA increased by 20%; FA as % of TA: Year 1 = 60%, Year 2 = 60%",
         "FA increased by 25%; CA as % of TA: Year 1 = 40%, Year 2 = 45%"
       ],
-      "correct": 1,
-      "explanation": "Comparative: % change in Fixed Assets = (15,00,000 − 12,00,000) / 12,00,000 × 100 = 25%. Total Assets: Year 1 = 12,00,000 + 8,00,000 = ₹20,00,000; Year 2 = 15,00,000 + 10,00,000 = ₹25,00,000. Common-size: FA Year 1 = 12/20 × 100 = 60%; FA Year 2 = 15/25 × 100 = 60%. Despite FA growing by 25%, its proportionate share of Total Assets remains unchanged at 60%, because Current Assets also grew proportionately. Option A is correct. Option D miscalculates: CA Year 2 = 10/25 × 100 = 40%, not 45%."
+      "correct": 0,
+      "explanation": "Comparative: % change in Fixed Assets = (15,00,000 − 12,00,000) / 12,00,000 × 100 = 25%. Total Assets: Year 1 = 12,00,000 + 8,00,000 = ₹20,00,000; Year 2 = 15,00,000 + 10,00,000 = ₹25,00,000. Common-size: FA Year 1 = 12/20 × 100 = 60%; FA Year 2 = 15/25 × 100 = 60%. Despite FA growing by 25%, its proportionate share of Total Assets remains unchanged at 60%, because Current Assets also grew proportionately. Option A is correct. Option D miscalculates: CA Year 2 = 10/25 × 100 = 40%, not 45%.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC14Q32",
@@ -557,8 +562,9 @@
         "A is false but R is true",
         "Both A and R are false"
       ],
-      "correct": 4,
-      "explanation": "Both A and R are FALSE. Depreciation IS included in a Comparative Income Statement — it appears as an operating expense that reduces profit. The Comparative Income Statement follows the same format as the regular income statement, which includes all expenses whether cash or non-cash. R is also false — non-cash items like depreciation are not excluded from income statements. They ARE excluded from the Cash Flow Statement (which adjusts for non-cash items), not from comparative income statements. This is a classic conceptual trap in CUET."
+      "correct": 3,
+      "explanation": "Both A and R are FALSE. Depreciation IS included in a Comparative Income Statement — it appears as an operating expense that reduces profit. The Comparative Income Statement follows the same format as the regular income statement, which includes all expenses whether cash or non-cash. R is also false — non-cash items like depreciation are not excluded from income statements. They ARE excluded from the Cash Flow Statement (which adjusts for non-cash items), not from comparative income statements. This is a classic conceptual trap in CUET.",
+      "correct_original": 4
     },
     {
       "id": "AC14Q38",
@@ -567,13 +573,13 @@
       "difficulty": "difficult",
       "question": "The following data is given:\nYear 1: Net Sales ₹10,00,000; Outstanding Salaries ₹20,000 (Year-end)\nYear 2: Net Sales ₹12,00,000; Outstanding Salaries ₹30,000 (Year-end)\n\nActual Salary paid in Year 1 = ₹1,80,000; Actual paid in Year 2 = ₹2,00,000.\nThe correct salary expense to be shown in the Comparative Income Statement for Year 1 and Year 2 respectively is:",
       "options": [
-        "₹1,80,000 and ₹2,00,000",
-        "₹2,00,000 and ₹2,30,000",
-        "₹1,60,000 and ₹1,90,000",
-        "₹1,80,000 and ₹2,10,000"
+        "Rs.2,00,000 and Rs.2,10,000",
+        "Rs.2,00,000 and Rs.2,30,000",
+        "Rs.1,60,000 and Rs.1,90,000",
+        "Rs.1,80,000 and Rs.2,10,000"
       ],
-      "correct": 2,
-      "explanation": "Salary expense on accrual basis = Cash paid + Closing Outstanding − Opening Outstanding. Year 1: Opening Outstanding assumed nil (first year); Salary expense = ₹1,80,000 + ₹20,000 = ₹2,00,000. Year 2: Opening Outstanding = Closing of Year 1 = ₹20,000; Salary expense = ₹2,00,000 paid + ₹30,000 closing outstanding − ₹20,000 opening outstanding = ₹2,10,000. Wait — rechecking: Year 2 = 2,00,000 + 30,000 − 20,000 = ₹2,10,000. But option B shows ₹2,30,000. Correct recalc: If Year 1 = 1,80,000 + 20,000 = 2,00,000 ✓; Year 2 = 2,00,000 + 30,000 − 20,000 = 2,10,000. Option D (₹1,80,000 and ₹2,10,000) seems to ignore Year 1 outstanding. The fully correct answer using accrual for both years is ₹2,00,000 and ₹2,10,000 — but since that exact combination isn't available, option B is the closest conceptually correct one for CUET accrual adjustment testing. Note: always adjust for accruals in income statement questions."
+      "correct": 0,
+      "explanation": "Salary expense on accrual basis = cash paid + closing outstanding salary - opening outstanding salary. Year 1 opening outstanding is assumed nil, so Year 1 expense = Rs.1,80,000 + Rs.20,000 = Rs.2,00,000. Year 2 opening outstanding is the previous year-end outstanding of Rs.20,000, so Year 2 expense = Rs.2,00,000 + Rs.30,000 - Rs.20,000 = Rs.2,10,000. Option A is correct."
     },
     {
       "id": "AC14Q39",
@@ -692,8 +698,8 @@
         "Both statements cannot be right simultaneously — there must be an arithmetic error since both sides must total 100%",
         "The liabilities side is larger, which is normal"
       ],
-      "correct": 3,
-      "explanation": "In a Common-Size Balance Sheet, since Total Assets = Total Liabilities + Shareholders' Funds, and both sides are expressed as percentages of the same base (Total Assets), BOTH sides must individually total 100%. It is impossible for the liabilities side to total 58% and assets side to total 42% — this violates the fundamental balance sheet equation. There is clearly an arithmetic error somewhere. The student must recheck the individual percentage calculations on both sides. This basic but critical validation check is expected in CUET answers."
+      "correct": 2,
+      "explanation": "In a Common-Size Balance Sheet, assets are expressed as percentages of total assets and the liabilities plus shareholders funds side is expressed using the same total. Each side must total 100%. If liabilities percentages total 58% and assets percentages total 42%, both sides cannot be correct simultaneously; there is an arithmetic or base-selection error. Option C is correct."
     },
     {
       "id": "AC14Q47",
@@ -797,8 +803,9 @@
         "8.33%",
         "12.25%"
       ],
-      "correct": 2,
-      "explanation": "Step 1: Gross Profit = 50,00,000 − 35,00,000 = ₹15,00,000. Step 2: Operating Profit = 15,00,000 − 7,50,000 = ₹7,50,000. Step 3: PBT = 7,50,000 + 1,00,000 (other income) = ₹8,50,000. Step 4: Tax = 8,50,000 × 30% = ₹2,55,000. Step 5: Net Profit After Tax = 8,50,000 − 2,55,000 = ₹5,95,000. Common-size % = (5,95,000/50,00,000) × 100 = 11.9%. Note: Some CUET variants use Net Revenue (excluding Other Income) as base = 50,00,000. Hence NPAT % = 11.9%. Option A is correct. Students must carefully track all income statement adjustments including other income and tax."
+      "correct": 0,
+      "explanation": "Step 1: Gross Profit = 50,00,000 − 35,00,000 = ₹15,00,000. Step 2: Operating Profit = 15,00,000 − 7,50,000 = ₹7,50,000. Step 3: PBT = 7,50,000 + 1,00,000 (other income) = ₹8,50,000. Step 4: Tax = 8,50,000 × 30% = ₹2,55,000. Step 5: Net Profit After Tax = 8,50,000 − 2,55,000 = ₹5,95,000. Common-size % = (5,95,000/50,00,000) × 100 = 11.9%. Note: Some CUET variants use Net Revenue (excluding Other Income) as base = 50,00,000. Hence NPAT % = 11.9%. Option A is correct. Students must carefully track all income statement adjustments including other income and tax.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC14Q54",
@@ -947,8 +954,9 @@
         "Goodwill written off",
         "Opening Capital Balance"
       ],
-      "correct": 4,
-      "explanation": "Opening Capital Balance is a Balance Sheet item (part of Shareholders' Funds), not an Income Statement item. It would appear in a Comparative Balance Sheet, not a Comparative Income Statement. Revenue from Operations, Finance Costs, and Goodwill written off (an exceptional item or amortisation expense) are all income statement items that would appear in comparative income statement analysis. This question tests whether students understand the fundamental distinction between income statement and balance sheet items."
+      "correct": 3,
+      "explanation": "Opening Capital Balance is a Balance Sheet item (part of Shareholders' Funds), not an Income Statement item. It would appear in a Comparative Balance Sheet, not a Comparative Income Statement. Revenue from Operations, Finance Costs, and Goodwill written off (an exceptional item or amortisation expense) are all income statement items that would appear in comparative income statement analysis. This question tests whether students understand the fundamental distinction between income statement and balance sheet items.",
+      "correct_original": 4
     },
     {
       "id": "AC14Q64",
@@ -1532,8 +1540,8 @@
         "A is false but R is true",
         "Both A and R are false"
       ],
-      "correct": 1,
-      "explanation": "Both A and R are true. Example: Year 1: Revenue ₹10L, COGS ₹8L, GP ₹2L, GP% = 20%. Year 2: Revenue ₹8L, COGS ₹6L, GP ₹2L... Wait — GP remains same but % improves: GP% = 2/8 × 100 = 25%. But A says ABSOLUTE GP decreases. Revised: Year 2: Revenue ₹8L, COGS ₹5.6L, GP ₹2.4L — that's an increase. For GP% to improve with absolute GP falling: Revenue must fall faster than GP falls. E.g., Year 2: Revenue ₹6L, COGS ₹4.5L, GP ₹1.5L, GP% = 25%. Absolute GP fell (₹2L→₹1.5L) but GP% improved (20%→25%). R correctly explains this mechanism. Both A and R are mathematically valid."
+      "correct": 0,
+      "explanation": "Assertion A is true: Gross Profit percentage can improve even while absolute Gross Profit falls. For example, Year 1 revenue Rs.10 lakh and GP Rs.2 lakh gives GP% of 20%; Year 2 revenue Rs.6 lakh and GP Rs.1.5 lakh gives GP% of 25%, even though GP fell in absolute terms. Reason R is also true and correctly explains the assertion: revenue can fall proportionally more than gross profit, causing GP% to improve. Option A is correct."
     },
     {
       "id": "AC14Q103",
@@ -1588,12 +1596,12 @@
       "question": "Xi Ltd:\nYear 1: Revenue ₹25,00,000; GP ₹7,50,000; Operating Expenses ₹2,50,000; Other Income ₹50,000; Finance Costs ₹1,00,000; Tax ₹1,10,000\n\nComplete Common-Size Income Statement — what is the NPAT % of Net Revenue?",
       "options": [
         "11.6%",
-        "13.2%",
+        "13.6%",
         "10%",
         "12.8%"
       ],
       "correct": 1,
-      "explanation": "Step by step: GP = ₹7,50,000 (GP% = 30%). Operating Profit = GP − Op Exp = 7,50,000 − 2,50,000 = ₹5,00,000 (20%). PBT = EBIT + Other Income − Finance Costs = 5,00,000 + 50,000 − 1,00,000 = ₹4,50,000 (18%). Tax = ₹1,10,000. NPAT = 4,50,000 − 1,10,000 = ₹3,40,000. NPAT % = (3,40,000/25,00,000) × 100 = 13.6%. Hmm, not matching exactly — let me recheck: 3,40,000/25,00,000 = 0.136 = 13.6%. Closest to option B (13.2%) but exactly 13.6%. With rounding differences in CUET MCQs, option A (11.6%) seems incorrect too. The computed answer is 13.6% — please note CUET actual papers may have minor variations. Best answer among options: B (13.2%) if ₹1,20,000 tax is assumed. Option A if different assumptions. This tests the full income statement chain computation."
+      "explanation": "Gross Profit = Rs.7,50,000. Operating Profit = Rs.7,50,000 - Rs.2,50,000 = Rs.5,00,000. PBT = Rs.5,00,000 + Rs.50,000 - Rs.1,00,000 = Rs.4,50,000. NPAT = Rs.4,50,000 - Rs.1,10,000 = Rs.3,40,000. NPAT as a percentage of net revenue = Rs.3,40,000 / Rs.25,00,000 x 100 = 13.6%. Option B is correct."
     },
     {
       "id": "AC14Q107",
@@ -1622,8 +1630,9 @@
         "CL grew +25%; CL% of TA: 20% to 20% — unchanged proportion",
         "All of the above observations are correct"
       ],
-      "correct": 4,
-      "explanation": "Checking all options: LTD: Year 1 = ₹12L, Year 2 = ₹18L; Change = +₹6L = +50% ✓; % of TA: Year 1 = 12/40 = 30%; Year 2 = 18/50 = 36% ✓. SF: Year 1 = ₹20L, Year 2 = ₹22L; Change = +10% ✓; % of TA: Year 1 = 20/40 = 50%; Year 2 = 22/50 = 44% ✓. CL: Year 1 = ₹8L, Year 2 = ₹10L; Change = +25% ✓; % of TA: Year 1 = 8/40 = 20%; Year 2 = 10/50 = 20% ✓ — unchanged. All three observations are mathematically correct. Option D is the complete answer — all observations together paint a picture of increasing leverage with stable short-term proportion."
+      "correct": 3,
+      "explanation": "Checking all options: LTD: Year 1 = ₹12L, Year 2 = ₹18L; Change = +₹6L = +50% ✓; % of TA: Year 1 = 12/40 = 30%; Year 2 = 18/50 = 36% ✓. SF: Year 1 = ₹20L, Year 2 = ₹22L; Change = +10% ✓; % of TA: Year 1 = 20/40 = 50%; Year 2 = 22/50 = 44% ✓. CL: Year 1 = ₹8L, Year 2 = ₹10L; Change = +25% ✓; % of TA: Year 1 = 8/40 = 20%; Year 2 = 10/50 = 20% ✓ — unchanged. All three observations are mathematically correct. Option D is the complete answer — all observations together paint a picture of increasing leverage with stable short-term proportion.",
+      "correct_original": 4
     },
     {
       "id": "AC14Q109",
@@ -1722,13 +1731,13 @@
       "difficulty": "difficult",
       "question": "Upsilon Ltd:\nYear 1: Net Revenue ₹20L; Gross Profit ₹6L; Op Exp ₹2.5L; Finance Costs ₹0.5L; Other Income ₹0.3L; Tax 30%\n\nYear 2: Net Revenue ₹25L; Gross Profit ₹8L; Op Exp ₹3L; Finance Costs ₹0.4L; Other Income ₹0.5L; Tax 30%\n\nWhat is the change in NPAT % in the Common-Size Income Statement?",
       "options": [
-        "From 9.1% to 11.27%",
+        "From 11.55% to 14.28%",
         "From 10% to 12%",
         "From 8% to 9%",
         "From 10.5% to 11.9%"
       ],
-      "correct": 1,
-      "explanation": "Year 1: EBIT = GP − Op Exp = 6 − 2.5 = ₹3.5L. PBT = 3.5 − 0.5 + 0.3 = ₹3.3L. Tax = 3.3 × 30% = ₹0.99L. NPAT = 3.3 − 0.99 = ₹2.31L. NPAT% = 2.31/20 × 100 = 11.55%. Hmm — let me recheck: Year 1 NPAT = ₹2.31L; Year 2: EBIT = 8 − 3 = ₹5L. PBT = 5 − 0.4 + 0.5 = ₹5.1L. Tax = 5.1 × 30% = ₹1.53L. NPAT = 5.1 − 1.53 = ₹3.57L. NPAT% = 3.57/25 × 100 = 14.28%. Given calculation differences from options, this tests the full chain computation. Students must meticulously follow: GP → EBIT → PBT → PAT → % of revenue. Option A is the closest to actual calculations."
+      "correct": 0,
+      "explanation": "Year 1: EBIT = Rs.6L - Rs.2.5L = Rs.3.5L. PBT = Rs.3.5L - Rs.0.5L + Rs.0.3L = Rs.3.3L. Tax at 30% = Rs.0.99L, so NPAT = Rs.2.31L. NPAT% = Rs.2.31L / Rs.20L x 100 = 11.55%. Year 2: EBIT = Rs.8L - Rs.3L = Rs.5L. PBT = Rs.5L - Rs.0.4L + Rs.0.5L = Rs.5.1L. Tax at 30% = Rs.1.53L, so NPAT = Rs.3.57L. NPAT% = Rs.3.57L / Rs.25L x 100 = 14.28%. Option A is correct."
     },
     {
       "id": "AC14Q116",
@@ -1802,8 +1811,9 @@
         "+20% and 0.5%",
         "+25% and 4%"
       ],
-      "correct": 1,
-      "explanation": "Comparative % change = (1,00,000 − 80,000)/80,000 × 100 = 20,000/80,000 × 100 = 25%. Common-size Year 2 = (1,00,000/20,00,000) × 100 = 0.5%. Deferred Tax Assets are Non-current Assets (long-term) on the Balance Sheet. Despite a 25% increase in absolute terms, they represent only 0.5% of total assets — a very small proportion. Option B incorrectly calculates the common-size as 5% (off by 10x — decimal error). Option C incorrectly calculates % change as 20%. Option A is correct."
+      "correct": 0,
+      "explanation": "Comparative % change = (1,00,000 − 80,000)/80,000 × 100 = 20,000/80,000 × 100 = 25%. Common-size Year 2 = (1,00,000/20,00,000) × 100 = 0.5%. Deferred Tax Assets are Non-current Assets (long-term) on the Balance Sheet. Despite a 25% increase in absolute terms, they represent only 0.5% of total assets — a very small proportion. Option B incorrectly calculates the common-size as 5% (off by 10x — decimal error). Option C incorrectly calculates % change as 20%. Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC14Q121",
@@ -1830,10 +1840,11 @@
         "₹30,000",
         "₹3,000",
         "₹3,00,000",
-        "₹30,000"
+        "₹60,000"
       ],
-      "correct": 1,
-      "explanation": "Other Income (absolute) = 1% × Net Revenue = 1% × ₹30,00,000 = ₹30,000. Verification of the income statement: COGS = ₹19,50,000; GP = ₹10,50,000 (35%); Op Exp = ₹4,50,000; EBIT = ₹6,00,000 (20%); Finance Costs = ₹60,000; Other Income = ₹30,000; PBT = ₹5,70,000 (19%); Tax = ₹1,71,000 (5.7%); NPAT = ₹3,99,000 (13.3%). All cross-checks confirm. Other Income = 1% of Revenue = ₹30,000. Options A and D are both ₹30,000 — only one correct choice exists and it is ₹30,000 = option A. (Options C ₹3,00,000 = 10%, incorrect)."
+      "correct": 0,
+      "explanation": "Other Income = 1% of Net Revenue. Therefore Other Income = 1% x ₹30,00,000 = ₹30,000. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC14Q123",
@@ -1948,12 +1959,12 @@
       "question": "Epsilon Ltd's Year 2 data:\nRevenue from Operations: ₹50,00,000\nOther Income: ₹2,50,000\nCost of Materials: ₹30,00,000\nEmployee Costs: ₹7,50,000\nOther Expenses: ₹2,50,000\nDepreciation: ₹2,00,000\nFinance Costs: ₹1,50,000\nTax: 30% of PBT\n\nIn the Common-Size Income Statement, NPAT as % of Net Revenue is approximately:",
       "options": [
         "9.1%",
-        "10.5%",
+        "12.6%",
         "8.4%",
         "11.2%"
       ],
       "correct": 1,
-      "explanation": "Gross Profit = 50,00,000 − 30,00,000 = ₹20,00,000. EBIT = 20,00,000 − 7,50,000 − 2,50,000 − 2,00,000 = ₹8,00,000. PBT = 8,00,000 + 2,50,000 − 1,50,000 = ₹9,00,000. Tax = 9,00,000 × 30% = ₹2,70,000. NPAT = 9,00,000 − 2,70,000 = ₹6,30,000. NPAT% = (6,30,000/50,00,000) × 100 = 12.6%. Hmm — none exactly match. But if Other Income is excluded from Revenue base (strictly Net Revenue from Operations = ₹50L): 6,30,000/50,00,000 = 12.6%. Closest = option D (11.2%) with rounding. If tax = 35%: NPAT = 9L × 0.65 = 5.85L; 5.85/50 = 11.7%. Exact answer depends on tax assumptions. Option A (9.1%) = 4.55L NPAT, which matches if finance costs are higher. CUET expects step-by-step computation with 30% tax = ~12.6%, closest to option D."
+      "explanation": "Gross Profit = Rs.50,00,000 - Rs.30,00,000 = Rs.20,00,000. EBIT = Rs.20,00,000 - Rs.7,50,000 - Rs.2,50,000 - Rs.2,00,000 = Rs.8,00,000. PBT = Rs.8,00,000 + Rs.2,50,000 - Rs.1,50,000 = Rs.9,00,000. Tax at 30% = Rs.2,70,000. NPAT = Rs.6,30,000. NPAT as a percentage of net revenue from operations = Rs.6,30,000 / Rs.50,00,000 x 100 = 12.6%. Option B is correct."
     },
     {
       "id": "AC14Q131",
@@ -2102,8 +2113,9 @@
         "NPAT% improved by 3 pp",
         "NPAT% deteriorated by 3 pp"
       ],
-      "correct": 2,
-      "explanation": "Changes in common-size percentages (positive change in cost = negative impact on profit; negative change = positive impact): COGS% rose +5pp → NPAT% −5pp. Op Exp% fell −3pp → NPAT% +3pp. Finance Costs% fell −1pp → NPAT% +1pp. Tax% unchanged → 0pp. Net impact on NPAT% = −5 + 3 + 1 + 0 = −1 pp. NPAT% deteriorated by 1 pp. This is consistent with the comparative observation: profit grew only 15% while revenue grew 30% — profit growth lagged revenue growth, confirming the 1pp structural deterioration. Option B is correct."
+      "correct": 1,
+      "explanation": "Changes in common-size percentages (positive change in cost = negative impact on profit; negative change = positive impact): COGS% rose +5pp → NPAT% −5pp. Op Exp% fell −3pp → NPAT% +3pp. Finance Costs% fell −1pp → NPAT% +1pp. Tax% unchanged → 0pp. Net impact on NPAT% = −5 + 3 + 1 + 0 = −1 pp. NPAT% deteriorated by 1 pp. This is consistent with the comparative observation: profit grew only 15% while revenue grew 30% — profit growth lagged revenue growth, confirming the 1pp structural deterioration. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC14Q141",
@@ -2147,8 +2159,9 @@
         "₹28,00,000",
         "₹24,50,000"
       ],
-      "correct": 2,
-      "explanation": "Year 1 Absolute figures: FA = 60% × 20L = ₹12L. CWIP = 5% × 20L = ₹1L. Investments = 5% × 20L = ₹1L. CA = 30% × 20L = ₹6L. Year 2: FA = 12L + 3L (new) + 1L (CWIP capitalised) = ₹16L. CWIP = 0 (fully capitalised). Investments = 1L × 2 = ₹2L. CA = 6L × 1.5 = ₹9L. Year 2 Total Assets = 16 + 0 + 2 + 9 = ₹27L. Hmm — option B is ₹26L. Let me recheck: If CWIP capitalised means CWIP is included in the ₹3L growth (not additive): FA = 12L + 3L = ₹15L; CWIP = 0; Investments = ₹2L; CA = ₹9L. Total = ₹26L ✓. Option B is correct."
+      "correct": 1,
+      "explanation": "Year 1 amounts: Fixed Assets = 60% of Rs.20,00,000 = Rs.12,00,000; CWIP = Rs.1,00,000; Investments = Rs.1,00,000; Current Assets = Rs.6,00,000. In Year 2, the Rs.3,00,000 growth in Fixed Assets includes the capitalised CWIP, so Fixed Assets become Rs.15,00,000 and CWIP becomes nil. Investments double to Rs.2,00,000. Current Assets grow by 50% to Rs.9,00,000. Total Assets Year 2 = Rs.15,00,000 + Rs.2,00,000 + Rs.9,00,000 = Rs.26,00,000. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC14Q144",
@@ -2252,8 +2265,9 @@
         "A is false but R is true",
         "Both A and R are false"
       ],
-      "correct": 3,
-      "explanation": "Assertion A is FALSE — comparative statements can cover more than two years. While the standard NCERT format shows two years (previous and current), the concept of comparative analysis can be extended to three, five, or more years for trend analysis. R is TRUE for the standard two-column format. However, since A is false (comparative statements are NOT limited to exactly two years), option C is correct. In practice, many companies publish 5-year or 10-year financial summaries that are extended comparative statements. R describes the minimum standard format, not an absolute limitation."
+      "correct": 2,
+      "explanation": "Assertion A is FALSE — comparative statements can cover more than two years. While the standard NCERT format shows two years (previous and current), the concept of comparative analysis can be extended to three, five, or more years for trend analysis. R is TRUE for the standard two-column format. However, since A is false (comparative statements are NOT limited to exactly two years), option C is correct. In practice, many companies publish 5-year or 10-year financial summaries that are extended comparative statements. R describes the minimum standard format, not an absolute limitation.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "AC14Q151",
@@ -2267,8 +2281,9 @@
         "Depreciation",
         "Other Expenses"
       ],
-      "correct": 3,
-      "explanation": "Common-size % Year 1 vs Year 2: COGS: 6.5/10 = 65%; 7.8/12 = 65% — unchanged. Employee: 1.5/10 = 15%; 1.8/12 = 15% — unchanged. Depreciation: 0.5/10 = 5%; 0.5/12 = 4.17% — decreased by 0.83 pp (IMPROVED). Other Exp: 0.5/10 = 5%; 0.6/12 = 5% — unchanged. COGS, Employee, and Other Expenses all maintained their proportional share. ONLY Depreciation improved — its absolute amount was unchanged (₹0.5L) while revenue grew, reducing its % from 5% to 4.17%. Depreciation shows the greatest improvement. Option C is correct."
+      "correct": 2,
+      "explanation": "Common-size % Year 1 vs Year 2: COGS: 6.5/10 = 65%; 7.8/12 = 65% — unchanged. Employee: 1.5/10 = 15%; 1.8/12 = 15% — unchanged. Depreciation: 0.5/10 = 5%; 0.5/12 = 4.17% — decreased by 0.83 pp (IMPROVED). Other Exp: 0.5/10 = 5%; 0.6/12 = 5% — unchanged. COGS, Employee, and Other Expenses all maintained their proportional share. ONLY Depreciation improved — its absolute amount was unchanged (₹0.5L) while revenue grew, reducing its % from 5% to 4.17%. Depreciation shows the greatest improvement. Option C is correct.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "AC14Q152",
@@ -2432,8 +2447,8 @@
         "A is true but R is false",
         "Both A and R are false"
       ],
-      "correct": 1,
-      "explanation": "A is FALSE — the statement says Company 1 is 'less profitable', which is ambiguous. In absolute terms, Company 2 has higher profit (₹14L vs ₹8L). But in RELATIVE (common-size) terms, Company 1 is more profitable (8% vs 7%). R is TRUE — it correctly computes NPAT%: Company 1 = 8/100 = 8%; Company 2 = 14/200 = 7%. So Company 1 earns 8 paise per rupee of revenue vs Company 2's 7 paise — structurally better. Profitability in common-size terms = NPAT%, where Company 1 wins. A says Company 1 is 'less profitable' — this is false in structural terms. R correctly refutes A. Hence A false, R true."
+      "correct": 0,
+      "explanation": "Assertion A is false in common-size profitability terms. Company 1 has NPAT% = Rs.8L / Rs.100L x 100 = 8%, while Company 2 has NPAT% = Rs.14L / Rs.200L x 100 = 7%. Although Company 2 has higher absolute profit, Company 1 is more profitable per rupee of revenue. Reason R is true because it correctly computes and interprets the NPAT percentages. Option A is correct."
     },
     {
       "id": "AC14Q163",
@@ -2463,7 +2478,7 @@
         "42%"
       ],
       "correct": 1,
-      "explanation": "Let Year 1 Total Assets = 100 (index). CA Year 1 = 40; NCA Year 1 = 60. Year 2 Total Assets = 120 (+20%). NCA Year 2 = 60 × 1.30 = 78. CA Year 2 = 40 × 1.05 = 42. Year 2 Total = NCA + CA = 78 + 42 = 120 ✓. CA% Year 2 = 42/120 × 100 = 35%. Wait — let me recalculate: 42/120 = 0.35 = 35%. Option B is correct. But option A shows 38.18% — let me verify again: 42/110 (if TA grew by 10%)... no, TA grew 20% = 120. 42/120 = 35%. Option B (35%) is mathematically correct. Option A (38.18%) would result from CA/NCA or different growth assumptions. Correct answer is B."
+      "explanation": "Let Year 1 Total Assets be 100. Current Assets are 40 and Non-current Assets are 60. Year 2 Total Assets = 120 after 20% growth. Current Assets grow by 5%, so Year 2 Current Assets = 40 x 1.05 = 42. CA% of Total Assets in Year 2 = 42 / 120 x 100 = 35%. Option B is correct."
     },
     {
       "id": "AC14Q165",
@@ -2537,8 +2552,9 @@
         "+22.22%",
         "+50%"
       ],
-      "correct": 1,
-      "explanation": "Year 1 Inventories (absolute) = 18% × ₹25,00,000 = ₹4,50,000. Year 2 Inventories (absolute) = 22% × ₹30,00,000 = ₹6,60,000. % change = (6,60,000 − 4,50,000)/4,50,000 × 100 = 2,10,000/4,50,000 × 100 = 46.67%. This multi-step problem: first reverse-compute absolute figures from common-size %, then apply comparative % change formula. Inventories grew by 46.67% in absolute terms and also rose as a proportion of total assets (from 18% to 22%) — both metrics indicate significant inventory buildup, possibly indicating slow sales or deliberate stocking up. Option A is correct."
+      "correct": 0,
+      "explanation": "Year 1 Inventories (absolute) = 18% × ₹25,00,000 = ₹4,50,000. Year 2 Inventories (absolute) = 22% × ₹30,00,000 = ₹6,60,000. % change = (6,60,000 − 4,50,000)/4,50,000 × 100 = 2,10,000/4,50,000 × 100 = 46.67%. This multi-step problem: first reverse-compute absolute figures from common-size %, then apply comparative % change formula. Inventories grew by 46.67% in absolute terms and also rose as a proportion of total assets (from 18% to 22%) — both metrics indicate significant inventory buildup, possibly indicating slow sales or deliberate stocking up. Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC14Q170",
@@ -2582,8 +2598,9 @@
         "17%",
         "15%"
       ],
-      "correct": 2,
-      "explanation": "Year 1: Revenue = ₹20L; COGS = 70% × 20 = ₹14L; GP = 30% × 20 = ₹6L; Op Exp = 12% × 20 = ₹2.4L; EBIT = 18% × 20 = ₹3.6L. Year 2 Revenue = 20 × 1.25 = ₹25L. COGS Year 2 = 14 × 1.20 = ₹16.8L → COGS% = 16.8/25 = 67.2%. GP Year 2 = 25 − 16.8 = ₹8.2L = 32.8%. Op Exp Year 2 = 2.4 × 1.50 = ₹3.6L → Op Exp% = 3.6/25 = 14.4%. EBIT Year 2 = 8.2 − 3.6 = ₹4.6L. EBIT% = 4.6/25 × 100 = 18.4%. Hmm — closest to option A (18%) or C (17%). GP% improved but Op Exp% worsened. Let me verify EBIT growth: 4.6/3.6 = 1.278 = +27.8%, not +14.3%. There may be rounding. The conceptual answer with these numbers: EBIT% ≈ 18.4%, closest to A. However, the question states EBIT grew only +14.3%, which would give EBIT Year 2 = 3.6 × 1.143 = ₹4.11L; EBIT% = 4.11/25 = 16.45% ≈ 16.2% → Option B is correct per the question's stated constraint."
+      "correct": 1,
+      "explanation": "The question gives EBIT growth of only 14.3%, so use that stated constraint for the final EBIT percentage. Year 1 EBIT = 18% of Rs.20L = Rs.3.6L. Year 2 EBIT = Rs.3.6L x 1.143 = about Rs.4.11L. Year 2 Revenue = Rs.20L x 1.25 = Rs.25L. Year 2 EBIT common-size percentage = Rs.4.11L / Rs.25L x 100 = about 16.45%, closest to 16.2%. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "AC14Q173",
@@ -2607,13 +2624,14 @@
       "difficulty": "difficult",
       "question": "Lambda Ltd shows:\nRevenue Year 1 = ₹25L; COGS = 68%; Gross Profit = 32%; Operating Expenses = 14%\nRevenue Year 2 = ₹30L; Operating Expenses grew by 25% in absolute terms\n\nIn Year 2, if GP% is 34%, what is Year 2 EBIT in absolute terms?",
       "options": [
-        "₹4,75,000",
-        "₹4,50,000",
-        "₹5,25,000",
-        "₹4,95,000"
+        "Rs.4,75,000",
+        "Rs.4,50,000",
+        "Rs.5,82,500",
+        "Rs.4,95,000"
       ],
-      "correct": 4,
-      "explanation": "Year 1 absolute Operating Expenses = 14% × ₹25L = ₹3.5L. Year 2 Operating Expenses = ₹3.5L × 1.25 = ₹4.375L. Year 2 GP = 34% × ₹30L = ₹10.2L. Year 2 EBIT = GP − Operating Expenses = 10.2L − 4.375L = ₹5.825L. Hmm — that's not matching options. Let me recalculate: ₹30L × 34% = ₹10.2L GP. Op Exp = ₹3.5L × 1.25 = ₹4.375L. EBIT = 10.2 − 4.375 = ₹5.825L. Options are ₹4.75L, ₹4.5L, ₹5.25L, ₹4.95L — none match exactly. Closest = ₹5.25L (option C). This question may have a data inconsistency. If Op Exp grew by 20%: 3.5 × 1.20 = 4.2L; EBIT = 10.2 − 4.2 = ₹6L. For EBIT = ₹4.95L: Op Exp = 10.2 − 4.95 = ₹5.25L; growth = 5.25/3.5 = 50%. Best answer with given options: D (₹4.95L) — if we assume Op Exp grew differently."
+      "correct": 2,
+      "explanation": "Year 1 Operating Expenses = 14% of Rs.25L = Rs.3.5L. Year 2 Operating Expenses grew by 25%, so they become Rs.3.5L x 1.25 = Rs.4.375L. Year 2 Gross Profit = 34% of Rs.30L = Rs.10.2L. Year 2 EBIT = Rs.10.2L - Rs.4.375L = Rs.5.825L, or Rs.5,82,500. Option C is correct.",
+      "correct_original": 4
     },
     {
       "id": "AC14Q175",
@@ -2642,8 +2660,9 @@
         "₹9,00,000 and 0%",
         "₹10,80,000 and +20%"
       ],
-      "correct": 1,
-      "explanation": "If Current Assets = 30% of Total Assets in BOTH years, and Total Assets grew by 40%, then Current Assets also grew by 40% (since the same 30% proportion applies to a larger base). Year 2 Current Assets = ₹9,00,000 × 1.40 = ₹12,60,000. % change = (12,60,000 − 9,00,000)/9,00,000 × 100 = 3,60,000/9,00,000 × 100 = 40%. This tests the principle: if a proportion remains constant but the base grows, the absolute value grows at the same rate as the base. Option A is correct. This is a critical insight — constant common-size % + growing total assets = proportional absolute growth."
+      "correct": 0,
+      "explanation": "If Current Assets = 30% of Total Assets in BOTH years, and Total Assets grew by 40%, then Current Assets also grew by 40% (since the same 30% proportion applies to a larger base). Year 2 Current Assets = ₹9,00,000 × 1.40 = ₹12,60,000. % change = (12,60,000 − 9,00,000)/9,00,000 × 100 = 3,60,000/9,00,000 × 100 = 40%. This tests the principle: if a proportion remains constant but the base grows, the absolute value grows at the same rate as the base. Option A is correct. This is a critical insight — constant common-size % + growing total assets = proportional absolute growth.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC14Q177",
@@ -2653,12 +2672,12 @@
       "question": "Nu Ltd:\nYear 1 Comparative IS: Revenue ₹40L; COGS ₹28L; Op Exp ₹6L; Finance Costs ₹2L; Other Income ₹1L; Tax 30%\n\nYear 2: Revenue grew 20%; COGS grew 15%; Op Exp grew 30%; Finance Costs fell 50%; Other Income doubled; Tax rate 30%\n\nCalculate the % change in NPAT from Year 1 to Year 2:",
       "options": [
         "+45%",
-        "+50%",
+        "+80%",
         "+40%",
         "+55%"
       ],
-      "correct": 2,
-      "explanation": "Year 1: GP = 40 − 28 = ₹12L. EBIT = 12 − 6 = ₹6L. PBT = 6 − 2 + 1 = ₹5L. Tax = ₹1.5L. NPAT = ₹3.5L. Year 2: Revenue = 40 × 1.20 = ₹48L. COGS = 28 × 1.15 = ₹32.2L. GP = 48 − 32.2 = ₹15.8L. Op Exp = 6 × 1.30 = ₹7.8L. EBIT = 15.8 − 7.8 = ₹8L. Finance Costs = 2 × 0.50 = ₹1L. Other Income = 1 × 2 = ₹2L. PBT = 8 − 1 + 2 = ₹9L. Tax = 9 × 30% = ₹2.7L. NPAT = 9 − 2.7 = ₹6.3L. % change = (6.3 − 3.5)/3.5 × 100 = 2.8/3.5 × 100 = 80%. Hmm — not matching options. Let me try: if Tax Year 1 = 1.5L and NPAT = 3.5L ✓. Year 2 NPAT = ₹6.3L. % change = 80%. None of the options show 80%. CUET MCQ discrepancy — option B (+50%) is closest if Year 1 NPAT = ₹4.2L (with different assumptions). Complex multi-step questions may have variations. Based on computation, answer is +80%; option not listed. Selecting B as approximation."
+      "correct": 1,
+      "explanation": "Year 1: GP = Rs.40L - Rs.28L = Rs.12L; EBIT = Rs.12L - Rs.6L = Rs.6L; PBT = Rs.6L - Rs.2L + Rs.1L = Rs.5L; NPAT = Rs.5L - 30% tax = Rs.3.5L. Year 2: Revenue = Rs.48L; COGS = Rs.32.2L; GP = Rs.15.8L; Operating Expenses = Rs.7.8L; EBIT = Rs.8L; Finance Costs = Rs.1L; Other Income = Rs.2L; PBT = Rs.9L; NPAT = Rs.6.3L. Percentage change in NPAT = (Rs.6.3L - Rs.3.5L) / Rs.3.5L x 100 = 80%. Option B is correct."
     },
     {
       "id": "AC14Q178",
@@ -2732,8 +2751,9 @@
         "46.67%",
         "44%"
       ],
-      "correct": 3,
-      "explanation": "Year 1 Equity = 48% × ₹25L = ₹12L. Year 1 LTD = 32% × ₹25L = ₹8L. Year 1 CL = 20% × ₹25L = ₹5L. Total = 12+8+5 = 25L ✓. Year 2: Equity = 12 + 2 = ₹14L. LTD = 8 + 3 = ₹11L. CL = ₹5L (unchanged). Total Year 2 = 14+11+5 = ₹30L ✓ (matches given). Year 2 Equity % = (14/30) × 100 = 46.67%. Year 1 Equity% = 48%; Year 2 = 46.67% — slight deterioration despite equity growing, because LTD grew more (from ₹8L +3L = +37.5%) vs Equity (+₹2L = +16.67%). Option C is correct."
+      "correct": 2,
+      "explanation": "Year 1 Equity = 48% × ₹25L = ₹12L. Year 1 LTD = 32% × ₹25L = ₹8L. Year 1 CL = 20% × ₹25L = ₹5L. Total = 12+8+5 = 25L ✓. Year 2: Equity = 12 + 2 = ₹14L. LTD = 8 + 3 = ₹11L. CL = ₹5L (unchanged). Total Year 2 = 14+11+5 = ₹30L ✓ (matches given). Year 2 Equity % = (14/30) × 100 = 46.67%. Year 1 Equity% = 48%; Year 2 = 46.67% — slight deterioration despite equity growing, because LTD grew more (from ₹8L +3L = +37.5%) vs Equity (+₹2L = +16.67%). Option C is correct.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "AC14Q183",
@@ -2907,13 +2927,13 @@
       "difficulty": "difficult",
       "question": "Psi Ltd:\nYear 1 Comparative BS: Current Ratio = 2; Current Liabilities = ₹5L; Inventory = 40% of Current Assets\nYear 2: Current Liabilities grew by 20%; Inventory % of CA fell to 30%; CA grew by ₹3L\n\nWhat are the Current Ratio and Common-Size Inventory % of Total CA in Year 2?",
       "options": [
-        "CR = 2; Inventory % of CA = 30%",
+        "CR = 2.17; Inventory % of CA = 30%",
         "CR = 1.83; Inventory % of CA = 30%",
         "CR = 2.5; Inventory % of CA = 25%",
         "CR = 2; Inventory % of CA = 35%"
       ],
-      "correct": 2,
-      "explanation": "Year 1: Current Liabilities = ₹5L; Current Ratio = 2; so Current Assets Year 1 = 2 × 5 = ₹10L. Inventory Year 1 = 40% × 10L = ₹4L. Year 2: CL = 5L × 1.20 = ₹6L. CA Year 2 = CA Year 1 + ₹3L = 10 + 3 = ₹13L. Current Ratio Year 2 = 13/6 = 2.167 ≈ 2.17. Inventory % of CA Year 2 = 30% (given). So CR ≈ 2.17 and Inventory % = 30%. Option B shows CR = 1.83 which is incorrect. None of the options show 2.17 exactly. Closest to B (1.83) is wrong. Actually option A (CR = 2) is closest conceptually but 2.17 is exact. The question's data yields CR ≈ 2.17 and Inventory% = 30% — option B is closest with 30% inventory% correct. In CUET, select B."
+      "correct": 0,
+      "explanation": "Year 1 Current Assets = Current Ratio x Current Liabilities = 2 x Rs.5L = Rs.10L. Year 2 Current Liabilities = Rs.5L x 1.20 = Rs.6L. Year 2 Current Assets = Rs.10L + Rs.3L = Rs.13L. Current Ratio Year 2 = Rs.13L / Rs.6L = 2.17 approximately. The question directly states Year 2 inventory is 30% of Current Assets. Option A is correct."
     },
     {
       "id": "AC14Q195",

@@ -1,0 +1,1087 @@
+{
+  "pdf_count": 180,
+  "bad_pdf_count": 0,
+  "pdfs": [
+    {
+      "pdf_path": "past year paper/2022/accountancy/pdf/2022-accountancy.pdf",
+      "bytes": 2101814,
+      "sha256": "648b273616239529c6426bc8a10ebe39ce868e4f8b973736ed4888d46e70639c",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/accountancy/pdf/careerindia/2022-accountancy-careerindia.pdf",
+      "bytes": 1767990,
+      "sha256": "e6d97607a471b108a55240849b43c793fc8cdcc33827c0f9bcaf1b1beb4e119f",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/accountancy/pdf/collegedunia/2022-accountancy-01-question-paper.pdf",
+      "bytes": 7031408,
+      "sha256": "cab1d0614a7c0f3fc35b25a81125a3eb5eddc03bef021ccc7a2ce54538cc69a6",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/accountancy/pdf/collegedunia/2022-accountancy-02-answer-key.pdf",
+      "bytes": 111176,
+      "sha256": "3dcfa288aada5c1a5375d8faeed3713528b4d03fa196491d91ff6f873254b4a5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/business-studies/pdf/2022-business-studies.pdf",
+      "bytes": 2199180,
+      "sha256": "fc3ff83e9f9cc3cb609325fd47591298cb7468d5a5365c9c607604add9db1c1f",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/business-studies/pdf/careerindia/2022-business-studies-careerindia.pdf",
+      "bytes": 1872101,
+      "sha256": "4a6b8d95335788e233580fdcbf4800fbe825dd188fac91dbb390f151d8abf129",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/business-studies/pdf/collegedekho/2022-business-studies-collegedekho-set36.pdf",
+      "bytes": 1865829,
+      "sha256": "4acf9b0cf63978ae44b30851ff393a2b883e1e9de1d86cc081e3059c3475e1e5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/business-studies/pdf/collegedunia/2022-business-studies-01-question-paper.pdf",
+      "bytes": 7693533,
+      "sha256": "09aa373269a3610318e7e7dda1f39a8beb1a3b65688885696ea0e704ef7b38ee",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/economics/pdf/2022-economics.pdf",
+      "bytes": 4834632,
+      "sha256": "02386f77a21e3fc3e6544453a30cbdc07a926012ca253f38d320d24db6894342",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/economics/pdf/careerindia/2022-economics-careerindia.pdf",
+      "bytes": 4455367,
+      "sha256": "116aa9a19096880660001b3d00381476dfc21eaac93d20f14c8d9bd0e7af5c5c",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/economics/pdf/collegedunia/2022-economics-01-question-paper.pdf",
+      "bytes": 11289476,
+      "sha256": "f5593bcfc01cfcae974b5452e01268af889f5bdcafba8ce1f74ad18a41d76c30",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/economics/pdf/collegedunia/2022-economics-02-answer-key.pdf",
+      "bytes": 112275,
+      "sha256": "76ca50d9329b87707dcd5f3897f687e3b05d36fe8ec6afbe81e36f7f01c43c2e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/english/pdf/2022-english.pdf",
+      "bytes": 2268918,
+      "sha256": "01999d414162d687f4c04cd6dad6eed4499a4dc7b45ea7ab9f1818ff04b8c3f8",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/english/pdf/collegedunia/2022-english-01-question-paper.pdf",
+      "bytes": 8939641,
+      "sha256": "24c29b706af97f8f7e2751ef488bd66a44e9b33eb79fb9267a5e4cbf50c8e631",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/english/pdf/collegedunia/2022-english-02-solutions.pdf",
+      "bytes": 218732,
+      "sha256": "3b30d891706c8d3948c2727072c1124c09f9b1a53d3f37f1e4bb909b6d218eac",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/2022-general-test.pdf",
+      "bytes": 1965134,
+      "sha256": "5e19ab2720b7e175377e7c62a472f3c75444448b5141dd9a544cc92771ce7f64",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/careerindia/2022-general-test-careerindia.pdf",
+      "bytes": 1643749,
+      "sha256": "4b8995a12a55f07e18554eab3d07eb17fe2572fccf43010dbb3a5f6c125921a1",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/collegedunia/2022-general-test-01-question-paper.pdf",
+      "bytes": 7676741,
+      "sha256": "99e81345aa3d663c748039083502917964e3ae3b95923f87d7471641a85bd00b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/collegedunia/2022-general-test-02-question-paper.pdf",
+      "bytes": 165147,
+      "sha256": "4771810852d6d209e083667ded42c7799f90a865471540024f3b8ef03fc0edf4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2022/general-test/pdf/collegedunia/2022-general-test-03-solutions.pdf",
+      "bytes": 172860,
+      "sha256": "8a4fd717ee50369665f7c2da0be762502f3068b05f6a3445fa9e94926980babe",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/accountancy/pdf/2023-accountancy.pdf",
+      "bytes": 7992299,
+      "sha256": "648a706a83a9df213e6909974aabe405cb9e313f2cfb4bc5ff725abab69983bd",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/accountancy/pdf/collegedunia/2023-accountancy-01-question-paper.pdf",
+      "bytes": 7867865,
+      "sha256": "be0743016eecd83a9986be7bf7b68372ca177512167317db3f4395158b85b62e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/accountancy/pdf/collegedunia/2023-accountancy-02-solutions.pdf",
+      "bytes": 406242,
+      "sha256": "8772a6ca39b2f351b3d2565d0d6149a3506c35cf18995b2ddbb87fc760e0bb3f",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/business-studies/pdf/2023-business-studies.pdf",
+      "bytes": 7353015,
+      "sha256": "a49608ca4465d1ae0e0513997bb6de05c0788ebd8838226e9b924d5494fd2712",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/business-studies/pdf/collegedunia/2023-business-studies-01-question-paper.pdf",
+      "bytes": 7867865,
+      "sha256": "be0743016eecd83a9986be7bf7b68372ca177512167317db3f4395158b85b62e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/business-studies/pdf/collegedunia/2023-business-studies-02-question-paper.pdf",
+      "bytes": 6018033,
+      "sha256": "2c79cc362504073b54f2f53e68f77d8c8a7889dd612289218c77ca1b3c1b14e6",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/business-studies/pdf/collegedunia/2023-business-studies-03-question-paper.pdf",
+      "bytes": 106932,
+      "sha256": "8d69aedc0b7d6a637649da4309954dd11fdb566a55fb6d86ded8660ccb35b3e5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/2023-economics.pdf",
+      "bytes": 8316916,
+      "sha256": "012f4bb58ccca023deada84031511dcfa1fc2c1add0c79fe9befd5d95778c0ad",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-01-answer-key.pdf",
+      "bytes": 222371,
+      "sha256": "8a63dbc6201817bf9b51b62f0402bb112e8d6d57036be607291a81919c723fd1",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-01-question-paper.pdf",
+      "bytes": 825561,
+      "sha256": "7967f52e87cdc6ca6e3b04cb047c696f100c30447c03308b6822411315ad63f3",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-02-answer-key.pdf",
+      "bytes": 270849,
+      "sha256": "876fef67c60b6e65d226ed6825af23fadf6cac57f828b35332a40ace236fc922",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-02-solutions.pdf",
+      "bytes": 308224,
+      "sha256": "e10e85e0137c7da666b2894d6e6a1622f30a1a399bd06a0e37b97b2c60af5af6",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-03-question-paper.pdf",
+      "bytes": 474846,
+      "sha256": "e9d308cf0f8978443249b77acb966238ec44de05e7d25463737471aba1d926a9",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-04-answer-key.pdf",
+      "bytes": 270845,
+      "sha256": "ee6fb3161915c354ee7f041ddc1f5864b6f8c21b074f82ab5c407beb98dfd6c1",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-05-question-paper.pdf",
+      "bytes": 8889697,
+      "sha256": "1aa8ef3d0c7e6b4e3db744159353572e1bc782dff0ab534f8270e934b379ebc7",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-06-answer-key.pdf",
+      "bytes": 264524,
+      "sha256": "24a52f0648d6e7629a3151e2d0735522c011155c8fe5dd94902ef04f823412a6",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-07-question-paper.pdf",
+      "bytes": 11731413,
+      "sha256": "d8c19dead9d632407dc0de90e76aeca5adb8c2ce4909537b24586d3f3bec538f",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-08-answer-key.pdf",
+      "bytes": 264404,
+      "sha256": "0da5ea5fdb222df74d9ac263b4fe232ca69e97a7a32b82b9e2a06965166ccdeb",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-09-question-paper.pdf",
+      "bytes": 1450622,
+      "sha256": "9b74444b703a9ceb89ffb76869eec5afeef8c82d8c22efea0d08ddda617d28f0",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-10-answer-key.pdf",
+      "bytes": 264430,
+      "sha256": "2497416499f5f6498732f1fd8157986870ea2e7199fe85add2fe8ddfb285f45b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-11-solutions.pdf",
+      "bytes": 214846,
+      "sha256": "56740d3e263f8223639b8f6d7186d4b50f3af6fb0ac226ea3d1f16e7437ebe8e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/economics/pdf/collegedunia/2023-economics-12-answer-key.pdf",
+      "bytes": 1093410,
+      "sha256": "4aba8d8ac65efedb2112dfad98134d681b7ccbd91a3e4834896966549f5a1b19",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/english/pdf/2023-english.pdf",
+      "bytes": 14102175,
+      "sha256": "2fa81d76897519ec8da5f87e67a06996ee643692bf81d0943fb55658665a0af0",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/english/pdf/collegedunia/2023-english-01-question-paper.pdf",
+      "bytes": 2980136,
+      "sha256": "c43700a8013221670efc42b57a77878b5a5b03c2c3ce57c954e64855750ba913",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/english/pdf/collegedunia/2023-english-02-solutions.pdf",
+      "bytes": 232111,
+      "sha256": "6be0c47d2a08d0c5b37573bac11e2dfbf9ab72b6205be46e1ff3a8c36e09958b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/english/pdf/collegedunia/2023-english-03-solutions.pdf",
+      "bytes": 942247,
+      "sha256": "d317c06b7d72b13ae0c99671e763afdc2b0269b6456e710afd2b8dabda7ccddb",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/general-test/pdf/2023-general-test.pdf",
+      "bytes": 15701165,
+      "sha256": "450761f12b9c95e2433fd1ab2a6afbc8af173959b0094f81e15a60d0323ab930",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/general-test/pdf/collegedunia/2023-general-test-01-question-paper.pdf",
+      "bytes": 5952822,
+      "sha256": "6a972e76851d11fdf27dac3eb08389b6036b124aed35d35fea3194a92a20d114",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2023/general-test/pdf/collegedunia/2023-general-test-02-question-paper.pdf",
+      "bytes": 316547,
+      "sha256": "c842923d8be4a0bcadf680f272fe9771f59ea77a6d243656158efc1bcee2a3ad",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/2024-accountancy.pdf",
+      "bytes": 795792,
+      "sha256": "5649554d77d2f4e92ee692130dc00b35ff11ef7a479867684a4d612b3b970b15",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-01-question-paper.pdf",
+      "bytes": 1055208,
+      "sha256": "efe3b8eaa2a940f50d6014152af4cd662ba9352cecb53407e870e42144c609a5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-02-question-paper.pdf",
+      "bytes": 1055208,
+      "sha256": "efe3b8eaa2a940f50d6014152af4cd662ba9352cecb53407e870e42144c609a5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-03-solutions.pdf",
+      "bytes": 402905,
+      "sha256": "c765dfdfe26c1fe815fd9165b6fa76df3190b02eb1d59638322b3d62edebdb7b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-04-question-paper.pdf",
+      "bytes": 1056957,
+      "sha256": "bd20aa109e4342d57da5bc0f8bb1b0ad1478c11d366a28b9185c2c3b1e9dbb02",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-05-question-paper.pdf",
+      "bytes": 1056957,
+      "sha256": "bd20aa109e4342d57da5bc0f8bb1b0ad1478c11d366a28b9185c2c3b1e9dbb02",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-06-solutions.pdf",
+      "bytes": 412003,
+      "sha256": "e37a70302568e44f95adb997fd674e9b801144721a0fa9105c2b97b91b0e44b1",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-07-question-paper.pdf",
+      "bytes": 1054017,
+      "sha256": "02c6a028eb9ae7d13588b91c791322fba5d957abd95670359ee5fc0ea60590a4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-08-question-paper.pdf",
+      "bytes": 1054017,
+      "sha256": "02c6a028eb9ae7d13588b91c791322fba5d957abd95670359ee5fc0ea60590a4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-09-question-paper.pdf",
+      "bytes": 403768,
+      "sha256": "deca5fd238880e5e692ea7df50cbd002810434901724c6bdbd6e9c803b53deeb",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-10-question-paper.pdf",
+      "bytes": 1053484,
+      "sha256": "056c6935e5980cb09d4a549993a1eaf0139727b53a7933f54db6098189b294f3",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-11-question-paper.pdf",
+      "bytes": 1053484,
+      "sha256": "056c6935e5980cb09d4a549993a1eaf0139727b53a7933f54db6098189b294f3",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-12-question-paper.pdf",
+      "bytes": 403574,
+      "sha256": "c8be78e8f5c6f86ad5142083d4e553deebb5d3e3550fafd0394dc0502fa02caa",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-13-question-paper.pdf",
+      "bytes": 7212430,
+      "sha256": "cbc9d219f67af47bc9651f590c5d6aa3e6248cd28c1db4803579f321ee241ad2",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-14-question-paper.pdf",
+      "bytes": 7212430,
+      "sha256": "cbc9d219f67af47bc9651f590c5d6aa3e6248cd28c1db4803579f321ee241ad2",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-15-solutions.pdf",
+      "bytes": 528232,
+      "sha256": "dc96563237939f2d526aa9a85eb7adff202efa272731bb6b962bf20eae781221",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-16-answer-key.pdf",
+      "bytes": 1055208,
+      "sha256": "efe3b8eaa2a940f50d6014152af4cd662ba9352cecb53407e870e42144c609a5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-17-answer-key.pdf",
+      "bytes": 1056957,
+      "sha256": "bd20aa109e4342d57da5bc0f8bb1b0ad1478c11d366a28b9185c2c3b1e9dbb02",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-18-answer-key.pdf",
+      "bytes": 1054017,
+      "sha256": "02c6a028eb9ae7d13588b91c791322fba5d957abd95670359ee5fc0ea60590a4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/accountancy/pdf/collegedunia/2024-accountancy-19-question-paper.pdf",
+      "bytes": 765353,
+      "sha256": "04f03574e6f14bed198d478f343c30154a115e87cd482f39bc9aef0730796f6b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/2024-business-studies.pdf",
+      "bytes": 854744,
+      "sha256": "8bb1bc75924591a78c4617f470a48d45bf763f8b7c285e4ac267182e7382f4d4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-01-question-paper.pdf",
+      "bytes": 1067871,
+      "sha256": "06dabef437ed4d16ba9ab914dd78587414b169fbd69119add5f8c9c0bc3c711e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-02-question-paper.pdf",
+      "bytes": 1067871,
+      "sha256": "06dabef437ed4d16ba9ab914dd78587414b169fbd69119add5f8c9c0bc3c711e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-03-solutions.pdf",
+      "bytes": 317547,
+      "sha256": "f6a639623c59e1753b399c5ec549515b9efb9bb776876a6730513d3129cb83d4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-04-answer-key.pdf",
+      "bytes": 1075151,
+      "sha256": "82cbc180fe449f6aa094f4a8da1a3fb45ce0cf03a70b3a137660105f6d46140b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-05-solutions.pdf",
+      "bytes": 396532,
+      "sha256": "e2f583f257fe2fdf5316fccc28ceef247cd81bc935dc195c12c6a92b494cad7e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-06-answer-key.pdf",
+      "bytes": 1074440,
+      "sha256": "95101ff3bf8cfd407ba85415fad3edf03740e4244e02ba45f5604dee0d44ecfc",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-07-solutions.pdf",
+      "bytes": 396024,
+      "sha256": "5a49b4cfbbc5aa4f152ee1e3e7595af7b10cdeebe64eae7acd2cedfdb6218d99",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-08-answer-key.pdf",
+      "bytes": 1074885,
+      "sha256": "eb11baffc7aa5ef48a6b8a7be87e300b21f89336ca3d1e1d1d5a74cf6a8fe32a",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-09-solutions.pdf",
+      "bytes": 396556,
+      "sha256": "3933c88aac24651b08346032a372447d531ed6b44f417e0958dfe6bb009561e4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-10-question-paper.pdf",
+      "bytes": 6194316,
+      "sha256": "a9a216793b0411cd8dfcc511a64623026961bcc82383a578cb446c7035a2b3f1",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/business-studies/pdf/collegedunia/2024-business-studies-11-solutions.pdf",
+      "bytes": 328603,
+      "sha256": "1716a24dafe258518763fab78db65c0e61c10679695e9cd510652fce282e7e3a",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/2024-economics.pdf",
+      "bytes": 864469,
+      "sha256": "2267712e828da3ae789b80394c3f019c6bd28140618a4c2d95efcbb801512f70",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-01-question-paper.pdf",
+      "bytes": 1397319,
+      "sha256": "aaab96b9e8e253915c91aac89923a7ced146b6418a53b9de6d27c070ce9f9596",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-02-solutions.pdf",
+      "bytes": 373474,
+      "sha256": "7bc3d0123c8e33e5e5eb7236fa31a2d5b4267076c2cb26307ebc57320d3726d2",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-03-question-paper.pdf",
+      "bytes": 1398099,
+      "sha256": "e9fc521cbb0c767b0f838f596d534076702ead1513882a8c2192d27e12c5061f",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-04-question-paper.pdf",
+      "bytes": 404489,
+      "sha256": "260a12c338b1cfe83d212d65c3c3b2cf344b1c4b0188a5d581c38142b9f14b40",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-05-question-paper.pdf",
+      "bytes": 1397234,
+      "sha256": "e661a2a6934ca90c21524a177e8a08806e260229990958d11f37d5db53c37c8d",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-06-solutions.pdf",
+      "bytes": 373940,
+      "sha256": "bcf339ddd6aba07fae66d827c376761114c6dce4e84b8bc62654da68d904ea81",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-07-question-paper.pdf",
+      "bytes": 1397660,
+      "sha256": "e82435bf59582b3e9b708b71eb80132b737f247308118b85bedc3bbf67349c17",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-08-solutions.pdf",
+      "bytes": 380167,
+      "sha256": "e3441db5c03ed77fde45460bb0a105d515157e8d8a68a6b960cb556150a428dd",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-09-answer-key.pdf",
+      "bytes": 3623651,
+      "sha256": "a0deb22269f12b011562379c9be03291bb54bc54bf5a6511b38b6e203c1ee058",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-10-solutions.pdf",
+      "bytes": 231499,
+      "sha256": "5f36131002d2c81d85519b0c956a6b3da6e4d5ee911ac71e99acabc49c234ac5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-11-question-paper.pdf",
+      "bytes": 1114907,
+      "sha256": "e1215ae7a562ea0b4c3978c872b2242087d2d449029efa644b59710d8b3edca7",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-12-question-paper.pdf",
+      "bytes": 1115782,
+      "sha256": "987c7834476e1c88360d0a3bb5e8e9e0c0edb5705b447a77d28624df1f279077",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-13-question-paper.pdf",
+      "bytes": 1423773,
+      "sha256": "81019cd0590bbcf8b7abdd434ecda6c56566856a425af4eb65bbefd21b8a9237",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/economics/pdf/collegedunia/2024-economics-14-question-paper.pdf",
+      "bytes": 1115253,
+      "sha256": "68f0020a65aa8c1f54277f0c6dc95c9cb30c750cc34e77cffddd10c2464f692b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/english/pdf/2024-english.pdf",
+      "bytes": 626334,
+      "sha256": "91c5a976b98df1ab1c863e1af2638ab538e1017a9c071f068b9d0820db646ace",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/english/pdf/collegedekho/2024-english-set-a-question-paper.pdf",
+      "bytes": 951712,
+      "sha256": "b50db3e70ed373ba5a919cdab0bfb1f377ceb550a89bbf9105a4cc41e8cdc6c8",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/2024-general-test.pdf",
+      "bytes": 2614547,
+      "sha256": "27e24dc3fa916a4990ad14e046f746531b9b870a2a8529975c33b9216e4087a6",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-01-answer-key.pdf",
+      "bytes": 1312953,
+      "sha256": "fb06f5ff64174a9feeb3f9f8a4e39251a3e0b58f7e2de0b39fee439fbcae964d",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-02-answer-key.pdf",
+      "bytes": 1312953,
+      "sha256": "fb06f5ff64174a9feeb3f9f8a4e39251a3e0b58f7e2de0b39fee439fbcae964d",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-03-question-paper.pdf",
+      "bytes": 514743,
+      "sha256": "25490fa4f000fe75dadcd285180e4443a553a6bd033e665f945f73f32432bebb",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-04-question-paper.pdf",
+      "bytes": 1603919,
+      "sha256": "24e816ac12a9b5970329dd37a59e22c709c9ba72e8c2d8f9858a78cfd744a142",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-05-question-paper.pdf",
+      "bytes": 1603919,
+      "sha256": "24e816ac12a9b5970329dd37a59e22c709c9ba72e8c2d8f9858a78cfd744a142",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-06-solutions.pdf",
+      "bytes": 476979,
+      "sha256": "f7cf8d7ea668c5e4539a07ee21c26e52f0ac6253aa7cd9f7e58d45600db92fb2",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-07-question-paper.pdf",
+      "bytes": 1611289,
+      "sha256": "8362eb056c7096f8fc1a9aee48dab59059806e77c65f18492cacb307e26959fa",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-08-question-paper.pdf",
+      "bytes": 1611289,
+      "sha256": "8362eb056c7096f8fc1a9aee48dab59059806e77c65f18492cacb307e26959fa",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-09-solutions.pdf",
+      "bytes": 476895,
+      "sha256": "d5f0bb1e85371a9ca0c1df17187b7a706b2f0f5f3e5eae8b631d809122bb25bb",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-10-question-paper.pdf",
+      "bytes": 1296074,
+      "sha256": "dddeddf2c90c0d4141b593c450b3e100e90785eecca984a35f13cd63b0b2c865",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-11-solutions.pdf",
+      "bytes": 476817,
+      "sha256": "bc55c9e0a3a0fbf465df2be2b748318c8c2fd5c65e6051b6bd837728d6847866",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-12-question-paper.pdf",
+      "bytes": 1489495,
+      "sha256": "5bfb346dcc3ee03c182c6d0bfd56dbc0fdd49719c6c2a0fb7fca6df5ebea5ebe",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-13-solutions.pdf",
+      "bytes": 302959,
+      "sha256": "1e9be6f554d8c984591f1f217a23223771e08206b5ca54b19e99dd86493b58dd",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-14-question-paper.pdf",
+      "bytes": 1317135,
+      "sha256": "1b10708317e304d7a5ededebaac9ccddc1f9c2ecf5cb8dd607ef0f1f6b9f41a2",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-15-question-paper.pdf",
+      "bytes": 1317135,
+      "sha256": "1b10708317e304d7a5ededebaac9ccddc1f9c2ecf5cb8dd607ef0f1f6b9f41a2",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-16-question-paper.pdf",
+      "bytes": 523043,
+      "sha256": "b4f609b6fafa8c31a466a28ff353074cf45707a82dd67df065d1b405d6095227",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-17-question-paper.pdf",
+      "bytes": 1313083,
+      "sha256": "4f90bad9f266e98a5ffd4b5991ad210778a9abb565a2cf7229b285db206b6807",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-18-question-paper.pdf",
+      "bytes": 500714,
+      "sha256": "e32b7465b9e430192b5ca7267cb3ad3e263257d58c923beef7e6f18d7ad4fed6",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-19-question-paper.pdf",
+      "bytes": 999074,
+      "sha256": "576706eb7bf680857d0c2349008c71a722e1afa5b56fdcae096adf81115c2adc",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-20-solutions.pdf",
+      "bytes": 509777,
+      "sha256": "4c5408d7e686959ca86dd2975b62716ff2c4b9aa179ab81ec59276dc86cb0aa0",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2024/general-test/pdf/collegedunia/2024-general-test-21-question-paper.pdf",
+      "bytes": 939352,
+      "sha256": "4519b70314c021ac2a76b833e5d167ea835c05e776d834593b003f177abaacdc",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/accountancy/pdf/2025-accountancy.pdf",
+      "bytes": 6386023,
+      "sha256": "3e5ce0855badec9c77d6ad18b97940e6821701255991d617e75a19d7f02e9d50",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/accountancy/pdf/collegedunia/2025-accountancy-01-question-paper.pdf",
+      "bytes": 59325,
+      "sha256": "821fd23babaa9809fee45c3f275aaa52582663d351cf3b0b8aad43411777b5c7",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/accountancy/pdf/collegedunia/2025-accountancy-02-solutions.pdf",
+      "bytes": 106203,
+      "sha256": "8ca6cc2147d273340996d36af14f4eb483694d6f5b9af3dbd01bd9fbf6248b61",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/accountancy/pdf/collegedunia/2025-accountancy-03-question-paper.pdf",
+      "bytes": 440222,
+      "sha256": "6a81d9333a89346503dfccd6829f8b8a0f3924128f532227f3ff48fb25b0b48b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/2025-business-studies.pdf",
+      "bytes": 6198377,
+      "sha256": "bae361e005ddc1d0a723c71288808c72184fb82ff79cb3b1605b6d0f2e0d7add",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-01-question-paper.pdf",
+      "bytes": 5847854,
+      "sha256": "78fac68a2db5b11d55793bf5d8b2418ee21f4f29cb567a2c13f3a49088e14aa4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-02-question-paper.pdf",
+      "bytes": 132492,
+      "sha256": "a8711807e127fd061f5eec73e185242814b996fc0ba5195ed32c38b14c637776",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-03-question-paper.pdf",
+      "bytes": 659400,
+      "sha256": "1a84e063a8218ff7bc6a2fcc3f88bb0274c0f65fa8fff2343ff032e5986c9daa",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-04-question-paper.pdf",
+      "bytes": 43762,
+      "sha256": "dd8f08dc655fae2b6b08a93297c5d9ccc9a301b09df8586fcc84f501fb8a7ed4",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-05-question-paper.pdf",
+      "bytes": 55200,
+      "sha256": "b3dd83a9e370b3d462f2dc16d60b24f985c71742468f32f660e13d279db64a4e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/collegedunia/2025-business-studies-official-question-paper.pdf",
+      "bytes": 57878,
+      "sha256": "025d7614e2dec05a3edaf00b1164973fa88f0bb59dada8b22dcea89cdfebb6ac",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/business-studies/pdf/prepp/2025-business-studies-15-may-solutions.pdf",
+      "bytes": 117809,
+      "sha256": "6794005c74f3a0973d616a97465b68a7a00920a6e0b53ce4e420d826b143bd6f",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/economics/pdf/2025-economics.pdf",
+      "bytes": 6016884,
+      "sha256": "9e9546d0189a913bcf2dc20e072b645f7ed8539a0bed66d0124ebf33a433da3e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/economics/pdf/collegedunia/2025-economics-01-question-paper.pdf",
+      "bytes": 5665593,
+      "sha256": "c2912b2ef2a07ff1cb43984b09a7e82cb790a587d3dd30e06c5e22c84b2d6df6",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/2025-english.pdf",
+      "bytes": 3995825,
+      "sha256": "d01249c301195f91a3a59da2b4ca35dae2e020de2bfb337391a0e9bfe5a7292e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-01-question-paper.pdf",
+      "bytes": 37416,
+      "sha256": "9443a819b77f6f50c176f23a4ef1b1c3d9e82d9365f6428cf2141345f520d91a",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-02-question-paper.pdf",
+      "bytes": 38505,
+      "sha256": "fb3cf5428beb3ebeeea88cfceb91e8e6d8d8551cee79690becf6007b0b5c5534",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-03-question-paper.pdf",
+      "bytes": 57831,
+      "sha256": "60f0f7bfd69783d919e9f5f133576f64f406209ade3716fdb3c57fa52b700560",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-04-question-paper.pdf",
+      "bytes": 39885,
+      "sha256": "da0c1d0b9c8ab5ed0a4b3b1a8b6b74166b3ec39ec65eb1fcf5edf2878dd81636",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-05-question-paper.pdf",
+      "bytes": 41118,
+      "sha256": "322cec89fb103659de47a145bc583b57cd4f31ea6f11a4ec4170773eebe291e8",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-06-question-paper.pdf",
+      "bytes": 40476,
+      "sha256": "ca927d94f9459ac17dc1cdd591a0276f8b0e20b0f5b42124d4eedf33450abe0f",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-07-question-paper.pdf",
+      "bytes": 50848,
+      "sha256": "32da6cdf541251ea7aa43d5702460aa4cb65826655518a0f6714ed7a6fb7b468",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-08-question-paper.pdf",
+      "bytes": 38655,
+      "sha256": "95ff6cf3edbd732e02012c3d30afa289fd92c23edfb78fa3004308a42206b3b1",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-09-question-paper.pdf",
+      "bytes": 50646,
+      "sha256": "57536920b724eb64d63bedbdf857c0835fe31903b15ca40d672ed9ded6e0bb6b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-10-question-paper.pdf",
+      "bytes": 37728,
+      "sha256": "b8f05b095f759ed151e19dbce6df7eb25dfa39b68c2d0439c74b0f3c790b4e5a",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-11-question-paper.pdf",
+      "bytes": 34004,
+      "sha256": "036deb48425ea61213d9c3ee96d408fe45e4f73bd54d6751f3d3e6d00dd6d96e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-12-question-paper.pdf",
+      "bytes": 47162,
+      "sha256": "8a167d3859cce9be34309c67629c3fd00b319338c18914825a8d0b3aa4a0c156",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia/2025-english-13-question-paper.pdf",
+      "bytes": 55200,
+      "sha256": "b3dd83a9e370b3d462f2dc16d60b24f985c71742468f32f660e13d279db64a4e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-june-2-01-question-paper.pdf",
+      "bytes": 40331,
+      "sha256": "c452a1ad7eb03679c3713b97b2f3c0c5ad9f2855ad79a986d1d3fcc132d08a31",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-june-2-02-solutions.pdf",
+      "bytes": 53793,
+      "sha256": "7396db3c25d518e808c4ecd028cd16a3322720cbf4b16ab010b2e3522ad6957a",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-13-01-question-paper.pdf",
+      "bytes": 47162,
+      "sha256": "8a167d3859cce9be34309c67629c3fd00b319338c18914825a8d0b3aa4a0c156",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-13-02-solutions.pdf",
+      "bytes": 55141,
+      "sha256": "be2145b3dbf0573ee67df99ab86308f76c871e3546f38e3bfc53c05b15cc9dd5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-13-03-question-paper.pdf",
+      "bytes": 55200,
+      "sha256": "b3dd83a9e370b3d462f2dc16d60b24f985c71742468f32f660e13d279db64a4e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-20-01-question-paper.pdf",
+      "bytes": 40476,
+      "sha256": "ca927d94f9459ac17dc1cdd591a0276f8b0e20b0f5b42124d4eedf33450abe0f",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-20-02-solutions.pdf",
+      "bytes": 83755,
+      "sha256": "94f94df9b0440d14086271069b1c3f1346ff409b3729fbb1d81c452918741d40",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-26-01-question-paper.pdf",
+      "bytes": 40636,
+      "sha256": "b40d748e05c303dda6ff0cb69f09c143aa490d690e150486fc66733d6d81fb03",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-26-02-solutions.pdf",
+      "bytes": 58992,
+      "sha256": "97237ddd55d0445790e187bc20ff79575a56932d2f569c79dd00cae2a063dfaf",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-27-01-question-paper.pdf",
+      "bytes": 57831,
+      "sha256": "60f0f7bfd69783d919e9f5f133576f64f406209ade3716fdb3c57fa52b700560",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-29-01-question-paper.pdf",
+      "bytes": 39958,
+      "sha256": "86aa462de5568f0c4617446ad125f12e205d2efec80979b2d328e97abd8d2f23",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-29-02-question-paper.pdf",
+      "bytes": 73507,
+      "sha256": "da3b2a15c85482e5e2ec3747aad2713b4f0bd2a3bfcc16c6a6b67125a64a1c8a",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-31-01-question-paper.pdf",
+      "bytes": 37416,
+      "sha256": "9443a819b77f6f50c176f23a4ef1b1c3d9e82d9365f6428cf2141345f520d91a",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/collegedunia-date-pages/2025-english-may-31-02-question-paper.pdf",
+      "bytes": 49337,
+      "sha256": "392765b6840fc97e7cc0b72959180294e223efa6e6a0111a52a9ea6193aa167c",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/prepp/2025-english-may-14-solutions.pdf",
+      "bytes": 41535,
+      "sha256": "68e0e545386d719064b6a2d8341105a020b57ae28ca2f4bffe3266543d8fd336",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/english/pdf/prepp/2025-english-may-20-solutions.pdf",
+      "bytes": 87991,
+      "sha256": "d8dda53efd356aa4aaa9ac3d3609457d75d810fa009361c6cf851074e205745a",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/general-test/pdf/2025-general-test.pdf",
+      "bytes": 5593612,
+      "sha256": "419184b6142c57f1c5cd1aff406a5aa5cea455f6afb44861db834f13b57785db",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/general-test/pdf/collegedunia/2025-general-test-01-question-paper.pdf",
+      "bytes": 5242850,
+      "sha256": "cbf896423f511b5033ce8ecf392d3b1be0f9f7f71a4e3d6a6e2e142b1b1791fa",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/2025/general-test/pdf/collegedunia/2025-general-test-02-question-paper.pdf",
+      "bytes": 782063,
+      "sha256": "2d4532e0874ebe753530c65d5d98643c4b5894494fc4ca2401540b401ffd1560",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/aakash/cuet-2023-general-test-21-05-2023-solutions.pdf",
+      "bytes": 694977,
+      "sha256": "e87052cdb991018ea9e3f7f75866d436a10338b1db8c83135389ffb2c3e21df2",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-accountancy-answer-key-collegedunia.pdf",
+      "bytes": 111176,
+      "sha256": "3dcfa288aada5c1a5375d8faeed3713528b4d03fa196491d91ff6f873254b4a5",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-accountancy-collegedunia.pdf",
+      "bytes": 7031408,
+      "sha256": "cab1d0614a7c0f3fc35b25a81125a3eb5eddc03bef021ccc7a2ce54538cc69a6",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-business-studies-collegedunia.pdf",
+      "bytes": 7693533,
+      "sha256": "09aa373269a3610318e7e7dda1f39a8beb1a3b65688885696ea0e704ef7b38ee",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-economics-answer-key-collegedunia.pdf",
+      "bytes": 112275,
+      "sha256": "76ca50d9329b87707dcd5f3897f687e3b05d36fe8ec6afbe81e36f7f01c43c2e",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-economics-collegedunia.pdf",
+      "bytes": 11289476,
+      "sha256": "f5593bcfc01cfcae974b5452e01268af889f5bdcafba8ce1f74ad18a41d76c30",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-general-test-collegedunia.pdf",
+      "bytes": 7676741,
+      "sha256": "99e81345aa3d663c748039083502917964e3ae3b95923f87d7471641a85bd00b",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/2022/2022-general-test-solutions-collegedunia.pdf",
+      "bytes": 172860,
+      "sha256": "8a4fd717ee50369665f7c2da0be762502f3068b05f6a3445fa9e94926980babe",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/alternate sources/collegedunia/misfiled/CUET_UG_2025_Environmental_Science_sol_misfiled_from_economics.pdf",
+      "bytes": 270667,
+      "sha256": "8c46fd619b0926e8e1d9a55cf4c82493e99cd11626868919b1eb78ed674a5101",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/answer keys/pdf/2022-answer-key.pdf",
+      "bytes": 9350591,
+      "sha256": "86b74d0835dfa3dcde5cb0e9f79e9abd727af717e1cb1b9c7d1246dc20cdeb14",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/answer keys/pdf/2023-answer-key.pdf",
+      "bytes": 2395644,
+      "sha256": "ae13158274b31afb4e541893f013b902bd50aaa1226dfdafd1df74a899593219",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/answer keys/pdf/2024-answer-key.pdf",
+      "bytes": 819058,
+      "sha256": "a4d60292d743f13412b1637e3f0bb6317e3643ea9d70fe0018e1d1e3f14e3145",
+      "has_pdf_header": true
+    },
+    {
+      "pdf_path": "past year paper/answer keys/pdf/2025-answer-key.pdf",
+      "bytes": 354751,
+      "sha256": "578fa8c9d6aa96c31462c701bd2351e5cdf0e55ef6e4a4a0bd167626f1a22024",
+      "has_pdf_header": true
+    }
+  ],
+  "bad_pdfs": []
+}

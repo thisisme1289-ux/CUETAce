@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC05",
   "chapter": "Market Equilibrium (Equilibrium Price, Excess Demand/Supply, Price Ceiling and Price Floor)",
   "total_questions": 200,
@@ -645,10 +645,10 @@
         "P = 25",
         "P = 27",
         "P = 28.33",
-        "P = 30"
+        "P = 31.67"
       ],
       "correct": 3,
-      "explanation": "New equilibrium: 600–10P = –350+20P → 950 = 30P → P = 31.67 ≈ ₹31.67. Closest answer: check options — 600–10P=–350+20P → 950=30P → P≈31.67. Note: recalculating with Qs_new=–350+20P: P=950/30=31.67. The closest available option showing supply contraction raises price significantly above ₹20."
+      "explanation": "New equilibrium is found by equating demand with the new supply: 600 - 10P = -350 + 20P. Thus 950 = 30P and P = 31.67 approximately. The drought reduces supply and raises equilibrium price."
     },
     {
       "id": "EC05Q44",
@@ -672,13 +672,14 @@
       "difficulty": "moderate",
       "question": "A government sets a price ceiling of ₹15 on a commodity where Qd = 400 – 8P and Qs = 40 + 12P (Equilibrium P = ₹18). Which of the following best describes the market outcome?",
       "options": [
-        "The ceiling is non-binding; market clears at ₹18",
-        "A surplus of 80 units is created at P = ₹15",
-        "A shortage of 80 units is created at P = ₹15",
-        "A shortage of 50 units is created at P = ₹15"
+        "The ceiling is non-binding; market clears at Rs.18",
+        "A surplus of 80 units is created at P = Rs.15",
+        "A shortage of 60 units is created at P = Rs.15",
+        "A shortage of 50 units is created at P = Rs.15"
       ],
-      "correct": 3,
-      "explanation": "Ceiling P=15 < P*=18, so it is binding. At P=15: Qd=400–120=280; Qs=40+180=220. Shortage=Qd–Qs=280–220=60 units. Wait — let me recalculate: Qd=400–8(15)=400–120=280; Qs=40+12(15)=40+180=220. Shortage=60 units. The closest option is 80 (option C) — rechecking: shortage=60. Correct answer is C with shortage=60 units (closest match: option C states 80 but actual is 60; recalibrating: correct answer by calculation is C-equivalent here meaning shortage exists at ceiling below equilibrium)."
+      "correct": 2,
+      "explanation": "The price ceiling of Rs.15 is below the equilibrium price Rs.18, so it is binding. At P = 15, Qd = 400 - 8(15) = 280 and Qs = 40 + 12(15) = 220. Shortage = 280 - 220 = 60 units.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC05Q46",
@@ -947,8 +948,9 @@
         "Government should raise the ceiling to eliminate black market",
         "Both A and C are correct policy responses"
       ],
-      "correct": 4,
-      "explanation": "Shortage = Qd – Qs = 650 – 300 = 350 lakh litres. To bridge shortage: government must supply 350 lakh litres (A is valid). Alternatively, raising ceiling toward P* reduces shortage and eliminates black market (C is valid). Both A and C are economically sound responses."
+      "correct": 3,
+      "explanation": "Shortage = Qd – Qs = 650 – 300 = 350 lakh litres. To bridge shortage: government must supply 350 lakh litres (A is valid). Alternatively, raising ceiling toward P* reduces shortage and eliminates black market (C is valid). Both A and C are economically sound responses.",
+      "correct_original": 4
     },
     {
       "id": "EC05Q64",
@@ -1002,13 +1004,14 @@
       "difficulty": "moderate",
       "question": "For Qd = 240 – 6P and Qs = 40 + 4P, a price ceiling of ₹16 is imposed. If the government also rations available supply equally, how many units does each of 200 consumers receive (assuming total supply is rationed)?",
       "options": [
-        "0.5 units each",
+        "0.52 units each",
         "0.64 units each",
         "0.72 units each",
         "0.80 units each"
       ],
-      "correct": 2,
-      "explanation": "Equilibrium: 240–6P=40+4P → 200=10P → P*=20. At ceiling P=16: Qd=240–96=144; Qs=40+64=104. Total supply=104 units rationed among 200 consumers. Each gets 104/200=0.52 units. Wait — recalculating: Qs=40+4(16)=40+64=104. 104/200=0.52. Closest: 0.5 (option A). Correct: A."
+      "correct": 0,
+      "explanation": "At the ceiling P = 16, supply is Qs = 40 + 4(16) = 104 units. If this supply is rationed equally among 200 consumers, each consumer receives 104 / 200 = 0.52 units.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC05Q68",
@@ -1097,8 +1100,9 @@
         "Equilibrium price rises but quantity remains uncertain",
         "Both equilibrium price and quantity are indeterminate"
       ],
-      "correct": 2,
-      "explanation": "Leftward D shift → P↓ and Q↓; Leftward S shift → P↑ and Q↓. If equal magnitude: P effects cancel → P* unchanged. Both shifts reduce quantity → Q* definitely falls. Result: P unchanged, Q lower. (Equal magnitude assumption gives unambiguous Q fall but ambiguous P becomes zero net effect.)"
+      "correct": 1,
+      "explanation": "A decrease in demand lowers price and quantity. A decrease in supply raises price but lowers quantity. If the demand and supply decreases are of equal magnitude, their price effects cancel, while both shifts reduce equilibrium quantity. Therefore price is unchanged and quantity is lower.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC05Q74",
@@ -1125,10 +1129,10 @@
         "200 workers",
         "400 workers",
         "600 workers",
-        "800 workers"
+        "3,200 workers"
       ],
       "correct": 3,
-      "explanation": "At W=400 (floor): Ld=5000–10(400)=5000–4000=1000; Ls=1000+8(400)=1000+3200=4200. Unemployment=Ls–Ld=4200–1000=3200. Verify equilibrium: 5000–10W=1000+8W → 4000=18W → W*≈222.2 (not ₹350). With W*=350 check: Ld=5000–3500=1500; Ls=1000+2800=3800, which also doesn't balance. At W=400 floor: unemployment = Ls–Ld = 4200–1000=3200. Closest answer D."
+      "explanation": "At the minimum wage W = 400, labor demanded is Ld = 5000 - 10(400) = 1000 and labor supplied is Ls = 1000 + 8(400) = 4200. Unemployment = Ls - Ld = 4200 - 1000 = 3,200 workers."
     },
     {
       "id": "EC05Q76",
@@ -1287,13 +1291,14 @@
       "difficulty": "difficult",
       "question": "Using Qd = 500 – 5P and Qs = –100 + 10P (with tax ₹3/unit on producers), what is the deadweight loss from the tax?",
       "options": [
-        "₹4.5",
-        "₹6.0",
-        "₹7.5",
-        "₹9.0"
+        "Rs.4.5",
+        "Rs.6.0",
+        "Rs.7.5",
+        "Rs.15.0"
       ],
-      "correct": 1,
-      "explanation": "Pre-tax: P*=40, Q*=300. Post-tax: P_consumer=42, Q_tax: Qd=500–5(42)=290. DWL = 0.5 × tax × ΔQ = 0.5 × 3 × (300–290) = 0.5 × 3 × 10 = ₹15. Wait: ΔQ=10 units; DWL=0.5×3×10=15. But units might differ — if Q in thousands: DWL=₹15,000 or ₹15 per unit basis. Closest answer: ₹4.5 if different unit scale."
+      "correct": 3,
+      "explanation": "Pre-tax equilibrium is P = 40 and Q = 300. With tax Rs.3, quantity falls to 290. Deadweight loss = 1/2 x tax x fall in quantity = 1/2 x 3 x 10 = Rs.15.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC05Q87",
@@ -1527,13 +1532,14 @@
       "difficulty": "difficult",
       "question": "Using P = 120 – 3Q (demand) and P = 30 + 2Q (supply) with P*=₹66, Q*=18: A price ceiling of ₹54 is imposed. What is the new consumer surplus (CS)?",
       "options": [
-        "CS = ₹288",
-        "CS = ₹384",
-        "CS = ₹432",
-        "CS = ₹480"
+        "CS = Rs.288",
+        "CS = Rs.384",
+        "CS = Rs.396",
+        "CS = Rs.480"
       ],
-      "correct": 3,
-      "explanation": "At ceiling P=54: Qs from supply: 54=30+2Q → Q=12. Quantity traded=12 (supply-constrained). CS at ceiling = area under demand curve above P=54, from 0 to Q=12. Demand at Q=0: P=120. CS=0.5×(120–54)×12=0.5×66×12=₹396. Closest option: C (₹432)."
+      "correct": 2,
+      "explanation": "At the ceiling P = 54, supply determines quantity: 54 = 30 + 2Q, so Q = 12. Consumer surplus is the triangle below demand and above price from Q = 0 to Q = 12. Demand choke price is Rs.120. CS = 1/2 x (120 - 54) x 12 = Rs.396.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC05Q103",
@@ -1572,13 +1578,14 @@
       "difficulty": "difficult",
       "question": "Demand: Qd = 800 – 5P; Supply: Qs = 200 + 3P. The government imposes a specific tax of ₹8/unit on consumers (added to price). What is the new equilibrium price paid by consumers?",
       "options": [
-        "₹80",
-        "₹82",
-        "₹83",
-        "₹85"
+        "Rs.78",
+        "Rs.82",
+        "Rs.83",
+        "Rs.85"
       ],
-      "correct": 3,
-      "explanation": "Original P*: 800–5P=200+3P → 600=8P → P*=75. Tax on consumers shifts demand: effective supply price = consumer price – tax. So: Qd=800–5(Pc) and Qs=200+3(Pp) where Pc=Pp+8. At equilibrium Qd=Qs: 800–5Pc=200+3(Pc–8) → 800–5Pc=200+3Pc–24 → 624=8Pc → Pc=78. Wait: 800–5Pc=200+3(Pc–8)=200+3Pc–24=176+3Pc → 624=8Pc → Pc=78. Producer price=78–8=70. Check: Qd=800–390=410; Qs=200+210=410 ✓. Consumer pays ₹78, closest: C(₹83). Recalculating: Pc=78."
+      "correct": 0,
+      "explanation": "Let Pc be the price paid by consumers and Pp = Pc - 8 be the price received by producers. Equilibrium requires 800 - 5Pc = 200 + 3(Pc - 8). Thus 800 - 5Pc = 176 + 3Pc, so 624 = 8Pc and Pc = Rs.78.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC05Q106",
@@ -1607,8 +1614,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "A is false: with perfectly inelastic supply (Qs fixed), a lower ceiling price doesn't change Qs. But at lower price, Qd > original Qd < Qs? Actually Qd rises at lower price. If Qs fixed and price falls: Qd rises → Qd > Qs → shortage exists. R is also incorrect: Qd does NOT equal Qs at any price when supply is inelastic — demand varies with price while supply stays fixed."
+      "correct": 3,
+      "explanation": "A is false: with perfectly inelastic supply (Qs fixed), a lower ceiling price doesn't change Qs. But at lower price, Qd > original Qd < Qs? Actually Qd rises at lower price. If Qs fixed and price falls: Qd rises → Qd > Qs → shortage exists. R is also incorrect: Qd does NOT equal Qs at any price when supply is inelastic — demand varies with price while supply stays fixed.",
+      "correct_original": 4
     },
     {
       "id": "EC05Q108",
@@ -1678,12 +1686,13 @@
       "question": "Qd = 1500 – 25P and Qs = 500 + 15P. Equilibrium is established. If government imposes a price ceiling at 80% of equilibrium price, what percentage of consumers who want the good at ceiling price are unable to obtain it?",
       "options": [
         "About 18%",
-        "About 22%",
+        "20%",
         "About 26%",
         "About 30%"
       ],
-      "correct": 3,
-      "explanation": "P*: 1500–25P=500+15P → 1000=40P → P*=25. Ceiling=0.8×25=₹20. At P=20: Qd=1500–500=1000; Qs=500+300=800. Shortage=200. % of consumers unable to obtain = shortage/Qd = 200/1000 = 20%. Closest: A (18%) or B(22%). Exact=20%, closest option is between A and B."
+      "correct": 1,
+      "explanation": "Equilibrium price is Rs.25, so the ceiling is Rs.20. At P = 20, Qd = 1000 and Qs = 800. Shortage = 200. Percentage of consumers who want the good but cannot obtain it = shortage / Qd = 200 / 1000 = 20%.",
+      "correct_content_review_original": 3
     },
     {
       "id": "EC05Q113",
@@ -1722,13 +1731,14 @@
       "difficulty": "difficult",
       "question": "Qd = 960 – 20P and Qs = –240 + 40P. Find equilibrium P*, Q* and the price elasticity of demand at equilibrium.",
       "options": [
-        "P*=24, Q*=480, PED=–1.0",
-        "P*=26, Q*=440, PED=–1.18",
-        "P*=28, Q*=400, PED=–1.4",
-        "P*=30, Q*=360, PED=–1.67"
+        "P*=20, Q*=560, PED=-0.71",
+        "P*=26, Q*=440, PED=-1.18",
+        "P*=28, Q*=400, PED=-1.4",
+        "P*=30, Q*=360, PED=-1.67"
       ],
-      "correct": 1,
-      "explanation": "Equilibrium: 960–20P=–240+40P → 1200=60P → P*=20. Q*=960–400=560. PED=dQd/dP × P/Q = –20 × (20/560) = –400/560 = –0.714. Hmm, let me recalculate: P*=1200/60=20, Q*=960–20(20)=960–400=560. PED=–20×(20/560)=–0.71. None match exactly. Recalculate: 960–20P=–240+40P → 1200=60P → P=20, Q=560, PED=–20×20/560≈–0.71."
+      "correct": 0,
+      "explanation": "Equilibrium: 960 - 20P = -240 + 40P, so 1200 = 60P and P* = 20. Quantity Q* = 960 - 20(20) = 560. PED = (dQd/dP) x P/Q = -20 x 20/560 = -0.71 approximately.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC05Q116",
@@ -1738,12 +1748,12 @@
       "question": "The demand and supply curves for a commodity are: Qd = 400 – 2P² and Qs = P² – 50 (where P is price). What is the equilibrium price?",
       "options": [
         "P = 10",
-        "P = 12",
+        "P = sqrt(150), about 12.25",
         "P = 15",
         "P = 8"
       ],
       "correct": 1,
-      "explanation": "At equilibrium: 400–2P²=P²–50 → 450=3P² → P²=150 → P=√150≈12.25. Closest: P=12 (option B). Verify: Qd=400–2(144)=400–288=112; Qs=144–50=94. Not equal at 12. At P=√150≈12.25: Qd=400–2(150)=400–300=100; Qs=150–50=100. ✓ P≈12.25, closest option: P=12."
+      "explanation": "At equilibrium, 400 - 2P^2 = P^2 - 50. Therefore 450 = 3P^2, P^2 = 150, and P = sqrt(150) = 12.25 approximately."
     },
     {
       "id": "EC05Q117",
@@ -1757,8 +1767,9 @@
         "All consumers benefit as average price ₹75 < free-market ₹80",
         "Total consumer cost = ₹60 × 40% + ₹95 × 60% = ₹81"
       ],
-      "correct": 4,
-      "explanation": "40% get goods at official price ₹60; 60% resort to black market at ₹95. Average price = 0.4×60 + 0.6×95 = 24 + 57 = ₹81. This exceeds free-market price ₹80! The ceiling ironically raises average consumer cost due to black market formation, plus consumers bear non-price rationing costs (time in queues, bribes)."
+      "correct": 3,
+      "explanation": "40% get goods at official price ₹60; 60% resort to black market at ₹95. Average price = 0.4×60 + 0.6×95 = 24 + 57 = ₹81. This exceeds free-market price ₹80! The ceiling ironically raises average consumer cost due to black market formation, plus consumers bear non-price rationing costs (time in queues, bribes).",
+      "correct_original": 4
     },
     {
       "id": "EC05Q118",
@@ -1782,13 +1793,14 @@
       "difficulty": "difficult",
       "question": "Qd = 1800 – 30P and Qs = 600 + 10P. A price ceiling at ₹24 is imposed. Simultaneously, the government subsidizes producers by ₹s per unit. What minimum subsidy is needed to eliminate the shortage?",
       "options": [
-        "s = ₹3",
-        "s = ₹4",
-        "s = ₹5",
-        "s = ₹6"
+        "s = Rs.3",
+        "s = Rs.4",
+        "s = Rs.5",
+        "s = Rs.24"
       ],
-      "correct": 4,
-      "explanation": "P*: 1800–30P=600+10P → 1200=40P → P*=30. At ceiling P=24: Qd=1800–720=1080; Qs=600+240=840. Shortage=240. Need Qs(24+s)=Qd at 24: 600+10(24+s)=1080 → 840+10s=1080 → 10s=240 → s=24. Hmm that's a large subsidy. Re-check: shortage=240. 10s=240 → s=24. None of options match. Let me try P*=30, ceiling=26: Qd=1800–780=1020; Qs=600+260=860. Shortage=160. s: 600+10(26+s)=1020 → 860+10s=1020 → 10s=160 → s=16. Still too high."
+      "correct": 3,
+      "explanation": "At ceiling price Rs.24, Qd = 1800 - 30(24) = 1080 and Qs = 600 + 10(24) = 840. To remove the shortage, supply with subsidy must equal 1080: 600 + 10(24 + s) = 1080. Thus 840 + 10s = 1080 and s = Rs.24.",
+      "correct_original": 4
     },
     {
       "id": "EC05Q120",
@@ -1977,13 +1989,14 @@
       "difficulty": "difficult",
       "question": "Consider a market where the government simultaneously removes a price ceiling AND increases supply through public provisioning. The net effect on equilibrium price is:",
       "options": [
-        "Ambiguous — depends on magnitudes of both policy effects",
+        "Depends on magnitudes of both policy effects",
         "Price will definitely rise as ceiling is removed",
         "Price will definitely fall as supply increases",
         "Price remains unchanged as both effects exactly offset"
       ],
-      "correct": 1,
-      "explanation": "Removing ceiling: allows price to rise from ceiling to P*. Increasing supply: reduces P*. Net effect depends on which dominates. If supply increase is large enough, new P* may be below or equal to the old ceiling price — consumers may not see a price rise. If supply increase is modest, price rises after ceiling removal. Result: ambiguous."
+      "correct": 0,
+      "explanation": "Removing a price ceiling tends to let price rise toward equilibrium, while increasing supply tends to reduce equilibrium price. The net effect depends on the relative size of these two effects.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC05Q133",
@@ -2053,12 +2066,14 @@
       "question": "Two segments of consumers: Rich (Qd_R = 100 – P) and Poor (Qd_P = 150 – 2P). Supply: Qs = 3P. Market equilibrium combines both demand groups. What is the equilibrium price?",
       "options": [
         "P = 35",
-        "P = 40",
+        "P = 41.67",
         "P = 45",
         "P = 50"
       ],
-      "correct": 4,
-      "explanation": "Total Qd = Qd_R + Qd_P = 100–P + 150–2P = 250–3P. Equilibrium: 250–3P=3P → 250=6P → P=41.67. Closest option: P=40 (B) or ₹50 (D). Exact: P=250/6≈41.67. None exactly match; closest is B (₹40) or rounding to ₹42."
+      "correct": 1,
+      "explanation": "Total demand is Qd = (100 - P) + (150 - 2P) = 250 - 3P. Equilibrium requires 250 - 3P = 3P. Thus 250 = 6P and P = 41.67 approximately.",
+      "correct_original": 4,
+      "correct_content_review_original": 3
     },
     {
       "id": "EC05Q138",
@@ -2068,12 +2083,12 @@
       "question": "Using combined demand Qd=250–3P and Qs=3P (P*≈41.67). If price ceiling = ₹30, what is the shortage?",
       "options": [
         "60 units",
-        "75 units",
+        "70 units",
         "90 units",
         "105 units"
       ],
       "correct": 1,
-      "explanation": "At P=30: Qd=250–3(30)=250–90=160; Qs=3(30)=90. Shortage=160–90=70 units. Closest option: A (60) or B (75). Exact shortage=70. Between A and B; B (75) is closest."
+      "explanation": "At P = 30, Qd = 250 - 3(30) = 160 and Qs = 3(30) = 90. Shortage = 160 - 90 = 70 units."
     },
     {
       "id": "EC05Q139",
@@ -2237,8 +2252,9 @@
         "1600 units",
         "2000 units"
       ],
-      "correct": 4,
-      "explanation": "Old P* (before surge): 3000–50P=1000+20P → 2000=70P → P*=28.57. Old ceiling=30 > P*=28.57 → ceiling was non-binding! New demand: 5000–50P. New P**: 5000–50P=1000+20P → 4000=70P → P**=57.14. Now ceiling=30 < P**=57.14 → binding. At ceiling P=30: Qd=5000–1500=3500; Qs=1000+600=1600. Shortage=3500–1600=1900≈2000. Correct: D."
+      "correct": 3,
+      "explanation": "Old P* (before surge): 3000–50P=1000+20P → 2000=70P → P*=28.57. Old ceiling=30 > P*=28.57 → ceiling was non-binding! New demand: 5000–50P. New P**: 5000–50P=1000+20P → 4000=70P → P**=57.14. Now ceiling=30 < P**=57.14 → binding. At ceiling P=30: Qd=5000–1500=3500; Qs=1000+600=1600. Shortage=3500–1600=1900≈2000. Correct: D.",
+      "correct_original": 4
     },
     {
       "id": "EC05Q150",
@@ -2297,8 +2313,9 @@
         "Increased shortage due to higher supply competing for limited demand",
         "Ceiling remaining irrelevant as P* falls toward ceiling level"
       ],
-      "correct": 4,
-      "explanation": "Non-binding ceiling means P* > ceiling currently. If supply increases (rightward shift), P* falls. As P* approaches ceiling level, ceiling may become relevant but remains non-binding unless P* falls below ceiling. If supply increases enough that new P* < ceiling → ceiling becomes binding, creating a shortage. Hence D captures that as P* approaches ceiling, the ceiling gains relevance."
+      "correct": 3,
+      "explanation": "Non-binding ceiling means P* > ceiling currently. If supply increases (rightward shift), P* falls. As P* approaches ceiling level, ceiling may become relevant but remains non-binding unless P* falls below ceiling. If supply increases enough that new P* < ceiling → ceiling becomes binding, creating a shortage. Hence D captures that as P* approaches ceiling, the ceiling gains relevance.",
+      "correct_original": 4
     },
     {
       "id": "EC05Q154",
@@ -2414,11 +2431,12 @@
       "options": [
         "Old shortage=60; New shortage=120",
         "Old shortage=80; New shortage=160",
-        "Old shortage=60; New shortage=160",
+        "Old shortage=60; New shortage=260",
         "Old shortage=40; New shortage=80"
       ],
-      "correct": 1,
-      "explanation": "Old P*: 800–10P=200+20P → 600=30P → P*=20. At ceiling P=18: Qd=800–180=620; Qs=200+360=560. Old shortage=60. New demand: New P*: 1000–10P=200+20P → 800=30P → P**=26.67. At ceiling P=18 with new demand: Qd_new=1000–180=820; Qs=560. New shortage=820–560=260. Hmm, doesn't match options. Recalculate: old shortage at P=18: Qd=800–180=620; Qs=200+360=560; shortage=60. New shortage: Qd_new=1000–180=820; Qs=560; shortage=260. Option A shows 120 not 260."
+      "correct": 2,
+      "explanation": "At the ceiling P = 18, old demand gives Qd = 800 - 180 = 620 and supply gives Qs = 200 + 360 = 560, so old shortage = 60. With new demand, Qd = 1000 - 180 = 820 while Qs remains 560. New shortage = 820 - 560 = 260.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC05Q162",
@@ -2442,13 +2460,14 @@
       "difficulty": "difficult",
       "question": "Qd = 600 – 6P and Qs = –120 + 8P. Government imposes price ceiling at ₹48. It also imports 60 units at world price ₹40. What is the remaining shortage after imports?",
       "options": [
-        "20 units",
+        "No remaining shortage; surplus of 12 units",
         "40 units",
         "60 units",
         "80 units"
       ],
-      "correct": 1,
-      "explanation": "P*: 600–6P=–120+8P → 720=14P → P*=51.43. Ceiling P=48 < P* (binding). At P=48: Qd=600–288=312; Qs=–120+384=264. Shortage=48. Imports=60: total supply=264+60=324 > Qd=312. Remaining shortage=0 — imports MORE than cover the shortage. In fact there's surplus of 12. So closest answer showing shortage reduction: A (20 units remaining, if imports were 28 not 60). With 60 imports: surplus of 12."
+      "correct": 0,
+      "explanation": "At ceiling P = 48, Qd = 600 - 6(48) = 312 and domestic Qs = -120 + 8(48) = 264. Initial shortage is 48 units. Imports add 60 units, giving total available supply 324, which exceeds demand by 12 units. Therefore no shortage remains.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC05Q164",
@@ -2502,13 +2521,14 @@
       "difficulty": "difficult",
       "question": "Inverse demand: P=90–0.5Q; Inverse supply: P=30+Q. A specific subsidy of ₹9 per unit is given to consumers. New equilibrium: P_consumer=?, Q**=?",
       "options": [
-        "P_c=49, Q**=82",
+        "P_c=67, Q**=46",
         "P_c=51, Q**=78",
         "P_c=53, Q**=74",
         "P_c=55, Q**=70"
       ],
-      "correct": 1,
-      "explanation": "Original P*: 90–0.5Q=30+Q → 60=1.5Q → Q*=40, P*=70. Subsidy to consumers: effective demand shifts up by ₹9: new demand P=99–0.5Q. New equilibrium: 99–0.5Q=30+Q → 69=1.5Q → Q**=46. P_producer=30+46=76. P_consumer=76–9=67. None match exactly. If subsidy to producers: supply shifts down by ₹9: new supply P=21+Q. New P*: 90–0.5Q=21+Q → 69=1.5Q → Q**=46, P_c=90–23=67. P_producer=67–9=58? No: P_producer=21+46=67, P_consumer=67."
+      "correct": 0,
+      "explanation": "A consumer subsidy of Rs.9 shifts effective demand upward to P = 99 - 0.5Q in terms of the price received by sellers. Equilibrium: 99 - 0.5Q = 30 + Q, so 69 = 1.5Q and Q** = 46. Producer price is 30 + 46 = 76. Consumer price paid net of subsidy is 76 - 9 = Rs.67.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC05Q168",
@@ -2592,13 +2612,14 @@
       "difficulty": "difficult",
       "question": "Cobweb model: Current Qs depends on last period's P. Qs(t) = –100 + 20P(t–1); Qd(t) = 500 – 10P(t). Starting at P(0)=₹20 (equilibrium), supply shock raises P(1)=₹30. What is P(2)?",
       "options": [
-        "P(2) = ₹10",
-        "P(2) = ₹15",
-        "P(2) = ₹20",
-        "P(2) = ₹25"
+        "P(2) = Rs.0",
+        "P(2) = Rs.15",
+        "P(2) = Rs.20",
+        "P(2) = Rs.25"
       ],
-      "correct": 1,
-      "explanation": "P(1)=30. Qs(2)=–100+20(30)=–100+600=500. Market clears: 500=500–10P(2) → 10P(2)=0 → P(2)=0? Let me recalculate: Qd(2)=500–10P(2); Qs(2)=500. Set equal: 500–10P(2)=500 → P(2)=0. Hmm. If Qs(2)=500: 500–10P(2)=500 → P(2)=0. Cobweb oscillation! P(1)=30→P(2)=0→extreme oscillation. Let me try: equilibrium: 500–10P=–100+20P → 600=30P → P*=20. At P(1)=30: Qs(2)=–100+600=500. 500=500–10P(2) → P(2)=0. Then Qs(3)=–100+0=–100<0 (no supply). Cobweb diverges."
+      "correct": 0,
+      "explanation": "Given P(1) = 30, supply in period 2 is Qs(2) = -100 + 20(30) = 500. Market clearing in period 2 requires 500 = 500 - 10P(2). Therefore P(2) = 0.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC05Q174",
@@ -2717,8 +2738,9 @@
         "Imports = 400 units",
         "Imports = 500 units"
       ],
-      "correct": 2,
-      "explanation": "Domestic P*: 1000–10P=200+5P → 800=15P → P*=53.33. World P=40 < P*=53.33 → country imports. At P=40: Qd=1000–400=600; Domestic Qs=200+200=400. Imports=Qd–Qs=600–400=200. Wait: 600–400=200. Hmm wait: Qs=200+5(40)=200+200=400. Imports=600–400=200. Correct: A (200 units)."
+      "correct": 0,
+      "explanation": "Autarky equilibrium price is found from 1000 - 10P = 200 + 5P, giving P* = 53.33. Since the world price Rs.40 is below domestic equilibrium price, the country imports. At P = 40, Qd = 600 and Qs = 400. Imports = 600 - 400 = 200 units.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC05Q182",
@@ -2743,12 +2765,13 @@
       "question": "Demand: Qd = 2000 – 30P; Supply: Qs = –400 + 50P. At equilibrium, the price elasticity of supply (PES) equals:",
       "options": [
         "PES = 1.0",
-        "PES = 1.5",
+        "PES = 1.36",
         "PES = 2.0",
         "PES = 2.5"
       ],
-      "correct": 2,
-      "explanation": "Equilibrium: 2000–30P=–400+50P → 2400=80P → P*=30. Q*=2000–900=1100. PES = (dQs/dP)×(P*/Q*) = 50×(30/1100) = 1500/1100 = 1.364. Closest: B (1.5). Actually: PES = 50×30/1100 = 1500/1100 ≈ 1.36. Closest option: B (1.5) approximately."
+      "correct": 1,
+      "explanation": "Equilibrium: 2000 - 30P = -400 + 50P, so P* = 30 and Q* = 1100. PES = (dQs/dP) x P/Q = 50 x 30/1100 = 1.36 approximately.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC05Q184",
@@ -2757,13 +2780,14 @@
       "difficulty": "difficult",
       "question": "In the 2022-23 onion export ban (India), the government effectively prevented onions from being sold at world price ₹35/kg, keeping domestic price at ₹20/kg (ceiling via export ban). Domestic Qd=500–8P; Qs=100+6P. What was the domestic surplus available for consumers?",
       "options": [
-        "At P=₹20: 340 units consumed",
-        "At P=₹20: 420 units consumed",
-        "At P=₹35: 220 units consumed",
-        "At P=₹20: 260 units consumed"
+        "At P=Rs.20: 340 units demanded",
+        "At P=Rs.20: 420 units consumed",
+        "At P=Rs.20: 220 units consumed",
+        "At P=Rs.20: 260 units consumed"
       ],
-      "correct": 1,
-      "explanation": "Export ban acts as price ceiling at ₹20 (domestic). Domestic P*: 500–8P=100+6P → 400=14P → P*≈28.57. At P=20 (below P*): Qd=500–160=340; Qs=100+120=220. Since Qs < Qd, only 220 units available domestically. BUT as no exports, all 220 units stay domestic. If question means units consumed=min(Qd,Qs): consumers get 220 units. Hmm. 340 is Qd, 220 is Qs. Consumers consume 220 (supply-limited) or 340 (if some comes from imports)?. Answer A says 340 consumed at P=20."
+      "correct": 2,
+      "explanation": "At P = 20, Qd = 500 - 8(20) = 340 and Qs = 100 + 6(20) = 220. Actual consumption is limited by available domestic supply, so consumers consume 220 units.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC05Q185",
@@ -2867,8 +2891,9 @@
         "Yes — but leaves 400 units of supply unsold",
         "No — supply exceeds rationed demand, creating surplus"
       ],
-      "correct": 4,
-      "explanation": "Equilibrium: 8000–200P=2000+100P → 6000=300P → P*=20. At ceiling P=18: Qd=8000–3600=4400; Qs=2000+1800=3800. Shortage=600. Rationed demand=2000 cardholders×2 units=4000. Qs=3800. Rationed demand (4000)>Qs(3800)→ still short by 200. Option B most appropriate. Actually: 2000×2=4000 < unrationed Qd=4400 → rationing reduces but doesn't eliminate shortage (3800 supply vs 4000 rationed demand → still 200 short). Correct: B."
+      "correct": 3,
+      "explanation": "Equilibrium: 8000–200P=2000+100P → 6000=300P → P*=20. At ceiling P=18: Qd=8000–3600=4400; Qs=2000+1800=3800. Shortage=600. Rationed demand=2000 cardholders×2 units=4000. Qs=3800. Rationed demand (4000)>Qs(3800)→ still short by 200. Option B most appropriate. Actually: 2000×2=4000 < unrationed Qd=4400 → rationing reduces but doesn't eliminate shortage (3800 supply vs 4000 rationed demand → still 200 short). Correct: B.",
+      "correct_original": 4
     },
     {
       "id": "EC05Q192",
@@ -2967,13 +2992,14 @@
       "difficulty": "difficult",
       "question": "Government analysis: Qd=10000–200P; Qs=4000+100P. At P*=20, Q*=6000. Government imposes ceiling at ₹16 and rations supply. A consumer's welfare = consumer surplus = area under demand curve above price paid, for quantities obtained. If only 4400 units available, and market-clearing black market price forms, what is total OFFICIAL CS (at price ₹16, for 4400 units)?",
       "options": [
-        "CS = ₹19,360",
-        "CS = ₹24,200",
-        "CS = ₹27,280",
-        "CS = ₹32,000"
+        "CS = Rs.19,360",
+        "CS = Rs.24,200",
+        "CS = Rs.27,280",
+        "CS = Rs.1,01,200"
       ],
-      "correct": 2,
-      "explanation": "At ceiling P=16: Qs=4000+1600=5600. Qd=10000–3200=6800. Shortage=1200. If only 4400 units available (assuming different supply scenario): Official CS = integral of demand – 16 from 0 to 4400. Demand: P=50–Q/200 (from Qd=10000–200P → P=(10000–Q)/200=50–Q/200). CS=integral from 0 to 4400 of (50–Q/200–16)dQ=integral of (34–Q/200)dQ=[34Q–Q²/400] from 0 to 4400=34(4400)–4400²/400=149600–48400=₹101,200. None match exactly."
+      "correct": 3,
+      "explanation": "Demand inverse is P = 50 - Q/200. Official price is Rs.16 and quantity obtained is 4,400. Consumer surplus = integral from 0 to 4,400 of (50 - Q/200 - 16)dQ = [34Q - Q^2/400] from 0 to 4,400 = Rs.1,01,200.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC05Q199",
@@ -2997,13 +3023,13 @@
       "difficulty": "difficult",
       "question": "Final synthesis question: Qd = 6000 – 80P; Qs = –1000 + 70P. Equilibrium established. Government imposes: (a) price ceiling at P_c = P* – ₹5, AND (b) per-unit subsidy of ₹s to producers to fully eliminate shortage. What is 's'?",
       "options": [
-        "s = ₹3.33",
-        "s = ₹4.50",
-        "s = ₹5.00",
-        "s = ₹6.67"
+        "s = Rs.3.33",
+        "s = Rs.4.50",
+        "s = Rs.5.00",
+        "s = Rs.10.71"
       ],
       "correct": 3,
-      "explanation": "P*: 6000–80P=–1000+70P → 7000=150P → P*=46.67. Ceiling P_c=41.67. At P_c=41.67: Qd=6000–80(41.67)=6000–3333=2667; Qs=–1000+70(41.67)=–1000+2917=1917. Shortage=750. To eliminate: Qs(P_c+s)=Qd at P_c: –1000+70(41.67+s)=2667 → 70(41.67+s)=3667 → 41.67+s=52.38 → s=10.71. Rounded: s≈₹10.71. Not matching options. Recalculating: s that sets Qs=Qd: –1000+70(41.67+s)=2667 → 70s=2667+1000–2917=750 → s=750/70≈10.71. None exactly match but closest is D(₹6.67) by alternative method if ceiling is closer to P*."
+      "explanation": "Equilibrium price is P* = 7000/150 = Rs.46.67, so the ceiling is P_c = Rs.41.67. At the ceiling, Qd = 2667 and Qs = 1917, so shortage = 750. A producer subsidy must increase supply by 750 units. Since supply slope is 70, 70s = 750 and s = Rs.10.71 approximately."
     }
   ]
 }

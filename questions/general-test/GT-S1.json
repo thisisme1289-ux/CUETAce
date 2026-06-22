@@ -92,8 +92,9 @@
         "Right to move freely throughout the territory of India",
         "Right to vote in Parliamentary elections"
       ],
-      "correct": 4,
-      "explanation": "Article 19 guarantees six freedoms to Indian citizens: (1) freedom of speech and expression, (2) peaceful assembly without arms, (3) form associations, (4) free movement throughout India, (5) reside and settle anywhere in India, and (6) practise any profession or carry on any occupation. The Right to Vote is a constitutional right under Article 326 but is NOT a Fundamental Right under Part III. It is a statutory right regulated by the Representation of the People Act. This distinction is critical — voting rights are legal/constitutional rights, not Fundamental Rights."
+      "correct": 3,
+      "explanation": "Article 19 guarantees six freedoms to Indian citizens: (1) freedom of speech and expression, (2) peaceful assembly without arms, (3) form associations, (4) free movement throughout India, (5) reside and settle anywhere in India, and (6) practise any profession or carry on any occupation. The Right to Vote is a constitutional right under Article 326 but is NOT a Fundamental Right under Part III. It is a statutory right regulated by the Representation of the People Act. This distinction is critical — voting rights are legal/constitutional rights, not Fundamental Rights.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q07",
@@ -333,7 +334,7 @@
         "55 and 26, combined = 81"
       ],
       "correct": 1,
-      "explanation": "Under Article 100(3), the quorum to constitute a sitting of either House of Parliament shall be one-tenth of the total membership. For Lok Sabha: 543 × (1/10) = 54.3, rounded up to 55 (since you cannot have a fraction of a member). For Rajya Sabha: 250 × (1/10) = 25 exactly. Combined quorum = 55 + 25 = 80. However, many sources cite Lok Sabha quorum as 55 (one-tenth of 543 rounded to nearest integer = 54.3 → 55) and Rajya Sabha as 25. Option A states 54 and 25 = 79, which would apply if we truncate rather than round up. The standard practice rounds up, giving 55 + 25 = 80, which matches option B. Given ambiguity, option B (55 and 25 = 80) is most defensible."
+      "explanation": "Under Article 100(3), the quorum to constitute a sitting of either House of Parliament is one-tenth of the total number of members of that House. For Lok Sabha: 543 x 1/10 = 54.3, so at least 55 members are required. For Rajya Sabha: 250 x 1/10 = 25 members. Combined quorum = 55 + 25 = 80. Option B is correct."
     },
     {
       "id": "GT-S1Q23",
@@ -452,8 +453,9 @@
         "Article 102 — disqualification for membership of Parliament",
         "The Scheduled Castes and the Scheduled Tribes Orders (Amendment) Act — relating to SC identity"
       ],
-      "correct": 4,
-      "explanation": "Reserved constituencies exist to ensure representation of Scheduled Castes/Tribes who face historical discrimination. If a person elected from a reserved constituency is found to not actually belong to the SC/ST community, their election is void under the Representation of People Act. However, the specific question here is about renouncing SC identity POST-election. The Supreme Court has held in cases like Kumari Madhuri Patil (1994) that SC/ST status is determined by birth, community recognition, and social ostracism — it cannot simply be 'renounced.' The Scheduled Castes and Tribes Orders (Amendment) Act and related caste certificate regulations govern de-recognition. Anti-Defection Law does not apply as this isn't a party membership issue. Options B and C are for separate disqualifications. Option D most directly addresses SC identity verification and its legal consequences."
+      "correct": 3,
+      "explanation": "Reserved constituencies exist to ensure representation of Scheduled Castes/Tribes who face historical discrimination. If a person elected from a reserved constituency is found to not actually belong to the SC/ST community, their election is void under the Representation of People Act. However, the specific question here is about renouncing SC identity POST-election. The Supreme Court has held in cases like Kumari Madhuri Patil (1994) that SC/ST status is determined by birth, community recognition, and social ostracism — it cannot simply be 'renounced.' The Scheduled Castes and Tribes Orders (Amendment) Act and related caste certificate regulations govern de-recognition. Anti-Defection Law does not apply as this isn't a party membership issue. Options B and C are for separate disqualifications. Option D most directly addresses SC identity verification and its legal consequences.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q31",
@@ -722,8 +724,9 @@
         "1, 2, 3 and 4 only",
         "All 1, 2, 3, 4 and 5"
       ],
-      "correct": 4,
-      "explanation": "The Supreme Court has identified numerous elements as part of the Basic Structure through various cases: (1) Supremacy of the Constitution (Kesavananda Bharati, 1973), (2) Republican and democratic form of government (Kesavananda Bharati), (3) Secularism (S.R. Bommai, 1994), (4) Federal character of the Constitution (Kesavananda Bharati), (5) Free and fair elections (Indira Nehru Gandhi v. Raj Narain, 1975). Other elements include: rule of law, judicial review, separation of powers, independence of judiciary, unity and integrity of India, welfare state, parliamentary democracy, individual freedoms, etc. All five statements in the question are correctly identified as Basic Structure elements, making option D (all five) correct."
+      "correct": 3,
+      "explanation": "The Supreme Court has identified numerous elements as part of the Basic Structure through various cases: (1) Supremacy of the Constitution (Kesavananda Bharati, 1973), (2) Republican and democratic form of government (Kesavananda Bharati), (3) Secularism (S.R. Bommai, 1994), (4) Federal character of the Constitution (Kesavananda Bharati), (5) Free and fair elections (Indira Nehru Gandhi v. Raj Narain, 1975). Other elements include: rule of law, judicial review, separation of powers, independence of judiciary, unity and integrity of India, welfare state, parliamentary democracy, individual freedoms, etc. All five statements in the question are correctly identified as Basic Structure elements, making option D (all five) correct.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q49",
@@ -842,8 +845,9 @@
         "9,00,000 per LS constituency; 5 VS segments per LS constituency",
         "12,00,000 per LS constituency; 4 VS segments per LS constituency"
       ],
-      "correct": 2,
-      "explanation": "Calculation: Total population = 3,60,00,000; Total Lok Sabha seats = 36. Average population per LS constituency = 3,60,00,000 ÷ 36 = 10,00,000 (10 lakh per LS seat). Number of Vidhan Sabha segments per LS constituency = Total VS constituencies ÷ Total LS constituencies = 180 ÷ 36 = 5 VS segments per LS constituency. This is consistent with the delimitation principle that each Lok Sabha constituency must be comprised of complete Vidhan Sabha segments — ensuring that VS segments nest perfectly within LS constituencies. Under the Delimitation Commission Act, this nesting principle is strictly maintained. Answer: 10,00,000 population per LS seat and 5 VS segments per LS constituency. Option B is correct."
+      "correct": 1,
+      "explanation": "Calculation: Total population = 3,60,00,000; Total Lok Sabha seats = 36. Average population per LS constituency = 3,60,00,000 ÷ 36 = 10,00,000 (10 lakh per LS seat). Number of Vidhan Sabha segments per LS constituency = Total VS constituencies ÷ Total LS constituencies = 180 ÷ 36 = 5 VS segments per LS constituency. This is consistent with the delimitation principle that each Lok Sabha constituency must be comprised of complete Vidhan Sabha segments — ensuring that VS segments nest perfectly within LS constituencies. Under the Delimitation Commission Act, this nesting principle is strictly maintained. Answer: 10,00,000 population per LS seat and 5 VS segments per LS constituency. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q57",
@@ -857,8 +861,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 2,
-      "explanation": "Both A and R are true. Article 75(2) states that the Prime Minister shall hold office during the pleasure of the President — so A is correct. However, Article 75(3) states that the Council of Ministers is collectively responsible to the Lok Sabha, and constitutional conventions require that the President acts only on the aid and advice of the Council of Ministers headed by the PM. The practical reality (R) is that the President cannot arbitrarily dismiss the PM — the PM must resign or be dismissed only when they lose the confidence of the Lok Sabha. But R does not EXPLAIN A — R actually explains a limitation on A. R is a separate factual statement about practice, not an explanatory cause of A. Both are true but R is not the correct explanation of A. Option B is correct."
+      "correct": 1,
+      "explanation": "Both A and R are true. Article 75(2) states that the Prime Minister shall hold office during the pleasure of the President — so A is correct. However, Article 75(3) states that the Council of Ministers is collectively responsible to the Lok Sabha, and constitutional conventions require that the President acts only on the aid and advice of the Council of Ministers headed by the PM. The practical reality (R) is that the President cannot arbitrarily dismiss the PM — the PM must resign or be dismissed only when they lose the confidence of the Lok Sabha. But R does not EXPLAIN A — R actually explains a limitation on A. R is a separate factual statement about practice, not an explanatory cause of A. Both are true but R is not the correct explanation of A. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q58",
@@ -962,8 +967,9 @@
         "133 votes",
         "125 votes"
       ],
-      "correct": 2,
-      "explanation": "Two conditions must BOTH be satisfied for a special majority: Condition 1: Two-thirds of members present and voting = 2/3 × 180 = 120. Condition 2: Majority of TOTAL membership = more than half of 250 = at least 126 (50% of 250 = 125, so more than 125 = 126 minimum). The amendment bill requires BOTH conditions to be satisfied simultaneously. Since 120 (2/3 of present+voting) is LESS than 126 (majority of total), the binding constraint is Condition 2. The minimum 'YES' votes needed = 126 (which simultaneously satisfies both: 126 > 120, so it also exceeds 2/3 of present+voting threshold). Answer: 126 votes minimum. Option B is correct."
+      "correct": 1,
+      "explanation": "Two conditions must BOTH be satisfied for a special majority: Condition 1: Two-thirds of members present and voting = 2/3 × 180 = 120. Condition 2: Majority of TOTAL membership = more than half of 250 = at least 126 (50% of 250 = 125, so more than 125 = 126 minimum). The amendment bill requires BOTH conditions to be satisfied simultaneously. Since 120 (2/3 of present+voting) is LESS than 126 (majority of total), the binding constraint is Condition 2. The minimum 'YES' votes needed = 126 (which simultaneously satisfies both: 126 > 120, so it also exceeds 2/3 of present+voting threshold). Answer: 126 votes minimum. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q65",
@@ -992,8 +998,9 @@
         "A joint sitting of Parliament must be called to resolve the disagreement on recommendations",
         "The bill lapses as it has been pending for more than 14 days"
       ],
-      "correct": 2,
-      "explanation": "Under Article 109, the procedure for Money Bills is: (1) Money Bill is introduced and passed ONLY in Lok Sabha. (2) It is sent to Rajya Sabha which can make recommendations but cannot amend or reject it. Rajya Sabha must return the bill within 14 days. (3) After Rajya Sabha returns the bill (with or without recommendations), Lok Sabha may accept or reject any/all recommendations. (4) The bill is then deemed to have been PASSED BY BOTH HOUSES — whether Lok Sabha accepts or rejects Rajya Sabha's recommendations. The bill is then presented to the President for assent. Rajya Sabha cannot force a joint sitting over a Money Bill (unlike ordinary bills under Article 108). The timeline shows Rajya Sabha returned it on Day 12 (within 14 days), so there is no lapse. Option B is correct."
+      "correct": 1,
+      "explanation": "Under Article 109, the procedure for Money Bills is: (1) Money Bill is introduced and passed ONLY in Lok Sabha. (2) It is sent to Rajya Sabha which can make recommendations but cannot amend or reject it. Rajya Sabha must return the bill within 14 days. (3) After Rajya Sabha returns the bill (with or without recommendations), Lok Sabha may accept or reject any/all recommendations. (4) The bill is then deemed to have been PASSED BY BOTH HOUSES — whether Lok Sabha accepts or rejects Rajya Sabha's recommendations. The bill is then presented to the President for assent. Rajya Sabha cannot force a joint sitting over a Money Bill (unlike ordinary bills under Article 108). The timeline shows Rajya Sabha returned it on Day 12 (within 14 days), so there is no lapse. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q67",
@@ -1112,8 +1119,9 @@
         "The CAG reports directly to the Prime Minister and submits audit reports to the Cabinet",
         "The CAG's report is submitted to both Houses of Parliament directly without Presidential transmission"
       ],
-      "correct": 2,
-      "explanation": "Under Article 148: (1) There shall be a CAG of India appointed by the President by warrant under his hand and seal. (2) The CAG shall be removed from office only in the same manner as a Judge of the Supreme Court (i.e., by an address of each House of Parliament supported by majority of total membership and 2/3rd majority of members present and voting, presented to the President). (3) The CAG's reports relating to the accounts of the Union shall be submitted to the President, who shall cause them to be laid before each House of Parliament (not directly to Parliament). (4) The CAG is independent of both the executive (not responsible to Finance Ministry) and Parliament (not appointed by Parliament). Option B is correct."
+      "correct": 1,
+      "explanation": "Under Article 148: (1) There shall be a CAG of India appointed by the President by warrant under his hand and seal. (2) The CAG shall be removed from office only in the same manner as a Judge of the Supreme Court (i.e., by an address of each House of Parliament supported by majority of total membership and 2/3rd majority of members present and voting, presented to the President). (3) The CAG's reports relating to the accounts of the Union shall be submitted to the President, who shall cause them to be laid before each House of Parliament (not directly to Parliament). (4) The CAG is independent of both the executive (not responsible to Finance Ministry) and Parliament (not appointed by Parliament). Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q75",
@@ -1202,8 +1210,9 @@
         "The Supreme Court must decide all disqualification cases under the Tenth Schedule",
         "Party X's petition fails because resignation from party before disqualification proceedings commence immunizes the member"
       ],
-      "correct": 2,
-      "explanation": "Under the Tenth Schedule, the Chairman of Rajya Sabha is the competent authority to decide disqualification petitions for Rajya Sabha members. Key principles: (1) The disqualification relates to conduct (voting against party whip) that occurred when the member was still in Party X — the subsequent resignation does not retroactively validate the whip violation. (2) 'Voluntarily giving up membership' (which triggers disqualification under Para 2(1)(a)) can be inferred from conduct — if the member voted against party whip AND then joined another party, the sequence of events can be considered evidence of giving up membership. (3) The Chairman has original jurisdiction to decide the petition. The Supreme Court reviews Chairman's decision only under Article 32 or Article 136 (judicial review), not as first instance. Option B is correct."
+      "correct": 1,
+      "explanation": "Under the Tenth Schedule, the Chairman of Rajya Sabha is the competent authority to decide disqualification petitions for Rajya Sabha members. Key principles: (1) The disqualification relates to conduct (voting against party whip) that occurred when the member was still in Party X — the subsequent resignation does not retroactively validate the whip violation. (2) 'Voluntarily giving up membership' (which triggers disqualification under Para 2(1)(a)) can be inferred from conduct — if the member voted against party whip AND then joined another party, the sequence of events can be considered evidence of giving up membership. (3) The Chairman has original jurisdiction to decide the petition. The Supreme Court reviews Chairman's decision only under Article 32 or Article 136 (judicial review), not as first instance. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q81",
@@ -1322,8 +1331,9 @@
         "Union of India v. Association for Democratic Reforms, 2002",
         "Subramanian Swamy v. Election Commission of India, 2013"
       ],
-      "correct": 1,
-      "explanation": "In People's Union for Civil Liberties (PUCL) v. Union of India (2013), the Supreme Court held that voters have a fundamental right to express disapproval of all candidates through the NOTA (None Of The Above) option. The court reasoned that the right to vote includes the right to reject, and providing NOTA would: (a) give voice to voters dissatisfied with all candidates, (b) encourage greater voter participation, (c) compel political parties to field better candidates. The ECI subsequently introduced NOTA in the November 2013 state assembly elections. Note that NOTA votes are counted but do not affect the election result — the candidate with the highest votes still wins even if NOTA gets more votes than individual candidates (though ECI has since revised this for local body elections in some states)."
+      "correct": 0,
+      "explanation": "In People’s Union for Civil Liberties (PUCL) v. Union of India (2013), the Supreme Court directed the Election Commission of India to provide the NOTA option on Electronic Voting Machines. The judgment recognised that voters should be able to register disapproval of all candidates while still participating in the election. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S1Q89",
@@ -1457,8 +1467,9 @@
         "The Court will dissolve the assembly and order fresh elections",
         "The Court will appoint a caretaker government until the dispute is resolved"
       ],
-      "correct": 2,
-      "explanation": "Based on the S.R. Bommai v. Union of India (1994) principles and subsequent case law (including Shivraj Singh Chouhan v. Speaker, Madhya Pradesh Assembly, 2020), the Supreme Court has consistently held: (1) The floor of the Assembly is the only place to test majority. (2) Governors cannot use subjective satisfaction to bypass clear electoral mandates. (3) When there is a clear single largest party, the Governor should invite them to form government. (4) Gubernatorial actions in government formation are subject to judicial review. In Goa Governor case and similar situations, the Supreme Court has directed governors to invite the single largest pre-poll alliance/party and has set tight deadlines for floor tests. The Court cannot dissolve assemblies or appoint caretakers — those are not within judicial power. Option B is correct."
+      "correct": 1,
+      "explanation": "Based on the S.R. Bommai v. Union of India (1994) principles and subsequent case law (including Shivraj Singh Chouhan v. Speaker, Madhya Pradesh Assembly, 2020), the Supreme Court has consistently held: (1) The floor of the Assembly is the only place to test majority. (2) Governors cannot use subjective satisfaction to bypass clear electoral mandates. (3) When there is a clear single largest party, the Governor should invite them to form government. (4) Gubernatorial actions in government formation are subject to judicial review. In Goa Governor case and similar situations, the Supreme Court has directed governors to invite the single largest pre-poll alliance/party and has set tight deadlines for floor tests. The Court cannot dissolve assemblies or appoint caretakers — those are not within judicial power. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q98",
@@ -1607,8 +1618,9 @@
         "I-B, II-D, III-C, IV-A",
         "I-C, II-D, III-B, IV-A"
       ],
-      "correct": 1,
-      "explanation": "Correct matching: I. Removal of Vice-President (Article 67): By a resolution of the Rajya Sabha passed by a majority of ALL THEN MEMBERS (effective majority = majority of total then-membership, not nominal strength) and agreed to by Lok Sabha — this is an effective majority = B. II. Constitutional Amendment (most articles under Article 368): Requires 2/3rd of members present and voting AND majority of total membership = Special majority = D. III. Removal of Speaker (Article 94): By a resolution of Lok Sabha 'passed by a majority of all the then members' — This is effective majority (majority of total then-membership), not mere simple majority = B. Wait — both Speaker removal and VP removal require effective majority. Let me reconsider: Actually Speaker removal also requires effective majority. Given the options, I-B, II-D, III-B, IV-A (Option A) is closest, but III could also be B. Option A (I-B, II-D, III-B, IV-A) correctly matches all four. Note: 'Effective majority' = majority of total actual strength (vacancies excluded)."
+      "correct": 0,
+      "explanation": "Removal of the Vice-President under Article 67 requires a Rajya Sabha resolution passed by a majority of all the then members and agreed to by the Lok Sabha, so I matches B. Most constitutional amendments under Article 368 require a special majority, so II matches D. Removal of the Speaker under Article 94 also requires a majority of all the then members of the Lok Sabha, so III matches B. Ordinary bills require a simple majority of members present and voting, so IV matches A. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S1Q108",
@@ -1652,8 +1664,9 @@
         "The hour when Parliament votes on the budget",
         "The period when the President addresses Parliament"
       ],
-      "correct": 2,
-      "explanation": "The Zero Hour is an informal parliamentary device used in the Indian Parliament. It starts at 12 noon (hence 'zero hour' — the time between morning session questions and the day's listed business). During Zero Hour, members can raise matters of urgent public importance without prior notice to the Speaker. This is an Indian innovation — it does not exist in the British Parliament from where many Indian parliamentary conventions were borrowed. The term was coined in the early 1960s. Zero Hour typically lasts 1 hour and is preceded by Question Hour (11 AM to 12 noon). It gives opposition members a platform to raise urgent issues that cannot wait for scheduled debate time. There are no formal rules governing Zero Hour in the Rules of Procedure."
+      "correct": 1,
+      "explanation": "Zero Hour is an informal parliamentary device in India, usually beginning at 12 noon after Question Hour. During this period, members may raise urgent matters of public importance without prior notice to the Speaker. It is an Indian parliamentary innovation and is not formally provided in the Rules of Procedure. Option B is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "GT-S1Q111",
@@ -1682,8 +1695,9 @@
         "1, 3 and 5 only",
         "1 and 3 only"
       ],
-      "correct": 1,
-      "explanation": "Statement 1 — INCORRECT: Not all states need to have a Vidhan Parishad. Only 6 states currently have it (Andhra Pradesh, Telangana, Karnataka, Maharashtra, Bihar, UP). It is optional. Statement 2 — CORRECT: Under Article 169, Parliament can create or abolish a state legislative council if the state's Vidhan Sabha passes a resolution to that effect by a special majority (majority of total membership + 2/3rd of present and voting). Statement 3 — CORRECT: Members serve 6-year terms. Statement 4 — CORRECT: The minimum strength is 40 members (unless Parliament provides otherwise). Maximum is 1/3rd of total Vidhan Sabha members. Statement 5 — INCORRECT: Even in states with both Houses, the Council of Ministers is responsible ONLY to the Legislative Assembly (Vidhan Sabha), NOT to the Council (Vidhan Parishad). This is similar to the Central government being responsible only to Lok Sabha. Hence Statements 1 and 5 are incorrect — Option A is correct."
+      "correct": 0,
+      "explanation": "Statement 1 — INCORRECT: Not all states need to have a Vidhan Parishad. Only 6 states currently have it (Andhra Pradesh, Telangana, Karnataka, Maharashtra, Bihar, UP). It is optional. Statement 2 — CORRECT: Under Article 169, Parliament can create or abolish a state legislative council if the state's Vidhan Sabha passes a resolution to that effect by a special majority (majority of total membership + 2/3rd of present and voting). Statement 3 — CORRECT: Members serve 6-year terms. Statement 4 — CORRECT: The minimum strength is 40 members (unless Parliament provides otherwise). Maximum is 1/3rd of total Vidhan Sabha members. Statement 5 — INCORRECT: Even in states with both Houses, the Council of Ministers is responsible ONLY to the Legislative Assembly (Vidhan Sabha), NOT to the Council (Vidhan Parishad). This is similar to the Central government being responsible only to Lok Sabha. Hence Statements 1 and 5 are incorrect — Option A is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "GT-S1Q113",
@@ -1952,8 +1966,9 @@
         "President by a public notification after consulting the concerned State Government and the National Commission for Scheduled Castes",
         "Parliament by a constitutional amendment to the Presidential Order"
       ],
-      "correct": 4,
-      "explanation": "The listing of castes as Scheduled Castes is governed by Article 341 of the Constitution. Under Article 341(1), the President may, after consultation with the Governor of the State concerned, by public notification, specify the castes, races, tribes or parts of or groups within castes, races or tribes which shall be deemed to be SCs in relation to that State. This is the initial Presidential specification. Critically, under Article 341(2), Parliament may by LAW include in or exclude from the list of SCs any caste, race, tribe, etc. — meaning any modification to the Presidential Order requires an ACT OF PARLIAMENT (not a mere amendment to the Presidential Order by executive action). Therefore, additions to the SC list require Parliament to pass a law. Option D (Parliament by constitutional amendment to the Presidential Order) — technically it's a Parliament Act, not a constitutional amendment per se. The answer is that Parliament must legislate to modify the SC list."
+      "correct": 3,
+      "explanation": "The listing of castes as Scheduled Castes is governed by Article 341 of the Constitution. Under Article 341(1), the President may, after consultation with the Governor of the State concerned, by public notification, specify the castes, races, tribes or parts of or groups within castes, races or tribes which shall be deemed to be SCs in relation to that State. This is the initial Presidential specification. Critically, under Article 341(2), Parliament may by LAW include in or exclude from the list of SCs any caste, race, tribe, etc. — meaning any modification to the Presidential Order requires an ACT OF PARLIAMENT (not a mere amendment to the Presidential Order by executive action). Therefore, additions to the SC list require Parliament to pass a law. Option D (Parliament by constitutional amendment to the Presidential Order) — technically it's a Parliament Act, not a constitutional amendment per se. The answer is that Parliament must legislate to modify the SC list.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q131",
@@ -1967,8 +1982,9 @@
         "Ordinances cannot override existing state laws; only Acts of Parliament can override State laws on Concurrent List subjects",
         "The company's challenge will succeed because an ordinance is only temporary and cannot override permanent state legislation"
       ],
-      "correct": 2,
-      "explanation": "An Ordinance promulgated by the President under Article 123 has the same force and effect as an Act of Parliament (Article 123(2)). Since it has the same force as a Parliamentary Act, the same rule under Article 254 applies: when a Central law (including an ordinance) on a Concurrent List subject is repugnant to a State law, the Central law (ordinance) prevails, and the State law is void to the extent of repugnancy. The temporary nature of an ordinance does not affect its legal force during its operation period. Option C incorrectly distinguishes between Acts and Ordinances for Article 254 purposes. Option D incorrectly suggests temporary nature prevents override. Article 123(2) explicitly equates an ordinance with an Act of Parliament for purposes of force and effect. Option B is correct."
+      "correct": 1,
+      "explanation": "An Ordinance promulgated by the President under Article 123 has the same force and effect as an Act of Parliament (Article 123(2)). Since it has the same force as a Parliamentary Act, the same rule under Article 254 applies: when a Central law (including an ordinance) on a Concurrent List subject is repugnant to a State law, the Central law (ordinance) prevails, and the State law is void to the extent of repugnancy. The temporary nature of an ordinance does not affect its legal force during its operation period. Option C incorrectly distinguishes between Acts and Ordinances for Article 254 purposes. Option D incorrectly suggests temporary nature prevents override. Article 123(2) explicitly equates an ordinance with an Act of Parliament for purposes of force and effect. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q132",
@@ -2147,8 +2163,9 @@
         "Delimitation is done by Parliament through a constitutional amendment to the Representation of People Act every 10 years",
         "The Supreme Court delimits constituencies through court-ordered surveys to ensure equal representation"
       ],
-      "correct": 2,
-      "explanation": "Under Article 82 (for Lok Sabha) and Article 170 (for State Legislatures), the delimitation of constituencies is to be undertaken after each census. A DELIMITATION COMMISSION is constituted by Parliament under the Delimitation Act. Key features: (1) The Commission is headed by a retired Supreme Court judge. (2) Members include the Chief Election Commissioner and State Election Commissioners of concerned states. (3) The Delimitation Commission's orders have the force of law and ARE FINAL — they CANNOT be called in question in any court (Section 10(2) of Delimitation Act and Article 329 of the Constitution). (4) The last full delimitation was done by the Delimitation Commission of 2002 (based on 2001 Census). The next delimitation exercise is expected after the first census post-2026 (frozen by the 84th Amendment). Option B is correct."
+      "correct": 1,
+      "explanation": "Under Article 82 (for Lok Sabha) and Article 170 (for State Legislatures), the delimitation of constituencies is to be undertaken after each census. A DELIMITATION COMMISSION is constituted by Parliament under the Delimitation Act. Key features: (1) The Commission is headed by a retired Supreme Court judge. (2) Members include the Chief Election Commissioner and State Election Commissioners of concerned states. (3) The Delimitation Commission's orders have the force of law and ARE FINAL — they CANNOT be called in question in any court (Section 10(2) of Delimitation Act and Article 329 of the Constitution). (4) The last full delimitation was done by the Delimitation Commission of 2002 (based on 2001 Census). The next delimitation exercise is expected after the first census post-2026 (frozen by the 84th Amendment). Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q144",
@@ -2162,8 +2179,9 @@
         "Charging a person for an offence that was not a crime when committed",
         "Both B and C violate constitutional rights while A does not"
       ],
-      "correct": 4,
-      "explanation": "Action A — Arresting on suspicion and detaining for 24 hours is WITHIN constitutional limits under Article 22(2) (must be produced within 24 hours) — this is not a violation as long as they are produced within 24 hours. Action B — Detaining for 48 HOURS without production before a magistrate violates Article 22(2) which requires production within 24 hours of arrest. Not informing the person of grounds of arrest violates Article 22(1). Action B is clearly unconstitutional. Action C — Charging a person for an act that was not a crime when committed violates Article 20(1) — the prohibition against ex post facto criminal laws. No person shall be convicted of any offence except for violation of law in force at the time of commission. Action C is unconstitutional. Therefore, both B and C violate constitutional rights while A does not. Option D is correct."
+      "correct": 3,
+      "explanation": "Action A — Arresting on suspicion and detaining for 24 hours is WITHIN constitutional limits under Article 22(2) (must be produced within 24 hours) — this is not a violation as long as they are produced within 24 hours. Action B — Detaining for 48 HOURS without production before a magistrate violates Article 22(2) which requires production within 24 hours of arrest. Not informing the person of grounds of arrest violates Article 22(1). Action B is clearly unconstitutional. Action C — Charging a person for an act that was not a crime when committed violates Article 20(1) — the prohibition against ex post facto criminal laws. No person shall be convicted of any offence except for violation of law in force at the time of commission. Action C is unconstitutional. Therefore, both B and C violate constitutional rights while A does not. Option D is correct.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q145",
@@ -2207,8 +2225,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is INCORRECT. The CVC is NOT a constitutional body. It was set up initially by a Government of India resolution in 1964 (on the recommendations of the Santhanam Committee on Prevention of Corruption). It was given STATUTORY status by the Central Vigilance Commission Act, 2003 — not constitutional status. Article 279A of the Constitution deals with the GST Council (inserted by the 101st Amendment, 2016), not the CVC. Reason R is CORRECT — the CVC was indeed granted statutory status by the CVC Act, 2003. It is broadly independent of the executive in its functioning but does not 'report directly to Parliament' in the same sense as the CAG — it submits its annual report to the President, who causes it to be laid before Parliament. Since A is incorrect but R (with some nuance) is factually accurate about CVC's statutory status, Option D (A is false, R is true) is correct."
+      "correct": 3,
+      "explanation": "Assertion A is INCORRECT. The CVC is NOT a constitutional body. It was set up initially by a Government of India resolution in 1964 (on the recommendations of the Santhanam Committee on Prevention of Corruption). It was given STATUTORY status by the Central Vigilance Commission Act, 2003 — not constitutional status. Article 279A of the Constitution deals with the GST Council (inserted by the 101st Amendment, 2016), not the CVC. Reason R is CORRECT — the CVC was indeed granted statutory status by the CVC Act, 2003. It is broadly independent of the executive in its functioning but does not 'report directly to Parliament' in the same sense as the CAG — it submits its annual report to the President, who causes it to be laid before Parliament. Since A is incorrect but R (with some nuance) is factually accurate about CVC's statutory status, Option D (A is false, R is true) is correct.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q148",
@@ -2297,8 +2316,9 @@
         "Quasi-judicial power — reviewable by courts (SC/HC) under Articles 32 and 226, though courts normally wait till the final decision by the Speaker",
         "Legislative power — exercised as part of parliamentary sovereignty and immune from all judicial review"
       ],
-      "correct": 3,
-      "explanation": "The Speaker's power under the Tenth Schedule to decide disqualification petitions is a quasi-judicial power. Key aspects: (1) The Speaker acts as a tribunal under the Tenth Schedule. (2) Courts (SC and HC) can review the Speaker's decision, but courts follow the principle of judicial restraint — they normally wait for the Speaker to give the final decision before exercising judicial review. (3) Article 212 creates a bar on court interference in parliamentary proceedings, but the Speaker's Tenth Schedule decision is not a 'proceedings of Parliament' per se — it is a statutory/constitutional adjudicatory function. (4) Courts have intervened when there are inordinate delays by the Speaker in deciding petitions (Subhash Desai v. Governor of Maharashtra, 2023; Manipur Speaker case, 2023 where SC set deadlines for Speaker to decide). Option C is most accurate."
+      "correct": 2,
+      "explanation": "The Speaker's power under the Tenth Schedule to decide disqualification petitions is quasi-judicial. The Speaker acts as a tribunal for anti-defection matters, and the decision is subject to judicial review by the Supreme Court and High Courts under Articles 32 and 226. Courts generally exercise review after the Speaker gives a final decision, though they may intervene in cases of unreasonable delay. Option C is correct.",
+      "correct_content_review_original": 3
     },
     {
       "id": "GT-S1Q154",
@@ -2372,8 +2392,9 @@
         "3, 4 and 5 only",
         "None — all are correct"
       ],
-      "correct": 2,
-      "explanation": "Statement 1 — CORRECT: Article 312 allows RS to pass a resolution by 2/3rd enabling Parliament to create All India Services. Statement 2 — CORRECT: Article 249 allows RS to pass a resolution by 2/3rd enabling Parliament to legislate on State List subjects in national interest for 1 year. Statement 3 — CORRECT: Under Article 109, RS can only delay Money Bills for 14 days (recommend amendments which LS may accept/reject) but cannot reject them. Statement 4 — CORRECT: Under Article 352(6), an Emergency can be approved by Rajya Sabha alone if Lok Sabha is dissolved (RS sitting continues). Statement 5 — INCORRECT: Constitutional amendments affecting federal provisions require ratification by at least HALF of ALL STATE LEGISLATURES, not Rajya Sabha alone. While RS does vote on the amendment bill with special majority, it alone cannot 'ratify' federal amendments — state legislatures are the ratifying bodies. Only Statement 5 is incorrectly stated. Option B is correct."
+      "correct": 1,
+      "explanation": "Statement 1 — CORRECT: Article 312 allows RS to pass a resolution by 2/3rd enabling Parliament to create All India Services. Statement 2 — CORRECT: Article 249 allows RS to pass a resolution by 2/3rd enabling Parliament to legislate on State List subjects in national interest for 1 year. Statement 3 — CORRECT: Under Article 109, RS can only delay Money Bills for 14 days (recommend amendments which LS may accept/reject) but cannot reject them. Statement 4 — CORRECT: Under Article 352(6), an Emergency can be approved by Rajya Sabha alone if Lok Sabha is dissolved (RS sitting continues). Statement 5 — INCORRECT: Constitutional amendments affecting federal provisions require ratification by at least HALF of ALL STATE LEGISLATURES, not Rajya Sabha alone. While RS does vote on the amendment bill with special majority, it alone cannot 'ratify' federal amendments — state legislatures are the ratifying bodies. Only Statement 5 is incorrectly stated. Option B is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "GT-S1Q159",
@@ -2492,8 +2513,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is INCORRECT. There is no constitutional or legal requirement that a Rajya Sabha member must continue to reside in the state from which they were elected throughout their term. Once elected, a Rajya Sabha member does not lose their seat if they change their residence or domicile to another state. Reason R is PARTIALLY CORRECT but needs nuancing: Under the Representation of the People Act (as amended by the RP (Amendment) Act, 2003), a candidate for Rajya Sabha must be an elector in ANY state/UT in India — NOT necessarily the state from which they are contesting. The 2003 Amendment removed the requirement that the candidate must be an elector from the specific state. Therefore, even the reason (stating one must be an elector in the specific state) is now partially inaccurate. However, A is definitively false — there is no continuing residency requirement for Rajya Sabha members. A is false but R has partial accuracy about the QUALIFICATION. Option D (A is false, R is true) is closest, but R itself needs qualification."
+      "correct": 3,
+      "explanation": "Assertion A is INCORRECT. There is no constitutional or legal requirement that a Rajya Sabha member must continue to reside in the state from which they were elected throughout their term. Once elected, a Rajya Sabha member does not lose their seat if they change their residence or domicile to another state. Reason R is PARTIALLY CORRECT but needs nuancing: Under the Representation of the People Act (as amended by the RP (Amendment) Act, 2003), a candidate for Rajya Sabha must be an elector in ANY state/UT in India — NOT necessarily the state from which they are contesting. The 2003 Amendment removed the requirement that the candidate must be an elector from the specific state. Therefore, even the reason (stating one must be an elector in the specific state) is now partially inaccurate. However, A is definitively false — there is no continuing residency requirement for Rajya Sabha members. A is false but R has partial accuracy about the QUALIFICATION. Option D (A is false, R is true) is closest, but R itself needs qualification.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q167",
@@ -2537,8 +2559,9 @@
         "The Prime Minister of India",
         "The Speaker of Lok Sabha"
       ],
-      "correct": 3,
-      "explanation": "The Inter-State Council (ISC) was established in 1990 under Article 263 of the Constitution, following the recommendations of the Sarkaria Commission (1988). The ISC is constituted by the President through an executive order under Article 263. The ISC is CHAIRED BY THE PRIME MINISTER of India. Members include: (1) Chief Ministers of all states, (2) Chief Ministers of Union Territories having legislatures, (3) Administrators of UTs without legislatures, (4) 6 Union Cabinet Ministers nominated by the Prime Minister. The ISC meets periodically to discuss matters of common interest between the Union and States and to make recommendations for better co-ordination of policies. It is a consultative body for cooperative federalism. The President establishes it but the PM chairs it — Option C is correct."
+      "correct": 2,
+      "explanation": "The Inter-State Council (ISC) was established in 1990 under Article 263 of the Constitution, following the recommendations of the Sarkaria Commission (1988). The ISC is constituted by the President through an executive order under Article 263. The ISC is CHAIRED BY THE PRIME MINISTER of India. Members include: (1) Chief Ministers of all states, (2) Chief Ministers of Union Territories having legislatures, (3) Administrators of UTs without legislatures, (4) 6 Union Cabinet Ministers nominated by the Prime Minister. The ISC meets periodically to discuss matters of common interest between the Union and States and to make recommendations for better co-ordination of policies. It is a consultative body for cooperative federalism. The President establishes it but the PM chairs it — Option C is correct.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "GT-S1Q170",
@@ -2687,8 +2710,9 @@
         "450 Articles and 10 Schedules",
         "395 original Articles with additional articles inserted, totalling 470+ numbered articles, and 12 Schedules"
       ],
-      "correct": 4,
-      "explanation": "The original Constitution of India (1949) had 395 Articles and 8 Schedules. Over time, through 106 amendments: (1) New articles have been inserted (like 21A, 31A, 31B, 31C, 38A, 43A, 43B, 48A, 51A, 246A, 269A, 279A, 300A, 338B, 342A, etc.), increasing the total number of articles to approximately 470+ (numbered as original articles with sub-articles like 21A between 21 and 22). (2) Several articles have also been OMITTED (like Articles 31, 19(1)(f), 370(3) etc.). (3) Four Schedules were added — 9th (1st Amendment), 10th (52nd Amendment), 11th (73rd Amendment), and 12th (74th Amendment) — making the total 12 Schedules. The correct current status is approximately 470+ Articles (original numbering retained with insertions as sub-articles) and 12 Schedules. Option D most accurately describes this."
+      "correct": 3,
+      "explanation": "The original Constitution of India (1949) had 395 Articles and 8 Schedules. Over time, through 106 amendments: (1) New articles have been inserted (like 21A, 31A, 31B, 31C, 38A, 43A, 43B, 48A, 51A, 246A, 269A, 279A, 300A, 338B, 342A, etc.), increasing the total number of articles to approximately 470+ (numbered as original articles with sub-articles like 21A between 21 and 22). (2) Several articles have also been OMITTED (like Articles 31, 19(1)(f), 370(3) etc.). (3) Four Schedules were added — 9th (1st Amendment), 10th (52nd Amendment), 11th (73rd Amendment), and 12th (74th Amendment) — making the total 12 Schedules. The correct current status is approximately 470+ Articles (original numbering retained with insertions as sub-articles) and 12 Schedules. Option D most accurately describes this.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q180",
@@ -2777,8 +2801,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is INCORRECT. The Indian Constitution does NOT guarantee freedom of press as a SPECIFIC Fundamental Right. Unlike the First Amendment to the US Constitution which explicitly mentions 'freedom of the press,' the Indian Constitution's Article 19(1)(a) mentions only 'freedom of speech and expression' — there is no specific mention of press freedom. Reason R is CORRECT. The Supreme Court has indeed held, through a series of judgments (including Express Newspapers Ltd. v. Union of India, 1958 and Indian Express Newspapers v. Union of India, 1985), that freedom of the press and media is an essential component of the freedom of speech and expression guaranteed by Article 19(1)(a). The court reasoned that press freedom is derivative of free speech — since the press is one of the primary means of expression, its freedom is protected within Article 19(1)(a). A is false (no specific explicit FR for press), R is true (judicial recognition as component of 19(1)(a)). Option D is correct."
+      "correct": 3,
+      "explanation": "Assertion A is INCORRECT. The Indian Constitution does NOT guarantee freedom of press as a SPECIFIC Fundamental Right. Unlike the First Amendment to the US Constitution which explicitly mentions 'freedom of the press,' the Indian Constitution's Article 19(1)(a) mentions only 'freedom of speech and expression' — there is no specific mention of press freedom. Reason R is CORRECT. The Supreme Court has indeed held, through a series of judgments (including Express Newspapers Ltd. v. Union of India, 1958 and Indian Express Newspapers v. Union of India, 1985), that freedom of the press and media is an essential component of the freedom of speech and expression guaranteed by Article 19(1)(a). The court reasoned that press freedom is derivative of free speech — since the press is one of the primary means of expression, its freedom is protected within Article 19(1)(a). A is false (no specific explicit FR for press), R is true (judicial recognition as component of 19(1)(a)). Option D is correct.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q186",
@@ -2837,8 +2862,9 @@
         "Being a member of a foreign organization without government permission",
         "There is no specific disqualification for party membership — only for election as MP/MLA"
       ],
-      "correct": 4,
-      "explanation": "The Representation of the People Act, 1951 (RPA) prescribes disqualifications for CONTESTING elections (as a candidate) and for being a MEMBER of Parliament or State Legislature — not specifically for being a 'member of a political party.' The RPA Section 8 deals with conviction-based disqualifications for candidates. Section 9 deals with disqualification for corruption or disloyalty. Section 9A deals with disqualification for government contracts. However, these are disqualifications from contesting elections or being a member of Parliament/State Legislature, not from being a member of a political party per se. Political party membership and disqualification from such membership is governed by the party's own constitution/rules and the Tenth Schedule (which deals with disqualification from Parliamentary/Assembly membership due to defection). Option D correctly identifies that the RPA doesn't separately govern party membership disqualifications."
+      "correct": 3,
+      "explanation": "The Representation of the People Act, 1951 (RPA) prescribes disqualifications for CONTESTING elections (as a candidate) and for being a MEMBER of Parliament or State Legislature — not specifically for being a 'member of a political party.' The RPA Section 8 deals with conviction-based disqualifications for candidates. Section 9 deals with disqualification for corruption or disloyalty. Section 9A deals with disqualification for government contracts. However, these are disqualifications from contesting elections or being a member of Parliament/State Legislature, not from being a member of a political party per se. Political party membership and disqualification from such membership is governed by the party's own constitution/rules and the Tenth Schedule (which deals with disqualification from Parliamentary/Assembly membership due to defection). Option D correctly identifies that the RPA doesn't separately govern party membership disqualifications.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q190",
@@ -2897,8 +2923,9 @@
         "(a) 272; (b) 267; binding = 272",
         "(a) 268; (b) 267; binding = 267"
       ],
-      "correct": 1,
-      "explanation": "Under Article 352(6), approval of Emergency requires: Condition 1: Majority of TOTAL MEMBERSHIP of each House. Total Lok Sabha membership = 543 (vacancies don't reduce 'total membership' for this purpose — it is the full constitutional strength of 543). Majority of 543 = more than 271.5 = at least 272. WAIT — many constitutional scholars interpret 'total membership' as seats filled (535 here), not constitutional strength (543). If 535: majority = 268. Convention and most SC interpretations use the total filled-in membership or the constitutional strength. Using 543: majority = 272. Using 535 (actual members): majority = 268. Condition 2: 2/3rd of members PRESENT AND VOTING. 2/3 × 400 = 266.67 = at least 267 votes. Binding condition: BOTH conditions must be satisfied simultaneously, so the higher of the two applies. If majority of total = 272 (using 543): binding = 272. If majority of total = 268 (using 535): binding = 268. Given Option A states 268 and 267 → 268 binds, which uses the 'filled membership' interpretation (535), Option A's logic is internally consistent."
+      "correct": 2,
+      "explanation": "Approval of a National Emergency under Article 352 requires both: a majority of the total membership of each House and at least two-thirds of members present and voting. For Lok Sabha total membership of 543, the majority requirement is more than 271.5, so at least 272 yes votes are needed. Two-thirds of 400 present and voting = 266.67, so at least 267 yes votes are needed. Both conditions must be met, so the binding minimum is the higher figure: 272. Option C is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "GT-S1Q194",
@@ -2957,8 +2984,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "Assertion A is INCORRECT. Parliament does NOT exercise unlimited legislative sovereignty in India. Indian parliamentary sovereignty is QUALIFIED/LIMITED by: (1) Judicial review — courts can strike down legislation violating Fundamental Rights or constitutional provisions. (2) Federal distribution — Parliament cannot ordinarily legislate on State List subjects. (3) Basic Structure Doctrine — even constitutional amendments are limited. (4) Presidential assent requirements. (5) Emergency controls on Parliament's own life. This is fundamentally different from the British Parliament which has absolute parliamentary sovereignty. Reason R is CORRECT — it accurately describes the SPECIFIC circumstances and powers Parliament DOES have: ordinary jurisdiction over Union and Concurrent Lists, and conditional jurisdiction over State List (under Articles 249, 250, 252, 253), and residuary powers. However, R describes Parliament's ACTUAL powers — not unlimited power as A claims. A is false but R accurately describes Parliament's constitutional powers. Option D is correct."
+      "correct": 3,
+      "explanation": "Assertion A is INCORRECT. Parliament does NOT exercise unlimited legislative sovereignty in India. Indian parliamentary sovereignty is QUALIFIED/LIMITED by: (1) Judicial review — courts can strike down legislation violating Fundamental Rights or constitutional provisions. (2) Federal distribution — Parliament cannot ordinarily legislate on State List subjects. (3) Basic Structure Doctrine — even constitutional amendments are limited. (4) Presidential assent requirements. (5) Emergency controls on Parliament's own life. This is fundamentally different from the British Parliament which has absolute parliamentary sovereignty. Reason R is CORRECT — it accurately describes the SPECIFIC circumstances and powers Parliament DOES have: ordinary jurisdiction over Union and Concurrent Lists, and conditional jurisdiction over State List (under Articles 249, 250, 252, 253), and residuary powers. However, R describes Parliament's ACTUAL powers — not unlimited power as A claims. A is false but R accurately describes Parliament's constitutional powers. Option D is correct.",
+      "correct_original": 4
     },
     {
       "id": "GT-S1Q198",

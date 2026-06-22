@@ -1,0 +1,1600 @@
+{
+  "generated_at": "2026-06-09T17:36:27.629Z",
+  "duplicate_threshold": 0.84,
+  "possible_duplicate_threshold": 0.68,
+  "totals": {
+    "generated_questions": 11430,
+    "past_year_questions": 3698,
+    "past_year_ready_questions": 1325,
+    "blocked_until_source_review": 2373,
+    "covered_by_generated_bank": 1,
+    "possible_duplicates": 5,
+    "add_candidates": 1319
+  },
+  "by_subject": {
+    "Accountancy": {
+      "past_year_questions": 901,
+      "ready_questions": 110,
+      "blocked_until_source_review": 791,
+      "covered_by_generated_bank": 1,
+      "possible_duplicates": 1,
+      "add_candidates": 108
+    },
+    "Business Studies": {
+      "past_year_questions": 676,
+      "ready_questions": 320,
+      "blocked_until_source_review": 356,
+      "covered_by_generated_bank": 0,
+      "possible_duplicates": 0,
+      "add_candidates": 320
+    },
+    "Economics": {
+      "past_year_questions": 752,
+      "ready_questions": 242,
+      "blocked_until_source_review": 510,
+      "covered_by_generated_bank": 0,
+      "possible_duplicates": 4,
+      "add_candidates": 238
+    },
+    "English": {
+      "past_year_questions": 580,
+      "ready_questions": 486,
+      "blocked_until_source_review": 94,
+      "covered_by_generated_bank": 0,
+      "possible_duplicates": 0,
+      "add_candidates": 486
+    },
+    "General Test": {
+      "past_year_questions": 789,
+      "ready_questions": 167,
+      "blocked_until_source_review": 622,
+      "covered_by_generated_bank": 0,
+      "possible_duplicates": 0,
+      "add_candidates": 167
+    }
+  },
+  "covered_by_generated_bank": [
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "subject_code": "301",
+      "kind": "individual-pdf",
+      "json_path": "past year paper/2023/accountancy/json/individual-pdfs/2023-accountancy-02-solutions.json",
+      "question_id": "301-2023-2023-accountancy-02-solutions-Q13",
+      "type": "mcq",
+      "correct": 1,
+      "prompt_preview": "The need of codification is :",
+      "option_previews": [
+        "To secure the account, reports etc.",
+        "Easy to process data, keeping proper records",
+        "The encryption of data",
+        "The generation of mnemonic code 12"
+      ],
+      "best_match_score": 1,
+      "best_match_id": "301-2025-Q12",
+      "best_match_path": "questions/2025-questions.json",
+      "best_match_prompt_preview": "The need for Codification is",
+      "status": "covered_by_generated_bank",
+      "recommended_action": "do_not_add_duplicate_without_subject_review"
+    }
+  ],
+  "possible_duplicates": [
+    {
+      "year": "2024",
+      "subject": "Economics",
+      "subject_code": "309",
+      "kind": "individual-pdf",
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-02-solutions.json",
+      "question_id": "309-2024-2024-economics-02-solutions-Q06",
+      "type": "mcq",
+      "correct": 2,
+      "prompt_preview": "Which of the following is not a function of Central Bank?",
+      "option_previews": [
+        "It controls the money supply in the economy through different rates.",
+        "It acts as a banker to the government.",
+        "It accepts deposits and gives loans to people.",
+        "It issues the currency of the country."
+      ],
+      "best_match_score": 0.8,
+      "best_match_id": "EC08Q50",
+      "best_match_path": "questions/economics/EC08.json",
+      "best_match_prompt_preview": "Which of the following is NOT a function of the Central Bank (RBI)?",
+      "status": "possible_duplicate",
+      "recommended_action": "manual_compare_before_adding"
+    },
+    {
+      "year": "2024",
+      "subject": "Economics",
+      "subject_code": "309",
+      "kind": "individual-pdf",
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-04-question-paper.json",
+      "question_id": "309-2024-2024-economics-04-question-paper-Q19",
+      "type": "mcq",
+      "correct": 2,
+      "prompt_preview": "Which of the following is not a function of Central Bank?",
+      "option_previews": [
+        "It controls the money supply in the economy through different rates.",
+        "It acts as a banker to the government.",
+        "It accepts deposits and gives loans to people.",
+        "It issues the currency of the country."
+      ],
+      "best_match_score": 0.8,
+      "best_match_id": "EC08Q50",
+      "best_match_path": "questions/economics/EC08.json",
+      "best_match_prompt_preview": "Which of the following is NOT a function of the Central Bank (RBI)?",
+      "status": "possible_duplicate",
+      "recommended_action": "manual_compare_before_adding"
+    },
+    {
+      "year": "2024",
+      "subject": "Economics",
+      "subject_code": "309",
+      "kind": "individual-pdf",
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-06-solutions.json",
+      "question_id": "309-2024-2024-economics-06-solutions-Q47",
+      "type": "mcq",
+      "correct": 2,
+      "prompt_preview": "Which of the following is not a function of Central Bank?",
+      "option_previews": [
+        "It controls the money supply in the economy through different rates.",
+        "It acts as a banker to the government.",
+        "It accepts deposits and gives loans to people.",
+        "It issues the currency of the country."
+      ],
+      "best_match_score": 0.8,
+      "best_match_id": "EC08Q50",
+      "best_match_path": "questions/economics/EC08.json",
+      "best_match_prompt_preview": "Which of the following is NOT a function of the Central Bank (RBI)?",
+      "status": "possible_duplicate",
+      "recommended_action": "manual_compare_before_adding"
+    },
+    {
+      "year": "2024",
+      "subject": "Economics",
+      "subject_code": "309",
+      "kind": "individual-pdf",
+      "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-08-solutions.json",
+      "question_id": "309-2024-2024-economics-08-solutions-Q38",
+      "type": "mcq",
+      "correct": 2,
+      "prompt_preview": "Which of the following is not a function of Central Bank?",
+      "option_previews": [
+        "It controls the money supply in the economy through different rates.",
+        "It acts as a banker to the government.",
+        "It accepts deposits and gives loans to people.",
+        "It issues the currency of the country."
+      ],
+      "best_match_score": 0.8,
+      "best_match_id": "EC08Q50",
+      "best_match_path": "questions/economics/EC08.json",
+      "best_match_prompt_preview": "Which of the following is NOT a function of the Central Bank (RBI)?",
+      "status": "possible_duplicate",
+      "recommended_action": "manual_compare_before_adding"
+    },
+    {
+      "year": "2025",
+      "subject": "Accountancy",
+      "subject_code": "301",
+      "kind": "individual-pdf",
+      "json_path": "past year paper/2025/accountancy/json/individual-pdfs/2025-accountancy-02-solutions.json",
+      "question_id": "301-2025-2025-accountancy-02-solutions-Q09",
+      "type": "mcq",
+      "correct": 3,
+      "prompt_preview": "On the death of a partner, his capital account is credited with:",
+      "option_previews": [
+        "Share of profit",
+        "Share of goodwill",
+        "Share of accumulated profits",
+        "All of the above"
+      ],
+      "best_match_score": 0.714,
+      "best_match_id": "AC06Q45",
+      "best_match_path": "questions/accountancy/AC06.json",
+      "best_match_prompt_preview": "On death of a partner, which of the following is credited to the deceased partner's capital account?",
+      "status": "possible_duplicate",
+      "recommended_action": "manual_compare_before_adding"
+    }
+  ],
+  "blocked_until_source_review": [
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q01",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q02",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q03",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q04",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q05",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q06",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q07",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q08",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q09",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q10",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q11",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q12",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q14",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q16",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q17",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q18",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q20",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q21",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q22",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q23",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q25",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q26",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q27",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q30",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q31",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q32",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q33",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q35",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q38",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q40",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q41",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q42",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q43",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q44",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q45",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q46",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q47",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q48",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q49",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2022/accountancy/json/2022-accountancy.json",
+      "question_id": "301-2022-Q50",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q01",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q02",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q03",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q04",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q05",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q06",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q07",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q08",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q09",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q10",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q11",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q12",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q13",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q14",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q15",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q16",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q17",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q18",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q19",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q20",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q21",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q22",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q23",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q24",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q25",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q26",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q27",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q28",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q29",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q30",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q31",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q32",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q33",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q34",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q35",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q36",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "question_id": "305-2022-Q37",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q01",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q02",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q04",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q05",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q06",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q07",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q08",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q09",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q10",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q12",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q13",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q14",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q16",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q17",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q18",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q19",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q20",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q21",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q22",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q23",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q24",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q26",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q27",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q28",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q29",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q30",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q31",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q32",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q33",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q34",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q35",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q37",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q38",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q39",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q40",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q42",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q43",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q44",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q45",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q46",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2022",
+      "subject": "Economics",
+      "json_path": "past year paper/2022/economics/json/2022-economics.json",
+      "question_id": "309-2022-Q48",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q01",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q02",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q03",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q04",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q05",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q06",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q07",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q08",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q09",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q10",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q11",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q12",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q13",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q14",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q15",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q16",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q17",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q18",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q19",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q20",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q21",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q22",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q23",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q24",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q25",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q26",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q27",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q28",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q29",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q30",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q31",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q32",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q33",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q34",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q35",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q36",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q37",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q38",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q39",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q40",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q41",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q42",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q43",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q44",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q45",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q46",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q47",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q48",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q49",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2023/accountancy/json/2023-accountancy.json",
+      "question_id": "301-2023-Q50",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Economics",
+      "json_path": "past year paper/2023/economics/json/individual-pdfs/2023-economics-11-solutions.json",
+      "question_id": "309-2023-2023-economics-11-solutions-Q10",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Economics",
+      "json_path": "past year paper/2023/economics/json/individual-pdfs/2023-economics-11-solutions.json",
+      "question_id": "309-2023-2023-economics-11-solutions-Q12",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Economics",
+      "json_path": "past year paper/2023/economics/json/individual-pdfs/2023-economics-11-solutions.json",
+      "question_id": "309-2023-2023-economics-11-solutions-Q17",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2023",
+      "subject": "Economics",
+      "json_path": "past year paper/2023/economics/json/individual-pdfs/2023-economics-11-solutions.json",
+      "question_id": "309-2023-2023-economics-11-solutions-Q19",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q01",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q02",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q03",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q04",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q05",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q06",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q07",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q08",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q09",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q10",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q11",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q12",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q13",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q14",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q15",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q16",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q17",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q18",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q19",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q20",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q21",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q22",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q23",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q24",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q25",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q26",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q27",
+      "reason": "source_not_student_ready"
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "question_id": "301-2024-Q28",
+      "reason": "source_not_student_ready"
+    }
+  ]
+}

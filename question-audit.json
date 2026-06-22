@@ -1,0 +1,900 @@
+﻿{
+  "root": "questions",
+  "files": 58,
+  "questions": 11430,
+  "parseErrors": [],
+  "shapeIssues": [],
+  "missingRequiredFields": [],
+  "correctIndexIssues": [],
+  "suspiciousKeys": [],
+  "structuralFieldCounts": {
+    "passage": 202,
+    "statements": 200,
+    "column_i": 200,
+    "column_ii": 200,
+    "sentence": 400
+  },
+  "typeCounts": {
+    "mcq": 30,
+    "numerical": 2690,
+    "match_list": 2,
+    "sequence": 5,
+    "case_based": 1950,
+    "concept": 2470,
+    "assertion_reason": 1320,
+    "definition": 283,
+    "not_type": 505,
+    "statement_based": 487,
+    "graph_based": 260,
+    "rc_based": 160,
+    "vocabulary": 234,
+    "para_jumble": 220,
+    "grammar": 120,
+    "match_following": 60,
+    "logical_reasoning": 337,
+    "data_interpretation": 297
+  },
+  "fileSummaries": [
+    {
+      "file": "questions\\2025-questions.json",
+      "questions": 50,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "list1",
+        "list2",
+        "options",
+        "passage",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC01.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "original_question",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC02.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC03.json",
+      "questions": 180,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC04.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC05.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC06.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC07.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC08.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC09.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC10.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC11.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC12.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC13.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC14.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC15.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\accountancy\\AC16.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS01.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS02.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS03.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS04.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS05.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS06.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS07.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS08.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS09.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS10.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS11.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\business-studies\\BS12.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC01.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC02.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC03.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC04.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC05.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC06.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "correct_rechecked",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC07.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC08.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC09.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC10.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC11.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC12.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC13.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC14.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\economics\\EC15.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\english\\EN-S1.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "passage",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\english\\EN-S2.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "statements",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\english\\EN-S3.json",
+      "questions": 200,
+      "keys": [
+        "column_i",
+        "column_ii",
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\english\\EN-S4.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "sentence",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\english\\EN-S5.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "sentence",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S1.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S2.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "difficulty_legacy_key",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S3.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S4.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S5.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S6.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S7.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S8.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "correct_original",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    },
+    {
+      "file": "questions\\general-test\\GT-S9.json",
+      "questions": 200,
+      "keys": [
+        "correct",
+        "difficulty",
+        "explanation",
+        "id",
+        "level",
+        "options",
+        "question",
+        "type"
+      ]
+    }
+  ]
+}

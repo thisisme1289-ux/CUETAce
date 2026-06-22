@@ -137,8 +137,9 @@
         "₹2,00,000",
         "₹4,00,000"
       ],
-      "correct": 2,
-      "explanation": "Use the Plant & Machinery T-account: Opening balance ₹8,00,000 + Purchases (?) − Depreciation ₹1,00,000 − Book value of asset sold ₹1,50,000 = Closing balance ₹10,00,000. Therefore: Purchases = ₹10,00,000 + ₹1,00,000 + ₹1,50,000 − ₹8,00,000 = ₹4,50,000. However, cash received from sale = Book Value + Gain = ₹1,50,000 + ₹50,000 = ₹2,00,000 is the investing inflow from sale. The net investing outflow for machinery purchased is ₹4,50,000. But the question asks for cash paid for new machinery, which is ₹4,50,000. Wait — rechecking options: correct answer is ₹4,50,000 → option A. Correction: correct = 1 (₹4,50,000)."
+      "correct": 0,
+      "explanation": "Use the Plant & Machinery account: Opening balance ₹8,00,000 + purchases - depreciation ₹1,00,000 - book value of asset sold ₹1,50,000 = closing balance ₹10,00,000. Purchases = ₹10,00,000 + ₹1,00,000 + ₹1,50,000 - ₹8,00,000 = ₹4,50,000. The sale proceeds of ₹2,00,000 are a separate investing inflow, not a reduction of cash paid for purchases. Option A is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC16Q10",
@@ -212,8 +213,9 @@
         "₹2,25,000",
         "₹2,45,000"
       ],
-      "correct": 1,
-      "explanation": "Net Profit = ₹5,00,000 − ₹2,00,000 − ₹1,00,000 = ₹2,00,000. Working Capital adjustments: Decrease in Debtors (₹80,000 − ₹60,000) = +₹20,000; Increase in Creditors (₹70,000 − ₹50,000) = +₹20,000; Increase in Stock (₹55,000 − ₹40,000) = −₹15,000. Net WC = +₹25,000. But wait — stock increase is already reflected in profit (higher cost of goods reduces profit), and debtors/creditors are WC adjustments. Net Cash from Operations = ₹2,00,000 + ₹25,000 = ₹2,25,000. Correct answer is ₹2,25,000 → option C. Correction: correct = 3."
+      "correct": 2,
+      "explanation": "Net profit = ₹5,00,000 - ₹2,00,000 - ₹1,00,000 = ₹2,00,000. Working capital adjustments: decrease in debtors = +₹20,000; increase in creditors = +₹20,000; increase in stock = -₹15,000. Net adjustment = +₹25,000. Net Cash from Operating Activities = ₹2,00,000 + ₹25,000 = ₹2,25,000. Option C is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC16Q15",
@@ -362,8 +364,9 @@
         "Amortisation of patents",
         "Increase in prepaid expenses"
       ],
-      "correct": 4,
-      "explanation": "Under the Indirect Method, changes that use cash or represent over-stated profits reduce Net Cash from Operating Activities. An increase in prepaid expenses means cash has been paid in advance for expenses not yet recognised as costs — this is a cash outflow (use of cash) and hence reduces Net Cash from Operating Activities. Conversely, increase in payables (cash saved), decrease in inventories (cash released), and amortisation (non-cash charge added back) all increase the net cash figure."
+      "correct": 3,
+      "explanation": "Under the Indirect Method, changes that use cash or represent over-stated profits reduce Net Cash from Operating Activities. An increase in prepaid expenses means cash has been paid in advance for expenses not yet recognised as costs — this is a cash outflow (use of cash) and hence reduces Net Cash from Operating Activities. Conversely, increase in payables (cash saved), decrease in inventories (cash released), and amortisation (non-cash charge added back) all increase the net cash figure.",
+      "correct_original": 4
     },
     {
       "id": "AC16Q25",
@@ -452,8 +455,9 @@
         "Writing off discount on issue of debentures",
         "Cash dividend paid to shareholders"
       ],
-      "correct": 4,
-      "explanation": "Non-cash items are those that affect profit but do not involve movement of cash — these are added back to Net Profit under the Indirect Method. Depreciation, amortisation of preliminary expenses, and write-off of discount on debentures are all non-cash accounting charges. Cash dividend paid, however, is an actual cash payment (outflow) to shareholders and is classified under Financing Activities — it is NOT a non-cash item and is NOT added back under Operating Activities."
+      "correct": 3,
+      "explanation": "Non-cash items are those that affect profit but do not involve movement of cash — these are added back to Net Profit under the Indirect Method. Depreciation, amortisation of preliminary expenses, and write-off of discount on debentures are all non-cash accounting charges. Cash dividend paid, however, is an actual cash payment (outflow) to shareholders and is classified under Financing Activities — it is NOT a non-cash item and is NOT added back under Operating Activities.",
+      "correct_original": 4
     },
     {
       "id": "AC16Q31",
@@ -557,8 +561,9 @@
         "₹2,60,000",
         "₹2,80,000"
       ],
-      "correct": 1,
-      "explanation": "Cash paid for expenses = Expenses in P&L + Opening Prepaid − Closing Prepaid + Opening Outstanding − Closing Outstanding. = ₹2,50,000 + ₹15,000 − ₹25,000 + ₹30,000 − ₹20,000. = ₹2,50,000 − ₹10,000 + ₹10,000 = ₹2,50,000. Wait — recalculating: Opening prepaid consumed this year (added to cash paid basis), closing prepaid is not yet paid in cash terms. Correct formula: Cash paid = P&L expense + Increase in prepaid + Decrease in outstanding OR equivalently = ₹2,50,000 + ₹10,000 + ₹10,000 = ₹2,70,000."
+      "correct": 0,
+      "explanation": "Cash paid for expenses = P&L expense - opening prepaid + closing prepaid + opening outstanding - closing outstanding. Therefore cash paid = ₹2,50,000 - ₹15,000 + ₹25,000 + ₹30,000 - ₹20,000 = ₹2,70,000. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC16Q38",
@@ -852,13 +857,14 @@
       "difficulty": "difficult",
       "question": "Stellar Ltd. provides data: Cash sales ₹3,00,000; Credit sales ₹7,00,000; Opening debtors ₹1,50,000; Closing debtors ₹2,20,000; Cash purchases ₹2,00,000; Credit purchases ₹4,00,000; Opening creditors ₹80,000; Closing creditors ₹1,20,000; Operating expenses paid ₹1,50,000. Calculate Net Cash from Operating Activities (Direct Method).",
       "options": [
-        "₹3,60,000",
+        "₹2,20,000",
         "₹4,30,000",
         "₹2,80,000",
         "₹3,90,000"
       ],
-      "correct": 1,
-      "explanation": "Cash received from customers = Cash sales ₹3,00,000 + Credit sales − Increase in debtors = ₹3,00,000 + ₹7,00,000 − (₹2,20,000 − ₹1,50,000) = ₹10,00,000 − ₹70,000 = ₹9,30,000. Cash paid to suppliers = Cash purchases ₹2,00,000 + Credit purchases − Increase in creditors = ₹2,00,000 + ₹4,00,000 − (₹1,20,000 − ₹80,000) = ₹6,00,000 − ₹40,000 = ₹5,60,000. Cash paid for expenses = ₹1,50,000. Net Cash from Operating = ₹9,30,000 − ₹5,60,000 − ₹1,50,000 = ₹2,20,000. Closest option reconsidered — answer ₹3,60,000 based on alternative computation."
+      "correct": 0,
+      "explanation": "Cash received from customers = cash sales ₹3,00,000 + credit sales ₹7,00,000 - increase in debtors ₹70,000 = ₹9,30,000. Cash paid to suppliers = cash purchases ₹2,00,000 + credit purchases ₹4,00,000 - increase in creditors ₹40,000 = ₹5,60,000. Net Cash from Operating Activities = ₹9,30,000 - ₹5,60,000 - operating expenses paid ₹1,50,000 = ₹2,20,000. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC16Q58",
@@ -1067,8 +1073,9 @@
         "Increase in advance received from customers",
         "Settlement of a current liability by issuing shares"
       ],
-      "correct": 4,
-      "explanation": "Settlement of a current liability by issuing shares involves no cash — it is a non-cash transaction (shares given in lieu of cash payment). Therefore, it does not affect Net Cash from Operating Activities or any other section of the Cash Flow Statement. Conversely: increase in prepaid rent reduces cash; decrease in outstanding wages reduces cash; increase in advance received from customers increases cash — all three affect Operating Cash Flow under the Indirect Method."
+      "correct": 3,
+      "explanation": "Settlement of a current liability by issuing shares involves no cash — it is a non-cash transaction (shares given in lieu of cash payment). Therefore, it does not affect Net Cash from Operating Activities or any other section of the Cash Flow Statement. Conversely: increase in prepaid rent reduces cash; decrease in outstanding wages reduces cash; increase in advance received from customers increases cash — all three affect Operating Cash Flow under the Indirect Method.",
+      "correct_original": 4
     },
     {
       "id": "AC16Q72",
@@ -1262,8 +1269,9 @@
         "Inflow ₹2,10,000; Outflow ₹5,96,000",
         "Inflow ₹2,10,000; Outflow ₹5,00,000 and Interest under Operating"
       ],
-      "correct": 4,
-      "explanation": "Financing Activities: Inflow — Cash from new debentures issued at 5% premium: ₹2,10,000 (face ₹2,00,000 + premium ₹10,000). Outflow — Redemption of old debentures at par: ₹5,00,000. Net Financing from debentures = ₹2,10,000 − ₹5,00,000 = −₹2,90,000. Interest paid ₹96,000 is classified under Operating Activities per NCERT (not Financing). So: Financing inflow ₹2,10,000; Financing outflow ₹5,00,000; Interest ₹96,000 under Operating. Correct = 4."
+      "correct": 3,
+      "explanation": "Financing Activities: Inflow — Cash from new debentures issued at 5% premium: ₹2,10,000 (face ₹2,00,000 + premium ₹10,000). Outflow — Redemption of old debentures at par: ₹5,00,000. Net Financing from debentures = ₹2,10,000 − ₹5,00,000 = −₹2,90,000. Interest paid ₹96,000 is classified under Operating Activities per NCERT (not Financing). So: Financing inflow ₹2,10,000; Financing outflow ₹5,00,000; Interest ₹96,000 under Operating. Correct = 4.",
+      "correct_original": 4
     },
     {
       "id": "AC16Q85",
@@ -1347,13 +1355,14 @@
       "difficulty": "difficult",
       "question": "Net profit before tax ₹12,00,000; Depreciation ₹1,50,000; Profit on disposal of plant ₹50,000; Bad debts written off ₹30,000; Increase in debtors (before bad debts) ₹70,000; Decrease in creditors ₹40,000; Increase in stock ₹90,000; Increase in outstanding expenses ₹20,000; Tax paid ₹3,00,000. Net Cash from Operating Activities?",
       "options": [
-        "₹9,50,000",
+        "₹8,80,000",
         "₹9,80,000",
         "₹10,10,000",
         "₹9,20,000"
       ],
-      "correct": 1,
-      "explanation": "Start: ₹12,00,000. Add: Depreciation ₹1,50,000; Bad debts ₹30,000. Deduct: Profit on plant disposal −₹50,000. Subtotal = ₹13,30,000. WC: Increase in debtors (net of bad debts written off = ₹70,000 − ₹30,000 = ₹40,000) → −₹40,000; Decrease in creditors −₹40,000; Increase in stock −₹90,000; Increase in outstanding +₹20,000. Net WC = −₹1,50,000. Before tax = ₹11,80,000. Less tax: −₹3,00,000. Net = ₹8,80,000. Closest option reconsidered: using gross debtors increase −₹70,000 and bad debts +₹30,000 separately: same result. Correct = 4 (₹9,20,000) depending on method."
+      "correct": 0,
+      "explanation": "Start with net profit before tax ₹12,00,000. Add depreciation ₹1,50,000 and bad debts written off ₹30,000; deduct profit on disposal ₹50,000. Operating profit before working-capital changes = ₹13,30,000. Working-capital changes: debtors increase net of bad debts = ₹40,000 decrease; creditors decrease = ₹40,000 decrease; stock increase = ₹90,000 decrease; outstanding expenses increase = ₹20,000 increase. Net working-capital adjustment = -₹1,50,000, giving ₹11,80,000 before tax. Less tax paid ₹3,00,000 = ₹8,80,000. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC16Q91",
@@ -1382,8 +1391,9 @@
         "₹58,000",
         "₹66,000"
       ],
-      "correct": 1,
-      "explanation": "Cash received for interest = Interest income + Opening accrued − Closing accrued − Opening received in advance + Closing received in advance. Wait — let's use the T-account logic for interest receivable: Opening accrued ₹8,000 + Interest income ₹60,000 − Cash received = Closing accrued ₹12,000. Cash received = ₹8,000 + ₹60,000 − ₹12,000 = ₹56,000. Then adjust for advance interest: Opening advance ₹5,000 + Cash received (additional from advance) − ₹3,000 = ₹2,000 additional. Total cash = ₹56,000 + ₹2,000 = ₹58,000 → correct = 3."
+      "correct": 0,
+      "explanation": "Cash received from interest = interest income + opening accrued interest - closing accrued interest - opening interest received in advance + closing interest received in advance. Therefore cash received = ₹60,000 + ₹8,000 - ₹12,000 - ₹5,000 + ₹3,000 = ₹54,000. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC16Q93",
@@ -1472,8 +1482,9 @@
         "Cash Flow Statement alone can be manipulated by timing receipts and payments",
         "All of the above are limitations"
       ],
-      "correct": 4,
-      "explanation": "All three statements represent real limitations of the Cash Flow Statement: (1) It shows cash, not profit — a company can be profitable yet cash-poor due to working capital timing differences. (2) A profitable company can show negative operating cash flow if debtors rise significantly or large inventory buildup occurs. (3) Management can time cash receipts/payments to present a favourable cash picture (window dressing). These are all valid limitations identified by analysts and auditors."
+      "correct": 3,
+      "explanation": "All three statements represent real limitations of the Cash Flow Statement: (1) It shows cash, not profit — a company can be profitable yet cash-poor due to working capital timing differences. (2) A profitable company can show negative operating cash flow if debtors rise significantly or large inventory buildup occurs. (3) Management can time cash receipts/payments to present a favourable cash picture (window dressing). These are all valid limitations identified by analysts and auditors.",
+      "correct_original": 4
     },
     {
       "id": "AC16Q99",
@@ -1525,15 +1536,16 @@
       "type": "numerical",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "The following balances are available: Machinery (gross) — Opening ₹15,00,000; Closing ₹18,00,000. Accumulated Depreciation — Opening ₹4,00,000; Closing ₹5,50,000. Machinery with cost ₹3,00,000 and accumulated depreciation ₹1,50,000 was sold for ₹1,80,000. What depreciation was charged during the year on remaining assets?",
+      "question": "The following balances are available: Machinery (gross) — Opening ₹15,00,000; Closing ₹18,00,000. Accumulated Depreciation — Opening ₹4,00,000; Closing ₹5,50,000. Machinery with cost ₹3,00,000 and accumulated depreciation ₹1,50,000 was sold for ₹1,80,000. What depreciation was charged during the year?",
       "options": [
         "₹3,00,000",
         "₹2,00,000",
         "₹1,50,000",
         "₹2,50,000"
       ],
-      "correct": 2,
-      "explanation": "Accumulated Depreciation T-account: Opening ₹4,00,000 + Depreciation for year (?) − Depreciation on sold machinery ₹1,50,000 = Closing ₹5,50,000. Depreciation for year = ₹5,50,000 + ₹1,50,000 − ₹4,00,000 = ₹3,00,000. Wait — this is depreciation on ALL assets, not just remaining. Depreciation on sold machine = ₹1,50,000 (given). Depreciation on remaining = ₹3,00,000 − ₹1,50,000 = ₹1,50,000. But the question asks 'depreciation charged during the year' which is ₹3,00,000 total. Correct = 1."
+      "correct": 0,
+      "explanation": "Use the Accumulated Depreciation account: opening accumulated depreciation ₹4,00,000 + depreciation charged during the year - accumulated depreciation on machinery sold ₹1,50,000 = closing accumulated depreciation ₹5,50,000. Depreciation charged = ₹5,50,000 + ₹1,50,000 - ₹4,00,000 = ₹3,00,000. Option A is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC16Q103",
@@ -1592,8 +1604,9 @@
         "₹2,20,000",
         "₹1,20,000"
       ],
-      "correct": 4,
-      "explanation": "Operating: ₹5,00,000 + ₹60,000 − ₹40,000 + ₹30,000 + ₹20,000 − ₹1,20,000 = ₹3,50,000. Investing: −₹2,00,000 + ₹40,000 = −₹1,60,000. Financing: −₹50,000 (dividend). Net change = ₹3,50,000 − ₹1,60,000 − ₹50,000 = ₹1,40,000. Closing = ₹30,000 + ₹1,40,000 = ₹1,70,000. Closest = ₹1,60,000 → correct = 2."
+      "correct": 3,
+      "explanation": "Operating: ₹5,00,000 + ₹60,000 − ₹40,000 + ₹30,000 + ₹20,000 − ₹1,20,000 = ₹3,50,000. Investing: −₹2,00,000 + ₹40,000 = −₹1,60,000. Financing: −₹50,000 (dividend). Net change = ₹3,50,000 − ₹1,60,000 − ₹50,000 = ₹1,40,000. Closing = ₹30,000 + ₹1,40,000 = ₹1,70,000. Closest = ₹1,60,000 → correct = 2.",
+      "correct_original": 4
     },
     {
       "id": "AC16Q107",
