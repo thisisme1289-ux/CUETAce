@@ -2,6 +2,7 @@
 .github
 .codex-tools
 .firebase
+.npm-cache
 node_modules
 
 functions
