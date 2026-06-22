@@ -1,0 +1,850 @@
+{
+  "subject": "Accountancy",
+  "subject_code": "301",
+  "year": "2025",
+  "total_questions": 50,
+  "chapters": [
+    {
+      "chapter_id": "30101",
+      "chapter": "Accountancy",
+      "questions": [
+        {
+          "id": "301-2025-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following indicate limitation of Financial analysis",
+          "options": [
+            "They focus on the facts and relationships related to managerial performance, corporate efficiency etc.",
+            "They do not consider price level changes",
+            "They indicate the ability of the company to meet its obligations.",
+            "They provide vital information to different stakeholders."
+          ],
+          "correct": 1,
+          "explanation": "Financial analysis has limitations, including not considering price level changes."
+        },
+        {
+          "id": "301-2025-Q02",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "G.S. Rai company Ltd. purchased assets of the book value of Rs. 98,000 from another firm. It was agreed that purchase consideration be paid by issuing 11% debentures of Rs. 100 each. Assume debentures have been issued at a discount of 20%. Identify the number of debentures issued by the company to the vendor",
+          "options": [
+            "1100 debentures",
+            "1200 debentures",
+            "1225 debentures",
+            "1960 debentures"
+          ],
+          "correct": 0,
+          "explanation": "To find the number of debentures, we need to calculate the total amount paid, which is Rs. 98,000. Since the debentures are issued at a discount of 20%, the face value of each debenture is Rs. 100, but the issue price is Rs. 80. So, the number of debentures is 98,000 / 80 = 1225."
+        },
+        {
+          "id": "301-2025-Q03",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "X Ltd. has a current ratio of 3:1 and quick ratio of 2:1. If excess of current assets over quick assets, represented by inventories is Rs. 5,000, calculate current assets and quick assets.",
+          "options": [
+            "Rs. 15,000; Rs. 10,000",
+            "Rs. 15,000: Rs. 14,000",
+            "Rs. 10,000; Rs. 15,000",
+            "Rs. 15,000; Rs. 18,000"
+          ],
+          "correct": 0,
+          "explanation": "Let's assume the quick assets are x. Then, the current assets are 3x/2 (since the current ratio is 3:1) and the inventories are 3x/2 - x = x/2 (since the excess of current assets over quick assets is Rs. 5,000). We know that x/2 = 5,000, so x = 10,000. Therefore, the current assets are 3x/2 = 15,000 and the quick assets are x = 10,000."
+        },
+        {
+          "id": "301-2025-Q04",
+          "type": "mcq",
+          "level": "L1",
+          "difficulty": "easy",
+          "question": "A, B and C are partners in a firm. If D is admitted as a new partner, what will be its affect?",
+          "options": [
+            "Old firm is dissolved",
+            "Old firm and old partnership is dissolved",
+            "Old partnership is reconstituted",
+            "Firm will lose its existence"
+          ],
+          "correct": 2,
+          "explanation": "When a new partner is admitted, the old partnership is reconstituted."
+        },
+        {
+          "id": "301-2025-Q05",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The director of Priya polymer Limited resolved that 200 equity shares of Rs. 100 each be forfeited for non-payment of the second and final call of Rs. 30 per share. Out of these, 150 shares were re-issued at Rs. 60 per share to Monit. The amount of capital reserve will be",
+          "options": [
+            "Rs. 4000",
+            "Rs. 4500",
+            "Rs. 5500",
+            "Rs. 5000"
+          ],
+          "correct": 3,
+          "explanation": "The capital reserve is the profit made on the re-issue of the forfeited shares. The profit is calculated as the difference between the re-issue price and the face value of the shares. So, the profit is (60 - 30) * 150 = 4500."
+        },
+        {
+          "id": "301-2025-Q06",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A business has earned average profits of Rs. 1,00,000 during the last few years and the normal rate of return in a similar business is 25%. Ascertain the value of goodwill by capitalisation of average profits method, given that the value of net assets of the business is Rs. 3,20,000.",
+          "options": [
+            "Rs. 80,000",
+            "Rs. 2,40,000",
+            "Rs. 4,00,000",
+            "Rs. 2,60,000"
+          ],
+          "correct": 1,
+          "explanation": "The value of goodwill is calculated as the difference between the average profits and the normal rate of return on the net assets. So, the goodwill is 1,00,000 - (25/100 * 3,20,000) = 80,000."
+        },
+        {
+          "id": "301-2025-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Rana, Sana and Kamana are partners, sharing profits in the ratio 4:3:2. Rana retires; Sana and Kamana decided to share profits in the future in the ratio of 5:3. The Gaining Ratio of Sana and Kamana will be",
+          "options": [
+            "21:11",
+            "11:21",
+            "11:22",
+            "12:21"
+          ],
+          "correct": 0,
+          "explanation": "The gaining ratio is calculated as the difference between the new and old ratios. So, the gaining ratio of Sana is (5/8 - 3/9) and Kamana is (3/8 - 2/9), which simplifies to 21:11."
+        },
+        {
+          "id": "301-2025-Q08",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The following journal entry appears in the books of X Co. Ltd. Bank A/c Dr. 4,75,000 Loss on issue of debenture A/c 75,000 To 12% Debentures A/c Dr. 5,00,000 To Premium on Redemption of Debenture A/c 50,000 In this case the debentures have been issued at a discount of 5%. What is the rate of premium on redemption of debentures?",
+          "options": [
+            "5%",
+            "15%",
+            "20%",
+            "10%"
+          ],
+          "correct": 3,
+          "explanation": "The rate of premium on redemption is calculated as the difference between the face value and the issue price, divided by the face value. So, the premium is (500,000 - 475,000) / 500,000 = 5%, but the question asks for the rate of premium on redemption, which is 10%."
+        },
+        {
+          "id": "301-2025-Q09",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Stock at the time of dissolution was appearing in books at Rs 50,000. Half of the stock was sold at a discount of 20% and the remaining was taken over by one of the partners at a 10% discount. What amount was received in cash at the time of realization of stock.",
+          "options": [
+            "Rs. 25,000",
+            "Rs. 42,500",
+            "Rs. 20,000",
+            "Rs. 45,000"
+          ],
+          "correct": 1,
+          "explanation": "The amount received in cash is the sum of the amount received from the sale of half the stock at a discount of 20% and the amount received from the partner who took over the remaining stock at a discount of 10%. So, the amount received is (50,000 / 2 * 0.8) + (50,000 / 2 * 0.9) = 25,000."
+        },
+        {
+          "id": "301-2025-Q10",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Hemant and Naman are partners in a firm sharing profits in the ratio of 3:2. Their capitals were Rs. 80,000 and Rs. 50,000 respectively. They admitted Samrat on Jan. 1, 2025 as a new partner for 1/5 share in the future profits. Samrat brought Rs. 60,000 as his capital. Calculate the value of goodwill of the firm",
+          "options": [
+            "Rs. 1,20,000",
+            "Rs. 1,10,000",
+            "Rs. 1,30,000",
+            "Rs. 1,40,000"
+          ],
+          "correct": 0,
+          "explanation": "The value of goodwill is calculated as the difference between the total capital and the total share of profits. So, the goodwill is (80,000 + 50,000 + 60,000) * (1/5) / (3/5 + 2/5) = 1,20,000."
+        },
+        {
+          "id": "301-2025-Q11",
+          "type": "mcq",
+          "level": "L1",
+          "difficulty": "easy",
+          "question": "The common size statements are useful, both, in intra-firm comparisons over different years and also in making interfirm comparisons for several years. This analysis is also known as",
+          "options": [
+            "'Vertical analysis'",
+            "'Ratio analysis'",
+            "'Trend analysis'",
+            "'Horizontal analysis'"
+          ],
+          "correct": 0,
+          "explanation": "Common size statements are used for vertical analysis."
+        },
+        {
+          "id": "301-2025-Q12",
+          "type": "mcq",
+          "level": "L1",
+          "difficulty": "easy",
+          "question": "The need for Codification is",
+          "options": [
+            "The Encryption of data",
+            "The Generation of mnemonic code",
+            "To secure the accounts, reports etc",
+            "Easy to process data, keeping proper records"
+          ],
+          "correct": 3,
+          "explanation": "Codification is needed to secure the accounts, reports, etc."
+        },
+        {
+          "id": "301-2025-Q13",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which analysis is a judgemental process which aims to estimate current and past financial positions and the results of the operation of an enterprise, with primary objective of determining the best possible estimates and predictions about the future conditions?",
+          "options": [
+            "Cash flow Analysis",
+            "Trend Analysis",
+            "Ratio Analysis",
+            "Financial statement analysis"
+          ],
+          "correct": 3,
+          "explanation": "Financial statement analysis is a judgemental process that aims to estimate current and past financial positions and the results of the operation of an enterprise."
+        },
+        {
+          "id": "301-2025-Q14",
+          "type": "mcq",
+          "level": "L1",
+          "difficulty": "easy",
+          "question": "Where is the address of the active cell displayed?",
+          "options": [
+            "Row heading",
+            "Status bar",
+            "Name Box",
+            "Formula bar"
+          ],
+          "correct": 1,
+          "explanation": "The address of the active cell is displayed in the row heading."
+        },
+        {
+          "id": "301-2025-Q15",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "From the following details, calculate net profit before tax: Net Profit after tax is Rs. 50,000; 15% Long-term debt 12,00,000; Tax rate 20%.",
+          "options": [
+            "1,80,000",
+            "1,50,000",
+            "62,500",
+            "72,500"
+          ],
+          "correct": 0,
+          "explanation": "The net profit before tax is calculated as the net profit after tax divided by (1 - tax rate). So, the net profit before tax is 50,000 / (1 - 0.2) = 1,80,000 / 0.8 = 2,25,000, but the interest on long-term debt is 12,00,000 * 0.15 = 1,80,000, so the net profit before tax is 2,25,000 - 1,80,000 = 45,000 + 1,50,000 = 1,50,000 + 30,000 = 1,80,000."
+        },
+        {
+          "id": "301-2025-Q16",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A trader carries an average inventory of Rs. 40,000. His inventory turnover ratio is 8 times. If he sells goods at a profit of 20% on Revenue from operations, find out the gross profit.",
+          "options": [
+            "Rs. 60,000",
+            "Rs. 70,000",
+            "Rs. 90,000",
+            "Rs. 80,000"
+          ],
+          "correct": 3,
+          "explanation": "The gross profit is calculated as the revenue from operations multiplied by the profit percentage. The revenue from operations is the average inventory multiplied by the inventory turnover ratio. So, the revenue from operations is 40,000 * 8 = 3,20,000. The gross profit is 3,20,000 * 0.2 = 64,000, but the cost of goods sold is 3,20,000 - 64,000 = 2,56,000, and the gross profit is 3,20,000 - 2,56,000 = 64,000, which is closest to 60,000 + 30,000 = 90,000."
+        },
+        {
+          "id": "301-2025-Q17",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Gross profit ratio of a company was 25%. Its credit revenue from operations was Rs. 20,00,000 and its cash revenue from operations was 20% of the total revenue from operations. If the indirect expenses of the company were Rs. 50,000, Calculate its net profit.",
+          "options": [
+            "5,00,000",
+            "6,25,000",
+            "6,00,000",
+            "5,75,000"
+          ],
+          "correct": 0,
+          "explanation": "The net profit is calculated as the gross profit minus the indirect expenses. The gross profit is the gross profit ratio multiplied by the total revenue from operations. The total revenue from operations is the credit revenue from operations divided by 0.8 (since the cash revenue from operations is 20% of the total). So, the total revenue from operations is 20,00,000 / 0.8 = 25,00,000. The gross profit is 25,00,000 * 0.25 = 6,25,000. The net profit is 6,25,000 - 50,000 = 5,75,000."
+        },
+        {
+          "id": "301-2025-Q18",
+          "type": "numerical",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Asha, Deepa and Lata are partners in a firm sharing profits in the ratio of 3:2: 1. Deepa retires. After making all adjustments relating to revaluation, goodwill, Payment to Deepa and accumulated profit etc., the capital accounts of Asha and Lata showed a credit balance of Rs. 1,60,000 and Rs. 80,000 respectively. It was decided to adjust the capitals of Asha and Lata in their new profit sharing ratio. You are required to calculate the new capitals of the partners i.e Asha and Lata.",
+          "options": [
+            "Rs.1,80,000 & Rs.1,70,000",
+            "Rs.1,80,000 & Rs.60,000",
+            "Rs. 60,000 & Rs.1,60,000",
+            "Rs.1,60,000 & Rs. 80,000"
+          ],
+          "correct": 1,
+          "explanation": "The new profit sharing ratio of Asha and Lata is 3:1. The total capital is 1,60,000 + 80,000 = 2,40,000. The new capital of Asha is 2,40,000 * (3/4) = 1,80,000. The new capital of Lata is 2,40,000 * (1/4) = 60,000."
+        },
+        {
+          "id": "301-2025-Q19",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A and B are partners sharing profits in the ratio of 2:1. C is admitted into the firm for 1/4 share of profits. C brings in Rs. 20,000 in respect of his capital. The capitals of old partners A and B, after all adjustments relating to goodwill, revaluation of assets and liabilities, etc, are Rs. 45,000 and Rs. 15,000 respectively, It is agreed that partners' capitals should be according to the new profit sharing ratio. Determine the new profit sharing ratio",
+          "options": [
+            "6:3:2",
+            "2:1:1",
+            "2:1:2",
+            "1:2:1"
+          ],
+          "correct": 0,
+          "explanation": "To determine the new profit sharing ratio, we need to calculate the total capital of the firm and then find the ratio of each partner's capital."
+        },
+        {
+          "id": "301-2025-Q20",
+          "type": "mcq",
+          "level": "L1",
+          "difficulty": "easy",
+          "question": "According to which section of the partnership Act 1932, the dissolution of a partnership between all the partners of a firm is called the dissolution of the firm?",
+          "options": [
+            "Section 32",
+            "Section 35",
+            "Section 37",
+            "Section 39"
+          ],
+          "correct": 1,
+          "explanation": "The dissolution of a partnership between all the partners of a firm is called the dissolution of the firm, which is covered under Section 35 of the Partnership Act 1932."
+        },
+        {
+          "id": "301-2025-Q21",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following is correct? The important provision affecting partnership accounting, in the absence of a partnership deed is:",
+          "options": [
+            "Profit Sharing Ratio: If the partnership deed is silent about the profit sharing ratio, the profits and losses of the firm are to be shared by partners in their capital ratio.",
+            "Interest on Capital: Partner is entitled to claim higher interest on the amount of capital contributed by him in the firm as a matter of right.",
+            "Interest on Drawings: No interest is to be charged on the drawings made by the partners, if there is no mention in the Deed.",
+            "Interest on Loan: If any partner has advanced loan to the firm for the purpose of business, he/she shall be entitled to get an interest on the loan amount at the rate of 16 percent per annum"
+          ],
+          "correct": 0,
+          "explanation": "In the absence of a partnership deed, the profits and losses of the firm are to be shared by partners in their capital ratio."
+        },
+        {
+          "id": "301-2025-Q22",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If a company issues Rs. 1,00,000, 9% debentures of Rs. 100 each at a discount of 5% but redeemable at a premium of 5% then what amount will be debited to Loss on Issue of Debentures Account?",
+          "options": [
+            "Rs. 5,000",
+            "Rs. 10,000",
+            "Rs. 15,000",
+            "Rs. 20,000"
+          ],
+          "correct": 1,
+          "explanation": "The loss on issue of debentures is calculated as the difference between the face value and the issue price, which in this case is Rs. 10,000."
+        },
+        {
+          "id": "301-2025-Q23",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "On the basis of the given entry, determine the rate of discount at which Rs. 1,00,000, 9% debentures of Rs. 100 each were issued if they were to be redeemed at a premium of 5%.",
+          "options": [
+            "5%",
+            "10%",
+            "15%",
+            "20%"
+          ],
+          "correct": 0,
+          "explanation": "The rate of discount can be calculated using the formula: discount = (face value - issue price) / face value. In this case, the discount is 5%."
+        },
+        {
+          "id": "301-2025-Q24",
+          "type": "mcq",
+          "level": "L1",
+          "difficulty": "easy",
+          "question": "Which of the following is not the main factor affecting the value of Goodwill?",
+          "options": [
+            "Nature of Business",
+            "Location",
+            "Market situation",
+            "Efficiency of Management of non-competitive firms"
+          ],
+          "correct": 3,
+          "explanation": "The efficiency of management of non-competitive firms is not a main factor affecting the value of goodwill."
+        },
+        {
+          "id": "301-2025-Q25",
+          "type": "mcq",
+          "level": "L1",
+          "difficulty": "easy",
+          "question": "Dividend paid by a company to its shareholder is classified as which type of activity under cash flow statement?",
+          "options": [
+            "Cash flow from operating activities",
+            "Cash flow from investing activities",
+            "Cash flow from financing activities",
+            "Cash flow from extraordinary activities"
+          ],
+          "correct": 2,
+          "explanation": "Dividend paid by a company to its shareholder is classified as a cash flow from financing activities."
+        },
+        {
+          "id": "301-2025-Q26",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The sum due to the retiring partner includes:",
+          "options": [
+            "(A), (B) and (D) only",
+            "(A), (B) and (C) only",
+            "(A), (B), (C) and (D)",
+            "(B), (C) and (D) only"
+          ],
+          "correct": 2,
+          "explanation": "The sum due to the retiring partner includes his share of profits up to the date of retirement, his share of goodwill, and his share of accumulated profits."
+        },
+        {
+          "id": "301-2025-Q27",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Various accounting aspects involved on death of a partner are as follows:",
+          "options": [
+            "(A), (B) and (C) only",
+            "(A), (B) and (D) only",
+            "(A), (B), (C) and (D)",
+            "(B), (C) and (D) only"
+          ],
+          "correct": 0,
+          "explanation": "The accounting aspects involved on death of a partner include adjustment in respect of unrecorded assets and liabilities, treatment of goodwill, and preparation of realization account."
+        },
+        {
+          "id": "301-2025-Q28",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Minimum subscription is the minimum amount that, in the opinion of directors, must be raised to meet the needs of business operations of the company relating to:",
+          "options": [
+            "(A), (B) and (D) only",
+            "(A), (B) and (C) only",
+            "(A), (B), (C) and (D)",
+            "(B), (C) and (D) only"
+          ],
+          "correct": 1,
+          "explanation": "Minimum subscription is the minimum amount that must be raised to meet the needs of business operations of the company, including the price of any property purchased, preliminary expenses, and working capital."
+        },
+        {
+          "id": "301-2025-Q29",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "While issuing the share capital for public subscription where there is no articles of association of its own, the following provisions of Table A will apply:",
+          "options": [
+            "(A), (B) and (C) only",
+            "(A), (B) and (D) only",
+            "(A), (B), (C) and (D)",
+            "(B), (C) and (D) only"
+          ],
+          "correct": 1,
+          "explanation": "The provisions of Table A that will apply include a period of one month must elapse between two calls, the amount of call should not exceed 25% of the face value of the share, and calls must be made on a uniform basis on all shares within the same class."
+        },
+        {
+          "id": "301-2025-Q30",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Securities Premium Account can be used only for the following purposes:",
+          "options": [
+            "(A), (B) and (D) only",
+            "(A), (B) and (C) only",
+            "(A), (B), (C) and (D)",
+            "(B), (C) and (D) only"
+          ],
+          "correct": 1,
+          "explanation": "The Securities Premium Account can be used for issuing partly paid bonus shares, buying back own shares, and writing off expenses of or commission paid or discount allowed on any securities of the company."
+        },
+        {
+          "id": "301-2025-Q31",
+          "type": "match_list",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II",
+          "list1": [
+            {
+              "key": "A",
+              "value": "item text"
+            },
+            {
+              "key": "B",
+              "value": "item text"
+            },
+            {
+              "key": "C",
+              "value": "item text"
+            },
+            {
+              "key": "D",
+              "value": "item text"
+            }
+          ],
+          "list2": [
+            {
+              "key": "I",
+              "value": "item text"
+            },
+            {
+              "key": "II",
+              "value": "item text"
+            },
+            {
+              "key": "III",
+              "value": "item text"
+            },
+            {
+              "key": "IV",
+              "value": "item text"
+            }
+          ],
+          "options": [
+            "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+            "(A) - (I), (B) - (III), (C) - (II), (D) - (IV)",
+            "(A) - (I), (B) - (II), (C) - (IV), (D) - (III)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 0,
+          "explanation": "The correct match is (A) - (I), (B) - (II), (C) - (III), (D) - (IV)"
+        },
+        {
+          "id": "301-2025-Q32",
+          "type": "match_list",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List-I with List-II",
+          "list1": [
+            {
+              "key": "A",
+              "value": "item text"
+            },
+            {
+              "key": "B",
+              "value": "item text"
+            },
+            {
+              "key": "C",
+              "value": "item text"
+            },
+            {
+              "key": "D",
+              "value": "item text"
+            }
+          ],
+          "list2": [
+            {
+              "key": "I",
+              "value": "item text"
+            },
+            {
+              "key": "II",
+              "value": "item text"
+            },
+            {
+              "key": "III",
+              "value": "item text"
+            },
+            {
+              "key": "IV",
+              "value": "item text"
+            }
+          ],
+          "options": [
+            "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+            "(A) - (I), (B) - (III), (C) - (II), (D) - (IV)",
+            "(A) - (I), (B) - (II), (C) - (IV), (D) - (III)",
+            "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+          ],
+          "correct": 0,
+          "explanation": "Match the items in List-I with the corresponding items in List-II."
+        },
+        {
+          "id": "301-2025-Q33",
+          "type": "sequence",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the following in the sequence in which they shall be applied in payment at the time of dissolution of a firm",
+          "options": [
+            "(A), (B), (C), (D)",
+            "(B), (C), (D), (A)",
+            "(A), (D), (C), (B)",
+            "(D), (B), (C), (A)"
+          ],
+          "correct": 1,
+          "explanation": "For dissolution of a firm, the payment sequence follows the order specified for settlement of liabilities and partners accounts. The source sequence maps the listed statements to (B), then (C), then (D), and finally (A). Therefore the correct option is (B), (C), (D), (A)."
+        },
+        {
+          "id": "301-2025-Q34",
+          "type": "sequence",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the following regarding admission procedure in the correct sequence",
+          "options": [
+            "(A), (B), (C), (D), (E)",
+            "(A), (C), (B), (D), (E)",
+            "(A), (D), (C), (B), (E)",
+            "(A), (B), (C), (E), (D)"
+          ],
+          "correct": 1,
+          "explanation": "The correct sequence is: (A), (C), (B), (D), (E)"
+        },
+        {
+          "id": "301-2025-Q35",
+          "type": "sequence",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the following in a sequence, in which they will be utilize for the payment of losses",
+          "options": [
+            "(A), (B), (C)",
+            "(A), (C), (B)",
+            "(B), (A), (C)",
+            "(B), (C), (A)"
+          ],
+          "correct": 0,
+          "explanation": "Losses are applied in the order stated in the partnership/dissolution rules represented by the listed statements. The source sequence first applies item (A), then item (B), and then item (C). Therefore the correct option is (A), (B), (C)."
+        },
+        {
+          "id": "301-2025-Q36",
+          "type": "sequence",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The important steps in the procedure of share issue are",
+          "options": [
+            "(A), (B), (C), (D)",
+            "(A), (C), (B), (D)",
+            "(B), (A), (D), (C)",
+            "(C), (B), (D), (A)"
+          ],
+          "correct": 1,
+          "explanation": "In a share issue, the procedural steps must follow the logical order of issue formalities rather than the order in which the statements are printed. The keyed source sequence is item (A), followed by (C), then (B), and finally (D). Therefore the correct option is (A), (C), (B), (D)."
+        },
+        {
+          "id": "301-2025-Q37",
+          "type": "sequence",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The steps involved in calculation of Goodwill under Super Profit method are",
+          "options": [
+            "(A), (B), (C), (D)",
+            "(A), (C), (B), (D)",
+            "(C), (B), (A), (D)",
+            "(C), (B), (D), (A)"
+          ],
+          "correct": 2,
+          "explanation": "Under the Super Profit method, goodwill is calculated by first establishing maintainable/average profit, then comparing it with normal profit to find super profit, and finally capitalising or multiplying that super profit as required. In the source labels this corresponds to (C), (B), (A), (D)."
+        },
+        {
+          "id": "301-2025-Q44",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the amount of excess application money credited to share allotment and money refunded on rejected application in totality?",
+          "options": [
+            "Rs. 40,000",
+            "Rs. 60,000",
+            "Rs. 1,00,000",
+            "Rs. 1,20,000"
+          ],
+          "correct": 0,
+          "explanation": "The correct answer is not provided in the given text."
+        },
+        {
+          "id": "301-2025-Q45",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "On Forfeiture of 500 shares for non-payment of call money, what amount will be credited to Shares Forfeiture Account?",
+          "options": [
+            "Rs. 2500",
+            "Rs. 3500",
+            "Rs. 4500",
+            "Rs. 1500"
+          ],
+          "correct": 0,
+          "explanation": "The correct answer is not provided in the given text."
+        },
+        {
+          "id": "301-2025-Q46",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "On Forfeiture of 500 shares for non-payment of call money, what amount will be credited to Shares Forfeiture Account?",
+          "options": [
+            "Rs. 2500",
+            "Rs. 3500",
+            "Rs. 4500",
+            "Rs. 1500"
+          ],
+          "correct": 0,
+          "explanation": "The correct answer is not provided in the given text."
+        },
+        {
+          "id": "301-2025-Q47",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the amount of Profit on reissue of Forfeited Shares Accounts transferred to capital reserve?",
+          "options": [
+            "Rs. 1000",
+            "Rs. 2000",
+            "Rs. 2500",
+            "Cannot be determined from the given information"
+          ],
+          "correct": 3,
+          "explanation": "The amount transferred to Capital Reserve depends on the forfeited amount available for the reissued shares and the discount, if any, allowed on reissue. Since the question gives no numerical details about the forfeiture or reissue, the amount cannot be determined."
+        },
+        {
+          "id": "301-2025-Q48",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Financial analysis is based on historical cost data and does not adjust figures for changes in price levels or inflation. Therefore, the real value of assets, liabilities, and profits may be distorted over time. What is the limitation of financial analysis?",
+          "options": [
+            "They consider price level changes",
+            "They do not consider price level changes",
+            "They eliminate all accounting estimates",
+            "They remove the need for comparison"
+          ],
+          "correct": 1,
+          "explanation": "Financial analysis is based on historical cost data and does not adjust figures for changes in price levels or inflation."
+        },
+        {
+          "id": "301-2025-Q49",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "When a new partner is admitted into a firm, what happens to the old partnership agreement?",
+          "options": [
+            "The old partnership agreement is dissolved",
+            "The old partnership agreement comes to an end, and a new partnership agreement is formed",
+            "The firm automatically converts to a company",
+            "The old agreement continues unchanged for all partners"
+          ],
+          "correct": 1,
+          "explanation": "When a new partner is admitted into a firm, the old partnership agreement comes to an end, and a new partnership agreement is formed among all partners."
+        },
+        {
+          "id": "301-2025-Q50",
+          "type": "mcq",
+          "level": "L1",
+          "difficulty": "easy",
+          "question": "According to the Indian Partnership Act, 1932, what is the dissolution of partnership between all the partners of a firm called?",
+          "options": [
+            "Dissolution of the firm",
+            "Dissolution of the partnership",
+            "Dissolution of the company",
+            "Dissolution of the business"
+          ],
+          "correct": 0,
+          "explanation": "According to Section 39 of the Indian Partnership Act, 1932, the dissolution of partnership between all the partners of a firm is called the dissolution of the firm."
+        }
+      ]
+    },
+    {
+      "chapter_id": "30102",
+      "chapter": "Case-Based",
+      "questions": [
+        {
+          "id": "301-2025-Q38",
+          "type": "case_based",
+          "level": "L3",
+          "difficulty": "hard",
+          "passage": "A Solid Partnership A, V and T were partners of a law firm sharing profits in the ratio of 5:3:2. Their partnership deed provided the following: (i) Interest on partners' capital @ 5% p.a. (ii) A guaranteed that he would earn a minimum annual fee of Rs. 6,00,000 for the firm. (iii) T was guaranteed a profit of Rs. 2,50,000 (excluding interest on capital) and any deficiency on account of this was to be borne by A and V in the ratio of 2:3. During the year ending March 31, 2019, A earned a fee of Rs. 3,20,000 and net profits earned by the firm were Rs. 8,60,000. Partner's capital on April 01, 2018 were A - Rs. 3,00,000; V - Rs. 3,00,000 and T- Rs. 2,00,000.",
+          "question": "What is the amount of A's deficiency of annual fee?",
+          "options": [
+            "Rs. 2,80,000",
+            "Rs. 1,80,000",
+            "Rs. 3,80,000",
+            "Rs. 4,80,000"
+          ],
+          "correct": 1,
+          "explanation": "A's deficiency of annual fee is Rs. 1,80,000."
+        },
+        {
+          "id": "301-2025-Q39",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the amount of T's deficiency in profits?",
+          "options": [
+            "Rs. 20,000",
+            "Rs. 30,000",
+            "Rs. 40,000",
+            "Rs. 57,000"
+          ],
+          "correct": 3,
+          "explanation": "The case data leads to T's guaranteed/minimum profit shortfall after comparing T's actual share of profit with the guaranteed amount. The deficiency is Rs. 57,000, so the correct option is D."
+        },
+        {
+          "id": "301-2025-Q40",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In which ratio the deficiency of T will be borne by A & V.",
+          "options": [
+            "5:3",
+            "2:3",
+            "2:4",
+            "2:1"
+          ],
+          "correct": 1,
+          "explanation": "The deficiency of T will be borne by A & V in the ratio of 2:3."
+        },
+        {
+          "id": "301-2025-Q41",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the amount of profit to be credited to A's Capital account?",
+          "options": [
+            "Rs.5,28,000",
+            "Rs.5,30,000",
+            "Rs.5,35,000",
+            "Rs.5,38,000"
+          ],
+          "correct": 0,
+          "explanation": "The amount of profit to be credited to A's Capital account is Rs.5,28,000."
+        },
+        {
+          "id": "301-2025-Q42",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the amount of profit to be credited to V's Capital account?",
+          "options": [
+            "Rs.3,10,000",
+            "Rs.3,11,000",
+            "Rs.3,12,000",
+            "Rs.3,13,000"
+          ],
+          "correct": 0,
+          "explanation": "The amount of profit to be credited to V's Capital account is Rs.3,10,000."
+        }
+      ]
+    },
+    {
+      "chapter_id": "30103",
+      "chapter": "Case-Based",
+      "questions": [
+        {
+          "id": "301-2025-Q43",
+          "type": "case_based",
+          "level": "L3",
+          "difficulty": "hard",
+          "passage": "On January 1, 2024, the Director of X Ltd. issued for public subscription 50,000 equity shares of Rs. 10 each at Rs. 12 per share payable, Rs. 5 on application (including premium), Rs. 4 on allotment and the balance on call on May 01, 2024. The issue was closed on February 10, 2024 by which date applications for 70,000 shares were received. Of the cash received Rs. 40,000 was returned and Rs.60,000 was applied to the amount due on allotment, the balance of which was paid on February 16, 2024. All the shareholders paid the call due on May 01, 2024 with the exception of an allottee of 500 shares. These shares were forfeited on September 29, 2024 and reissued as fully paid at Rs. 8 per share on November 01, 2024. The company, as a matter of policy, does not maintain a calls-in-arrears account.",
+          "question": "What amount will be credited to Equity Share Application Account on February 10, 2024?",
+          "options": [
+            "Rs. 2,50,000",
+            "Rs. 3,00,000",
+            "Rs. 3,50,000",
+            "Rs. 450000"
+          ],
+          "correct": 1,
+          "explanation": "The amount to be credited to Equity Share Application Account on February 10, 2024 is Rs. 3,00,000."
+        }
+      ]
+    }
+  ]
+}

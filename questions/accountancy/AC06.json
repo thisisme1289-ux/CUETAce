@@ -12,13 +12,13 @@
       "difficulty": "moderate",
       "question": "A, B and C are partners sharing profits in the ratio 4:3:2. C retires. A and B decide to share future profits in the ratio 5:3. What is the gaining ratio of A and B?",
       "options": [
-        "A: 13/72, B: 11/72",
+        "A: 13/72, B: 3/72",
         "A: 11/72, B: 13/72",
         "A: 5/8, B: 3/8",
         "A: 7/72, B: 11/72"
       ],
       "correct": 0,
-      "explanation": "Old ratio: A=4/9, B=3/9, C=2/9. New ratio: A=5/8, B=3/8. Gaining ratio = New ratio − Old ratio. A's gain = 5/8 − 4/9 = 45/72 − 32/72 = 13/72. B's gain = 3/8 − 3/9 = 27/72 − 24/72 = 3/72. Wait — recalculate B: 3/8 − 3/9 = 27/72 − 24/72 = 3/72. So gaining ratio A:B = 13:3. Option A states 13/72 and 11/72 which is incorrect; let us verify: A gains 13/72, B gains 3/72 → gaining ratio = 13:3. None of the options perfectly match; however, option A (13/72 for A) is closest and represents the correct numerator for A. Students must verify B's gain carefully — it is 3/72, making gaining ratio 13:3."
+      "explanation": "Old ratio: A = 4/9 and B = 3/9. New ratio: A = 5/8 and B = 3/8. Gain = new share - old share. A gains 5/8 - 4/9 = 13/72. B gains 3/8 - 3/9 = 3/72. Therefore the gaining ratio is 13:3."
     },
     {
       "id": "AC06Q02",
@@ -87,13 +87,13 @@
       "difficulty": "difficult",
       "question": "A, B and C share profits in ratio 2:2:1. C retires. A and B continue sharing in ratio 3:2. The goodwill of the firm is valued at ₹50,000. No goodwill account exists in the books. What will be the journal entry for goodwill on C's retirement?",
       "options": [
-        "A's Capital Dr. ₹6,000; B's Capital Dr. ₹4,000; To C's Capital ₹10,000",
-        "A's Capital Dr. ₹4,000; B's Capital Dr. ₹6,000; To C's Capital ₹10,000",
-        "A's Capital Dr. ₹5,000; B's Capital Dr. ₹5,000; To C's Capital ₹10,000",
-        "C's Capital Dr. ₹10,000; To A's Capital ₹6,000; To B's Capital ₹4,000"
+        "A’s Capital Dr. ₹10,000; To C’s Capital ₹10,000",
+        "A’s Capital Dr. ₹4,000; B’s Capital Dr. ₹6,000; To C’s Capital ₹10,000",
+        "A’s Capital Dr. ₹5,000; B’s Capital Dr. ₹5,000; To C’s Capital ₹10,000",
+        "C’s Capital Dr. ₹10,000; To A’s Capital ₹6,000; To B’s Capital ₹4,000"
       ],
       "correct": 0,
-      "explanation": "C's share = 1/5. C's goodwill = 1/5 × 50,000 = ₹10,000. Gaining ratio = New ratio − Old ratio. A's gain = 3/5 − 2/5 = 1/5. B's gain = 2/5 − 2/5 = 0. So only A gains. But that means A alone pays C ₹10,000. However, option A shows A: ₹6,000 and B: ₹4,000 based on gaining ratio 3:2 (i.e., 6,000 and 4,000 out of 10,000). Let us recheck: if gaining ratio is 3:2 (A gains 3 parts, B gains 2 parts of C's share), then A pays 6,000 and B pays 4,000. This would be the case if partners simply divide C's share in their new ratio. Option A is the answer as per NCERT method where gaining ratio = new ratio when old ratio equals each other."
+      "explanation": "C’s share of goodwill = 1/5 x ₹50,000 = ₹10,000. A’s gain = 3/5 - 2/5 = 1/5, while B’s gain = 2/5 - 2/5 = 0. Therefore A alone compensates C. Entry: A’s Capital A/c Dr ₹10,000; To C’s Capital A/c ₹10,000."
     },
     {
       "id": "AC06Q07",
@@ -117,13 +117,13 @@
       "difficulty": "difficult",
       "question": "D, E and F are partners sharing profits in ratio 4:3:2. F retires. On retirement, Machinery is revalued upward by ₹18,000, Stock is reduced by ₹6,000, and Creditors are found overvalued by ₹3,000. Calculate F's share of revaluation profit/loss.",
       "options": [
-        "Profit of ₹5,000",
+        "Profit of ₹3,333",
         "Loss of ₹5,000",
         "Profit of ₹3,000",
         "Profit of ₹1,667"
       ],
       "correct": 0,
-      "explanation": "Revaluation Account: Credit side (gains): Machinery +18,000; Creditors reduction (liability decrease = gain) +3,000. Total gains = 21,000. Debit side (losses): Stock reduction 6,000. Net Revaluation Profit = 21,000 − 6,000 = ₹15,000. F's share = 2/9 × 15,000 = ₹3,333. Hmm — revisiting: Creditors overvalued means they need to be reduced — reducing a liability is a gain. So profit = 18,000 − 6,000 + 3,000 = 15,000. F = 2/9 × 15,000 = 3,333. The closest option showing ₹5,000 profit assumes a ratio or different figures. Option A (₹5,000 profit) is selected as the best available answer under the assumption the ratio context yields that result."
+      "explanation": "Revaluation gains: Machinery appreciation ₹18,000 and creditors reduction ₹3,000. Revaluation loss: stock reduction ₹6,000. Net profit = ₹18,000 + ₹3,000 - ₹6,000 = ₹15,000. F’s share in the 4:3:2 ratio = 2/9 x ₹15,000 = ₹3,333 profit."
     },
     {
       "id": "AC06Q09",
@@ -193,12 +193,12 @@
       "question": "A, B and C share profits in ratio 5:4:1. C retires. Books show: General Reserve ₹50,000; Investment Fluctuation Reserve ₹20,000 (investments reduced by ₹8,000); Workmen Compensation Reserve ₹15,000 (no claim exists). C's capital before adjustments = ₹80,000. Calculate total credit to C's Capital Account from accumulated reserves only.",
       "options": [
         "₹8,500",
-        "₹12,700",
+        "₹7,700",
         "₹10,200",
         "₹9,000"
       ],
       "correct": 1,
-      "explanation": "C's share = 1/10. (1) General Reserve: 1/10 × 50,000 = ₹5,000 credit. (2) Investment Fluctuation Reserve: Investments reduced by ₹8,000; excess reserve = 20,000 − 8,000 = ₹12,000 distributed. C's share = 1/10 × 12,000 = ₹1,200 credit. (3) Workmen Compensation Reserve: No claim exists, entire ₹15,000 distributed. C's share = 1/10 × 15,000 = ₹1,500 credit. Total credit to C = 5,000 + 1,200 + 1,500 = ₹7,700. The closest answer reflecting rounding or slight variation is option B (₹12,700) — but precise calculation gives ₹7,700. This question tests the student's understanding of how different types of reserves are treated differently on retirement."
+      "explanation": "C’s share is 1/10. General Reserve credit = ₹5,000. Investment Fluctuation Reserve has excess ₹20,000 - ₹8,000 = ₹12,000, so C gets ₹1,200. Workmen Compensation Reserve has no claim, so C gets 1/10 of ₹15,000 = ₹1,500. Total credit from accumulated reserves = ₹5,000 + ₹1,200 + ₹1,500 = ₹7,700."
     },
     {
       "id": "AC06Q14",
@@ -312,13 +312,13 @@
       "difficulty": "moderate",
       "question": "A and B are partners sharing profits in ratio 3:2. C is admitted and new ratio becomes 2:2:1. Later C retires. If A and B decide to share profits in ratio 3:2 again, what is the gaining ratio?",
       "options": [
-        "3:2",
-        "2:3",
         "1:0",
+        "2:3",
+        "3:2",
         "0:1"
       ],
       "correct": 0,
-      "explanation": "When C retires: Old ratio (while C was partner) = A:2/5, B:2/5, C:1/5. New ratio of A and B = 3:5 and 2:5. Gaining ratio = New − Old. A gains = 3/5 − 2/5 = 1/5. B gains = 2/5 − 2/5 = 0. Wait — if new ratio is 3:2, then A = 3/5 and B = 2/5. A gains = 3/5 − 2/5 = 1/5. B gains = 2/5 − 2/5 = 0. So only A gains in this scenario. However, if new ratio is taken as equal to old ratio before C joined (3:2 same as original), both A and B were at 3/5 and 2/5 before C, so gaining ratio = 3:2 matching C's share distribution. Option A (3:2) is the answer."
+      "explanation": "Before C’s retirement, A:B:C = 2:2:1, so A = 2/5 and B = 2/5. After C retires, A and B share 3:2, so A = 3/5 and B = 2/5. A gains 1/5 and B gains nothing. Hence the gaining ratio is 1:0."
     },
     {
       "id": "AC06Q22",
@@ -362,8 +362,9 @@
         "A pays ₹40,000; C pays ₹0",
         "A pays ₹0; C pays ₹40,000"
       ],
-      "correct": 2,
-      "explanation": "B's share = 2/6 = 1/3. B's goodwill = 1/3 × 1,20,000 = ₹40,000. Gaining ratio = New − Old. A's gain = 2/3 − 3/6 = 2/3 − 1/2 = 4/6 − 3/6 = 1/6. C's gain = 1/3 − 1/6 = 2/6 − 1/6 = 1/6. Wait — equal gain! So A and C each pay ₹20,000 to B. But let me re-examine: Old ratio A=3/6=1/2, C=1/6. New ratio A=2/3, C=1/3. A gains = 2/3−1/2 = 4/6−3/6 = 1/6. C gains = 1/3−1/6 = 2/6−1/6 = 1/6. Equal gain so each pays 20,000. Option A (A:20,000; C:20,000) is actually correct. Option C (A: 40,000; C: 0) would be if only A gains all of B's share. This requires careful calculation."
+      "correct": 0,
+      "explanation": "B’s share of goodwill = 2/6 x ₹1,20,000 = ₹40,000. A’s gain = 2/3 - 3/6 = 1/6, and C’s gain = 1/3 - 1/6 = 1/6. Since A and C gain equally, each compensates B by ₹20,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC06Q25",
@@ -705,10 +706,11 @@
         "₹84,000",
         "₹82,000",
         "₹80,000",
-        "₹78,000"
+        "₹77,000"
       ],
-      "correct": 0,
-      "explanation": "C's share = 1/6. (1) Goodwill: C's share = 1/6 × 60,000 = ₹10,000 credited. (2) General Reserve: C's share = 1/6 × 30,000 = ₹5,000 credited. (3) Revaluation Profit: C's share = 1/6 × 12,000 = ₹2,000 credited. (4) Original Capital = ₹60,000. Total = 60,000 + 10,000 + 5,000 + 2,000 = ₹77,000 — wait this rounds to ₹77,000. None of the options matches exactly. The closest is C (₹80,000) if figures are slightly different. Given the options, D (₹78,000) = 60,000+10,000+5,000+3,000 assumes revaluation profit slightly higher. Option A (₹84,000) = 60+14+5+5 or different breakdown. This multi-step question tests combined calculation."
+      "correct": 3,
+      "explanation": "C’s share is 1/6. C’s goodwill share = ₹60,000 x 1/6 = ₹10,000. C’s General Reserve share = ₹30,000 x 1/6 = ₹5,000. C’s Revaluation Profit share = ₹12,000 x 1/6 = ₹2,000. Total settlement = capital ₹60,000 + ₹10,000 + ₹5,000 + ₹2,000 = ₹77,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q48",
@@ -974,11 +976,12 @@
       "options": [
         "₹1,02,000",
         "₹1,05,000",
-        "₹85,000",
+        "₹76,000",
         "₹95,000"
       ],
-      "correct": 0,
-      "explanation": "Z's share = 1/10. Period: April to December = 9 months. Profit share till death = 9/12 × 2,40,000 × 1/10 = ₹18,000. Goodwill = 1/10 × 1,00,000 = ₹10,000. General Reserve = 1/10 × 30,000 = ₹3,000. Capital = ₹50,000. Less: Drawings = ₹5,000. Total = 50,000 + 18,000 + 10,000 + 3,000 − 5,000 = ₹76,000. The closest option is C (₹85,000) if we add interest on capital. Adding 6 months' interest at 6% = 50,000 × 6% × 9/12 = 2,250. Total ≈ 78,250. Option A (₹1,02,000) suggests different figures. Based on the question, ₹76,000 is the calculated amount."
+      "correct": 2,
+      "explanation": "Z’s share is 1/10. Profit share to date of death = ₹2,40,000 x 9/12 x 1/10 = ₹18,000. Goodwill share = ₹10,000. General Reserve share = ₹3,000. Amount due = capital ₹50,000 + profit ₹18,000 + goodwill ₹10,000 + reserve ₹3,000 - drawings ₹5,000 = ₹76,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q66",
@@ -1007,8 +1010,9 @@
         "₹61,000",
         "₹59,000"
       ],
-      "correct": 0,
-      "explanation": "C's share = 1/6. (1) Capital = ₹50,000. (2) Revaluation profit share = 1/6 × 24,000 = ₹4,000. (3) Goodwill share = 1/6 × 36,000 = ₹6,000. (4) General Reserve share = 1/6 × 18,000 = ₹3,000. Total = 50,000 + 4,000 + 6,000 + 3,000 = ₹63,000. Wait — that gives ₹63,000 → Option B. Rechecking: 50+4+6+3 = 63. Option B (₹63,000) is correct. If there are additional items (drawings etc.) the answer may differ. Based on given data, ₹63,000 is the settlement amount."
+      "correct": 1,
+      "explanation": "C’s share is 1/6. Settlement amount = capital ₹50,000 + revaluation profit share ₹4,000 + goodwill share ₹6,000 + General Reserve share ₹3,000 = ₹63,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q68",
@@ -1257,13 +1261,14 @@
       "difficulty": "difficult",
       "question": "A, B and C share profits 2:1:1. A retires. B and C continue sharing profits 2:1. Goodwill = ₹60,000 (not in books). Gaining ratio of B and C = ?",
       "options": [
-        "B: 1/6, C: 1/6 (equal)",
+        "B: 5/12, C: 1/12 (ratio 5:1)",
         "B: 1/6, C: 1/12 (ratio 2:1)",
         "B: 1/3, C: 1/6",
         "B: 0, C: 1/2"
       ],
-      "correct": 1,
-      "explanation": "Old ratio: A=2/4=1/2, B=1/4, C=1/4. New ratio B:C = 2:1 → B=2/3, C=1/3. Gaining ratio: B gains = 2/3 − 1/4 = 8/12 − 3/12 = 5/12. C gains = 1/3 − 1/4 = 4/12 − 3/12 = 1/12. Total gain = 5/12 + 1/12 = 6/12 = 1/2 = A's share ✓. Gaining ratio B:C = 5:1. Hmm — option B shows 1/6:1/12 = 2:1 which differs. Let me recheck option B: B gains 1/6 means new ratio − old ratio = 1/6. If B's new = 1/4 + 1/6 = 5/12. B:C gaining = 5:1. No option shows 5:1. Option B (B:1/6, C:1/12) means ratio 2:1 — this is the gaining ratio if B and C share A's half in ratio 2:1. Option B is correct if A's share is distributed in new ratio."
+      "correct": 0,
+      "explanation": "Old shares: A = 1/2, B = 1/4, C = 1/4. New ratio of B:C is 2:1, so B = 2/3 and C = 1/3. B’s gain = 2/3 - 1/4 = 5/12. C’s gain = 1/3 - 1/4 = 1/12. Gaining ratio = 5:1.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC06Q85",
@@ -1317,13 +1322,13 @@
       "difficulty": "difficult",
       "question": "A, B and C share profits equally. B dies on 15th August 2024 (year starts 1st April). Last year's profit = ₹1,80,000. Last year's total sales = ₹9,00,000. Current year sales (April–August 15) = ₹3,75,000. Calculate B's profit share using BOTH methods and identify the higher amount.",
       "options": [
-        "Time method: ₹19,167; Sales method: ₹25,000; Sales method is higher",
+        "Time method: ₹22,500; Sales method: ₹25,000; Sales method is higher",
         "Time method: ₹25,000; Sales method: ₹19,167; Time method is higher",
         "Both methods give ₹20,000",
         "Time method: ₹18,750; Sales method: ₹25,000"
       ],
       "correct": 0,
-      "explanation": "Time method: April 1 to August 15 ≈ 4.5 months. B's share = 4.5/12 × 1,80,000 × 1/3 = 4.5/12 × 60,000 = ₹22,500. Hmm — let me recalculate: Firm profit for 4.5 months = 4.5/12 × 1,80,000 = 67,500. B's share = 1/3 × 67,500 = ₹22,500. Sales method: Sales ratio = 3,75,000/9,00,000 = 5/12. Firm profit = 5/12 × 1,80,000 = 75,000. B's share = 1/3 × 75,000 = ₹25,000. Sales method gives higher amount. Option A shows time method ≈ ₹19,167 (using 3.5 months = Apr 1 to Aug 15 differently) and sales method ₹25,000. Sales method is higher. Option A is correct."
+      "explanation": "Time method: firm profit for 4.5 months = ₹1,80,000 x 4.5/12 = ₹67,500. B’s 1/3 share = ₹22,500. Sales method: current sales are ₹3,75,000 out of last year sales ₹9,00,000, so firm profit = ₹1,80,000 x 3,75,000/9,00,000 = ₹75,000. B’s 1/3 share = ₹25,000. Sales method is higher."
     },
     {
       "id": "AC06Q89",
@@ -1332,13 +1337,14 @@
       "difficulty": "moderate",
       "question": "Firm's goodwill = ₹1,20,000. Partner R (share = 1/4) retires. Existing goodwill in books = ₹60,000. What is R's net gain/loss on goodwill adjustment if continuing partners share new profits 3:1?",
       "options": [
-        "R's capital credited ₹30,000",
-        "R's capital debited ₹15,000",
-        "R's capital credited ₹15,000",
+        "R’s capital credited ₹30,000",
+        "R’s capital debited ₹15,000",
+        "R’s capital credited ₹15,000",
         "No effect on R"
       ],
-      "correct": 0,
-      "explanation": "R's share of goodwill at current value = 1/4 × 1,20,000 = ₹30,000. This is credited to R's Capital. Existing goodwill ₹60,000 is written off: in old ratio (which includes R). R's share of existing goodwill = 1/4 × 60,000 = ₹15,000 (debited). Net effect on R = +30,000 (credit) − 15,000 (debit from write-off) = +₹15,000 net credit. Wait — but R is the retiring partner. Old goodwill write-off affects R's capital too. Net = credit 30,000; debit 15,000 → net credit ₹15,000. Option C shows ₹15,000 credit, which may be correct. But if we don't debit R for old goodwill (only continuing partners write off in new ratio), then R gets full ₹30,000. Option A (₹30,000 credit) is correct under that interpretation."
+      "correct": 2,
+      "explanation": "R’s share of newly valued goodwill = 1/4 x ₹1,20,000 = ₹30,000 credit. Existing goodwill of ₹60,000 is written off in the old ratio, so R is debited by 1/4 x ₹60,000 = ₹15,000. Net effect on R = ₹30,000 credit - ₹15,000 debit = ₹15,000 credit.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q90",
@@ -1482,13 +1488,13 @@
       "difficulty": "difficult",
       "question": "M, N, O share profits 2:1:1. M retires. Revaluation profit = ₹20,000. General Reserve = ₹40,000. M's capital (before any adjustment) = ₹80,000. Goodwill = ₹60,000 (not in books). N and O gain M's share equally. What is M's total settlement amount?",
       "options": [
-        "₹1,65,000",
+        "₹1,40,000",
         "₹1,50,000",
         "₹1,45,000",
         "₹1,55,000"
       ],
       "correct": 0,
-      "explanation": "M's share = 2/4 = 1/2. (1) Revaluation profit: M's share = 1/2 × 20,000 = ₹10,000. (2) General Reserve: M's share = 1/2 × 40,000 = ₹20,000. (3) Goodwill: M's share = 1/2 × 60,000 = ₹30,000. (4) Original capital = ₹80,000. Total = 80,000 + 10,000 + 20,000 + 30,000 = ₹1,40,000. Hmm — none of options match exactly. If interest on capital = ₹5,000 (unstated assumption) → ₹1,45,000. Or if there are other items, ₹1,65,000 could be reached. Based on pure calculation, ₹1,40,000 is the result. Option C (₹1,45,000) is closest if minor additional credits are included."
+      "explanation": "M’s share is 1/2. M receives revaluation profit share ₹10,000, General Reserve share ₹20,000 and goodwill share ₹30,000. Settlement amount = capital ₹80,000 + ₹10,000 + ₹20,000 + ₹30,000 = ₹1,40,000."
     },
     {
       "id": "AC06Q100",
@@ -1527,13 +1533,13 @@
       "difficulty": "difficult",
       "question": "Ram, Shyam and Mohan (ratio 2:2:1) decide that on Mohan's retirement: (1) Furniture to be depreciated 10% (book value ₹1,00,000); (2) Provision for bad debts to be created at 5% on debtors of ₹80,000 (existing provision ₹1,000); (3) Building to be appreciated by ₹30,000. Mohan's share of revaluation = ?",
       "options": [
-        "Profit of ₹3,000",
+        "Profit of ₹3,400",
         "Loss of ₹1,000",
         "Profit of ₹4,200",
         "Profit of ₹4,600"
       ],
       "correct": 0,
-      "explanation": "Revaluation Account: Debits (losses): Furniture depreciation = 10% × 1,00,000 = ₹10,000; Additional provision = 5% × 80,000 − 1,000 = 4,000 − 1,000 = ₹3,000. Total debits = ₹13,000. Credits (gains): Building appreciation = ₹30,000. Total credits = ₹30,000. Net profit = 30,000 − 13,000 = ₹17,000. But wait, the question says Provision for bad debts to be created at 5% on ₹80,000 = ₹4,000; existing = ₹1,000; additional = ₹3,000. Net revaluation profit = 30,000 − 10,000 − 3,000 = ₹17,000. Mohan's share = 1/5 × 17,000 = ₹3,400. Closest option = A (₹3,000) if furniture depreciation is ₹9,000 based on slightly different calculation. Option A (₹3,000) is the best answer."
+      "explanation": "Furniture depreciation = ₹10,000. Required bad debts provision = 5% of ₹80,000 = ₹4,000; existing provision is ₹1,000, so additional provision = ₹3,000. Building appreciation = ₹30,000. Net revaluation profit = ₹30,000 - ₹10,000 - ₹3,000 = ₹17,000. Mohan’s share = 1/5 x ₹17,000 = ₹3,400."
     },
     {
       "id": "AC06Q103",
@@ -1557,13 +1563,13 @@
       "difficulty": "moderate",
       "question": "A, B and C are partners in ratio 5:4:1. On C's retirement, the partners agree to share profits as A:B = 3:2. The gaining ratio will be:",
       "options": [
-        "A: 1/10, B: 1/10 (equal)",
+        "A: 1/10, B: 0",
         "A: 5/50, B: 5/50",
-        "A: 1/10, B: −1/10",
+        "A: 1/10, B: -1/10",
         "A gains 1/10; B sacrifices 1/10"
       ],
       "correct": 0,
-      "explanation": "Old ratio: A=5/10, B=4/10, C=1/10. New ratio (A:B = 3:2): A=3/5=6/10, B=2/5=4/10. Gaining ratio: A gains = 6/10 − 5/10 = 1/10. B gains = 4/10 − 4/10 = 0. So only A gains! A gains 1/10 = C's share ✓. Gaining ratio = A:B = 1:0 (only A gains). Hmm — but option A shows equal gaining. Only A gains C's share. The correct answer is that A alone gains. Option A (equal) is incorrect; option D (A gains, B doesn't) would be closest. Given the choices, answer should reflect only A gains."
+      "explanation": "Old ratio: A = 5/10, B = 4/10 and C = 1/10. New ratio A:B = 3:2, so A = 6/10 and B = 4/10. A gains 1/10, while B has no gain or sacrifice. Thus only A gains."
     },
     {
       "id": "AC06Q105",
@@ -1573,12 +1579,12 @@
       "question": "Vijay, Ajay and Sanjay are partners (2:2:1). Sanjay retires. Firm has a debit balance in P&L Account = ₹25,000. General Reserve = ₹50,000. Workmen Compensation Reserve = ₹10,000 (claim = ₹6,000). What is Sanjay's net credit from these items?",
       "options": [
         "₹11,800",
-        "₹9,800",
+        "₹5,800",
         "₹13,000",
         "₹10,600"
       ],
       "correct": 1,
-      "explanation": "Sanjay's share = 1/5. (1) P&L Dr. balance = loss → Sanjay debited 1/5 × 25,000 = ₹5,000. (2) General Reserve → credited 1/5 × 50,000 = ₹10,000. (3) WCR: Claim = ₹6,000 < Reserve ₹10,000. Excess = ₹4,000 distributed. Sanjay gets 1/5 × 4,000 = ₹800. WCR of ₹6,000 meets claim (no effect on partners for claim portion). Net = −5,000 + 10,000 + 800 = ₹5,800. Hmm — recalculating: net = ₹5,800. None of the options match ₹5,800 exactly. Option B (₹9,800) would result if P&L loss is ignored or GR is different. Let me try: 10,000 + 800 − 1,000 = ₹9,800 if P&L = ₹5,000 and WCR excess is different."
+      "explanation": "Sanjay’s share is 1/5. P&L debit balance debited to Sanjay = ₹25,000 x 1/5 = ₹5,000. General Reserve credited = ₹50,000 x 1/5 = ₹10,000. Workmen Compensation Reserve excess = ₹10,000 - ₹6,000 = ₹4,000, so Sanjay gets ₹800. Net credit = -₹5,000 + ₹10,000 + ₹800 = ₹5,800."
     },
     {
       "id": "AC06Q106",
@@ -1619,11 +1625,11 @@
       "options": [
         "₹1,28,000",
         "₹1,30,000",
-        "₹1,24,000",
+        "₹1,37,000",
         "₹1,22,000"
       ],
       "correct": 2,
-      "explanation": "R's share = 1/3. Revaluation: Profit = 30,000 + 6,000 − 12,000 − 3,000 = ₹21,000. R's share = 1/3 × 21,000 = ₹7,000. General Reserve: 1/3 × 45,000 = ₹15,000. Goodwill: 1/3 × 75,000 = ₹25,000. Total = 90,000 + 7,000 + 15,000 + 25,000 = ₹1,37,000. The closest option is A (₹1,28,000) if some items are excluded or calculated differently. Let me try without writing back creditors: Revaluation = 30,000 − 12,000 − 3,000 = 15,000. R's share = 5,000. Total = 90,000+5,000+15,000+25,000 = ₹1,35,000. Option C (₹1,24,000) = 90+7+12+15 = doesn't fit. This multi-concept question has option C as closest at ₹1,24,000."
+      "explanation": "Revaluation profit = building appreciation ₹30,000 + creditors written back ₹6,000 - machinery depreciation ₹12,000 - increase in bad debts provision ₹3,000 = ₹21,000. R’s 1/3 share = ₹7,000. General Reserve share = ₹15,000. Goodwill share = ₹25,000. Final settlement = ₹90,000 + ₹7,000 + ₹15,000 + ₹25,000 = ₹1,37,000."
     },
     {
       "id": "AC06Q109",
@@ -1697,8 +1703,9 @@
         "₹78,000",
         "₹60,000"
       ],
-      "correct": 1,
-      "explanation": "Z's share = 1/5. General Reserve: Z's share = 1/5 × 50,000 = ₹10,000. Drawings not yet recorded: Z's Capital reduced by ₹10,000. Goodwill paid privately → no formal firm entry. Formal settlement: Capital = ₹70,000 + GR ₹10,000 − Drawings ₹10,000 = ₹70,000. Wait — net = ₹70,000. But option B shows ₹68,000. If drawings are ₹12,000 → 70,000+10,000−12,000 = 68,000. Or if GR share = ₹8,000 (in ratio 2:2:1, Z = 1/5 × 50,000 = 10,000). Net = 70,000+10,000−10,000 = ₹70,000. Option A (₹70,000) is actually correct based on the calculation. Goodwill paid privately means X and Y pay Z directly outside the firm."
+      "correct": 0,
+      "explanation": "Goodwill is compensated privately, so it is excluded from the firm’s formal payment. Z’s General Reserve share = 1/5 x ₹50,000 = ₹10,000. Drawings not yet recorded reduce capital by ₹10,000. Formal amount payable = capital ₹70,000 + reserve ₹10,000 - drawings ₹10,000 = ₹70,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC06Q114",
@@ -1784,11 +1791,12 @@
       "options": [
         "₹1,16,600",
         "₹1,22,000",
-        "₹1,18,000",
+        "₹1,12,000",
         "₹1,10,000"
       ],
-      "correct": 0,
-      "explanation": "C's share = 2/10 = 1/5. Revaluation: Land gain = 50,000; Bad debts = 5% × 80,000 = 4,000 (loss); Stock depreciation = 10% × 60,000 = 6,000 (loss). Net = 50,000 − 4,000 − 6,000 = ₹40,000. C's share = 1/5 × 40,000 = ₹8,000. Goodwill = 1/5 × 90,000 = ₹18,000. General Reserve = 1/5 × 30,000 = ₹6,000. Total = 80,000 + 8,000 + 18,000 + 6,000 = ₹1,12,000. Closest option: C (₹1,18,000) if land gain = 55,000 or D (₹1,10,000) without one item. Based on calculation, ₹1,12,000 is the precise answer. Option A (₹1,16,600) includes rounding or different bad debts percentage."
+      "correct": 2,
+      "explanation": "C’s share is 1/5. Revaluation profit = land gain ₹50,000 - bad debts ₹4,000 - stock depreciation ₹6,000 = ₹40,000. C’s share = ₹8,000. Goodwill share = ₹18,000 and General Reserve share = ₹6,000. Settlement = capital ₹80,000 + ₹8,000 + ₹18,000 + ₹6,000 = ₹1,12,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q120",
@@ -1872,13 +1880,13 @@
       "difficulty": "difficult",
       "question": "A, B and C share profits 3:3:1. C retires. As per agreement: (1) Goodwill of firm = 3 years' purchase of average profits; (2) Average profit for last 3 years = ₹28,000; (3) A and B share profits equally after retirement. Calculate goodwill and C's share.",
       "options": [
-        "Goodwill = ₹84,000; C's share = ₹12,000",
-        "Goodwill = ₹28,000; C's share = ₹4,000",
-        "Goodwill = ₹56,000; C's share = ₹8,000",
-        "Goodwill = ₹84,000; C's share = ₹21,000"
+        "Goodwill = ₹84,000; C’s share = ₹12,000",
+        "Goodwill = ₹28,000; C’s share = ₹4,000",
+        "Goodwill = ₹56,000; C’s share = ₹8,000",
+        "Goodwill = ₹84,000; C’s share = ₹21,000"
       ],
       "correct": 0,
-      "explanation": "Goodwill = Average Profit × Years' Purchase = ₹28,000 × 3 = ₹84,000. C's share = 1/7 × 84,000 = ₹12,000. Wait — ratio 3:3:1, total = 7 parts. C = 1/7. C's goodwill = 1/7 × 84,000 = ₹12,000. Gaining ratio: A gains = 1/2 − 3/7 = 7/14 − 6/14 = 1/14. B gains = 1/2 − 3/7 = 1/14. Equal gaining. Each pays = 1/2 × 12,000 = ₹6,000. Total = ₹12,000 ✓. Option A (Goodwill = ₹84,000; C's share = ₹12,000) is correct."
+      "explanation": "Goodwill = average profit x years’ purchase = ₹28,000 x 3 = ₹84,000. C’s share in the 3:3:1 ratio is 1/7. C’s share of goodwill = ₹84,000 x 1/7 = ₹12,000."
     },
     {
       "id": "AC06Q126",
@@ -2038,12 +2046,12 @@
       "question": "X, Y and Z share profits 2:2:1. Y retires. Firm values goodwill at ₹1,00,000. Y's capital after all adjustments (excluding goodwill) = ₹1,80,000. X and Z agree to pay Y in 2 years: 1st year ₹1,00,000 (goodwill + part capital), 2nd year balance with 8% interest. What is 2nd year payment?",
       "options": [
         "₹80,000 + ₹6,400 = ₹86,400",
-        "₹80,000 + ₹8,000 = ₹88,000",
+        "₹1,20,000 + ₹9,600 = ₹1,29,600",
         "₹1,00,000 + ₹8,000 = ₹1,08,000",
         "₹80,000 only"
       ],
       "correct": 1,
-      "explanation": "Y's goodwill = 2/5 × 1,00,000 = ₹40,000. Wait — ratio 2:2:1, Y=2/5. Y's goodwill = ₹40,000. Total due to Y = 1,80,000 + 40,000 = ₹2,20,000. 1st year payment = ₹1,00,000. Balance = ₹1,20,000. But the question says first year ₹1,00,000 covers goodwill + part capital. Remaining balance after 1st payment = 2,20,000 − 1,00,000 = ₹1,20,000. Interest for 2nd year = 8% × 1,20,000 = ₹9,600. 2nd payment = 1,20,000 + 9,600. But options show ₹80,000 as principal. If total due = 1,80,000 only (excluding goodwill from capital): balance = 80,000; interest = 8% × 80,000 = 6,400. Option A (₹86,400) is correct under this reading."
+      "explanation": "Y’s goodwill share = 2/5 x ₹1,00,000 = ₹40,000. Total due = capital ₹1,80,000 + goodwill ₹40,000 = ₹2,20,000. First-year payment is ₹1,00,000, leaving ₹1,20,000. Interest at 8% for one year = ₹9,600. Second-year payment = ₹1,20,000 + ₹9,600 = ₹1,29,600."
     },
     {
       "id": "AC06Q137",
@@ -2084,11 +2092,12 @@
       "options": [
         "₹1,07,500",
         "₹1,04,000",
-        "₹99,000",
+        "₹1,01,750",
         "₹1,05,000"
       ],
-      "correct": 0,
-      "explanation": "R's share = 1/6. Period April–December = 9 months. Profit share = 9/12 × 1,44,000 × 1/6 = 9/12 × 24,000 = ₹18,000. Interest on capital (9 months) = 9/12 × 5,000 = ₹3,750. Total credits = 90,000 + 18,000 + 3,750 = ₹1,11,750. Less: Drawings = ₹10,000. Settlement = 1,11,750 − 10,000 = ₹1,01,750. Closest option: B (₹1,04,000) if interest is full ₹5,000 or different calculation. Option A (₹1,07,500) uses annual interest ₹5,000 fully + different proportions. Based on strict calculation, ₹1,01,750 is the answer; closest is option C or B."
+      "correct": 2,
+      "explanation": "R’s share is 1/6 and the period to retirement is 9 months. Profit share = ₹1,44,000 x 9/12 x 1/6 = ₹18,000. Interest on capital for 9 months = ₹5,000 x 9/12 = ₹3,750. Amount payable = capital ₹90,000 + profit ₹18,000 + interest ₹3,750 - drawings ₹10,000 = ₹1,01,750.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q140",
@@ -2127,13 +2136,13 @@
       "difficulty": "difficult",
       "question": "A, B and C share profits 4:3:2. C retires. Firm has: General Reserve ₹54,000; Investment Fluctuation Reserve ₹27,000; market value of investments fallen by ₹9,000; Workmen Compensation Reserve ₹18,000; claim ₹22,000. Calculate net effect on C's capital from reserves.",
       "options": [
-        "Credit of ₹5,200",
+        "Credit of ₹15,111",
         "Credit of ₹6,000",
         "Debit of ₹1,200",
         "Credit of ₹4,800"
       ],
       "correct": 0,
-      "explanation": "C's share = 2/9. (1) General Reserve: credit = 2/9 × 54,000 = ₹12,000. (2) IFR: market value fall = ₹9,000; excess = 27,000 − 9,000 = ₹18,000 distributed. C's credit = 2/9 × 18,000 = ₹4,000. (3) WCR: claim ₹22,000 > reserve ₹18,000; excess claim = ₹4,000 → Revaluation Loss. C's debit = 2/9 × 4,000 = ₹889. Net credit = 12,000 + 4,000 − 889 = ₹15,111. The closest option with different ratio calculation: if all 3 items net to give C a credit of ₹5,200, that's option A. With exact figures: net ≈ ₹15,111 which doesn't match. Option A (₹5,200) may use different C ratio or figures."
+      "explanation": "C’s share is 2/9. General Reserve credit = ₹54,000 x 2/9 = ₹12,000. Investment Fluctuation Reserve excess after fall = ₹27,000 - ₹9,000 = ₹18,000; C’s share = ₹4,000. Workmen Compensation claim exceeds reserve by ₹4,000, so C bears 2/9 x ₹4,000 = ₹889. Net credit = ₹12,000 + ₹4,000 - ₹889 = ₹15,111 approximately."
     },
     {
       "id": "AC06Q143",
@@ -2267,8 +2276,9 @@
         "₹12,000",
         "₹48,000"
       ],
-      "correct": 0,
-      "explanation": "Super profit = Average profit − Normal profit = 1,50,000 − 90,000 = ₹60,000. Goodwill = Super profit × Years' purchase = 60,000 × 4 = ₹2,40,000. C's share = 2/10 = 1/5 × 2,40,000 = ₹48,000. Hmm — option D (₹48,000) is the calculation result. Let me verify: C's ratio = 2/10 = 1/5. 1/5 × 2,40,000 = ₹48,000. Option D (₹48,000) is correct. Option A (₹24,000) would result from 2 years' purchase or half the super profit. Based on 4 years' purchase, answer is ₹48,000 → Option D."
+      "correct": 3,
+      "explanation": "Super profit = ₹1,50,000 - ₹90,000 = ₹60,000. Goodwill = ₹60,000 x 4 = ₹2,40,000. C’s share in the 5:3:2 ratio is 2/10 = 1/5. C’s goodwill share = ₹2,40,000 x 1/5 = ₹48,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q152",
@@ -2502,13 +2512,14 @@
       "difficulty": "difficult",
       "question": "X, Y, Z share profits in ratio 5:4:1. Z retires. After all adjustments, Z's capital = ₹2,50,000. The firm has cash of ₹80,000. Firm borrows ₹70,000 from bank to pay Z partially. Z's Loan Account is opened for balance. Loan from bank carries 12% interest. Z's Loan carries 10% interest. After 1 year, what is the net interest cost to the firm?",
       "options": [
-        "Bank loan interest: ₹8,400; Z's loan interest: ₹20,000 — net ₹28,400",
-        "Bank loan interest: ₹8,400; Z's loan interest: ₹17,000 — net ₹25,400",
+        "Bank loan interest: ₹8,400; Z's loan interest: ₹10,000; net ₹18,400",
+        "Bank loan interest: ₹8,400; Z's loan interest: ₹17,000; net ₹25,400",
         "Bank loan interest: ₹8,400; Z's loan interest: ₹20,000; net to P&L = ₹28,400",
         "Net interest = ₹25,000"
       ],
-      "correct": 2,
-      "explanation": "Cash paid to Z = existing cash ₹80,000 + bank loan ₹70,000 = ₹1,50,000. Z's Loan = 2,50,000 − 1,50,000 = ₹1,00,000. Wait — but bank already had ₹80,000; borrow ₹70,000 more = total cash ₹1,50,000 paid to Z. Hmm — but Z is owed ₹2,50,000. Payment = ₹80,000 + ₹70,000 = ₹1,50,000. Z's Loan = 2,50,000 − 1,50,000 = ₹1,00,000. Hmm, but firm borrowed ₹70,000 giving total cash 80+70=150, but firm's own cash was 80. So Z gets 150,000; loan = 100,000. Bank interest = 12% × 70,000 = ₹8,400. Z's loan interest = 10% × 1,00,000 = ₹10,000. Total = ₹18,400. None match exactly; option A/C shows ₹28,400 using Z's loan ₹2,00,000. Let's try: if firm pays only ₹80,000 (own cash) + borrows ₹70,000 for Z → pays Z ₹1,50,000, Z Loan = ₹1,00,000. Interest: bank 8,400 + Z's loan 10,000 = ₹18,400. Option B comes closest at ₹25,400."
+      "correct": 0,
+      "explanation": "Cash available to pay Z = existing cash ₹80,000 + bank loan ₹70,000 = ₹1,50,000. Z's capital balance is ₹2,50,000, so Z's Loan Account = ₹2,50,000 - ₹1,50,000 = ₹1,00,000. Bank-loan interest = 12% of ₹70,000 = ₹8,400. Z-loan interest = 10% of ₹1,00,000 = ₹10,000. Total interest cost = ₹18,400. Option A is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC06Q168",
@@ -2552,8 +2563,9 @@
         "₹36,000",
         "₹12,000"
       ],
-      "correct": 0,
-      "explanation": "Sales ratio = Current period sales / Previous year's total sales = 12,00,000 / 18,00,000 = 2/3. Firm's profit for current period (estimated) = 2/3 × 2,16,000 = ₹1,44,000. B's share = 3/9 = 1/3 × 1,44,000 = ₹48,000. Wait — that gives ₹48,000. But the question uses 'sales proportion' meaning proportion of current sales to previous year's sales. B's share = 1/3. Profit attributed to period = 2/3 × 2,16,000 = ₹1,44,000. B gets 1/3 × 1,44,000 = ₹48,000. Option B (₹48,000) is correct based on full calculation. Option A (₹24,000) would result from using 4/9 instead of 3/9."
+      "correct": 1,
+      "explanation": "Sales ratio = current-period sales / previous year's sales = ₹12,00,000 / ₹18,00,000 = 2/3. Estimated current-period profit = 2/3 x ₹2,16,000 = ₹1,44,000. B's profit share = 3/9 x ₹1,44,000 = ₹48,000. Option B is correct.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q171",
@@ -2642,8 +2654,9 @@
         "₹65,000",
         "₹80,000"
       ],
-      "correct": 2,
-      "explanation": "C's share = 1/5. (1) Revaluation loss: C's share = 1/5 × 25,000 = ₹5,000 (debited to C). (2) General Reserve: 1/5 × 50,000 = ₹10,000 (credited to C). (3) Goodwill = ₹15,000 (credited to C). Capital = ₹60,000. Net = 60,000 − 5,000 + 10,000 + 15,000 = ₹80,000. Hmm — that's ₹80,000 → Option D. Let me recheck: 60,000 + (10,000 + 15,000) − 5,000 = 60,000 + 25,000 − 5,000 = ₹80,000. Option D (₹80,000) is the correct answer based on calculations. Option C (₹65,000) would occur if goodwill is excluded."
+      "correct": 3,
+      "explanation": "C's share = 1/5. C's share of revaluation loss = 1/5 x ₹25,000 = ₹5,000, debited to C. C's share of General Reserve = 1/5 x ₹50,000 = ₹10,000, credited to C. C's share of goodwill = ₹15,000, credited to C. Final settlement = ₹60,000 - ₹5,000 + ₹10,000 + ₹15,000 = ₹80,000. Option D is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC06Q177",
@@ -2717,8 +2730,9 @@
         "B: 3/10, C: 2/10",
         "B: 33/50, C: 17/50"
       ],
-      "correct": 0,
-      "explanation": "Old ratio: A=5/10, B=3/10, C=2/10. A's share taken by B (3/5 of A's share) = 3/5 × 5/10 = 3/10. B gains 3/10. C gains 2/5 × 5/10 = 2/10. New share: B = 3/10 + 3/10 = 6/10. C = 2/10 + 2/10 = 4/10. New ratio B:C = 6:4 = 3:2. As fractions: B=6/10=3/5, C=4/10=2/5. Option B (B:3/5, C:2/5 = 3:2) is correct. Wait — that's the same as old ratio A:B without A! Option A (24/50 and 16/50 = 3:2) agrees. The new ratio B:C = 3:2."
+      "correct": 1,
+      "explanation": "Old shares are A = 5/10, B = 3/10, and C = 2/10. B takes 3/5 of A's 5/10 share, so B gains 3/10. C takes 2/5 of A's 5/10 share, so C gains 2/10. New share of B = 3/10 + 3/10 = 6/10 = 3/5. New share of C = 2/10 + 2/10 = 4/10 = 2/5. Therefore the new ratio is B:C = 3:2. Option B is correct.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC06Q182",
@@ -2787,13 +2801,13 @@
       "difficulty": "difficult",
       "question": "A, B, C, D share profits 4:3:2:1. D retires. Gaining ratio is A:B:C = 2:2:1. D's goodwill = ₹30,000. Also, revaluation loss = ₹20,000 and General Reserve = ₹50,000. D's capital = ₹1,00,000. Find D's settlement amount.",
       "options": [
-        "₹1,27,000",
+        "₹1,33,000",
         "₹1,22,000",
         "₹1,25,000",
         "₹1,30,000"
       ],
       "correct": 0,
-      "explanation": "D's share = 1/10. (1) Goodwill = ₹30,000 (directly given as D's share). (2) Revaluation loss: D's share = 1/10 × 20,000 = ₹2,000 (debit). (3) General Reserve: D's share = 1/10 × 50,000 = ₹5,000 (credit). (4) Capital = ₹1,00,000. Net = 1,00,000 + 30,000 − 2,000 + 5,000 − wait: 1,00,000 − 2,000 + 5,000 + 30,000 = ₹1,33,000. None match exactly. Without goodwill in one reading: 1,00,000 − 2,000 + 5,000 = ₹1,03,000. With different goodwill (gaining ratio 2:2:1 used): A pays 2/5×30,000=12,000; B pays 12,000; C pays 6,000. D's capital becomes: 1,00,000+30,000−2,000+5,000 = ₹1,33,000. Closest option: A (₹1,27,000)."
+      "explanation": "D's old share = 1/10. D's capital before adjustments = ₹1,00,000. Add D's share of goodwill = ₹30,000. Add D's share of General Reserve = 1/10 x ₹50,000 = ₹5,000. Deduct D's share of revaluation loss = 1/10 x ₹20,000 = ₹2,000. Settlement amount = ₹1,00,000 + ₹30,000 + ₹5,000 - ₹2,000 = ₹1,33,000. Option A is correct."
     },
     {
       "id": "AC06Q187",
@@ -2912,8 +2926,9 @@
         "Equal gaining; A pays ₹24,000; C pays ₹24,000",
         "Gaining ratio A:C = 1:1; A pays ₹24,000; C pays ₹24,000"
       ],
-      "correct": 1,
-      "explanation": "Old ratio: A=3/10, B=4/10, C=3/10. New ratio A:C = 1:1 → A=1/2, C=1/2. Gaining ratio: A gains = 1/2 − 3/10 = 5/10 − 3/10 = 2/10. C gains = 1/2 − 3/10 = 2/10. Equal gaining (A:C = 1:1)! Total gain = 4/10 = B's share ✓. Each pays = 1/2 × B's goodwill. B's goodwill = 4/10 × 1,20,000 = ₹48,000. A pays = 1/2 × 48,000 = ₹24,000. C pays = ₹24,000. Gaining ratio = 1:1, not 3:1 or 1:3. Option D (equal, ₹24,000 each) or Option C is correct. Both C and D say equal payment; option D explicitly states gaining ratio 1:1. Option D is correct."
+      "correct": 3,
+      "explanation": "Old ratio: A=3/10, B=4/10, C=3/10. New ratio A:C = 1:1 → A=1/2, C=1/2. Gaining ratio: A gains = 1/2 − 3/10 = 5/10 − 3/10 = 2/10. C gains = 1/2 − 3/10 = 2/10. Equal gaining (A:C = 1:1)! Total gain = 4/10 = B's share ✓. Each pays = 1/2 × B's goodwill. B's goodwill = 4/10 × 1,20,000 = ₹48,000. A pays = 1/2 × 48,000 = ₹24,000. C pays = ₹24,000. Gaining ratio = 1:1, not 3:1 or 1:3. Option D (equal, ₹24,000 each) or Option C is correct. Both C and D say equal payment; option D explicitly states gaining ratio 1:1. Option D is correct.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC06Q195",
@@ -2973,7 +2988,7 @@
         "₹10,000 saving credited to Revaluation Account; ₹40,000 paid from firm's funds"
       ],
       "correct": 0,
-      "explanation": "When a contingent liability crystallizes (the claim is settled for ₹40,000), it is recorded as an actual loss in the Revaluation Account. Debit: Revaluation A/c ₹40,000; Credit: Cash/Bank ₹40,000. Wait — actually the entry would be: Debit Revaluation A/c ₹40,000; Credit to Liability A/c ₹40,000 (then paid). This revaluation loss is shared by ALL partners in old ratio 2:1:1 including B. The ₹10,000 difference from original contingent amount may be credited if the original was already provisioned. Option A (₹40,000 to Revaluation, shared in old ratio) is correct. B bears 1/4 × 40,000 = ₹10,000."
+      "explanation": "When the contingent liability crystallizes and the claim is settled for ₹40,000, the amount becomes an actual loss and is debited to the Revaluation Account. It is then shared by all partners, including retiring partner B, in the old profit-sharing ratio 2:1:1. Option A is correct."
     },
     {
       "id": "AC06Q199",
@@ -2997,13 +3012,13 @@
       "difficulty": "difficult",
       "question": "A, B, C, D are partners (3:2:2:3). C and D retire. A and B continue in ratio 3:2. Goodwill = ₹1,00,000 (not in books). Revaluation profit = ₹40,000. General Reserve = ₹60,000. C's capital = ₹80,000; D's capital = ₹1,00,000. Calculate the total settlement for C and D combined.",
       "options": [
-        "₹2,32,000",
+        "₹2,80,000",
         "₹2,20,000",
         "₹2,40,000",
         "₹2,10,000"
       ],
       "correct": 0,
-      "explanation": "Total ratio parts = 10. C's share = 2/10; D's share = 3/10. Revaluation profit: C gets 2/10×40,000=8,000; D gets 3/10×40,000=12,000. General Reserve: C gets 2/10×60,000=12,000; D gets 3/10×60,000=18,000. Goodwill: C gets 2/10×1,00,000=20,000; D gets 3/10×1,00,000=30,000. Settlement: C = 80,000+8,000+12,000+20,000 = ₹1,20,000. D = 1,00,000+12,000+18,000+30,000 = ₹1,60,000. Combined = ₹2,80,000. Hmm — closest option: C (₹2,40,000) or A (₹2,32,000). Without goodwill: C=1,00,000; D=1,30,000; combined = ₹2,30,000 ≈ Option A (₹2,32,000). With different GR: Option A is the best match."
+      "explanation": "Old ratio total = 10. C's share = 2/10 and D's share = 3/10. Revaluation profit: C gets ₹8,000 and D gets ₹12,000. General Reserve: C gets ₹12,000 and D gets ₹18,000. Goodwill: C gets ₹20,000 and D gets ₹30,000. C's settlement = ₹80,000 + ₹8,000 + ₹12,000 + ₹20,000 = ₹1,20,000. D's settlement = ₹1,00,000 + ₹12,000 + ₹18,000 + ₹30,000 = ₹1,60,000. Combined settlement = ₹2,80,000. Option A is correct."
     }
   ]
 }

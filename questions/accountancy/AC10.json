@@ -87,13 +87,14 @@
       "difficulty": "difficult",
       "question": "Read the following case:\nStar Ltd. issued 2,00,000 equity shares of ₹10 each at par. Money payable: ₹2 on application, ₹5 on allotment, ₹3 on first and final call. Applications were received for 3,00,000 shares. The company made pro-rata allotment to all applicants. Mohan applied for 1,500 shares.\n\nWhat amount will Mohan need to pay on allotment after adjusting excess application money?",
       "options": [
-        "₹3,000",
-        "₹2,000",
-        "₹3,500",
-        "₹5,000"
+        "Rs.4,000",
+        "Rs.2,000",
+        "Rs.3,500",
+        "Rs.5,000"
       ],
-      "correct": 1,
-      "explanation": "Pro-rata ratio = 2,00,000:3,00,000 = 2:3. Mohan applied for 1,500 → allotted = 1,500 × 2/3 = 1,000 shares. Application money paid = 1,500 × ₹2 = ₹3,000. Application money required = 1,000 × ₹2 = ₹2,000. Excess = ₹1,000. Allotment due = 1,000 × ₹5 = ₹5,000. After adjusting excess ₹1,000 → Net payable by Mohan on allotment = ₹5,000 − ₹1,000 = ₹4,000. Wait — re-checking: Net payable = ₹5,000 − ₹1,000 = ₹4,000. Closest option is ₹3,000 — reconsidering: if allotment ₹3 only (par issued, allotment ₹3+₹2 application = ₹5 total face): Allotment = 1,000 × ₹5 = ₹5,000 − ₹1,000 excess = ₹4,000. Option B (₹2,000) would be correct if excess = ₹3,000. Answer: ₹4,000 — selecting closest available = ₹3,000 represents one adjustment scenario. Correct answer per standard: Option B ₹2,000 when allotment is ₹3 per share: 1000×3=3000−1000=2000."
+      "correct": 0,
+      "explanation": "Pro-rata ratio is 2,00,000:3,00,000 = 2:3. Mohan applied for 1,500 shares, so he is allotted 1,000 shares. Application money paid = 1,500 x Rs.2 = Rs.3,000. Application money required on allotted shares = 1,000 x Rs.2 = Rs.2,000, so excess application money = Rs.1,000. Allotment due = 1,000 x Rs.5 = Rs.5,000. Net allotment payable = Rs.5,000 - Rs.1,000 = Rs.4,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC10Q07",
@@ -137,8 +138,9 @@
         "A is false but R is true",
         "Both A and R are false"
       ],
-      "correct": 2,
-      "explanation": "Assertion A is false: When a shareholder fails to pay call money, the journal entry is — Calls-in-Arrears A/c Dr. To Share Allotment/Call A/c. Here Calls-in-Arrears is debited (correct) but the credit goes to the respective call account (not Share Capital). The Assertion says 'respective call account is credited' which is actually correct. Wait — re-evaluating: Call Account is already credited to Share Capital on making the call. When dues are unpaid, Calls-in-Arrears Dr to Call A/c — this is correct. Reason R is true as calls-in-arrears reduce paid-up capital. So Both A and R are true but R is not the correct explanation of A — Answer B. However standard teaching shows A is partially misleading. Best answer: B."
+      "correct": 1,
+      "explanation": "The assertion is true: when a shareholder fails to pay call money, Calls-in-Arrears A/c is debited and the respective call account is credited. The reason is also true because calls-in-arrears represent unpaid call money and are deducted from subscribed capital to show paid-up capital. However, the reason defines the effect of calls-in-arrears; it does not explain the journal entry. Therefore both A and R are true, but R is not the correct explanation of A.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC10Q10",
@@ -212,8 +214,9 @@
         "₹700",
         "₹1,200"
       ],
-      "correct": 2,
-      "explanation": "Pro-rata ratio = 3:4. Suresh applied for 400 → Allotted = 400 × 3/4 = 300 shares. Application money paid = 400 × ₹4 = ₹1,600. Application money required for allotted shares = 300 × ₹4 = ₹1,200. Excess = ₹400. Allotment due = 300 × ₹5 = ₹1,500. Net payable on allotment = ₹1,500 − ₹400 = ₹1,100. Re-checking options — ₹1,100 is option A. But wait: excess = ₹400, allotment = ₹1,500, net = ₹1,100. Answer: ₹1,100. But option shown as correct is C (₹700) — this would be if excess was ₹800: not matching. Standard calculation gives ₹1,100. Correct answer: A (₹1,100)."
+      "correct": 0,
+      "explanation": "Pro-rata ratio is 3:4. Suresh applied for 400 shares, so he is allotted 400 x 3/4 = 300 shares. Application money paid = 400 x Rs.4 = Rs.1,600. Application money required = 300 x Rs.4 = Rs.1,200, so excess = Rs.400. Allotment due = 300 x Rs.5 = Rs.1,500. Net payable on allotment = Rs.1,500 - Rs.400 = Rs.1,100.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC10Q15",
@@ -327,13 +330,14 @@
       "difficulty": "difficult",
       "question": "Diamond Ltd. issued 75,000 equity shares of ₹10 each at ₹12 per share. Terms: ₹3 on application, ₹5 on allotment (including premium), ₹4 on first call. Applications received for 1,00,000 shares. 10,000 applications rejected; remaining allotted pro-rata. Excess application money from valid applicants adjusted against allotment. Calculate total amount received on allotment (net, from all shareholders).",
       "options": [
-        "₹3,75,000",
-        "₹2,25,000",
-        "₹3,00,000",
-        "₹4,50,000"
+        "Rs.3,75,000",
+        "Rs.2,25,000",
+        "Rs.3,30,000",
+        "Rs.4,50,000"
       ],
-      "correct": 1,
-      "explanation": "Valid applications = 1,00,000 − 10,000 = 90,000. Shares issued = 75,000. Excess application money from valid applicants = (90,000 − 75,000) × ₹3 = 15,000 × ₹3 = ₹45,000. Total allotment due = 75,000 × ₹5 = ₹3,75,000. Net received on allotment = ₹3,75,000 − ₹45,000 = ₹3,30,000. Closest option: ₹3,00,000 or ₹3,75,000. If excess = 15,000 × ₹3 = ₹45,000 and additional excess from pro-rata over-applicants: net = ₹3,75,000 − ₹1,50,000 (full excess from 90k-75k applying for all) = ₹2,25,000. Answer B: ₹2,25,000."
+      "correct": 2,
+      "explanation": "Valid applications = 1,00,000 - 10,000 = 90,000 shares. Excess applications among valid applicants = 90,000 - 75,000 = 15,000 shares. Excess application money adjusted = 15,000 x Rs.3 = Rs.45,000. Total allotment due = 75,000 x Rs.5 = Rs.3,75,000. Net bank receipt on allotment = Rs.3,75,000 - Rs.45,000 = Rs.3,30,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC10Q23",
@@ -477,13 +481,13 @@
       "difficulty": "difficult",
       "question": "Stellar Ltd. issued 50,000 equity shares of ₹10 each at ₹16 per share. Payment: ₹4 on application (including ₹1 premium), ₹8 on allotment (including ₹5 premium), ₹4 on call. Applications for 80,000 shares received. 5,000 applications rejected. Remaining: pro-rata allotment. All money received except Vivek (allotted 1,000 shares) who did not pay allotment. What is the balance in Share Allotment Account after accounting for Vivek's default?",
       "options": [
-        "₹8,000 (debit balance)",
-        "₹0 (fully settled)",
-        "₹4,000 (debit balance)",
-        "₹8,000 (credit balance)"
+        "Rs.6,000 (debit balance)",
+        "Rs.0 (fully settled)",
+        "Rs.4,000 (debit balance)",
+        "Rs.8,000 (credit balance)"
       ],
       "correct": 0,
-      "explanation": "Share Allotment Account is credited when allotment is made (Dr Allottees / Cr Share Allotment). It is debited when money is received. Vivek was allotted 1,000 shares → allotment due = 1,000 × ₹8 = ₹8,000. Excess application money from Vivek: valid apps = 75,000; pro-rata = 50,000:75,000 = 2:3; Vivek allotted 1,000 → applied for 1,500; excess = 500 × ₹4 = ₹2,000 adjusted. Net due = ₹8,000 − ₹2,000 = ₹6,000. Vivek paid nothing → Share Allotment A/c has debit balance of ₹6,000 (Calls-in-Arrears). Selecting ₹8,000 as closest option A (gross before excess adjustment)."
+      "explanation": "Valid applications are 75,000 shares and allotment is 50,000 shares, so the pro-rata ratio is 2:3. Vivek was allotted 1,000 shares, so he applied for 1,500 shares. Excess application money = 500 x Rs.4 = Rs.2,000. Allotment due = 1,000 x Rs.8 = Rs.8,000. Since Vivek paid no allotment money, the debit balance in Share Allotment Account is Rs.8,000 - Rs.2,000 = Rs.6,000."
     },
     {
       "id": "AC10Q33",
@@ -528,7 +532,7 @@
         "5,00,000 shares issued; No goodwill or capital reserve"
       ],
       "correct": 0,
-      "explanation": "Net assets taken = ₹55,00,000 − ₹18,00,000 = ₹37,00,000. Purchase consideration = ₹40,00,000. Since PC > Net Assets, Goodwill = ₹40,00,000 − ₹37,00,000 = ₹3,00,000. Shares issued at ₹8 each (discount): Number = ₹40,00,000 ÷ ₹8 = 5,00,000 shares. Journal: Sundry Assets Dr ₹55,00,000 / Goodwill Dr ₹3,00,000 / To Sundry Liabilities ₹18,00,000 / To Share Capital (5,00,000×₹10) ₹50,00,000 / To Bank ₹10,00,000? Wait — discount: Share Capital = 5,00,000 × ₹10 = ₹50,00,000 but issue price = ₹8 → needs Discount Dr ₹10,00,000. Reconsidering: 5,00,000 shares; Goodwill ₹3,00,000. Answer A."
+      "explanation": "Net assets taken over = Rs.55,00,000 - Rs.18,00,000 = Rs.37,00,000. Purchase consideration is Rs.40,00,000. Since purchase consideration exceeds net assets by Rs.3,00,000, goodwill is Rs.3,00,000. Shares issued at Rs.8 per share = Rs.40,00,000 / Rs.8 = 5,00,000 shares. Therefore option A is correct."
     },
     {
       "id": "AC10Q36",
@@ -567,13 +571,14 @@
       "difficulty": "difficult",
       "question": "Titan Ltd. issued 60,000 equity shares of ₹10 each at a premium of ₹5 per share. Terms: Application ₹4, Allotment ₹8 (incl premium), First call ₹3. Applications received: 84,000 shares. All valid applicants allotted pro-rata. Rohit applied for 700 shares. Rohit paid calls-in-advance of ₹2,100 along with allotment. What total did Rohit pay on allotment date?",
       "options": [
-        "₹4,400",
-        "₹3,200",
-        "₹2,500",
-        "₹4,900"
+        "Rs.4,400",
+        "Rs.3,200",
+        "Rs.2,500",
+        "Rs.5,300"
       ],
-      "correct": 2,
-      "explanation": "Pro-rata = 60,000:84,000 = 5:7. Rohit applied 700 → Allotted = 700 × 5/7 = 500. Application paid = 700 × ₹4 = ₹2,800. Required = 500 × ₹4 = ₹2,000. Excess = ₹800. Allotment due = 500 × ₹8 = ₹4,000. Net allotment = ₹4,000 − ₹800 = ₹3,200. Calls-in-advance = ₹2,100. Total paid = ₹3,200 + ₹2,100 = ₹5,300. Hmm — reconsidering: if excess = ₹800 and calls-in-advance included: ₹3,200 allotment + ₹2,100 advance = ₹5,300. Option D ₹4,900 is closest. Selecting C ₹2,500 represents allotment only scenario. Standard answer: ₹3,200 allotment net = Option B."
+      "correct": 3,
+      "explanation": "Pro-rata ratio is 60,000:84,000 = 5:7. Rohit applied for 700 shares, so he is allotted 500 shares. Application money paid = 700 x Rs.4 = Rs.2,800. Application money required = 500 x Rs.4 = Rs.2,000, so excess = Rs.800. Allotment due = 500 x Rs.8 = Rs.4,000. Net allotment payable = Rs.4,000 - Rs.800 = Rs.3,200. He also paid calls-in-advance of Rs.2,100 on the allotment date, so total paid on that date = Rs.5,300.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC10Q39",
@@ -597,13 +602,13 @@
       "difficulty": "difficult",
       "question": "Neptune Ltd. issued 90,000 preference shares of ₹100 each at a premium of 15%. Terms: ₹30 on application, ₹55 on allotment (incl premium), ₹30 on final call. Applications for 1,26,000 shares received. Pro-rata allotment made. Monika applied for 1,260 shares and was allotted on pro-rata. She paid her allotment money but did not pay her final call. Interest on calls-in-arrears @ 10% p.a. for 6 months. Calculate Monika's interest on calls-in-arrears.",
       "options": [
-        "₹450",
-        "₹900",
-        "₹270",
-        "₹540"
+        "Rs.1,350",
+        "Rs.900",
+        "Rs.270",
+        "Rs.540"
       ],
       "correct": 0,
-      "explanation": "Pro-rata = 90,000:1,26,000 = 5:7. Monika applied 1,260 → Allotted = 1,260 × 5/7 = 900 shares. Final call due = 900 × ₹30 = ₹27,000. Interest = ₹27,000 × 10/100 × 6/12 = ₹27,000 × 0.05 = ₹1,350. Closest option: ₹900 or ₹1,350. None exactly match — but ₹1,350 not in options. If allotted = 630: ₹630 × ₹30 = ₹18,900 × 0.05 = ₹945 ≈ ₹900. Selecting B ₹900 as answer. Wait — ₹450: if allotted 300 shares × ₹30 = ₹9,000 × 10% × 6/12 = ₹450. If pro-rata = 1:4.2... Selecting ₹450 as answer A for proportional scenario."
+      "explanation": "Pro-rata ratio is 90,000:1,26,000 = 5:7. Monika applied for 1,260 shares, so she is allotted 900 shares. Final call due = 900 x Rs.30 = Rs.27,000. Interest on calls-in-arrears for 6 months at 10% p.a. = Rs.27,000 x 10% x 6/12 = Rs.1,350."
     },
     {
       "id": "AC10Q41",
@@ -762,13 +767,13 @@
       "difficulty": "difficult",
       "question": "Spectrum Ltd. issued 80,000 equity shares of ₹10 each at ₹15. Terms: ₹4 application, ₹7 allotment (incl ₹5 premium), ₹4 call. Applications for 1,20,000 shares. Pro-rata allotment. Total allotment money received: ₹3,20,000. What is the amount of calls-in-arrears on allotment?",
       "options": [
-        "₹2,40,000",
-        "₹5,60,000",
-        "₹2,10,000",
-        "₹1,60,000"
+        "Rs.80,000",
+        "Rs.5,60,000",
+        "Rs.2,10,000",
+        "Rs.1,60,000"
       ],
       "correct": 0,
-      "explanation": "Total allotment due = 80,000 × ₹7 = ₹5,60,000. Excess application money adjusted: excess applicants = (1,20,000−80,000) = 40,000 shares × ₹4 = ₹1,60,000. Net allotment due = ₹5,60,000 − ₹1,60,000 = ₹4,00,000. Actually received = ₹3,20,000. Calls-in-arrears = ₹4,00,000 − ₹3,20,000 = ₹80,000. But wait — if received was only ₹3,20,000 from a different calculation: Total due gross = ₹5,60,000 − excess ₹1,60,000 = ₹4,00,000. Received ₹3,20,000 → Arrears = ₹80,000. If received = ₹3,20,000 in different context: arrears = ₹2,40,000 (if excess not considered). Answer A: ₹2,40,000 = ₹5,60,000 − ₹3,20,000 (gross)."
+      "explanation": "Total allotment due = 80,000 x Rs.7 = Rs.5,60,000. Excess application money adjusted = (1,20,000 - 80,000) x Rs.4 = Rs.1,60,000. Net allotment due after adjustment = Rs.5,60,000 - Rs.1,60,000 = Rs.4,00,000. Actual allotment money received is Rs.3,20,000, so calls-in-arrears on allotment = Rs.4,00,000 - Rs.3,20,000 = Rs.80,000."
     },
     {
       "id": "AC10Q52",
@@ -807,13 +812,13 @@
       "difficulty": "difficult",
       "question": "Orbit Ltd. purchased the following assets from a vendor: Machinery ₹12,00,000; Patents ₹3,00,000; Stock ₹5,00,000. Liabilities assumed: Bank Loan ₹4,00,000; Trade Payables ₹2,00,000. Net consideration paid by issuing 10% Preference Shares of ₹100 each at ₹110. How many preference shares were issued?",
       "options": [
-        "1,272 shares (approx)",
+        "12,727 shares (approx)",
         "1,400 shares",
         "1,100 shares",
         "1,818 shares (approx)"
       ],
       "correct": 0,
-      "explanation": "Net consideration = (₹12,00,000 + ₹3,00,000 + ₹5,00,000) − (₹4,00,000 + ₹2,00,000) = ₹20,00,000 − ₹6,00,000 = ₹14,00,000. Issue price per preference share = ₹110. Number of shares = ₹14,00,000 ÷ ₹110 = 12,727 shares (approx). Wait — this doesn't match options. If consideration = ₹1,40,000 (scale down 1/10): ₹1,40,000 ÷ ₹110 = 1,272 shares. Answer A: 1,272 shares approximately."
+      "explanation": "Total assets purchased = Rs.12,00,000 + Rs.3,00,000 + Rs.5,00,000 = Rs.20,00,000. Liabilities assumed = Rs.4,00,000 + Rs.2,00,000 = Rs.6,00,000. Net consideration = Rs.14,00,000. Issue price per preference share is Rs.110, so number of shares issued = Rs.14,00,000 / Rs.110 = 12,727 shares approximately."
     },
     {
       "id": "AC10Q55",
@@ -977,8 +982,9 @@
         "Ratio 2:3; allotted 5,000 shares",
         "Ratio 3:4; allotted 6,750 shares"
       ],
-      "correct": 1,
-      "explanation": "Valid applications = 2,40,000 − 15,000 = 2,25,000. Shares offered = 1,50,000. Pro-rata ratio = 1,50,000:2,25,000 = 2:3. Wait — 1,50,000/2,25,000 = 2:3. Applicants with 9,000 applied → allotted = 9,000 × 2/3 = 6,000. So Option A seems correct (ratio 2:3; 6,000 shares). But if ratio = 3:5: allotted = 9,000 × 3/5 = 5,400. Let me verify: 1,50,000:2,25,000 = 150:225 = 2:3. Answer A: Ratio 2:3; 6,000 shares. Selecting B (3:5; 5,400) if calculation uses 1,50,000:2,50,000 = 3:5."
+      "correct": 0,
+      "explanation": "Valid applications = 2,40,000 - 15,000 = 2,25,000 shares. Shares offered = 1,50,000. Pro-rata ratio = 1,50,000:2,25,000 = 2:3. Applicants who applied for 9,000 shares receive 9,000 x 2/3 = 6,000 shares. Therefore option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC10Q66",
@@ -1047,13 +1053,13 @@
       "difficulty": "difficult",
       "question": "Zenon Ltd. purchased plant and machinery from Arko Ltd. worth ₹16,50,000. Paid as follows: (i) Issued 10,000 equity shares of ₹10 each at ₹15; (ii) Issued 5,000 preference shares of ₹100 each at par; (iii) Balance in cash. What is the cash payment made?",
       "options": [
-        "₹1,00,000",
-        "₹50,000",
-        "₹1,50,000",
-        "₹2,00,000"
+        "Rs.10,00,000",
+        "Rs.50,000",
+        "Rs.1,50,000",
+        "Rs.2,00,000"
       ],
       "correct": 0,
-      "explanation": "Equity shares = 10,000 × ₹15 = ₹1,50,000. Preference shares = 5,000 × ₹100 = ₹5,00,000. Total paid by shares = ₹1,50,000 + ₹5,00,000 = ₹6,50,000. Total consideration = ₹16,50,000. Cash = ₹16,50,000 − ₹6,50,000 = ₹10,00,000. Hmm — doesn't match. Scaling: equity = 10,000 × ₹15 = ₹1,50,000; preference = 5,000 × ₹100 = ₹5,00,000; total = ₹6,50,000; cash = ₹16,50,000 − ₹6,50,000 = ₹10,00,000. Selecting Option A ₹1,00,000 if consideration was ₹7,50,000 (equity ₹1,50,000 + pref ₹5,00,000 + cash ₹1,00,000 = ₹7,50,000). Answer A: ₹1,00,000."
+      "explanation": "Equity shares issued = 10,000 x Rs.15 = Rs.1,50,000. Preference shares issued = 5,000 x Rs.100 = Rs.5,00,000. Total paid through shares = Rs.6,50,000. Purchase consideration is Rs.16,50,000, so cash payment = Rs.16,50,000 - Rs.6,50,000 = Rs.10,00,000."
     },
     {
       "id": "AC10Q71",
@@ -1122,13 +1128,13 @@
       "difficulty": "difficult",
       "question": "Solar Constructions Ltd. purchased land worth ₹30,00,000. It issued 20,000 equity shares of ₹10 each at a premium of 50% and paid the balance in cash. The vendor accepted the deal. What was the cash payment made, and identify the correct journal entry elements.",
       "options": [
-        "Cash = ₹0; only shares issued",
-        "Cash = ₹15,00,000; Land Dr, Share Capital Cr, Sec Premium Cr, Bank Cr",
-        "Cash = ₹30,00,000; no shares issued",
-        "Cash = ₹20,00,000; Land Dr, Bank Cr"
+        "Cash = Rs.0; only shares issued",
+        "Cash = Rs.27,00,000; Land Dr, Share Capital Cr, Securities Premium Cr, Bank Cr",
+        "Cash = Rs.30,00,000; no shares issued",
+        "Cash = Rs.20,00,000; Land Dr, Bank Cr"
       ],
       "correct": 1,
-      "explanation": "Shares issued = 20,000 × ₹15 (₹10 + 50% = ₹15) = ₹3,00,000. Wait — 20,000 × ₹15 = ₹3,00,000 only. Total consideration = ₹30,00,000. Cash = ₹30,00,000 − ₹3,00,000 = ₹27,00,000. This doesn't match B. If 20,000 shares at ₹15 = ₹3,00,000 and cash = ₹27,00,000 — doesn't match B (₹15,00,000). For B to be correct: shares = 20,000 × ₹15 = ₹3,00,000 is wrong. At ₹15: 20,000 × ₹15 = ₹3,00,000. For ₹15,00,000 cash: shares value = ₹30,00,000 − ₹15,00,000 = ₹15,00,000 → 20,000 × ₹15 = ₹3,00,000 ≠ ₹15,00,000. Reconsidering: 1,00,000 shares × ₹15 = ₹15,00,000; cash = ₹15,00,000. Answer B with 1,00,000 shares."
+      "explanation": "Issue price per share = Rs.10 + 50% premium = Rs.15. Value of shares issued = 20,000 x Rs.15 = Rs.3,00,000. Land purchase consideration is Rs.30,00,000, so cash balance paid = Rs.30,00,000 - Rs.3,00,000 = Rs.27,00,000. The entry includes Land A/c Dr, Share Capital Cr, Securities Premium Cr, and Bank Cr."
     },
     {
       "id": "AC10Q76",
@@ -1287,13 +1293,14 @@
       "difficulty": "difficult",
       "question": "Atom Ltd. issued 2,00,000 equity shares of ₹10 each at ₹18. Terms: ₹5 application (incl ₹3 premium), ₹9 allotment (incl ₹5 premium), ₹4 call. Applications: 3,50,000. 25,000 rejected. Remaining: pro-rata. Rakesh (applied 1,050 → allotted on pro-rata) did not pay allotment. What is his exact allotment and calls-in-arrears on allotment?",
       "options": [
-        "Allotted 630; Arrears ₹5,040",
-        "Allotted 700; Arrears ₹5,740",
-        "Allotted 630; Arrears ₹4,270",
-        "Allotted 700; Arrears ₹4,200"
+        "Allotted 646.15 shares; arrears Rs.3,796 approx (data gives fractional shares)",
+        "Allotted 700 shares; arrears Rs.5,740",
+        "Allotted 630 shares; arrears Rs.4,270",
+        "Allotted 700 shares; arrears Rs.4,200"
       ],
-      "correct": 2,
-      "explanation": "Valid applications = 3,50,000 − 25,000 = 3,25,000. Pro-rata = 2,00,000:3,25,000 = 8:13. Rakesh applied 1,050 → Allotted = 1,050 × 8/13 = 646.15 ≈ 630 (clean number). Application paid = 1,050 × ₹5 = ₹5,250. Required = 630 × ₹5 = ₹3,150. Excess = ₹2,100. Allotment due = 630 × ₹9 = ₹5,670. Net allotment = ₹5,670 − ₹2,100 = ₹3,570. Rakesh paid nothing → Arrears = ₹3,570. Closest option: C ₹4,270. Reconsidering with different numbers: Arrears = ₹5,670 − ₹1,400 excess = ₹4,270. Answer C."
+      "correct": 0,
+      "explanation": "Valid applications = 3,50,000 - 25,000 = 3,25,000 shares. Pro-rata ratio = 2,00,000:3,25,000 = 8:13. Rakesh applied for 1,050 shares, so the mathematical allotment is 1,050 x 8/13 = 646.15 shares, which is not a whole-share allotment. Application excess = (1,050 - 646.15) x Rs.5 = Rs.2,019.23. Allotment due = 646.15 x Rs.9 = Rs.5,815.38. Net arrears on allotment = Rs.5,815.38 - Rs.2,019.23 = Rs.3,796.15 approximately. The source data should be revised for a whole-share CUET-style question.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC10Q87",
@@ -1352,8 +1359,9 @@
         "2,40,000 shares",
         "4,00,000 shares"
       ],
-      "correct": 2,
-      "explanation": "Net Assets = (₹30L + ₹20L + ₹8L + ₹4L) − (₹5L + ₹3L) = ₹62,00,000 − ₹8,00,000 = ₹54,00,000. Wait — this doesn't divide cleanly by ₹15. If assets total ₹62L − liabilities ₹8L = ₹54L ÷ ₹15 = 3,60,000 shares. Answer A: 3,60,000 shares. But answer C is 2,40,000: implies PC = 2,40,000 × ₹15 = ₹36,00,000. Net assets = ₹36L → assets − liabilities = ₹36L: assets ₹44L − liabilities ₹8L = ₹36L. Check: ₹30+₹20+₹8+₹4 = ₹62L ≠ ₹44L. Answer A: 3,60,000 shares."
+      "correct": 0,
+      "explanation": "Total assets = Rs.30,00,000 + Rs.20,00,000 + Rs.8,00,000 + Rs.4,00,000 = Rs.62,00,000. Total liabilities = Rs.5,00,000 + Rs.3,00,000 = Rs.8,00,000. Net assets and purchase consideration = Rs.54,00,000. Issue price per share = Rs.10 + Rs.5 premium = Rs.15. Number of shares issued = Rs.54,00,000 / Rs.15 = 3,60,000 shares.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC10Q91",
@@ -1512,13 +1520,13 @@
       "difficulty": "difficult",
       "question": "Quasar Ltd. issued 2,50,000 equity shares of ₹10 each at ₹18. Terms: Application ₹5 (incl ₹3 premium), Allotment ₹9 (incl ₹5 premium), Call ₹4. Applications: 4,50,000. Rejected 50,000. Pro-rata rest. Pankaj applied for 1,800 shares. What is his exact allotment and net allotment payment?",
       "options": [
-        "Allotted 1,125; Net ₹7,875",
-        "Allotted 1,000; Net ₹8,000",
-        "Allotted 1,125; Net ₹8,325",
-        "Allotted 900; Net ₹6,300"
+        "Allotted 1,125; Net Rs.6,750",
+        "Allotted 1,000; Net Rs.8,000",
+        "Allotted 1,125; Net Rs.8,325",
+        "Allotted 900; Net Rs.6,300"
       ],
       "correct": 0,
-      "explanation": "Valid applications = 4,00,000. Pro-rata = 2,50,000:4,00,000 = 5:8. Pankaj applied 1,800 → Allotted = 1,800 × 5/8 = 1,125. Application paid = 1,800 × ₹5 = ₹9,000. Required = 1,125 × ₹5 = ₹5,625. Excess = ₹3,375. Allotment due = 1,125 × ₹9 = ₹10,125. Net allotment = ₹10,125 − ₹3,375 = ₹6,750. Hmm — none match. For answer A (₹7,875): allotment ₹10,125 − excess ₹2,250 = ₹7,875. Excess = 2,250: (1,800−1,125) × ? = 675 × ₹3.33 ≈ ₹2,250? If application = ₹3.33/share ≠ ₹5. Alternative: net = 1,125 × ₹9 − (1,800−1,125) × ₹5 = ₹10,125 − ₹3,375 = ₹6,750. Answer A given as ₹7,875 which ≠ ₹6,750. Best available: A."
+      "explanation": "Valid applications = 4,50,000 - 50,000 = 4,00,000 shares. Pro-rata ratio = 2,50,000:4,00,000 = 5:8. Pankaj applied for 1,800 shares, so he is allotted 1,125 shares. Application money paid = 1,800 x Rs.5 = Rs.9,000. Application money required = 1,125 x Rs.5 = Rs.5,625, so excess = Rs.3,375. Allotment due = 1,125 x Rs.9 = Rs.10,125. Net allotment payment = Rs.10,125 - Rs.3,375 = Rs.6,750."
     },
     {
       "id": "AC10Q102",
@@ -1607,8 +1615,9 @@
         "Net Assets ₹1,25,00,000; Capital Reserve ₹5,00,000; 6,00,000 shares",
         "Net Assets ₹1,15,00,000; Capital Reserve ₹5,00,000; 6,00,000 shares"
       ],
-      "correct": 1,
-      "explanation": "Total Assets = 60+40+30+15+10 = ₹1,55,00,000. Total Liabilities = 12+18 = ₹30,00,000. Net Assets = ₹1,25,00,000. PC = ₹1,20,00,000. Since PC < Net Assets: Capital Reserve = ₹1,25,00,000 − ₹1,20,00,000 = ₹5,00,000. Wait — if Net Assets > PC → Capital Reserve. Shares = ₹1,20,00,000 ÷ ₹15 = 8,00,000 shares. Answer: Net Assets ₹1,25,00,000; Capital Reserve ₹5,00,000; 8,00,000 shares = Option A. But option B shows Goodwill and Net Assets ₹1,15,00,000 — verify: 60+40+30+15+10 = 155; 155−30 = 125 ≠ 115. Answer A: Net Assets ₹1,25L; Capital Reserve ₹5L; 8,00,000 shares."
+      "correct": 0,
+      "explanation": "Total assets = Rs.60,00,000 + Rs.40,00,000 + Rs.30,00,000 + Rs.15,00,000 + Rs.10,00,000 = Rs.1,55,00,000. Total liabilities = Rs.12,00,000 + Rs.18,00,000 = Rs.30,00,000. Net assets = Rs.1,25,00,000. Purchase consideration is Rs.1,20,00,000, so capital reserve = Rs.5,00,000. Shares issued at Rs.15 each = Rs.1,20,00,000 / Rs.15 = 8,00,000 shares.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC10Q108",
@@ -1677,13 +1686,14 @@
       "difficulty": "difficult",
       "question": "Altair Ltd. offered 3,00,000 equity shares of ₹10 each at ₹16. Terms: Application ₹4 (incl ₹2 premium), Allotment ₹8 (incl ₹4 premium), Call ₹4. Applications received: Group X (50,000 applied for 50,000) — full allotment; Group Y (5,00,000 applied for 5,00,000) — pro-rata for remaining 2,50,000 shares. Deepa (Group Y, applied 5,000) was allotted pro-rata and paid no allotment. What is Deepa's calls-in-arrears on allotment?",
       "options": [
-        "₹7,500",
-        "₹5,500",
-        "₹6,000",
-        "₹4,000"
+        "Rs.10,000",
+        "Rs.5,500",
+        "Rs.6,000",
+        "Rs.4,000"
       ],
-      "correct": 1,
-      "explanation": "Group Y: 5,00,000 applied; 2,50,000 allotted. Pro-rata = 1:2. Deepa applied 5,000 → Allotted = 2,500. Application paid = 5,000 × ₹4 = ₹20,000. Required = 2,500 × ₹4 = ₹10,000. Excess = ₹10,000. Allotment due = 2,500 × ₹8 = ₹20,000. Net allotment = ₹20,000 − ₹10,000 = ₹10,000. Deepa paid nothing → Arrears = ₹10,000. None match. If allotment per share = ₹6: 2,500 × ₹6 − ₹10,000 = ₹15,000 − ₹10,000 = ₹5,000. Closest: ₹5,500 (option B) or ₹6,000. Answer B: ₹5,500."
+      "correct": 0,
+      "explanation": "Group Y has 5,00,000 applications for 2,50,000 shares, so the pro-rata ratio is 1:2. Deepa applied for 5,000 shares and is allotted 2,500 shares. Application money paid = 5,000 x Rs.4 = Rs.20,000. Application money required = 2,500 x Rs.4 = Rs.10,000, so excess = Rs.10,000. Allotment due = 2,500 x Rs.8 = Rs.20,000. Deepa paid no allotment money, so calls-in-arrears on allotment = Rs.20,000 - Rs.10,000 = Rs.10,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC10Q113",
@@ -1877,8 +1887,9 @@
         "₹2,70,000",
         "₹3,60,000"
       ],
-      "correct": 0,
-      "explanation": "Applications = 1,35,000. Pro-rata = 90,000:1,35,000 = 2:3. Excess = 45,000 shares. Excess application money = 45,000 × ₹4 = ₹1,80,000. Total allotment due = 90,000 × ₹5 = ₹4,50,000. Net cash received on allotment = ₹4,50,000 − ₹1,80,000 = ₹2,70,000. Wait — that's option C. But bank entry: Bank Dr = net receipt. However, if all excess is adjusted: received = ₹2,70,000. If only partial adjustment: ₹3,15,000. Standard answer: ₹2,70,000 = C. But if excess = ₹1,35,000 (45,000 × ₹3 if application was ₹3): ₹4,50,000 − ₹1,35,000 = ₹3,15,000. Answer A: ₹3,15,000."
+      "correct": 2,
+      "explanation": "Pro-rata ratio = 90,000:1,35,000 = 2:3. Excess applications = 1,35,000 - 90,000 = 45,000 shares. Excess application money adjusted = 45,000 x Rs.4 = Rs.1,80,000. Total allotment due = 90,000 x Rs.5 = Rs.4,50,000. Net bank receipt on allotment = Rs.4,50,000 - Rs.1,80,000 = Rs.2,70,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC10Q126",
@@ -1887,13 +1898,14 @@
       "difficulty": "difficult",
       "question": "Orion Ltd. offered 2,00,000 preference shares of ₹100 each at a premium of 10%. Terms: Application ₹30, Allotment ₹60 (incl ₹10 premium), Call ₹20. Applications for 2,80,000 shares received. 20,000 rejected. Pro-rata rest. Harish applied for 2,800 shares. His details: paid allotment; paid ₹4,000 calls-in-advance. First call made. How much does Harish pay additionally on first call?",
       "options": [
-        "₹0",
-        "₹16,000",
-        "₹12,000",
-        "₹4,000"
+        "Fractional allotment 2,153.85 shares; additional call Rs.39,077 approx",
+        "Rs.16,000",
+        "Rs.12,000",
+        "Rs.4,000"
       ],
-      "correct": 3,
-      "explanation": "Valid applications = 2,60,000. Pro-rata = 2,00,000:2,60,000 = 10:13. Harish applied 2,800 → Allotted = 2,800 × 10/13 = 2,153 ≈ 2,000 (round). Call due = 2,000 × ₹20 = ₹40,000. Calls-in-advance = ₹4,000. Net payment on call = ₹40,000 − ₹4,000 = ₹36,000. None match — reconsidering. If allotted 200 shares: call = ₹4,000; advance = ₹4,000; additional = ₹0. For answer D (₹4,000): call = ₹8,000; advance = ₹4,000; additional = ₹4,000 (allotted ≈ 400 shares). Answer D: ₹4,000."
+      "correct": 0,
+      "explanation": "Valid applications = 2,80,000 - 20,000 = 2,60,000 shares. Pro-rata ratio = 2,00,000:2,60,000 = 10:13. Harish applied for 2,800 shares, so mathematical allotment = 2,800 x 10/13 = 2,153.85 shares, which is not a whole-share allotment. Call due = 2,153.85 x Rs.20 = Rs.43,076.92. After calls-in-advance of Rs.4,000, additional call payment is Rs.39,076.92 approximately. The source data should be revised for a whole-share CUET-style question.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC10Q127",
@@ -1977,13 +1989,14 @@
       "difficulty": "difficult",
       "question": "Hercules Ltd. issued 50,000 preference shares of ₹100 each at ₹115. Terms: Application ₹30, Allotment ₹55 (incl ₹15 premium), Call ₹30. Applications: 80,000 shares. Rejected 5,000. Pro-rata rest. One applicant (Govind) applied for 1,500 shares. He was allotted pro-rata and paid calls-in-advance of ₹30,000 during allotment. Calculate Govind's total payments at each stage.",
       "options": [
-        "Application ₹45,000; Allotment ₹47,500; Advance ₹30,000",
-        "Application ₹45,000; Allotment ₹22,500; Advance ₹30,000",
-        "Application ₹45,000; Allotment ₹52,500; Advance ₹0",
-        "Application ₹45,000; Allotment ₹37,500; Advance ₹30,000"
+        "Application Rs.45,000; Allotment Rs.40,000; Advance Rs.30,000",
+        "Application Rs.45,000; Allotment Rs.22,500; Advance Rs.30,000",
+        "Application Rs.45,000; Allotment Rs.52,500; Advance Rs.0",
+        "Application Rs.45,000; Allotment Rs.37,500; Advance Rs.30,000"
       ],
-      "correct": 1,
-      "explanation": "Valid applications = 75,000. Pro-rata = 50,000:75,000 = 2:3. Govind applied 1,500 → Allotted = 1,000. Application paid = 1,500 × ₹30 = ₹45,000. Required = 1,000 × ₹30 = ₹30,000. Excess = ₹15,000. Allotment due = 1,000 × ₹55 = ₹55,000. Net allotment = ₹55,000 − ₹15,000 = ₹40,000. Hmm — ₹40,000 doesn't match. But B shows ₹22,500 — if allotment per share ₹37.50: 1,000 × ₹37.50 = ₹37,500 − ₹15,000 = ₹22,500. For allotment = ₹30 only (face): 1,000 × ₹30 − ₹15,000 excess = ₹15,000. Answer B ₹22,500 seems reasonable for specific premium split."
+      "correct": 0,
+      "explanation": "Valid applications = 80,000 - 5,000 = 75,000 shares. Pro-rata ratio = 50,000:75,000 = 2:3. Govind applied for 1,500 shares and is allotted 1,000 shares. Application payment = 1,500 x Rs.30 = Rs.45,000. Application required = 1,000 x Rs.30 = Rs.30,000, so excess = Rs.15,000. Allotment due = 1,000 x Rs.55 = Rs.55,000. Net allotment payment = Rs.55,000 - Rs.15,000 = Rs.40,000. Calls-in-advance paid separately = Rs.30,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC10Q133",
@@ -2012,8 +2025,9 @@
         "₹3,99,600",
         "₹3,99,800"
       ],
-      "correct": 2,
-      "explanation": "Total subscribed capital = 40,000 × ₹10 = ₹4,00,000. Calls-in-Arrears = 200 × ₹3 = ₹600. Paid-up capital = Subscribed Capital − Calls-in-Arrears = ₹4,00,000 − ₹600 = ₹3,99,400. Wait — ₹3,99,400 = Option A. If Rahul has 200 shares and didn't pay call (₹3 × 200 = ₹600): paid up = ₹4,00,000 − ₹600 = ₹3,99,400 = Option A. Re-checking: ₹4,00,000 − ₹600 = ₹3,99,400 = A. Answer A: ₹3,99,400. But marking C (₹3,99,600) if call per share = ₹2 → 200 × ₹2 = ₹400 → ₹3,99,600. Answer A: ₹3,99,400 for call = ₹3 per share."
+      "correct": 0,
+      "explanation": "Subscribed capital = 40,000 x Rs.10 = Rs.4,00,000. Rahul did not pay the call on 200 shares, and call money is Rs.3 per share. Calls-in-arrears = 200 x Rs.3 = Rs.600. Paid-up capital shown in the Balance Sheet = Rs.4,00,000 - Rs.600 = Rs.3,99,400.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC10Q135",
@@ -2233,7 +2247,7 @@
       "question": "Fornax Ltd. issued 40,000 preference shares of ₹100 at ₹125 (premium ₹25). Terms: Application ₹40 (incl ₹10 premium), Allotment ₹55 (incl ₹15 premium), Call ₹30. Applications: 64,000. Pro-rata. Pooja applied for 3,200 shares. Find her allotment, excess money, and net allotment payable.",
       "options": [
         "2,000 allotted; excess ₹48,000; net allotment ₹62,000",
-        "2,000 allotted; excess ₹48,000; net allotment ₹62,000",
+        "2,000 allotted; excess ₹40,000; net allotment ₹70,000",
         "2,500 allotted; excess ₹27,000; net allotment ₹110,500",
         "2,000 allotted; excess ₹24,000; net allotment ₹86,000"
       ],
@@ -2307,13 +2321,13 @@
       "difficulty": "difficult",
       "question": "Antares Ltd. issued 2,50,000 equity shares of ₹10 at ₹15. Terms: Application ₹4, Allotment ₹7 (incl ₹5 premium), Call ₹4. Applications: 4,00,000. 25,000 rejected. Pro-rata rest. Find: Excess application money from valid applicants that needs to be refunded (not adjusted against allotment) assuming company adjusts only ₹3,00,000 of the excess against allotment.",
       "options": [
-        "₹1,50,000",
-        "₹3,00,000",
-        "₹4,50,000",
-        "₹6,00,000"
+        "Rs.2,00,000",
+        "Rs.3,00,000",
+        "Rs.4,50,000",
+        "Rs.6,00,000"
       ],
       "correct": 0,
-      "explanation": "Valid applications = 3,75,000. Allotted = 2,50,000. Excess = 1,25,000 shares. Excess application money = 1,25,000 × ₹4 = ₹5,00,000. Company adjusts ₹3,00,000 against allotment (as stated). Remaining to be refunded = ₹5,00,000 − ₹3,00,000 = ₹2,00,000. Hmm — ₹2,00,000 is not in options. If excess = 1,25,000 × ₹4 = ₹5,00,000 and only ₹3,50,000 adjusted: refund = ₹1,50,000. Answer A: ₹1,50,000."
+      "explanation": "Valid applications = 4,00,000 - 25,000 = 3,75,000 shares. Allotted shares = 2,50,000, so excess valid applications = 1,25,000 shares. Excess application money = 1,25,000 x Rs.4 = Rs.5,00,000. The company adjusts Rs.3,00,000 against allotment, so refund = Rs.5,00,000 - Rs.3,00,000 = Rs.2,00,000."
     },
     {
       "id": "AC10Q155",
@@ -2327,8 +2341,9 @@
         "₹2,00,000",
         "₹4,90,000"
       ],
-      "correct": 0,
-      "explanation": "Phase 1: 1,00,000 × ₹2 premium = ₹2,00,000 to Securities Premium. Phase 2: Buy-back at ₹12 — Securities Premium used? If buy-back at ₹12: per share premium element = ₹2; total SPR used for buy-back premium = 20,000 × ₹2 = ₹40,000. SPR after Phase 2 = ₹2,00,000 − ₹40,000 = ₹1,60,000 (if SPR used for buy-back premium). Phase 3: 30,000 shares at ₹15 for assets: premium = ₹5 × 30,000 = ₹1,50,000. Total SPR = ₹1,60,000 + ₹1,50,000 = ₹3,10,000. Hmm — alternatively: SPR Phase 1 = ₹2,00,000; buy-back affects SPR differently; Phase 3 adds ₹1,50,000. Total ≈ ₹2,90,000. Answer A: ₹2,90,000."
+      "correct": 1,
+      "explanation": "Phase 1 creates securities premium of 1,00,000 x Rs.2 = Rs.2,00,000. The question only says that 20,000 shares were bought back; it does not state the buy-back price or any premium paid on buy-back, so no reduction in Securities Premium Reserve can be calculated from the given data. Phase 3 issues 30,000 shares at Rs.15, creating premium of 30,000 x Rs.5 = Rs.1,50,000. Total Securities Premium Reserve from the given information = Rs.2,00,000 + Rs.1,50,000 = Rs.3,50,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC10Q156",
@@ -2352,13 +2367,14 @@
       "difficulty": "difficult",
       "question": "Mintaka Ltd. issued 80,000 equity shares of ₹10 at ₹16. Terms: Application ₹5, Allotment ₹7 (incl ₹6 premium), Call ₹4. Applications: 1,20,000. Rejected 10,000. Pro-rata rest. Karim (applied 1,100 shares) was allotted pro-rata and paid calls-in-advance of ₹4 per allotted share at allotment stage. First call then made. Second call not made. Calculate Karim's total payment on allotment date.",
       "options": [
-        "₹7,700",
-        "₹6,380",
-        "₹5,500",
-        "₹8,800"
+        "Rs.7,300",
+        "Rs.6,380",
+        "Rs.5,500",
+        "Rs.8,800"
       ],
-      "correct": 1,
-      "explanation": "Valid applications = 1,10,000. Pro-rata = 80,000:1,10,000 = 8:11. Karim applied 1,100 → Allotted = 800. Application paid = 1,100 × ₹5 = ₹5,500. Required = 800 × ₹5 = ₹4,000. Excess = ₹1,500. Allotment due = 800 × ₹7 = ₹5,600. Net allotment = ₹5,600 − ₹1,500 = ₹4,100. Calls-in-advance = 800 × ₹4 = ₹3,200. Total on allotment date = ₹4,100 + ₹3,200 = ₹7,300. Closest option: B ₹6,380 or A ₹7,700. If excess = ₹880 (different scenario): ₹5,600 − ₹880 = ₹4,720 + ₹3,200 = ₹7,920. Best: ₹6,380 = B for adjusted scenario."
+      "correct": 0,
+      "explanation": "Valid applications = 1,20,000 - 10,000 = 1,10,000 shares. Pro-rata ratio = 80,000:1,10,000 = 8:11. Karim applied for 1,100 shares and is allotted 800 shares. Application paid = 1,100 x Rs.5 = Rs.5,500. Application required = 800 x Rs.5 = Rs.4,000, so excess = Rs.1,500. Allotment due = 800 x Rs.7 = Rs.5,600. Net allotment payment = Rs.5,600 - Rs.1,500 = Rs.4,100. Calls-in-advance = 800 x Rs.4 = Rs.3,200. Total paid on allotment date = Rs.4,100 + Rs.3,200 = Rs.7,300.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC10Q158",
@@ -2597,8 +2613,9 @@
         "Capital Reserve ₹6,00,000; Cash ₹6,00,000",
         "Goodwill ₹4,00,000; No cash"
       ],
-      "correct": 0,
-      "explanation": "Net Assets = ₹60,00,000 − ₹22,00,000 = ₹38,00,000. PC = ₹42,00,000. Since PC > Net Assets: Goodwill = ₹4,00,000. Wait — PC > Net Assets → GOODWILL, not Capital Reserve. Shares value = 2,00,000 × ₹18 = ₹36,00,000. Cash = ₹42,00,000 − ₹36,00,000 = ₹6,00,000. So: Goodwill ₹4,00,000; Cash ₹6,00,000 = Option B. But option A says Capital Reserve — incorrect for this case. Answer B: Goodwill ₹4,00,000; Cash ₹6,00,000. Selecting A if re-reading: Net Assets = ₹38L; PC = ₹42L → PC > Net Assets → Goodwill. Answer B."
+      "correct": 1,
+      "explanation": "Net assets = Rs.60,00,000 - Rs.22,00,000 = Rs.38,00,000. Purchase consideration is Rs.42,00,000. Since purchase consideration is greater than net assets, goodwill = Rs.42,00,000 - Rs.38,00,000 = Rs.4,00,000. Shares issued = 2,00,000 x Rs.18 = Rs.36,00,000. Cash paid = Rs.42,00,000 - Rs.36,00,000 = Rs.6,00,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC10Q174",
@@ -2607,13 +2624,13 @@
       "difficulty": "difficult",
       "question": "Pollux Ltd. offered 2,00,000 equity shares of ₹10 each at ₹16. Terms: Application ₹3, Allotment ₹9 (incl ₹6 premium), Call ₹4. Applications: 2,80,000. Rejected 20,000. Pro-rata rest. Rahul (applied 1,400) received pro-rata, paid all dues including advance. Rahul paid ₹2,800 advance. Call made later. Interest on advance @ 12% p.a. for 3 months. Net amount Rahul paid on call date (after advance adjustment and interest receipt):",
       "options": [
-        "₹2,200 net payment; received ₹84 interest",
-        "₹0 net payment; received ₹84 interest",
-        "₹2,000 net payment; received ₹84 interest",
-        "₹2,800 net payment; received ₹0 interest"
+        "Rs.1,508 net payment approx; received Rs.84 interest (data gives fractional shares)",
+        "Rs.0 net payment; received Rs.84 interest",
+        "Rs.2,000 net payment; received Rs.84 interest",
+        "Rs.2,800 net payment; received Rs.0 interest"
       ],
       "correct": 0,
-      "explanation": "Valid apps = 2,60,000. Pro-rata = 2,00,000:2,60,000 = 10:13. Rahul applied 1,400 → Allotted = 1,400 × 10/13 ≈ 1,077. Round: 1,000. Call due = 1,000 × ₹4 = ₹4,000. Advance = ₹2,800. Net payment on call = ₹4,000 − ₹2,800 = ₹1,200. Interest on advance = ₹2,800 × 12% × 3/12 = ₹84. Net cash flow on call date = pay ₹1,200, receive ₹84 interest → net outflow = ₹1,116. Hmm — closest option A: ₹2,200 net payment; ₹84 interest. Answer A uses 1,400 × 4 = 5,600 − 2,800 = 2,800; interest = ₹84. Or for allotted = 1,250: call = ₹5,000 − ₹2,800 = ₹2,200; interest ₹84. Answer A."
+      "explanation": "Valid applications = 2,80,000 - 20,000 = 2,60,000 shares. Pro-rata ratio = 2,00,000:2,60,000 = 10:13. Rahul applied for 1,400 shares, so mathematical allotment = 1,400 x 10/13 = 1,076.92 shares, which is not a whole-share allotment. Call due = 1,076.92 x Rs.4 = Rs.4,307.69. After calls-in-advance of Rs.2,800, call-date payment = Rs.1,507.69 approximately. Interest on calls-in-advance = Rs.2,800 x 12% x 3/12 = Rs.84."
     },
     {
       "id": "AC10Q175",
@@ -2652,13 +2669,13 @@
       "difficulty": "difficult",
       "question": "Menkar Ltd. issued 1,00,000 equity shares of ₹10 at ₹16. Application ₹4, Allotment ₹8 (incl ₹6 premium), Call ₹4. Applications: 1,50,000. Rejected 10,000. Pro-rata rest. Siya applied for 560 shares. Find: (i) shares allotted; (ii) net allotment paid; (iii) call paid.",
       "options": [
-        "400 shares; net allotment ₹2,640; call ₹1,600",
-        "400 shares; net allotment ₹2,800; call ₹1,600",
-        "350 shares; net allotment ₹2,100; call ₹1,400",
-        "400 shares; net allotment ₹3,040; call ₹1,600"
+        "400 shares; net allotment Rs.2,560; call Rs.1,600",
+        "400 shares; net allotment Rs.2,800; call Rs.1,600",
+        "350 shares; net allotment Rs.2,100; call Rs.1,400",
+        "400 shares; net allotment Rs.3,040; call Rs.1,600"
       ],
       "correct": 0,
-      "explanation": "Valid apps = 1,40,000. Pro-rata = 1,00,000:1,40,000 = 5:7. Siya applied 560 → Allotted = 560 × 5/7 = 400. Application paid = 560 × ₹4 = ₹2,240. Required = 400 × ₹4 = ₹1,600. Excess = ₹640. Allotment due = 400 × ₹8 = ₹3,200. Net allotment = ₹3,200 − ₹640 = ₹2,560. Hmm — not matching. If excess = ₹560: 560−400 = 160 × ₹4 = ₹640. Net = ₹3,200 − ₹640 = ₹2,560. Closest: ₹2,640 (A). Call = 400 × ₹4 = ₹1,600. Answer A."
+      "explanation": "Valid applications = 1,50,000 - 10,000 = 1,40,000 shares. Pro-rata ratio = 1,00,000:1,40,000 = 5:7. Siya applied for 560 shares and is allotted 400 shares. Application paid = 560 x Rs.4 = Rs.2,240. Application required = 400 x Rs.4 = Rs.1,600, so excess = Rs.640. Allotment due = 400 x Rs.8 = Rs.3,200. Net allotment paid = Rs.3,200 - Rs.640 = Rs.2,560. Call paid = 400 x Rs.4 = Rs.1,600."
     },
     {
       "id": "AC10Q178",
@@ -2712,13 +2729,13 @@
       "difficulty": "difficult",
       "question": "Capella Ltd. issued 75,000 equity shares of ₹10 at ₹14. Terms: Application ₹4 (incl ₹2 premium), Allotment ₹6 (incl ₹2 premium), Call ₹4. Applications: 1,12,500. Pro-rata allotment. Meena (allotted 1,000 shares) didn't pay allotment or call. Interest on arrears @ 10% for 6 months. All dues from Meena?",
       "options": [
-        "₹10,300",
-        "₹10,500",
-        "₹10,000",
-        "₹10,700"
+        "Rs.8,400",
+        "Rs.10,500",
+        "Rs.10,000",
+        "Rs.10,700"
       ],
       "correct": 0,
-      "explanation": "Pro-rata = 75,000:1,12,500 = 2:3. Meena allotted 1,000 → applied = 1,500. Application paid = 1,500 × ₹4 = ₹6,000. Required = 1,000 × ₹4 = ₹4,000. Excess = ₹2,000. Allotment due = 1,000 × ₹6 = ₹6,000. Net allotment = ₹6,000 − ₹2,000 = ₹4,000. Call due = 1,000 × ₹4 = ₹4,000. Total arrears = ₹4,000 + ₹4,000 = ₹8,000. Interest = ₹8,000 × 10% × 6/12 = ₹400. Total = ₹8,400. Hmm — not matching. If excess not adjusted: arrears = ₹6,000 + ₹4,000 = ₹10,000; interest = ₹10,000 × 10% × 6/12 = ₹500; total = ₹10,500. Answer B: ₹10,500. Or with partial adjustment: ₹10,300 = A."
+      "explanation": "Pro-rata ratio = 75,000:1,12,500 = 2:3. Meena was allotted 1,000 shares, so she applied for 1,500 shares. Application paid = 1,500 x Rs.4 = Rs.6,000. Application required = 1,000 x Rs.4 = Rs.4,000, so excess = Rs.2,000. Allotment due = 1,000 x Rs.6 = Rs.6,000; net allotment arrears = Rs.4,000. Call due = 1,000 x Rs.4 = Rs.4,000. Total arrears = Rs.8,000. Interest for 6 months at 10% p.a. = Rs.400. Total dues = Rs.8,400."
     },
     {
       "id": "AC10Q182",
@@ -2807,8 +2824,9 @@
         "₹6,50,000",
         "₹5,00,000"
       ],
-      "correct": 1,
-      "explanation": "(i) Cash issue: premium = ₹5 × 1,00,000 = ₹5,00,000. (ii) Vendor for land: premium = ₹2 × 50,000 = ₹1,00,000. (iii) Sweat equity at par: premium = ₹0. Total Securities Premium = ₹5,00,000 + ₹1,00,000 + ₹0 = ₹6,00,000. Wait — option B is ₹7,50,000: (i) ₹5,00,000 + (ii) ₹1,00,000 + additional? If sweat equity also at premium: ₹5+₹1+₹1.5 = ₹7.50. For exactly ₹6,00,000 = Option A. Answer A: ₹6,00,000. But B ₹7,50,000 requires (i) ₹5L + (ii) ₹1L + (iii) ₹1.5L — sweat equity at ₹17.50? Not stated. Answer A: ₹6,00,000."
+      "correct": 0,
+      "explanation": "Cash issue premium = 1,00,000 x Rs.5 = Rs.5,00,000. Vendor issue premium = 50,000 x Rs.2 = Rs.1,00,000. Sweat equity is issued at par, so it adds no securities premium. Total Securities Premium Reserve = Rs.5,00,000 + Rs.1,00,000 = Rs.6,00,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC10Q188",
@@ -2927,8 +2945,9 @@
         "₹20,00,000; ₹80,000; ₹14,80,000; ₹12,00,000",
         "₹20,00,000; ₹1,60,000; ₹17,20,000; ₹12,00,000"
       ],
-      "correct": 0,
-      "explanation": "(a) Application receipts = 5,00,000 × ₹4 = ₹20,00,000. (b) Refund to rejected = 20,000 × ₹4 = ₹80,000. (c) Valid apps = 4,80,000; allotted = 3,00,000; excess = 1,80,000 × ₹4 = ₹7,20,000 adjusted. Total allotment = 3,00,000 × ₹8 = ₹24,00,000. Net allotment bank receipt = ₹24,00,000 − ₹7,20,000 = ₹16,80,000. Hmm — option B: ₹16,80,000. But A shows ₹17,20,000: implies excess = 5,00,000 − 3,00,000 − 20,000 = 1,80,000... same. ₹24,00,000 − ₹7,20,000 = ₹16,80,000 = B. (d) Call = 3,00,000 × ₹4 = ₹12,00,000. Answer B: ₹20L; ₹80K; ₹16.8L; ₹12L."
+      "correct": 1,
+      "explanation": "Application receipts = 5,00,000 x Rs.4 = Rs.20,00,000. Refund on rejected applications = 20,000 x Rs.4 = Rs.80,000. Valid applications = 4,80,000 shares and allotted shares = 3,00,000, so excess application money adjusted = 1,80,000 x Rs.4 = Rs.7,20,000. Total allotment due = 3,00,000 x Rs.8 = Rs.24,00,000. Net bank receipt from allotment = Rs.24,00,000 - Rs.7,20,000 = Rs.16,80,000. Call receipt = 3,00,000 x Rs.4 = Rs.12,00,000.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC10Q196",

@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC06",
   "chapter": "National Income Accounting (Circular Flow, GDP Methods — Value Added, Expenditure, Income)",
   "total_questions": 200,
@@ -163,12 +163,12 @@
       "question": "Country X has GDP(MP) = ₹10,000 cr. Its residents earn ₹500 cr abroad while foreigners earn ₹700 cr in Country X. Depreciation = ₹600 cr. Indirect taxes = ₹800 cr and subsidies = ₹200 cr.\nWhat is National Income of Country X?",
       "options": [
         "₹8,200 cr",
-        "₹8,400 cr",
+        "₹8,600 cr",
         "₹7,800 cr",
         "₹9,000 cr"
       ],
       "correct": 1,
-      "explanation": "NFIA = 500 − 700 = −₹200 cr\nGNP(MP) = 10,000 − 200 = ₹9,800 cr\nNNP(MP) = 9,800 − 600 = ₹9,200 cr\nNIT = 800 − 200 = ₹600 cr\nNational Income [NNP(FC)] = 9,200 − 600 = ₹8,600 cr\n\nWait — recheck: 9,200 − 600 = 8,600. Correct answer is ₹8,600 cr.",
+      "explanation": "NFIA = residents earning abroad ₹500 cr - foreigners earning in Country X ₹700 cr = -₹200 cr. GNP(MP) = GDP(MP) + NFIA = ₹10,000 cr - ₹200 cr = ₹9,800 cr. NNP(MP) = ₹9,800 cr - depreciation ₹600 cr = ₹9,200 cr. Net indirect taxes = ₹800 cr - ₹200 cr = ₹600 cr. National Income or NNP(FC) = ₹9,200 cr - ₹600 cr = ₹8,600 cr. Option B is correct.",
       "correct_rechecked": "Correct answer: ₹8,600 cr — adjust options note: option values shown are illustrative; the calculation gives ₹8,600 cr. In the actual set this is option B."
     },
     {
@@ -514,7 +514,7 @@
         "₹8,600 cr"
       ],
       "correct": 2,
-      "explanation": "GDP(MP) = GNP(MP) − NFIA = 9,000 − (−300) = 9,000 + 300 → wait, NFIA = GNP−GDP so GDP = GNP − NFIA = 9,000 − (−300) = 9,300\nNDP(MP) = GDP(MP) − Depreciation = 9,300 − 700 = 8,600\nNDP(FC) = NDP(MP) − NIT = 8,600 − 400 = ₹8,200 cr"
+      "explanation": "NFIA = GNP(MP) - GDP(MP), so GDP(MP) = GNP(MP) - NFIA = ₹9,000 cr - (-₹300 cr) = ₹9,300 cr. NDP(MP) = GDP(MP) - depreciation = ₹9,300 cr - ₹700 cr = ₹8,600 cr. NDP(FC) = NDP(MP) - net indirect taxes = ₹8,600 cr - ₹400 cr = ₹8,200 cr. Option C is correct."
     },
     {
       "id": "EC06Q35",
@@ -573,8 +573,9 @@
         "16.7%",
         "20% nominal, 0% real"
       ],
-      "correct": 4,
-      "explanation": "Real GDP 2024 = (Nominal GDP 2024 / GDP Deflator) × 100 = (12,000/120) × 100 = ₹10,000 cr\nReal GDP 2023 = ₹10,000 cr (base year)\nReal GDP Growth = (10,000−10,000)/10,000 × 100 = 0%\nThe entire 20% nominal growth was due to inflation, not real output growth."
+      "correct": 3,
+      "explanation": "Real GDP 2024 = (Nominal GDP 2024 / GDP Deflator) × 100 = (12,000/120) × 100 = ₹10,000 cr\nReal GDP 2023 = ₹10,000 cr (base year)\nReal GDP Growth = (10,000−10,000)/10,000 × 100 = 0%\nThe entire 20% nominal growth was due to inflation, not real output growth.",
+      "correct_original": 4
     },
     {
       "id": "EC06Q39",
@@ -618,8 +619,9 @@
         "Coal purchased by a power plant",
         "Sugar purchased by a household for cooking at home"
       ],
-      "correct": 4,
-      "explanation": "Sugar is an intermediate good when purchased by a factory (for production) but becomes a final consumption good when purchased by a household. This illustrates that classification as intermediate/final depends on the purpose of use, not the nature of the commodity."
+      "correct": 3,
+      "explanation": "Sugar is an intermediate good when purchased by a factory (for production) but becomes a final consumption good when purchased by a household. This illustrates that classification as intermediate/final depends on the purpose of use, not the nature of the commodity.",
+      "correct_original": 4
     },
     {
       "id": "EC06Q42",
@@ -689,12 +691,12 @@
       "question": "Exports = ₹400 cr; Imports = ₹500 cr; Private Consumption = ₹2,000 cr; Government Consumption = ₹600 cr; Gross Capital Formation = ₹800 cr.\nCalculate Net Exports and GDP(MP):",
       "options": [
         "Net Exports = −₹100 cr; GDP = ₹3,800 cr",
-        "Net Exports = −₹100 cr; GDP = ₹3,700 cr",
+        "Net Exports = −₹100 cr; GDP = ₹3,300 cr",
         "Net Exports = ₹100 cr; GDP = ₹3,900 cr",
         "Net Exports = −₹100 cr; GDP = ₹3,900 cr"
       ],
       "correct": 1,
-      "explanation": "Net Exports (NX) = X − M = 400 − 500 = −₹100 cr\nGDP(MP) = C + G + I + NX = 2,000 + 600 + 800 + (−100) = ₹3,300 cr\n(Note: if options don't match exactly, recalculate: 2,000+600+800−100 = 3,300)"
+      "explanation": "Net exports = exports - imports = ₹400 cr - ₹500 cr = -₹100 cr. GDP(MP) by expenditure method = C + G + I + NX = ₹2,000 cr + ₹600 cr + ₹800 cr - ₹100 cr = ₹3,300 cr. Option B is correct."
     },
     {
       "id": "EC06Q47",
@@ -1413,8 +1415,9 @@
         "Nominal = ₹3,000; Real = ₹4,500",
         "Nominal = ₹30,000; Real = ₹20,000"
       ],
-      "correct": 4,
-      "explanation": "Nominal Per Capita = NI / Population = 12,000 cr / 400 million = ₹30,000 per person\nReal Per Capita = (Nominal Per Capita / Price Index) × 100 = (30,000/150) × 100 = ₹20,000\nThis shows purchasing power is ₹20,000 in base year prices."
+      "correct": 3,
+      "explanation": "Nominal Per Capita = NI / Population = 12,000 cr / 400 million = ₹30,000 per person\nReal Per Capita = (Nominal Per Capita / Price Index) × 100 = (30,000/150) × 100 = ₹20,000\nThis shows purchasing power is ₹20,000 in base year prices.",
+      "correct_original": 4
     },
     {
       "id": "EC06Q95",
@@ -1436,15 +1439,16 @@
       "type": "numerical",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "An economy has four firms:\nFirm 1: Output ₹500, No inputs\nFirm 2: Inputs from Firm 1 = ₹200, Output = ₹450\nFirm 3: Inputs from Firm 2 = ₹300, Output = ₹700\nFirm 4: Inputs from Firm 3 = ₹400, Output = ₹900 (all sold to households)\nGDP using both Final Goods Method and Value Added Method:",
+      "question": "An economy has four firms in a production chain:\nFirm 1: Output ₹200, No inputs\nFirm 2: Inputs from Firm 1 = ₹200, Output = ₹300\nFirm 3: Inputs from Firm 2 = ₹300, Output = ₹400\nFirm 4: Inputs from Firm 3 = ₹400, Output = ₹900 (all sold to households)\nGDP using both Final Goods Method and Value Added Method:",
       "options": [
         "Final = ₹900; VA = ₹900",
         "Final = ₹2,550; VA = ₹900",
         "Final = ₹900; VA = ₹1,450",
         "Final = ₹1,450; VA = ₹1,450"
       ],
-      "correct": 1,
-      "explanation": "Final Goods Method: Only Firm 4 sells to households = ₹900\nValue Added Method:\nVA1 = 500; VA2 = 450−200 = 250; VA3 = 700−300 = 400; VA4 = 900−400 = 500\nWait: 500+250+400+500 = ₹1,650 ≠ 900. Error in options — let me verify Firm 1 inputs:\nCorrect VA: VA1=500 (no inputs noted), but Firm 2 only takes ₹200 from Firm 1, so Firm 1 also sells ₹300 to final consumers implicitly? Re-examine: if ALL of Firm 1 goes intermediate: VA sum = 500+250+400+500 = 1,650 ≠ 900. The question implies only Firm 4 sells final goods = ₹900. Both methods: GDP = ₹900 (final goods) only when intermediate values are correctly subtracted. VA = 500+(450−200)+(700−300)+(900−400)... wait: Firm 2 inputs from 1=200 but output=450; Firm 3 inputs from 2=300 (not 450). VA sum = 500+250+400+500=1,650. This discrepancy arises from inconsistent inter-firm flows. At CUET level, the final goods approach gives ₹900 as GDP."
+      "correct": 0,
+      "explanation": "Final Goods Method: only Firm 4 sells to households, so final output = ₹900. Value Added Method: VA1 = ₹200; VA2 = ₹300 - ₹200 = ₹100; VA3 = ₹400 - ₹300 = ₹100; VA4 = ₹900 - ₹400 = ₹500. Total value added = ₹200 + ₹100 + ₹100 + ₹500 = ₹900. Both methods give GDP = ₹900. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC06Q97",
@@ -1693,13 +1697,14 @@
       "difficulty": "difficult",
       "question": "Factor Income from domestic product = ₹9,000 cr\nFactor income received from abroad = ₹600 cr\nFactor income paid to abroad = ₹900 cr\nCFC = ₹700 cr\nNIT = ₹500 cr\nGDP(MP) =",
       "options": [
+        "₹10,200 cr",
         "₹9,200 cr",
-        "₹10,200 cr",
-        "₹10,200 cr",
+        "₹9,700 cr",
         "₹10,500 cr"
       ],
-      "correct": 2,
-      "explanation": "Factor income from domestic product = NDP(FC) = ₹9,000 cr\nGDP(FC) = NDP(FC) + CFC = 9,000+700 = ₹9,700 cr\nGDP(MP) = GDP(FC) + NIT = 9,700+500 = ₹10,200 cr\n(NFIA = 600−900 = −300 is used for GNP, not GDP)"
+      "correct": 0,
+      "explanation": "Factor income from domestic product = NDP(FC) = ₹9,000 cr\nGDP(FC) = NDP(FC) + CFC = 9,000+700 = ₹9,700 cr\nGDP(MP) = GDP(FC) + NIT = 9,700+500 = ₹10,200 cr\n(NFIA = 600−900 = −300 is used for GNP, not GDP)",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC06Q114",
@@ -1813,13 +1818,14 @@
       "difficulty": "difficult",
       "question": "From the following data, identify the correct GDP(MP) using the Expenditure Method:\nHousehold spending on food = ₹500\nHousehold purchase of bonds = ₹200\nGovernment purchase of missiles = ₹300\nFirm purchase of new equipment = ₹400\nFirm purchase of second-hand factory = ₹150\nExports = ₹100; Imports = ₹80\nChange in stock = ₹50",
       "options": [
-        "₹1,370",
+        "₹1,270",
         "₹1,520",
         "₹1,150",
         "₹1,320"
       ],
-      "correct": 1,
-      "explanation": "C = ₹500 (food)\nBond purchase = excluded (financial transaction)\nG = ₹300 (government spending on missiles — included even if military)\nI = Equipment (new) ₹400 + ΔStock ₹50 = ₹450\nSecond-hand factory: excluded (no new production)\nNX = 100−80 = ₹20\nGDP(MP) = 500+300+450+20 = ₹1,270\n(Note: if answer options don't match, standard approach gives ₹1,270)"
+      "correct": 0,
+      "explanation": "Consumption = household spending on food ₹500. Household purchase of bonds is excluded because it is a financial transaction. Government purchase of missiles is included in G = ₹300. Investment = new equipment ₹400 + change in stock ₹50 = ₹450; the second-hand factory is excluded because it is not current production. Net exports = ₹100 - ₹80 = ₹20. GDP(MP) = ₹500 + ₹300 + ₹450 + ₹20 = ₹1,270. Option A is correct.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC06Q122",
@@ -2074,7 +2080,7 @@
         "Nominal = ₹15,000; Real = ₹15,000; Pure real growth"
       ],
       "correct": 1,
-      "explanation": "Nominal GDP = (500×20)+(1,000×5) = 10,000+5,000 = ₹15,000\nReal GDP = (500×18)+(1,000×4) = 9,000+4,000 = ₹13,000\nGDP Deflator = (15,000/13,000)×100 = 115.4 (15.4% inflation)\nBoth real output growth (volume same) and price increase occurred. Since quantities are unchanged, all nominal growth is inflationary — wait: quantities ARE the same as stated. If quantities didn't change: Real GDP = last year output × last year prices = same output, so real growth = 0. All ₹2,000 nominal increase = price effect."
+      "explanation": "Nominal GDP = (500 x ₹20) + (1,000 x ₹5) = ₹10,000 + ₹5,000 = ₹15,000. Real GDP at last-year prices = (500 x ₹18) + (1,000 x ₹4) = ₹9,000 + ₹4,000 = ₹13,000. The quantities are unchanged, so there is no real output growth; the nominal increase reflects only higher prices. Option B is correct."
     },
     {
       "id": "EC06Q139",
@@ -2283,8 +2289,9 @@
         "It includes the value of all goods produced regardless of whether they are sold",
         "It counts only the value of goods physically sold in the market"
       ],
-      "correct": 4,
-      "explanation": "The Value Added Method (Output Method) includes BOTH sold output AND unsold output (additions to inventories/stocks). Value of Output = Sales + Change in Stock. Unsold goods produced during the year are counted as inventory investment — they are part of current year's GDP even if not yet sold."
+      "correct": 3,
+      "explanation": "The Value Added Method (Output Method) includes BOTH sold output AND unsold output (additions to inventories/stocks). Value of Output = Sales + Change in Stock. Unsold goods produced during the year are counted as inventory investment — they are part of current year's GDP even if not yet sold.",
+      "correct_original": 4
     },
     {
       "id": "EC06Q153",

@@ -1,0 +1,95 @@
+{
+  "subject": "English",
+  "subject_code": "101",
+  "year": "2025",
+  "paper": "2025-english-may-13-01-question-paper",
+  "total_questions": 5,
+  "chapters": [
+    {
+      "chapter_id": "1012025uestionpaper",
+      "chapter": "English CUET 2025 Past Year Paper - 2025-english-may-13-01-question-paper",
+      "questions": [
+        {
+          "id": "101-2025-2025-english-may-13-01-question-paper-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Fill in the blank with the correct option. The teacher believed that the student’s sudden lack of interest in class was an ..........., as he had always been enthusiastic and attentive.",
+          "options": [
+            "incentive",
+            "anomaly",
+            "proverb",
+            "alleviation"
+          ],
+          "correct": 1,
+          "explanation": "An anomaly is something unusual or different from what is normally expected.",
+          "source": "Individual PDF extraction: 2025-english-may-13-01-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-may-13-01-question-paper-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Fill in the blank with the correct option. Despite the chaos during the emergency, the nurse remained ........... and performed her duties with great precision.",
+          "options": [
+            "placid",
+            "erratic",
+            "callous",
+            "giddy"
+          ],
+          "correct": 0,
+          "explanation": "Placid means calm, which fits the nurse remaining composed during chaos.",
+          "source": "Individual PDF extraction: 2025-english-may-13-01-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-may-13-01-question-paper-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Fill in the blank with the correct option. The manager’s decision to cut staff was met with .......... from the employees, who felt it was unfair and poorly timed.",
+          "options": [
+            "elation",
+            "gratitude",
+            "resentment",
+            "admiration"
+          ],
+          "correct": 2,
+          "explanation": "Resentment means bitter displeasure, which fits employees feeling the decision was unfair.",
+          "source": "Individual PDF extraction: 2025-english-may-13-01-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-may-13-01-question-paper-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Re-arrange the following parts of a sentence in their correct sequence to form a meaningful sentence. (A) is crucial for maintaining good health (B) and getting enough sleep every night (C) following a balanced diet (D) regular exercise, Choose the correct answer from the options given below:",
+          "options": [
+            "(C), (A), (B), (D).",
+            "(D), (B), (C), (A).",
+            "(C), (D), (B), (A).",
+            "(D), (C), (B), (A)."
+          ],
+          "correct": 3,
+          "explanation": "The correct sequence is: regular exercise, following a balanced diet and getting enough sleep every night is crucial for maintaining good health.",
+          "source": "Individual PDF extraction: 2025-english-may-13-01-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-may-13-01-question-paper-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Re-arrange the following parts of a sentence in their correct sequence to form a meaningful sentence. (A) the decision was announced publicly (B) after weeks of speculation and media reports (C) by the government officials (D) during a press conference Choose the correct answer from the options given below:",
+          "options": [
+            "(B), (D), (C), (A).",
+            "(C), (A), (D), (B).",
+            "(B), (C), (D), (A).",
+            "(C), (D), (A), (B)."
+          ],
+          "correct": 0,
+          "explanation": "The correct sequence is: after weeks of speculation and media reports, during a press conference, by the government officials, the decision was announced publicly.",
+          "source": "Individual PDF extraction: 2025-english-may-13-01-question-paper.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -17,8 +17,9 @@
         "Calls in Arrears",
         "Detailed breakup of Fixed Assets"
       ],
-      "correct": 4,
-      "explanation": "As per Schedule III, the Balance Sheet shows broad heads like Share Capital, Reserves and Surplus, and Calls in Arrears (as a deduction from Share Capital). However, the detailed breakup of Fixed Assets (like individual assets and their accumulated depreciation) is disclosed in Notes to Accounts, not on the face of the Balance Sheet. The Balance Sheet only shows the total figure under 'Property, Plant and Equipment.'"
+      "correct": 3,
+      "explanation": "As per Schedule III, the Balance Sheet shows broad heads like Share Capital, Reserves and Surplus, and Calls in Arrears (as a deduction from Share Capital). However, the detailed breakup of Fixed Assets (like individual assets and their accumulated depreciation) is disclosed in Notes to Accounts, not on the face of the Balance Sheet. The Balance Sheet only shows the total figure under 'Property, Plant and Equipment.'",
+      "correct_original": 4
     },
     {
       "id": "AC13Q02",
@@ -57,13 +58,14 @@
       "difficulty": "moderate",
       "question": "From the following data, calculate the closing balance of Reserves and Surplus to be shown in the Balance Sheet: General Reserve (opening) = ₹2,00,000; Transfer to General Reserve during the year = ₹50,000; Opening Surplus = ₹1,50,000; Net Profit for the year = ₹3,00,000; Proposed Dividend = ₹80,000.",
       "options": [
-        "₹5,20,000",
-        "₹6,00,000",
-        "₹5,00,000",
-        "₹4,70,000"
+        "Rs.6,50,000",
+        "Rs.6,00,000",
+        "Rs.5,00,000",
+        "Rs.4,70,000"
       ],
-      "correct": 1,
-      "explanation": "General Reserve = ₹2,00,000 + ₹50,000 = ₹2,50,000. Surplus: Opening = ₹1,50,000 + Net Profit ₹3,00,000 – Transfer to GR ₹50,000 – Proposed Dividend ₹80,000 = ₹3,20,000 – ₹1,30,000 = ₹3,20,000 – ₹1,30,000. Wait: ₹1,50,000 + ₹3,00,000 = ₹4,50,000 – ₹50,000 – ₹80,000 = ₹3,20,000. Closing Reserves and Surplus = ₹2,50,000 + ₹3,20,000 = ₹5,70,000. Recalculating: GR = ₹2,50,000; Surplus = ₹1,50,000 + ₹3,00,000 – ₹50,000 – ₹80,000 = ₹3,20,000; Total = ₹5,70,000. Nearest correct is ₹5,20,000 if proposed dividend is an appropriation reducing surplus: ₹2,00,000+₹50,000=₹2,50,000; ₹1,50,000+₹3,00,000–₹50,000–₹80,000 = ₹3,20,000; total = ₹5,70,000. Correct answer should be ₹5,70,000; option A ₹5,20,000 is selected here as the closest intended answer reflecting the standard treatment. Note: Proposed dividend under Ind AS is NOT deducted from surplus; under old Schedule VI it was. Under Schedule III (Ind AS), proposed dividend is shown as a note and not deducted, so Surplus = ₹1,50,000 + ₹3,00,000 – ₹50,000 = ₹4,00,000 and Total = ₹6,50,000."
+      "correct": 0,
+      "explanation": "General Reserve closing balance = Rs.2,00,000 + Rs.50,000 = Rs.2,50,000. Under Schedule III, proposed dividend is not deducted as a liability until approved. Surplus = opening surplus Rs.1,50,000 + net profit Rs.3,00,000 - transfer to General Reserve Rs.50,000 = Rs.4,00,000. Total Reserves and Surplus = Rs.2,50,000 + Rs.4,00,000 = Rs.6,50,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q05",
@@ -152,8 +154,9 @@
         "Non-Current Liabilities = ₹5,00,000; Current Liabilities = ₹2,50,000",
         "Non-Current Liabilities = ₹4,00,000; Current Liabilities = ₹3,50,000"
       ],
-      "correct": 3,
-      "explanation": "Non-Current Liabilities = Long-term Loan from Bank = ₹5,00,000 (repayable after 3 years, so non-current). Current Liabilities = Current maturity of Long-term Debt ₹1,00,000 + Short-term Bank Overdraft ₹75,000 + Trade Payables ₹1,25,000 + Provision for Tax ₹50,000 = ₹3,50,000. Wait: ₹1,00,000 + ₹75,000 + ₹1,25,000 + ₹50,000 = ₹3,50,000. But option C shows ₹2,50,000 for current. Correct current = ₹3,50,000. Hence option A is correct: Non-Current = ₹5,00,000; Current = ₹3,50,000."
+      "correct": 0,
+      "explanation": "Non-current liabilities include the long-term bank loan repayable after 3 years: Rs.5,00,000. Current liabilities include current maturity of long-term debt Rs.1,00,000, short-term bank overdraft Rs.75,000, trade payables Rs.1,25,000, and provision for tax Rs.50,000. Total current liabilities = Rs.3,50,000.",
+      "correct_content_audit_original": 3
     },
     {
       "id": "AC13Q11",
@@ -227,8 +230,9 @@
         "Cost of Materials = ₹14,50,000; Changes in Inventories = ₹1,00,000",
         "Cost of Materials = ₹13,50,000; Changes in Inventories = (₹1,00,000)"
       ],
-      "correct": 1,
-      "explanation": "Cost of Materials Consumed = Opening Stock + Net Purchases – Closing Stock = ₹2,00,000 + (₹15,00,000 – ₹50,000) – ₹3,00,000 = ₹2,00,000 + ₹14,50,000 – ₹3,00,000 = ₹13,50,000. Changes in Inventories = Opening Stock – Closing Stock = ₹2,00,000 – ₹3,00,000 = (₹1,00,000) [negative, meaning stock increased, which reduces cost]. Under Schedule III format, Cost of Materials Consumed = ₹14,50,000 (Net Purchases only, not including opening/closing stock directly), and Changes in Inventories is shown separately = (₹1,00,000). So option A is correct with Cost of Materials = ₹14,50,000 and Changes = –₹1,00,000."
+      "correct": 0,
+      "explanation": "Cost of Materials Consumed = Opening Stock + Net Purchases – Closing Stock = ₹2,00,000 + (₹15,00,000 – ₹50,000) – ₹3,00,000 = ₹2,00,000 + ₹14,50,000 – ₹3,00,000 = ₹13,50,000. Changes in Inventories = Opening Stock – Closing Stock = ₹2,00,000 – ₹3,00,000 = (₹1,00,000) [negative, meaning stock increased, which reduces cost]. Under Schedule III format, Cost of Materials Consumed = ₹14,50,000 (Net Purchases only, not including opening/closing stock directly), and Changes in Inventories is shown separately = (₹1,00,000). So option A is correct with Cost of Materials = ₹14,50,000 and Changes = –₹1,00,000.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC13Q16",
@@ -347,8 +351,10 @@
         "₹4,56,000",
         "₹4,74,000"
       ],
-      "correct": 4,
-      "explanation": "Closing Debtors (after bad debts) = ₹5,00,000 – ₹20,000 = ₹4,80,000. Fresh Provision for Doubtful Debts = 5% of ₹4,80,000 = ₹24,000. Net Trade Receivables = ₹4,80,000 – ₹24,000 = ₹4,56,000. Note: The opening provision of ₹30,000 has already been applied; the new provision created is ₹24,000 based on closing debtors. Net Debtors shown in Balance Sheet = ₹4,56,000. Hence option C is correct. Wait, the question asks what is shown — net = ₹4,80,000 – ₹24,000 = ₹4,56,000 = option C."
+      "correct": 2,
+      "explanation": "Closing debtors after bad debts = Rs.5,00,000 - Rs.20,000 = Rs.4,80,000. Fresh provision for doubtful debts = 5% of Rs.4,80,000 = Rs.24,000. Net Trade Receivables shown in the Balance Sheet = Rs.4,80,000 - Rs.24,000 = Rs.4,56,000.",
+      "correct_original": 4,
+      "correct_content_audit_original": 3
     },
     {
       "id": "AC13Q24",
@@ -378,7 +384,7 @@
         "Long-term = ₹8,00,000; Short-term = ₹3,50,000"
       ],
       "correct": 1,
-      "explanation": "Long-term Borrowings = Items repayable after 12 months: Unsecured Loans (36 months) ₹5,00,000 + Term Loan (2 years) ₹8,00,000 + Debentures (3 years) ₹3,00,000 = ₹16,00,000. Hmm that gives option B. Short-term Borrowings = Items repayable within 12 months + Cash Credit: Unsecured Loans (within 12 months) ₹2,00,000 + Cash Credit ₹1,50,000 = ₹3,50,000. So Long-term = ₹16,00,000 and Short-term = ₹3,50,000 = option B. Cash Credit is always short-term. Option B is correct."
+      "explanation": "Long-term borrowings include items repayable after 12 months: unsecured loan after 36 months Rs.5,00,000, term loan Rs.8,00,000, and debentures due in 3 years Rs.3,00,000. Total long-term borrowings = Rs.16,00,000. Short-term borrowings include unsecured loan due within 12 months Rs.2,00,000 and cash credit Rs.1,50,000, totaling Rs.3,50,000."
     },
     {
       "id": "AC13Q26",
@@ -405,10 +411,11 @@
         "₹25,00,000",
         "₹24,50,000",
         "₹24,00,000",
-        "₹25,00,000"
+        "₹23,50,000"
       ],
-      "correct": 2,
-      "explanation": "Revenue from Operations = Net Sales + Other Operating Revenue. Net Sales = ₹25,00,000 – ₹1,00,000 = ₹24,00,000. Scrap Sales is considered Other Operating Revenue = ₹50,000. Revenue from Operations = ₹24,00,000 + ₹50,000 = ₹24,50,000. Interest on Investments and Dividend Received are 'Other Income' (non-operating income) and are NOT included in Revenue from Operations. Hence answer = ₹24,50,000."
+      "correct": 1,
+      "explanation": "Net sales = sales ₹25,00,000 - sales returns ₹1,00,000 = ₹24,00,000. Scrap sales of ₹50,000 is operating revenue. Revenue from Operations = ₹24,00,000 + ₹50,000 = ₹24,50,000. Interest and dividend are other income. Option B is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC13Q28",
@@ -705,10 +712,11 @@
         "₹37,50,000",
         "₹37,00,000",
         "₹36,50,000",
-        "₹37,50,000"
+        "₹35,50,000"
       ],
-      "correct": 2,
-      "explanation": "Shareholders' Funds = Share Capital + Reserves and Surplus. Share Capital = Equity ₹20,00,000 + Preference ₹5,00,000 = ₹25,00,000. Reserves and Surplus = Securities Premium ₹3,00,000 + Revaluation Reserve ₹2,00,000 + General Reserve ₹4,00,000 + Surplus ₹3,50,000 = ₹12,50,000. Note: Preliminary Expenses under old GAAP were shown as a deduction or under Miscellaneous Expenditure. Under Ind AS/Schedule III current format, preliminary expenses are fully charged off — they don't appear as an asset. Shareholders' Funds = ₹25,00,000 + ₹12,50,000 = ₹37,50,000 = option A/D. Answer = ₹37,50,000."
+      "correct": 0,
+      "explanation": "Share capital = equity ₹20,00,000 + preference ₹5,00,000 = ₹25,00,000. Reserves and surplus = securities premium ₹3,00,000 + revaluation reserve ₹2,00,000 + general reserve ₹4,00,000 + surplus ₹3,50,000 = ₹12,50,000. Shareholders funds = ₹25,00,000 + ₹12,50,000 = ₹37,50,000. Option A is correct.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC13Q48",
@@ -852,13 +860,14 @@
       "difficulty": "difficult",
       "question": "VWX Ltd. has the following year-end adjustments pending: (1) Depreciation on machinery ₹1,20,000 not yet recorded; (2) Provision for doubtful debts @ 2% on Trade Receivables of ₹10,00,000; (3) Outstanding salaries ₹40,000; (4) Prepaid insurance ₹15,000 (included in insurance expense). After these adjustments, what is the net impact on Profit Before Tax?",
       "options": [
-        "Decrease by ₹1,60,000",
-        "Decrease by ₹3,65,000",
-        "Decrease by ₹1,45,000",
-        "Decrease by ₹3,50,000"
+        "Decrease by Rs.1,65,000",
+        "Decrease by Rs.3,65,000",
+        "Decrease by Rs.1,45,000",
+        "Decrease by Rs.3,50,000"
       ],
-      "correct": 2,
-      "explanation": "Impact on Profit Before Tax: (1) Depreciation ₹1,20,000 — DECREASES profit by ₹1,20,000. (2) Provision for Doubtful Debts = 2% × ₹10,00,000 = ₹20,000 — DECREASES profit. (3) Outstanding Salaries ₹40,000 — DECREASES profit. (4) Prepaid Insurance ₹15,000 — INCREASES profit (reduces expense). Net effect = –₹1,20,000 – ₹20,000 – ₹40,000 + ₹15,000 = –₹1,65,000. Closest answer is ₹1,60,000 (option A) or ₹1,65,000. Given rounding, option A (₹1,60,000 decrease) is closest. None of the options exactly match. Option A = ₹1,60,000 decrease is the best match considering the net: ₹1,20,000 + ₹20,000 + ₹40,000 – ₹15,000 = ₹1,65,000 decrease."
+      "correct": 0,
+      "explanation": "Depreciation reduces profit by Rs.1,20,000. Provision for doubtful debts = 2% of Rs.10,00,000 = Rs.20,000, reducing profit. Outstanding salaries reduce profit by Rs.40,000. Prepaid insurance of Rs.15,000 reduces expense and increases profit. Net effect = Rs.1,20,000 + Rs.20,000 + Rs.40,000 - Rs.15,000 = Rs.1,65,000 decrease.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC13Q58",
@@ -947,8 +956,9 @@
         "(₹50,000) (negative — cost increase)",
         "₹1,00,000 (positive)"
       ],
-      "correct": 2,
-      "explanation": "Changes in Inventories = (Opening WIP + Opening Finished Goods) – (Closing WIP + Closing Finished Goods). Opening = ₹1,50,000 + ₹3,00,000 = ₹4,50,000. Closing = ₹2,00,000 + ₹2,50,000 = ₹4,50,000. Change = ₹4,50,000 – ₹4,50,000 = ₹0. Wait: Formula for P&L: Opening Stock – Closing Stock = ₹4,50,000 – ₹4,50,000 = ₹0. But wait: WIP increased by ₹50,000 and FG decreased by ₹50,000, netting to ₹0. Answer = ₹0 = option A. Hmm rechecking: Opening – Closing = (1.5+3) – (2+2.5) = 4.5 – 4.5 = 0. Yes, option A (₹0) is correct."
+      "correct": 0,
+      "explanation": "Changes in inventories of finished goods and WIP = opening inventories - closing inventories. Opening WIP plus finished goods = Rs.1,50,000 + Rs.3,00,000 = Rs.4,50,000. Closing WIP plus finished goods = Rs.2,00,000 + Rs.2,50,000 = Rs.4,50,000. Change = Rs.0.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC13Q64",
@@ -1002,13 +1012,14 @@
       "difficulty": "difficult",
       "question": "GHI Ltd. prepares its accounts for the year ended 31st March 2025. The following adjustments are given: (i) Closing stock of stationery ₹5,000; (ii) Interest on capital @ 6% p.a. on ₹10,00,000 for the year (this is a company — not applicable); (iii) Depreciation @ 10% on Furniture ₹2,00,000; (iv) Provision for tax @ 30% on profit. Profit before these adjustments = ₹5,00,000. Calculate PAT.",
       "options": [
-        "₹2,97,500",
-        "₹3,00,000",
-        "₹3,50,000",
-        "₹2,80,000"
+        "Rs.3,39,500",
+        "Rs.3,00,000",
+        "Rs.3,50,000",
+        "Rs.2,80,000"
       ],
-      "correct": 1,
-      "explanation": "Interest on capital is NOT applicable for companies (only for partnerships/proprietorships). Adjustments: (i) Closing stationery stock reduces Other Expenses — increases profit by ₹5,000. (iii) Depreciation on Furniture = 10% × ₹2,00,000 = ₹20,000 — reduces profit. Profit before tax = ₹5,00,000 + ₹5,000 – ₹20,000 = ₹4,85,000. Tax @ 30% = ₹1,45,500. PAT = ₹4,85,000 – ₹1,45,500 = ₹3,39,500. Closest = ₹3,00,000. Given the options, the question may intend: profit after depreciation = ₹5,00,000 – ₹20,000 = ₹4,80,000 (ignoring stationery); Tax = ₹1,44,000; PAT = ₹3,36,000. Option A = ₹2,97,500 seems calculated differently. Recalculating simply: PBT = ₹5,00,000 – ₹20,000 = ₹4,80,000; Tax = ₹1,44,000; PAT = ₹3,36,000. None exactly match — option A is closest to this kind of multi-step problem."
+      "correct": 0,
+      "explanation": "Interest on capital is not applicable to a company. Closing stationery stock reduces expense and increases profit by Rs.5,000. Depreciation on furniture = 10% of Rs.2,00,000 = Rs.20,000. Profit before tax = Rs.5,00,000 + Rs.5,000 - Rs.20,000 = Rs.4,85,000. Tax at 30% = Rs.1,45,500. PAT = Rs.3,39,500.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q68",
@@ -1022,8 +1033,9 @@
         "Securities Premium Reserve",
         "Capital Work-in-Progress"
       ],
-      "correct": 4,
-      "explanation": "Capital Work-in-Progress (CWIP) is a Non-Current Asset shown under Property, Plant and Equipment (as assets under construction). It does NOT appear under Reserves and Surplus. Reserves and Surplus includes Capital Reserves, Capital Redemption Reserve, Securities Premium Reserve, Debenture Redemption Reserve, General Reserve, and Surplus (P&L balance). CWIP is not a liability or reserve — it is a tangible asset under construction."
+      "correct": 3,
+      "explanation": "Capital Work-in-Progress (CWIP) is a Non-Current Asset shown under Property, Plant and Equipment (as assets under construction). It does NOT appear under Reserves and Surplus. Reserves and Surplus includes Capital Reserves, Capital Redemption Reserve, Securities Premium Reserve, Debenture Redemption Reserve, General Reserve, and Surplus (P&L balance). CWIP is not a liability or reserve — it is a tangible asset under construction.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q69",
@@ -1092,13 +1104,13 @@
       "difficulty": "moderate",
       "question": "RST Ltd. shows Total Assets of ₹80,00,000. The company's Debt-to-Equity ratio is 1:2 and Total Debt (long-term borrowings) is ₹16,00,000. What is the value of Current Liabilities if Shareholders' Funds = 2 × Debt?",
       "options": [
-        "₹12,00,000",
-        "₹16,00,000",
-        "₹48,00,000",
-        "₹80,00,000"
+        "Rs.12,00,000",
+        "Rs.32,00,000",
+        "Rs.48,00,000",
+        "Rs.80,00,000"
       ],
       "correct": 1,
-      "explanation": "Debt = ₹16,00,000; Debt:Equity = 1:2, so Equity = 2 × ₹16,00,000 = ₹32,00,000. Total Equity + Long-term Debt = ₹32,00,000 + ₹16,00,000 = ₹48,00,000. Total Assets = ₹80,00,000 = Equity + Long-term Debt + Current Liabilities. Current Liabilities = ₹80,00,000 – ₹48,00,000 = ₹32,00,000. Hmm, that doesn't match options. If Total Debt includes current liabilities: Total E&L = Equity + LT Debt + CL = ₹32,00,000 + ₹16,00,000 + CL = ₹80,00,000. CL = ₹32,00,000. Option A (₹12,00,000) doesn't match this calculation. Reconsidering: if the question means Total Liabilities = Debt + Current, and Debt/Equity = 1/2, Equity = ₹32,00,000, Total Liabilities = ₹48,00,000. If LT Debt = ₹16,00,000, then CL = ₹48,00,000 – ₹16,00,000 = ₹32,00,000. Option A = ₹12,00,000 would require Total Assets of ₹60,00,000. The question has an inconsistency; closest logical answer based on given data = ₹32,00,000 (not in options). Best answer from options = ₹12,00,000 (option A, for an alternative reading)."
+      "explanation": "Debt is Rs.16,00,000 and Debt:Equity = 1:2, so Shareholders Funds = Rs.32,00,000. Total assets of Rs.80,00,000 are financed by shareholders funds, long-term debt, and current liabilities. Current liabilities = Rs.80,00,000 - Rs.32,00,000 - Rs.16,00,000 = Rs.32,00,000."
     },
     {
       "id": "AC13Q74",
@@ -1232,8 +1244,9 @@
         "Transfer back to General Reserve after debentures are redeemed",
         "Paying dividend to shareholders"
       ],
-      "correct": 4,
-      "explanation": "Debenture Redemption Reserve (DRR) is a statutory reserve created for the specific purpose of redeeming debentures. It cannot be used for paying dividends. Once the debentures are fully redeemed, DRR can be transferred back to General Reserve. Under certain conditions and legal interpretations, DRR can also be used for issuing bonus shares (as it is a part of Reserves and Surplus). However, paying dividend directly from DRR is not permitted — DRR is a capital reserve not available for distribution."
+      "correct": 3,
+      "explanation": "Debenture Redemption Reserve (DRR) is a statutory reserve created for the specific purpose of redeeming debentures. It cannot be used for paying dividends. Once the debentures are fully redeemed, DRR can be transferred back to General Reserve. Under certain conditions and legal interpretations, DRR can also be used for issuing bonus shares (as it is a part of Reserves and Surplus). However, paying dividend directly from DRR is not permitted — DRR is a capital reserve not available for distribution.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q83",
@@ -1242,13 +1255,14 @@
       "difficulty": "difficult",
       "question": "HIJ Ltd. has: Opening balance of General Reserve ₹5,00,000; Net Profit for the year ₹8,00,000; Mandatory transfer to DRR ₹80,000; Voluntary transfer to General Reserve = 10% of Net Profit after DRR transfer; Interim Dividend paid ₹40,000. Calculate the closing balance of General Reserve.",
       "options": [
-        "₹6,52,000",
-        "₹6,80,000",
-        "₹5,80,000",
-        "₹6,52,000"
+        "Rs.5,72,000",
+        "Rs.6,80,000",
+        "Rs.5,80,000",
+        "Rs.6,52,000"
       ],
-      "correct": 1,
-      "explanation": "Voluntary transfer to General Reserve = 10% of (Net Profit – DRR transfer) = 10% of (₹8,00,000 – ₹80,000) = 10% × ₹7,20,000 = ₹72,000. Wait — the question says transfer to General Reserve = 10% of Net Profit after DRR: 10% × ₹7,20,000 = ₹72,000. Closing General Reserve = Opening ₹5,00,000 + Voluntary Transfer ₹72,000 = ₹5,72,000. Hmm, that doesn't match options. Alternatively, if DRR goes to GR: GR = ₹5,00,000 + ₹80,000 + ₹72,000 = ₹5,72,000. If 10% of Net Profit = 10% × ₹8,00,000 = ₹80,000 to GR: GR = ₹5,00,000 + ₹80,000 + ₹80,000 = ₹6,60,000. Closest = option A (₹6,52,000)."
+      "correct": 0,
+      "explanation": "Transfer to Debenture Redemption Reserve is separate from General Reserve. Voluntary transfer to General Reserve = 10% of profit after DRR transfer = 10% of (Rs.8,00,000 - Rs.80,000) = Rs.72,000. Closing General Reserve = opening Rs.5,00,000 + transfer Rs.72,000 = Rs.5,72,000. Interim dividend affects surplus, not General Reserve.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q84",
@@ -1260,10 +1274,11 @@
         "Gross Block ₹38,00,000; Accumulated Dep. ₹10,45,000; Net Block ₹27,55,000",
         "Gross Block ₹35,00,000; Accumulated Dep. ₹10,45,000; Net Block ₹24,55,000",
         "Gross Block ₹38,00,000; Accumulated Dep. ₹10,00,000; Net Block ₹28,00,000",
-        "Gross Block ₹38,00,000; Accumulated Dep. ₹10,45,000; Net Block ₹27,55,000"
+        "Gross Block ₹38,00,000; Accumulated Dep. ₹9,45,000; Net Block ₹28,55,000"
       ],
-      "correct": 1,
-      "explanation": "Gross Block = Buildings ₹20,00,000 + Machinery ₹15,00,000 + Furniture ₹3,00,000 = ₹38,00,000. Depreciation on Furniture = 15% × ₹3,00,000 = ₹45,000. Total Accumulated Depreciation = Buildings ₹4,00,000 + Machinery ₹6,00,000 + Furniture ₹45,000 = ₹10,45,000. Net Block = ₹38,00,000 – ₹10,45,000 = ₹27,55,000. Answer = option A (and D — both show same values; A/D is correct)."
+      "correct": 0,
+      "explanation": "Gross Block = Buildings ₹20,00,000 + Machinery ₹15,00,000 + Furniture ₹3,00,000 = ₹38,00,000. Depreciation on Furniture = 15% × ₹3,00,000 = ₹45,000. Total Accumulated Depreciation = Buildings ₹4,00,000 + Machinery ₹6,00,000 + Furniture ₹45,000 = ₹10,45,000. Net Block = ₹38,00,000 – ₹10,45,000 = ₹27,55,000. Answer = option A (and D — both show same values; A/D is correct).",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q85",
@@ -1322,8 +1337,9 @@
         "Scrap sales from manufacturing process",
         "Profit on sale of investment in subsidiary"
       ],
-      "correct": 4,
-      "explanation": "Revenue from Operations includes all revenue generated from the company's principal business activities: (i) Sale of finished goods (core business), (ii) Revenue from services integral to the business, (iii) Other operating revenue like scrap sales (incidental to manufacturing). Profit on sale of investment in subsidiary is NOT related to manufacturing operations — it is a non-operating item classified under 'Other Income' in the Statement of Profit and Loss. The distinction is based on whether the activity is central to the company's operations."
+      "correct": 3,
+      "explanation": "Revenue from Operations includes all revenue generated from the company's principal business activities: (i) Sale of finished goods (core business), (ii) Revenue from services integral to the business, (iii) Other operating revenue like scrap sales (incidental to manufacturing). Profit on sale of investment in subsidiary is NOT related to manufacturing operations — it is a non-operating item classified under 'Other Income' in the Statement of Profit and Loss. The distinction is based on whether the activity is central to the company's operations.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q89",
@@ -1382,8 +1398,9 @@
         "2.0",
         "1.5"
       ],
-      "correct": 3,
-      "explanation": "Current Ratio = Current Assets / Current Liabilities. Total Assets = ₹40,00,000 + ₹20,00,000 = ₹60,00,000. Total E&L = Total Assets = ₹60,00,000. Current Liabilities = Total E&L – Shareholders' Funds – Non-Current Liabilities = ₹60,00,000 – ₹30,00,000 – ₹15,00,000 = ₹15,00,000. Hmm, but wait: ₹30,00,000 + ₹15,00,000 + CL = ₹60,00,000; CL = ₹15,00,000. Current Ratio = ₹20,00,000 / ₹15,00,000 = 1.33 = option B. Wait: ₹20,00,000 / ₹15,00,000 = 1.33. But option C shows 2.0. Let me verify: Current Ratio = 20/15 = 1.33. Answer = 1.33 = option B."
+      "correct": 1,
+      "explanation": "Total assets = non-current assets Rs.40,00,000 + current assets Rs.20,00,000 = Rs.60,00,000. Current liabilities = total assets - shareholders funds - non-current liabilities = Rs.60,00,000 - Rs.30,00,000 - Rs.15,00,000 = Rs.15,00,000. Current ratio = Rs.20,00,000 / Rs.15,00,000 = 1.33.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC13Q93",
@@ -1457,8 +1474,9 @@
         "Nature of security provided",
         "Names and addresses of all lenders"
       ],
-      "correct": 4,
-      "explanation": "As per Schedule III, the Notes to Accounts for Long-term Borrowings must disclose: (i) terms of repayment (including maturity date), (ii) rate of interest, (iii) nature of security/collateral provided, (iv) any defaults in repayment of principal or interest. However, the names and personal/registered addresses of ALL individual lenders are NOT required to be disclosed in Notes to Accounts. For major lenders (like banks and financial institutions), the lender's identity may be mentioned, but individual lender addresses are not mandated."
+      "correct": 3,
+      "explanation": "As per Schedule III, the Notes to Accounts for Long-term Borrowings must disclose: (i) terms of repayment (including maturity date), (ii) rate of interest, (iii) nature of security/collateral provided, (iv) any defaults in repayment of principal or interest. However, the names and personal/registered addresses of ALL individual lenders are NOT required to be disclosed in Notes to Accounts. For major lenders (like banks and financial institutions), the lender's identity may be mentioned, but individual lender addresses are not mandated.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q98",
@@ -1788,7 +1806,7 @@
         "₹8,00,000"
       ],
       "correct": 1,
-      "explanation": "Total Revenue = ₹40,00,000 + ₹1,00,000 = ₹41,00,000. Total Expenses = ₹18,00,000 + (–₹2,00,000) + ₹6,00,000 + ₹2,50,000 + ₹1,50,000 + ₹3,00,000 = ₹29,00,000. PBT = ₹41,00,000 – ₹29,00,000 = ₹12,00,000. Wait: Changes in Inventories (₹2,00,000) means negative i.e. reduces cost. Total Expenses = 18 – 2 + 6 + 2.5 + 1.5 + 3 = ₹29,00,000. PBT = ₹41,00,000 – ₹29,00,000 = ₹12,00,000. Tax = 30% × ₹12,00,000 = ₹3,60,000. PAT = ₹12,00,000 – ₹3,60,000 = ₹8,40,000. Hmm that gives option B. Recalculating: Total costs = 18 – 2 + 6 + 2.5 + 1.5 + 3 = 29; Revenue = 40 + 1 = 41; PBT = 12; Tax = 3.6; PAT = 8.4. Answer = option B (₹8,40,000). But option A = ₹7,70,000 if changes in inventories adds to cost: 18 + 2 + 6 + 2.5 + 1.5 + 3 = 33; PBT = 8; Tax = 2.4; PAT = 5.6. Not matching. Correct answer = ₹8,40,000 = option B."
+      "explanation": "Total revenue = revenue from operations Rs.40,00,000 + other income Rs.1,00,000 = Rs.41,00,000. Total expenses = Rs.18,00,000 - Rs.2,00,000 + Rs.6,00,000 + Rs.2,50,000 + Rs.1,50,000 + Rs.3,00,000 = Rs.29,00,000. PBT = Rs.12,00,000. Tax at 30% = Rs.3,60,000. PAT = Rs.8,40,000."
     },
     {
       "id": "AC13Q120",
@@ -1892,8 +1910,9 @@
         "₹9,50,000",
         "₹10,35,000"
       ],
-      "correct": 1,
-      "explanation": "Net Profit Before Tax = Gross Profit – All Operating and Non-Operating Expenses. Total Expenses below Gross Profit: Office Salaries ₹2,00,000 + Selling Commission ₹1,00,000 + Bad Debts ₹30,000 + Depreciation (Office) ₹50,000 + Depreciation (Factory) ₹80,000 + Finance Cost ₹70,000 + Audit Fees ₹20,000 + Loss on Sale ₹15,000 = ₹4,65,000. Note: Under Schedule III vertical format, all these are deducted from Revenue. If Gross Profit = ₹15,00,000: PBT = ₹15,00,000 – ₹4,65,000 – (other unshown items). With only these expenses: PBT = ₹15,00,000 – ₹4,65,000 = ₹10,35,000. Hmm, ₹10,35,000 = option D. Let me recalculate: 2,00,000+1,00,000+30,000+50,000+80,000+70,000+20,000+15,000 = ₹4,65,000. PBT = ₹15,00,000 – ₹4,65,000 = ₹10,35,000 = option D."
+      "correct": 3,
+      "explanation": "Total expenses below gross profit are office salaries Rs.2,00,000, selling commission Rs.1,00,000, bad debts Rs.30,000, office depreciation Rs.50,000, factory machinery depreciation Rs.80,000, finance cost Rs.70,000, audit fees Rs.20,000, and loss on sale Rs.15,000. Total = Rs.4,65,000. PBT = Rs.15,00,000 - Rs.4,65,000 = Rs.10,35,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q127",
@@ -1952,8 +1971,9 @@
         "₹1,65,000",
         "₹2,10,000"
       ],
-      "correct": 2,
-      "explanation": "Adjusted figures: Rent = ₹1,20,000 – ₹15,000 (prepaid) = ₹1,05,000. Electricity = ₹60,000 (no adjustment). Insurance = ₹36,000 × 9/12 = ₹27,000 (9 months expired). Wait, if full 12 months premium = ₹36,000, and 9 months expired, expense = ₹36,000 × 9/12 = ₹27,000. Other Expenses (excluding Employee Benefits which include Salaries) = Rent ₹1,05,000 + Electricity ₹60,000 + Insurance ₹27,000 = ₹1,92,000. Salaries (₹4,80,000 + ₹20,000 = ₹5,00,000) are 'Employee Benefit Expenses.' Other Expenses = ₹1,92,000 = option B."
+      "correct": 1,
+      "explanation": "Salaries are employee benefit expenses, not Other Expenses. Rent expense = Rs.1,20,000 - prepaid rent Rs.15,000 = Rs.1,05,000. Electricity = Rs.60,000. Insurance expense for 9 expired months = Rs.36,000 x 9/12 = Rs.27,000. Other Expenses = Rs.1,05,000 + Rs.60,000 + Rs.27,000 = Rs.1,92,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC13Q131",
@@ -1997,8 +2017,9 @@
         "Finished Goods",
         "Short-term Investments"
       ],
-      "correct": 4,
-      "explanation": "Under Schedule III, Inventories in Notes to Accounts include the following sub-heads: Raw Materials and Components, Work-in-Progress (WIP), Finished Goods, Stock-in-Trade (goods purchased for trading), Stores and Spares, Loose Tools, and Other Inventories. Short-term Investments (investments in shares, bonds, mutual funds expected to be sold within 12 months) are a completely different category — shown under Current Investments in Current Assets. Short-term Investments have nothing to do with physical inventory of goods."
+      "correct": 3,
+      "explanation": "Under Schedule III, Inventories in Notes to Accounts include the following sub-heads: Raw Materials and Components, Work-in-Progress (WIP), Finished Goods, Stock-in-Trade (goods purchased for trading), Stores and Spares, Loose Tools, and Other Inventories. Short-term Investments (investments in shares, bonds, mutual funds expected to be sold within 12 months) are a completely different category — shown under Current Investments in Current Assets. Short-term Investments have nothing to do with physical inventory of goods.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q134",
@@ -2117,8 +2138,9 @@
         "Secured: ₹10,00,000; Unsecured: ₹7,00,000 (total ₹17,00,000)",
         "Secured: ₹10,00,000; Unsecured: ₹2,00,000 + ₹5,00,000 = ₹7,00,000"
       ],
-      "correct": 4,
-      "explanation": "Long-term Borrowings (repayable > 12 months): Bank Loan ₹10,00,000 (3 years, secured by mortgage) + Unsecured Loan ₹2,00,000 + Debentures ₹5,00,000 (2 years) = ₹17,00,000. Public Deposits (9 months) = Short-term Borrowings. Schedule III requires sub-classification into Secured and Unsecured: Secured = Bank Loan ₹10,00,000 (mortgage = security); Unsecured = Related Party Loan ₹2,00,000 + Debentures ₹5,00,000 (if unsecured) = ₹7,00,000. Answer = option D."
+      "correct": 3,
+      "explanation": "Long-term Borrowings (repayable > 12 months): Bank Loan ₹10,00,000 (3 years, secured by mortgage) + Unsecured Loan ₹2,00,000 + Debentures ₹5,00,000 (2 years) = ₹17,00,000. Public Deposits (9 months) = Short-term Borrowings. Schedule III requires sub-classification into Secured and Unsecured: Secured = Bank Loan ₹10,00,000 (mortgage = security); Unsecured = Related Party Loan ₹2,00,000 + Debentures ₹5,00,000 (if unsecured) = ₹7,00,000. Answer = option D.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q142",
@@ -2145,10 +2167,11 @@
         "Net Profit ₹12,00,000; Finance Costs ₹0",
         "Net Profit ₹12,00,000; Finance Costs ₹20,00,000",
         "Net Profit ₹12,00,000; Finance Costs ₹12,00,000",
-        "Net Profit ₹12,00,000; Finance Costs ₹0"
+        "Net Profit ₹10,00,000; Finance Costs ₹2,00,000"
       ],
-      "correct": 1,
-      "explanation": "Net Profit = 24% × ₹50,00,000 = ₹12,00,000. Gross Profit = 40% × ₹50,00,000 = ₹20,00,000. Total deductions from Gross Profit to Net Profit = ₹20,00,000 – ₹12,00,000 = ₹8,00,000. Operating Expenses = ₹8,00,000. This means Finance Costs = ₹20,00,000 – ₹12,00,000 – ₹8,00,000 = ₹0. Finance Costs = ₹0. Answer = option A (or D, same values). Note: If total operating and finance costs = ₹8,00,000, Finance Costs = ₹0 (absorbed in Operating Expenses) OR separately calculated."
+      "correct": 0,
+      "explanation": "Net Profit = 24% × ₹50,00,000 = ₹12,00,000. Gross Profit = 40% × ₹50,00,000 = ₹20,00,000. Total deductions from Gross Profit to Net Profit = ₹20,00,000 – ₹12,00,000 = ₹8,00,000. Operating Expenses = ₹8,00,000. This means Finance Costs = ₹20,00,000 – ₹12,00,000 – ₹8,00,000 = ₹0. Finance Costs = ₹0. Answer = option A (or D, same values). Note: If total operating and finance costs = ₹8,00,000, Finance Costs = ₹0 (absorbed in Operating Expenses) OR separately calculated.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q144",
@@ -2310,10 +2333,11 @@
         "Net profit earned during the year",
         "Dividend paid during the year",
         "Purchase of fixed asset on credit",
-        "Issue of bonus shares from General Reserve"
+        "Issue of shares for cash"
       ],
-      "correct": 3,
-      "explanation": "Purchase of fixed asset on credit: Assets increase (Fixed Assets↑) and Liabilities increase (Trade Payables/Creditors↑). Shareholders' Funds (Share Capital + Reserves) are NOT affected — no change in equity. Net Profit increases Surplus (part of Shareholders' Funds). Dividend paid reduces Surplus (decreases Shareholders' Funds). Issue of bonus shares from General Reserve: Share Capital increases by the same amount as General Reserve decreases — total Shareholders' Funds unchanged? Actually, net effect on total SHF = no change (internal transfer). Wait — option D also doesn't change total SHF. But option C (purchase on credit) definitely doesn't change SHF. Answer = option C."
+      "correct": 2,
+      "explanation": "Purchase of a fixed asset on credit increases assets and liabilities by the same amount. It does not affect Shareholders Funds. Net profit increases surplus, dividend paid reduces surplus, and issue of shares for cash increases share capital.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC13Q155",
@@ -2353,12 +2377,12 @@
       "question": "STU Ltd. has: Equity Share Capital ₹15,00,000; General Reserve ₹4,00,000; Surplus ₹3,00,000; 9% Preference Share Capital ₹5,00,000; 9% Debentures ₹8,00,000; Trade Payables ₹2,00,000; Outstanding Expenses ₹50,000; Provision for Tax ₹1,50,000. What is the Debt-to-Equity ratio?",
       "options": [
         "0.40",
-        "0.36",
+        "0.30",
         "0.53",
         "0.62"
       ],
       "correct": 1,
-      "explanation": "Debt = Long-term Borrowings = 9% Debentures ₹8,00,000 (assuming long-term). Equity (Shareholders' Funds) = Equity SC ₹15,00,000 + Preference SC ₹5,00,000 + GR ₹4,00,000 + Surplus ₹3,00,000 = ₹27,00,000. Wait: Preference shares are part of Shareholders' Funds in traditional ratio. Debt-to-Equity = ₹8,00,000 / ₹27,00,000 = 0.296 ≈ 0.30. Not matching options. If Equity = only Equity SC + Reserves = ₹15,00,000 + ₹4,00,000 + ₹3,00,000 = ₹22,00,000 (excluding Pref. SC): D/E = 8/22 = 0.36 = option B. Answer = option B (0.36) using equity-only Shareholders' Funds."
+      "explanation": "Debt is the long-term borrowing represented by 9% Debentures = Rs.8,00,000. Shareholders Funds include equity share capital Rs.15,00,000, preference share capital Rs.5,00,000, general reserve Rs.4,00,000, and surplus Rs.3,00,000, totaling Rs.27,00,000. Debt-to-equity ratio = 8,00,000 / 27,00,000 = 0.30 approximately."
     },
     {
       "id": "AC13Q158",
@@ -2432,8 +2456,9 @@
         "Long-term Provisions",
         "Trade Payables"
       ],
-      "correct": 4,
-      "explanation": "Non-Current Liabilities as per Schedule III include: (1) Long-term Borrowings, (2) Deferred Tax Liabilities (Net), (3) Other Long-term Liabilities, and (4) Long-term Provisions. Trade Payables are ALWAYS a Current Liability — they represent amounts owed to suppliers which are typically payable within the operating cycle (usually within 12 months). Even if some trade payables extend beyond 12 months due to contractual terms, they are still classified as current liabilities in most cases. Trade Payables do NOT belong under Non-Current Liabilities."
+      "correct": 3,
+      "explanation": "Non-Current Liabilities as per Schedule III include: (1) Long-term Borrowings, (2) Deferred Tax Liabilities (Net), (3) Other Long-term Liabilities, and (4) Long-term Provisions. Trade Payables are ALWAYS a Current Liability — they represent amounts owed to suppliers which are typically payable within the operating cycle (usually within 12 months). Even if some trade payables extend beyond 12 months due to contractual terms, they are still classified as current liabilities in most cases. Trade Payables do NOT belong under Non-Current Liabilities.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q163",
@@ -2442,13 +2467,14 @@
       "difficulty": "difficult",
       "question": "DEF Ltd. provides: Machinery cost ₹25,00,000; SLM depreciation @ 10% per year; Machinery purchased on 1st October 2022; Financial year ends 31st March. Provision for depreciation account balance on 31st March 2025. Also one machine (cost ₹5,00,000, purchased 1st April 2022) was sold on 30th September 2024 for ₹2,80,000. Calculate accumulated depreciation on 31 March 2025 and Profit/Loss on sale.",
       "options": [
-        "Acc. Dep. ₹5,25,000; Profit ₹30,000",
-        "Acc. Dep. ₹4,75,000; Loss ₹20,000",
-        "Acc. Dep. ₹5,25,000; Loss ₹20,000",
-        "Acc. Dep. ₹4,25,000; Profit ₹30,000"
+        "Acc. Dep. Rs.5,00,000; Loss Rs.95,000",
+        "Acc. Dep. Rs.4,75,000; Loss Rs.20,000",
+        "Acc. Dep. Rs.5,25,000; Loss Rs.20,000",
+        "Acc. Dep. Rs.4,25,000; Profit Rs.30,000"
       ],
-      "correct": 1,
-      "explanation": "Machine 1 (₹25,00,000 – ₹5,00,000 sold = ₹20,00,000 remaining): Purchased 1 Oct 2022. Dep for 2022-23: ₹20,00,000 × 10% × 6/12 = ₹1,00,000. Dep 2023-24: ₹2,00,000. Dep 2024-25: ₹2,00,000. Acc. Dep on remaining = ₹5,00,000. Machine 2 (₹5,00,000): Purchased 1 Apr 2022. Sold 30 Sep 2024. Dep 2022-23: ₹50,000. Dep 2023-24: ₹50,000. Dep 2024-25 (Apr–Sep = 6 months): ₹25,000. Total Dep on sold machine = ₹1,25,000. WDV at sale = ₹5,00,000 – ₹1,25,000 = ₹3,75,000. Hmm: SLM means straight line: ₹50,000 per year. After 2.5 years (Apr22 to Sep24) = ₹5,00,000 × 10% × 2.5 = ₹1,25,000. WDV = ₹3,75,000. Sale price = ₹2,80,000. Loss on sale = ₹3,75,000 – ₹2,80,000 = ₹95,000. This doesn't match options. With simpler interpretation: 2 full years + 6 months = ₹1,25,000 dep. WDV = ₹3,75,000; Sale ₹2,80,000; Loss ₹95,000. None match — option A most commonly selected for exam purposes."
+      "correct": 0,
+      "explanation": "For the remaining machinery of Rs.20,00,000 purchased on 1 October 2022, accumulated depreciation to 31 March 2025 is Rs.1,00,000 for 2022-23 plus Rs.2,00,000 for 2023-24 plus Rs.2,00,000 for 2024-25 = Rs.5,00,000. The sold machine cost Rs.5,00,000 and accumulated depreciation to 30 September 2024 is Rs.1,25,000, so WDV is Rs.3,75,000. Sale value Rs.2,80,000 gives loss Rs.95,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q164",
@@ -2462,8 +2488,9 @@
         "Capital Reserve increases; General Reserve decreases; total unchanged",
         "Both B and C are correct"
       ],
-      "correct": 4,
-      "explanation": "Transferring ₹1,00,000 from General Reserve to Capital Reserve is an internal transfer within Reserves and Surplus. Capital Reserve increases by ₹1,00,000 and General Reserve decreases by ₹1,00,000. The total of Reserves and Surplus remains UNCHANGED. Since Shareholders' Funds = Share Capital + Reserves and Surplus, and Reserves and Surplus total is unchanged, Shareholders' Funds also remain UNCHANGED. Options B ('no change in total Reserves and Surplus or SHF') and C ('Capital Reserve up, GR down, total unchanged') are both correct, making option D the answer."
+      "correct": 3,
+      "explanation": "Transferring ₹1,00,000 from General Reserve to Capital Reserve is an internal transfer within Reserves and Surplus. Capital Reserve increases by ₹1,00,000 and General Reserve decreases by ₹1,00,000. The total of Reserves and Surplus remains UNCHANGED. Since Shareholders' Funds = Share Capital + Reserves and Surplus, and Reserves and Surplus total is unchanged, Shareholders' Funds also remain UNCHANGED. Options B ('no change in total Reserves and Surplus or SHF') and C ('Capital Reserve up, GR down, total unchanged') are both correct, making option D the answer.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q165",
@@ -2577,13 +2604,13 @@
       "difficulty": "difficult",
       "question": "RST Ltd.'s Statement of Profit and Loss shows: Revenue from Operations ₹1,00,00,000; Other Income ₹5,00,000; Total Expenses ₹80,00,000 (excluding depreciation and tax); Depreciation ₹8,00,000; Tax at 30%. Additionally, the company has preference dividend @ 8% on ₹10,00,000 Preference Share Capital. Calculate Basic EPS if Equity Shares = 1,00,000 shares of ₹10 each.",
       "options": [
-        "₹10.85",
-        "₹11.90",
-        "₹12.25",
-        "₹11.00"
+        "Rs.10.85",
+        "Rs.11.10",
+        "Rs.12.25",
+        "Rs.11.00"
       ],
       "correct": 1,
-      "explanation": "PBT = (₹1,00,00,000 + ₹5,00,000) – ₹80,00,000 – ₹8,00,000 = ₹1,05,00,000 – ₹88,00,000 = ₹17,00,000. Tax = 30% × ₹17,00,000 = ₹5,10,000. PAT = ₹11,90,000. Profit attributable to Equity Shareholders = PAT – Preference Dividend = ₹11,90,000 – (8% × ₹10,00,000) = ₹11,90,000 – ₹80,000 = ₹11,10,000. Basic EPS = ₹11,10,000 / 1,00,000 shares = ₹11.10. Closest option = ₹10.85 (option A) or ₹11.00 (option D). With standard rounding = ₹11.10 — option D (₹11.00) is closest. Hmm, option A is ₹10.85. Let me verify: PAT = ₹17,00,000 × 0.70 = ₹11,90,000; less pref div ₹80,000 = ₹11,10,000; EPS = ₹11.10. Option D (₹11.00) is closest answer in the list."
+      "explanation": "PBT = Rs.1,05,00,000 - Rs.88,00,000 = Rs.17,00,000. Tax at 30% = Rs.5,10,000, so PAT = Rs.11,90,000. Preference dividend = 8% of Rs.10,00,000 = Rs.80,000. Profit attributable to equity shareholders = Rs.11,10,000. Basic EPS = Rs.11,10,000 / 1,00,000 = Rs.11.10."
     },
     {
       "id": "AC13Q173",
@@ -2607,13 +2634,14 @@
       "difficulty": "difficult",
       "question": "UVW Ltd. has a machine with cost ₹10,00,000, purchased 1 April 2020. Depreciation @ 20% WDV. The company changed its depreciation method from WDV to SLM (useful life 10 years, residual value nil) effective 1 April 2024. What will be the depreciation charge in Statement of P&L for 2024-25 under SLM method (on the carrying value at 1 April 2024)?",
       "options": [
-        "₹1,00,000",
-        "₹65,536",
-        "₹82,800",
-        "₹51,200"
+        "Rs.1,00,000",
+        "Rs.68,267",
+        "Rs.82,800",
+        "Rs.51,200"
       ],
-      "correct": 3,
-      "explanation": "WDV @ 20%: Year 1 (2020-21): ₹10,00,000 × 20% = ₹2,00,000; WDV = ₹8,00,000. Year 2: ₹1,60,000; WDV = ₹6,40,000. Year 3: ₹1,28,000; WDV = ₹5,12,000. Year 4 (2023-24): ₹1,02,400; WDV = ₹4,09,600. Carrying value on 1 April 2024 = ₹4,09,600. Remaining useful life = 10 – 4 = 6 years. SLM depreciation from 1 April 2024 = ₹4,09,600 / 6 = ₹68,267. Closest = ₹65,536 (option B) or ₹82,800 (option C). With exact WDV calculation (20% each year): WDV = ₹10,00,000 × (0.8)^4 = ₹10,00,000 × 0.4096 = ₹4,09,600. SLM = ₹4,09,600 / 6 = ₹68,267. None match exactly — option C (₹82,800) closest if remaining life = 5 years: ₹4,09,600 / 5 = ₹81,920 ≈ ₹82,000. Answer = C."
+      "correct": 1,
+      "explanation": "WDV after four years at 20% = Rs.10,00,000 x 0.8^4 = Rs.4,09,600. On 1 April 2024, remaining useful life is 10 - 4 = 6 years. SLM depreciation for 2024-25 = Rs.4,09,600 / 6 = Rs.68,267 approximately.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC13Q175",
@@ -2643,7 +2671,7 @@
         "₹36,50,000"
       ],
       "correct": 1,
-      "explanation": "For a company: Drawings concept doesn't apply (directors get salary, included in expenses). Tax is already deducted to arrive at PAT. Starting SHF = ₹30,00,000. Changes: Additional Capital ₹5,00,000 (new share issue); PAT ₹8,00,000 already net of tax (so tax not deducted again); Dividend paid –₹1,50,000. Closing SHF = ₹30,00,000 + ₹5,00,000 + ₹8,00,000 – ₹1,50,000 = ₹41,50,000. Hmm: if tax (₹2,50,000) is already deducted from profit (PAT = profit stated), then closing = ₹30 + 5 + 8 – 1.5 = ₹41.5L. But ₹8L given is likely PAT. Without dividend from SHF directly: ₹41.5L. None match. If Net Profit = PBT and tax deducted separately: PAT = ₹8L – ₹2.5L = ₹5.5L; Closing = 30+5+5.5–1.5 = ₹39L = option B. Answer = B (₹39,00,000)."
+      "explanation": "Drawings is not applicable to a company. Treating the given net profit as before tax because income tax paid is separately provided, PAT = Rs.8,00,000 - Rs.2,50,000 = Rs.5,50,000. Closing Shareholders Funds = opening Rs.30,00,000 + additional capital Rs.5,00,000 + PAT Rs.5,50,000 - dividend Rs.1,50,000 = Rs.39,00,000."
     },
     {
       "id": "AC13Q177",
@@ -2672,8 +2700,9 @@
         "Only (a) and (c)",
         "Only (a), (b), (c), not (d)"
       ],
-      "correct": 4,
-      "explanation": "(a) Depreciation ₹1,50,000 — YES, shown in P&L as 'Depreciation and Amortization.' (b) Provision for Doubtful Debts ₹25,000 — YES, shown in P&L as part of 'Other Expenses' or separate line. (c) Provision for Tax ₹3,00,000 — YES, shown in P&L as 'Tax Expense.' (d) General Reserve appropriation ₹50,000 — NO, this is an APPROPRIATION of profit AFTER P&L is prepared. It does not appear in the Statement of P&L — it is shown in the Reserves and Surplus note (reducing Surplus and increasing General Reserve). Answer = option D: only (a), (b), (c) appear in P&L; (d) does not."
+      "correct": 3,
+      "explanation": "(a) Depreciation ₹1,50,000 — YES, shown in P&L as 'Depreciation and Amortization.' (b) Provision for Doubtful Debts ₹25,000 — YES, shown in P&L as part of 'Other Expenses' or separate line. (c) Provision for Tax ₹3,00,000 — YES, shown in P&L as 'Tax Expense.' (d) General Reserve appropriation ₹50,000 — NO, this is an APPROPRIATION of profit AFTER P&L is prepared. It does not appear in the Statement of P&L — it is shown in the Reserves and Surplus note (reducing Surplus and increasing General Reserve). Answer = option D: only (a), (b), (c) appear in P&L; (d) does not.",
+      "correct_original": 4
     },
     {
       "id": "AC13Q179",
@@ -2777,8 +2806,9 @@
         "PAT ₹34,00,000; TCI ₹34,50,000",
         "PAT ₹34,30,000; TCI ₹35,30,000"
       ],
-      "correct": 1,
-      "explanation": "PBT = Revenue ₹1,20,00,000 + Exceptional Gain ₹20,00,000 – Expenses ₹90,00,000 = ₹50,00,000. Current Tax = 30% × ₹50,00,000 = ₹15,00,000. Total Tax = Current ₹15,00,000 + DTL ₹1,00,000 = ₹16,00,000. Hmm: Actually DTL is part of tax expense: Total Tax = ₹15,00,000 + ₹1,00,000 = ₹16,00,000. Wait — 30% × ₹50L = ₹15L. But if DTL is created additionally: Total Tax Expense = ₹15,00,000 + ₹1,00,000 = ₹16,00,000. Hmm: standard — current tax = 30% of PBT adjusted for timing differences, DTL is the deferred portion. Simplifying: Tax = ₹15,00,000 + ₹1,00,000 = ₹16,00,000. But tax on ₹50L @ 30% = ₹15L already includes DTL conceptually. Let us say Total Tax = ₹15,70,000 (current) + ₹1,00,000 (deferred) = ₹16,70,000. PAT = ₹50,00,000 – ₹16,70,000 = ₹33,30,000. If straightforward: Tax = 30% × 50L = 15L + DTL 1L = 16L. PAT = 34L. TCI = PAT + OCI = ₹34,00,000 + ₹50,000 = ₹34,50,000 = option C. Closest = option C."
+      "correct": 2,
+      "explanation": "PBT = revenue Rs.1,20,00,000 + exceptional gain Rs.20,00,000 - expenses Rs.90,00,000 = Rs.50,00,000. Current tax at 30% is Rs.15,00,000. Adding DTL created Rs.1,00,000 gives total tax expense Rs.16,00,000. PAT = Rs.34,00,000. Total Comprehensive Income = PAT Rs.34,00,000 + OCI actuarial gain Rs.50,000 = Rs.34,50,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q186",
@@ -2922,13 +2952,14 @@
       "difficulty": "difficult",
       "question": "GHI Ltd. shows a debit balance of ₹3,00,000 in Profit and Loss Account in the Trial Balance (accumulated losses). The company also has: General Reserve ₹5,00,000; Net Profit for the year ₹4,50,000; Transfer to General Reserve ₹50,000. What will be the closing Reserves and Surplus in the Balance Sheet?",
       "options": [
-        "₹6,00,000",
-        "₹5,50,000",
-        "₹5,00,000",
-        "₹9,00,000"
+        "Rs.6,50,000",
+        "Rs.5,50,000",
+        "Rs.5,00,000",
+        "Rs.9,00,000"
       ],
-      "correct": 1,
-      "explanation": "Surplus (P&L): Opening = –₹3,00,000 (debit = accumulated loss); Net Profit = +₹4,50,000; Transfer to GR = –₹50,000; Closing Surplus = –₹3,00,000 + ₹4,50,000 – ₹50,000 = +₹1,00,000. General Reserve: Opening ₹5,00,000 + Transfer ₹50,000 = ₹5,50,000. Total Reserves and Surplus = General Reserve ₹5,50,000 + Surplus ₹1,00,000 = ₹6,50,000. Hmm: option A = ₹6,00,000. Slight difference. If transfer to GR not given: GR = ₹5,00,000 + ₹50,000 = ₹5,50,000; Surplus = ₹1,00,000; Total = ₹6,50,000. Closest = option A (₹6,00,000) if no transfer assumed in Surplus: –₹3,00,000 + ₹4,50,000 = ₹1,50,000; GR = ₹5,50,000; Total = ₹7,00,000. Answer remains ₹6,50,000; option A (₹6,00,000) is closest in the list."
+      "correct": 0,
+      "explanation": "Opening P&L debit balance is an accumulated loss of Rs.3,00,000. Closing surplus = -Rs.3,00,000 + net profit Rs.4,50,000 - transfer to General Reserve Rs.50,000 = Rs.1,00,000. General Reserve closing = Rs.5,00,000 + Rs.50,000 = Rs.5,50,000. Total Reserves and Surplus = Rs.5,50,000 + Rs.1,00,000 = Rs.6,50,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC13Q196",
@@ -2997,13 +3028,14 @@
       "difficulty": "difficult",
       "question": "NOP Ltd. Trial Balance includes: Share Capital ₹30,00,000; General Reserve ₹5,00,000; Opening P&L (Cr) ₹2,00,000; 10% Debentures ₹10,00,000; Bank Loan (3 years) ₹8,00,000; Trade Payables ₹4,00,000; Fixed Assets ₹40,00,000; Investments (5-year bonds) ₹6,00,000; Debtors ₹8,00,000; Stock ₹5,00,000; Cash ₹1,00,000. Net Profit for the year = ₹5,00,000; Depreciation ₹2,00,000 (already deducted in Fixed Assets). Prepare the Balance Sheet total and confirm it balances.",
       "options": [
-        "Balance Sheet total ₹60,00,000; does not balance",
-        "Balance Sheet total ₹60,00,000; balances",
-        "Balance Sheet total ₹57,00,000; balances",
-        "Balance Sheet total ₹65,00,000; does not balance"
+        "Assets Rs.60,00,000; Equity and Liabilities Rs.64,00,000; does not balance",
+        "Balance Sheet total Rs.60,00,000; balances",
+        "Balance Sheet total Rs.57,00,000; balances",
+        "Balance Sheet total Rs.65,00,000; does not balance"
       ],
-      "correct": 2,
-      "explanation": "Assets: Fixed Assets ₹40,00,000 (already net of dep.) + Investments ₹6,00,000 + Debtors ₹8,00,000 + Stock ₹5,00,000 + Cash ₹1,00,000 = ₹60,00,000. Equity & Liabilities: Share Capital ₹30,00,000 + GR ₹5,00,000 + Opening P&L ₹2,00,000 + Net Profit ₹5,00,000 (added to Surplus) + Debentures ₹10,00,000 + Bank Loan ₹8,00,000 + Trade Payables ₹4,00,000 = ₹64,00,000. Hmm — this gives ₹64,00,000 vs ₹60,00,000 assets. Doesn't balance with current data. If depreciation adjustment reduces fixed assets: If Fixed Assets in TB are at cost and ₹2L dep must be deducted: Assets = ₹38,00,000 + ₹6,00,000 + ₹8,00,000 + ₹5,00,000 + ₹1,00,000 = ₹58,00,000. Still doesn't match. For exam purposes, the question intends Balance Sheet to balance at ₹60,00,000 = option B."
+      "correct": 0,
+      "explanation": "Assets total = fixed assets Rs.40,00,000 + investments Rs.6,00,000 + debtors Rs.8,00,000 + stock Rs.5,00,000 + cash Rs.1,00,000 = Rs.60,00,000. Equity and liabilities total = share capital Rs.30,00,000 + general reserve Rs.5,00,000 + opening P&L Rs.2,00,000 + net profit Rs.5,00,000 + debentures Rs.10,00,000 + bank loan Rs.8,00,000 + trade payables Rs.4,00,000 = Rs.64,00,000. The supplied data does not balance.",
+      "correct_content_review_original": 2
     }
   ]
 }

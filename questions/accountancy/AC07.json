@@ -317,8 +317,9 @@
         "₹70,000 (Cr)",
         "₹54,000 (Cr)"
       ],
-      "correct": 2,
-      "explanation": "Realisation profit = ₹20,000, shared 3:2. P's share = 20,000 × 3/5 = ₹12,000. P's Capital A/c: Opening Cr ₹50,000 + Profit share Cr ₹12,000 = ₹62,000 (Cr). Wait — recalculating: 20,000 × 3/5 = 12,000. P's capital = 50,000 + 12,000 = ₹62,000. So correct answer is A (₹62,000). Q's share = 20,000 × 2/5 = ₹8,000. The realisation profit is credited to partners' capital accounts: Dr. Realisation A/c, Cr. P's Capital ₹12,000, Cr. Q's Capital ₹8,000. P receives ₹62,000 in final cash settlement."
+      "correct": 0,
+      "explanation": "Realisation profit of ₹20,000 is shared in the 3:2 ratio. P’s share = ₹20,000 x 3/5 = ₹12,000. P’s capital after crediting this profit = ₹50,000 + ₹12,000 = ₹62,000 credit.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC07Q22",
@@ -618,7 +619,7 @@
         "Profit of ₹15,000"
       ],
       "correct": 2,
-      "explanation": "DR Realisation: Assets at BV (1,50,000) + Creditors paid (57,000) + Expenses (2,000) = ₹2,09,000. CR Realisation: Creditors at BV (60,000) + Cash: Debtors (36,000) + Stock (26,000) + M's Capital for Machinery (72,000) = ₹1,94,000. Hmm, 60+36+26+72 = 194,000. Loss = 2,09,000 − 1,94,000 = ₹15,000. Rechecking: Total CR = 1,94,000 < DR 2,09,000 → Loss ₹15,000. M bears 2/5 × 15,000 = ₹6,000; N bears 3/5 × 15,000 = ₹9,000."
+      "explanation": "Debit side of Realisation = assets ₹1,50,000 + creditors paid ₹57,000 + expenses ₹2,000 = ₹2,09,000. Credit side = creditors ₹60,000 + machinery taken by M ₹72,000 + debtors realised ₹36,000 + stock realised ₹26,000 = ₹1,94,000. Debit exceeds credit by ₹15,000, so there is a Realisation loss of ₹15,000."
     },
     {
       "id": "AC07Q42",
@@ -1064,11 +1065,11 @@
       "options": [
         "₹47,000",
         "₹53,000",
-        "₹59,000",
+        "₹58,000",
         "₹65,000"
       ],
       "correct": 2,
-      "explanation": "DR Realisation: Assets BV (4,20,000) + Creditors paid (78,000) + Expenses (4,000) = ₹5,02,000. CR Realisation: Creditors BV (80,000) + Cash (3,50,000) = ₹4,30,000. Loss = 5,02,000 − 4,30,000 = ₹72,000. PSR 3:2:1. C's share of loss = 72,000 × 1/6 = ₹12,000. C's Capital: 70,000 − 12,000 = ₹58,000... Wait: recalculating — Total Cash = 30,000 + 3,50,000 − 78,000 − 4,000 − 40,000 (A's loan) = ₹2,58,000. A's Capital = 1,60,000 − (72,000 × 3/6) = 1,60,000 − 36,000 = ₹1,24,000. B = 1,00,000 − 24,000 = ₹76,000. C = 70,000 − 12,000 = ₹58,000. Total = 1,24,000 + 76,000 + 58,000 = ₹2,58,000 ✓. C receives ₹58,000."
+      "explanation": "Realisation loss = assets ₹4,20,000 + creditors paid ₹78,000 + expenses ₹4,000 - creditors ₹80,000 - assets realised ₹3,50,000 = ₹72,000. C bears 1/6 of the loss = ₹12,000. C’s final capital receipt = ₹70,000 - ₹12,000 = ₹58,000."
     },
     {
       "id": "AC07Q72",
@@ -1078,12 +1079,13 @@
       "question": "At dissolution of X-Y (equal partners): Unrecorded creditor of ₹6,000 is discovered and paid; Unrecorded investment is recovered and sold for ₹9,000; An employee claims ₹4,000 (unrecorded liability) — settled at ₹3,500; A machine (BV ₹20,000) is handed over to a creditor (₹22,000 BV) in full settlement. Net effect of ALL four transactions on Realisation Account profit/loss:",
       "options": [
         "Loss of ₹500",
-        "Profit of ₹5,000",
+        "Profit of ₹1,500",
         "Profit of ₹500",
         "Profit of ₹2,500"
       ],
-      "correct": 3,
-      "explanation": "1. Unrecorded creditor paid ₹6,000: Dr. Realisation ₹6,000, Cr. Cash ₹6,000 → Loss ₹6,000. 2. Unrecorded investment sold ₹9,000: Dr. Cash ₹9,000, Cr. Realisation ₹9,000 → Profit ₹9,000. 3. Unrecorded employee claim settled ₹3,500: Dr. Realisation ₹3,500, Cr. Cash ₹3,500 → Loss ₹3,500. 4. Machine (BV ₹20,000) to creditor (₹22,000 BV, full settlement): Creditor BV ₹22,000 on CR Realisation; Machine BV ₹20,000 on DR Realisation → Gain on creditor settlement = CR ₹22,000 − DR ₹20,000 = ₹2,000 net gain. Net: −6,000 + 9,000 − 3,500 + 2,000 = +₹1,500 net profit. Hmm — rechecking option. Net = +₹1,500. Closest = ₹500 profit? Let me recheck: −6000 +9000 −3500 +2000 = 1500. So ₹1,500 Profit. None exactly match; D (₹2,500) is closest large positive. The correct mathematical answer is ₹1,500 profit — indicating a possible question calibration. Marking as C (₹500) is also incorrect. The question has a computational issue. Based on strict calculation: ₹1,500 profit."
+      "correct": 1,
+      "explanation": "Unrecorded creditor paid causes a ₹6,000 loss. Unrecorded investment sold creates a ₹9,000 gain. Employee claim settled at ₹3,500 causes a ₹3,500 loss. Machine of ₹20,000 handed to a ₹22,000 creditor creates a net ₹2,000 gain. Net effect = -₹6,000 + ₹9,000 - ₹3,500 + ₹2,000 = ₹1,500 profit.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC07Q73",
@@ -1097,8 +1099,9 @@
         "₹58,000 (Cr)",
         "₹70,000 (Cr)"
       ],
-      "correct": 2,
-      "explanation": "Step 1 — Distribute GR (3:2): Q gets 2/5 × 30,000 = ₹12,000. Q's Capital = 80,000 + 12,000 = ₹92,000. Step 2 — Write off accumulated loss (3:2): Q bears 2/5 × 10,000 = ₹4,000. Q's Capital = 92,000 − 4,000 = ₹88,000. Step 3 — Realisation loss (3:2): Q bears 2/5 × 50,000 = ₹20,000. Q's Capital = 88,000 − 20,000 = ₹68,000... Wait: 88,000 − 20,000 = 68,000. Option A. But let me re-examine — GR and accumulated loss are normally adjusted before Realisation. Starting over: Q = 80,000 + 12,000 − 4,000 − 20,000 = 68,000 (Cr). Answer = ₹68,000 (Cr). Correct = A."
+      "correct": 0,
+      "explanation": "Q receives 2/5 of General Reserve = ₹12,000 and bears 2/5 of accumulated loss = ₹4,000. Q also bears 2/5 of Realisation loss = ₹20,000. Final capital = ₹80,000 + ₹12,000 - ₹4,000 - ₹20,000 = ₹68,000 credit.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC07Q74",
@@ -1109,11 +1112,11 @@
       "options": [
         "Loss of ₹2,000",
         "Profit of ₹6,000",
-        "Loss of ₹6,000",
+        "Loss of ₹11,000",
         "Profit of ₹2,000"
       ],
       "correct": 2,
-      "explanation": "DR Realisation: Assets BV (175,000) + Creditors paid (42,000) + Expenses (3,000) = ₹2,20,000. CR Realisation: Creditors BV (45,000) + A's Capital/Plant (70,000) + B's Capital/Debtors (54,000) + Cash/Stock (40,000) = ₹2,09,000. Loss = 2,20,000 − 2,09,000 = ₹11,000. Wait — DR: 80+60+35 = 175; +42+3 = 220,000. CR: 45+70+54+40 = 209,000. Loss = 11,000. None matches exactly. Let me recheck: ₹11,000 loss, A bears 2/3 = ₹7,333 and B bears 1/3 = ₹3,667. However, if expenses are not separately incurred and creditors gain ₹3,000 (paid 42 vs BV 45), recalc: Loss on Plant (10,000) + Loss on Debtors (6,000) − Profit on Stock (5,000) − Gain on Creditors (3,000) + Expenses (3,000) = 10+6−5−3+3 = ₹11,000 loss. Closest option: C (₹6,000) is incorrect. Question recalibrated for exam: assuming Expenses = ₹1,000: DR = 176+42+1 = 219. CR = 209. Loss = 10,000 — still not matching. Given options, closest to calculated is B (₹6,000 profit) if creditors gain and stock gain heavily outweigh. Given examination context, answer is B based on likely intended values."
+      "explanation": "Debit side of Realisation = assets ₹1,75,000 + creditors paid ₹42,000 + expenses ₹3,000 = ₹2,20,000. Credit side = creditors ₹45,000 + plant taken by A ₹70,000 + debtors taken by B ₹54,000 + stock realised ₹40,000 = ₹2,09,000. Loss = ₹2,20,000 - ₹2,09,000 = ₹11,000."
     },
     {
       "id": "AC07Q75",
@@ -1139,11 +1142,12 @@
       "options": [
         "₹3,000",
         "₹9,000",
-        "₹6,000",
+        "₹1,800",
         "₹12,000"
       ],
-      "correct": 3,
-      "explanation": "Realisation loss = ₹99,000 ÷ 3 = ₹33,000 each. C's Capital = ₹30,000. C's deficiency = ₹33,000 − ₹30,000 = ₹3,000 (C owes ₹3,000 but is insolvent). Under Garner v Murray: A and B bear C's deficiency in their CAPITAL RATIO. Solvent partners' capitals: A = ₹60,000, B = ₹40,000 → Ratio 3:2. A bears = ₹3,000 × 3/5 = ₹1,800. B bears = ₹3,000 × 2/5 = ₹1,200. Wait — ratio is 60:40 = 3:2. A's share = 3,000 × 3/5 = ₹1,800. But option C shows ₹6,000. Recalculating if loss = ₹99,000: each = ₹33,000. C's deficiency = 33,000 − 30,000 = ₹3,000. A's Garner share = 1,800. Nearest option — if the question intended loss per partner to be ₹33,000 and Capital ratio 60:40 = 3:2, A gets 1,800. This doesn't match options. If PSR not equal — checking option C (₹6,000): implies C's deficiency = ₹10,000 and A gets 3/5. For exam, given options, marking C (₹6,000) as intended based on ₹10,000 deficiency scenario."
+      "correct": 2,
+      "explanation": "Realisation loss per partner = ₹99,000 / 3 = ₹33,000. C has capital of ₹30,000, so C’s deficiency is ₹3,000. Under Garner v Murray, solvent partners bear the deficiency in their capital ratio. A:B capital ratio = ₹60,000:₹40,000 = 3:2. A bears 3/5 x ₹3,000 = ₹1,800.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC07Q77",
@@ -1182,13 +1186,14 @@
       "difficulty": "difficult",
       "question": "P and Q (3:2) dissolve their firm. Plant (BV ₹90,000) — P takes it at ₹80,000. Stock (BV ₹40,000) realized ₹45,000. Debtors (BV ₹30,000) — Q bears ₹3,000 bad debt, rest realized. Unrecorded liability ₹5,000 paid. Creditors (BV ₹50,000) settled ₹47,000. Expenses: Q paid ₹2,000 from personal funds. Calculate P's share of Realisation outcome (profit/loss):",
       "options": [
-        "Loss of ₹6,000",
+        "Loss of ₹7,200",
         "Profit of ₹6,000",
         "Profit of ₹3,000",
         "Loss of ₹3,000"
       ],
-      "correct": 3,
-      "explanation": "DR Realisation: Assets BV (90+40+30 = 1,60,000) + Creditors paid (47,000) + Unrecorded liability (5,000) + Q's expenses (Cr. Q's Capital, Dr. Realisation 2,000) = ₹2,14,000. CR Realisation: Creditors BV (50,000) + P's Capital/Plant (80,000) + Cash/Stock (45,000) + Cash/Debtors (27,000) = ₹2,02,000. Note: Q bears bad debt of ₹3,000 — this means ₹27,000 recovered (not Realisation A/c directly). Loss = 2,14,000 − 2,02,000 = ₹12,000. Wait: debtors realized = 30,000 − 3,000 = ₹27,000 → Cash ₹27,000 CR. Let me recount: DR = 160,000 + 47,000 + 5,000 + 2,000 = 214,000. CR = 50,000 + 80,000 + 45,000 + 27,000 = 202,000. Loss = 12,000. Hmm — P's share (3/5) = ₹7,200. Closest option D (₹3,000) doesn't match exactly. If Q bears bad debt as Capital adjustment (not Realisation): Debtors = ₹30,000 CR in Realisation; Cash ₹30,000 DR... Actually if Q absorbs bad debt via Capital: Debtors CR to Realisation ₹30,000; Cash 30,000 CR; Bad debt ₹3,000 Dr Q's Capital. Then DR: 160,000+47,000+5,000+2,000 = 214,000. CR: 50,000+80,000+45,000+30,000 = 205,000. Loss = 9,000. P's share = 9,000 × 3/5 = ₹5,400. Still doesn't match options. Given examination context, D (₹3,000 loss) — recalibrated for D."
+      "correct": 0,
+      "explanation": "Plant loss = ₹10,000, stock gain = ₹5,000, debtors loss = ₹3,000, creditor saving = ₹3,000, unrecorded liability = ₹5,000 loss, and expenses paid by Q = ₹2,000 loss. Net Realisation loss = ₹12,000. P bears 3/5 of the loss = ₹7,200.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC07Q80",
@@ -1212,13 +1217,14 @@
       "difficulty": "difficult",
       "question": "W and V share profits 5:3. At dissolution: Balance Sheet shows — Capitals: W ₹1,50,000, V ₹90,000; Creditors ₹70,000; V's Loan ₹25,000. Assets: Machinery ₹1,20,000, Debtors ₹80,000, Stock ₹60,000, Cash ₹75,000. Machinery sold ₹1,05,000; Debtors 10% bad debt, rest realized; Stock realized ₹55,000; Creditors paid ₹66,000; Expenses ₹4,000. V's share of Realisation loss and V's final capital (cash to receive):",
       "options": [
-        "Loss share ₹11,250; Final capital ₹78,750",
+        "Loss share ₹10,500; Final capital ₹79,500",
         "Loss share ₹9,000; Final capital ₹81,000",
         "Loss share ₹7,500; Final capital ₹82,500",
         "Loss share ₹13,500; Final capital ₹76,500"
       ],
-      "correct": 1,
-      "explanation": "DR Realisation: Assets BV (1,20,000+80,000+60,000 = 2,60,000) + Creditors paid (66,000) + Expenses (4,000) = ₹3,30,000. CR Realisation: Creditors BV (70,000) + Cash: Machinery (1,05,000) + Debtors (72,000) + Stock (55,000) = ₹3,02,000. Loss = ₹28,000. Debtors realized = 80,000 − 8,000 = ₹72,000. PSR 5:3. V's share = 28,000 × 3/8 = ₹10,500. V's Capital = 90,000 − 10,500 = ₹79,500. Cash for distribution: 75,000 + 2,32,000 − 66,000 − 4,000 − 25,000 (V's loan) = 2,12,000. W gets: 1,50,000 − 17,500 (5/8 × 28,000) = ₹1,32,500. V gets ₹79,500. Total = ₹2,12,000 ✓. Closest option: A (₹11,250 loss → ₹78,750 capital). Small discrepancy from rounding; option A is closest."
+      "correct": 0,
+      "explanation": "Realisation debit = assets ₹2,60,000 + creditors paid ₹66,000 + expenses ₹4,000 = ₹3,30,000. Realisation credit = creditors ₹70,000 + machinery ₹1,05,000 + debtors ₹72,000 + stock ₹55,000 = ₹3,02,000. Loss = ₹28,000. V’s share in 5:3 ratio = 3/8 x ₹28,000 = ₹10,500. V’s final capital = ₹90,000 - ₹10,500 = ₹79,500.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC07Q82",
@@ -1229,11 +1235,11 @@
       "options": [
         "₹36,000",
         "₹27,600",
-        "₹32,400",
-        "₹24,000"
+        "₹24,000",
+        "₹26,400"
       ],
       "correct": 2,
-      "explanation": "PSR 2:2:1. Own loss shares: A = 60,000 × 2/5 = ₹24,000; B = ₹24,000; C = ₹12,000. C's Capital after loss = 50,000 − 12,000 = ₹38,000 (Cr). Wait — C has ₹50,000 and loss is ₹12,000 → C's capital = ₹38,000 (Cr), positive. C is NOT insolvent here. For C to be insolvent, his capital must be less than his loss. Let's recalculate with C's Capital = ₹8,000: C's deficiency = 12,000 − 8,000 = ₹4,000. Garner's ratio for A and B: 1,20,000 : 80,000 = 3:2. A bears = 4,000 × 3/5 = ₹2,400. Total A's burden = 24,000 + 2,400 = ₹26,400. Closest: B (₹27,600). Using different capitals for Garner — exam variant answer B."
+      "explanation": "A’s own share of Realisation loss in the 2:2:1 ratio = ₹60,000 x 2/5 = ₹24,000. C’s capital after bearing his loss is ₹50,000 - ₹12,000 = ₹38,000 credit, so C has no deficiency. Garner v Murray is not triggered. A’s total burden is therefore ₹24,000."
     },
     {
       "id": "AC07Q83",
@@ -1247,8 +1253,9 @@
         "Loss of ₹12,500",
         "Profit of ₹5,500"
       ],
-      "correct": 1,
-      "explanation": "1. Motor Vehicle: DR BV ₹1,00,000; CR R's Capital ₹90,000 → Net DR ₹10,000 loss. 2. Unrecorded investment: CR Realisation ₹15,000 → Profit ₹15,000. 3. Prepaid Insurance: DR BV ₹4,000; CR Cash ₹2,500 → Net DR ₹1,500 loss. 4. Unrecorded loan paid: DR Realisation ₹18,000 → Loss ₹18,000. Net = −10,000 + 15,000 − 1,500 − 18,000 = −₹14,500 loss. Closest option A (₹14,500). But wait: ₹−10,000 + 15,000 − 1,500 − 18,000 = −14,500. Answer = A. Correcting: answer is A (₹14,500 loss)."
+      "correct": 0,
+      "explanation": "Motor vehicle loss = ₹1,00,000 - ₹90,000 = ₹10,000. Unrecorded investment realised gives a ₹15,000 gain. Prepaid insurance loss = ₹4,000 - ₹2,500 = ₹1,500. Unrecorded loan paid causes an ₹18,000 loss. Net result = -₹10,000 + ₹15,000 - ₹1,500 - ₹18,000 = ₹14,500 loss.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC07Q84",
@@ -1257,13 +1264,14 @@
       "difficulty": "difficult",
       "question": "J and K are equal partners. Firm's assets: Machinery ₹80,000, Debtors ₹50,000, Stock ₹40,000, Cash ₹25,000. Liabilities: Creditors ₹60,000, K's Capital ₹70,000 (Cr), J's Capital ₹65,000 (Cr). [Note: Total assets = Total L+C = ₹1,95,000 — balanced]. Dissolution: All assets realized at 90% of BV. Creditors paid 95%. Expenses ₹2,000. Determine the final cash position and each partner's receipt:",
       "options": [
-        "J = ₹55,500; K = ₹60,500",
+        "J = ₹57,000; K = ₹62,000",
         "J = ₹54,000; K = ₹59,000",
         "J = ₹60,000; K = ₹65,000",
         "J = ₹52,000; K = ₹57,000"
       ],
-      "correct": 1,
-      "explanation": "Cash inflow = Opening cash (25,000) + Realized (0.9 × 1,70,000 = 1,53,000) = ₹1,78,000. Note: non-cash assets = 80+50+40 = 1,70,000. Creditors paid = 0.95 × 60,000 = ₹57,000. Expenses = ₹2,000. Net cash after liabilities = 1,78,000 − 57,000 − 2,000 = ₹1,19,000. DR Realisation: Assets BV (1,70,000) + Creditors paid (57,000) + Expenses (2,000) = ₹2,29,000. CR Realisation: Creditors BV (60,000) + Cash realized (1,53,000) = ₹2,13,000. Loss = ₹16,000. Each bears ₹8,000. J: 65,000 − 8,000 = ₹57,000... Hmm: 1,19,000 − 57,000 − 62,000 = 0 doesn't work. J = 65,000 − 8,000 = 57,000; K = 70,000 − 8,000 = 62,000. Total = 119,000 ✓. Closest option: none exactly. A shows J=55,500 K=60,500 (total 116,000). With expenses 2000 more or realization slightly different. For exam: A is closest intent."
+      "correct": 0,
+      "explanation": "Non-cash assets of ₹1,70,000 realise 90%, or ₹1,53,000. Cash available before creditor payment = ₹25,000 + ₹1,53,000 = ₹1,78,000. Creditors are paid ₹57,000 and expenses are ₹2,000, leaving ₹1,19,000. Realisation loss = ₹16,000, shared equally. J receives ₹65,000 - ₹8,000 = ₹57,000 and K receives ₹70,000 - ₹8,000 = ₹62,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC07Q85",
@@ -1362,13 +1370,14 @@
       "difficulty": "difficult",
       "question": "Partners F and G (3:2). Bank Overdraft ₹30,000 (liability). An unrecorded Building worth ₹50,000 is discovered. F takes both: assumes Bank Overdraft (pays ₹28,000 to bank) and takes Building at agreed value ₹45,000. Bank Overdraft was already on CR of Realisation at ₹30,000. Effect on Realisation Account profit/loss from these two items only:",
       "options": [
-        "Profit ₹17,000",
+        "Profit ₹47,000",
         "Profit ₹7,000",
         "Profit ₹2,000",
         "Loss ₹13,000"
       ],
-      "correct": 2,
-      "explanation": "Bank Overdraft (unrecorded item?): Wait — Bank Overdraft is on CR of Realisation ₹30,000 (transferred as liability). F pays ₹28,000 to bank: Dr. Realisation ₹28,000, Cr. F's Capital ₹28,000. Net on Bank Overdraft: CR 30,000 − DR 28,000 = CR ₹2,000 gain. Unrecorded Building (no BV): F takes at ₹45,000: Dr. F's Capital ₹45,000, Cr. Realisation ₹45,000. Net on Building = CR ₹45,000 gain. Total net = 2,000 + 45,000 = ₹47,000 profit from these two. But this seems too high — re-reading: building ₹50,000 worth, taken at ₹45,000. Net Realisation gain from building = ₹45,000 (unrecorded asset). Net gain from overdraft = ₹2,000. Total = ₹47,000... But option A shows ₹17,000. This question needs recalibration. Given options, B (₹7,000) implies building CR ₹5,000 + OD gain ₹2,000 = ₹7,000. That doesn't reconcile. Marking B based on examination context."
+      "correct": 0,
+      "explanation": "Bank overdraft of ₹30,000 is settled for ₹28,000, giving a ₹2,000 gain. The unrecorded building has no book value and is taken over by F at ₹45,000, creating a ₹45,000 gain. Total profit from these two items = ₹2,000 + ₹45,000 = ₹47,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC07Q92",
@@ -1393,12 +1402,13 @@
       "question": "R, S, T share profits 4:3:3. At dissolution, after distributing reserves and adjusting losses: R = ₹2,00,000 (Cr), S = ₹1,50,000 (Cr), T = ₹1,00,000 (Cr). Realisation profit = ₹1,00,000. S takes over Machinery at ₹80,000. Cash available after all settlements (excluding partner payments) = ₹4,50,000. S's cash receipt is:",
       "options": [
         "₹1,00,000",
-        "₹1,60,000",
+        "₹80,000",
         "₹2,00,000",
         "₹1,40,000"
       ],
-      "correct": 1,
-      "explanation": "Realisation profit distribution (4:3:3): R = 40,000; S = 30,000; T = 30,000. S's Capital A/c: 1,50,000 + 30,000 (profit) − 80,000 (machinery taken) = ₹1,00,000. R's Capital: 2,00,000 + 40,000 = ₹2,40,000. T's Capital: 1,00,000 + 30,000 = ₹1,30,000. Total to partners = 2,40,000 + 1,00,000 + 1,30,000 = ₹4,70,000. But cash = ₹4,50,000 (excluding S's machinery takeover of ₹80,000). Cash only = 4,50,000. Cash distribution matches capitals (since S took machinery, cash needed is reduced): R: 2,40,000; T: 1,30,000; S: 4,50,000 − 2,40,000 − 1,30,000 = ₹80,000. Hmm — that gives ₹80,000. But option A = ₹1,00,000. With total available cash and deducting ₹80,000 for machinery → S gets ₹1,00,000 cash. S gets ₹1,00,000 in cash."
+      "correct": 0,
+      "explanation": "S receives 3/10 of the ₹1,00,000 Realisation profit = ₹30,000. S’s capital after profit = ₹1,50,000 + ₹30,000 = ₹1,80,000. Since S takes machinery at ₹80,000, S’s cash receipt = ₹1,80,000 - ₹80,000 = ₹1,00,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC07Q94",
@@ -1499,11 +1509,12 @@
       "options": [
         "₹1,60,000",
         "₹1,80,000",
-        "₹1,76,000",
+        "₹1,48,000",
         "₹1,40,000"
       ],
-      "correct": 3,
-      "explanation": "DR Realisation: Assets BV (5,00,000) + Liabilities paid (1,42,000) + Expenses (8,000) = ₹6,50,000. CR Realisation: Liabilities BV (1,50,000) + Cash (4,20,000) = ₹5,70,000. Loss = ₹80,000. PSR 2:2:1. B's loss share = 80,000 × 2/5 = ₹32,000. B's Capital after loss = 1,20,000 − 32,000 = ₹88,000. B's Loan = ₹60,000. B's total receipts = Loan (60,000) + Capital (88,000) = ₹1,48,000. Cash: 50,000 + 4,20,000 − 1,42,000 − 8,000 − 60,000 (loan) = 2,60,000 for capitals. A: 1,80,000 − 32,000 = 1,48,000; C: 40,000 − 16,000 = 24,000; B = 88,000. Total = 2,60,000 ✓. B gets ₹60,000 (loan) + ₹88,000 (capital) = ₹1,48,000. Closest option D (₹1,40,000)."
+      "correct": 2,
+      "explanation": "Realisation loss = assets ₹5,00,000 + liabilities paid ₹1,42,000 + expenses ₹8,000 - creditors ₹1,50,000 - assets realised ₹4,20,000 = ₹80,000. B bears 2/5 of the loss = ₹32,000. B’s capital after loss = ₹1,20,000 - ₹32,000 = ₹88,000. Including B’s loan of ₹60,000, B’s total cash receipt = ₹1,48,000.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC07Q101",
@@ -1547,8 +1558,9 @@
         "Net loss ₹20,000 on Realisation (IFF goes to Partners' Capital)",
         "Net loss ₹5,000 on Realisation (IFF transferred to Realisation credit side)"
       ],
-      "correct": 4,
-      "explanation": "Investments BV ₹1,00,000. Fall in value = ₹20,000 (1,00,000 − 80,000). IFF = ₹15,000 (less than fall). Since IFF < Fall in value: IFF goes to CR of Realisation. Transfer Investments: Dr. Realisation ₹1,00,000. Transfer IFF: Dr. IFF A/c ₹15,000, Cr. Realisation ₹15,000. Cash from sale: Dr. Cash ₹80,000, Cr. Realisation ₹80,000. Net Realisation from investments: DR 1,00,000 − CR (15,000 + 80,000) = DR 1,00,000 − CR 95,000 = Net DR ₹5,000 = Loss ₹5,000. Option D correctly states: Net loss ₹5,000 when IFF (₹15,000) is credited to Realisation (partially absorbing the ₹20,000 asset loss)."
+      "correct": 3,
+      "explanation": "Investments BV ₹1,00,000. Fall in value = ₹20,000 (1,00,000 − 80,000). IFF = ₹15,000 (less than fall). Since IFF < Fall in value: IFF goes to CR of Realisation. Transfer Investments: Dr. Realisation ₹1,00,000. Transfer IFF: Dr. IFF A/c ₹15,000, Cr. Realisation ₹15,000. Cash from sale: Dr. Cash ₹80,000, Cr. Realisation ₹80,000. Net Realisation from investments: DR 1,00,000 − CR (15,000 + 80,000) = DR 1,00,000 − CR 95,000 = Net DR ₹5,000 = Loss ₹5,000. Option D correctly states: Net loss ₹5,000 when IFF (₹15,000) is credited to Realisation (partially absorbing the ₹20,000 asset loss).",
+      "correct_original": 4
     },
     {
       "id": "AC07Q104",
@@ -1573,12 +1585,13 @@
       "question": "P, Q, R share profits 2:1:1. At dissolution: Investments BV ₹80,000, IFF = ₹25,000. Investments sold for ₹60,000. The net entries and their effect on Partners' Capital Accounts from Investments and IFF are:",
       "options": [
         "Loss of ₹20,000 shared 2:1:1 only",
-        "Realisation Loss ₹15,000 only (IFF excess ₹5,000 credited to capitals)",
+        "Realisation Loss ₹15,000 only",
         "Loss of ₹20,000 through Realisation; IFF of ₹25,000 credited to capitals",
-        "Net loss ₹15,000 via Realisation; excess IFF ₹5,000 credited to Capitals in PSR"
+        "No Realisation loss; excess IFF ₹5,000 credited to Capitals in PSR"
       ],
-      "correct": 4,
-      "explanation": "Investments BV ₹80,000. Fall = ₹20,000 (80,000 − 60,000). IFF = ₹25,000 (GREATER than fall of ₹20,000). Since IFF > Fall: Step 1: Transfer investments to Realisation at BV: Dr. Realisation ₹80,000. Step 2: IFF covers the fall (₹20,000) via Realisation: Dr. IFF ₹25,000, Cr. Realisation ₹25,000. (More than needed.) Step 3: Cash: Dr. Cash ₹60,000, Cr. Realisation ₹60,000. Net on Realisation: DR 80,000 − CR (25,000 + 60,000) = DR 80,000 − CR 85,000 = CR ₹5,000 = PROFIT of ₹5,000. Wait — IFF > fall means excess ₹5,000 goes to Partners' Capital directly. Correct entries: Dr. IFF ₹20,000, Cr. Realisation ₹20,000 (covering the fall); Dr. IFF ₹5,000, Cr. Partners' Capital (PSR) ₹5,000 (excess). Net on Realisation from investments: DR 80,000 − CR (20,000 + 60,000) = ₹0 — no impact on Realisation. And ₹5,000 extra to Partners' Capitals. Option D is the most accurate summary."
+      "correct": 3,
+      "explanation": "Investments have book value ₹80,000 and are sold for ₹60,000, so the fall is ₹20,000. The Investments Fluctuation Fund of ₹25,000 first covers the ₹20,000 fall. The remaining ₹5,000 is credited to partners’ capital accounts in the profit-sharing ratio. There is no net Realisation loss from the investment after using the fund.",
+      "correct_original": 4
     },
     {
       "id": "AC07Q106",
@@ -1592,8 +1605,9 @@
         "BR: Dr. Realisation ₹15,000 (Step 1); Creditors: Cr. Realisation ₹18,000 (Step 2); Payment: Dr. Realisation ₹15,000 (BR given, Cr. Realisation); Net = Gain of ₹3,000",
         "Net gain of ₹3,000 to Realisation from this combined settlement"
       ],
-      "correct": 4,
-      "explanation": "Step 1: Transfer BR to Realisation at BV: Dr. Realisation ₹15,000, Cr. BR A/c ₹15,000. Step 2: Transfer Creditors to Realisation: Dr. Creditors ₹18,000, Cr. Realisation ₹18,000. Step 3: BR given to creditor in full settlement (₹18,000 discharge for ₹15,000 BR): Dr. Realisation ₹15,000 (BR utilized), Cr. Realisation ₹15,000? Net effect: On assets side: BR transferred (DR +15,000) then used (CR +15,000) = zero net from BR on Realisation. On liabilities side: Creditors transferred (CR +18,000) and then settled with BR at ₹15,000 (DR Realisation for 15,000 payment value). Net gain = 18,000 − 15,000 = ₹3,000 credit to Realisation. Overall: Gain ₹3,000 on settlement."
+      "correct": 3,
+      "explanation": "Step 1: Transfer BR to Realisation at BV: Dr. Realisation ₹15,000, Cr. BR A/c ₹15,000. Step 2: Transfer Creditors to Realisation: Dr. Creditors ₹18,000, Cr. Realisation ₹18,000. Step 3: BR given to creditor in full settlement (₹18,000 discharge for ₹15,000 BR): Dr. Realisation ₹15,000 (BR utilized), Cr. Realisation ₹15,000? Net effect: On assets side: BR transferred (DR +15,000) then used (CR +15,000) = zero net from BR on Realisation. On liabilities side: Creditors transferred (CR +18,000) and then settled with BR at ₹15,000 (DR Realisation for 15,000 payment value). Net gain = 18,000 − 15,000 = ₹3,000 credit to Realisation. Overall: Gain ₹3,000 on settlement.",
+      "correct_original": 4
     },
     {
       "id": "AC07Q107",
@@ -1619,11 +1633,11 @@
       "options": [
         "₹1,32,000",
         "₹1,18,000",
-        "₹1,26,000",
+        "₹1,26,600",
         "₹1,38,000"
       ],
       "correct": 2,
-      "explanation": "Step 1 — Write off P&L loss (3:2): L bears 3/5 × 20,000 = ₹12,000. L's capital = 1,50,000 − 12,000 = ₹1,38,000. Step 2 — Realisation: DR = Assets BV (2,80,000) + Creditors paid (76,000) + Expenses (3,000) = ₹3,59,000. CR = Creditors BV (80,000) + Cash (1,70,000 + 90,000) = ₹3,40,000. Loss = ₹19,000... Wait: P&L loss is ₹20,000 already in capital side. Let me recheck BS: L=150, M=100, Creditors=80, P&L Dr =20. Total L+C = 150+100+80+20 = 350. Wait: P&L Dr means it's on assets side (debit balance = loss). So total assets: 200+80+30+20(P&L) = 330? No: P&L debit balance is written off against capital BEFORE dissolution. After writing off: L = 138,000; M = 92,000. Realisation: DR = (200+80 = 280)+76+3 = 359,000. CR = 80 + 170+90 = 340,000. Loss = 19,000. L's share = 19,000 × 3/5 = 11,400. L's final capital = 138,000 − 11,400 = ₹1,26,600 ≈ ₹1,26,000. Answer C."
+      "explanation": "L bears 3/5 of the P&L debit balance ₹20,000 = ₹12,000, so L’s capital becomes ₹1,38,000. Realisation loss = assets ₹2,80,000 + creditors paid ₹76,000 + expenses ₹3,000 - creditors ₹80,000 - assets realised ₹2,60,000 = ₹19,000. L bears 3/5 of this = ₹11,400. Final capital = ₹1,38,000 - ₹11,400 = ₹1,26,600."
     },
     {
       "id": "AC07Q109",
@@ -1705,15 +1719,15 @@
       "type": "numerical",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "Partners M and N (PSR 2:1). Opening Balance Sheet (dissolution): Capitals M=₹80,000, N=₹60,000; Creditors ₹40,000; Bill Payable ₹10,000. Assets: Building ₹80,000, Machinery ₹60,000, Debtors ₹30,000, Cash ₹20,000. Dissolution: Building sold ₹1,00,000; Machinery sold ₹45,000; ₹5,000 debtors bad; BP paid in full; Creditors accepted Machinery at ₹45,000 (fully settling ₹40,000 = creditors, excess₹5,000 returned in cash). Wait - Creditors accept machinery at ₹45,000 in settlement of ₹40,000, paying ₹5,000 to the firm. Expenses ₹2,000. Realisation Profit is:",
+      "question": "Partners M and N (PSR 2:1). Opening Balance Sheet (dissolution): Capitals M=Rs.80,000, N=Rs.60,000; Creditors Rs.40,000; Bill Payable Rs.10,000. Assets: Building Rs.80,000, Machinery Rs.60,000, Debtors Rs.30,000, Cash Rs.20,000. Dissolution: Building sold Rs.1,00,000; Machinery transferred to creditors at Rs.45,000 in full settlement of their Rs.40,000 claim, and creditors paid Rs.5,000 cash to the firm for the excess value; Rs.5,000 debtors were bad; BP paid in full; Expenses Rs.2,000. Realisation profit/loss is:",
       "options": [
-        "₹23,000",
-        "₹28,000",
-        "₹33,000",
-        "₹18,000"
+        "Profit of Rs.23,000",
+        "Profit of Rs.28,000",
+        "Profit of Rs.33,000",
+        "Loss of Rs.2,000"
       ],
       "correct": 3,
-      "explanation": "DR Realisation: Assets BV (80+60+30 = 1,70,000) + BP paid (10,000) + Expenses (2,000) = ₹1,82,000. Creditors take Machinery ₹45,000 to settle ₹40,000 and pay ₹5,000 cash back to firm. CR Realisation: Creditors BV (40,000) + BP BV (10,000) + Cash: Building (1,00,000) + Debtors realized (25,000) + Cash from Creditors for excess (5,000) = 40+10+100+25+5 = ₹1,80,000... Wait: Machinery goes to Creditors at ₹45,000. In Realisation: machinery was DR at ₹60,000. Creditor was CR at ₹40,000. Machinery at ₹45,000 = loss on machinery ₹15,000 but gain on creditors ₹5,000 (paid extra ₹5,000 received). Let me use the column method: DR: 170,000 + 10,000 + 2,000 = 182,000. CR: 40,000 + 10,000 + 100,000 + 25,000 + 45,000 + 5,000... No — the machinery is transferred at BV (60,000) on DR. It is 'sold' to creditors at 45,000 on CR. Creditors BV 40,000 on CR; actual settlement = machinery (45,000) + excess cash (5,000)? No: creditors get 45,000 machinery for 40,000 debt, and pay 5,000 to firm. CR: Creditors BV (40,000) + BP BV (10,000) + Building (100,000) + Debtors (25,000) + Cash from creditors (5,000) + Machinery given to creditors (45,000)... this double-counts. Correct: Machinery given to creditors: Dr. Realisation ₹45,000 (payment), Cr. Realisation... The CORRECT treatment: machinery (BV 60,000) → Dr. Realisation 60,000. Creditor (40,000) → Cr. Realisation 40,000. Payment by creditor (machinery 45,000 + ₹5,000 cash = 50,000 for 40,000 debt): firm records: Cr. Realisation 5,000 (cash received) + Dr. Realisation 45,000 (machinery given). Net from creditor transaction on Realisation: DR 45,000 (machinery given), CR 40,000 (BV liability) + CR 5,000 cash = net zero from creditor's side. Loss on machinery: DR 60,000 − CR 45,000 = 15,000 loss. Total: Loss Building (−20,000 gain actually) wait building sold 100,000 BV 80,000 = 20,000 profit. Machinery: 45,000 − 60,000 = 15,000 loss. Debtors: 25,000 − 30,000 = 5,000 loss. Creditors: 40,000 − 40,000 = 0 (exactly settled at BV effectively). BP: paid in full = 0 gain/loss. Expenses: 2,000 loss. Net = +20,000 − 15,000 − 5,000 − 2,000 = −₹2,000 loss. No option shows this. Likely the problem means creditors fully settled at 40,000 from 45,000 machinery with no cash exchange (₹5,000 gain). Net = +20,000 − 15,000 − 5,000 − 2,000 + 5,000 = ₹3,000 profit. Still doesn't match. Given the complexity, the closest intended answer based on typical exam questions is C (₹33,000). Marked accordingly."
+      "explanation": "Building gives a gain of Rs.20,000 (Rs.1,00,000 - Rs.80,000). Machinery transferred at Rs.45,000 gives a loss of Rs.15,000 against book value Rs.60,000. Debtors realised Rs.25,000, giving a loss of Rs.5,000. The creditor transaction settles the Rs.40,000 liability exactly: machinery worth Rs.45,000 is given and Rs.5,000 cash is received back, so there is no separate creditor gain or loss. Bill payable is paid in full. Expenses are Rs.2,000. Net result = Rs.20,000 - Rs.15,000 - Rs.5,000 - Rs.2,000 = Rs.2,000 loss. Option D is correct."
     },
     {
       "id": "AC07Q115",
@@ -1722,13 +1736,14 @@
       "difficulty": "difficult",
       "question": "At dissolution, Total assets (excluding cash) = ₹5,60,000. Cash = ₹40,000. Outside liabilities = ₹1,60,000. Partners' Loan = ₹80,000. Capitals: A = ₹2,20,000, B = ₹1,40,000. Realization: Assets 85% of BV; Liabilities 90% settled; Expenses ₹10,000. A's final capital balance at dissolution is:",
       "options": [
-        "₹1,81,500",
+        "₹1,81,000",
         "₹1,74,000",
         "₹1,65,000",
         "₹1,56,000"
       ],
-      "correct": 1,
-      "explanation": "Assets realized = 85% × 5,60,000 = ₹4,76,000. Liabilities paid = 90% × 1,60,000 = ₹1,44,000. DR Realisation: Assets BV (5,60,000) + Liabilities paid (1,44,000) + Expenses (10,000) = ₹7,14,000. CR Realisation: Liabilities BV (1,60,000) + Cash realized (4,76,000) = ₹6,36,000. Loss = ₹78,000. PSR for A and B? Not specified — assume equal. Loss each = ₹39,000. A's Capital = 2,20,000 − 39,000 = ₹1,81,000. Closest option A (₹1,81,500 — slight rounding difference in problem). If PSR is 3:2: A = 78,000 × 3/5 = 46,800; A's capital = 2,20,000 − 46,800 = ₹1,73,200. Option B closest. Without PSR stated, equal split gives ₹1,81,000 ≈ Option A."
+      "correct": 0,
+      "explanation": "Assets realise 85% of ₹5,60,000 = ₹4,76,000. Outside liabilities are settled for 90% of ₹1,60,000 = ₹1,44,000. Realisation loss = ₹5,60,000 + ₹1,44,000 + ₹10,000 - ₹1,60,000 - ₹4,76,000 = ₹78,000. Since no ratio is given, the loss is shared equally. A bears ₹39,000, so A’s final capital balance = ₹2,20,000 - ₹39,000 = ₹1,81,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC07Q116",
@@ -1742,8 +1757,9 @@
         "₹1,14,000",
         "₹1,05,000"
       ],
-      "correct": 2,
-      "explanation": "Q owes ₹15,000 but can only pay ₹6,000: Dr. Cash ₹6,000, Cr. Q's Capital ₹6,000 (Q's Capital now = −9,000 still). Under Garner v Murray: P (only solvent partner) bears Q's remaining deficiency of ₹9,000: Dr. P's Capital ₹9,000, Cr. Q's Capital ₹9,000 (Q's Capital = 0). P's Capital = 1,20,000 − 9,000 = ₹1,11,000. Cash = 1,14,000 + 6,000 = ₹1,20,000. P receives ₹1,11,000. Cash check: 1,14,000 + 6,000 − 1,11,000 = ₹9,000 remaining? Wait: Cash was 1,14,000; Q brings 6,000 → Total cash = ₹1,20,000. P receives ₹1,11,000; leftover = ₹9,000 — this doesn't close. Let me redo: P gets his adjusted capital = ₹1,11,000. Cash available: firm had ₹1,14,000 + Q's ₹6,000 = ₹1,20,000 total. But P gets ₹1,11,000. Remaining ₹9,000 is unaccounted. The issue is: Garner transfers ₹9,000 WITHIN capital accounts. P's capital = 1,11,000. Cash for P = ₹1,11,000. Total cash = 1,14,000 + 6,000 = 1,20,000. The ₹9,000 discrepancy comes from Q's loan/ other entry. Actually net: P gets cash = P's final capital = 1,11,000. But cash = 1,20,000 → discrepancy = 9,000. There may be other items. Answer = B (₹1,11,000)."
+      "correct": 1,
+      "explanation": "Q’s debit balance is ₹15,000 and Q can pay only ₹6,000, leaving a deficiency of ₹9,000. Since P is the only solvent partner, P bears the full deficiency under Garner v Murray. P’s final receipt = ₹1,20,000 - ₹9,000 = ₹1,11,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC07Q117",
@@ -1862,8 +1878,9 @@
         "Dr. Creditor X ₹35,000; Cr. Realisation ₹35,000 (transferred). Machine CR ₹40,000 (unrecorded). Creditor takes machine for ₹35,000 → Dr. Realisation ₹35,000; Cr. Realisation (machine) ₹40,000? Net CR ₹5,000 gain from machine over creditor claim",
         "Creditor X settled: Realisation shows ₹5,000 profit (machine valued at ₹40,000 against ₹35,000 debt) + ₹5,000 cash to firm"
       ],
-      "correct": 4,
-      "explanation": "Unrecorded machine: no book entry, so no Step 1 transfer needed. Creditor X (BV ₹35,000): Dr. Creditor X ₹35,000, Cr. Realisation ₹35,000 (Step 2). Creditor takes unrecorded machine (₹40,000) in FULL SETTLEMENT of ₹35,000 debt: The creditor overpays by ₹5,000 in asset terms. The firm 'sells' machine to creditor at ₹40,000 value. But creditor owes only ₹35,000. So creditor takes machine (₹40,000 agreed) and pays ₹5,000 cash. Entries: Dr. Creditor A/c ₹35,000, Cr. Cash ₹5,000, Cr. Realisation ₹30,000... Alternative: Dr. Realisation ₹35,000 (clearing creditor liability) + Cr. Realisation ₹40,000 (machine realized) = Net CR ₹5,000 profit + Cash ₹5,000 received. Total Realisation gain: ₹40,000 from unrecorded machine asset. Option D captures both the ₹5,000 Realisation profit component and the ₹5,000 cash."
+      "correct": 3,
+      "explanation": "Unrecorded machine: no book entry, so no Step 1 transfer needed. Creditor X (BV ₹35,000): Dr. Creditor X ₹35,000, Cr. Realisation ₹35,000 (Step 2). Creditor takes unrecorded machine (₹40,000) in FULL SETTLEMENT of ₹35,000 debt: The creditor overpays by ₹5,000 in asset terms. The firm 'sells' machine to creditor at ₹40,000 value. But creditor owes only ₹35,000. So creditor takes machine (₹40,000 agreed) and pays ₹5,000 cash. Entries: Dr. Creditor A/c ₹35,000, Cr. Cash ₹5,000, Cr. Realisation ₹30,000... Alternative: Dr. Realisation ₹35,000 (clearing creditor liability) + Cr. Realisation ₹40,000 (machine realized) = Net CR ₹5,000 profit + Cash ₹5,000 received. Total Realisation gain: ₹40,000 from unrecorded machine asset. Option D captures both the ₹5,000 Realisation profit component and the ₹5,000 cash.",
+      "correct_original": 4
     },
     {
       "id": "AC07Q125",
@@ -1902,13 +1919,14 @@
       "difficulty": "difficult",
       "question": "M, N, O (PSR 3:2:1). Balance Sheet: M's Capital ₹1,50,000, N's Capital ₹1,00,000, O's Capital ₹70,000 (all adjusted for reserves, losses). Realisation Account: total loss = ₹1,20,000. O's Capital after loss = ₹50,000 still positive. M takes land at ₹1,20,000 (BV ₹1,00,000). N takes car at ₹40,000 (BV ₹45,000). What are final cash payments to all three?",
       "options": [
-        "M = ₹30,000; N = ₹60,000; O = ₹50,000",
+        "M owes ₹30,000; N = ₹20,000; O = ₹50,000",
         "M = ₹0; N = ₹60,000; O = ₹50,000",
-        "M owes ₹30,000 to firm; N = ₹60,000; O = ₹50,000",
+        "M owes ₹30,000; N = ₹60,000; O = ₹50,000",
         "M = ₹10,000; N = ₹60,000; O = ₹50,000"
       ],
-      "correct": 1,
-      "explanation": "Realisation loss ₹1,20,000: M bears 3/6 = ₹60,000; N bears 2/6 = ₹40,000; O bears 1/6 = ₹20,000. M's Capital: 1,50,000 − 60,000 (loss) − 1,20,000 (land) = −₹30,000. Wait: land taken at ₹1,20,000 Dr. M's Capital. But note: profit on land (1,20,000 − 1,00,000 = ₹20,000 profit already in Realisation). M's Capital = 1,50,000 − 60,000 − 1,20,000 = −₹30,000 (Dr). M owes ₹30,000. N: 1,00,000 − 40,000 − 40,000 (car at ₹40,000) = ₹20,000... Hmm. Rechecking: N's capital: 1,00,000 − 40,000 (loss) − 40,000 (car) = ₹20,000... That gives N = ₹20,000. O = 70,000 − 20,000 = ₹50,000. M owes ₹30,000. None of the options match exactly. Given option A (M=30,000), this may reflect a different calculation basis. Marking A as closest examination intent."
+      "correct": 0,
+      "explanation": "Realisation loss of ₹1,20,000 is shared 3:2:1. M bears ₹60,000, N bears ₹40,000 and O bears ₹20,000. M’s capital after loss and land takeover = ₹1,50,000 - ₹60,000 - ₹1,20,000 = ₹30,000 debit, so M owes ₹30,000. N’s cash receipt = ₹1,00,000 - ₹40,000 - ₹40,000 = ₹20,000. O receives ₹70,000 - ₹20,000 = ₹50,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC07Q128",
@@ -2040,10 +2058,10 @@
         "₹22,000",
         "₹18,000",
         "₹12,000",
-        "₹16,000"
+        "₹15,000"
       ],
       "correct": 3,
-      "explanation": "Outstanding Expenses (₹8,000): liability → CR Realisation ₹8,000; when paid → DR Realisation ₹8,000. Net DR = ₹0 if paid at BV. Prepaid Insurance (₹3,000): asset → DR Realisation ₹3,000; when expires (nothing recovered) → CR = ₹0. Net DR = ₹3,000. Accrued Rent (₹5,000): asset → DR Realisation ₹5,000; when collected → CR ₹5,000. Net DR = ₹0. Unrecorded gratuity (₹12,000): no book entry; when paid → DR Realisation ₹12,000. Net DR = ₹12,000. Total NET debit to Realisation = 0 + 3,000 + 0 + 12,000 = ₹15,000. Hmm — no option shows ₹15,000. If prepaid insurance is partially refunded (₹2,000): net DR = ₹1,000. Total = ₹13,000. Option D (₹16,000) implies different values. Given no exact match: if prepaid not recovered: ₹15,000 net DR. Closest = D (₹16,000). Marking D."
+      "explanation": "Outstanding expenses paid at book value have no net effect on Realisation. Prepaid insurance of ₹3,000 is an asset with no recovery, so it gives a net debit of ₹3,000. Accrued rent receivable collected at book value has no net effect. The unrecorded gratuity claim paid creates a debit of ₹12,000. Total net debit = ₹3,000 + ₹12,000 = ₹15,000."
     },
     {
       "id": "AC07Q137",
@@ -2052,13 +2070,14 @@
       "difficulty": "difficult",
       "question": "Partners T and U (3:1). T's Capital ₹2,00,000; U's Capital ₹80,000. General Reserve ₹40,000. P&L Cr. ₹20,000. Realisation loss = ₹60,000. T takes over Plant (BV ₹80,000) at ₹90,000. U's final capital balance (cash to receive) is:",
       "options": [
-        "₹85,000",
+        "₹80,000",
         "₹90,000",
         "₹95,000",
         "₹75,000"
       ],
-      "correct": 1,
-      "explanation": "Distribute GR + P&L profit: Total = 60,000 (3:1). U's share = 15,000. U's Capital = 80,000 + 15,000 = ₹95,000. Realisation Loss ₹60,000 (3:1): U's share = ₹15,000. U's Capital = 95,000 − 15,000 = ₹80,000. But T took plant at ₹90,000 (BV ₹80,000 → Profit of ₹10,000 already in Realisation profit/loss). Wait: Realisation loss = ₹60,000 AFTER plant gain? If so: U = 95,000 − 15,000 = ₹80,000. Option not available. If Realisation loss is calculated separately from plant takeover: Recalc assuming Realisation net loss = 60,000 given. U's Capital: 80,000 + 15,000 (GR+P&L) − 15,000 (Realisation loss) = ₹80,000. Not in options. Let me try: T's capital = 200,000 + 45,000 (GR+P&L) − 45,000 (loss) − 90,000 (plant) = ₹1,10,000. Options suggest U = ₹85,000. If GR = ₹40,000 and P&L = ₹20,000: total = ₹60,000. U's share = ₹15,000. U: 80,000 + 15,000 − 10,000 (loss, 1/4 of 40,000 net) = ₹85,000. Works if Realisation loss NET = ₹40,000 (different reading). Marking A (₹85,000)."
+      "correct": 0,
+      "explanation": "General Reserve and P&L credit total ₹60,000. U’s share in 3:1 = ₹15,000, so U’s capital becomes ₹95,000. U bears 1/4 of the ₹60,000 Realisation loss = ₹15,000. U does not take over the plant. U’s final cash receipt = ₹95,000 - ₹15,000 = ₹80,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC07Q138",
@@ -2069,11 +2088,12 @@
       "options": [
         "Loss of ₹72,000",
         "Loss of ₹52,000",
-        "Profit of ₹28,000",
+        "Profit of ₹8,000",
         "Loss of ₹28,000"
       ],
-      "correct": 1,
-      "explanation": "DR Realisation: Assets BV (6,00,000) + Liabilities paid (1,85,000) + Expenses (7,000) = ₹7,92,000. CR Realisation: Liabilities BV (2,00,000) + Cash realized (5,20,000) + Partners' Capitals for assets (80,000) = ₹8,00,000. CR > DR: Profit = ₹8,000. Hmm. Rechecking: Component analysis: Asset loss (6,00,000 − 5,20,000 − 80,000 = 0? Wait: total assets BV = 6,00,000 = Cash from sale (5,20,000) + Partner takeover (80,000) only if all assets accounted for. 5,20,000 + 80,000 = 6,00,000 — fully realized at BV! No asset loss. Liability gain = 2,00,000 − 1,85,000 = 15,000. Net = +15,000 − 7,000 expenses = ₹8,000 PROFIT. Options don't match. Recalculating: assets BV ₹6,00,000 → some sold (5,20,000 + partner at 80,000 = ₹6,00,000 exactly no loss). Liability gain: 15,000. Expenses: 7,000. Net profit = ₹8,000. None of the options = ₹8,000. Given asset portion BV 6,00,000 but realized 5,20,000 + 80,000 = 6,00,000 perfectly, only expenses reduce profit. If I misread: realized assets total 5,20,000 cash ONLY (partner assets excluded): Loss on assets = 6,00,000 − 90,000 (BV partner assets) − 5,20,000 = −₹10,000 gain. + Liability gain 15,000 − Expenses 7,000 = 18,000 profit. Still no match. Option A (₹72,000 loss) seems to ignore all gains. For exam purposes: A."
+      "correct": 2,
+      "explanation": "Debit side of Realisation = assets ₹6,00,000 + liabilities paid ₹1,85,000 + expenses ₹7,000 = ₹7,92,000. Credit side = liabilities ₹2,00,000 + cash realised ₹5,20,000 + assets taken by partners ₹80,000 = ₹8,00,000. Credit exceeds debit by ₹8,000, so there is a Realisation profit of ₹8,000.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC07Q139",
@@ -2247,13 +2267,13 @@
       "difficulty": "difficult",
       "question": "M, N, O share profits 2:1:1. At dissolution, the following adjustments are required BEFORE Realisation Account: General Reserve ₹60,000 (distribute), P&L Dr. ₹20,000 (write off), Workmen Compensation Claim ₹8,000 (pay from reserve of ₹15,000). Net change in O's Capital from these THREE items ONLY:",
       "options": [
-        "+₹12,750",
-        "+₹10,250",
-        "+₹8,750",
-        "+₹11,500"
+        "+Rs.12,750",
+        "+Rs.10,250",
+        "+Rs.8,750",
+        "+Rs.11,750"
       ],
-      "correct": 2,
-      "explanation": "1. General Reserve ₹60,000 distributed in PSR 2:1:1: O's share = 1/4 × 60,000 = ₹15,000 (Cr). 2. P&L Dr. ₹20,000 written off in PSR: O bears 1/4 × 20,000 = ₹5,000 (Dr). 3. WCR ₹15,000: Pay claim ₹8,000: Dr. WCR ₹8,000, Cr. Cash ₹8,000. Excess ₹7,000 to partners: O gets 1/4 × 7,000 = ₹1,750 (Cr). Net change for O = +15,000 − 5,000 + 1,750 = +₹11,750. Hmm — not in options exactly. If PSR = 2:1:1 (total 4): O = 1/4. 15,000 − 5,000 + 1,750 = 11,750. Closest: D (₹11,500). Rounding or PSR interpretation difference. Marking D."
+      "correct": 3,
+      "explanation": "O's share in the 2:1:1 ratio is 1/4. General Reserve credit to O = 1/4 x Rs.60,000 = Rs.15,000. P&L debit balance written off to O = 1/4 x Rs.20,000 = Rs.5,000. Workmen Compensation Reserve is Rs.15,000 and the claim paid is Rs.8,000, so excess reserve = Rs.7,000; O's share = 1/4 x Rs.7,000 = Rs.1,750. Net change in O's capital = Rs.15,000 - Rs.5,000 + Rs.1,750 = Rs.11,750. Option D is correct."
     },
     {
       "id": "AC07Q151",
@@ -2277,13 +2297,13 @@
       "difficulty": "difficult",
       "question": "Partners X, Y, Z (PSR 2:2:1). Capitals: X = ₹2,50,000, Y = ₹1,80,000, Z = ₹90,000. General Reserve = ₹1,00,000. At dissolution, Realisation loss = ₹1,50,000. X took Machinery at ₹1,80,000 (BV ₹2,00,000 — loss already in Realisation). Y took Stock at ₹75,000 (BV ₹80,000 — loss already in Realisation). Final cash receipts: X = ?, Y = ?, Z = ?",
       "options": [
-        "X=₹1,30,000; Y=₹1,25,000; Z=₹90,000",
-        "X=₹1,10,000; Y=₹1,05,000; Z=₹80,000",
-        "X=₹1,50,000; Y=₹1,00,000; Z=₹70,000",
-        "X=₹1,30,000; Y=₹1,05,000; Z=₹80,000"
+        "X=Rs.1,30,000; Y=Rs.1,25,000; Z=Rs.90,000",
+        "X=Rs.50,000; Y=Rs.85,000; Z=Rs.80,000",
+        "X=Rs.1,50,000; Y=Rs.1,00,000; Z=Rs.70,000",
+        "X=Rs.1,30,000; Y=Rs.1,05,000; Z=Rs.80,000"
       ],
       "correct": 1,
-      "explanation": "GR distribution (2:2:1): X = 40,000; Y = 40,000; Z = 20,000. After GR: X = 2,90,000; Y = 2,20,000; Z = 1,10,000. Realisation loss ₹1,50,000 (2:2:1): X = 60,000; Y = 60,000; Z = 30,000. After loss: X = 2,30,000; Y = 1,60,000; Z = 80,000. X took machinery ₹1,80,000: X = 2,30,000 − 1,80,000 = ₹50,000... Hmm, that gives X = ₹50,000 cash. But option A shows X=₹1,30,000. Let me recalculate: if GR not yet distributed in my calculation: X = 2,50,000 + 40,000 − 60,000 − 1,80,000 = ₹50,000. Y = 1,80,000 + 40,000 − 60,000 − 75,000 = ₹85,000. Z = 90,000 + 20,000 − 30,000 = ₹80,000. Option D (Z=80,000, Y=1,05,000 X=1,30,000) doesn't match my calculations. Most likely the machinery and stock are at AGREED values taken during step 3 (not already in Realisation). Marking A as examination intent."
+      "explanation": "General Reserve is distributed in 2:2:1, so X gets Rs.40,000, Y gets Rs.40,000, and Z gets Rs.20,000. Realisation loss of Rs.1,50,000 is also shared in 2:2:1, so X bears Rs.60,000, Y bears Rs.60,000, and Z bears Rs.30,000. X final cash = Rs.2,50,000 + Rs.40,000 - Rs.60,000 - machinery Rs.1,80,000 = Rs.50,000. Y final cash = Rs.1,80,000 + Rs.40,000 - Rs.60,000 - stock Rs.75,000 = Rs.85,000. Z final cash = Rs.90,000 + Rs.20,000 - Rs.30,000 = Rs.80,000. Option B is correct."
     },
     {
       "id": "AC07Q153",
@@ -2367,13 +2387,13 @@
       "difficulty": "difficult",
       "question": "A and B (PSR 3:1). A's Capital ₹1,40,000, B's Capital ₹60,000. Firm has: Assets (excl. cash) ₹2,50,000. Cash ₹20,000. Outside Liabilities ₹70,000. Assets realized at ₹2,20,000. Liabilities paid ₹68,000. A takes Goodwill (unrecorded) at ₹25,000. Expenses ₹3,000. Realisation profit/loss:",
       "options": [
-        "Loss of ₹1,000",
-        "Profit of ₹24,000",
-        "Profit of ₹4,000",
-        "Loss of ₹21,000"
+        "Loss of Rs.6,000",
+        "Profit of Rs.24,000",
+        "Profit of Rs.4,000",
+        "Loss of Rs.21,000"
       ],
-      "correct": 3,
-      "explanation": "DR Realisation: Assets BV (2,50,000) + Liabilities paid (68,000) + Expenses (3,000) = ₹3,21,000. CR Realisation: Liabilities BV (70,000) + Cash realized (2,20,000) + A's Capital (unrecorded goodwill at 25,000) = ₹3,15,000. Loss = ₹6,000. Wait: 321,000 − 315,000 = ₹6,000 loss. Hmm. If only asset sale part: 2,50,000 − 2,20,000 = 30,000 loss on assets. Goodwill (unrecorded): Profit ₹25,000. Creditor gain: 2,000. Expenses: 3,000 loss. Net = −30,000 + 25,000 + 2,000 − 3,000 = −₹6,000 loss. None of the options = ₹6,000 loss. Option C (₹4,000 profit) would require slightly different numbers. Given options, C is the closest examination intent."
+      "correct": 0,
+      "explanation": "Assets excluding cash have book value Rs.2,50,000 and realise Rs.2,20,000, giving a loss of Rs.30,000. Unrecorded goodwill taken by A at Rs.25,000 is credited to Realisation, giving a gain of Rs.25,000. Liabilities of Rs.70,000 are paid at Rs.68,000, giving a gain of Rs.2,000. Expenses are Rs.3,000. Net result = -Rs.30,000 + Rs.25,000 + Rs.2,000 - Rs.3,000 = Rs.6,000 loss. Option A is correct."
     },
     {
       "id": "AC07Q159",
@@ -2417,8 +2437,9 @@
         "One partner becomes insolvent (while others remain solvent)",
         "All partners by mutual agreement agree to dissolve"
       ],
-      "correct": 4,
-      "explanation": "Dissolution by mutual agreement (all partners agreeing) is VOLUNTARY dissolution, NOT compulsory. Compulsory dissolution happens automatically under law: (A) All partners declared insolvent — firm cannot continue with no solvent partners (compulsory); (B) Business becomes unlawful — firm must close (compulsory); (C) One partner insolvent — in a two-partner firm this is compulsory; in larger firms, the firm may continue if remaining partners agree. Option D (mutual agreement) is voluntary dissolution (Section 40 of Partnership Act) — it requires the active decision of all partners, not automatic by operation of law."
+      "correct": 3,
+      "explanation": "Dissolution by mutual agreement (all partners agreeing) is VOLUNTARY dissolution, NOT compulsory. Compulsory dissolution happens automatically under law: (A) All partners declared insolvent — firm cannot continue with no solvent partners (compulsory); (B) Business becomes unlawful — firm must close (compulsory); (C) One partner insolvent — in a two-partner firm this is compulsory; in larger firms, the firm may continue if remaining partners agree. Option D (mutual agreement) is voluntary dissolution (Section 40 of Partnership Act) — it requires the active decision of all partners, not automatic by operation of law.",
+      "correct_original": 4
     },
     {
       "id": "AC07Q162",
@@ -2427,13 +2448,13 @@
       "difficulty": "difficult",
       "question": "Firm XYZ (PSR 5:3:2) dissolves. Realisation Account summary: Total DR = ₹14,50,000; Total CR = ₹13,85,000. In addition: Z took over a vehicle (BV ₹80,000) at ₹70,000 (already included in Realisation). Y paid Realisation expenses ₹15,000 from personal funds (included). X's Capital before dissolution = ₹3,00,000. General Reserve distributed before Realisation = ₹1,50,000. X's final cash receipt:",
       "options": [
-        "₹3,45,000",
-        "₹3,57,500",
-        "₹3,52,500",
-        "₹3,40,000"
+        "Rs.3,42,500",
+        "Rs.3,57,500",
+        "Rs.3,52,500",
+        "Rs.3,40,000"
       ],
-      "correct": 3,
-      "explanation": "Realisation loss = 14,50,000 − 13,85,000 = ₹65,000. PSR 5:3:2. X's share = 65,000 × 5/10 = ₹32,500. GR distributed: X gets 5/10 × 1,50,000 = ₹75,000. X's Capital: 3,00,000 + 75,000 (GR) − 32,500 (loss) = ₹3,42,500. Hmm — option C shows ₹3,52,500. If GR = 1,50,000 (X's share = 75,000) and X's opening = 3,00,000: 3,00,000 + 75,000 = 3,75,000. Less Realisation loss: 3,75,000 − 32,500 = ₹3,42,500. Not matching C (₹3,52,500). If PSR was 5:3:2 and GR X share was 1/2 × 1,50,000 = 75,000... same. The discrepancy suggests different calculation. Marking C as examination intent at ₹3,52,500."
+      "correct": 0,
+      "explanation": "Realisation loss = Rs.14,50,000 - Rs.13,85,000 = Rs.65,000. X's share in the 5:3:2 ratio is 5/10, so X bears Rs.32,500. General Reserve credited to X = 5/10 x Rs.1,50,000 = Rs.75,000. X's final cash receipt = opening capital Rs.3,00,000 + reserve Rs.75,000 - realisation loss Rs.32,500 = Rs.3,42,500. Option A is correct."
     },
     {
       "id": "AC07Q163",
@@ -2470,15 +2491,16 @@
       "type": "case_based",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "At dissolution, firm shows the following Balance Sheet items: Machinery ₹2,00,000, Debtors ₹80,000 (PBD ₹5,000), Stock ₹60,000, Cash ₹25,000, Investments ₹1,00,000 (IFF ₹12,000). IFF > Fall in investment value (₹8,000 fall). All other assets realized at face. Machinery sold ₹1,80,000; Debtors — ₹3,000 bad; Investments sold ₹92,000; Creditors ₹1,50,000 paid ₹1,45,000. Expenses ₹7,000. Net Realisation profit/loss:",
+      "question": "At dissolution, firm shows the following Balance Sheet items: Machinery Rs.2,00,000, Debtors Rs.80,000 (PBD Rs.5,000), Stock Rs.60,000, Cash Rs.25,000, Investments Rs.1,00,000 (IFF Rs.12,000). IFF exceeds the fall in investment value by Rs.4,000. All other assets realized at face. Machinery sold Rs.1,80,000; Debtors Rs.3,000 bad and the rest realized; Investments sold Rs.92,000; Creditors Rs.1,50,000 paid Rs.1,45,000. Expenses Rs.7,000. Assuming PBD and IFF are transferred to Realisation, net Realisation profit/loss is:",
       "options": [
-        "Loss of ₹8,000",
-        "Loss of ₹13,000",
-        "Profit of ₹5,000",
-        "Loss of ₹3,000"
+        "Loss of Rs.16,000",
+        "Loss of Rs.13,000",
+        "Profit of Rs.5,000",
+        "Loss of Rs.3,000"
       ],
-      "correct": 4,
-      "explanation": "Component analysis: Machinery: BV 2,00,000 − Realized 1,80,000 = Loss ₹20,000. Debtors: Gross 80,000, PBD 5,000, Realized 72,000 = Cash. Net = 80,000 − 5,000 − 72,000 = ₹3,000 loss (BV net minus cash). Investments: BV 1,00,000, IFF 12,000 (>fall of 8,000): IFF covers fall. Net Realisation impact: Investments sold at 92,000 vs BV 1,00,000 = ₹8,000 fall (loss) absorbed by IFF ₹8,000 (no net loss); excess IFF ₹4,000 goes to capitals. Net from investments on Realisation = 0 (IFF covers fall). Stock: assume at face (no loss/gain). Creditor gain: ₹5,000. Expenses: ₹7,000 loss. Total: −20,000 − 3,000 + 0 + 5,000 − 7,000 = −₹25,000 loss. Hmm — none of the options. With all debtors including 3,000 bad: net debtors realized = 72,000 (80,000 − 3,000 bad − 5,000 PBD adjusted separately). Closest option: D (₹3,000 loss) — significantly different from calculation. Marking D."
+      "correct": 0,
+      "explanation": "Machinery loss = Rs.2,00,000 - Rs.1,80,000 = Rs.20,000. Debtors realise Rs.77,000 after Rs.3,000 bad debts; with PBD Rs.5,000 credited to Realisation, debtor result = Rs.77,000 + Rs.5,000 - Rs.80,000 = Rs.2,000 gain. Investments realise Rs.92,000; with IFF Rs.12,000 credited to Realisation, investment result = Rs.92,000 + Rs.12,000 - Rs.1,00,000 = Rs.4,000 gain. Creditors paid Rs.1,45,000 against Rs.1,50,000 give a gain of Rs.5,000. Expenses are Rs.7,000. Net result = -Rs.20,000 + Rs.2,000 + Rs.4,000 + Rs.5,000 - Rs.7,000 = Rs.16,000 loss. Option A is correct.",
+      "correct_original": 4
     },
     {
       "id": "AC07Q166",
@@ -2487,13 +2509,13 @@
       "difficulty": "difficult",
       "question": "Firm PQ dissolves (PSR 1:1). Balance Sheet: Goodwill ₹50,000, Plant ₹2,00,000, Debtors ₹1,00,000, Stock ₹80,000, Cash ₹30,000 (total assets ₹4,60,000). Liabilities: Creditors ₹1,20,000, P's Capital ₹2,00,000, Q's Capital ₹1,40,000. Goodwill written off; Plant→P at ₹1,80,000; Debtors realized ₹90,000; Stock sold ₹85,000; Creditors paid ₹1,15,000; Expenses ₹4,000. P's final capital balance (cash receipt):",
       "options": [
-        "₹81,500",
-        "₹78,500",
-        "₹75,000",
-        "₹83,000"
+        "P pays Rs.17,000; no cash receipt",
+        "Rs.78,500",
+        "Rs.75,000",
+        "Rs.83,000"
       ],
-      "correct": 2,
-      "explanation": "DR Realisation: Assets BV (Goodwill 50+Plant 200+Debtors 100+Stock 80 = 430,000) + Creditors paid (1,15,000) + Expenses (4,000) = ₹5,49,000. CR Realisation: Creditors BV (1,20,000) + Cash: Debtors (90,000) + Stock (85,000) + P's Capital for Plant (1,80,000) = ₹4,75,000. Loss = ₹74,000. Note: Goodwill 'written off' = not sold. Each partner's loss = 37,000. P's Capital: 2,00,000 − 1,80,000 (plant) − 37,000 (loss) = −₹17,000 (Dr). P owes ₹17,000. Q's Capital: 1,40,000 − 37,000 = ₹1,03,000 (Cr). Cash: 30,000 + 90,000 + 85,000 − 1,15,000 − 4,000 = ₹(−)14,000? Negative cash — error. Recheck: Cash inflow = 30,000 + 90,000 + 85,000 = ₹2,05,000. Cash outflow = 1,15,000 + 4,000 = ₹1,19,000. Cash for partners = ₹86,000. But Q = ₹1,03,000 and P owes ₹17,000. After P pays ₹17,000: Cash = 86,000 + 17,000 = ₹1,03,000 = Q's capital ✓. P pays ₹17,000. P RECEIVES NOTHING. Options show P receiving cash: answer B (₹78,500). This suggests P's capital is positive under their calculation. Different treatment of goodwill write-off. If goodwill written off via Partners' Capital (not Realisation): Dr. P's Capital 25,000; Dr. Q's Capital 25,000; Cr. Goodwill 50,000. Then Realisation: DR = (200+100+80=380)+115+4=499,000. CR = 120+90+85+180 = 475,000. Loss = 24,000. Each: 12,000. P: 200,000−25,000−12,000−180,000 = −17,000. Same result. B: ₹78,500 — P receiving cash implies completely different scenario. Marking B as exam intent."
+      "correct": 0,
+      "explanation": "Assets transferred to Realisation are Goodwill Rs.50,000, Plant Rs.2,00,000, Debtors Rs.1,00,000, and Stock Rs.80,000, total Rs.4,30,000. Credits to Realisation are creditors Rs.1,20,000, plant taken by P Rs.1,80,000, debtors realised Rs.90,000, and stock sold Rs.85,000, total Rs.4,75,000. Debits also include creditors paid Rs.1,15,000 and expenses Rs.4,000, so total debit = Rs.5,49,000. Realisation loss = Rs.74,000, shared equally: Rs.37,000 each. P's capital after plant and loss = Rs.2,00,000 - Rs.1,80,000 - Rs.37,000 = negative Rs.17,000. Therefore P pays Rs.17,000 and receives no final cash. Option A is correct."
     },
     {
       "id": "AC07Q167",
@@ -2517,13 +2539,13 @@
       "difficulty": "difficult",
       "question": "Firm dissolves. Three partners (PSR 2:1:1): capitals after all adjustments: X = ₹(−)50,000 (Dr), Y = ₹1,80,000 (Cr), Z = ₹70,000 (Cr). Cash = ₹2,00,000. X is insolvent — can pay ₹20,000. Under Garner v Murray (Y's capital = ₹2,00,000, Z's capital = ₹80,000 at last agreement): Y and Z absorb X's deficiency. Y absorbs:",
       "options": [
-        "₹18,000",
-        "₹22,500",
-        "₹20,000",
-        "₹15,000"
+        "Rs.18,000",
+        "Rs.22,500",
+        "Rs.21,429",
+        "Rs.15,000"
       ],
       "correct": 2,
-      "explanation": "X owes ₹50,000. X pays ₹20,000: Dr. Cash ₹20,000, Cr. X's Capital ₹20,000. Remaining deficiency = ₹30,000. Under Garner v Murray, Y and Z bear X's remaining deficiency in their CAPITAL ratio (last agreed capitals). Y's capital = ₹2,00,000; Z's capital = ₹80,000. Ratio = 200:80 = 5:2. Y bears = ₹30,000 × 5/7 = ₹21,428.57 ≈ ₹21,429. None of the options = ₹21,429. If capitals are 200,000 and 80,000: 5:2 → 30,000×5/7 = 21,428. OR if Y = ₹1,50,000, Z = ₹50,000 → ratio 3:1 → Y bears ₹22,500. Option B. For exam, using ratio 3:1 (perhaps Y's last capital = ₹1,50,000 vs Z's ₹50,000): B = ₹22,500. Marking B."
+      "explanation": "X's debit balance is Rs.50,000 and X can pay Rs.20,000, so the unpaid deficiency is Rs.30,000. Under Garner v Murray, solvent partners bear the insolvent partner's deficiency in their last agreed capital ratio. Y:Z = Rs.2,00,000:Rs.80,000 = 5:2. Y absorbs Rs.30,000 x 5/7 = Rs.21,428.57, approximately Rs.21,429. Option C is correct."
     },
     {
       "id": "AC07Q169",
@@ -2547,13 +2569,13 @@
       "difficulty": "difficult",
       "question": "P, Q share profits 2:1. Firm's last Balance Sheet: Capitals ₹1,20,000 (P) + ₹80,000 (Q) = ₹2,00,000; Liabilities ₹60,000. Assets: Non-cash ₹2,30,000; Cash ₹30,000. Non-cash assets realized at 110% of BV. Liabilities settled at 98% of BV. Expenses ₹4,000. Q's final capital after all dissolution adjustments:",
       "options": [
-        "₹1,14,667",
-        "₹1,07,333",
-        "₹99,333",
-        "₹1,08,000"
+        "Rs.1,14,667",
+        "Rs.1,07,333",
+        "Rs.86,733",
+        "Rs.1,08,000"
       ],
       "correct": 2,
-      "explanation": "Non-cash realized = 110% × 2,30,000 = ₹2,53,000 (gain = ₹23,000). Liabilities paid = 98% × 60,000 = ₹58,800 (gain = ₹1,200). Expenses = ₹4,000. DR Realisation: 2,30,000 + 58,800 + 4,000 = ₹2,92,800. CR Realisation: 60,000 + 2,53,000 = ₹3,13,000. Profit = ₹20,200. Q's share (1/3) = ₹6,733.33. Q's Capital = 80,000 + 6,733 = ₹86,733. This doesn't match any option. Component profit: +23,000 + 1,200 − 4,000 = ₹20,200. Q = 80,000 + 20,200/3 = 80,000 + 6,733 = ₹86,733. Closest option: C (₹99,333). All options seem significantly higher. P and Q share (2:1), so P = 80,000 + 13,467 = 93,467 for P seems low too. There may be a total capital miscalculation in the question. Marking B as exam intent (₹1,07,333 — possibly including additional items)."
+      "explanation": "Non-cash assets realise at 110% of Rs.2,30,000 = Rs.2,53,000, so asset gain is Rs.23,000. Liabilities settled at 98% of Rs.60,000 are paid at Rs.58,800, giving a gain of Rs.1,200. Expenses are Rs.4,000. Realisation profit = Rs.23,000 + Rs.1,200 - Rs.4,000 = Rs.20,200. Q's share at 1/3 = Rs.6,733.33. Q's final capital = Rs.80,000 + Rs.6,733.33 = Rs.86,733 approximately. Option C is correct."
     },
     {
       "id": "AC07Q171",
@@ -2742,13 +2764,13 @@
       "difficulty": "difficult",
       "question": "Firm XY (PSR 4:1) dissolves. X's Capital = ₹3,00,000; Y's Capital = ₹80,000. Total loss on Realisation = ₹2,00,000. X takes machinery at ₹1,20,000 (BV ₹1,50,000 — loss already in Realisation). Y takes car at ₹30,000 (BV ₹40,000 — loss already in Realisation). Final cash for X and Y (ignoring outside liabilities and loans for this question):",
       "options": [
-        "X = ₹20,000; Y = ₹40,000",
-        "X = ₹0; Y = ₹20,000",
-        "X = ₹20,000; Y = ₹30,000",
-        "X = ₹40,000; Y = ₹20,000"
+        "X = Rs.20,000; Y = Rs.10,000",
+        "X = Rs.0; Y = Rs.20,000",
+        "X = Rs.20,000; Y = Rs.30,000",
+        "X = Rs.40,000; Y = Rs.20,000"
       ],
-      "correct": 1,
-      "explanation": "Realisation loss ₹2,00,000 (4:1): X bears ₹1,60,000; Y bears ₹40,000. X's Capital: 3,00,000 − 1,60,000 (loss) − 1,20,000 (machinery) = ₹20,000. Y's Capital: 80,000 − 40,000 (loss) − 30,000 (car) = ₹10,000. Hmm — Y = ₹10,000, not in options. If Y takes car at ₹30,000 but BV ₹40,000 → loss of ₹10,000 already in Realisation: Y = 80,000 − 40,000 − 30,000 = ₹10,000. Options don't match exactly. A (X=₹20,000; Y=₹40,000): If Y bears less loss: Y = 80,000 − 40,000 = 40,000 (without car deduction — maybe car is not taken over). Closest logical answer: A."
+      "correct": 0,
+      "explanation": "Realisation loss of Rs.2,00,000 is shared in the 4:1 ratio. X bears Rs.1,60,000 and Y bears Rs.40,000. X's final cash = Rs.3,00,000 - Rs.1,60,000 - machinery taken Rs.1,20,000 = Rs.20,000. Y's final cash = Rs.80,000 - Rs.40,000 - car taken Rs.30,000 = Rs.10,000. Option A is correct."
     },
     {
       "id": "AC07Q184",
@@ -2837,8 +2859,9 @@
         "₹1,42,000",
         "₹1,48,000"
       ],
-      "correct": 4,
-      "explanation": "Realisation loss ₹80,000 (3:2): P bears ₹48,000; Q bears ₹32,000. P's Capital: 2,00,000 − 48,000 = ₹1,52,000. Q's Capital: 1,40,000 − 32,000 = ₹1,08,000. Total for capitals = ₹2,60,000. Cash = ₹3,52,000; pay P's Loan (₹80,000) → Cash = ₹2,72,000. But total capitals = ₹2,60,000, leaving ₹12,000 discrepancy (possibly from other items). P's capital amount = ₹1,52,000. Closest option D (₹1,48,000). Given the expected exam answer, let me check: if PSR = 3:2 and total = 5: P = 3/5 × 80,000 = ₹48,000. P's Capital = 2,00,000 − 48,000 = ₹1,52,000. Option A = ₹1,52,000. Answer = A."
+      "correct": 0,
+      "explanation": "Realisation loss of Rs.80,000 is shared in the 3:2 ratio. P bears 3/5 x Rs.80,000 = Rs.48,000. P's capital after the loss = Rs.2,00,000 - Rs.48,000 = Rs.1,52,000. P's loan is paid separately before capital settlement, so P's final cash receipt from capital is Rs.1,52,000. Option A is correct.",
+      "correct_original": 4
     },
     {
       "id": "AC07Q190",
@@ -2982,28 +3005,28 @@
       "difficulty": "difficult",
       "question": "FINAL COMPREHENSIVE: Partners L, M, N (PSR 2:2:1). Balance Sheet: Capitals L=₹2,00,000, M=₹1,50,000, N=₹80,000; Creditors ₹1,00,000; M's Loan ₹60,000. Assets: Machinery ₹2,00,000, Stock ₹1,40,000, Debtors ₹60,000, Cash ₹90,000; P&L A/c (Dr) ₹1,00,000. Dissolution: Machinery→L at ₹1,80,000; Stock realized ₹1,25,000; Debtors 5% bad, rest realized; Creditors paid ₹97,000; Expenses ₹5,000. M's Loan repaid. M's final cash receipt (capital only):",
       "options": [
-        "₹1,14,000",
-        "₹1,10,000",
-        "₹1,18,000",
-        "₹1,06,000"
+        "Rs.1,14,000",
+        "Rs.94,000",
+        "Rs.1,18,000",
+        "Rs.1,06,000"
       ],
       "correct": 1,
-      "explanation": "Step 1: P&L loss (Dr) written off: L bears 2/5 × 1,00,000 = ₹40,000; M bears ₹40,000; N bears ₹20,000. Capitals: L = 1,60,000; M = 1,10,000; N = 60,000. Step 2: Realisation: DR = Assets BV (2,00,000+1,40,000+60,000 = 4,00,000) + Creditors paid (97,000) + Expenses (5,000) = ₹5,02,000. CR = Creditors BV (1,00,000) + L's Capital/Machinery (1,80,000) + Cash: Stock (1,25,000) + Debtors (57,000) = ₹4,62,000. Loss = ₹40,000. M's share of Realisation loss = 2/5 × 40,000 = ₹16,000. M's Capital: 1,10,000 − 16,000 = ₹94,000. Hmm — options show ₹1,14,000. If P&L not written off separately (included in Realisation): DR = 4,00,000+1,00,000+97,000+5,000 = 5,02,000 + 1,00,000 = 6,02,000... This doesn't work. If P&L Dr. is on asset side of Balance Sheet (included in assets): then assets = 4,00,000 + 1,00,000 = 5,00,000 BV. DR = 5,00,000 + 97,000 + 5,000 = 6,02,000. Debtors (5% bad): 57,000 realized. CR = 1,00,000+1,80,000+1,25,000+57,000 = 3,62,000. Loss = 2,40,000. Each 2/5 = 96,000 for M. M: 1,50,000 − 96,000 = 54,000. None match. P&L as contra to capitals approach: Total Capitals initially = 200+150+80 = 430,000 − 100,000 (P&L) = 330,000. The question likely intends M gets ₹1,14,000 per option A. Marking A."
+      "explanation": "P&L debit balance is written off in the 2:2:1 ratio. M bears 2/5 x Rs.1,00,000 = Rs.40,000, so M's adjusted capital becomes Rs.1,10,000. Realisation loss: assets book value Rs.4,00,000 plus creditors paid Rs.97,000 plus expenses Rs.5,000 gives debit Rs.5,02,000. Credit side is creditors Rs.1,00,000 + machinery taken by L Rs.1,80,000 + stock Rs.1,25,000 + debtors realised Rs.57,000 = Rs.4,62,000. Realisation loss = Rs.40,000. M bears 2/5 x Rs.40,000 = Rs.16,000. M's final cash receipt from capital only = Rs.1,10,000 - Rs.16,000 = Rs.94,000. Option B is correct."
     },
     {
       "id": "AC07Q200",
       "type": "case_based",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "MASTER QUESTION — Dissolution of Firm XYZ (PSR 3:2:1). Balance Sheet: Capitals X=₹3,00,000, Y=₹2,00,000, Z=₹1,00,000; General Reserve ₹90,000; Creditors ₹1,50,000; X's Loan ₹60,000. Assets: Land ₹2,50,000, Plant ₹1,80,000, Stock ₹1,00,000, Debtors ₹80,000, Cash ₹80,000. Dissolution: Land sold ₹3,20,000; Y takes Plant at ₹1,50,000; Stock ₹1,10,000; ₹8,000 bad debt on debtors, rest realized; Creditors paid ₹1,45,000; Expenses ₹6,000. GR distributed. X's Loan repaid. Who receives what as final cash settlement?",
+      "question": "MASTER QUESTION - Dissolution of Firm XYZ (PSR 3:2:1). Balance Sheet: Capitals X=Rs.3,00,000, Y=Rs.2,00,000, Z=Rs.1,00,000; General Reserve Rs.90,000; Creditors Rs.1,50,000; X's Loan Rs.60,000. Assets: Land Rs.2,50,000, Plant Rs.1,80,000, Stock Rs.1,00,000, Debtors Rs.80,000, Cash Rs.2,90,000. Dissolution: Land sold Rs.3,20,000; Y takes Plant at Rs.1,50,000; Stock Rs.1,10,000; Rs.8,000 bad debt on debtors, rest realized; Creditors paid Rs.1,45,000; Expenses Rs.6,000. GR distributed. X's Loan repaid. Who receives what as final cash settlement?",
       "options": [
-        "X=₹3,24,000 (loan+capital); Y=₹1,52,000; Z=₹1,16,000",
-        "X=₹3,12,000; Y=₹1,44,000; Z=₹1,08,000",
-        "X=₹2,64,000 (loan+capital); Y=₹1,52,000; Z=₹1,16,000",
-        "X=₹3,00,000; Y=₹2,00,000; Z=₹1,00,000 (no change)"
+        "X=Rs.4,25,500 (loan+capital); Y=Rs.93,667; Z=Rs.1,21,833",
+        "X=Rs.3,12,000; Y=Rs.1,44,000; Z=Rs.1,08,000",
+        "X=Rs.2,64,000 (loan+capital); Y=Rs.1,52,000; Z=Rs.1,16,000",
+        "X=Rs.3,00,000; Y=Rs.2,00,000; Z=Rs.1,00,000"
       ],
-      "correct": 3,
-      "explanation": "Distribute GR (3:2:1): X gets 45,000; Y gets 30,000; Z gets 15,000. X=3,45,000; Y=2,30,000; Z=1,15,000. DR Realisation: Assets BV (250+180+100+80=610,000) + Creditors paid (1,45,000) + Expenses (6,000) = ₹7,61,000. CR Realisation: Creditors BV (1,50,000) + Cash: Land (3,20,000) + Stock (1,10,000) + Debtors (72,000) + Y's Capital/Plant (1,50,000) = ₹8,02,000. Profit = ₹41,000. PSR (3:2:1): X = 20,500; Y = 13,667; Z = 6,833. X's Capital: 3,45,000 + 20,500 = ₹3,65,500. Hmm, that's very high. Wait — should X's Loan be subtracted from X's capital? No: X's Loan = ₹60,000 is paid first: X receives ₹60,000 separately. X's Capital = 3,65,500 − 60,000 (loan already given separately) = ₹3,05,500. This gives X total = 60,000 + 3,05,500 = 3,65,500. Closest option: C (₹2,64,000 total for X) if profits are different. Given complexity, marking C as the most reasonable examination answer based on computed steps showing moderate profit adjustment. Answer = C."
+      "correct": 0,
+      "explanation": "General Reserve is distributed in 3:2:1: X Rs.45,000, Y Rs.30,000, Z Rs.15,000. Realisation result: asset gains are land Rs.70,000, stock Rs.10,000, and creditor gain Rs.5,000; losses are plant Rs.30,000, debtors Rs.8,000, and expenses Rs.6,000. Net Realisation profit = Rs.41,000. Profit shares in 3:2:1 are X Rs.20,500, Y Rs.13,667, and Z Rs.6,833. X's capital = Rs.3,00,000 + Rs.45,000 + Rs.20,500 = Rs.3,65,500; plus X's loan repayment Rs.60,000 gives total cash Rs.4,25,500. Y's capital after taking plant = Rs.2,00,000 + Rs.30,000 + Rs.13,667 - Rs.1,50,000 = Rs.93,667. Z receives Rs.1,00,000 + Rs.15,000 + Rs.6,833 = Rs.1,21,833. Option A is correct."
     }
   ]
 }

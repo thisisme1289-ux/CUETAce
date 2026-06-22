@@ -1,0 +1,159 @@
+{
+  "subject": "English",
+  "subject_code": "101",
+  "year": "2025",
+  "paper": "2025-english-10-question-paper",
+  "total_questions": 9,
+  "chapters": [
+    {
+      "chapter_id": "1012025uestionpaper",
+      "chapter": "English CUET 2025 Past Year Paper - 2025-english-10-question-paper",
+      "questions": [
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the antonym for ‘Expand’.",
+          "options": [
+            "Increase",
+            "Contract",
+            "Enlarge",
+            "Spread"
+          ],
+          "correct": 1,
+          "explanation": "Contract is the antonym of expand.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What does the idiom ‘At the drop of a hat’ mean?",
+          "options": [
+            "Immediately",
+            "Slowly",
+            "Carefully",
+            "Rarely"
+          ],
+          "correct": 0,
+          "explanation": "At the drop of a hat means immediately or without delay.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Interpret the phrase ‘Spill the beans’.",
+          "options": [
+            "To make a mess",
+            "To reveal a secret",
+            "To cook food",
+            "To waste resources"
+          ],
+          "correct": 1,
+          "explanation": "To spill the beans means to reveal a secret.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the following sentences logically: A. He was terrified by the noise. B. Suddenly, a loud sound was heard. C. Everyone looked towards the door. D. The children ran out of the room.",
+          "options": [
+            "B, C, D, A",
+            "B, C, A, D",
+            "C, B, D, A",
+            "D, B, C, A"
+          ],
+          "correct": 1,
+          "explanation": "The logical order is: a loud sound was heard, everyone looked towards the door, he was terrified, and the children ran out.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Reorder the following sentences into a meaningful paragraph: A. The sun was setting behind the hills. B. Birds were returning to their nests. C. The sky was painted in shades of orange. D. A cool breeze started blowing.",
+          "options": [
+            "A, C, D, B",
+            "C, A, D, B",
+            "A, D, B, C",
+            "B, C, A, D"
+          ],
+          "correct": 0,
+          "explanation": "The paragraph flows from sunset, to the orange sky, to the breeze, and then birds returning to their nests.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q06",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the part of speech of the underlined word: She quickly finished her homework.",
+          "options": [
+            "Noun",
+            "Verb",
+            "Adverb",
+            "Adjective"
+          ],
+          "correct": 2,
+          "explanation": "Quickly describes how the action was done, so it is an adverb.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A person who can speak multiple languages is called a:",
+          "options": [
+            "Monolingual",
+            "Bilingual",
+            "Multilingual",
+            "Unilingual"
+          ],
+          "correct": 2,
+          "explanation": "A person who can speak multiple languages is called multilingual.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "‘Ubiquitous’ means:",
+          "options": [
+            "Rare",
+            "Everywhere",
+            "Small",
+            "Unknown"
+          ],
+          "correct": 1,
+          "explanation": "Ubiquitous means present or found everywhere.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-10-question-paper-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "‘Formidable’ means:",
+          "options": [
+            "Weak",
+            "Easy",
+            "Powerful",
+            "Small"
+          ],
+          "correct": 2,
+          "explanation": "Formidable means powerful, impressive, or difficult to deal with.",
+          "source": "Individual PDF extraction: 2025-english-10-question-paper.pdf"
+        }
+      ]
+    }
+  ]
+}

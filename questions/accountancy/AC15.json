@@ -77,8 +77,9 @@
         "Current Ratio will remain unchanged",
         "Current Ratio will first decrease then increase"
       ],
-      "correct": 1,
-      "explanation": "When Current Ratio is below 1:1, it means Current Liabilities > Current Assets. If the company pays ₹1,00,000 of current liabilities from cash (a current asset), both current assets and current liabilities decrease by ₹1,00,000. When the ratio is below 1, reducing both numerator and denominator by the same amount actually increases the ratio. For example, if CA = ₹5,00,000 and CL = ₹6,00,000 (ratio = 0.83), after payment CA = ₹4,00,000 and CL = ₹5,00,000 (ratio = 0.80)... Wait — this actually decreases. The correct logic: when ratio < 1, payment of CL from CA decreases both but the ratio moves closer to 1 from below, meaning it increases. Mathematically verified: 5/6 = 0.833 vs 4/5 = 0.800 — ratio decreases. However, the standard NTA answer for this concept is that paying CL improves (increases) ratio when ratio < 1. Answer B is correct per standard textbook treatment."
+      "correct": 0,
+      "explanation": "When the current ratio is below 1:1, current assets are less than current liabilities. Paying current liabilities from cash reduces both current assets and current liabilities by the same amount, which lowers the ratio further. For example, ₹5,00,000 / ₹6,00,000 = 0.83, but after paying ₹1,00,000 it becomes ₹4,00,000 / ₹5,00,000 = 0.80.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC15Q06",
@@ -117,13 +118,13 @@
       "difficulty": "difficult",
       "question": "From the following, compute the Inventory Turnover Ratio: Opening Inventory = ₹80,000; Closing Inventory = ₹1,20,000; Purchases = ₹6,00,000; Carriage Inwards = ₹20,000; Return Outwards = ₹40,000; Revenue from Operations = ₹9,00,000; Gross Profit = ₹2,50,000.",
       "options": [
-        "5.77 times",
+        "6.5 times",
         "6 times",
         "5.5 times",
         "5 times"
       ],
       "correct": 0,
-      "explanation": "Cost of Revenue from Operations (COGS) = Revenue from Operations − Gross Profit = 9,00,000 − 2,50,000 = ₹6,50,000. Average Inventory = (Opening + Closing) / 2 = (80,000 + 1,20,000) / 2 = ₹1,00,000. Inventory Turnover Ratio = COGS / Average Inventory = 6,50,000 / 1,00,000 = 6.5 times. Wait — let us verify with purchases: COGS = Opening Stock + Purchases + Carriage − Return Outwards − Closing Stock = 80,000 + 6,00,000 + 20,000 − 40,000 − 1,20,000 = ₹5,40,000. Using COGS from purchases: 5,40,000 / 1,00,000 = 5.4. However, Revenue − GP = 6,50,000. The question includes both methods as distractors. Standard approach: COGS = Net Sales − GP = 6,50,000; ITR = 6,50,000/1,00,000 = 6.5 ≈ not in options. Using purchases-based COGS = 5,40,000/1,00,000 ≈ 5.4 ≈ not exact. Closest is 5.77. Re-check: If average inventory used as closing only = 1,20,000: 6,50,000/1,12,500 ≈ 5.77. Answer A."
+      "explanation": "Cost of Revenue from Operations = Revenue from Operations - Gross Profit = ₹9,00,000 - ₹2,50,000 = ₹6,50,000. Average Inventory = (₹80,000 + ₹1,20,000) / 2 = ₹1,00,000. Inventory Turnover Ratio = ₹6,50,000 / ₹1,00,000 = 6.5 times."
     },
     {
       "id": "AC15Q09",
@@ -152,8 +153,9 @@
         "0.3:1",
         "0.6:1"
       ],
-      "correct": 1,
-      "explanation": "Debt-Equity Ratio = Long-term Debt / Shareholders' Equity. Long-term Debt includes Long-term Borrowings = ₹4,00,000 (Debentures are already included within this figure). Shareholders' Funds = ₹10,00,000. Current Liabilities are NOT included in debt for this ratio. D/E Ratio = 4,00,000 / 10,00,000 = 0.4:1. Wait — if debentures ₹3,00,000 are separately added: total debt = 4,00,000. Answer is 0.4:1. Option A. Let me reconsider: if both long-term borrowings ₹4,00,000 AND debentures ₹3,00,000 are separate items: total = ₹7,00,000. D/E = 7,00,000/10,00,000 = 0.7:1. Since question says debentures are 'included in long-term borrowings,' total debt = ₹4,00,000. D/E = 0.4:1. The trick is the phrase 'included in.' Answer: A = 0.4:1. Correct is option 0 (A)."
+      "correct": 0,
+      "explanation": "Debt-Equity Ratio = Long-term Debt / Shareholders’ Funds. Debentures are already included in long-term borrowings, so long-term debt is ₹4,00,000, not ₹7,00,000. Debt-Equity Ratio = ₹4,00,000 / ₹10,00,000 = 0.4:1.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC15Q11",
@@ -197,8 +199,9 @@
         "6 times",
         "10 times"
       ],
-      "correct": 0,
-      "explanation": "Trade Receivables Turnover Ratio = Net Credit Revenue from Operations / Average Trade Receivables. Net Credit Revenue from Operations = ₹12,00,000 (only credit sales, not cash sales). Average Trade Receivables = Debtors + Bills Receivable = 1,50,000 + 50,000 = ₹2,00,000 (assuming these are closing figures and opening data not given, so average = closing). Wait: if only closing figures given, use closing as average: ₹2,00,000. Trade Receivables Turnover = 12,00,000 / 1,50,000 = 8 times if only debtors used. But standard formula includes Bills Receivable: 12,00,000 / 2,00,000 = 6 times. However, many textbooks use only debtors. Most standard NCERT-aligned approach: use Net Credit Sales / (Debtors + BR) = 12,00,000 / 2,00,000 = 6 times. But option A = 8 times (using only debtors). Per NCERT: include BR. Answer = 6 times. Correct option: C."
+      "correct": 2,
+      "explanation": "Trade Receivables Turnover Ratio = Net Credit Revenue from Operations / Average Trade Receivables. Net credit revenue is ₹12,00,000. Trade receivables include debtors and bills receivable: ₹1,50,000 + ₹50,000 = ₹2,00,000. Ratio = ₹12,00,000 / ₹2,00,000 = 6 times.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC15Q14",
@@ -347,8 +350,9 @@
         "15 times; 24.3 days",
         "8 times; 45.6 days"
       ],
-      "correct": 1,
-      "explanation": "Average Trade Payables = (Opening + Closing) / 2 = (80,000 + 1,20,000) / 2 = ₹1,00,000. Trade Payables Turnover Ratio = Net Credit Purchases / Average Trade Payables = 12,00,000 / 1,00,000 = 12 times. Average Payment Period = 365 / Trade Payables Turnover = 365 / 12 = 30.4 days. Wait — option A shows 12 times and 30.4 days which matches perfectly. Option B shows 10 times and 36.5 days. Answer should be A. Re-check: 12,00,000/1,00,000 = 12 times; 365/12 = 30.42 days ≈ 30.4. Option A is correct."
+      "correct": 0,
+      "explanation": "Average Trade Payables = (₹80,000 + ₹1,20,000) / 2 = ₹1,00,000. Trade Payables Turnover Ratio = ₹12,00,000 / ₹1,00,000 = 12 times. Average Payment Period = 365 / 12 = 30.4 days.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC15Q24",
@@ -387,13 +391,14 @@
       "difficulty": "difficult",
       "question": "Eta Ltd. has: Equity Share Capital = ₹10,00,000; Reserves = ₹5,00,000; 12% Debentures = ₹8,00,000; Long-term Bank Loan = ₹2,00,000; Current Liabilities = ₹3,00,000. EBIT = ₹3,50,000. Calculate (i) Debt-Equity Ratio and (ii) Interest Coverage Ratio.",
       "options": [
-        "D/E = 0.67:1; ICR = 3.18 times",
+        "D/E = 0.67:1; ICR = 3.65 times",
         "D/E = 1:1; ICR = 3.5 times",
         "D/E = 0.67:1; ICR = 2.92 times",
         "D/E = 0.50:1; ICR = 3.5 times"
       ],
-      "correct": 2,
-      "explanation": "Shareholders' Funds = Equity Share Capital + Reserves = 10,00,000 + 5,00,000 = ₹15,00,000. Long-term Debt = 12% Debentures + Long-term Bank Loan = 8,00,000 + 2,00,000 = ₹10,00,000. D/E Ratio = 10,00,000 / 15,00,000 = 0.67:1. Interest on Debentures = 12% × 8,00,000 = ₹96,000. (Bank loan interest not specified, assume only debenture interest.) ICR = EBIT / Interest = 3,50,000 / 96,000 = 3.645 ≈ 3.65. Hmm — none match exactly. If interest on bank loan is also included at some rate, or if we use total interest: At ICR = 2.92, Interest = 3,50,000 / 2.92 ≈ ₹1,19,863 ≈ 12% on total debt: 10,00,000 × 12% = 1,20,000. ICR = 3,50,000/1,20,000 = 2.92. Option C: D/E = 0.67 and ICR = 2.92 is correct."
+      "correct": 0,
+      "explanation": "Shareholders’ Funds = ₹10,00,000 + ₹5,00,000 = ₹15,00,000. Long-term Debt = ₹8,00,000 + ₹2,00,000 = ₹10,00,000, so D/E = ₹10,00,000 / ₹15,00,000 = 0.67:1. Only the debenture interest rate is given, so Interest = 12% of ₹8,00,000 = ₹96,000. ICR = EBIT / Interest = ₹3,50,000 / ₹96,000 = 3.65 times.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC15Q27",
@@ -452,8 +457,9 @@
         "GP Ratio = 25%; Operating Ratio = 75%",
         "GP Ratio = 30%; Operating Ratio = 76.25%"
       ],
-      "correct": 0,
-      "explanation": "Gross Profit Ratio = (Gross Profit / Revenue from Operations) × 100 = (4,80,000 / 16,00,000) × 100 = 30%. Cost of Revenue from Operations = 16,00,000 − 4,80,000 = ₹11,20,000. Operating Cost = COGS + Operating Expenses (Selling + Administrative) = 11,20,000 + 80,000 + 1,20,000 = ₹13,20,000. Note: Interest paid is a non-operating (financial) expense, excluded from operating ratio. Operating Ratio = (Operating Cost / Revenue from Operations) × 100 = (13,20,000 / 16,00,000) × 100 = 82.5% ≈ 82%. Option B shows 82% which is close. Let me recheck: Option A shows 68% which would mean operating expenses = 68% × 16,00,000 = 10,88,000 — incorrect. Option B (30%, 82%) is correct. Correct answer: B (index 1)."
+      "correct": 1,
+      "explanation": "Gross Profit Ratio = ₹4,80,000 / ₹16,00,000 x 100 = 30%. Cost of Revenue from Operations = ₹16,00,000 - ₹4,80,000 = ₹11,20,000. Operating Cost = ₹11,20,000 + ₹80,000 + ₹1,20,000 = ₹13,20,000. Interest and tax are excluded from operating ratio. Operating Ratio = ₹13,20,000 / ₹16,00,000 x 100 = 82.5%, approximately 82%.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC15Q31",
@@ -527,8 +533,9 @@
         "ICR = 3 times; Weak solvency",
         "ICR = 2.5 times; Weak solvency"
       ],
-      "correct": 1,
-      "explanation": "Interest on 10% Debentures = 10% × 10,00,000 = ₹1,00,000. Interest on 8% Long-term Loan = 8% × 5,00,000 = ₹40,000. Total Interest = ₹1,40,000 (Wait — but if 8% loan is separate: total = 1,40,000). Hmm: ICR = EBIT / Total Interest = 4,50,000 / 1,30,000 = 3.46. Let me recheck interest on loan: 8% × 5,00,000 = 40,000. Total interest = 1,00,000 + 40,000 = 1,40,000. ICR = 4,50,000/1,40,000 = 3.21. That's option A. But if only debenture interest: 4,50,000/1,00,000 = 4.5. Closest to option B if we correct: let's say 4,50,000/1,30,000 = 3.46 (using ₹30,000 instead — rounding). With ₹1,30,000 interest: 4,50,000/1,30,000 = 3.46. ICR > 2 indicates strong solvency. Option B is correct."
+      "correct": 0,
+      "explanation": "Interest on debentures = 10% of ₹10,00,000 = ₹1,00,000. Interest on long-term loan = 8% of ₹5,00,000 = ₹40,000. Total interest = ₹1,40,000. ICR = EBIT / Interest = ₹4,50,000 / ₹1,40,000 = 3.21 times. A ratio above 2 generally indicates comfortable interest coverage.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC15Q36",
@@ -557,8 +564,9 @@
         "0.64:1",
         "0.44:1"
       ],
-      "correct": 0,
-      "explanation": "Shareholders' Funds (Equity) = Equity Share Capital + General Reserve + Preference Share Capital = 5,00,000 + 2,00,000 + 3,00,000 = ₹10,00,000. (As per the question, preference shares are treated as equity.) Long-term Debt = 9% Debentures = ₹4,00,000. (Trade payables and outstanding expenses are current liabilities, excluded from debt in D/E ratio.) D/E Ratio = 4,00,000 / 10,00,000 = 0.4:1. Wait — that's option B. If Trade Payables are included: 4,00,000 + 1,00,000 + 50,000 = 5,50,000. D/E = 5,50,000/10,00,000 = 0.55. Closest to option A (0.5:1). Standard approach excludes current liabilities: D/E = 0.4:1. Answer: B (0.4:1)."
+      "correct": 1,
+      "explanation": "As stated in the question, preference share capital is treated as equity. Shareholders’ Funds = ₹5,00,000 + ₹2,00,000 + ₹3,00,000 = ₹10,00,000. Long-term debt includes only the 9% debentures of ₹4,00,000. Current liabilities are excluded. Debt-Equity Ratio = ₹4,00,000 / ₹10,00,000 = 0.4:1.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC15Q38",
@@ -568,12 +576,12 @@
       "question": "Nu Ltd. has the following: Revenue from Operations = ₹30,00,000; Cost of Goods Sold = ₹21,00,000; Net Profit after Tax = ₹2,40,000; Tax = ₹1,60,000; Interest = ₹1,00,000. Calculate Gross Profit Ratio, Net Profit Ratio, and Operating Profit Ratio.",
       "options": [
         "GP = 30%, NP = 8%, OP = 16%",
-        "GP = 30%, NP = 8%, OP = 16.33%",
+        "GP = 30%, NP = 8%, OP = 16.67%",
         "GP = 30%, NP = 10%, OP = 20%",
         "GP = 25%, NP = 8%, OP = 15%"
       ],
       "correct": 1,
-      "explanation": "Gross Profit = Revenue − COGS = 30,00,000 − 21,00,000 = ₹9,00,000. GP Ratio = 9,00,000/30,00,000 × 100 = 30%. Net Profit after Tax = ₹2,40,000. NP Ratio = 2,40,000/30,00,000 × 100 = 8%. Net Profit before Tax = 2,40,000 + 1,60,000 = ₹4,00,000. Net Profit before Interest and Tax (EBIT) = 4,00,000 + 1,00,000 = ₹5,00,000. Operating Profit Ratio = 5,00,000/30,00,000 × 100 = 16.67% ≈ 16.33% (approximation). Option B gives 16.33% — closest to 16.67%. Actually = 16.67%. None match exactly. If operating expenses make EBIT different: Gross Profit − Operating Expenses = Operating Profit. If EBIT = 4,90,000: 4,90,000/30,00,000 = 16.33%. The best match is option B."
+      "explanation": "Gross Profit = ₹30,00,000 - ₹21,00,000 = ₹9,00,000, so GP Ratio = 30%. Net Profit Ratio = ₹2,40,000 / ₹30,00,000 x 100 = 8%. EBIT = Net Profit after Tax + Tax + Interest = ₹2,40,000 + ₹1,60,000 + ₹1,00,000 = ₹5,00,000. Operating Profit Ratio = ₹5,00,000 / ₹30,00,000 x 100 = 16.67%."
     },
     {
       "id": "AC15Q39",
@@ -707,8 +715,9 @@
         "Inventories = ₹3,20,000; CA = ₹8,20,000",
         "Inventories = ₹3,00,000; CA = ₹7,80,000"
       ],
-      "correct": 1,
-      "explanation": "Current Assets = CR × CL = 2.5 × 3,20,000 = ₹8,00,000. Quick Assets = QR × CL = 1.5 × 3,20,000 = ₹4,80,000. Inventories + Prepaid Expenses = Current Assets − Quick Assets = 8,00,000 − 4,80,000 = ₹3,20,000. Inventories = 3,20,000 − Prepaid (20,000) = ₹3,00,000. Wait — so CA = ₹8,00,000 and Inventories = ₹3,00,000. Option A shows Inventories = 3,00,000; CA = 8,00,000 — this is correct. Actually re-reading: Option B shows 2,80,000 and 8,00,000. Our calculation gives 3,00,000 and 8,00,000. Option A is correct. Answer: A (index 0)."
+      "correct": 0,
+      "explanation": "Current Assets = Current Ratio x Current Liabilities = 2.5 x ₹3,20,000 = ₹8,00,000. Quick Assets = Quick Ratio x Current Liabilities = 1.5 x ₹3,20,000 = ₹4,80,000. Inventories plus prepaid expenses = ₹8,00,000 - ₹4,80,000 = ₹3,20,000. Inventories = ₹3,20,000 - ₹20,000 = ₹3,00,000.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "AC15Q48",
@@ -717,13 +726,13 @@
       "difficulty": "difficult",
       "question": "Tau Ltd. shows Inventory Turnover Ratio = 8 times and Average Inventory = ₹2,50,000. The Gross Profit Ratio is 20%. If 30% of Revenue from Operations are cash sales, calculate Trade Receivables Turnover Ratio given average debtors = ₹2,10,000.",
       "options": [
-        "8 times",
+        "8.33 times",
         "10 times",
         "7 times",
         "9.33 times"
       ],
       "correct": 0,
-      "explanation": "COGS = Inventory Turnover × Average Inventory = 8 × 2,50,000 = ₹20,00,000. Revenue from Operations = COGS / (1 − GP Ratio) = 20,00,000 / 0.8 = ₹25,00,000. Credit Revenue from Operations = 70% of 25,00,000 = ₹17,50,000. Trade Receivables Turnover = Credit Revenue / Average Debtors = 17,50,000 / 2,10,000 = 8.33 times ≈ 8 times. Closest option is A (8 times). This is a complex multi-step question requiring derivation of credit sales from ITR, GP ratio, and cash sales percentage."
+      "explanation": "COGS = Inventory Turnover Ratio x Average Inventory = 8 x ₹2,50,000 = ₹20,00,000. Since GP Ratio is 20%, COGS is 80% of revenue, so Revenue from Operations = ₹20,00,000 / 0.80 = ₹25,00,000. Credit revenue is 70% of ₹25,00,000 = ₹17,50,000. Trade Receivables Turnover Ratio = ₹17,50,000 / ₹2,10,000 = 8.33 times."
     },
     {
       "id": "AC15Q49",
@@ -765,10 +774,11 @@
         "TADR = 2:1; ROCE = 32%",
         "TADR = 2.5:1; ROCE = 40%",
         "TADR = 2:1; ROCE = 40%",
-        "TADR = 3.33:1; ROCE = 32%"
+        "TADR = 3.33:1; ROCE = 25%"
       ],
-      "correct": 2,
-      "explanation": "Total Assets to Debt Ratio = Total Assets / Long-term Debt = 40,00,000 / 20,00,000. Wait — long-term debt = ₹12,00,000. TADR = 40,00,000 / 12,00,000 = 3.33:1. Shareholders' Funds = Total Assets − CL − LT Debt = 40,00,000 − 8,00,000 − 12,00,000 = ₹20,00,000. Capital Employed = SHF + LT Debt = 20,00,000 + 12,00,000 = ₹32,00,000 (or Total Assets − Current Liabilities = 40,00,000 − 8,00,000 = ₹32,00,000). ROCE = EBIT / Capital Employed × 100 = 8,00,000 / 32,00,000 × 100 = 25%. None match. Let me try: TADR = 40,00,000/(12,00,000+8,00,000) = 2:1. ROCE = 8,00,000/20,00,000 = 40%. Option C: TADR = 2:1 using total debt (LT+CL), ROCE = 40% using SHF only. This is the matched answer."
+      "correct": 3,
+      "explanation": "Total Assets to Debt Ratio = Total Assets / Long-term Debt = ₹40,00,000 / ₹12,00,000 = 3.33:1. Capital Employed = Total Assets - Current Liabilities = ₹40,00,000 - ₹8,00,000 = ₹32,00,000. ROCE = EBIT / Capital Employed x 100 = ₹8,00,000 / ₹32,00,000 x 100 = 25%.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC15Q52",
@@ -792,13 +802,13 @@
       "difficulty": "difficult",
       "question": "Chi Ltd.: Operating Ratio = 75%; Non-operating Income = ₹40,000; Non-operating Expense = ₹20,000; Tax = ₹1,20,000; Revenue from Operations = ₹16,00,000. Calculate Net Profit Ratio.",
       "options": [
-        "15.125%",
+        "18.75%",
         "16.5%",
         "12.5%",
         "14%"
       ],
       "correct": 0,
-      "explanation": "Operating Cost = 75% × 16,00,000 = ₹12,00,000. Operating Profit = 16,00,000 − 12,00,000 = ₹4,00,000. Net Profit before Tax = Operating Profit + Non-operating Income − Non-operating Expense = 4,00,000 + 40,000 − 20,000 = ₹4,20,000. Net Profit after Tax = 4,20,000 − 1,20,000 = ₹3,00,000. But wait: we need NP/Revenue: 3,00,000 / 16,00,000 × 100 = 18.75%. Let me recheck non-operating: some say use operating profit directly for NP ratio. Actually: Net Profit after tax = 3,00,000 and revenue = 16,00,000. Hmm — if tax = 1,20,000: Net Profit = 4,20,000 − 1,20,000 = ₹3,00,000. NP Ratio = 3,00,000/16,00,000 = 18.75%. If non-operating income not added for NP ratio: 4,00,000 − 20,000 − 1,20,000 = 2,60,000; NP ratio = 16.25% ≈ 15.125% not matching. Closest is Option A for ₹2,42,000 NP. Re-calculation: 4,20,000 − tax − non-op: answer most consistent = Option A."
+      "explanation": "Operating Cost = 75% of ₹16,00,000 = ₹12,00,000. Operating Profit = ₹16,00,000 - ₹12,00,000 = ₹4,00,000. Net Profit before Tax = ₹4,00,000 + ₹40,000 - ₹20,000 = ₹4,20,000. Net Profit after Tax = ₹4,20,000 - ₹1,20,000 = ₹3,00,000. Net Profit Ratio = ₹3,00,000 / ₹16,00,000 x 100 = 18.75%."
     },
     {
       "id": "AC15Q54",
@@ -827,8 +837,9 @@
         "36%",
         "41.67%"
       ],
-      "correct": 3,
-      "explanation": "Net Revenue from Operations = Revenue from Operations − Returns Inward = 25,00,000 − 1,00,000 = ₹24,00,000. Gross Profit = Net Revenue − Cost of Revenue = 24,00,000 − 15,00,000 = ₹9,00,000. Wait — is Cost of Revenue from Operations already adjusted for returns? Assuming COGS = ₹15,00,000 applies to net revenue: GP Ratio = 9,00,000 / 24,00,000 × 100 = 37.5%. Option B. But if revenue is used without deducting returns in denominator: 10,00,000/25,00,000 = 40%. Correct approach: use Net Revenue = 24,00,000. GP = 9,00,000. GP Ratio = 37.5%. Answer: B (index 1). Rechecking option D: 41.67% = 10,00,000/24,00,000? 10/24 = 41.67% — that would mean COGS = 14,00,000. With net revenue 24 and COGS 15: GP = 9, ratio = 37.5%. Answer B is correct."
+      "correct": 1,
+      "explanation": "Net Revenue from Operations = ₹25,00,000 - ₹1,00,000 = ₹24,00,000. Gross Profit = Net Revenue - Cost of Revenue from Operations = ₹24,00,000 - ₹15,00,000 = ₹9,00,000. Gross Profit Ratio = ₹9,00,000 / ₹24,00,000 x 100 = 37.5%.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC15Q56",
@@ -897,13 +908,13 @@
       "difficulty": "difficult",
       "question": "Gamma Delta Ltd.: Revenue from Operations = ₹40,00,000; Opening Inventory = ₹5,00,000; Closing Inventory = ₹7,00,000; Purchases = ₹28,00,000; Freight Inward = ₹2,00,000; Returns Outward = ₹1,00,000. Calculate Inventory Turnover Ratio and Gross Profit Ratio.",
       "options": [
-        "ITR = 4.5 times; GP Ratio = 22.5%",
+        "ITR = 4.5 times; GP Ratio = 32.5%",
         "ITR = 4.5 times; GP Ratio = 17.5%",
         "ITR = 5 times; GP Ratio = 20%",
         "ITR = 6 times; GP Ratio = 25%"
       ],
       "correct": 0,
-      "explanation": "COGS = Opening Stock + Purchases + Freight Inward − Returns Outward − Closing Stock = 5,00,000 + 28,00,000 + 2,00,000 − 1,00,000 − 7,00,000 = ₹27,00,000. Average Inventory = (5,00,000 + 7,00,000) / 2 = ₹6,00,000. ITR = 27,00,000 / 6,00,000 = 4.5 times. Gross Profit = Revenue − COGS = 40,00,000 − 27,00,000 = ₹13,00,000. GP Ratio = 13,00,000 / 40,00,000 × 100 = 32.5%. Hmm — that's not matching. Without freight: COGS = 5,00,000 + 28,00,000 − 1,00,000 − 7,00,000 = 25,00,000. GP = 40,00,000 − 25,00,000 = 15,00,000. GP Ratio = 37.5%. Still not matching option A (22.5%). Let me try: With freight as selling expense (not in COGS): COGS = 25,00,000; ITR = 25,00,000/6,00,000 = 4.17. Try net purchases method: (28,00,000 − 1,00,000 + 2,00,000) = 29,00,000 + 5,00,000 − 7,00,000 = 27,00,000 COGS. GP = 40,00,000 − 27,00,000 = 13,00,000 = 32.5%. None match well; Option A (4.5 and 22.5%) is the intended answer with approximate figures."
+      "explanation": "COGS = Opening Inventory + Purchases + Freight Inward - Returns Outward - Closing Inventory = ₹5,00,000 + ₹28,00,000 + ₹2,00,000 - ₹1,00,000 - ₹7,00,000 = ₹27,00,000. Average Inventory = (₹5,00,000 + ₹7,00,000) / 2 = ₹6,00,000. ITR = ₹27,00,000 / ₹6,00,000 = 4.5 times. Gross Profit = ₹40,00,000 - ₹27,00,000 = ₹13,00,000, so GP Ratio = 32.5%."
     },
     {
       "id": "AC15Q61",
@@ -912,13 +923,13 @@
       "difficulty": "difficult",
       "question": "Epsilon Zeta Ltd. shows: Current Ratio = 3; Quick Ratio = 2; Inventory Turnover Ratio (based on Closing Inventory) = 6 times; Revenue from Operations = ₹18,00,000; Gross Profit Ratio = 25%. Find Current Liabilities.",
       "options": [
-        "₹1,50,000",
+        "₹2,25,000",
         "₹2,00,000",
         "₹1,25,000",
         "₹1,00,000"
       ],
       "correct": 0,
-      "explanation": "COGS = Revenue × (1 − 0.25) = 18,00,000 × 0.75 = ₹13,50,000. ITR = COGS / Closing Inventory → Closing Inventory = COGS / ITR = 13,50,000 / 6 = ₹2,25,000. From Quick Ratio: Quick Assets = Current Assets − Inventories − Prepaid (assume prepaid = 0). From Current Ratio: CA = 3 × CL; Quick Assets = CA − Inventory = 3CL − 2,25,000. Quick Ratio = 2 → Quick Assets = 2 × CL. So: 3CL − 2,25,000 = 2CL → CL = ₹2,25,000. Hmm — none match. Try: If prepaid exists: Quick Assets = 2CL; CA = 3CL; Stock + Prepaid = CL. If only stock = 2,25,000 = CL: CL = 2,25,000. Not matching. If ITR = 6 based on average: different answer. Closest is option A: ₹1,50,000 implies inventory = 1,50,000 × 1 = 1,50,000 ≠ 2,25,000. Re-examine: Revenue = 18L, GP = 25%, COGS = 13.5L, ITR = 6 times on closing stock: closing stock = 2.25L. Quick Ratio: (CA − 2.25L)/CL = 2; CR: CA/CL = 3. So CA = 3CL. (3CL − 2.25L)/CL = 2 → 3 − 2.25/CL = 2 → 2.25/CL = 1 → CL = 2.25L. None given. Closest answer: A = ₹1,50,000 (exam error or different interpretation). Answer: A."
+      "explanation": "COGS = 75% of ₹18,00,000 = ₹13,50,000. Since inventory turnover is based on closing inventory, Closing Inventory = ₹13,50,000 / 6 = ₹2,25,000. Current Ratio gives CA = 3CL and Quick Ratio gives Quick Assets = 2CL. Since Quick Assets = CA - Inventory, 2CL = 3CL - ₹2,25,000. Therefore, Current Liabilities = ₹2,25,000."
     },
     {
       "id": "AC15Q62",
@@ -947,8 +958,9 @@
         "2.5:1",
         "1.67:1"
       ],
-      "correct": 1,
-      "explanation": "Total Assets to Debt Ratio = Total Assets / Long-term Debt. Total Assets = Shareholders' Funds + Long-term Debt + Current Liabilities = 25,00,000 + 15,00,000 + 5,00,000 = ₹45,00,000. Wait — actually Total Assets = Shareholders' Funds + Total Liabilities. Total Liabilities = LT Debt + CL = 15,00,000 + 5,00,000 = 20,00,000. Total Assets = 25,00,000 + 20,00,000 = ₹45,00,000. (This assumes balance sheet identity.) Hmm but actually: Total Assets = SHF + LT Debt + CL = 25 + 15 + 5 = 45L. Wait — SHF IS NOT a liability in the traditional sense but funding source. Total Assets = SHF + LT Debt + CL = ₹45,00,000. Total Assets to Debt Ratio = 45,00,000 / 15,00,000 = 3:1 (if current liabilities excluded from debt). But if total debt = LT Debt + CL = 20L: TADR = 45L / 20L = 2.25. Let me try without CL in total assets: TA = SHF + LT Debt = 40L, TADR = 40/15 = 2.67. Option B = 2.67 matches. Answer: B."
+      "correct": 0,
+      "explanation": "Total Assets = Shareholders’ Funds + Long-term Debt + Current Liabilities = ₹25,00,000 + ₹15,00,000 + ₹5,00,000 = ₹45,00,000. Total Assets to Debt Ratio uses long-term debt as debt, so the ratio = ₹45,00,000 / ₹15,00,000 = 3:1.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC15Q64",
@@ -1002,13 +1014,13 @@
       "difficulty": "difficult",
       "question": "Lambda Mu Ltd.: Inventory Turnover Ratio = 5 times; Average Inventory = ₹4,00,000; GP Ratio = 20%; Selling Expenses = ₹2,00,000; Administrative Expenses = ₹1,50,000; Interest = ₹50,000. Calculate Operating Ratio.",
       "options": [
-        "84.375%",
+        "94%",
         "80%",
         "87.5%",
         "75%"
       ],
       "correct": 0,
-      "explanation": "COGS = ITR × Average Inventory = 5 × 4,00,000 = ₹20,00,000. Revenue from Operations = COGS / (1 − GP Ratio) = 20,00,000 / 0.8 = ₹25,00,000. Operating Expenses (excluding interest) = Selling + Admin = 2,00,000 + 1,50,000 = ₹3,50,000. (Interest is non-operating; excluded from operating ratio.) Operating Cost = COGS + Operating Expenses = 20,00,000 + 3,50,000 = ₹23,50,000. Operating Ratio = (23,50,000 / 25,00,000) × 100 = 94%. Hmm — not matching. If interest included: 24,00,000/25,00,000 = 96%. If GP already excludes operating: Revenue = 25L, COGS = 20L, selling + admin = 3.5L = operating cost = 23.5L. OR = 94%. Still not matching option A (84.375%). Let me try: if GP ratio = 20%, COGS = 80% × Revenue. Revenue = 20L/0.8 = 25L. But selling = 2L, admin = 1.5L. OR = (20L + 3.5L)/25L = 94%. None match — closest is A by exam convention. Answer: A."
+      "explanation": "COGS = Inventory Turnover Ratio x Average Inventory = 5 x ₹4,00,000 = ₹20,00,000. Since GP Ratio is 20%, revenue = ₹20,00,000 / 0.80 = ₹25,00,000. Operating expenses exclude interest, so operating expenses = ₹2,00,000 + ₹1,50,000 = ₹3,50,000. Operating Cost = ₹20,00,000 + ₹3,50,000 = ₹23,50,000. Operating Ratio = ₹23,50,000 / ₹25,00,000 x 100 = 94%."
     },
     {
       "id": "AC15Q68",
@@ -1122,13 +1134,13 @@
       "difficulty": "moderate",
       "question": "Tau Upsilon Ltd.: Gross Profit Ratio = 25%; Operating Expenses = ₹2,00,000; Revenue from Operations = ₹16,00,000. If tax rate is 30%, and Interest = ₹80,000, find Net Profit Ratio.",
       "options": [
-        "8.75%",
+        "5.25%",
         "12.5%",
         "10.5%",
         "15%"
       ],
       "correct": 0,
-      "explanation": "Gross Profit = 25% × 16,00,000 = ₹4,00,000. Operating Profit (EBIT) = GP − Operating Expenses = 4,00,000 − 2,00,000 = ₹2,00,000. Net Profit before Tax = EBIT − Interest = 2,00,000 − 80,000 = ₹1,20,000. Hmm, but operating expenses may already include interest. Assuming interest is separate: NPBT = 1,20,000. Tax = 30% × 1,20,000 = ₹36,000. Net Profit after Tax = 1,20,000 − 36,000 = ₹84,000. NP Ratio = 84,000 / 16,00,000 × 100 = 5.25%. Not matching. If operating expenses = 2,00,000 include interest: EBIT = GP − Opex + Interest = 4,00,000 − 2,00,000 + 80,000 = 2,80,000; PBT = 4,00,000 − 2,00,000 = 2,00,000; PAT = 1,40,000; NP ratio = 8.75%. Option A matches. Answer: A."
+      "explanation": "Gross Profit = 25% of ₹16,00,000 = ₹4,00,000. Operating Profit = ₹4,00,000 - ₹2,00,000 = ₹2,00,000. Net Profit before Tax = ₹2,00,000 - ₹80,000 = ₹1,20,000. Tax = 30% of ₹1,20,000 = ₹36,000. Net Profit after Tax = ₹84,000. Net Profit Ratio = ₹84,000 / ₹16,00,000 x 100 = 5.25%."
     },
     {
       "id": "AC15Q76",
@@ -1232,23 +1244,25 @@
         "CR = 2:1; WCTR = 6 times",
         "CR = 1.5:1; WCTR = 5 times"
       ],
-      "correct": 1,
-      "explanation": "Working Capital = Current Assets − Current Liabilities → 4,80,000 = 12,00,000 − CL → CL = ₹7,20,000. Current Ratio = CA / CL = 12,00,000 / 7,20,000 = 1.67:1. Working Capital Turnover Ratio = Revenue / Working Capital = 36,00,000 / 4,80,000 = 7.5 times. Wait — Option A shows CR = 1.67 and WCTR = 7.5 — this matches our calculation. Option B shows 2.5:1 and 7.5 — incorrect CR. Answer: A (index 0). Option A is 1.67 and 7.5 — correct."
+      "correct": 0,
+      "explanation": "Working Capital = Current Assets - Current Liabilities, so ₹4,80,000 = ₹12,00,000 - Current Liabilities. Current Liabilities = ₹7,20,000. Current Ratio = ₹12,00,000 / ₹7,20,000 = 1.67:1. Working Capital Turnover Ratio = ₹36,00,000 / ₹4,80,000 = 7.5 times.",
+      "correct_content_review_original": 1
     },
     {
       "id": "AC15Q83",
       "type": "assertion_reason",
       "level": "L2",
       "difficulty": "moderate",
-      "question": "Assertion (A): If a company issues bonus shares, its Debt-Equity Ratio will decrease.\nReason (R): Bonus shares increase Shareholders' Funds without increasing external debt.",
+      "question": "Assertion (A): If a company issues bonus shares, its Debt-Equity Ratio will decrease.\nReason (R): Bonus shares do not increase external debt, though total Shareholders’ Funds remain unchanged because reserves are capitalised into share capital.",
       "options": [
         "Both A and R are correct and R is the correct explanation of A",
         "Both A and R are correct but R is not the correct explanation of A",
         "A is correct but R is incorrect",
         "A is incorrect but R is correct"
       ],
-      "correct": 0,
-      "explanation": "Assertion A is correct. When bonus shares are issued, share capital increases (by transferring from reserves/surplus). Shareholders' Funds = Share Capital + Reserves. Total SHF does not change because the increase in share capital is offset by a decrease in reserves. Wait — if bonus shares are issued from reserves: Capital increases, Reserves decrease by same amount, so SHF = unchanged. D/E Ratio would remain unchanged. Hmm — this makes A incorrect! But conventional exam answer: bonus shares increase paid-up capital, which is part of SHF, so SHF increases (from reserves to share capital but TOTAL SHF stays same). Conclusion: A is incorrect; R is correct (bonus shares don't reduce D/E). Answer: D (both A incorrect, R correct). Actually answer should be D since bonus shares don't change total SHF."
+      "correct": 3,
+      "explanation": "A bonus issue converts reserves into share capital. Total Shareholders’ Funds remain unchanged because share capital increases and reserves decrease by the same amount. Since external debt also does not change, the Debt-Equity Ratio remains unchanged. Therefore, the assertion is incorrect, but the reason is correct.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC15Q84",
@@ -1262,8 +1276,9 @@
         "TRTR = 6 times; TPTR = 7.5 times",
         "TRTR = 8 times; TPTR = 6 times"
       ],
-      "correct": 2,
-      "explanation": "Credit Revenue from Operations = 60% × 20,00,000 = ₹12,00,000. TRTR = Credit Revenue / Average Trade Receivables = 12,00,000 / 2,00,000 = 6 times. Average Trade Payables = (1,20,000 + 1,80,000) / 2 = ₹1,50,000. TPTR = Credit Purchases / Average Trade Payables = 9,00,000 / 1,50,000 = 6 times. Hmm — both = 6 times, which is Option A. But Option C shows 6 and 7.5. Let me recheck: 9,00,000/1,50,000 = 6. And 12,00,000/2,00,000 = 6. Option A (6 and 6) is correct."
+      "correct": 0,
+      "explanation": "Credit Revenue from Operations = 60% of ₹20,00,000 = ₹12,00,000. TRTR = ₹12,00,000 / ₹2,00,000 = 6 times. Average Trade Payables = (₹1,20,000 + ₹1,80,000) / 2 = ₹1,50,000. TPTR = ₹9,00,000 / ₹1,50,000 = 6 times.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC15Q85",
@@ -1392,13 +1407,13 @@
       "difficulty": "difficult",
       "question": "Sigma Tau Ltd. has the following Balance Sheet extract (₹ in Lakhs): Equity Share Capital = 20; Reserves = 10; 12% Debentures = 15; Bank OD = 5; Trade Payables = 8; Stock = 12; Debtors = 10; Cash = 6; Fixed Assets = 30. Revenue from Operations = ₹90 Lakhs. Calculate Current Ratio, Quick Ratio, and D/E Ratio.",
       "options": [
-        "CR = 1.93:1; QR = 1.24:1; D/E = 0.57:1",
+        "CR = 2.15:1; QR = 1.23:1; D/E = 0.5:1",
         "CR = 2.5:1; QR = 1.5:1; D/E = 0.75:1",
         "CR = 1.93:1; QR = 1.24:1; D/E = 1:1",
         "CR = 2:1; QR = 1.5:1; D/E = 0.5:1"
       ],
       "correct": 0,
-      "explanation": "Current Assets = Stock + Debtors + Cash = 12 + 10 + 6 = ₹28 Lakhs. Current Liabilities = Bank OD + Trade Payables = 5 + 8 = ₹13 Lakhs. CR = 28/13 = 2.15:1 ≈ not matching. But if Fixed Assets = 30 and total assets = 30 + 28 = 58 and total funding = 20 + 10 + 15 + 5 + 8 = 58 ✓. CR = 28/13 = 2.15. QA = Debtors + Cash = 16; QR = 16/13 = 1.23 ≈ 1.24. D/E = 15/30 = 0.5. Hmm, CR ≈ 1.93 if CL = 14.5? Let me try Bank OD not in CL: CL = Trade Payables = 8; CR = 28/8 = 3.5. Not matching. With Bank OD as CL: CR = 28/13 = 2.15. Closest to option A (1.93 implies CA/CL = 1.93, meaning CA = 25.09 or CL = 14.5). Option A selected as best exam answer."
+      "explanation": "Current Assets = Stock + Debtors + Cash = ₹12 lakh + ₹10 lakh + ₹6 lakh = ₹28 lakh. Current Liabilities = Bank OD + Trade Payables = ₹5 lakh + ₹8 lakh = ₹13 lakh. Current Ratio = 28 / 13 = 2.15:1. Quick Assets = Debtors + Cash = ₹16 lakh, so Quick Ratio = 16 / 13 = 1.23:1. Debt-Equity Ratio = Debentures / Shareholders’ Funds = 15 / (20 + 10) = 0.5:1."
     },
     {
       "id": "AC15Q94",
@@ -1443,7 +1458,7 @@
         "PR = 0.5; ROCE = 25%; FATR = 1.67"
       ],
       "correct": 1,
-      "explanation": "Total Assets = LT Debt + SHF + CL = 20,00,000 + 25,00,000 + 8,00,000 = ₹53,00,000. Wait: Non-current Assets = 32L; Current Assets = Total Assets − Non-current Assets. If total = 53L: CA = 21L. Proprietary Ratio = SHF / Total Assets = 25/53 = 0.47 ≈ 0.5. Capital Employed = SHF + LT Debt = 25 + 20 = ₹45,00,000. ROCE = 9,00,000/45,00,000 = 20%. FATR = Revenue / Non-current Assets = 60,00,000/32,00,000 = 1.875. Option B (PR ≈ 0.5; ROCE = 20%; FATR = 1.875) is correct."
+      "explanation": "Total Assets = Long-term Debt + Shareholders’ Funds + Current Liabilities = ₹20,00,000 + ₹25,00,000 + ₹8,00,000 = ₹53,00,000. Proprietary Ratio = ₹25,00,000 / ₹53,00,000 = 0.47, approximately 0.5. Capital Employed = ₹25,00,000 + ₹20,00,000 = ₹45,00,000. ROCE = ₹9,00,000 / ₹45,00,000 x 100 = 20%. Fixed Assets Turnover Ratio = ₹60,00,000 / ₹32,00,000 = 1.875."
     },
     {
       "id": "AC15Q97",
@@ -1497,13 +1512,13 @@
       "difficulty": "difficult",
       "question": "Beta Gamma Ltd. Balance Sheet (₹): Share Capital = 8,00,000; Reserves = 4,00,000; 10% Debentures = 6,00,000; Trade Payables = 2,00,000; Outstanding Wages = 50,000; Fixed Assets (Net) = 12,00,000; Stock = 4,00,000; Debtors = 3,00,000; Cash = 1,50,000. Net Sales = ₹30,00,000; Gross Profit = ₹9,00,000. Calculate all four ratio types: one from each category.",
       "options": [
-        "CR=1.93; D/E=0.5; ITR=5.25; GP ratio=30%",
+        "CR=3.4; D/E=0.5; ITR=5.25; GP ratio=30%",
         "CR=2; D/E=0.6; ITR=5; GP ratio=30%",
         "CR=1.93; D/E=0.6; ITR=5; GP ratio=30%",
         "CR=1.93; D/E=0.5; ITR=6; GP ratio=30%"
       ],
       "correct": 0,
-      "explanation": "Current Assets = Stock + Debtors + Cash = 4,00,000 + 3,00,000 + 1,50,000 = ₹8,50,000. Current Liabilities = Trade Payables + Outstanding Wages = 2,00,000 + 50,000 = ₹2,50,000 (checking: wait — that's only 2.5L but actually: 2,00,000 + 50,000 = 2,50,000). Hmm: CR = 8,50,000/2,50,000 = 3.4. Let me recheck: maybe I need to verify total funding = 8+4+6+2+0.5 = 20.5L. Total assets = 12+4+3+1.5 = 20.5L ✓. CR = 8.5/2.5 = 3.4. Not matching. If trade payables = 3.5L and outstanding = 1L: CL = 4.5L; CR = 8.5/4.5 = 1.89 ≈ 1.93. D/E = 6L/(8+4) = 0.5. ITR: COGS = 30-9 = 21L; Avg stock ≈ 4L (if only closing given); ITR = 21/4 = 5.25. GP Ratio = 9/30 = 30%. Option A is correct."
+      "explanation": "Current Assets = stock ₹4,00,000 + debtors ₹3,00,000 + cash ₹1,50,000 = ₹8,50,000. Current Liabilities = trade payables ₹2,00,000 + outstanding wages ₹50,000 = ₹2,50,000, so Current Ratio = 3.4:1. Debt-Equity Ratio = debentures ₹6,00,000 / shareholders’ funds ₹12,00,000 = 0.5:1. COGS = ₹30,00,000 - ₹9,00,000 = ₹21,00,000, so ITR = ₹21,00,000 / ₹4,00,000 = 5.25 times. GP Ratio = ₹9,00,000 / ₹30,00,000 x 100 = 30%."
     },
     {
       "id": "AC15Q101",
@@ -1512,13 +1527,13 @@
       "difficulty": "difficult",
       "question": "Delta Epsilon Ltd.: EBIT = ₹8,00,000; Interest Expenses = ₹1,60,000; Tax Rate = 25%; Revenue from Operations = ₹40,00,000. Calculate (i) Interest Coverage Ratio and (ii) Net Profit Ratio.",
       "options": [
-        "ICR = 5 times; NP Ratio = 11.7%",
+        "ICR = 5 times; NP Ratio = 12%",
         "ICR = 5 times; NP Ratio = 15%",
         "ICR = 4 times; NP Ratio = 12%",
         "ICR = 5 times; NP Ratio = 20%"
       ],
       "correct": 0,
-      "explanation": "ICR = EBIT / Interest = 8,00,000 / 1,60,000 = 5 times. Net Profit before Tax = EBIT − Interest = 8,00,000 − 1,60,000 = ₹6,40,000. Tax = 25% × 6,40,000 = ₹1,60,000. Net Profit after Tax = 6,40,000 − 1,60,000 = ₹4,80,000. NP Ratio = (4,80,000 / 40,00,000) × 100 = 12%. Wait — option C shows 4 and 12%. Option A shows 5 and 11.7%. ICR = 5 is correct. NP = 4,80,000/40,00,000 = 12%. So option C (ICR = 4, NP = 12%) is wrong on ICR. Option A has NP = 11.7% which ≠ 12%. This seems like option C should be ICR = 5 and NP = 12%. Exam intended answer: A (ICR=5, NP≈12%) with slight rounding difference."
+      "explanation": "Interest Coverage Ratio = EBIT / Interest = ₹8,00,000 / ₹1,60,000 = 5 times. Profit before tax = ₹8,00,000 - ₹1,60,000 = ₹6,40,000. Tax at 25% = ₹1,60,000, so profit after tax = ₹4,80,000. Net Profit Ratio = ₹4,80,000 / ₹40,00,000 x 100 = 12%."
     },
     {
       "id": "AC15Q102",
@@ -1558,12 +1573,12 @@
       "question": "Iota Lambda Ltd. has Current Ratio = 3.5:1 and Quick Ratio = 1.5:1. Working Capital = ₹5,00,000. A financial analyst says the company has excess inventory. Calculate inventory and determine if the analyst's concern is valid.",
       "options": [
         "Inventory = ₹2,50,000; Analyst concern partially valid",
-        "Inventory = ₹3,57,143; Analyst concern valid",
+        "Inventory = ₹4,00,000; Analyst concern valid",
         "Inventory = ₹2,50,000; Analyst concern not valid",
         "Inventory = ₹3,57,143; Analyst concern not valid"
       ],
       "correct": 1,
-      "explanation": "Working Capital = CA − CL = 5,00,000. CR = CA/CL = 3.5. So CA = 3.5 × CL and CA − CL = 5,00,000 → 3.5CL − CL = 5,00,000 → 2.5CL = 5,00,000 → CL = ₹2,00,000. CA = 3.5 × 2,00,000 = ₹7,00,000. Quick Assets = 1.5 × 2,00,000 = ₹3,00,000. Inventory (+ Prepaid) = 7,00,000 − 3,00,000 = ₹4,00,000. If prepaid = 0: Inventory = ₹4,00,000. The ratio of inventory to CA = 4/7 = 57% — a significant portion. With CR = 3.5 far exceeding the ideal 2:1, the analyst's concern about excess inventory is valid. Hmm, none of the options show ₹4,00,000. If prepaid is implied: inventory = ₹3,57,143 approximation. Option B is closest exam answer."
+      "explanation": "Current Assets - Current Liabilities = ₹5,00,000 and Current Ratio = 3.5:1. Therefore, 3.5CL - CL = ₹5,00,000, so CL = ₹2,00,000 and CA = ₹7,00,000. Quick Assets = 1.5 x ₹2,00,000 = ₹3,00,000. Inventory = ₹7,00,000 - ₹3,00,000 = ₹4,00,000. Inventory is a large share of current assets, so the concern is valid."
     },
     {
       "id": "AC15Q105",
@@ -1632,13 +1647,13 @@
       "difficulty": "difficult",
       "question": "Pi Sigma Ltd.: Net Sales = ₹45,00,000; Cost of Goods Sold = ₹31,50,000; Opening Stock = ₹4,50,000; Closing Stock = ₹5,50,000; Operating Expenses = ₹4,50,000; Interest = ₹90,000; Tax = ₹1,80,000. Calculate (i) Gross Profit Ratio (ii) Net Profit Ratio (iii) Operating Ratio.",
       "options": [
-        "GP = 30%; NP = 13%; OR = 80%",
+        "GP = 30%; NP = 14%; OR = 80%",
         "GP = 30%; NP = 15.33%; OR = 80%",
         "GP = 30%; NP = 13%; OR = 77%",
         "GP = 29%; NP = 13%; OR = 80%"
       ],
       "correct": 0,
-      "explanation": "Gross Profit = Net Sales − COGS = 45,00,000 − 31,50,000 = ₹13,50,000. GP Ratio = 13,50,000/45,00,000 × 100 = 30%. Operating Cost = COGS + Operating Expenses = 31,50,000 + 4,50,000 = ₹36,00,000. Operating Ratio = 36,00,000/45,00,000 × 100 = 80%. Net Profit = GP − Operating Exp − Interest − Tax = 13,50,000 − 4,50,000 − 90,000 − 1,80,000 = ₹6,30,000. Wait: NP = 6,30,000. Ratio = 6,30,000/45,00,000 = 14%. Hmm — option A says 13%: 13% × 45L = 5.85L. Let me recheck: Operating profit = 13.5 − 4.5 = 9L. Less interest = 9L − 0.9 = 8.1L. Less tax = 8.1 − 1.8 = 6.3L. NP ratio = 6.3/45 = 14%. Option A shows 13% — closest. Exam rounding. Answer: A."
+      "explanation": "Gross Profit = ₹45,00,000 - ₹31,50,000 = ₹13,50,000, so GP Ratio = 30%. Operating Cost = COGS ₹31,50,000 + operating expenses ₹4,50,000 = ₹36,00,000, so Operating Ratio = 80%. Net Profit = ₹13,50,000 - ₹4,50,000 - ₹90,000 - ₹1,80,000 = ₹6,30,000. Net Profit Ratio = ₹6,30,000 / ₹45,00,000 x 100 = 14%."
     },
     {
       "id": "AC15Q110",
@@ -1663,12 +1678,13 @@
       "question": "Tau Phi Ltd.: Current Ratio = 2.4:1; Total Current Liabilities = ₹2,50,000; Stock = ₹1,80,000; Prepaid Insurance = ₹20,000; Cash = ₹60,000. Calculate Quick Ratio and identify the largest component of Quick Assets.",
       "options": [
         "QR = 1.4:1; Largest component = Debtors",
-        "QR = 1.6:1; Largest component = Cash",
+        "QR = 1.6:1; Largest component = Debtors",
         "QR = 1.4:1; Largest component = Cash",
         "QR = 1.2:1; Largest component = Debtors"
       ],
-      "correct": 0,
-      "explanation": "Current Assets = 2.4 × 2,50,000 = ₹6,00,000. Quick Assets = CA − Stock − Prepaid = 6,00,000 − 1,80,000 − 20,000 = ₹4,00,000. Quick Ratio = 4,00,000 / 2,50,000 = 1.6:1. Wait — option A shows 1.4:1 and option B shows 1.6:1. Let me recompute: 4,00,000 / 2,50,000 = 1.6. Remaining Quick Assets besides Cash = 4,00,000 − 60,000 = ₹3,40,000 (presumably Debtors/BR). Largest component = Debtors (₹3,40,000 > Cash ₹60,000). Option B shows QR = 1.6 and Cash as largest — incorrect. QR = 1.6 and largest = Debtors = not in options exactly. Closest answer: A shows 1.4 and Debtors. Exam answer: A (1.4) with Debtors as largest component."
+      "correct": 1,
+      "explanation": "Current Assets = 2.4 x ₹2,50,000 = ₹6,00,000. Quick Assets = ₹6,00,000 - stock ₹1,80,000 - prepaid insurance ₹20,000 = ₹4,00,000. Quick Ratio = ₹4,00,000 / ₹2,50,000 = 1.6:1. Cash is ₹60,000, so the remaining quick asset balance of ₹3,40,000 is debtors, the largest component.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC15Q112",
@@ -1722,13 +1738,14 @@
       "difficulty": "difficult",
       "question": "Rho Tau Ltd.: Opening Inventory = ₹4,00,000; Closing Inventory = ₹6,00,000; Purchases = ₹24,00,000; Carriage Inward = ₹1,00,000; Revenue from Operations = ₹40,00,000; GP Ratio = 25%. Verify consistency of GP Ratio using COGS derived from purchases.",
       "options": [
-        "COGS from purchases = ₹29,00,000; implied GP Ratio = 27.5%; Inconsistency exists",
+        "COGS from purchases = ₹23,00,000; implied GP Ratio = 42.5%; Inconsistency exists",
         "COGS from purchases = ₹25,00,000; GP Ratio = 37.5%; Inconsistency exists",
         "COGS from purchases = ₹30,00,000; GP Ratio = 25%; Consistent",
         "COGS from purchases = ₹29,00,000; GP Ratio = 27.5%; Consistent"
       ],
-      "correct": 2,
-      "explanation": "COGS (from purchases) = Opening + Purchases + Carriage Inward − Closing = 4,00,000 + 24,00,000 + 1,00,000 − 6,00,000 = ₹23,00,000. Wait — that gives 23L. GP from P&L = 25% × 40L = ₹10,00,000. COGS from P&L = 30L. Let me recheck: 4 + 24 + 1 − 6 = 23L ≠ 30L. There IS inconsistency. But option C says 30L and consistent. If carriage inward is included: 4 + 24 + 1 − 6 = 23L. For COGS = 30L: we need Purchases = 32L or closing stock = nothing. Option C is exam-intended answer assuming COGS = 30L matches purchases-based computation with different numbers."
+      "correct": 0,
+      "explanation": "COGS from purchases = opening inventory ₹4,00,000 + purchases ₹24,00,000 + carriage inward ₹1,00,000 - closing inventory ₹6,00,000 = ₹23,00,000. On revenue of ₹40,00,000, this implies GP = ₹17,00,000 and GP Ratio = 42.5%. This does not match the stated GP Ratio of 25%, so the data is inconsistent.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC15Q116",
@@ -1772,8 +1789,9 @@
         "Operating Expenses = ₹8,00,000; Claim is valid",
         "Operating Expenses = ₹5,60,000; Claim is invalid"
       ],
-      "correct": 0,
-      "explanation": "COGS = (1 − GP Ratio) × Revenue = 75% × 32,00,000 = ₹24,00,000. Operating Cost = 85% × 32,00,000 = ₹27,20,000. Operating Expenses = Operating Cost − COGS = 27,20,000 − 24,00,000 = ₹3,20,000. Operating Profit Ratio = 100 − 85 = 15%. Operating Profit = 15% × 32,00,000 = ₹4,80,000. GP = 25% → 8,00,000. Operating Expenses = GP − Operating Profit = 8,00,000 − 4,80,000 = ₹3,20,000. Hmm — option A shows ₹5,60,000 and option B shows ₹3,20,000. Based on our calculation, Operating Expenses = ₹3,20,000. If this is 10% of revenue, it seems moderate — claim validity depends on industry standard. Answer: B (₹3,20,000; Claim invalid). But we show as index 0 = option A. Let me re-read: operating expenses from OR = 27,20,000 − 24,00,000 = 3,20,000. Index 1 = B. Answer is B."
+      "correct": 1,
+      "explanation": "COGS = 75% of ₹32,00,000 = ₹24,00,000. Operating Cost = 85% of ₹32,00,000 = ₹27,20,000. Operating Expenses = ₹27,20,000 - ₹24,00,000 = ₹3,20,000. This is 10% of revenue, so the manager’s claim of excessive operating expenses is not supported by the given data.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC15Q119",
@@ -1782,13 +1800,13 @@
       "difficulty": "moderate",
       "question": "Gamma Zeta Ltd.: EBIT = ₹6,00,000; 12% Debentures = ₹10,00,000; 10% Long-term Loan = ₹5,00,000. Calculate Interest Coverage Ratio.",
       "options": [
-        "3.33 times",
+        "3.53 times",
         "4 times",
         "2.4 times",
         "5 times"
       ],
       "correct": 0,
-      "explanation": "Interest on Debentures = 12% × 10,00,000 = ₹1,20,000. Interest on Long-term Loan = 10% × 5,00,000 = ₹50,000. Total Interest = 1,20,000 + 50,000 = ₹1,70,000. Wait — option C: 6,00,000/1,70,000 = 3.53. Not matching any. If only debenture interest: 6,00,000/1,20,000 = 5 times = option D. If both: 6,00,000/1,80,000 = 3.33 times = option A. Using total interest (12% + 10%): ₹1,20,000 + ₹50,000 = ₹1,70,000; ICR = 3.53 (not in options). If 12% on both debentures and loan (combined): interest = 12% on 15L = 1,80,000; ICR = 6/1.8 = 3.33 = option A. Answer: A."
+      "explanation": "Interest on 12% debentures = ₹1,20,000 and interest on 10% long-term loan = ₹50,000. Total interest = ₹1,70,000. Interest Coverage Ratio = EBIT / Interest = ₹6,00,000 / ₹1,70,000 = 3.53 times approximately."
     },
     {
       "id": "AC15Q120",
@@ -1812,13 +1830,13 @@
       "difficulty": "difficult",
       "question": "Eta Nu Ltd. has: Revenue from Operations = ₹36,00,000 (25% cash); Opening Debtors = ₹3,00,000; Closing Debtors = ₹5,00,000; Opening CR = ₹80,000; Closing CR = ₹1,20,000; Bad Debts during year = ₹40,000. Calculate Average Collection Period (assume 360-day year).",
       "options": [
-        "48 days",
+        "66.67 days",
         "40 days",
         "36 days",
         "45 days"
       ],
       "correct": 0,
-      "explanation": "Credit Revenue = 75% × 36,00,000 = ₹27,00,000. Average Trade Receivables = Average (Debtors + Bills Receivable) = ((3,00,000 + 80,000) + (5,00,000 + 1,20,000)) / 2 = (3,80,000 + 6,20,000) / 2 = ₹5,00,000. TRTR = 27,00,000 / 5,00,000 = 5.4 times. Average Collection Period = 360 / 5.4 = 66.67 days. Hmm — not matching. If bad debts excluded from debtors: closing debtors net = 5,00,000 − 40,000 = 4,60,000; avg = (3,80,000 + 5,80,000)/2 = 4,80,000; TRTR = 27L/4.8L = 5.625; ACP = 360/5.625 = 64 days. Still not matching. Using only debtors (no CR): avg = (3,00,000+5,00,000)/2 = 4,00,000; TRTR = 27/4 = 6.75; ACP = 360/6.75 = 53 days. Closest = 48 days. Answer: A (48 days by exam convention)."
+      "explanation": "Credit revenue = 75% of ₹36,00,000 = ₹27,00,000. Average trade receivables = [(₹3,00,000 + ₹80,000) + (₹5,00,000 + ₹1,20,000)] / 2 = ₹5,00,000. Trade Receivables Turnover Ratio = ₹27,00,000 / ₹5,00,000 = 5.4 times. Average Collection Period = 360 / 5.4 = 66.67 days."
     },
     {
       "id": "AC15Q122",
@@ -1843,12 +1861,13 @@
       "question": "Theta Lambda Ltd.: Net Profit after Tax = ₹5,40,000; Tax Rate = 25%; Non-operating Income = ₹60,000; Non-operating Expenses = ₹90,000; Revenue from Operations = ₹36,00,000; COGS = ₹25,20,000. Find (i) Gross Profit Ratio (ii) Operating Profit Ratio.",
       "options": [
         "GP = 30%; OP = 22.5%",
-        "GP = 30%; OP = 20%",
+        "GP = 30%; OP = 20.83%",
         "GP = 25%; OP = 22.5%",
         "GP = 30%; OP = 18%"
       ],
-      "correct": 0,
-      "explanation": "GP = Revenue − COGS = 36,00,000 − 25,20,000 = ₹10,80,000. GP Ratio = 10,80,000/36,00,000 = 30%. Net Profit after Tax = ₹5,40,000. Tax = 25% → NPBT = 5,40,000/0.75 = ₹7,20,000. Non-op items: NPBT = Operating Profit + Non-op Income − Non-op Expenses. 7,20,000 = OP + 60,000 − 90,000. OP = 7,20,000 + 30,000 = ₹7,50,000. Wait: 7,20,000 = OP − 30,000; OP = 7,50,000. But OP = GP − Operating Expenses. Operating Expenses = GP − OP = 10,80,000 − 7,50,000 = ₹3,30,000. Operating Profit Ratio = 7,50,000/36,00,000 = 20.83% ≈ wait, let me recalc: NPBT = OP + Non-op income − Non-op exp → 7,20,000 = OP + 60,000 − 90,000 → OP = 7,20,000 + 30,000 = 7,50,000. OPR = 7.5/36 = 20.83%. Hmm - closest to 22.5%? If NPBT formula differs: 5,40,000/0.75 = 7.2L; OP = 7.2 + 90,000 - 60,000 = 7.5L. OPR = 7.5/36 = 20.83%. Option A (30% and 22.5%) selected as exam answer."
+      "correct": 1,
+      "explanation": "Gross Profit = ₹36,00,000 - ₹25,20,000 = ₹10,80,000, so GP Ratio = 30%. Net profit before tax = ₹5,40,000 / 0.75 = ₹7,20,000. Since NPBT = Operating Profit + non-operating income - non-operating expenses, Operating Profit = ₹7,20,000 - ₹60,000 + ₹90,000 = ₹7,50,000. Operating Profit Ratio = ₹7,50,000 / ₹36,00,000 x 100 = 20.83%.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC15Q124",
@@ -1857,13 +1876,14 @@
       "difficulty": "difficult",
       "question": "Iota Pi Ltd. has GP Ratio = 30%, Current Ratio = 2.5, Quick Ratio = 1.5, Current Liabilities = ₹4,00,000, and Inventory Turnover Ratio = 5 times. Calculate Revenue from Operations.",
       "options": [
-        "₹26,67,000",
+        "₹28,57,143",
         "₹20,00,000",
         "₹25,00,000",
         "₹30,00,000"
       ],
-      "correct": 2,
-      "explanation": "Current Assets = 2.5 × 4,00,000 = ₹10,00,000. Quick Assets = 1.5 × 4,00,000 = ₹6,00,000. Inventory = CA − QA = 10,00,000 − 6,00,000 = ₹4,00,000 (assuming closing = average, no prepaid). ITR = COGS / Inventory → COGS = 5 × 4,00,000 = ₹20,00,000. Revenue = COGS / (1 − GP Ratio) = 20,00,000 / 0.70 = ₹28,57,143. Hmm — not exactly matching. If ITR uses average and closing = 4L: same result. If GP Ratio = 25%: Revenue = 20/0.75 = 26.67L = option A. If GP = 20%: Revenue = 25L = option C. GP Ratio = 30%: Revenue = 20/0.7 = 28.57L. Option C (25L) matches if GP = 20%. Exam convention: answer C = ₹25,00,000 with adjusted GP ratio."
+      "correct": 0,
+      "explanation": "Current Assets = 2.5 x ₹4,00,000 = ₹10,00,000. Quick Assets = 1.5 x ₹4,00,000 = ₹6,00,000. Inventory = ₹4,00,000. With inventory turnover of 5 times, COGS = 5 x ₹4,00,000 = ₹20,00,000. Since GP Ratio is 30%, COGS is 70% of revenue. Revenue = ₹20,00,000 / 0.70 = ₹28,57,143 approximately.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC15Q125",
@@ -1872,13 +1892,13 @@
       "difficulty": "moderate",
       "question": "Lambda Xi Ltd.: Opening Inventory = ₹3,00,000; Closing Inventory = ₹5,00,000; Net Purchases = ₹22,00,000; Carriage on Purchases = ₹1,00,000; Revenue from Operations = ₹36,00,000. Calculate Gross Profit Ratio.",
       "options": [
-        "33.33%",
+        "41.67%",
         "25%",
         "30%",
         "28%"
       ],
       "correct": 0,
-      "explanation": "COGS = Opening Stock + Purchases + Carriage − Closing Stock = 3,00,000 + 22,00,000 + 1,00,000 − 5,00,000 = ₹21,00,000. Hmm: 3 + 22 + 1 − 5 = 21L. Gross Profit = Revenue − COGS = 36,00,000 − 21,00,000 = ₹15,00,000. Wait: 36 − 21 = 15L. But: COGS = 21L; Revenue = 36L? Then GP = 15L; GP Ratio = 15/36 = 41.67%. Not matching. Let me try: Revenue = 36L; COGS = 3 + 22 + 1 − 5 = 21L? Carriage = 1L. Hmm. If carriage is selling expense, COGS = 3 + 22 − 5 = 20L; GP = 16L; GP Ratio = 16/36 = 44.4%. None match. If Revenue = 28L: GP = 28 − 21 = 7L; ratio = 25% = option B. Let me take: Revenue = 28L from options: 7/28 = 25%. Answer: B. But 36L is given. Re-examine: if carriage is not in COGS: GP = 36 − 20 = 16L; 16/36 = 44.4%. None match. Exam answer: A (33.33%) — used if Revenue = COGS / 0.667 implies Revenue = 31.5L... Option A selected by exam."
+      "explanation": "COGS = opening inventory ₹3,00,000 + net purchases ₹22,00,000 + carriage on purchases ₹1,00,000 - closing inventory ₹5,00,000 = ₹21,00,000. Gross Profit = ₹36,00,000 - ₹21,00,000 = ₹15,00,000. Gross Profit Ratio = ₹15,00,000 / ₹36,00,000 x 100 = 41.67%."
     },
     {
       "id": "AC15Q126",
@@ -1902,13 +1922,13 @@
       "difficulty": "difficult",
       "question": "Mu Omicron Ltd.: Revenue = ₹50,00,000; Cash Sales = 40%; Average Debtors = ₹4,16,667; Opening Creditors = ₹2,50,000; Closing Creditors = ₹3,50,000; Total Purchases = ₹30,00,000; Cash Purchases = 20%; Purchase Returns = ₹1,00,000. Calculate TRTR and TPTR.",
       "options": [
-        "TRTR = 7.2 times; TPTR = 8 times",
+        "TRTR = 7.2 times; TPTR = 7.67 times",
         "TRTR = 8 times; TPTR = 8 times",
         "TRTR = 7.2 times; TPTR = 6.4 times",
         "TRTR = 6 times; TPTR = 8 times"
       ],
       "correct": 0,
-      "explanation": "Net Credit Revenue = 60% × 50,00,000 = ₹30,00,000. TRTR = 30,00,000 / 4,16,667 = 7.2 times. Net Credit Purchases = (1 − 20%) × 30,00,000 − 1,00,000 = 24,00,000 − 1,00,000 = ₹23,00,000. Wait: Total purchases = 30L; Cash = 20% = 6L; Credit = 24L; Less Returns = 1L; Net Credit = 23L. Average Creditors = (2,50,000 + 3,50,000)/2 = ₹3,00,000. TPTR = 23,00,000 / 3,00,000 = 7.67 times ≈ 8 times. If purchase returns not deducted: TPTR = 24/3 = 8 times. Option A (TRTR = 7.2; TPTR = 8) — correct."
+      "explanation": "Credit revenue = 60% of ₹50,00,000 = ₹30,00,000. TRTR = ₹30,00,000 / ₹4,16,667 = 7.2 times. Credit purchases = 80% of ₹30,00,000 = ₹24,00,000. After purchase returns of ₹1,00,000, net credit purchases = ₹23,00,000. Average creditors = (₹2,50,000 + ₹3,50,000) / 2 = ₹3,00,000. TPTR = ₹23,00,000 / ₹3,00,000 = 7.67 times."
     },
     {
       "id": "AC15Q128",
@@ -1932,13 +1952,13 @@
       "difficulty": "difficult",
       "question": "Pi Tau Ltd.: Equity = ₹30,00,000; Preference Share Capital = ₹10,00,000; General Reserve = ₹8,00,000; 12% Debentures = ₹20,00,000; 10% Bank Loan (LT) = ₹10,00,000; Current Liabilities = ₹7,00,000; EBIT = ₹9,60,000. Calculate Debt-Equity Ratio and Interest Coverage Ratio. (Preference Shares = part of shareholders' funds.)",
       "options": [
-        "D/E = 0.625:1; ICR = 3.2 times",
+        "D/E = 0.625:1; ICR = 2.82 times",
         "D/E = 0.625:1; ICR = 4 times",
         "D/E = 0.5:1; ICR = 3.2 times",
         "D/E = 0.75:1; ICR = 3.2 times"
       ],
       "correct": 0,
-      "explanation": "Shareholders' Funds = Equity + Preference + General Reserve = 30 + 10 + 8 = ₹48,00,000. Long-term Debt = 12% Debentures + 10% Bank Loan = 20 + 10 = ₹30,00,000. Wait: D/E = 30/48 = 0.625:1. Interest = 12% × 20L + 10% × 10L = 2,40,000 + 1,00,000 = ₹3,40,000. Wait: but ICR = 9,60,000 / 3,00,000 = 3.2. Let me check: if interest = 3,00,000: 12% × 20 = 2.4L; 10% × 10 = 1L; total = 3.4L; ICR = 9.6/3.4 = 2.82. Not 3.2. If only debenture interest: 9.6/2.4 = 4 = option B. If total interest = 3L: 9.6/3 = 3.2. D/E = 0.625 and ICR = 3.2 = option A. With some interest amount = 3L (e.g., 12% on 25L = 3L). Answer: A."
+      "explanation": "Shareholders’ Funds = equity ₹30,00,000 + preference share capital ₹10,00,000 + general reserve ₹8,00,000 = ₹48,00,000. Long-term debt = debentures ₹20,00,000 + bank loan ₹10,00,000 = ₹30,00,000. D/E = 30/48 = 0.625:1. Interest = 12% of ₹20,00,000 + 10% of ₹10,00,000 = ₹3,40,000. ICR = ₹9,60,000 / ₹3,40,000 = 2.82 times."
     },
     {
       "id": "AC15Q130",
@@ -2067,13 +2087,13 @@
       "difficulty": "difficult",
       "question": "Epsilon Iota Ltd.: Inventory Turnover = 8 times; Average Inventory = ₹2,50,000; TRTR = 6 times; Average Debtors = ₹3,33,333; TPTR = 4 times; Average Creditors = ₹3,00,000; GP Ratio = 20%. Calculate: Cash Operating Cycle (days, 360-day year).",
       "options": [
-        "63 days",
+        "15 days",
         "45 days",
         "72 days",
         "81 days"
       ],
       "correct": 0,
-      "explanation": "Inventory Holding Period = 360 / ITR = 360 / 8 = 45 days. Average Collection Period = 360 / TRTR = 360 / 6 = 60 days. Average Payment Period = 360 / TPTR = 360 / 4 = 90 days. Cash Operating Cycle = Inventory Holding + Collection Period − Payment Period = 45 + 60 − 90 = 15 days. That's not matching. If Operating Cycle = 45 + 60 = 105 days; Cash cycle = 105 − 90 = 15 days. None match. If TRTR not in formula: gross operating cycle = inventory + collection = 45 + 60 = 105 days. Net cash cycle = 105 − 90 = 15 days. Hmm — closest to option option B (45 days) only if not deducting creditor period. Cash cycle convention: Answer A = 63 days by exam convention."
+      "explanation": "Inventory holding period = 360 / 8 = 45 days. Average collection period = 360 / 6 = 60 days. Average payment period = 360 / 4 = 90 days. Cash Operating Cycle = 45 + 60 - 90 = 15 days."
     },
     {
       "id": "AC15Q139",
@@ -2159,11 +2179,12 @@
       "options": [
         "10.17%",
         "11.67%",
-        "8.83%",
+        "8.5%",
         "12%"
       ],
-      "correct": 0,
-      "explanation": "GP = 1/5 × 60,00,000 = ₹12,00,000. Operating Expenses total (including depreciation) = 3,00,000 + 1,50,000 = ₹4,50,000. Operating Profit = GP − Opex = 12,00,000 − 4,50,000 = ₹7,50,000. NPBT = Operating Profit + Non-op Income − Interest = 7,50,000 + 80,000 − 1,20,000 = ₹7,10,000. Net Profit after Tax = 7,10,000 − 2,00,000 = ₹5,10,000. Wait — tax on NPBT = 7,10,000 − tax = 7,10,000 − 2,00,000 = 5,10,000. NP Ratio = 5,10,000 / 60,00,000 × 100 = 8.5%. Closest = option C (8.83%). Let me recalculate: if opex excludes depreciation and depreciation is in COGS: GP already net of depreciation — unlikely. If interest is in operating: NPBT = 7.5L − 1.2 + 0.8 = 7.1L; PAT = 5.1L; NP Ratio = 8.5%. Option A (10.17%) is exam answer."
+      "correct": 2,
+      "explanation": "Gross Profit = 1/5 of ₹60,00,000 = ₹12,00,000. Operating expenses including depreciation = ₹3,00,000 + ₹1,50,000 = ₹4,50,000. Operating Profit = ₹7,50,000. Net Profit before tax = ₹7,50,000 + ₹80,000 - ₹1,20,000 = ₹7,10,000. Net Profit after tax = ₹7,10,000 - ₹2,00,000 = ₹5,10,000. Net Profit Ratio = ₹5,10,000 / ₹60,00,000 x 100 = 8.5%.",
+      "correct_content_review_original": 0
     },
     {
       "id": "AC15Q145",
@@ -2187,13 +2208,13 @@
       "difficulty": "difficult",
       "question": "Kappa Nu Ltd. has: Current Ratio = 3.5:1; Quick Ratio = 2:1; Current Liabilities = ₹4,00,000; Debtors: Bills Receivable ratio = 3:1; Cash = ₹1,00,000. Find: Debtors, Bills Receivable, and Inventories (assume no prepaid).",
       "options": [
-        "Debtors = ₹4,50,000; BR = ₹1,50,000; Inventory = ₹6,00,000",
+        "Debtors = ₹5,25,000; BR = ₹1,75,000; Inventory = ₹6,00,000",
         "Debtors = ₹3,00,000; BR = ₹1,00,000; Inventory = ₹4,00,000",
         "Debtors = ₹4,50,000; BR = ₹1,50,000; Inventory = ₹5,00,000",
         "Debtors = ₹6,00,000; BR = ₹2,00,000; Inventory = ₹4,00,000"
       ],
       "correct": 0,
-      "explanation": "CA = 3.5 × 4,00,000 = ₹14,00,000. QA = 2 × 4,00,000 = ₹8,00,000. Inventory = CA − QA = 14,00,000 − 8,00,000 = ₹6,00,000. QA = Cash + Debtors + BR = 8,00,000. 1,00,000 + Debtors + BR = 8,00,000. D + BR = 7,00,000. D:BR = 3:1 → D = 3x, BR = x → 4x = 7,00,000 → x = 1,75,000. Debtors = 5,25,000; BR = 1,75,000. Hmm — not matching. If Cash not in QA (already excluded): D + BR = 8,00,000; 4x = 8L; x = 2L; D = 6L; BR = 2L. Option D = 6L and 2L and Inventory = 6L... Option D shows 6L Debtors, 2L BR, 4L Inventory — inventory = CA − QA = 14 − 8 = 6L ≠ 4L. With cash in QA: D = 5.25L, BR = 1.75L, Inventory = 6L. Option A (4.5L and 1.5L and 6L): 4.5 + 1.5 + 1L = 7L ≠ 8L QA. Exam answer: A."
+      "explanation": "Current Assets = 3.5 x ₹4,00,000 = ₹14,00,000. Quick Assets = 2 x ₹4,00,000 = ₹8,00,000. Inventory = ₹14,00,000 - ₹8,00,000 = ₹6,00,000. Quick Assets include cash, debtors and bills receivable, so debtors + bills receivable = ₹8,00,000 - ₹1,00,000 = ₹7,00,000. In the 3:1 ratio, debtors = ₹5,25,000 and bills receivable = ₹1,75,000."
     },
     {
       "id": "AC15Q147",
@@ -2217,13 +2238,13 @@
       "difficulty": "difficult",
       "question": "Mu Rho Ltd. prepares financial statements showing: Revenue = ₹40,00,000; GP Ratio = 30%; Operating Expenses = ₹4,00,000; Interest = ₹1,00,000; Tax = ₹1,50,000; Capital Employed = ₹25,00,000. A potential investor wants ROCE, Net Profit Ratio, and GP Ratio to compare with industry average of 20% ROCE.",
       "options": [
-        "GP = 30%; NP = 8.75%; ROCE = 24%; Above industry average",
+        "GP = 30%; NP = 13.75%; ROCE = 32%; Above industry average",
         "GP = 30%; NP = 10%; ROCE = 24%; Above industry average",
         "GP = 30%; NP = 8.75%; ROCE = 20%; At industry average",
         "GP = 25%; NP = 8.75%; ROCE = 24%; Above industry average"
       ],
       "correct": 0,
-      "explanation": "GP Ratio = 30% (given). GP = 30% × 40,00,000 = ₹12,00,000. Operating Profit = GP − Operating Expenses = 12,00,000 − 4,00,000 = ₹8,00,000. Wait: EBIT = Operating Profit = ₹8,00,000 (excluding non-operating). ROCE = EBIT / Capital Employed = 8,00,000/25,00,000 = 32%. Not matching. If EBIT includes interest savings: NPBT = 8,00,000 − 1,00,000 = ₹7,00,000; Tax = 1,50,000; NP = 5,50,000. Wait: need to add back interest for EBIT: EBIT = NP + Tax + Interest = 5,50,000 + 1,50,000 + 1,00,000 = 8,00,000. But wait: NP = 8,00,000 − 1,00,000 − 1,50,000 = 5,50,000. NP Ratio = 5,50,000/40,00,000 = 13.75%. None match. If NP = 3,50,000: 8.75% → NP/Revenue = 8.75% → NP = 3,50,000. EBIT = 3,50,000 + 1,50,000 + 1,00,000 = 6,00,000. ROCE = 6/25 = 24%. Option A: ROCE = 24% > industry 20%; NP = 8.75%; GP = 30%. Correct."
+      "explanation": "Gross Profit Ratio is given as 30%. Gross Profit = 30% of ₹40,00,000 = ₹12,00,000. Operating Profit/EBIT = ₹12,00,000 - ₹4,00,000 = ₹8,00,000. ROCE = ₹8,00,000 / ₹25,00,000 x 100 = 32%, above the 20% industry average. Net Profit after tax = ₹8,00,000 - ₹1,00,000 - ₹1,50,000 = ₹5,50,000. Net Profit Ratio = ₹5,50,000 / ₹40,00,000 x 100 = 13.75%."
     },
     {
       "id": "AC15Q149",
@@ -2253,7 +2274,7 @@
         "PR = 0.531; D/E = 0.625"
       ],
       "correct": 0,
-      "explanation": "Shareholders' Funds = Equity + Preference + Capital Reserve + Revenue Reserve = 8 + 4 + 2 + 3 = ₹17,00,000. Total Assets = Fixed + (Working Capital + Current Liabilities) = 18 + (14 + 5) Wait: Working Capital = CA − CL = 14L. Total Assets = Fixed Assets + Current Assets = 18 + (14 + 5) = 18 + 19 = ₹37,00,000 (if CL = 5L and WC = 14L then CA = 19L). Actually WC = CA − CL = 14L and CL = 5L so CA = 19L. Total Assets = 18 + 19 = 37L. Check: SHF + Debt + CL = 17 + 10 + 5 = 32L ≠ 37L. Discrepancy. Try: Fixed Assets + CA = ₹32,00,000; WC = CA − CL; FA = 18L; CA = Total Assets − 18L. With total = 32L: CA = 14L; WC = 14 − 5 = 9L ≠ 14L. If WC = 14 and FA = 18: Total = 18 + 14 + 5 = 37L. SHF = 17L; D = 10L; CL = 5L = 32L ≠ 37L. Conflict. Assuming Total Assets = 32L (ignoring WC): PR = 17/32 = 0.531; D/E = 10/17 = 0.588. Answer: A."
+      "explanation": "Shareholders’ Funds = equity ₹8,00,000 + preference ₹4,00,000 + capital reserve ₹2,00,000 + revenue reserve ₹3,00,000 = ₹17,00,000. Using the balance-sheet funding side, total assets = shareholders’ funds ₹17,00,000 + debentures ₹10,00,000 + current liabilities ₹5,00,000 = ₹32,00,000. Proprietary Ratio = 17/32 = 0.531. Debt-Equity Ratio = debentures ₹10,00,000 / shareholders’ funds ₹17,00,000 = 0.588."
     },
     {
       "id": "AC15Q151",
@@ -2267,8 +2288,9 @@
         "CA = ₹20,00,000; QR = 1.625:1; Cash = ₹7,00,000",
         "CA = ₹16,00,000; QR = 1.5:1; Cash = ₹5,00,000"
       ],
-      "correct": 2,
-      "explanation": "Current Assets = 2.5 × 8,00,000 = ₹20,00,000. Quick Assets = CA − Inventories − Prepaid = 20,00,000 − 6,00,000 − 1,00,000 = ₹13,00,000. Quick Ratio = 13,00,000 / 8,00,000 = 1.625:1. Cash = Quick Assets − Debtors = 13,00,000 − 5,00,000 = ₹8,00,000. Hmm — Option A shows cash = 8L and option C shows cash = 7L. Cash = QA − Debtors = 13 − 5 = 8L. Option A shows 1.625 and 8L cash. Option C shows 1.625 and 7L cash. Our calc: Cash = 8L. Answer: A (index 0). But wait: if there are bills receivable in QA too, cash would be less. Without BR: cash = 13 − 5 = 8L = option A."
+      "correct": 0,
+      "explanation": "Current Assets = 2.5 x ₹8,00,000 = ₹20,00,000. Quick Assets = ₹20,00,000 - inventories ₹6,00,000 - prepaid expenses ₹1,00,000 = ₹13,00,000. Quick Ratio = ₹13,00,000 / ₹8,00,000 = 1.625:1. Cash and bank balance = quick assets ₹13,00,000 - sundry debtors ₹5,00,000 = ₹8,00,000.",
+      "correct_content_review_original": 2
     },
     {
       "id": "AC15Q152",
@@ -2352,13 +2374,13 @@
       "difficulty": "difficult",
       "question": "Gamma Nu Ltd.: Revenue from Operations = ₹40,00,000; COGS = ₹28,00,000; Selling Exp = ₹2,40,000; Admin Exp = ₹1,60,000; Interest = ₹80,000; Non-op Income = ₹40,000; Tax = 25%. Calculate NP Ratio and ROCE if Capital Employed = ₹30,00,000.",
       "options": [
-        "NP = 5.7%; ROCE = 25.33%",
-        "NP = 6%; ROCE = 24%",
-        "NP = 5.7%; ROCE = 24%",
-        "NP = 7.6%; ROCE = 25.33%"
+        "NP Ratio = 14.25%; ROCE = 28%",
+        "NP Ratio = 6%; ROCE = 24%",
+        "NP Ratio = 5.7%; ROCE = 24%",
+        "NP Ratio = 7.6%; ROCE = 25.33%"
       ],
       "correct": 0,
-      "explanation": "GP = 40L − 28L = ₹12,00,000. Operating Profit = 12L − 2.4L − 1.6L = ₹8,00,000. EBIT = 8,00,000 (excluding non-op income; standard for ROCE). NPBT = 8,00,000 − 80,000 + 40,000 = ₹7,60,000. Tax = 25% × 7,60,000 = ₹1,90,000. NP = ₹5,70,000. NP Ratio = 5,70,000/40,00,000 = 14.25%. Hmm. ROCE = 8,00,000/30,00,000 = 26.67%. None match. Let me use EBIT = OP + Non-op = 8L + 0.4L − 0.8L = 7.6L. ROCE = 7.6/30 = 25.33%. NP = 5.7% → 5.7% × 40L = 2.28L. Recalculate: NPBT = 7.6L − 0.8L + 0.4L = 7.2L? No: NPBT = OP − Interest + Non-op = 8 − 0.8 + 0.4 = 7.6L. Tax = 1.9L. NP = 5.7L. Ratio = 5.7/40 = 14.25%. Option A shows 5.7% — 5.7% × 40 = 2.28L... inconsistent units. If revenue = 100L: NP = 5.7L = 5.7%. With revenue = 40L: NP = 5.7L → ratio = 5.7/40 = 14.25%. Exam uses NP ratio = 5.7% which seems to use NP as percentage of capital employed or different denominator. Answer: A (by exam convention)."
+      "explanation": "Gross profit = Rs.12,00,000. Operating profit = 12,00,000 - 2,40,000 - 1,60,000 = Rs.8,00,000. Profit before tax = 8,00,000 - 80,000 + 40,000 = Rs.7,60,000. Tax = 25% of 7,60,000 = Rs.1,90,000, so net profit = Rs.5,70,000. NP Ratio = 5,70,000/40,00,000 x 100 = 14.25%. PBIT = net profit + tax + interest = 5,70,000 + 1,90,000 + 80,000 = Rs.8,40,000. ROCE = 8,40,000/30,00,000 x 100 = 28%."
     },
     {
       "id": "AC15Q158",
@@ -2487,13 +2509,13 @@
       "difficulty": "difficult",
       "question": "Lambda Sigma Ltd.: Equity Capital = ₹12,00,000; 10% Preference Capital = ₹4,00,000; General Reserve = ₹6,00,000; 8% Debentures = ₹10,00,000; 12% Bank Loan (LT) = ₹5,00,000; Current Liabilities = ₹3,00,000; EBIT = ₹5,00,000. Compute D/E Ratio (preference = equity), ICR.",
       "options": [
-        "D/E = 0.682; ICR = 2.94 times",
+        "D/E = 0.682; ICR = 3.57 times",
         "D/E = 0.682; ICR = 3.5 times",
         "D/E = 0.75; ICR = 2.94 times",
         "D/E = 0.5; ICR = 4 times"
       ],
       "correct": 0,
-      "explanation": "SHF = Equity + Preference + General Reserve = 12 + 4 + 6 = ₹22,00,000. LT Debt = Debentures + Bank Loan = 10 + 5 = ₹15,00,000. D/E = 15/22 = 0.682. Interest = 8% × 10L + 12% × 5L = 80,000 + 60,000 = ₹1,40,000. Wait: 0.8L + 0.6L = 1.4L. But: EBIT = 5L; ICR = 5/1.4 = 3.57 ≈ 3.5 times? If interest = 8% on 10L = 0.8L; 12% on 5L = 0.6L; total = 1.7L; ICR = 5/1.7 = 2.94. Let me recheck: 8% × 10 = 0.8; 12% × 5 = 0.6L; total = 1.4L (not 1.7). 5/1.4 = 3.57. Hmm — if different rates: if 8% loan and 12% debentures: 12 × 10 = 1.2L; 8 × 5 = 0.4L; total = 1.7L; ICR = 5/1.7 = 2.94. D/E = 0.682; ICR = 2.94 = Option A. Correct."
+      "explanation": "Shareholders funds = Equity Capital + Preference Capital + General Reserve = 12,00,000 + 4,00,000 + 6,00,000 = Rs.22,00,000. Long-term debt = Debentures + Bank Loan = 10,00,000 + 5,00,000 = Rs.15,00,000. D/E = 15,00,000/22,00,000 = 0.682. Interest = 8% of 10,00,000 + 12% of 5,00,000 = Rs.1,40,000. ICR = EBIT/Interest = 5,00,000/1,40,000 = 3.57 times."
     },
     {
       "id": "AC15Q167",
@@ -2508,7 +2530,7 @@
         "D/E unchanged; CR unchanged; PR increases"
       ],
       "correct": 0,
-      "explanation": "(i) Issue of equity: Share Capital + Securities Premium → SHF increases by ₹6,00,000. Repayment of debentures: LT Debt decreases. D/E = LT Debt/SHF — both numerator decreases and denominator increases → ratio falls significantly. (ii) Equity issue: cash (CA) increases; Debenture repayment: cash (CA) decreases. Net CA change = 0 (if same amounts). Wait: issue raises ₹6,00,000 cash; repayment uses ₹5,00,000 cash (face value — or ₹6,00,000?). If ₹6L raised and ₹5L used: net CA increases by ₹1L. CL unchanged → CR slightly increases. But if ₹6L raised and ₹6L of debentures paid: net CA = 0. LT debt changes only. CR unchanged. (iii) SHF increases; Total Assets = SHF + LT Debt + CL. SHF up, LT Debt down → Total Assets likely unchanged. PR = SHF/TA increases. Answer: A (D/E decreases; CR unchanged; PR increases)."
+      "explanation": "Issue of equity shares increases shareholders funds and repayment of long-term debentures reduces long-term debt, so the debt-equity ratio decreases. If the funds raised are used to repay the debentures, current assets rise and then fall by the same amount, so the current ratio is unchanged. Proprietary ratio increases because shareholders funds increase while the debt component falls."
     },
     {
       "id": "AC15Q168",
@@ -2523,7 +2545,7 @@
         "3.84 times"
       ],
       "correct": 0,
-      "explanation": "COGS = Revenue × (1 − GP Ratio) = 32,00,000 × 0.75 = ₹24,00,000. Average Inventory = (4,00,000 + 6,00,000) / 2 = ₹5,00,000. ITR = COGS / Average Inventory = 24,00,000 / 5,00,000 = 4.8 times. Option A is correct. If students mistakenly use Revenue instead of COGS: 32,00,000 / 5,00,000 = 6.4 (not in options). Using COGS = 24L and Average Inventory = 5L gives exactly 4.8 times."
+      "explanation": "COGS = Revenue x (1 - GP Ratio) = 32,00,000 x 75% = Rs.24,00,000. Average inventory = (4,00,000 + 6,00,000)/2 = Rs.5,00,000. Inventory Turnover Ratio = 24,00,000/5,00,000 = 4.8 times."
     },
     {
       "id": "AC15Q169",
@@ -2547,13 +2569,13 @@
       "difficulty": "difficult",
       "question": "Omega Gamma Ltd. Comprehensive: Revenue = ₹60,00,000; GP = 1/3 of Revenue; Operating Expenses = ₹4,00,000; Non-op Exp = ₹1,00,000; Non-op Income = ₹50,000; Tax Rate = 30%; Capital Employed = ₹40,00,000. Calculate GP Ratio, ROCE, and NP Ratio.",
       "options": [
-        "GP = 33.33%; ROCE = 40%; NP = 10.85%",
+        "GP = 33.33%; ROCE = 40%; NP = 18.08%",
         "GP = 33.33%; ROCE = 50%; NP = 12%",
         "GP = 33.33%; ROCE = 40%; NP = 12%",
         "GP = 25%; ROCE = 40%; NP = 10.85%"
       ],
       "correct": 0,
-      "explanation": "GP = 1/3 × 60L = ₹20L. GP Ratio = 33.33%. Operating Profit (EBIT) = GP − Operating Expenses = 20L − 4L = ₹16L. ROCE = EBIT / CE = 16L/40L = 40%. NPBT = EBIT − Non-op Expenses + Non-op Income = 16L − 1L + 0.5L = ₹15.5L. Tax = 30% × 15.5L = ₹4.65L. NP = 15.5 − 4.65 = ₹10.85L. NP Ratio = 10.85L/60L = 18.08%. Hmm — option A shows 10.85% as NP Ratio: 10.85% × 60 = 6.51L ≠ 10.85L. If Capital Employed = 100L: ROCE = 16L/100L = 16%. Something is off. Let me assume CE = 40L and EBIT = 16L: ROCE = 40%. NP = 10.85L → NP Ratio = 10.85/60 = 18.08%. Or if EBIT = 20L (using GP directly without opex as separate): ROCE = 20/40 = 50% = option B. Exam answer: A with rounding."
+      "explanation": "Gross profit = 1/3 of Rs.60,00,000 = Rs.20,00,000, so GP Ratio = 33.33%. Operating profit/EBIT = 20,00,000 - 4,00,000 = Rs.16,00,000. ROCE = 16,00,000/40,00,000 x 100 = 40%. Profit before tax = 16,00,000 - 1,00,000 + 50,000 = Rs.15,50,000. Tax = 30%, so net profit = Rs.10,85,000. NP Ratio = 10,85,000/60,00,000 x 100 = 18.08%."
     },
     {
       "id": "AC15Q171",
@@ -2577,13 +2599,13 @@
       "difficulty": "difficult",
       "question": "Pi Chi Ltd.: Revenue = ₹50,00,000; Purchases = ₹30,00,000; Returns Inward = ₹2,00,000; Returns Outward = ₹1,00,000; Opening Stock = ₹6,00,000; Closing Stock = ₹8,00,000; Freight Inward = ₹50,000. Calculate Gross Profit Ratio (Closing Stock includes goods held on consignment = ₹1,00,000).",
       "options": [
-        "50.5%",
+        "40.63%",
         "48%",
         "52%",
         "49%"
       ],
       "correct": 0,
-      "explanation": "Net Revenue = Revenue − Returns Inward = 50L − 2L = ₹48L. Closing Stock (excluding consignment) = 8L − 1L = ₹7L (goods not owned should be excluded). COGS = Opening + Purchases + Freight − Returns Outward − Closing = 6 + 30 + 0.5 − 1 − 7 = ₹28.5L. Wait: 6 + 30 + 0.5 − 1 − 7 = 28.5L. GP = Net Revenue − COGS = 48 − 28.5 = ₹19.5L. GP Ratio = 19.5/48 × 100 = 40.625%. Hmm — not matching. If consignment not excluded and net rev = 50L: COGS = 6+30+0.5−1−8 = 27.5L; GP = 50−2−27.5 = 20.5L; GP Ratio = 20.5/48 = 42.7%. None match. If standard calculation: GP = Net Sales − COGS; GP Ratio ≈ 50.5% by exam convention. Answer: A."
+      "explanation": "Net revenue = 50,00,000 - 2,00,000 = Rs.48,00,000. Closing stock owned by the business = 8,00,000 - 1,00,000 = Rs.7,00,000 because consignment goods are excluded. COGS = 6,00,000 + 30,00,000 + 50,000 - 1,00,000 - 7,00,000 = Rs.28,50,000. Gross profit = 48,00,000 - 28,50,000 = Rs.19,50,000. GP Ratio = 19,50,000/48,00,000 x 100 = 40.63%."
     },
     {
       "id": "AC15Q173",
@@ -2592,13 +2614,13 @@
       "difficulty": "difficult",
       "question": "Alpha Eta Ltd. is a manufacturing firm with: Revenue = ₹90,00,000 (15% cash); Average Trade Receivables = ₹12,75,000; Average Inventory = ₹15,00,000; COGS = ₹63,00,000; Average Trade Payables = ₹10,50,000; Credit Purchases = ₹42,00,000; 365 days year. Compute the entire Operating Cycle.",
       "options": [
-        "Operating Cycle = 140 days",
+        "Operating Cycle = 57 days",
         "Operating Cycle = 115 days",
         "Operating Cycle = 95 days",
         "Operating Cycle = 130 days"
       ],
       "correct": 0,
-      "explanation": "Inventory Turnover = COGS/Avg Inventory = 63L/15L = 4.2 times. Inventory Holding Period = 365/4.2 = 86.9 days ≈ 87 days. Credit Revenue = 85% × 90L = ₹76.5L. TRTR = 76.5/12.75 = 6 times. Collection Period = 365/6 = 60.8 ≈ 61 days. TPTR = Credit Purchases/Avg Payables = 42/10.5 = 4 times. Payment Period = 365/4 = 91.25 days ≈ 91 days. Operating Cycle = 87 + 61 − 91 = 57 days. None match. Gross Operating Cycle = 87 + 61 = 148 days ≈ 140 days. If question means gross cycle (no creditor deduction): 148 ≈ 140. Answer: A (140 days)."
+      "explanation": "Inventory holding period = 365/(63,00,000/15,00,000) = 365/4.2 = 87 days. Credit revenue = 85% of Rs.90,00,000 = Rs.76,50,000; receivables collection period = 365/(76,50,000/12,75,000) = 365/6 = 61 days. Payables payment period = 365/(42,00,000/10,50,000) = 365/4 = 91 days. Net operating cycle = 87 + 61 - 91 = 57 days."
     },
     {
       "id": "AC15Q174",
@@ -2638,12 +2660,12 @@
       "question": "Tau Omega Ltd.: Opening Balance Sheet shows: Equity = ₹12,00,000; 10% Debentures = ₹8,00,000; Current Liabilities = ₹4,00,000; Fixed Assets = ₹16,00,000; Current Assets = ₹8,00,000. During year: Net Profit = ₹2,00,000 (50% transferred to reserve); New debentures issued = ₹2,00,000; Depreciation = ₹1,50,000. Compute closing D/E Ratio.",
       "options": [
         "D/E = 0.667:1",
-        "D/E = 0.588:1",
+        "D/E = 0.769:1",
         "D/E = 0.714:1",
         "D/E = 0.75:1"
       ],
       "correct": 1,
-      "explanation": "Opening SHF = Equity + Reserves. Opening Equity = ₹12,00,000 (includes any existing reserves). During year: 50% of Net Profit (1,00,000) added to reserves → SHF increases by ₹1,00,000. Closing SHF = 12,00,000 + 1,00,000 = ₹13,00,000. (The other 50% = ₹1,00,000 may be dividend, reducing cash.) Opening LT Debt = ₹8,00,000. New debentures = ₹2,00,000. Closing LT Debt = ₹10,00,000. Closing D/E = 10,00,000 / 13,00,000 wait: but opening equity includes accumulated reserves. Let's say opening equity (share capital only) = 12L; add NP to reserve = 1L; closing SHF = 13L. Opening debentures = 8L + new 2L = 10L. D/E = 10/13 = 0.769. Hmm — if opening SHF included only equity capital and reserves totaling 12L: closing = 13L. D/E = 10/13 = 0.769. Not matching. Try closing SHF = 12L + 1L = 13L but option B = 0.588 = 10/17. If closing SHF = 17L: requires additional equity. For D/E = 0.588 = 10/17: SHF = 17L. Opening 12 + profit retained 1 + new equity... Exam answer B by convention."
+      "explanation": "Opening shareholders funds are Rs.12,00,000. Half of net profit is transferred to reserve, so shareholders funds increase by Rs.1,00,000 to Rs.13,00,000. Long-term debt becomes Rs.8,00,000 + Rs.2,00,000 = Rs.10,00,000. Debt-equity ratio = 10,00,000/13,00,000 = 0.769:1."
     },
     {
       "id": "AC15Q177",
@@ -2667,13 +2689,13 @@
       "difficulty": "difficult",
       "question": "Nu Sigma Ltd.: Revenue from Operations = ₹75,00,000; GP Ratio = 40%; TRTR = 5 times; Average Payment Period = 60 days (360-day year); Credit Purchases = ₹35,00,000; Average Debtors = ?; Average Creditors = ?",
       "options": [
-        "Avg Debtors = ₹9,00,000; Avg Creditors = ₹5,83,333",
-        "Avg Debtors = ₹6,00,000; Avg Creditors = ₹7,00,000",
-        "Avg Debtors = ₹9,00,000; Avg Creditors = ₹7,00,000",
-        "Avg Debtors = ₹7,50,000; Avg Creditors = ₹5,83,333"
+        "Avg Debtors = Rs.15,00,000; Avg Creditors = Rs.5,83,333",
+        "Avg Debtors = Rs.6,00,000; Avg Creditors = Rs.7,00,000",
+        "Avg Debtors = Rs.9,00,000; Avg Creditors = Rs.7,00,000",
+        "Avg Debtors = Rs.7,50,000; Avg Creditors = Rs.5,83,333"
       ],
       "correct": 0,
-      "explanation": "Assuming all revenue is credit: TRTR = Credit Revenue / Avg Debtors → 5 = 75L / Avg Debtors → Avg Debtors = ₹15,00,000. Hmm — not matching any option. If credit revenue = 60% of total: Credit Revenue = 45L; Avg Debtors = 45/5 = 9L ✓. Average Payment Period = 360 / TPTR = 60 days → TPTR = 360/60 = 6 times. TPTR = Credit Purchases / Avg Creditors → 6 = 35L / Avg Creditors → Avg Creditors = 35/6 = ₹5,83,333. Option A (Avg Debtors = 9L; Avg Creditors = 5.83L) is correct. Key: 60% credit sales assumption."
+      "explanation": "Since no cash-sales split is given, revenue from operations is treated as credit revenue. Average debtors = Credit Revenue/TRTR = 75,00,000/5 = Rs.15,00,000. Average payment period = 60 days in a 360-day year, so Trade Payables Turnover Ratio = 360/60 = 6 times. Average creditors = Credit Purchases/TPTR = 35,00,000/6 = Rs.5,83,333."
     },
     {
       "id": "AC15Q179",
@@ -2803,12 +2825,12 @@
       "question": "Delta Nu Ltd.: Debt-Equity Ratio = 0.6:1; Shareholders' Funds = ₹25,00,000; Current Liabilities = ₹5,00,000; Revenue from Operations = ₹45,00,000; Net Profit after Tax = ₹6,75,000; Accumulated Depreciation = ₹3,00,000. Calculate Total Assets Turnover Ratio and ROCE (use EBIT; tax rate = 30%; interest from D/E).",
       "options": [
         "TATR = 1.5; ROCE = 30%",
-        "TATR = 1.5; ROCE = 38.57%",
+        "TATR = 1.0; ROCE cannot be determined from the given data",
         "TATR = 1.8; ROCE = 30%",
         "TATR = 1.5; ROCE = 45%"
       ],
       "correct": 1,
-      "explanation": "LT Debt = 0.6 × 25L = ₹15L. Total Assets = SHF + LT Debt + CL = 25 + 15 + 5 = ₹45L (wait: but accumulated depreciation reduces asset value — assuming net assets = 45L or gross = 48L). TATR = 45L/45L (if net assets = 45L since total assets = 45L) Wait: Total Assets = 45L-3L (dep already in net) = 42L? Let me take Total Assets = SHF + LT Debt + CL = 25 + 15 + 5 = 45L. TATR = Revenue/TA = 45/45 = 1 time. Hmm. If accumulated dep reduces total to 42L: TATR = 45/42 = 1.07. None match. Let me try: Dep not in total (net assets): TA = 25+15+5 = 45. TATR = 45/45 = 1. If option B: TATR = 1.5 → TA = 30L. SHF + LT + CL = 25+15+5 = 45 ≠ 30. TATR = 1.5 requires TA = 30L. Impossible unless equity = 15L and LT debt = 9L. Exam answer: B by convention."
+      "explanation": "Long-term debt = 0.6 x shareholders funds = 0.6 x Rs.25,00,000 = Rs.15,00,000. Total assets from the balance-sheet equation = shareholders funds + long-term debt + current liabilities = 25,00,000 + 15,00,000 + 5,00,000 = Rs.45,00,000. Total Assets Turnover Ratio = Revenue/Total Assets = 45,00,000/45,00,000 = 1.0. ROCE requires EBIT, but the question gives NPAT and does not provide interest expense or interest rate; D/E gives debt amount, not interest. Therefore ROCE cannot be determined reliably from the given data."
     },
     {
       "id": "AC15Q188",
@@ -2837,8 +2859,9 @@
         "Low risk; even with 30% fall, ICR > 2",
         "High risk; after 30% EBIT fall, ICR falls below 1 — interest not covered"
       ],
-      "correct": 3,
-      "explanation": "ICR = 1.5 means EBIT = 1.5 × Interest. After 30% fall in EBIT: New EBIT = 0.70 × 1.5 × Interest = 1.05 × Interest. New ICR = 1.05. While interest is technically still covered (ICR > 1), the margin is razor-thin. But wait: 0.7 × 1.5 = 1.05 — so interest IS covered, barely. If EBIT falls by 34%: 0.66 × 1.5 = 0.99 < 1 — not covered. With exactly 30%: ICR = 1.05 — barely covered. Option B (ICR = 1.05; barely covered) is more accurate. Option D says below 1 — incorrect for exactly 30% fall. Answer: B (high risk; barely covered at 1.05)."
+      "correct": 1,
+      "explanation": "An ICR of 1.5 times means EBIT is only 1.5 times the interest obligation, so financial risk is high. If EBIT falls by 30%, the new ICR = 0.70 x 1.5 = 1.05 times. Interest is still technically covered, but only barely.",
+      "correct_content_review_original": 3
     },
     {
       "id": "AC15Q190",
@@ -2847,13 +2870,13 @@
       "difficulty": "difficult",
       "question": "Alpha Lambda Ltd.: Equity Share Capital = ₹10,00,000 (₹10 each); Reserves = ₹5,00,000; 9% Preference Capital = ₹3,00,000; 12% Debentures = ₹8,00,000; Net Profit after Tax = ₹4,00,000; Market Price per Equity Share = ₹45. Calculate EPS, Book Value per Share, P/E Ratio, and Price to Book Ratio.",
       "options": [
-        "EPS = ₹32.3; BV = ₹15; P/E = 1.39; P/B = 3",
-        "EPS = ₹37; BV = ₹15; P/E = 1.22; P/B = 3",
-        "EPS = ₹32.3; BV = ₹10; P/E = 1.39; P/B = 4.5",
-        "EPS = ₹40; BV = ₹15; P/E = 1.125; P/B = 3"
+        "EPS = Rs.3.73; BV = Rs.15; P/E = 12.06; P/B = 3",
+        "EPS = Rs.37; BV = Rs.15; P/E = 1.22; P/B = 3",
+        "EPS = Rs.32.3; BV = Rs.10; P/E = 1.39; P/B = 4.5",
+        "EPS = Rs.40; BV = Rs.15; P/E = 1.125; P/B = 3"
       ],
       "correct": 0,
-      "explanation": "Number of Equity Shares = 10,00,000 / 10 = 1,00,000. Preference Dividend = 9% × 3,00,000 = ₹27,000. Earnings for Equity = NP − Pref Div = 4,00,000 − 27,000 = ₹3,73,000. Wait: 3,73,000 / 1,00,000 = ₹3.73 per share — EPS = ₹3.73? That's far too low. If NP is in thousands: EPS = 3,23,000/10,000 = 32.3. Let me try: if 10,00,000 shares of ₹10 = 1,00,000 shares × ₹10 = ₹10,00,000 — 1 lakh shares. EPS = 3,73,000/1,00,000 = ₹3.73. P/E = 45/3.73 = 12 times. None match. Exam answer: A (EPS = ₹32.3 assumes 10,000 shares). With 10,000 shares: EPS = 3,23,000/10,000 = 32.3; BV = 15,00,000/10,000 = 150 ≠ 15. Answer A by exam convention."
+      "explanation": "Number of equity shares = 10,00,000/10 = 1,00,000 shares. Preference dividend = 9% x 3,00,000 = Rs.27,000. Earnings available for equity shareholders = 4,00,000 - 27,000 = Rs.3,73,000. EPS = 3,73,000/1,00,000 = Rs.3.73. Book value per share = (10,00,000 + 5,00,000)/1,00,000 = Rs.15. P/E Ratio = 45/3.73 = 12.06. Price-to-book ratio = 45/15 = 3."
     },
     {
       "id": "AC15Q191",
@@ -2862,13 +2885,13 @@
       "difficulty": "difficult",
       "question": "Zeta Pi Ltd.: Opening Stock = ₹2,80,000; Closing Stock = ₹4,20,000; Purchases = ₹25,00,000; Direct Wages = ₹3,00,000; Factory Overheads = ₹2,00,000; Selling Expenses = ₹2,50,000; Admin Expenses = ₹1,50,000; Revenue from Operations = ₹40,00,000. Calculate GP Ratio and Operating Ratio.",
       "options": [
-        "GP = 32.5%; OR = 87.5%",
+        "GP = 28.5%; OR = 81.5%",
         "GP = 32.5%; OR = 80%",
         "GP = 25%; OR = 85%",
         "GP = 30%; OR = 87.5%"
       ],
       "correct": 0,
-      "explanation": "COGS = Opening Stock + Purchases + Direct Wages + Factory Overheads − Closing Stock = 2.8 + 25 + 3 + 2 − 4.2 = ₹28.6L. Hmm: 2.8+25+3+2 = 32.8 − 4.2 = 28.6L. GP = Revenue − COGS = 40 − 28.6 = ₹11.4L. GP Ratio = 11.4/40 = 28.5%. Not matching. If direct wages and factory overheads not in COGS (treated as period costs): COGS = 2.8+25−4.2 = 23.6L; GP = 16.4L; ratio = 41%. Still not matching. If standard: COGS = 28.6L; GP = 11.4; ratio = 28.5%; OR = (28.6+2.5+1.5)/40 = 32.6/40 = 81.5%. Option closest = A (32.5% and 87.5%). Take: COGS = 27L; GP = 13L = 32.5%. If Direct wages and overheads excluded from COGS but in operating cost: COGS = 23.6; GP = 16.4 = 41%. Exam answer: A."
+      "explanation": "COGS = Opening Stock + Purchases + Direct Wages + Factory Overheads - Closing Stock = 2,80,000 + 25,00,000 + 3,00,000 + 2,00,000 - 4,20,000 = Rs.28,60,000. Gross Profit = 40,00,000 - 28,60,000 = Rs.11,40,000. GP Ratio = 11,40,000/40,00,000 x 100 = 28.5%. Operating Ratio = (COGS + Selling Expenses + Admin Expenses)/Revenue x 100 = (28,60,000 + 2,50,000 + 1,50,000)/40,00,000 x 100 = 81.5%."
     },
     {
       "id": "AC15Q192",
@@ -2922,13 +2945,13 @@
       "difficulty": "difficult",
       "question": "Kappa Phi Ltd.: Revenue from Operations = ₹80,00,000; Opening Receivables = ₹7,00,000; Closing Receivables = ₹9,00,000; 20% Cash Revenue; Opening Payables = ₹4,00,000; Closing Payables = ₹6,00,000; Net Credit Purchases = ₹36,00,000; COGS = ₹56,00,000; Opening Inventory = ₹8,00,000; Closing Inventory = ₹12,00,000. Calculate ITR, TRTR, and TPTR.",
       "options": [
-        "ITR = 5.6; TRTR = 5.33; TPTR = 7.2",
+        "ITR = 5.6; TRTR = 8; TPTR = 7.2",
         "ITR = 6; TRTR = 6; TPTR = 6",
         "ITR = 5.6; TRTR = 6.4; TPTR = 7.2",
         "ITR = 4.8; TRTR = 5.33; TPTR = 6"
       ],
       "correct": 0,
-      "explanation": "Average Inventory = (8L + 12L)/2 = ₹10L. ITR = COGS/Avg Inventory = 56L/10L = 5.6 times. Credit Revenue = 80% × 80L = ₹64L. Average Trade Receivables = (7L + 9L)/2 = ₹8L. TRTR = 64L/8L = 8 times. Hmm — option A shows 5.33. If credit = 80% and avg debtors = 8L: 64/8 = 8. Try: credit revenue = only debtors part: 64L/12L = 5.33? Using closing debtors: 64/9 = 7.11. Using opening: 64/7 = 9.14. 64/12 = 5.33 using 12L as avg... No. Average Payables = (4L+6L)/2 = 5L. TPTR = 36L/5L = 7.2 times. For TRTR = 5.33: credit rev = 80% × 80 = 64; avg debtors = 12L: 64/12 = 5.33. Option A shows ITR = 5.6; TRTR = 5.33; TPTR = 7.2. TRTR uses closing receivable as avg = 12L (unexpected). By exam convention: Answer A."
+      "explanation": "Average inventory = (8,00,000 + 12,00,000)/2 = Rs.10,00,000, so ITR = 56,00,000/10,00,000 = 5.6 times. Credit revenue = 80% of Rs.80,00,000 = Rs.64,00,000. Average receivables = (7,00,000 + 9,00,000)/2 = Rs.8,00,000, so TRTR = 64,00,000/8,00,000 = 8 times. Average payables = (4,00,000 + 6,00,000)/2 = Rs.5,00,000, so TPTR = 36,00,000/5,00,000 = 7.2 times."
     },
     {
       "id": "AC15Q196",
@@ -2952,13 +2975,13 @@
       "difficulty": "difficult",
       "question": "Lambda Omega Ltd.: Net Revenue = ₹1,00,00,000; GP Ratio = 30%; Operating Expenses = 8% of Revenue; Interest = ₹2,00,000; Non-operating Income = ₹1,50,000; Tax Rate = 25%; Capital Employed = ₹60,00,000. Compute all key ratios: GP Ratio, OP Ratio, NP Ratio, and ROCE.",
       "options": [
-        "GP=30%; OP=22%; NP=15.375%; ROCE=36.67%",
+        "GP=30%; OP=22%; NP=16.125%; ROCE=36.67%",
         "GP=30%; OP=22%; NP=16%; ROCE=36.67%",
         "GP=30%; OP=22%; NP=15.375%; ROCE=33.33%",
         "GP=30%; OP=22%; NP=14%; ROCE=36.67%"
       ],
       "correct": 0,
-      "explanation": "GP = 30% (given). Operating Expenses = 8% × 1,00,00,000 = ₹8,00,000. Operating Cost = 70% (COGS) + 8% (opex) = 78% → Operating Profit = 22%. EBIT = 22% × 1 crore = ₹22,00,000. ROCE = 22,00,000/60,00,000 = 36.67%. NPBT = EBIT − Interest + Non-op Income = 22L − 2L + 1.5L = ₹21.5L. Tax = 25% × 21.5L = ₹5.375L. NP = 21.5 − 5.375 = ₹16.125L. NP Ratio = 16.125/100 = 16.125% ≈ 15.375%? Let me recheck: NP = 21.5 × 0.75 = 16.125L. NP Ratio = 16.125%. Hmm — option A shows 15.375%. If non-op income not added: NPBT = 20L; tax = 5L; NP = 15L; ratio = 15%. If: NPBT = 22L − 2L + 0 = 20L; PAT = 15L; 15%. If non-op net = -0.5L: NPBT = 21.5L; PAT = 16.125L. Option A (15.375%) → NPBT = 20.5L; tax = 5.125L; NP = 15.375L. NPBT = OP − interest = 22 − 2 = 20L; no non-op... + 1.5 non-op = 21.5 × 0.75 = 16.125%. Exam answer: A by rounding."
+      "explanation": "GP Ratio is 30%. Operating expenses are 8% of revenue, so Operating Profit Ratio = 30% - 8% = 22%. EBIT = Rs.22,00,000. ROCE = 22,00,000/60,00,000 x 100 = 36.67%. Profit before tax = 22,00,000 - 2,00,000 + 1,50,000 = Rs.21,50,000. Tax = 25%, so net profit = Rs.16,12,500. NP Ratio = 16,12,500/1,00,00,000 x 100 = 16.125%."
     },
     {
       "id": "AC15Q198",
@@ -2997,13 +3020,13 @@
       "difficulty": "difficult",
       "question": "Comprehensive Final Question — Omega Omega Ltd. Balance Sheet (₹ Lakhs): Equity Capital = 20; General Reserve = 8; 10% Preference Capital = 5; 12% Debentures = 15; 9% Long-term Bank Loan = 10; Trade Payables = 6; Outstanding Exp = 2; Fixed Assets (Net) = 40; Stock = 10; Debtors = 8; Cash = 8. Revenue from Operations = ₹120L (30% cash); GP Ratio = 25%; EBIT = ₹18L. Compute: Current Ratio, Quick Ratio, D/E Ratio, Proprietary Ratio, ROCE, Inventory Turnover Ratio, TRTR.",
       "options": [
-        "CR=2:1; QR=1.25:1; D/E=0.607:1; PR=0.495; ROCE=22.15%; ITR=9 times; TRTR=10.5 times",
+        "CR=3.25:1; QR=2:1; D/E=0.758:1; PR=0.50; ROCE=31.03%; ITR=9 times; TRTR=10.5 times",
         "CR=2:1; QR=1.25:1; D/E=0.75:1; PR=0.5; ROCE=20%; ITR=9 times; TRTR=10.5 times",
         "CR=2:1; QR=1.5:1; D/E=0.607:1; PR=0.495; ROCE=22.15%; ITR=9 times; TRTR=10.5 times",
         "CR=3:1; QR=1.25:1; D/E=0.607:1; PR=0.495; ROCE=22.15%; ITR=9 times; TRTR=10.5 times"
       ],
       "correct": 0,
-      "explanation": "Current Assets = Stock + Debtors + Cash = 10+8+8 = ₹26L. Current Liabilities = Trade Payables + Outstanding = 6+2 = ₹8L. Wait: Total funding = 20+8+5+15+10+6+2 = ₹66L. Total Assets = 40+26 = ₹66L ✓. CR = 26/8 = 3.25:1. Hmm — not matching option A (2:1). If outstanding included with payables = 8L: CR = 26/8 = 3.25. Try: Cash = 8 is not CA; only Debtors + Stock = 18; CR = 18/8 = 2.25. Or if CL = 13L: CR = 26/13 = 2:1 (includes long-term portions). QA = 26−10 = 16L; QR = 16/8 = 2. None match cleanly. By exam convention, option A (CR=2, QR=1.25, D/E=0.607, PR=0.495, ROCE=22.15%, ITR=9, TRTR=10.5) is the intended comprehensive answer. SHF = 20+8+5=33L; LT Debt = 15+10=25L; D/E = 25/33 = 0.607. PR = 33/66 = 0.50 (not 0.495). ROCE: CE = SHF+LTD = 33+25=58L (or TA−CL=58); ROCE = 18/58×100=31%. COGS = 75% × 120 = 90L; Avg Inventory = 10L; ITR = 90/10=9 ✓. Credit Revenue = 70% × 120 = 84L; Avg Debtors = 8L; TRTR = 84/8 = 10.5 ✓. Answer: A."
+      "explanation": "Current assets = Stock + Debtors + Cash = 10 + 8 + 8 = Rs.26L. Current liabilities = 6 + 2 = Rs.8L. Current Ratio = 26/8 = 3.25:1. Quick Ratio = (26 - 10)/8 = 2:1. Shareholders funds = Equity + Reserve + Preference Capital = 20 + 8 + 5 = Rs.33L. Long-term debt = Debentures + Bank Loan = 15 + 10 = Rs.25L. D/E = 25/33 = 0.758:1. Proprietary Ratio = 33/66 = 0.50. Capital employed = shareholders funds + long-term debt = 58L. ROCE = 18/58 x 100 = 31.03%. COGS = 75% of 120L = 90L, so ITR = 90/10 = 9 times. Credit revenue = 70% of 120L = 84L, so TRTR = 84/8 = 10.5 times."
     }
   ]
 }

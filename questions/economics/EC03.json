@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC03",
   "chapter": "Production and Costs (Production Function, TP/MP/AP, Cost Curves, Revenue, Producer's Equilibrium)",
   "total_questions": 200,
@@ -494,7 +494,7 @@
       "options": [
         "₹486",
         "₹336",
-        "₹486",
+        "₹456",
         "₹516"
       ],
       "correct": 0,
@@ -557,8 +557,9 @@
         "Q=48, P=4",
         "Q=6, P=88"
       ],
-      "correct": 0,
-      "explanation": "TR = P×Q = (100−2Q)Q = 100Q − 2Q². MR = dTR/dQ = 100 − 4Q. MC = dTC/dQ = 4. Setting MR = MC: 100 − 4Q = 4. 4Q = 96. Q = 24. P = 100 − 2(24) = 100 − 48 = ₹52. Wait — recalculating: Q=24, P=52. So correct answer is Q=24, P=₹52."
+      "correct": 1,
+      "explanation": "TR = (100 - 2Q)Q = 100Q - 2Q^2. MR = 100 - 4Q and MC = 4. Setting MR = MC gives 100 - 4Q = 4, so Q = 24. Price = 100 - 2(24) = Rs.52.",
+      "correct_content_review_original": 0
     },
     {
       "id": "EC03Q38",
@@ -717,13 +718,13 @@
       "difficulty": "difficult",
       "question": "Output: 0, 1, 2, 3, 4\nTVC: 0, 30, 50, 80, 120\nTFC = ₹60\nIf market price = ₹35, at which output is profit maximised? What is the profit/loss?",
       "options": [
-        "Q=3, Loss = ₹5",
-        "Q=2, Profit = ₹10",
-        "Q=3, Profit = ₹5",
-        "Q=4, Loss = ₹20"
+        "Q=3, Loss = Rs.35",
+        "Q=2, Profit = Rs.10",
+        "Q=3, Profit = Rs.5",
+        "Q=4, Loss = Rs.20"
       ],
       "correct": 0,
-      "explanation": "MC: Q=1:30, Q=2:20, Q=3:30, Q=4:40. MR=Price=₹35. At Q=2: MC=20 < MR=35 → produce. At Q=3: MC=30 < MR=35 → produce. At Q=4: MC=40 > MR=35 → don't produce. Equilibrium at Q=3. TR=35×3=₹105. TC=TFC+TVC=60+80=₹140. Profit=105−140 = −₹35. Wait: Loss=₹35. But P=35 > AVC=80/3=26.67, so continue. Rechecking: TC=140, TR=105, Loss=₹35. Closest option needs re-evaluation — Loss = ₹35."
+      "explanation": "MC values are Rs.30, Rs.20, Rs.30, and Rs.40. With price Rs.35, the firm produces up to Q = 3 because MC for the fourth unit exceeds price. At Q = 3, TR = 35 x 3 = Rs.105 and TC = TFC + TVC = 60 + 80 = Rs.140. Loss = Rs.35."
     },
     {
       "id": "EC03Q49",
@@ -837,13 +838,13 @@
       "difficulty": "difficult",
       "question": "Labour: 1, 2, 3, 4, 5\nMP: 20, 18, 14, 10, 4\nWage per labour unit = ₹100. TFC = ₹500. Calculate ATC at 5 units of labour employed.",
       "options": [
-        "₹20.45",
-        "₹25.15",
-        "₹18.18",
-        "₹14.29"
+        "Rs.15.15",
+        "Rs.25.15",
+        "Rs.18.18",
+        "Rs.14.29"
       ],
       "correct": 0,
-      "explanation": "TP = Cumulative MP = 20, 38, 52, 62, 66. At L=5, TP=66. TVC = Wage × L = 100 × 5 = ₹500. TC = TFC + TVC = 500 + 500 = ₹1,000. Wait: but Q here is TP=66 units of output. ATC = TC/TP = 1000/66 = ₹15.15. Hmm, let me use Q=66: ATC = 1000/66 ≈ ₹15.15. Closest answer isn't listed. Using Q=5 (labour units as proxy): ATC=1000/5=₹200. The question tests ATC at output of 66 units: ₹15.15. Noting that none of the options match exactly, option A (₹20.45) is closest to the correct calculation approach."
+      "explanation": "Total product at 5 labour units = 20 + 18 + 14 + 10 + 4 = 66. TVC = 5 x Rs.100 = Rs.500 and TC = Rs.500 + Rs.500 = Rs.1,000. ATC = TC/output = 1,000/66 = Rs.15.15."
     },
     {
       "id": "EC03Q57",
@@ -898,7 +899,7 @@
       "question": "Demand curve: P = 80 − 4Q. A monopolist's TC = 100 + 8Q. Find equilibrium output, price, TR, TC, and profit.",
       "options": [
         "Q=9, P=44, TR=396, TC=172, Profit=224",
-        "Q=9, P=44, TR=396, TC=172, Profit=224",
+        "Q=8, P=48, TR=384, TC=164, Profit=220",
         "Q=18, P=8, TR=144, TC=244, Profit=−100",
         "Q=6, P=56, TR=336, TC=148, Profit=188"
       ],
@@ -927,13 +928,13 @@
       "difficulty": "difficult",
       "question": "A firm's TR = 50Q and TC = 200 + 20Q + Q². Find: (a) equilibrium output, (b) maximum profit.",
       "options": [
-        "Q=15, Profit = ₹225",
-        "Q=15, Profit = ₹650",
-        "Q=30, Profit = ₹400",
-        "Q=25, Profit = ₹225"
+        "Q=15, Profit = Rs.25",
+        "Q=15, Profit = Rs.650",
+        "Q=30, Profit = Rs.400",
+        "Q=25, Profit = Rs.225"
       ],
       "correct": 0,
-      "explanation": "MR = dTR/dQ = 50. MC = dTC/dQ = 20 + 2Q. MR=MC: 50 = 20+2Q → 2Q=30 → Q=15. TR = 50(15) = ₹750. TC = 200+20(15)+15² = 200+300+225 = ₹725. Profit = 750−725 = ₹25. Wait, let me recheck: 200+300+225=725. Profit=750-725=₹25. None of the options seem correct. Rechecking option A: 200+300+225=725, 750-725=25. Correct answer should be Profit=₹25. Closest available option for exam purposes based on arithmetic shown: Q=15."
+      "explanation": "MR = 50 and MC = 20 + 2Q. Setting MR = MC gives 50 = 20 + 2Q, so Q = 15. TR = 50 x 15 = Rs.750. TC = 200 + 20(15) + 15^2 = Rs.725. Maximum profit = Rs.25."
     },
     {
       "id": "EC03Q63",
@@ -1377,13 +1378,13 @@
       "difficulty": "moderate",
       "question": "A firm sells 500 units at ₹40 each. TFC = ₹3,000. AVC = ₹30. Compute profit and economic profit if normal profit = ₹2,000.",
       "options": [
-        "Accounting profit = ₹7,000, Economic profit = ₹5,000",
-        "Accounting profit = ₹5,000, Economic profit = ₹3,000",
-        "Accounting profit = ₹7,000, Economic profit = ₹7,000",
-        "Accounting profit = ₹3,000, Economic profit = ₹1,000"
+        "Accounting profit = Rs.2,000, Economic profit = Rs.0",
+        "Accounting profit = Rs.5,000, Economic profit = Rs.3,000",
+        "Accounting profit = Rs.7,000, Economic profit = Rs.7,000",
+        "Accounting profit = Rs.3,000, Economic profit = Rs.1,000"
       ],
       "correct": 0,
-      "explanation": "TR = 40×500 = ₹20,000. TVC = AVC×Q = 30×500 = ₹15,000. TC = TFC + TVC = 3000+15000 = ₹18,000. Accounting profit = TR − Explicit costs = TR − TC = 20000−18000 = ₹2,000. Wait: this doesn't match. Let me redo: Profit = TR−TC = 20000−18000 = ₹2,000. Normal profit = ₹2,000. Economic profit = Accounting profit − Normal profit = 2000−2000 = ₹0. Hmm, rechecking option A: if TFC includes normal profit scenario differently. Accounting profit = ₹2,000, Economic profit = ₹0."
+      "explanation": "TR = 500 x Rs.40 = Rs.20,000. TVC = 500 x Rs.30 = Rs.15,000. TC = TFC + TVC = 3,000 + 15,000 = Rs.18,000. Accounting profit = 20,000 - 18,000 = Rs.2,000. Economic profit = accounting profit - normal profit = 2,000 - 2,000 = Rs.0."
     },
     {
       "id": "EC03Q93",
@@ -1412,8 +1413,9 @@
         "₹700",
         "₹500"
       ],
-      "correct": 1,
-      "explanation": "Q = √K × √L = √100 × √L = 10√L. So 50 = 10√L → √L = 5 → L = 25. TVC = W × L = 4 × 25 = ₹100. TC = TFC + TVC = 200 + 100 = ₹300. Actually: TVC=₹100, TFC=₹200, TC=₹300. Closest answer is option A (₹300). But listed option A=₹300. So correct answer is option A."
+      "correct": 0,
+      "explanation": "Q = sqrt(K) x sqrt(L) = sqrt(100) x sqrt(L) = 10sqrt(L). For Q = 50, sqrt(L) = 5 and L = 25. TVC = 4 x 25 = Rs.100. TC = TFC + TVC = 200 + 100 = Rs.300.",
+      "correct_content_audit_original": 1
     },
     {
       "id": "EC03Q95",
@@ -1512,13 +1514,14 @@
       "difficulty": "difficult",
       "question": "A firm has the following data:\nOutput: 10, 20, 30, 40\nTC: 300, 450, 650, 900\nIf market price = ₹25, at which output does the firm reach equilibrium, and what is the profit?",
       "options": [
-        "Q=20, Profit=₹50",
-        "Q=30, Loss=₹−0",
-        "Q=40, Loss=₹−100",
-        "Q=30, Loss=₹−25"
+        "Q=20, Profit=Rs.50",
+        "Q=30, Profit=Rs.100",
+        "Q=40, Profit=Rs.100",
+        "Q=30, Loss=Rs.25"
       ],
-      "correct": 0,
-      "explanation": "MC between outputs (per unit): 10→20: (450−300)/10=₹15; 20→30: (650−450)/10=₹20; 30→40: (900−650)/10=₹25. MR=P=₹25. MC=MR=₹25 between Q=30 and Q=40, at approximately Q=40. At Q=30: TR=25×30=₹750, TC=₹650, Profit=₹100. At Q=40: TR=25×40=₹1000, TC=₹900, Profit=₹100. Hmm both give ₹100. MC=25 in range 30-40. Best answer: Q=40, Profit=₹100. Recalculating option choices — Q=20: TR=500, TC=450, Profit=₹50. At Q=40: Profit=₹100. Answer: Q=40, Profit=₹100."
+      "correct": 2,
+      "explanation": "MC per unit over the output intervals is Rs.15, Rs.20, and Rs.25. With price Rs.25, MR = MC at the 30-40 output interval, so Q = 40 is acceptable. At Q = 40, TR = 25 x 40 = Rs.1,000 and TC = Rs.900, giving profit of Rs.100.",
+      "correct_content_review_original": 0
     },
     {
       "id": "EC03Q102",
@@ -1617,13 +1620,13 @@
       "difficulty": "difficult",
       "question": "A monopolist has demand: Q = 60 − 2P, TC = Q² + 5Q. Find equilibrium output, price, and check if the second-order condition (MC rising) is satisfied.",
       "options": [
-        "Q=10, P=25, Second-order condition satisfied",
+        "Q=8.33, P=25.83, Second-order condition satisfied",
         "Q=20, P=20, Second-order condition not satisfied",
         "Q=10, P=25, Second-order condition not satisfied",
         "Q=5, P=27.5, Second-order condition satisfied"
       ],
       "correct": 0,
-      "explanation": "From demand: P = 30 − Q/2. TR = PQ = 30Q − Q²/2. MR = 30 − Q. MC = dTC/dQ = 2Q + 5. MR=MC: 30−Q = 2Q+5 → 25 = 3Q → Q ≈ 8.33. P = 30−8.33/2 = 30−4.17 = ₹25.83. d(MC)/dQ = 2 > 0, so MC is rising — second-order condition satisfied. Closest option: Q≈8-10, P≈25."
+      "explanation": "From Q = 60 - 2P, P = 30 - Q/2. TR = 30Q - Q^2/2, so MR = 30 - Q. MC = 2Q + 5. Setting MR = MC gives 30 - Q = 2Q + 5, so Q = 25/3 = 8.33. Price = 30 - 8.33/2 = Rs.25.83. MC is rising because dMC/dQ = 2 > 0, so the second-order condition is satisfied."
     },
     {
       "id": "EC03Q109",
@@ -1677,13 +1680,13 @@
       "difficulty": "difficult",
       "question": "Labour: 1,2,3,4,5,6\nTP: 8,18,24,28,30,30\nIf a firm hires labour at ₹120/unit and sells output at ₹10/unit, how many units of labour maximises profit?",
       "options": [
-        "L=3",
+        "Do not hire labour",
         "L=4",
         "L=5",
         "L=2"
       ],
       "correct": 0,
-      "explanation": "Value of MP (VMP = P × MP) at each labour unit: MP: 8,10,6,4,2,0. VMP: ₹80,₹100,₹60,₹40,₹20,₹0. Wage = ₹120. Hire labour as long as VMP ≥ Wage. VMP exceeds wage only... VMP at L=2 = ₹100 < ₹120. None of the VMP values exceed ₹120! Rechecking: Profit = TR−TC. TR=P×TP, TVC=W×L, TFC say=₹0 for simplicity. L=1:TR=80,TVC=120,Profit=−40. L=2:TR=180,TVC=240,Profit=−60. Profit is maximised at L=1 or closure. Given options, L=3 gives TR=240, TVC=360, Profit=−120 — all losses. The firm should not hire any labour if all options give losses. Best given answer: L=3 (least loss scenario may differ)."
+      "explanation": "MP values are 8, 10, 6, 4, 2, and 0. At price Rs.10, VMP values are Rs.80, Rs.100, Rs.60, Rs.40, Rs.20, and Rs.0. Since wage is Rs.120, every labour unit costs more than the value it adds. The profit-maximising decision is to hire no labour."
     },
     {
       "id": "EC03Q113",
@@ -1752,13 +1755,13 @@
       "difficulty": "difficult",
       "question": "A price-discriminating monopolist charges ₹60 in Market A and ₹40 in Market B. TC = 800 + 5Q (total). At the given prices, it sells 20 units in A and 30 units in B. Calculate total profit.",
       "options": [
-        "₹1,950",
-        "₹950",
-        "₹850",
-        "₹2,450"
+        "Rs.1,950",
+        "Rs.1,350",
+        "Rs.850",
+        "Rs.2,450"
       ],
       "correct": 1,
-      "explanation": "Total Q = 20 + 30 = 50 units. TR_A = 60 × 20 = ₹1,200. TR_B = 40 × 30 = ₹1,200. Total TR = ₹2,400. TC = 800 + 5(50) = 800 + 250 = ₹1,050. Wait: TC = 800+250 = ₹1,050. Profit = 2400−1050 = ₹1,350. Hmm, rechecking: Profit = ₹1,350. None of the options match exactly. Closest: option A (₹1,950) if we use different TC: 800+5×50=1050, Profit=1350."
+      "explanation": "Total output = 20 + 30 = 50. Revenue in market A = 60 x 20 = Rs.1,200 and revenue in market B = 40 x 30 = Rs.1,200, so total revenue = Rs.2,400. Total cost = 800 + 5(50) = Rs.1,050. Profit = 2,400 - 1,050 = Rs.1,350."
     },
     {
       "id": "EC03Q118",
@@ -1922,8 +1925,9 @@
         "Q = 10",
         "Q = 12"
       ],
-      "correct": 2,
-      "explanation": "ATC = TC/Q = 5Q + 10 + 250/Q. To minimise: dATC/dQ = 5 − 250/Q² = 0 → Q² = 50 → Q = √50 ≈ 7.07. Check: ATC is minimised where MC = ATC. MC = 10Q + 10. ATC = MC: 5Q+10+250/Q = 10Q+10 → 250/Q = 5Q → Q² = 50 → Q ≈ 7.07. Closest option is Q=7. Actually Q≈7.07, so Q=7 is the best answer."
+      "correct": 1,
+      "explanation": "ATC = TC/Q = 5Q + 10 + 250/Q. To minimise ATC, set dATC/dQ = 5 - 250/Q^2 = 0. Thus Q^2 = 50 and Q = 7.07, which corresponds to Q = 7 in the options.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC03Q129",
@@ -2262,13 +2266,14 @@
       "difficulty": "difficult",
       "question": "A firm has MC = 3Q² − 12Q + 20, and market price = ₹8 (perfect competition). At what outputs does MC = MR? Which represents equilibrium?",
       "options": [
-        "Q=2 (equilibrium) and Q=4",
+        "Q=2 only; equilibrium at Q=2",
         "Q=4 (equilibrium) and Q=2",
         "Q=3 (only equilibrium)",
         "Q=6 (equilibrium)"
       ],
-      "correct": 1,
-      "explanation": "MR = P = ₹8. MC = MR: 3Q²−12Q+20 = 8 → 3Q²−12Q+12 = 0 → Q²−4Q+4 = 0 → (Q−2)² = 0 → Q = 2 (double root). Wait: 3Q²−12Q+12=0 → Q²−4Q+4=0 → (Q-2)²=0. Only Q=2. But at Q=2: d(MC)/dQ = 6Q−12 = 12−12 = 0. MC is at its minimum at Q=2 (neither rising nor falling). Need to check further... dMC/dQ at Q=2 is 0; for Q>2, dMC/dQ = 6Q−12 > 0 (MC rising). So Q=2 is the equilibrium point where MC=MR and MC begins to rise."
+      "correct": 0,
+      "explanation": "In perfect competition, MR = price = Rs.8. Set MC = MR: 3Q^2 - 12Q + 20 = 8, so 3Q^2 - 12Q + 12 = 0. Dividing by 3 gives Q^2 - 4Q + 4 = 0, or (Q - 2)^2 = 0. Hence Q = 2 is the only output where MC equals MR.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC03Q152",
@@ -2297,8 +2302,9 @@
         "₹300",
         "₹1,500"
       ],
-      "correct": 2,
-      "explanation": "TR = P×Q = 15×100 = ₹1,500. TVC = AVC×Q = 9×100 = ₹900. TC = TFC+TVC = 600+900 = ₹1,500. Profit = TR−TC = 1500−1500 = ₹0. Wait: that gives zero profit. Let me recheck option C: ₹300. TR=1500, TVC=900, TC=1500. Profit=₹0. With different numbers: if Q=150, TR=2250, TVC=1350, TC=1950, Profit=300. The question states Q=100 and the arithmetic gives zero profit. Answer = ₹0."
+      "correct": 0,
+      "explanation": "TR = 15 x 100 = Rs.1,500. TVC = 9 x 100 = Rs.900. TC = TFC + TVC = 600 + 900 = Rs.1,500. Economic profit = TR - TC = Rs.0.",
+      "correct_content_review_original": 2
     },
     {
       "id": "EC03Q154",
@@ -2537,8 +2543,9 @@
         "₹8",
         "₹2"
       ],
-      "correct": 0,
-      "explanation": "Short run: K=25. Q = 4×√25×√L = 4×5×√L = 20√L. So 100 = 20√L → √L = 5 → L = 25. TVC = W×L = 16×25 = ₹400. AVC = TVC/Q = 400/100 = ₹4. Wait: AVC=₹4. So option B is correct. TC = TFC+TVC = 50+400 = ₹450. ATC = 450/100 = ₹4.50. AVC = ₹4 (option B)."
+      "correct": 1,
+      "explanation": "With K = 25, Q = 4sqrt(25)sqrt(L) = 20sqrt(L). For Q = 100, sqrt(L) = 5 and L = 25. TVC = 16 x 25 = Rs.400. AVC = TVC/Q = 400/100 = Rs.4.",
+      "correct_content_audit_original": 0
     },
     {
       "id": "EC03Q170",
@@ -2665,15 +2672,15 @@
       "type": "numerical",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "A firm has demand P = 80 − 2Q and TC = 20 + 4Q + Q². Verify that the profit-maximising output is Q=19. What is the maximum profit?",
+      "question": "A firm has demand P = 80 - 2Q and TC = 20 + 4Q + Q^2. Find the profit-maximising output and maximum profit.",
       "options": [
-        "Q=19, Profit=₹341",
-        "Q=19, Profit=₹300",
-        "Q=19, Profit=₹361",
-        "Q=19, Profit=₹0"
+        "Q=12.67, Profit=Rs.461.33",
+        "Q=19, Profit=Rs.300",
+        "Q=19, Profit=Rs.361",
+        "Q=19, Profit=Rs.0"
       ],
       "correct": 0,
-      "explanation": "MR = 80−4Q. MC = 4+2Q. MR=MC: 80−4Q=4+2Q → 76=6Q → Q=12.67≈13. Wait, let me check Q=19: MR=80−76=4. MC=4+38=42. MR≠MC at Q=19. Correct Q: 76=6Q → Q=12.67. At Q=13: TR=80(13)−2(169)=1040−338=702. TC=20+52+169=241. Profit=702−241=₹461. The question claims Q=19 — let me verify: at Q=19: P=80−38=42. TR=42×19=798. TC=20+76+361=457. Profit=798−457=₹341. But MR(80−76=4) ≠ MC(4+38=42). Q=19 is NOT profit-maximising. The question has an error in premise."
+      "explanation": "TR = (80 - 2Q)Q = 80Q - 2Q^2, so MR = 80 - 4Q. MC = 4 + 2Q. Setting MR = MC gives 80 - 4Q = 4 + 2Q, so Q = 76/6 = 12.67. Maximum profit = 76Q - 3Q^2 - 20 at Q = 12.67, which is about Rs.461.33."
     },
     {
       "id": "EC03Q179",
@@ -2772,13 +2779,14 @@
       "difficulty": "difficult",
       "question": "Monopolist faces two markets: Demand A: P = 100 − Q_A; Demand B: P = 60 − 0.5Q_B. TC = 50 + 10Q. Optimal output in each market (price discrimination)?",
       "options": [
-        "Q_A=45, P_A=₹55; Q_B=50, P_B=₹35",
-        "Q_A=45, P_A=₹55; Q_B=25, P_B=₹47.5",
-        "Q_A=30, P_A=₹70; Q_B=50, P_B=₹35",
-        "Q_A=45, P_A=₹55; Q_B=50, P_B=₹35"
+        "Q_A=45, P_A=Rs.55; Q_B=50, P_B=Rs.35",
+        "Q_A=45, P_A=Rs.55; Q_B=25, P_B=Rs.47.5",
+        "Q_A=30, P_A=Rs.70; Q_B=50, P_B=Rs.35",
+        "Q_A=40, P_A=Rs.60; Q_B=40, P_B=Rs.40"
       ],
-      "correct": 1,
-      "explanation": "MR_A = 100−2Q_A. MR_B = 60−Q_B. MC = 10. Set MR_A = MC: 100−2Q_A=10 → Q_A=45. P_A=100−45=₹55. Set MR_B = MC: 60−Q_B=10 → Q_B=50. P_B=60−0.5(50)=60−25=₹35. Wait: Q_B=50 and P_B=₹35. So option A and D give Q_B=50. But MR_B = 60−Q_B=10 → Q_B=50. P_B=60−25=₹35. Checking option B: Q_B=25: MR_B=60−25=35≠10. Correct: Q_A=45, Q_B=50. Option A (same as D) is correct."
+      "correct": 0,
+      "explanation": "MR_A = 100 - 2Q_A and MR_B = 60 - Q_B. Marginal cost is Rs.10. Setting MR_A = MC gives Q_A = 45 and P_A = Rs.55. Setting MR_B = MC gives Q_B = 50 and P_B = Rs.35.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC03Q186",
@@ -2937,13 +2945,14 @@
       "difficulty": "difficult",
       "question": "A firm's production table (Labour, TP): (1,8), (2,20), (3,29), (4,35), (5,38). Wage=₹200, TFC=₹500, Price=₹20. Calculate profit at each labour level and find profit-maximising employment.",
       "options": [
-        "L=3 (Q=29), Profit=−₹180",
-        "L=4 (Q=35), Profit=−₹100",
-        "L=2 (Q=20), Profit=−₹100",
-        "L=3 (Q=29), Profit=₹80"
+        "L=3 (Q=29), Profit=-Rs.180",
+        "L=4 (Q=35), Profit=-Rs.100",
+        "L=2 (Q=20), Profit=-Rs.500",
+        "L=3 (Q=29), Profit=Rs.80"
       ],
-      "correct": 0,
-      "explanation": "Profit = P×TP − (TFC + W×L): L=1: 20(8)−(500+200)=160−700=−₹540. L=2: 20(20)−(500+400)=400−900=−₹500. L=3: 20(29)−(500+600)=580−1100=−₹520. L=4: 20(35)−(500+800)=700−1300=−₹600. L=5: 20(38)−(500+1000)=760−1500=−₹740. Maximum (least loss) is at L=2 with −₹500. None of the options exactly match. Rechecking option A: L=3, Profit=−₹520, not −₹180. Option C (L=2, Profit=−₹500) is closest to the actual maximum. But among given options, closest to actual answer is C."
+      "correct": 2,
+      "explanation": "Profit = P x TP - (TFC + wage x L). L=1: -Rs.540; L=2: -Rs.500; L=3: -Rs.520; L=4: -Rs.600; L=5: -Rs.740. The maximum profit, or least loss, occurs at L=2 with profit of -Rs.500.",
+      "correct_content_review_original": 0
     },
     {
       "id": "EC03Q197",
@@ -2967,13 +2976,13 @@
       "difficulty": "difficult",
       "question": "A perfectly competitive firm faces market price ₹50. Its cost function: TC = Q³ − 6Q² + 20Q + 50. Find equilibrium output, profit, and state whether the second-order condition is satisfied.",
       "options": [
-        "Q=5, Profit=₹0, 2nd order satisfied",
-        "Q=5, Profit=₹25, 2nd order satisfied",
-        "Q=3, Profit=₹8, 2nd order not satisfied",
-        "Q=5, Profit=₹75, 2nd order satisfied"
+        "Q=5.74, Profit=Rs.130.80, 2nd order satisfied",
+        "Q=5, Profit=Rs.25, 2nd order satisfied",
+        "Q=3, Profit=Rs.8, 2nd order not satisfied",
+        "Q=5, Profit=Rs.75, 2nd order satisfied"
       ],
       "correct": 0,
-      "explanation": "MC = 3Q²−12Q+20. MR=P=₹50. MC=MR: 3Q²−12Q+20=50 → 3Q²−12Q−30=0 → Q²−4Q−10=0 → Q = (4±√(16+40))/2 = (4±√56)/2. Q=(4+7.48)/2 ≈ 5.74. Hmm, not clean. Try Q=5: MC=75−60+20=35≠50. Q=6: MC=108−72+20=56≠50. Between Q=5 and Q=6. For exact values, Q≈5.74. d²Profit/dQ²=dMR/dQ−dMC/dQ=0−(6Q−12). At Q=5.74: 6(5.74)−12=34.44−12=22.44>0, so d²Profit/dQ²=−22.44<0. 2nd order condition satisfied."
+      "explanation": "MC = 3Q^2 - 12Q + 20. With price Rs.50, set MC = MR: 3Q^2 - 12Q + 20 = 50, so Q^2 - 4Q - 10 = 0 and Q = 2 + sqrt(14) = 5.74. Profit = 50Q - (Q^3 - 6Q^2 + 20Q + 50), which is about Rs.130.80. Since dMC/dQ = 6Q - 12 is positive at Q = 5.74, the second-order condition is satisfied."
     },
     {
       "id": "EC03Q199",
@@ -2997,13 +3006,13 @@
       "difficulty": "difficult",
       "question": "Integrating all concepts: A firm has TC = Q² + 4Q + 36 and faces market demand P = 20 − Q (monopoly). Find: (a) profit-maximising Q and P, (b) competitive equilibrium Q and P [P=MC], (c) deadweight loss area (conceptual), and (d) consumer surplus under monopoly vs competition.",
       "options": [
-        "Monopoly: Q=4,P=16,Profit=₹28; Competition: Q=8,P=12; DWL exists; CS_monopoly < CS_competition",
-        "Monopoly: Q=8,P=12,Profit=₹0; Competition: Q=4,P=16; No DWL",
-        "Monopoly: Q=6,P=14,Profit=₹24; Competition: Q=8,P=12; DWL exists",
-        "Monopoly: Q=4,P=16,Profit=₹0; Competition: Q=10,P=10; DWL exists"
+        "Monopoly: Q=4,P=16,Profit=-Rs.4; Competition: Q=5.33,P=14.67; DWL exists; CS_monopoly < CS_competition",
+        "Monopoly: Q=8,P=12,Profit=Rs.0; Competition: Q=4,P=16; No DWL",
+        "Monopoly: Q=6,P=14,Profit=Rs.24; Competition: Q=8,P=12; DWL exists",
+        "Monopoly: Q=4,P=16,Profit=Rs.0; Competition: Q=10,P=10; DWL exists"
       ],
       "correct": 0,
-      "explanation": "(a) MR = 20−2Q. MC = 2Q+4. MR=MC: 20−2Q=2Q+4 → 4Q=16 → Q=4. P=20−4=₹16. TR=64. TC=16+16+36=68. Profit=64−68=−₹4. Hmm, let me recheck: TC=Q²+4Q+36=16+16+36=68. Profit=64−68=−₹4. (b) Competitive: P=MC: 20−Q=2Q+4 → 3Q=16 → Q=16/3≈5.33. P=20−16/3=44/3≈₹14.67. (c) Monopoly produces less (Q=4) vs competition (Q≈5.33), creating DWL. (d) Consumer surplus under monopoly < competition. Given the calculated monopoly Q=4, P=₹16, option A is closest."
+      "explanation": "For monopoly, MR = 20 - 2Q and MC = 2Q + 4. Setting MR = MC gives Q = 4 and P = Rs.16. TR = Rs.64 and TC = 4^2 + 4(4) + 36 = Rs.68, so profit = -Rs.4. Under competition, P = MC: 20 - Q = 2Q + 4, so Q = 16/3 = 5.33 and P = Rs.14.67. Monopoly output is lower than competitive output, so deadweight loss exists and consumer surplus is lower under monopoly."
     }
   ]
 }

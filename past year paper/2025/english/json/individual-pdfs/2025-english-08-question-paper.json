@@ -1,0 +1,191 @@
+{
+  "subject": "English",
+  "subject_code": "101",
+  "year": "2025",
+  "paper": "2025-english-08-question-paper",
+  "total_questions": 11,
+  "chapters": [
+    {
+      "chapter_id": "1012025uestionpaper",
+      "chapter": "English CUET 2025 Past Year Paper - 2025-english-08-question-paper",
+      "questions": [
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correctly punctuated sentence:",
+          "options": [
+            "Its raining, we should take an umbrella.",
+            "It’s raining; we should take an umbrella.",
+            "Its raining; we should take an umbrella.",
+            "It’s raining we should take an umbrella."
+          ],
+          "correct": 1,
+          "explanation": "The sentence needs the contraction It’s and a semicolon to join the related independent clauses.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct synonym for the word: ”Benevolent”",
+          "options": [
+            "Hostile",
+            "Generous",
+            "Lazy",
+            "Greedy"
+          ],
+          "correct": 1,
+          "explanation": "Benevolent means kind or generous.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the error in the sentence (if any): ”She don’t like to play cricket.”",
+          "options": [
+            "She",
+            "don’t",
+            "like",
+            "No error"
+          ],
+          "correct": 1,
+          "explanation": "The error is don’t; with she, the correct form is doesn’t.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the most appropriate word to fill in the blank: He was so tired that he walk.",
+          "options": [
+            "easily",
+            "hardly",
+            "completely",
+            "mostly"
+          ],
+          "correct": 1,
+          "explanation": "Hardly fits the meaning: he was so tired that he could barely walk.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct indirect speech: He said, ”I will go to the market tomorrow.”",
+          "options": [
+            "He said he will go to the market tomorrow.",
+            "He said that he would go to the market tomorrow.",
+            "He said he would go to the market the next day.",
+            "He said that he will go to the market the next day."
+          ],
+          "correct": 2,
+          "explanation": "In indirect speech, will becomes would and tomorrow becomes the next day.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q06",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Rearrange the following parts into a meaningful sentence: P: is one of the most valuable skills Q: being able to communicate clearly R: in both personal and professional life S: a person can develop",
+          "options": [
+            "QPSR",
+            "QSPR",
+            "PQSR",
+            "QPRS"
+          ],
+          "correct": 0,
+          "explanation": "The correct order is: being able to communicate clearly is one of the most valuable skills a person can develop in both personal and professional life.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Rearrange the following parts into a meaningful sentence: P: when the electricity went out Q: we were watching a movie R: and had to finish it the next day S: at my friend’s house",
+          "options": [
+            "QSPR",
+            "PQRS",
+            "QPRS",
+            "QSRP"
+          ],
+          "correct": 3,
+          "explanation": "The correct order is: we were watching a movie at my friend’s house when the electricity went out and had to finish it the next day.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Rearrange the following parts into a meaningful sentence: P: before making any major decisions Q: is wise R: to consider all possible outcomes S: and seek advice if necessary",
+          "options": [
+            "QPRS",
+            "QRPS",
+            "PQRS",
+            "QPSR"
+          ],
+          "correct": 0,
+          "explanation": "The correct order is: it is wise before making any major decisions to consider all possible outcomes and seek advice if necessary.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct meaning of the idiom: ”Hit the nail on the head”",
+          "options": [
+            "Hurt someone intentionally",
+            "Say exactly the right thing",
+            "Do something pointless",
+            "Avoid answering a question"
+          ],
+          "correct": 1,
+          "explanation": "Hit the nail on the head means to say exactly the right thing.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct meaning of the idiom: ”Let the cat out of the bag”",
+          "options": [
+            "Release a pet",
+            "Spoil a surprise",
+            "Reveal a secret",
+            "Act carelessly"
+          ],
+          "correct": 2,
+          "explanation": "Let the cat out of the bag means to reveal a secret.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        },
+        {
+          "id": "101-2025-2025-english-08-question-paper-Q11",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the correct meaning of the idiom: ”Once in a blue moon”",
+          "options": [
+            "Frequently",
+            "Occasionally",
+            "Rarely",
+            "Always"
+          ],
+          "correct": 2,
+          "explanation": "Once in a blue moon means rarely.",
+          "source": "Individual PDF extraction: 2025-english-08-question-paper.pdf"
+        }
+      ]
+    }
+  ]
+}

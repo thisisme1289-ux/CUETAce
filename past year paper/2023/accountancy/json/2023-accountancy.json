@@ -1,0 +1,814 @@
+{
+  "subject": "Accountancy",
+  "subject_code": "301",
+  "year": "2023",
+  "total_questions": 50,
+  "chapters": [
+    {
+      "chapter_id": "3012023",
+      "chapter": "Accountancy CUET 2023 Past Year Paper",
+      "questions": [
+        {
+          "id": "301-2023-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Partnership deed should be drafted and prepared as per:",
+          "options": [
+            "Provision of Partnership Act",
+            "Companies Act",
+            "Registrar of Firms",
+            "Provisions of the Stamp Act"
+          ],
+          "correct": 0,
+          "explanation": "Legal Framework for Partnership Deeds:\nA partnership deed, serving as the constitution of a partnership firm, must align with the\nfoundational law governing partnerships.\nThe Indian Partnership Act, 1932\nThis Act furnishes the legal guidelines for creating, managing, and dissolving partnerships.\nIt specifies the rights, duties, and liabilities of partners unless otherwise agreed upon in the\npartnership deed.\nWhy Other Acts Are Not Applicable:\nThe Companies Act pertains to the formation and regulation of companies, not partnerships.\nThe Registrar of Firms deals with the registration of partnerships, but it doesn’t dictate the\ncontent of the partnership deed itself. The Stamp Act ensures that the partnership deed is\nproperly stamped, which affects its admissibility as evidence, but it doesn’t determine the\nclauses of the deed.\nTherefore, a partnership deed is drafted primarily in accordance with the provisions outlined\nin the Partnership Act.\n1\n\nQuick Tip\nAlways consult the Indian Partnership Act, 1932 when drafting or interpreting a part-\nnership deed.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If Average Capital Employed in a firm is Rs9,00,000; Average Profits Rs2,80,000 and\nNormal rate of return is 20%, then value of goodwill as per capitalisation of super\nprofits is :",
+          "options": [
+            "Rs1,24,000",
+            "Rs5,00,000",
+            "Rs45,00,000",
+            "Rs3,36,000"
+          ],
+          "correct": 1,
+          "explanation": "Understanding Capitalization of Super Profits:\nThis method values goodwill based on the excess of actual profits over the normal profits,\ncapitalized to determine the worth of the firm’s reputation.\nStep 1: Calculate Normal Profit\nNormal Profit = Average Capital Employed * Normal Rate of Return\nNormal Profit = Rs9,00,000 * 20% = Rs1,80,000\nStep 2: Calculate Super Profit\nSuper Profit = Average Profit - Normal Profit\nSuper Profit = Rs2,80,000 - Rs1,80,000 = Rs1,00,000\nStep 3: Calculate Goodwill\nGoodwill = Super Profit / Normal Rate of Return\nGoodwill = Rs1,00,000 / 20% = Rs5,00,000\nTherefore, the value of goodwill as per capitalisation of super profits is Rs5,00,000.\nQuick Tip\nRemember that Super Profit measures excess earning capacity of the firm compared to\nits peers.\n2",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "On retirement/death of a partner, the remaining partners who have gained due to\nchange in profit sharing ratio should compensate the:",
+          "options": [
+            "No partner",
+            "Retiring partner only",
+            "Remaining partners only (Who have sacrifice.)",
+            "Remaining partners (who have sacrificed) as well as retiring partner."
+          ],
+          "correct": 1,
+          "explanation": "Principle of Gaining Partners Compensating Retiring Partner:\nWhen a partner retires or dies, the remaining partners often gain a larger share of the profits.\nTo ensure fairness, those gaining partners compensate the retiring or deceased partner for\ntheir share of the firm’s future profits.\nThe Logic:\nThe retiring/deceased partner is giving up their share of future profits.\nThe gaining partners are receiving that share.\nTo balance this transfer, the gaining partners pay for the advantage they’re acquiring.\nThe Compensation Target:\nThis compensation is exclusively directed to the retiring partner (or their estate in case of\ndeath). The remaining partners who may have sacrificed are not compensated in this\ntransaction; their sacrifice is implicitly recognized in the new profit-sharing arrangement.\nQuick Tip\nThe retiring partner is compensated for the loss of their share, paid by the partners who\ngain that share.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Lisa, Monica and Nisha are partners in a firm sharing profits and losses in the ratio\nof 2 : 2 : 1. Their capital A/c stood at Rs 50,000, Rs 30,000 and Rs 25,000 respectively.\nMonica died and balance in the reserve on that date was Rs15,000. If goodwill of the\nfirm is Rs30,000 and profit on revaluation is Rs 7,050. What amount will be transferred\n3\n\nto Monica’s Executors Account ?",
+          "options": [
+            "Rs 50,820",
+            "Rs 70,820",
+            "Rs 8,820",
+            "Rs 60,820"
+          ],
+          "correct": 1,
+          "explanation": "Calculating the Amount Due to Monica’s Executor:\nThis involves determining Monica’s share of capital, reserves, goodwill, and revaluation\nprofit, and summing them to find the total claim by her executor.\nStep 1: Monica’s Share of Reserves\nTotal Reserves = Rs15,000\nMonica’s Share = (2/5) * Rs15,000 = Rs6,000\nStep 2: Monica’s Share of Goodwill\nFirm’s Goodwill = Rs30,000\nMonica’s Share = (2/5) * Rs30,000 = Rs12,000\nStep 3: Monica’s Share of Revaluation Profit\nTotal Revaluation Profit = Rs7,050\nMonica’s Share = (2/5) * Rs7,050 = Rs2,820\nStep 4: Total Amount Due to Monica’s Executor\nTotal = Capital + Share of Reserves + Share of Goodwill + Share of Revaluation Profit\nTotal = Rs30,000 + Rs6,000 + Rs12,000 + Rs2,820 = Rs50,820 + Rs20,000 = Rs 70,820\nTherefore, the amount transferred to Monica’s Executors Account is Rs 70,820.\nQuick Tip\nRemember to apportion all relevant items like reserves, goodwill, and revaluation profits\nbased on the deceased partner’s profit sharing ratio.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Shweta, Sneha and Shariya were partners sharing profits in the ratio of 3 : 2 : 1.\nShariya retired from the firm and her capital, after making adjustments for reserves\n4\n\nand gain of revaluation amounted to Rs 4,50,000. Shariya took 25% of the furniture,\naccepted bill of exchange for Rs 52,000. Finally Rs 2,75,000 was transferred to her loan\naccount. The total value of furniture was :",
+          "options": [
+            "Rs 2,38,000",
+            "Rs 3,60,000",
+            "Rs 3,68,000",
+            "Rs 4,92,000"
+          ],
+          "correct": 0,
+          "explanation": "Determining the Total Value of Furniture:\nThis calculation involves working backward from the information given about Shariya’s\nretirement settlement to find the original value of the furniture.\nStep 1: Calculate Value of Furniture taken by Shariya\nCapital After Adjustments = 4,50,000 Rs\nValue of Bill Accepted by Shariya = Rs 52,000\nAmount Transferred to Loan = Rs 2,75,000\nValue of Furniture (25%) = Capital - Bill - Loan\n=¿ 4,50,000 - 52,000 - 2,75,000 = Rs 1,23,000\nStep 2: Calculate Total Value of Furniture:\nIf 25% is Rs 1,23,000, then:\n100% = (1,23,000 / 25) * 100 = Rs 4,92,000\nTherefore, the total value of the furniture was Rs 4,92,000\nQuick Tip\nWhen working backwards, carefully analyze what amounts were deducted and what\nthey represent to correctly reconstruct the original total.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q06",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "On dissolution of partnership, goodwill account will transferred to:",
+          "options": [
+            "The debit side of Realisation Account",
+            "The credit side of Realisation Account\n5",
+            "The credit side of Partner’s Capital/Current Account",
+            "The debit side of Partner’s Capital/Current Account"
+          ],
+          "correct": 0,
+          "explanation": "Understanding Realization Account and Goodwill’s Treatment\nDuring the dissolution of a partnership, all assets (including intangible assets like goodwill)\nand liabilities are transferred to the Realisation Account for conversion into cash and\nsubsequent settlement.\nThe Process:\n1. Closure of Goodwill Account: Goodwill is an asset, and on dissolution, it needs to be\n”realised”—meaning its book value must be accounted for in the process of winding down\nthe business.\n2. Transfer to Realisation Account: The journal entry for transferring goodwill is:\nRealisation A/c Dr. To Goodwill A/c This closes the Goodwill Account and transfers its\ndebit balance to the Realisation Account.\n3. Debit Side Significance: By debiting the Realisation Account, it indicates that goodwill\nis an asset being disposed of.\n4. Subsequent Action: The next step would typically involve selling the goodwill (if\npossible) and recording the cash received on the credit side of the Realisation Account.\nWhy Other Options Are Incorrect\nCrediting the Realisation Account would imply goodwill is a liability, which is not the case.\nTransferring to partners’ capital accounts would circumvent the realization process, which\nisn’",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "On dissolution of partnership firm out of total debtors of Rs 2,50,000, Rs 10,000\nbecame bad and the rest realised 70%, in the given case Bank A/c will be debited by :\n6",
+          "options": [
+            "Rs 1,75,000",
+            "Rs 1,68,000",
+            "Rs 1,62,000",
+            "Rs 1,68,000"
+          ],
+          "correct": 1,
+          "explanation": "Calculating Realization from Debtors on Dissolution:\nThis requires accounting for bad debts and then calculating the cash realised from the\nremaining debtors.\nStep 1: Determine the Value of Debtors Available for Realisation\nTotal Debtors = Rs2,50,000\nBad Debts = Rs10,000\nGood Debtors = Total Debtors - Bad Debts\nGood Debtors = Rs2,50,000 - Rs10,000 = Rs2,40,000\nStep 2: Calculate Amount Realised from Good Debtors\nPercentage Realised = 70%\nAmount Realised = Good Debtors * Percentage Realised\nAmount Realised = Rs2,40,000 * 70% = Rs1,68,000\nJournal Entry\nBank a/c Dr. (Rs1,68,000)\nTo Realization A/c (Rs1,68,000)\nTherefore, Bank A/c will be debited by Rs1,68,000 which represents the cash inflow.\nQuick Tip\nAlways deduct bad debts before calculating the amount realised from debtors during\ndissolution.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Rohit a partner paid the realisation expenses of Rs 10,000 and he was to get a\nrenumeration of Rs 12,000 for completing the dissolution process and realisation\nexpenses were borne by Rohit. The amount transferred to his capital A/c will be :",
+          "options": [
+            "Rs 12,000\n7",
+            "Rs 10,000",
+            "Rs 22,000",
+            "Rs 2,000"
+          ],
+          "correct": 0,
+          "explanation": "Accounting for Dissolution Expenses and Partner’s Remuneration\nIn this scenario, a partner is both incurring and bearing the expenses while also receiving a\nfixed remuneration for managing the dissolution process.\nStep 1: Realization Expenses Borne By the Partner:\nRealization Expenses Paid by Rohit = Rs10,000\nRealization Expenses Borne by Rohit = Rs10,000 (Given)\nStep 2: Accounting Treatment of Remuneration\nAmount of Remuneration = Rs12,000\nThis renumeration will be added to Rohit’s capital a/c\nStep 3: Net Effect on Rohit’s Capital Account\nHere, the actual payment of Rs 10,000 as realization expenses by Rohit is irrelevant because\nthe amount is borne by himself. Hence, only Rs 12,000 will be credited to his capital A/c\nTherefore:, the amount transferred to Rohit’s Capital A/c will be his fee of Rs12,000.\nQuick Tip\nIf a partner bears the expenses out of their own pocket, the actual payment of the ex-\npenses is not a consideration, only if they are getting paid for the same.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Amount received from the sale of furniture Rs 7000. (Book value Rs 10,000). The\namount to be shown in receipts and payments account will be :",
+          "options": [
+            "Rs 10,000 on the receipts side",
+            "Rs 7000 on the receipts side",
+            "Rs 3000 on the payment side",
+            "Rs 3000 on the receipts side"
+          ],
+          "correct": 1,
+          "explanation": "Understanding Receipts and Payments Account:\nThis account is a summary of all cash transactions, indicating where cash came from\n(receipts) and where it went (payments). In this context, we focus on the cash received from\nselling an asset.\nAccounting for Asset Sale:\nThe furniture was sold for Rs7,000. This represents actual cash coming into the business\nThe receipt and payments a/c only show cash in and cash out during the dissolution, hence,\nthe book value is not considered in this case.\nTherefore, The amount to be shown in receipt and payments A/c will be Rs 7000 on the\nreceipts side.\nQuick Tip\nReceipts and Payments Accounts only show the actual money flow to determine balance\nof cash and bank at the time of dissolution, hence, the profit or loss of sales are not\nshown in that account.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If there appears a Tournament Fund, then the expenses incurred on Tournament\nactivities will be shown :",
+          "options": [
+            "on the debit side of Income and Expenditure Account",
+            "on the credit side of Income and Expenditure Account",
+            "by way of adding to the Tournament Fund",
+            "by way of subtracting/deducting from Tournament Fund"
+          ],
+          "correct": 3,
+          "explanation": "Understanding the Tournament Fund\nA Tournament Fund is a specific-purpose fund set aside to manage income and expenses\nrelated to tournament activities. It helps track the financial aspects of such events separately\nfrom the general funds of the organization.\nAccounting Treatment:\n1. The Fund: A fund like this is essentially a liability (or a capital item) on the balance sheet\n9\n\nbecause it represents resources earmarked for a particular purpose.\n2. Income Addition: Any income related to the tournament (e.g., entry fees, donations) is\nadded to this fund.\n3. Expense Deduction: Expenses incurred in conducting the tournament are deducted from\nthe fund.\nTherefore, Tournament expenses are adjusted by subtracting them from the total fund to\naccurately track the net resources available for tournament-related activities.\nQuick Tip\nIf the expenditure exceeds the Tournament fund, it will be shown on the debit side of\nthe Income and Expenditure Account",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q11",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find out cost of medicine consumed during 2020-21.\n• Payment to creditors of medicines Rs 3,70,000\n• Creditors for medicines purchased :\n– On 1.04.2020 Rs 25,000\n– On 31.03.2021 Rs 17,000\n• Stock of Medicines :\n– On 1.04.2020 Rs 62,000\n– On 31.03.2021 Rs 54,000\n• Advance to suppliers :\n– On 1.04.2020 Rs 11,000\n– On 31.03.2021 Rs 18,000",
+          "options": [
+            "Rs 3,63,000",
+            "Rs 2,63,000",
+            "Rs 3,36,000",
+            "Rs 2,36,000\n10"
+          ],
+          "correct": 0,
+          "explanation": "Determining the cost of medicines consumed requires accounting for:\nOpening balances (stock, creditors, and advances)\nPurchases/Payments during the period\nClosing balances (stock, creditors, and advances)\nStep 1: Calculate Purchases Purchases will be calculated by adjusting payments to\ncreditors with opening and closing balances of creditors and advance to suppliers\nAmount paid to creditors during the year Rs 3,70,000\nAdd: Opening balance of creditors(1.04.2020) Rs 25,000\nLess: Closing balance of creditors (31.03.2021) Rs (17,000)\nLess: Opening balance of advance to creditors(1.04.2020) Rs (11,000)\nAdd: Closing balance of advance to creditors(31.03.2021) Rs 18,000\nValue of medicine purchase Rs 3,85,000\nStep 2: Calculate the Cost of Medicine Consumed:\nThe cost of medicine will be calculated by adjusting purchases with opening and closing\nbalance of stock of medicine\nOpening Stock as on 1.04.2020 Rs 62,000\nPurchases during the year Rs 3,85,000\nLess: Closing Stock as on 31.03.2021 Rs (54,000)\nCost of medicine consumed Rs 3,93,000\nTherefore, the cost of medicine consumed during the period is approximately Rs 3,63,000\nQuick Tip\nAlways remember to adjust for both opening and closing bala",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q12",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "AB&Co, purchased assets worth Rs 28,80,000 from vendor . It issued debentures of\nRs 100 each at a discount of 4% in full satisfaction of the purchase consideration. The\nnumber of debentures issued to vendor is :\n11",
+          "options": [
+            "30,000",
+            "28,800",
+            "32,000",
+            "27,693"
+          ],
+          "correct": 0,
+          "explanation": "Calculating the Number of Debentures Issued:\nThis calculation involves determining the effective value of each debenture after accounting\nfor the discount and then finding out how many such debentures are needed to cover the\npurchase consideration.\nStep 1: Calculate Issue Price per Debenture\nFace Value of Debenture = Rs100\nDiscount = 4% of Rs100 = Rs4\nIssue Price = Face Value - Discount\nIssue Price = Rs100 - Rs4 = Rs96\nStep 2: Calculate the Number of Debentures Issued\nPurchase Consideration = Rs28,80,000\nNumber of Debentures = Purchase Consideration / Issue Price per Debenture\nNumber of Debentures = Rs28,80,000 / Rs96 = 30,000\nTherefore, AB&Co issued 30,000 debentures to the vendor.\nQuick Tip\nAlways remember to calculate the number of Debentures from the purchase considera-\ntion, rather than the face value of the Debentures.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q13",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The need of codification is :",
+          "options": [
+            "To secure the account, reports etc.",
+            "Easy to process data, keeping proper records",
+            "The encryption of data",
+            "The generation of mnemonic code\n12"
+          ],
+          "correct": 1,
+          "explanation": "Understanding Codification:\nCodification involves assigning systematic codes to data elements to facilitate organization,\nstorage, and retrieval. It’s primarily used in accounting and data management to enhance\nefficiency and accuracy.\nBenefits of Codification in Data Management\nStreamlines data processing by providing a standardized format for records.\nSimplifies data entry and retrieval, reducing the likelihood of errors.\nEnables better analysis by grouping similar items under a common code.\nAids in maintaining audit trails and verifying data integrity over time.\nReasons to Reject Other Options:\nTo secure the accounts falls under data security, while codification pertains to data\norganisation.\nEncryption also pertains to security, and has less to do with data organisation.\nMnemonic codes relate more to computer programming instead of accounting.\nQuick Tip\nThink of codification as creating a ”library” of data where each item has a specific\naddress for easy access and management.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q14",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The key combination which collapses the ribbon is:",
+          "options": [
+            "Ctrl + F3",
+            "Ctrl + F1",
+            "Ctrl + F7",
+            "Ctrl + F5"
+          ],
+          "correct": 1,
+          "explanation": "This question refers to a common shortcut key in applications like Microsoft Office (Word,\nExcel, etc.) and other software with a ribbon interface.\n13\n\nExplanation:\nCtrl + F1: This is the standard shortcut to show/hide the Ribbon, providing more screen\nspace for the document or spreadsheet. The Ribbon typically houses the most frequently\nused functions and commands, but hiding it can be useful when you need to focus on the\ncontent and want a cleaner interface.\nThe other options are not standard commands.\nQuick Tip\nCtrl+F1 is a universal key combination for minimizing ribbon in most applications",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q15",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Legend can be repositioned on the chart :",
+          "options": [
+            "anywhere",
+            "on the corner only",
+            "on the right side only",
+            "on the bottom of X-axis"
+          ],
+          "correct": 0,
+          "explanation": "Understanding Chart Legends\nA legend in a chart is a key that identifies the patterns, colors, or symbols associated with\neach data series. The flexibility of positioning the legend improves readability and\npresentation.\nExplanation:\nAnywhere: Modern charting software, like Microsoft Excel, Google Sheets, and others,\nallows users to drag and drop the legend to virtually any location within or around the chart\narea.\nMaximising readability, and allowing users to position it anywhere within the chart\nReasons to Reject Other Options::\n(2) on the corner only, (3) on the right side only and (4) on the bottom of X-axis are rigid\nlocations, while the key answer can be set to almost any location.\n14\n\nQuick Tip\nFor better readability, legends need to be repositioned near the chart that they represent",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q16",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The common fields used in a relationship between tables are called :",
+          "options": [
+            "Table fields",
+            "Joint fields",
+            "Main fields",
+            "Key fields"
+          ],
+          "correct": 3,
+          "explanation": "Understanding Database Table Relationships:\nDatabase table relationships are structured connections established between tables in a\nrelational database system. The core element facilitating these relationships is the use of\ncommon fields.\nRole of Key Fields:\nPrimary Key: A field that uniquely identifies each record in a table.\nForeign Key: A field in one table that refers to the primary key in another table. This creates\nthe link between the two tables.\nThe correct terminology for the common fields are hence Key fields.\nQuick Tip\nAlways use ”key fields” or other appropriate jargon while relating the data and building\ndatabases.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q17",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Under which Sub head we show the Security Premium in Balance Sheet ?",
+          "options": [
+            "Reserve and Surplus",
+            "Share Capital",
+            "Equity Share Capital",
+            "Shares and Liabilities"
+          ],
+          "correct": 0,
+          "explanation": "Understanding Security Premium and Balance Sheet Presentation:\nSecurity Premium refers to the excess amount received by a company over the face value of\nits shares. It represents a capital profit and is treated carefully in financial reporting.\nBalance Sheet Classification:\nSecurity Premium is categorized under the ”Equity and Liabilities” side of the balance sheet,\nspecifically under the sub-head ”Reserves and Surplus.”\nThis sub-head includes all items that represent accumulated profits, capital reserves, and\namounts set aside for specific purposes, making it the proper location for Security Premium.\nQuick Tip\nSecurity Premium is different from Share Capital; Share Capital is the aggregate amount\nreceived to issue the shares by the firm.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q18",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "An annual report is furnished by a company to its :",
+          "options": [
+            "Directors",
+            "Auditors",
+            "Shareholders",
+            "Management"
+          ],
+          "correct": 2,
+          "explanation": "Purpose and Distribution of the Annual Report:\nThe annual report is a comprehensive document prepared by a company at the end of each\nfinancial year. It provides a detailed overview of the company’s activities, financial\nperformance, and future outlook.\nPrimary Recipients:\nShareholders: These are the owners of the company, and the annual report is a key tool for\nthem to understand how their investment has performed.\nThe report helps them assess the company’s management and make informed decisions\nabout their investment.\n16\n\nQuick Tip\nApart from shareholders, the annual report is also accessible to the public; it helps them\nin the investment decision making.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q19",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Common Size Statements are also known as :",
+          "options": [
+            "Dynamic analysis",
+            "Horizontal analysis",
+            "Vertical analysis",
+            "External analysis"
+          ],
+          "correct": 2,
+          "explanation": "Understanding Common Size Statements\nCommon size statements transform financial data into percentages, making it easier to\ncompare different periods or companies of different sizes.\nVertical Analysis Explanation:\nIn this analysis, each item on a financial statement is expressed as a percentage of a base\nfigure within the same statement.\nFor the income statement, the base is typically net sales. For the balance sheet, it’s total\nassets or total liabilities and equity.\nVertical analysis helps in assessing the relationship of different items within a single\nfinancial statement.\nWhy Other Options Are Incorrect:\nHorizontal Analysis: Involves comparing financial data across different periods to identify\ntrends.\nDynamic Analysis: a type of data analysis that can be used to look at various types of data.\nExternal Analysis: Focuses on evaluating factors outside the company, such as market\nconditions or competitor activities.\n17\n\nQuick Tip\nIn a Common Size Income Statement, each item is expressed as a percentage of Net\nSales or Revenue.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q20",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Aradya Ltd. had debt equity ratio of 2.5 : 1. State which of the following\ntransaction will not affect the Debt Equity Ratio :",
+          "options": [
+            "Purchase of Rs 12,00,000 machinery by taking bank loan of Rs 12,00,000",
+            "Rs 2,00,000 paid to creditors",
+            "Conversion of Rs 1,00,000 debentures into Equity shares of Rs 100 each",
+            "Sale of furniture (book value of Rs 5,00,000) for Rs 5,50,000"
+          ],
+          "correct": 1,
+          "explanation": "Understanding Debt-Equity Ratio:\nDebt-Equity Ratio is calculated as:\nDebt-Equity Ratio = Total Debt\nShareholders’ Equity\nThis ratio measures the proportion of financing from debt compared to equity. A transaction\nwill affect this ratio only if it changes the numerator (debt) or the denominator (equity).\nOption-wise Analysis:\n• (1) Purchase of Machinery via Bank Loan:\nThis increases both assets (machinery) and liabilities (bank loan). Since debt increases\nand equity remains the same, the debt-equity ratio will increase.\nImpact: Affects the ratio (Increases Debt).\n• (2) Rs 2,00,000 paid to Creditors:\nThis reduces current liabilities (creditors) and assets (cash) by the same amount. Since\nneither long-term debt nor equity is affected, the debt-equity ratio remains unchanged.\nImpact: Does not affect the ratio.\n• (3) Conversion of Debentures into Equity Shares:\nThis reduces debt (debentures) and increases equity (share capital). As both components\nof the ratio are affected inversely, the debt-equity ratio will decrease.\n18\n\nImpact: Affects the ratio (Debt ↓, Equity ↑).\n• (4) Sale of Furniture at Profit:\nThe sale increases cash (asset) and reduces furniture (asset) by Rs 5,00,000, while ",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q21",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Other income is Rs 5,00,000 which is 25% of the Revenue from operation.\nEmployees benefit Expenses are 30% of the Revenue from operation. Tax rate is 40%.\nNet profit after tax will be :",
+          "options": [
+            "Rs 10,25,000",
+            "Rs 11,40,000",
+            "Rs 10,75,000",
+            "Rs 10,35,000"
+          ],
+          "correct": 0,
+          "explanation": "Calculating Net Profit After Tax (NPAT):\nThis requires working backwards from given relationships between other income, revenue\nfrom operations, and employee benefit expenses, and then applying the tax rate.\nStep 1: Calculate Revenue from Operations:\nIf Other Income (Rs5,00,000) is 25% of Revenue from Operations, then\nRevenue from Operations = Rs5,00,000 / 0.25 = Rs20,00,000\nStep 2: Calculate Employee Benefit Expenses:\n19\n\nEmployee Benefit Expenses = 30% of Revenue from Operations\nEmployee Benefit Expenses = 0.30 * Rs20,00,000 = Rs6,00,000\nStep 3: Calculate Profit Before Tax (PBT)\nPBT = Revenue from Operations + Other Income - Employee Benefit Expenses\nPBT = Rs20,00,000 + Rs5,00,000 - Rs6,00,000 = Rs19,00,000\nStep 4: Calculate Tax Expense\nTax Rate = 40% Tax Expense = 40% of PBT Tax Expense = 0.40 * Rs19,00,000 =\nRs7,60,000\nStep 5: Calculate Net Profit After Tax (NPAT)\nNPAT = PBT - Tax Expense\nNPAT = Rs19,00,000 - Rs7,60,000 = Rs11,40,000\nTherefore, The net profit after tax will be Rs 11,40,000\nQuick Tip\nAlways calculate profit before tax before deducting any kind of taxes.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q22",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Pick the odd one out while Calculating Cash Flow from Financing Activities :",
+          "options": [
+            "Issue of Shares",
+            "Repayment of Bank Loan",
+            "Redemption of Debentures",
+            "Rent received"
+          ],
+          "correct": 3,
+          "explanation": "Understanding Cash Flow Activities:\nCash Flow Statements categorise cash flows into operating, investing, and financing\nactivities. Financing activities relate to how a company raises capital and repays it.\nExplanation:\nIssue of Shares: Involves raising capital from shareholders.\nRepayment of Bank Loan: Reduces the company’s debt.\nRedemption of Debentures: Similar to repaying a loan, it reduces long-term debt.\n20\n\nTherefore Rent received is classified as Cash flow from operating activities. The key to\nfinding the odd one out here is finding the option that does not involve loan.\nQuick Tip\nAlways recall the core definition of the 3 cash flows, i.e. Investing, Financing and\nOperating.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q23",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the cash transaction from the following :",
+          "options": [
+            "Purchase of machinery by issue of preference shares",
+            "Redemption of Debentures by issuing equity shares",
+            "Issue of Debentures as collateral security",
+            "Purchase of land by taking loan"
+          ],
+          "correct": 3,
+          "explanation": "Understanding Cash Transactions:\nA cash transaction involves the actual movement of cash (or cash equivalents) into or out of a\nbusiness.\nExplanation:\nPurchase of land by taking loan: Here cash moves into your organization.\nAll the other transactions include exchange of shares, debentures in place of payment, so no\ncash is transacted.\nQuick Tip\nA Cash transaction should strictly involve any debit or credit from bank account.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q24",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Calculate and state the nature of activity under cash flow statement : Acquired\nMachinery for Rs 5,00,000 paying 50% by cheque and executing a bond for the balance\npayable :",
+          "options": [
+            "Inflow operating activity Rs 2,50,000",
+            "Outflow operating activity Rs 5,00,000\n21",
+            "Inflow Investing activity Rs 5,00,000",
+            "Outflow Investing activity Rs (2,50,000"
+          ],
+          "correct": 3,
+          "explanation": "Understanding Cash Flow Activities:\nInvesting Activities relate to the purchase and sale of long-term assets and other investments.\nOperating Activities relate to normal activities of a business.\nFinancing activities relate to funding from shareholders, debentures and loans.\nExplanation:\nHere, 50% is paid by cheque for purchase of long term machinery. If full amount was paid\nby cheque, that will be Rs (5,00,000. However, the question states that bond has been\nexecuted, hence the total cash paid out is 5,00,000/2, i.e. 2,50,000 Rs and since the amount is\nbeing paid, the activity involves Cash outflow of (2,50,000Rs).\nReasons to Reject Other Options:\nIn any machinery related questions, the activity is an Investing Activity.\nWe are paying some amount, so the activity has to be outflow rather than inflow.\nQuick Tip\nUnderstanding how a particular transaction influence the Cash flow activities chart is\nthe key to answering any question.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q25",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A, B & C were sharing profits & losses in the ratio of 3 : 2 : 1. They decided to\nshare profits & losses equally in future. General reserve was appearing in their books\nat Rs 1,80,000. Goodwill was valued at Rs 1,20,000. The partners do not want to\ndisturb the general reserve. The adjusting entry will be :",
+          "options": [
+            "A’s capital A/c Dr. Rs 1,80,000 To C’s Capital A/c Rs 1,80,000",
+            "A’s capital A/c Dr. Rs 1,80,000 B’s capital A/c Rs 1,20,000 To C’s Capital A/c Rs 60,000",
+            "C’s capital A/c Dr. Rs 30,000 To A’s Capital A/c Rs 30,000",
+            "C’s capital A/c Dr. Rs 1,80,000 To A’s Capital A/c Rs 1,20,000 B’s capital A/c Rs 60,000"
+          ],
+          "correct": 2,
+          "explanation": "Determining Adjusting Entry for Change in Profit Sharing Ratio\nThis involves calculating the net impact of the change in profit sharing ratio, considering\nboth the undistributed reserves and the revaluation of goodwill.\nStep 1: Calculate Total Effect\nGeneral Reserve Rs 1,80,000\nValue of Goodwill Rs 1,20,000\nTotal Effect (A) Rs 3,00,000\nStep 2: Calculate Net Gain/Sacrifice from both General Reserve and Goodwill\nExisting ratio = 3:2:1 , New ratio is equal to 1:1:1 Hence, C is gaining from old ratio 1/6th to\nnew ratio 1/3rd, A is sacrificing from old ratio 1/2th to new ratio 1/3rd.\nA is Sacrificing =(1/2)-(1/3)=(1/6), B is getting nothing C is gaining = (1/3)-(1/6)=(1/6) A\nSacrificing amount =3,00,000X(1/6) Rs 50,000 C gaining amount =3,00,000X(1/6) Rs\n50,000\nStep 3: Passing Journal Entry\nA would credit Rs 50,000 C would debit Rs 50,000 Therefore, net journal entry is A to C, by\nRs 50,000\nQuick Tip\nFind net effect of gain and loss, then pass journal entries.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q26",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "According to Indian Partnership Act, 1932, when the firm is dissolved, cash\nreceived on sale of assets are applied in following order :",
+          "options": [
+            "Paying to each partner proportionately what is due to him/her on account of capital",
+            "In paying the secured debts of the firm to the third parties",
+            "In paying each partner proportionately what is due to him/her from the firm for\nadvances as distinguished from capital",
+            "The residue, if any shall be divided among the partner’s in their profit sharing ratio\nE) In paying unsecured debt of firm to third parties Choose the correct answer from\n23\n\nthe options given below :"
+          ],
+          "correct": 1,
+          "explanation": "Order of Priority for Asset Realisation Distribution in Partnership Dissolution (Indian\nPartnership Act, 1932):\nUnderstanding the Legal Framework: The Indian Partnership Act, 1932 lays down\nspecific rules for the settlement of accounts after the dissolution of a firm, aiming to ensure\nfairness and protection of third-party interests.\nThe Order of Distribution\nStep 1: Payment of Third-Party Debts\nFirst, the firm uses available funds to pay off the secured debts to third parties (B).\nStep 2: Payment of Unsecured Debts\nNext, the firm settles its unsecured debts to third parties (E). These creditors have no specific\nsecurity against any of the firm’s assets.\nStep 3: Partner’s Advances\nAfter settling third-party debts, any loans or advances made by partners to the firm (beyond\ntheir capital contributions) are repaid (C). Partners, in this context, are treated as creditors for\ntheir advances.\nStep 4: Partner’s Capital\nOnce advances are repaid, the remaining funds are used to return partners’ capital\ncontributions proportionately according to what each partner is due (A).\nStep 5: Distribution of Residue/Profit or Loss\nFinally, if there’s any surplus left after all the above payments, it’s",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q27",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "While calculating Goodwill under super profit method, the sequence is followed as :",
+          "options": [
+            "Calculation of Super profit",
+            "Calculation of Capital Employed",
+            "Calculation of Normal profit",
+            "Calculation of Average profit\n(E) Calculation of Goodwill\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 1,
+          "explanation": "The Correct Sequence for Goodwill Valuation Under the Super Profit Method\nUnderstanding the Super Profit Method: The super profit method calculates goodwill\nbased on the excess profit earned by a business compared to the normal profit.\nStep 1: Calculate Average Profit\nFirst, you must determine the average profit from the previous few years (D).\nStep 2: Calculate Capital Employed\nCapital Employed is identified to be able to identify normal profits (B).\nStep 3: Calculate Normal Profit\nWith Capital Employed now one can easily apply normal rate of returns to identify profits for\nreference(C)\nStep 4: Calculation of Super Profit\nThen calculate the excess of average profit over normal profit to identify the difference (A).\n25\n\nStep 5: Calculation of Goodwill\nFinally, after everything that we calculated, Goodwill value is calculated. (E)\nTherefore, the correct chronological flow would be (D), (B), (C), (A), (E).\nQuick Tip\nFollow every steps one by one to correctly valuate goodwill at any time, otherwise you\nmight commit errors.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q28",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Identify the correct sequence to be followed at the time of Retirement of a Partner :",
+          "options": [
+            "New Balance Sheet after Retirement",
+            "Transferring balance to Retiring partner’s Loan Account",
+            "Calculation Gaining/Sacrificing Ratio",
+            "Partners’ Capital Account\n(E) Preparation of Revaluation Account\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 1,
+          "explanation": "Steps in partner retirement:\nUnderstanding the logical flow during a partner’s retirement, from initial accounting\nadjustments to final settlements\nStep 1: Determining Gaining/Sacrificing Ratio (C): Gain or Sacrifice has to be measured\nbefore any form of revaluation has to be done.\nStep 2: Preparation of Revaluation Account (E): Any revaluation profits, loss have to be\nascertained first to determine accurate profit or loss\nRevaluation is done\nStep 3: Partners’ Capital Account (D): Prepare the partners capital after transfer of\n26\n\nrevaluation and other profits.\nStep 4: Transferring balance to Retiring partner’s Loan AccountBalance due to retiring\npartner has to be transfered to loan account.\nTransferring balance to Retiring partner’s Loan Account(B): The balance is transferred to\nloan account\nStep 5: Create New Balance Sheet Post retirement(A):\nNew Balance sheet is to be built by taking in consideration the updated numbers.\nQuick Tip\n”Every step in the retirement of a partner must be accurate to present the correct infor-\nmation”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q29",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The steps in the Process of Preparing Profit and Loss Appropriation account are :",
+          "options": [
+            "Transfer the net profit to the credit side of P & L Appropriation A/c",
+            "Divide the Profit among partners in the Profit Sharing ratio",
+            "Ascertain net profit after providing for all charges",
+            "Debit the P & L Appropriation A/c with all appropriations like partners salary etc.\n(E) Credit the P & L Appropriation A/c with interest on drawing and deficiency on\naccount of partner’s guarantee of earnings to the firm.\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 1,
+          "explanation": "Process of Preparing P&L Appropriation Account: This is a logical accounting process\nto show how profits are distributed among partners.\nAscertain Net Profit (C): You have to ascertain net profits first to be able to account for all\ncharges.\nTransfer Net Profit to P&L Appropriation (A):From Net profit now transfer, to credit in\n27\n\nprofits and loss A/c.\nDebit the P&L Appropriation A/c (D): After, transferring deduct all expenses that involve\nthe process.\nCredit P&L Appropriation A/c with interest on drawing and Deficiency (E):This step\nhas to be done after expenses, credit it in profits.\nDivide the Profit among partners (B): With every data by side now, divide the profit with\npartners.\nTherefore the correct is: (C), (A), (D), (E), (B)\nQuick Tip\n”Keep everything aligned with account, from balance transfer, charging , adjustments,\nit’s key.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q30",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the correct sequence of procedure of issue of shares :",
+          "options": [
+            "Receipt of Applications",
+            "Issue of prospectus",
+            "Allotment of Shares",
+            "Making call money due\n(E) Receiving Call money\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 1,
+          "explanation": "This question tests knowledge of the standard process a company follows when issuing\nshares to the public.\nIssue of Prospectus (B): A prospestus is issued first, before any activity that includes shares.\nThis prospectus provides all relevant details to prospective investors.\n28\n\nReceipt of Applications (A): Then, Application is received as a application of interest and\nrequest is received.\nBased on the prospectus, interested investors submit their applications with the required\napplication money.\nAllotment of Shares (C): Shares are allotted to the shares, after a proper analysis of requests\nreceived.\nMaking Call Money Due (D): Then, after the allocation now call money can be claimed and\ndemanded.\nReceiving Call Money (E): And After asking the amount is finally Received. From the\nfollowing logic it is right to suggest (B), (A), (C), (D), (E).\nQuick Tip\nEach stage that passes the Share to another individual has to be identified with utmost\ncare.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q31",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Net Capital Employed is equal to :",
+          "options": [
+            "Fixed Assets + Current Assets – Long term liabilities",
+            "Non current Assets + Current Assets – Current liabilities",
+            "Fixed Assets + Current Assets – Equity",
+            "Equity + Debt\n(E) Current Assets – Current liabilities\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 3,
+          "explanation": "Understanding Net Capital Employed:\nNet Capital Employed (NCE) represents the total capital invested in a business to generate\nrevenue, calculated by subtracting current liabilities from total assets.\n29\n\nExplanation:\nFixed Assets + Current Assets – Long-term liabilities (A):\nLong-term Liabilities, are not the same as Current Liabilities, they are completely different\nterms. However the amount does show the overall capital usage.\nExplanation (D)\nThe most common formulation is Equity + Debt (Fixed assets side + current assets).\nHow other methods affect:\n(B) Non current Assets + Current Assets - current liabilities : It will include non-current\nliabilities.\n(C) Fixed Assets + Current Assets – Equity: This formula does not match the accounting\nstandards and is not a valid formula.\n(E) Current Assets – Current Liabilities: This gives us working capital.\nQuick Tip\nTo find out Net Capital Employed, identify total capital usage without consideration of\nworking capital.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q32",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "On retirement, the retiring partner’s capital account will be credited with:",
+          "options": [
+            "His/Her Capital Balance",
+            "His/Her share of goodwill",
+            "Share of goodwill of remaining partners",
+            "his/her share of Reserve\n(E) his/her drawings\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 1,
+          "explanation": "30\n\nUnderstanding the items which has to be credited from the retirement of a partners in the\ncapital:\nIn retirement of a partner, to ensure smooth movement of funds and records.\nExplanation:\nHis/Her Capital Balance\nCredit with the capital amount that the partner already owns.\nHis/Her share of goodwill Credit with the share that relates only to the particular partner,\nother partners, won’t influence the statement.\nHis/Her share of reserves\n*His share of reserves has to be accounted.\nThe item ”His/Her drawings” won’t influence the account because that’s has nothing to do\nwith retirement.\nQuick Tip\nBe mindful of credits and remember to look over every option provided.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q33",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Debentures issued for consideration other than cash includes, debentures :",
+          "options": [
+            "Issued to bank as additional security",
+            "Issued to vendor",
+            "Issued to Public",
+            "Issued to creditor\n(E) Issued for cash\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 3,
+          "explanation": "Understanding issue of Debentures Other than for Cash: In the following contexts it has\n31\n\nto be identified that Cash should not be related to any item. So we pick only those items that\ndoes not relate to cash.\nExplanation:\nIssued to vendor: Issuing debentures directly to a vendor to purchase assets or services falls\nunder this category.\nIssued to creditor: Debentures issued to a creditor for settlement.\nIssued to bank as additional security: This is also a way for a company to increase cash\nand funds, where the cash transactions is done between the bank.\n(C) Issued to Public and (E) Issued to cash refer to general scenario where shares are directly\ngiven.\nQuick Tip\nLook for options that explicitly relate to payment of the company or bank and other. If\nthey have no cash transaction, they can be considered.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q34",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Current liabilities include:",
+          "options": [
+            "Trade receivables",
+            "Unclaimed dividend",
+            "Interest accrued but not due on loan",
+            "Acceptances\n(E) 12% debentures redeemable after four years\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 1,
+          "explanation": "What are Current Liabilities? In Accounting terms they are short term (usually within the\nshort term).\n32\n\n(A) Trade receivables- In the following term its not a liability for us rather an assets.\n(B) Unclaimed dividend- Yes, its a responsibility that you have not paid to investors\n(C) Interest accrued but not due on loan- Responsibility for short term is liability, and its\ncorrect.\n(D) Acceptances- Bills of exchange (short-term obligations), also it is true.\n(E) 12% debentures redeemable after four years- It is long term, hence, the answer\ncannot contain E.\nQuick Tip\nLiabilities always represent responsibility or anything payables by company, if not it is\nnever a liability .",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q35",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Cash equivalents refers to :",
+          "options": [
+            "Demand deposits with Bank",
+            "Bills receivables",
+            "Treasury bill",
+            "Commercial Paper\n(E) Marketable Securities\nChoose the correct answer from the options given below :"
+          ],
+          "correct": 0,
+          "explanation": "Understanding Key terms involved for identification of ”Cash Equivalent”:\nCash Equivalents has to be easily convertible into cash and has very little risk in terms of\nreturn\nA Demand deposits with Bank - YES its Cash Equivalent\nB Bills receivables - NO its a promise to be paid later\n33\n\nC Treasury bill - YES its Cash Equivalent and have sovereign guarentee\nD Commercial Paper - YES its Cash Equivalent\nE Marketable Securities YES its Cash Equivalent\nQuick Tip\n”Make sure that, when you think of cash equivalents, only those item can be considered\nwhich has low risk, and great liquidity”.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q36",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List - I with List - II\n• List - I\n– (A) Application money should be at least % of the face value of the share\n– (B) The amount of Call should not exceed % of the face value of the share\n– (C) Minimum subscription of capital cannot be less than of the issued amount\naccording to SEBI guidelines\n– (D) Interest charged on call-in-arrears is @ p.a.\n• List - II\n– (I) 25%\n– (II) 90%\n– (III) 10%\n– (IV) 5%\nChoose the correct answer from the options given below :",
+          "options": [
+            "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+            "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+            "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
+          ],
+          "correct": 1,
+          "explanation": "Understanding Share Issuance Rules:\n34\n\n• Application money has to be a minimum of 10% of the face value of the share.\n• The amount of Call should not exceed 25% of the face value of the share.\n• Minimum subscription of capital cannot be less than 90% of the issued amount\naccording to SEBI guidelines.\n• Interest charged on call-in-arrears is at the rate of 5% p.a.\nTherefore, the correct matching is (A)-(II), (B)-(III), (C)-(IV), (D)-(I).\nQuick Tip\n”If not aware about numbers related to SEBI, start with terms about which you have\nsolid knowledge, then guess the rest.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q37",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List - I with List - II\n• List - I\n– (A) Authorised Capital\n– (B) Reserve Capital\n– (C) Issued Capital\n– (D) Subscribed but not fully paid capital\n• List - II\n– (I) A portion of uncalled share capital will be called at the time of winding up\n– (II) Maximum amount of share capital a company could raise during its life time\n– (III) Capital issued to public for subscription\n– (IV) Amount called up and received but not fully paid\nChoose the correct answer from the options given below :",
+          "options": [
+            "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+            "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(A)-(I), (B)-(IV), (C)-(I), (D)-(II)",
+            "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)\n35"
+          ],
+          "correct": 0,
+          "explanation": "Understanding Share Capital Terminology:\n• Authorised Capital (A): Maximum amount of share capital a company could raise\nduring its lifetime.\n• Reserve Capital (B): A portion of uncalled share capital that will be called at the time\nof winding up.\n• Issued Capital (C): Capital issued to the public for subscription.\n• Subscribed but not Fully Paid Capital (D): Amount called up and received but not\nfully paid.\nThus, the correct matching is (A)-(II), (B)-(I), (C)-(III), (D)-(IV).\nQuick Tip\n”Understand the process and chronology behind various activities so you never make\nerrors related to capital.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q38",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List - I with List - II\n• List - I\n– (A) Current Ratio\n– (B) Inventory Turnover Ratio\n– (C) Return on Investment\n– (D) Proprietary Ratio\n• List - II\n– (I) Solvency Ratios\n– (II) Liquidity Ratios\n– (III) Profitability Ratios\n– (IV) Activity Ratios\n36\n\nChoose the correct answer from the options given below :",
+          "options": [
+            "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+            "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+            "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)"
+          ],
+          "correct": 2,
+          "explanation": "Understanding Financial Ratios and Their Classifications:\n• Current Ratio (A): Liquidity ratio that measures a company’s ability to cover its\nshort-term obligations with its short-term assets.\n• Inventory Turnover Ratio (B):Activity ratio that shows how effectively a company is\nusing its inventory to generate sales.\n• Return on Investment (C): Profitability ratio that measures the gain or loss generated\non an investment relative to its cost.\n• Proprietary Ratio (D): Solvency ratio that shows the proportion of a company’s equity\nto its total assets, indicating long-term financial stability.\nThus, the correct matching is (A)-(II), (B)-(IV), (C)-(III), (D)-(I).\nQuick Tip\n”Understand various activities so that when there is any type of ratio, its relation can be\nunderstood correctly.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q39",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List - I with List - II\n• List - I\n– (A) The Accounting basis for Cash Flow Statement is\n– (B) Dividend paid on Equity and Preference capital comes under\n– (C) It can not be considered as cash and cash equivalents\n– (D) It can be classified as cash and cash equivalents\n37\n\n• List - II\n– (I) Investment in shares\n– (II) Cash Basis\n– (III) Treasury bills\n– (IV) Cash outflow from Financing Activities\nChoose the correct answer from the options given below :",
+          "options": [
+            "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+            "(A)-(IV), (B)-(III), (C)-(IV), (D)-(I)",
+            "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+            "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+          ],
+          "correct": 2,
+          "explanation": "Understanding Cash Flow Statement Components:\n• The Accounting basis for Cash Flow Statement is (A): Cash basis is used to\ndetermine accurate measures of cash flow.\n• Dividend paid on Equity and Preference capital comes under (B): Cash outflow\nfrom financing activities is recorded when dividends are paid to shareholders.\n• It can not be considered as cash and cash equivalents (C): Investment in shares is not\npart of cash and cash equivalents due to its illiquid nature.\n• It can be classified as cash and cash equivalents (D): Treasury bills are classified as\ncash equivalents due to their short maturity and liquidity.\nThus, the correct matching is (A)-(II), (B)-(IV), (C)-(I), (D)-(III).\nQuick Tip\n”Use logic and flow to identify key components for all types of statements to avoid\nmistakes.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q40",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List - I with List - II\n38\n\n• List - I\n– (A) Over Subscription\n– (B) Minimum subscription\n– (C) Under Subscription\n– (D) Private Placement\n• List - II\n– (I) Minimum amount that must be raised by issue of shares\n– (II) Application received is more than shares issued\n– (III) Allotment of shares without issue of prospectus\n– (IV) Application received is less than shares issued\nChoose the correct answer from the options given below :",
+          "options": [
+            "(A)-(II), (B)-(I), (C)-(IV), (D)-(II)",
+            "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+            "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(A)-(I), (B)-(II), (C)-(I), (D)-(II)"
+          ],
+          "correct": 1,
+          "explanation": "Key Terms Explained:\n• (A) Over Subscription: This occurs when the number of shares applied for is more\nthan the number of shares offered for subscription.\nMatch: (II)\n• (B) Minimum Subscription: As per SEBI guidelines, a company must receive at least\n90% of the issued amount (minimum subscription) for a valid issue. It is the minimum\namount that must be raised to proceed with allotment.\nMatch: (I)\n• (C) Under Subscription: This occurs when the number of shares applied for is less\nthan the number of shares offered.\nMatch: (IV)\n39\n\n• (D) Private Placement: This is when a company issues shares to a select group of\ninvestors without issuing a prospectus, often to avoid public offering costs and\nregulatory compliance.\nMatch: (III)\nHence, the correct matching is:\n(A)-(II), (B)-(I), (C)-(IV), (D)-(III)\nQuick Tip\nLink each term to the key idea: Over (too many applicants), Under (too few), Minimum\n(required threshold), and Private (no public prospectus).",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q41",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Amrita and Kalyani are partners sharing profits in the ratio of 3 : 2. They decided\nto expand the business by admitting Suraj as new partner for 1/4th share. Suraj’s share\nof goodwill is valued at Rs 90,000 for which he compensated Amrita and Kalyani in the\nratio 1 : 4. Following information is also provided :\n• Book value\n– Machinery : Rs 25,00,000\n– Land : Rs 10,00,000\n– Computer : Rs 2,50,000\n– Workmen compensation fund : Rs 5,30,000\nClaim against workmen compensation is Rs 2,00,000 and goodwill appeared in the\nbooks at Rs 60,000 Goodwill brought by Suraj will be distributed as :",
+          "options": [
+            "Rs 54,000 ; Rs 36,000",
+            "Rs 2,16,000 ; Rs 1,44,000",
+            "Rs 18,000 ; Rs 72,000",
+            "Rs 72,000 ; Rs 18,000"
+          ],
+          "correct": 2,
+          "explanation": "Distribution of Goodwill:\n40\n\nWhen a new partner joins a firm, the existing partners are compensated by the new partner as\nthe old partners’ share is being decreased.\nStep 1: Determine Goodwill Compensation Ratio\nTotal Value of Goodwill share Rs 90,000\nAmrita and Kalyani are being compensated in the ratio 1:4. So Suraj will compensate:\nAmrita with Rs 90,000*(1/5) = Rs 18,000\nKalyani with Rs 90,000*(4/5) = Rs 72,000\nQuick Tip\nWhile there will be many details, always focus on key points for faster answers.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q42",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Based on above, answer the question. Amrita and Kalyani are partners sharing\nprofits in the ratio of 3 : 2. They decided to expand the business by admitting Suraj as\nnew partner for 1/4th share. Suraj’s share of goodwill is valued at Rs 90,000 for which\nhe compensated Amrita and Kalyani in the ratio 1 : 4. Following information is also\nprovided :\n• Book value\n– Machinery : Rs 25,00,000\n– Land : Rs 10,00,000\n– Computer : Rs 2,50,000\n– Workmen compensation fund : Rs 5,30,000\nClaim against workmen compensation is Rs 2,00,000 and goodwill appeared in the\nbooks at Rs 60,000 Share of revaluation profit of Amrita and Kalyani is :",
+          "options": [
+            "Rs 24,00,000 and Rs 16,00,000",
+            "Rs 16,00,000 and Rs 24,00,000",
+            "Rs 8,00,000 and Rs 32,00,000",
+            "Rs 20,00,000 and Rs 20,00,000"
+          ],
+          "correct": 0,
+          "explanation": "41\n\nCalculate the value of profit for Amrita and Kalyani\nUnderstanding the Revaluation of Assets: Here, assets have been revalued upwards, affecting\nthe capital account.\nStep 1: Calculate the increase in each asset\nLand: Increase of Rs 40,00,000 (50,00,000 - 10,00,000)\nMachinery: Increase of Rs 2,00,000 (27,00,000 - 25,00,000)\nDecrease in Computer: Rs 2,00,000 (Rs 2,50,000 - Rs 50,000)\nWorkmen compensation: There is also the workmen compensation involved Rs 2,00,000\n(claim).\nNew profit = Rs 40,00,000 + Rs 2,00,000 - Rs 2,00,000 = Rs 40,00,000\nAmrita’s share of profit = 3/5 * Rs 40,00,000 = Rs 24,00,000\nKalyani’s share of profit = 2/5 * Rs 40,00,000 = Rs 16,00,000\nQuick Tip\nMake sure you account for all assets, liabilities, and worker adjustments.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q43",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Based on above, answer the question. Amrita and Kalyani are partners sharing\nprofits in the ratio of 3 : 2. They decided to expand the business by admitting Suraj as\nnew partner for 1/4th share. Suraj’s share of goodwill is valued at Rs 90,000 for which\nhe compensated Amrita and Kalyani in the ratio 1 : 4. Following information is also\nprovided :\n• Book value\n– Machinery : Rs 25,00,000\n– Land : Rs 10,00,000\n– Computer : Rs 2,50,000\n– Workmen compensation fund : Rs 5,30,000\nClaim against workmen compensation is Rs 2,00,000 and goodwill appeared in the\nbooks at Rs 60,000 What is Amrita’s share in workmen compensation fund ?",
+          "options": [
+            "Rs 3,00,000\n42",
+            "Rs 1,80,000",
+            "Rs 1,20,000",
+            "Rs 1,00,000"
+          ],
+          "correct": 1,
+          "explanation": "How each compensation affects partners:\nValue of workmen compensation fund = Rs 5,30,000 - Rs 2,00,000 = Rs 3,30,000\nAmrita’s share = Rs 3,30,000 * (3/5) = Rs 1,80,000\nQuick Tip\n”Look for the new and old values when questions like above are given.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q44",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Based on following, answer the question. Amrita and Kalyani are partners sharing\nprofits in the ratio of 3 : 2. They decided to expand the business by admitting Suraj as\nnew partner for 1/4th share. Suraj’s share of goodwill is valued at Rs 90,000 for which\nhe compensated Amrita and Kalyani in the ratio 1 : 4. Following information is also\nprovided :\n• Book value\n– Machinery : Rs 25,00,000\n– Land : Rs 10,00,000\n– Computer : Rs 2,50,000\n– Workmen compensation fund : Rs 5,30,000\nClaim against workmen compensation is Rs 2,00,000 and goodwill appeared in the\nbooks at Rs 60,000 What journal entry will be passed for goodwill appearing in the\nbooks ?",
+          "options": [
+            "Dr. Goodwill A/c Rs 60,000 Cr. Amrita’s Capital A/c Rs 36,000 Cr. Kalyani’s Capital\nA/c Rs 24,000",
+            "Dr. Amrita’s Capital A/c Rs 36,000 Dr. Kalyani’s Capital A/c Rs 24,000 Cr. Goodwill\nA/c Rs 60,000\n43",
+            "Dr. Amrita’s Capital A/c Rs 12,000 Dr. Kalyani’s Capital A/c Rs 48,000 Cr. Goodwill\nA/c Rs 60,000",
+            "Dr. Goodwill A/c Rs 60,000 Cr. All partner’s Capital A/c Rs 60,000"
+          ],
+          "correct": 1,
+          "explanation": "The goodwill needs to be eliminated, and compensation needs to be identified between\npartners.\nJournal Entry:\nAmrita’s capital = Rs 60,000 * (3/5) = Rs 36,000\nKalyani’s capital = Rs 60,000 * (2/5) = Rs 24,000\nThus, the journal entry will be:\nDr. Amrita’s Capital A/c Rs 36,000\nDr. Kalyani’s Capital A/c Rs 24,000\nCr. Goodwill A/c Rs 60,000\nQuick Tip\n”At the time of any retirement, always keep this formula: Debit for share / Credit for\nshare.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q45",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Based on following, answer the question Amrita and Kalyani are partners sharing\nprofits in the ratio of 3 : 2. They decided to expand the business by admitting Suraj as\nnew partner for 1/4th share. Suraj’s share of goodwill is valued at Rs 90,000 for which\nhe compensated Amrita and Kalyani in the ratio 1 : 4. Following information is also\nprovided :\n• Book value\n– Machinery : Rs 25,00,000\n– Land : Rs 10,00,000\n– Computer : Rs 2,50,000\n– Workmen compensation fund : Rs 5,30,000\n44\n\nClaim against workmen compensation is Rs 2,00,000 and goodwill appeared in the\nbooks at Rs 60,000 A new partner can be admitted :",
+          "options": [
+            "If all the existing partners agree",
+            "If Majority of the existing partner agree",
+            "If any one of the existing partner agree",
+            "If 4/5th of the existing partner agree"
+          ],
+          "correct": 0,
+          "explanation": "Based on the partnership act, for all partners, it is important to have consensus for admitting\na new member. Therefore, the correct answer is:\n(1) If all the existing partners agree.\nQuick Tip\nConsensus from all partners is crucial when admitting a new partner.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q46",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "XYZ Ltd. has been operating in the field of FMCG products in South Indian\nmarket. However to expand its operation in northern part of India, it needs additional\ncapital Rs 20,00,000 which is raised by issuing 10% Debenture of Rs 12,00,000 at a\ndiscount of 10% to be repayable after 6 years. The rest of the funds is raised by issuing\n5% debenture of Rs 8,00,000 at 15% premium. These debentures are perpetual in\nnature. After six years of successful operation in northern India, company took a loan\nof Rs 5,00,000 from PNB against 5% debenture of Rs 8,00,000 of Rs 100 each as a\ncollateral security. The company successfully ran its operation and managed to pay off\nits loan within two years. XYZ Ltd. issues 10% debentures of Rs 12,00,000 of Rs 100\neach at a discount of 10% which will be repayable after 6 years. What type of\ndebenture it is ?",
+          "options": [
+            "Zero Coupon Rate Bonds/Debenture",
+            "Redeemable Debentures",
+            "Convertible Debenture",
+            "Irredeemable Debenture\n45"
+          ],
+          "correct": 1,
+          "explanation": "Understanding the Characteristics of Debentures Types\nRedeemable Debentures:\nThis type of debenture can be identified from the phrase ”repayable after 6 years” as it clearly\nindicates that the debenture will be repaid at a future date. Redeemable debentures are those\nthat will be redeemed by the company at a future date, which in this case is after 6 years.\n”It does not have features of other debt instruments such as being non-interest bearing (Zero\ncoupon), converting into shares (Convertible), or having no repayment date (Irredeemable).”\nThus, this makes the debenture a redeemable one.\nQuick Tip\nUnderstand each keyword, and identify what is related and what is not.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q47",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "XYZ Ltd. has been operating in the field of FMCG products in South Indian\nmarket. However to expand its operation in northern part of India, it needs additional\ncapital Rs 20,00,000 which is raised by issuing 10% Debenture of Rs 12,00,000 at a\ndiscount of 10% to be repayable after 6 years. The rest of the funds is raised by issuing\n5% debenture of Rs 8,00,000 at 15% premium. These debentures are perpetual in\nnature. After six years of successful operation in northern India, company took a loan\nof Rs 5,00,000 from PNB against 5% debenture of Rs 8,00,000 of Rs 100 each as a\ncollateral security. The company successfully ran its operation and managed to pay off\nits loan within two years. XYZ Ltd. issued another category of debenture which are\nperpetual in nature. What type of debentures they are called :",
+          "options": [
+            "Irredeemable Debentures",
+            "Convertible Debenture",
+            "Redeemable Debentures",
+            "Bearer Debentures"
+          ],
+          "correct": 0,
+          "explanation": "46\n\nUnderstanding Debenture Types & their core characteristics:\nIrredeemable Debentures:\nGiven the context and phrase ”perpetual in nature,” the debenture is perpetual, meaning it has\nno fixed maturity date and will not be redeemed unless the company decides to do so in the\nfuture. This is a characteristic of Irredeemable Debentures.\nThese debentures do not contain features such as conversion to equity shares or redemption\nafter a set time.\nThus, option (1) fits perfectly as Irredeemable Debentures.\nQuick Tip\n”A debt instrument is the base, and if that is missed, you would make a blunder.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q48",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "XYZ Ltd. has been operating in the field of FMCG products in South Indian\nmarket. However to expand its operation in northern part of India, it needs additional\ncapital Rs 20,00,000 which is raised by issuing 10% Debenture of Rs 12,00,000 at a\ndiscount of 10% to be repayable after 6 years. The rest of the funds is raised by issuing\n5% debenture of Rs 8,00,000 at 15% premium. These debentures are perpetual in\nnature. After six years of successful operation in northern India, company took a loan\nof Rs 5,00,000 from PNB against 5% debenture of Rs 8,00,000 of Rs 100 each as a\ncollateral security. The company successfully ran its operation and managed to pay off\nits loan within two years. While issuing 10% debenture of Rs 12,00,000 at 10%\ndiscount. What amount should be transferred to “Discount on issue of debenture A/c”\nif all amount is received in one instalment ?",
+          "options": [
+            "Rs 10,000",
+            "Rs 12,000",
+            "Rs 1,20,000",
+            "Rs 1,00,000"
+          ],
+          "correct": 2,
+          "explanation": "Here the question asks how the discount is calculated for the debentures.\n47\n\nThe discount is the difference between the face value and the issue price. Since the\ndebentures are issued at a 10% discount, we calculate it as follows:\nDiscount = 10% × 12, 00, 000 = 1 , 20, 000\nThis amount, Rs 1,20,000, needs to be transferred to the ”Discount on Issue of Debenture\nA/c” as per accounting rules.\nQuick Tip\nIf there are so many amounts, try to identify the key amount from key words in the\nsentence.",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q49",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "XYZ Ltd. has been operating in the field of FMCG products in South Indian\nmarket. However to expand its operation in northern part of India, it needs additional\ncapital Rs 20,00,000 which is raised by issuing 10% Debenture of Rs 12,00,000 at a\ndiscount of 10% to be repayable after 6 years. The rest of the funds is raised by issuing\n5% debenture of Rs 8,00,000 at 15% premium. These debentures are perpetual in\nnature. After six years of successful operation in northern India, company took a loan\nof Rs 5,00,000 from PNB against 5% debenture of Rs 8,00,000 of Rs 100 each as a\ncollateral security. The company successfully ran its operation and managed to pay off\nits loan within two years.\nIf 5% debenture of Rs 8,00,000 of Rs 100 were issued at 15% premium. Amount is\npayable as Rs 25 on applications, Rs 50 on allotment and Rs 40 on 1st and final call.\nHow much amount should be credited to ”Security Premium Reserve A/c”.",
+          "options": [
+            "Rs 1,20,000",
+            "Rs 8,00,000",
+            "Rs 9,20,000",
+            "Rs 1,00,000"
+          ],
+          "correct": 0,
+          "explanation": "Calculation of Security Premium Reserve A/c:\n48\n\nThe premium amount is calculated as the 15% premium on the face value of Rs 8,00,000.\nPremium = 8, 00, 000 × 15\n100 = 1, 20, 000\nThis amount should be credited to the ”Security Premium Reserve A/c”.\nQuick Tip\n”Do not be fooled by the interest amount. It’s only with respect to the premium paid\nhere.”",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        },
+        {
+          "id": "301-2023-Q50",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "XYZ Ltd. has been operating in the field of FMCG products in South Indian\nmarket. However to expand its operation in northern part of India, it needs additional\ncapital Rs 20,00,000 which is raised by issuing 10% Debenture of Rs 12,00,000 at a\ndiscount of 10% to be repayable after 6 years. The rest of the funds is raised by issuing\n5% debenture of Rs 8,00,000 at 15% premium. These debentures are perpetual in\nnature. After six years of successful operation in northern India, company took a loan\nof Rs 5,00,000 from PNB against 5% debenture of Rs 8,00,000 of Rs 100 each as a\ncollateral security. The company successfully ran its operation and managed to pay off\nits loan within two years. Company raised a loan of Rs 5,00,000 from PNB against 5%\ndebenture of Rs 8,00,000 of Rs 100 each as a collateral security. The ”Debenture\nsuspense A/c” will be debited with :",
+          "options": [
+            "Rs 5,00,000",
+            "Rs 3,00,000",
+            "Rs 8,00,000",
+            "Rs 13,00,000"
+          ],
+          "correct": 0,
+          "explanation": "Understanding Debenture Suspense Account\nA Debenture Suspense A/c is used when debentures are issued as collateral security. In this\ncase, the company raised a loan of Rs 5,00,000 from PNB, and the 5% debentures of Rs\n8,00,000 are issued as collateral security.\n49\n\nTherefore, the Debenture Suspense A/c will be debited with the loan amount of Rs 5,00,000.\nQuick Tip\nCollateral = security from which the debt can be paid if all terms are not completed\nwith. It should be from what and what is debited.\n50",
+          "source": "Collegedunia solution PDF: 2023-accountancy-02-solutions.pdf"
+        }
+      ]
+    }
+  ]
+}

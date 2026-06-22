@@ -1,0 +1,942 @@
+{
+  "subject": "General Test",
+  "subject_code": "501",
+  "year": "2023",
+  "total_questions": 58,
+  "chapters": [
+    {
+      "chapter_id": "5012023",
+      "chapter": "General Test CUET 2023 Past Year Paper",
+      "questions": [
+        {
+          "id": "501-2023-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The ratio of ages of 2 boys is 3:7. After 2 years, the ratio of their ages will become 5:9. The ratio of their ages after 10 years will be",
+          "options": [
+            "\\( 15:16 \\)",
+            "\\( 5:17 \\)",
+            "\\( 17:18 \\)",
+            "\\( 13:17 \\)"
+          ],
+          "correct": 3,
+          "explanation": "Let the present ages of the two boys be \\(3x\\) and \\(7x\\) years.\nAfter 2 years, their ages will be \\(3x + 2\\) and \\(7x + 2\\) years respectively.\nAccording to the problem, the ratio of their ages after 2 years will be 5:9.\nTherefore, we can write the equation: \\(\\) \\frac{3x + 2{7x + 2 = \\frac{5{9 \\(\\)\nCross-multiplying, we get: \\(\\) 9(3x + 2) = 5(7x + 2) \\(\\) \\(\\) 27x + 18 = 35x + 10 \\(\\) \\(\\) 18 - 10 = 35x - 27x \\(\\) \\(\\) 8 = 8x \\(\\) \\(\\) x = 1 \\(\\)\nSo, the present ages of the two boys are \\(3 \\times 1 = 3\\) years and \\(7 \\times 1 = 7\\) years.\nWe need to find the ratio of their ages after 10 years.\nAfter 10 years, their ages will be \\(3 + 10 = 13\\) years and \\(7 + 10 = 17\\) years respectively.\nThe ratio of their ages after 10 years will be \\(13:17\\).\nTherefore, the correct option is (4)\nQuick Tip:\n\\textbf{Age-Related Problems.} When dealing with age ratio problems, it's often helpful to represent the current ages using a common variable and then set up equations based on the information given about their ages at a future or past time.",
+          "source": "Aakash CUET UG 2023 General Test solution PDF"
+        },
+        {
+          "id": "501-2023-Q02",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "X got 98 marks in his exam which is 56% of the total marks. What is the maximum marks of the exam?",
+          "options": [
+            "\\( 150 \\)",
+            "\\( 175 \\)",
+            "\\( 200 \\)",
+            "\\( 225 \\)"
+          ],
+          "correct": 1,
+          "explanation": "Let the maximum marks of the exam be \\(M\\).\nAccording to the problem, X got 98 marks, which is 56% of the total marks.\nWe can express this as: \\(\\) 56% of M = 98 \\(\\) \\(\\) \\frac{56{100 \\times M = 98 \\(\\)\nTo find the maximum marks \\(M\\), we can rearrange the equation: \\(\\) M = \\frac{98 \\times 100{56 \\(\\) \\(\\) M = \\frac{9800{56 \\(\\)\nNow, we can simplify the fraction:\nDivide both numerator and denominator by their greatest common divisor. We can start by dividing by 2: \\(\\) M = \\frac{4900{28 \\(\\)\nDivide by 2 again: \\(\\) M = \\frac{2450{14 \\(\\)\nDivide by 2 again: \\(\\) M = \\frac{1225{7 \\(\\)\nNow, divide 1225 by 7: \\(\\) M = 175 \\(\\)\nSo, the maximum marks of the exam are 175.\nTherefore, the correct option is (2)\nQuick Tip:\n\\textbf{Percentage Problems. When dealing with percentage problems, remember the basic formula: \\( Percentage \\times Total Value = Given Value \\). You can rearrange this formula to find any of the unknown variables.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find a single equivalent increase if the number is successively increased by 20%, 25% and 30%?",
+          "options": [
+            "\\( 75% \\)",
+            "\\( 85% \\)",
+            "\\( 95% \\)",
+            "\\( 35% \\)"
+          ],
+          "correct": 2,
+          "explanation": "Let the original number be \\(N\\).\nFirst increase by 20%:\nNew number \\(N_1 = N + 0.20N = (1)20N\\)\nSecond increase by 25% (on \\(N_1\\)):\nIncrease \\( = 0.25 \\times (1)20N = 0.30N \\)\nNew number \\(N_2 = (1)20N + 0.30N = (1)50N\\)\nThird increase by 30% (on \\(N_2\\)):\nIncrease \\( = 0.30 \\times (1)50N = 0.45N \\)\nFinal number \\(N_3 = (1)50N + 0.45N = (1)95N\\)\nThe total increase from the original number \\(N\\) to the final number \\(N_3\\) is \\(N_3 - N = (1)95N - N = 0.95N\\).\nTo find the single equivalent percentage increase, we calculate the percentage of this increase with respect to the original number \\(N\\):\nEquivalent percentage increase \\( = \\frac{Total Increase}{Original Number} \\times 100% \\)\nEquivalent percentage increase \\( = \\frac{0.95N}{N} \\times 100% \\)\nEquivalent percentage increase \\( = 0.95 \\times 100% = 95% \\)\nTherefore, the single equivalent increase is 95%.\nQuick Tip:\n\\textbf{Successive Percentage Increase.} When a number is successively increased by percentages \\(a%\\), \\(b%\\), and \\(c%\\), the single equivalent percentage increase can be calculated using the formula: Equivalent increase \\( = \\left( (1 + \\frac{a}{100})(1 + \\frac{b}{100})(1 + \\frac{c}{100}) - 1 \\right) \\times 100%",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If selling price of 80 articles is equal to the cost price of 100 articles, then find the gain percentage.",
+          "options": [
+            "\\( 30% \\)",
+            "\\( 25% \\)",
+            "\\( 40% \\)",
+            "\\( 50% \\)"
+          ],
+          "correct": 1,
+          "explanation": "Let the selling price of one article be \\(SP\\) and the cost price of one article be \\(CP\\).\nAccording to the problem, the selling price of 80 articles is equal to the cost price of 100 articles.\nSo, \\(80 \\times SP = 100 \\times CP\\)\nWe can find the ratio of selling price to cost price: \\(\\) \\frac{SP{CP = \\frac{100{80 = \\frac{5{4 \\(\\)\nThis means that for every 4 units of cost price, the selling price is 5 units.\nGain \\( = SP - CP \\)\nLet's consider the cost price of 4 articles as \\(4x\\). Then the selling price of 4 articles would be \\(5x\\).\nGain \\( = 5x - 4x = x \\)\nGain percentage is calculated as: \\(\\) Gain Percentage = \\frac{\\text{Gain{\\text{Cost Price \\times 100% \\(\\) \\(\\) \\text{Gain Percentage = \\frac{x{4x \\times 100% \\(\\) \\(\\) \\text{Gain Percentage = \\frac{1{4 \\times 100% \\(\\) \\(\\) \\text{Gain Percentage = 25% \\(\\)\nTherefore, the gain percentage is 25%.\nQuick Tip:\n\\textbf{Profit and Loss with Articles. When the selling price of a certain number of articles is equal to the cost price of another number of articles, you can easily calculate the gain or loss percentage by considering the relationship between the total SP and total CP. If \\(SP\\) of \\(m\\) articles \\( = CP\\) of \\(n\\) art",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q05",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What sum of money will amount to Rs. 520 in 5 years and to Rs 568 in 7 years on simple interest?",
+          "options": [
+            "\\( Rs. 400 \\)",
+            "\\( Rs. 120 \\)",
+            "\\( Rs. 510 \\)",
+            "\\( Rs. 220 \\)"
+          ],
+          "correct": 0,
+          "explanation": "Let the principal sum of money be \\(P\\) and the rate of simple interest be \\(R%\\) per annum.\nAccording to the formula for simple interest, the amount \\(A\\) after \\(T\\) years is given by: \\(\\) A = P + \\frac{P \\times R \\times T{100 \\(\\)\nFrom the problem statement, we have two conditions:\n(1) Amount after 5 years is Rs. 520:\n\\(\\) 520 = P + \\frac{P \\times R \\times 5{100 \\quad \\cdots (1) \\(\\)\n(2) Amount after 7 years is Rs. 568:\n\\(\\) 568 = P + \\frac{P \\times R \\times 7{100 \\quad \\cdots (2) \\(\\)\nSubtracting equation (1) from equation (2), we get: \\(\\) 568 - 520 = \\left( P + \\frac{7PR{100 \\right) - \\left( P + \\frac{5PR{100 \\right) \\(\\) \\(\\) 48 = \\frac{7PR{100 - \\frac{5PR{100 \\(\\) \\(\\) 48 = \\frac{2PR{100 \\(\\) \\(\\) 48 = \\frac{PR{50 \\(\\) \\(\\) PR = 48 \\times 50 = 2400 \\quad \\cdots (3) \\(\\)\nNow, substitute the value of \\(PR\\) from equation (3) into equation (1): \\(\\) 520 = P + \\frac{5 \\times 2400{100 \\(\\) \\(\\) 520 = P + \\frac{12000{100 \\(\\) \\(\\) 520 = P + 120 \\(\\) \\(\\) P = 520 - 120 \\(\\) \\(\\) P = 400 \\(\\)\nSo, the sum of money (principal) is Rs. 400.\nWe can also find the rate of interest \\(R\\) using equation (3): \\(\\) 400 \\times R = 2400 \\(\\) \\(\\) R = \\frac{2400{400 = 6% \\(\\)\nLet's verify with ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q06",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The area of a circle is numerically equal to its circumference. Find the diameter of the circle.",
+          "options": [
+            "\\( 2 unit \\)",
+            "\\( 4 unit \\)",
+            "\\( 1 unit \\)",
+            "\\( 5 unit \\)"
+          ],
+          "correct": 1,
+          "explanation": "Let the radius of the circle be \\(r\\) units.\nThe area of the circle is given by the formula \\(A = \\pi r^2\\).\nThe circumference of the circle is given by the formula \\(C = 2 \\pi r\\).\nAccording to the problem, the area of the circle is numerically equal to its circumference.\nTherefore, we have the equation: \\(\\) A = C \\(\\) \\(\\) \\pi r^2 = 2 \\pi r \\(\\)\nTo solve for \\(r\\), we can divide both sides of the equation by \\( \\pi r \\) (assuming \\(r \\neq 0\\)): \\(\\) \\frac{\\pi r^2{\\pi r = \\frac{2 \\pi r{\\pi r \\(\\) \\(\\) r = 2 \\(\\)\nSo, the radius of the circle is 2 units.\nThe diameter of the circle \\(d\\) is twice the radius: \\(\\) d = 2r \\(\\) \\(\\) d = 2 \\times 2 \\(\\) \\(\\) d = 4 \\(\\)\nTherefore, the diameter of the circle is 4 units.\nQuick Tip:\n\\textbf{Circle Properties.} Remember the formulas for the area and circumference of a circle in terms of its radius (\\(r\\)): Area \\( = \\pi r^2 \\) and Circumference \\( = 2 \\pi r \\). Setting these two equal to each other allows you to solve for the radius when their numerical values are the same.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the perimeter of a rhombus whose one diagonal is 16 cm long and area is 240 cm\\(^2\\).",
+          "options": [
+            "\\( 68 cm \\)",
+            "\\( 30 cm \\)",
+            "\\( 24 cm \\)",
+            "\\( 36 cm \\)"
+          ],
+          "correct": 0,
+          "explanation": "Let the diagonals of the rhombus be \\(d_1\\) and \\(d_2\\).\nGiven, one diagonal \\(d_1 = 16\\) cm and the area of the rhombus \\(A = 240\\) cm\\(^2\\).\nThe area of a rhombus is given by the formula: \\(\\) A = \\frac{1{2 d_1 d_2 \\(\\)\nSubstituting the given values: \\(\\) 240 = \\frac{1{2 \\times 16 \\times d_2 \\(\\) \\(\\) 240 = 8 d_2 \\(\\) \\(\\) d_2 = \\frac{240{8 = 30 cm \\(\\)\nSo, the lengths of the diagonals are 16 cm and 30 cm.\nThe diagonals of a rhombus bisect each other at right angles. Let the sides of the rhombus be \\(a\\). Half the lengths of the diagonals are \\(\\frac{d_1{2} = \\frac{16}{2} = 8\\) cm and \\(\\frac{d_2}{2} = \\frac{30}{2} = 15\\) cm.\nBy the Pythagorean theorem, the side of the rhombus \\(a\\) can be found using the right-angled triangle formed by half of each diagonal: \\(\\) a^2 = \\left( \\frac{d_1{2 \\right)^2 + \\left( \\frac{d_2{2 \\right)^2 \\(\\) \\(\\) a^2 = (8)^2 + (15)^2 \\(\\) \\(\\) a^2 = 64 + 225 \\(\\) \\(\\) a^2 = 289 \\(\\) \\(\\) a = \\sqrt{289 = 17 cm \\(\\)\nThe length of each side of the rhombus is 17 cm.\nThe perimeter of a rhombus is given by \\(P = 4a\\). \\(\\) P = 4 \\times 17 = 68 \\text{ cm \\(\\)\nTherefore, the perimeter of the rhombus is 68 cm.\nQuick Tip:\n\\textbf{Rhombus Properties. Remember that ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The point \\((-2, 3)\\) lies in which quadrant?",
+          "options": [
+            "\\( I \\)",
+            "\\( II \\)",
+            "\\( III \\)",
+            "\\( IV \\)"
+          ],
+          "correct": 1,
+          "explanation": "In a Cartesian coordinate system, the plane is divided into four quadrants based on the signs of the x-coordinate (abscissa) and the y-coordinate (ordinate) of a point \\((x, y)\\):\nQuadrant I: \\(x > 0\\) and \\(y > 0\\) (both coordinates are positive).\nQuadrant II: \\(x < 0\\) and \\(y > 0\\) (x-coordinate is negative, y-coordinate is positive).\nQuadrant III: \\(x < 0\\) and \\(y < 0\\) (both coordinates are negative).\nQuadrant IV: \\(x > 0\\) and \\(y < 0\\) (x-coordinate is positive, y-coordinate is negative).\nThe given point is \\((-2, 3)\\). Here, the x-coordinate is -2, which is less than 0 (\\(x < 0\\)), and the y-coordinate is 3, which is greater than 0 (\\(y > 0\\)).\nAccording to the rules above, a point with a negative x-coordinate and a positive y-coordinate lies in Quadrant II.\nTherefore, the point \\((-2, 3)\\) lies in Quadrant II.\nQuick Tip:\n\\textbf{Quadrants in Cartesian Plane.} Remember the signs of the coordinates in each quadrant: Quadrant I: (+, +) Quadrant II: (-, +) Quadrant III: (-, -) Quadrant IV: (+, -) This will help you quickly identify the quadrant in which a given point lies.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the median of the five numbers \\(x/5\\), \\(x\\), \\(x/4\\), \\(x/2\\), and \\(x/3\\), where \\(x > 0\\), is 8, then the value of \\(x\\) will be:",
+          "options": [
+            "\\( 24 \\)",
+            "\\( 32 \\)",
+            "\\( 8 \\)",
+            "\\( 16 \\)"
+          ],
+          "correct": 0,
+          "explanation": "Since \\(x > 0\\), the numbers in ascending order are \\(x/5\\), \\(x/4\\), \\(x/3\\), \\(x/2\\), and \\(x\\). With five values, the median is the third value, \\(x/3\\). Given \\(x/3 = 8\\), we get \\(x = 24\\).",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the probability that any non-leap year will have 53 Sundays?",
+          "options": [
+            "\\( \\frac{1}{53} \\)",
+            "\\( \\frac{2}{53} \\)",
+            "\\( \\frac{1}{7} \\)",
+            "\\( \\frac{2}{7} \\)"
+          ],
+          "correct": 2,
+          "explanation": "A non-leap year has 365 days.\nWe know that there are 52 weeks in a year, which accounts for \\(52 \\times 7 = 364\\) days.\nSo, a non-leap year has 52 full weeks and 1 extra day.\nFor a non-leap year to have 53 Sundays, this extra day must be a Sunday.\nThe extra day can be any one of the 7 days of the week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, or Saturday.\nEach of these 7 days has an equal probability of being the extra day.\nThe probability that the extra day is a Sunday is 1 out of 7 possible days.\nTherefore, the probability that a non-leap year will have 53 Sundays is \\( \\frac{1}{7} \\).\nQuick Tip:\n\\textbf{Probability and Calendar.} To solve probability problems related to calendar days, consider the number of full weeks and the remaining days. The probability of a specific day occurring 53 times depends on the day of the week of the remaining days.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q11",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A bag contains 5 black, 3 white and 2 red balls. Three balls are drawn in succession. What is the probability that the first ball is red, the second ball is black and the third ball is white?",
+          "options": [
+            "\\( \\frac{1}{24} \\)",
+            "\\( \\frac{3}{10} \\)",
+            "\\( \\frac{1}{10} \\)",
+            "\\( \\frac{1}{2} \\)"
+          ],
+          "correct": 0,
+          "explanation": "Total number of balls in the bag \\( = 5 (black) + 3 (white) + 2 (red) = 10 \\) balls.\nWe are drawing three balls in succession. We need to find the probability of the event where the first ball is red, the second ball is black, and the third ball is white.\nProbability of the first ball being red:\nNumber of red balls \\( = 2 \\)\nTotal number of balls \\( = 10 \\) \\( P(1st ball is red) = \\frac{2}{10} \\)\nAfter drawing one red ball, there are now 9 balls left in the bag: 5 black, 3 white, and 1 red.\nProbability of the second ball being black (given the first was red):\nNumber of black balls \\( = 5 \\)\nTotal number of remaining balls \\( = 9 \\) \\( P(2nd ball is black | 1st was red) = \\frac{5}{9} \\)\nAfter drawing one red and one black ball, there are now 8 balls left in the bag: 4 black, 3 white, and 1 red.\nProbability of the third ball being white (given the first was red and the second was black):\nNumber of white balls \\( = 3 \\)\nTotal number of remaining balls \\( = 8 \\) \\( P(3rd ball is white | 1st was red, 2nd was black) = \\frac{3}{8} \\)\nThe probability of all three events occurring in this sequence is the product of their individual probabilities: \\(\\) P(1st red, 2nd black, 3rd white) = P(\\t",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q12",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The average of 12 numbers is 15 and the average of the first two numbers is 1(4) What is the average of the remaining numbers?",
+          "options": [
+            "\\( 15 \\)",
+            "\\( 15.2 \\)",
+            "\\( 14 \\)",
+            "\\( 1(4)2 \\)"
+          ],
+          "correct": 1,
+          "explanation": "Let the 12 numbers be \\(n_1, n_2, n_3, \\ldots, n_{12}\\).\nThe average of these 12 numbers is 15. The sum of these 12 numbers is: \\(\\) Sum of 12 numbers = \\text{Average \\times \\text{Number of terms = 15 \\times 12 = 180 \\(\\)\nThe first two numbers are \\(n_1\\) and \\(n_2\\). Their average is 1(4) The sum of the first two numbers is: \\(\\) \\text{Sum of first two numbers = \\text{Average \\times \\text{Number of terms = 14 \\times 2 = 28 \\(\\)\nThe remaining numbers are \\(n_3, n_4, \\ldots, n_{12\\). There are \\(12 - 2 = 10\\) remaining numbers.\nThe sum of the remaining 10 numbers is the total sum minus the sum of the first two numbers: \\(\\) Sum of remaining 10 numbers = \\text{Sum of 12 numbers - \\text{Sum of first two numbers \\(\\) \\(\\) \\text{Sum of remaining 10 numbers = 180 - 28 = 152 \\(\\)\nThe average of the remaining 10 numbers is the sum of these numbers divided by the number of terms: \\(\\) \\text{Average of remaining 10 numbers = \\frac{\\text{Sum of remaining 10 numbers{\\text{Number of remaining numbers \\(\\) \\(\\) \\text{Average of remaining 10 numbers = \\frac{152{10 = 15.2 \\(\\)\nTherefore, the average of the remaining numbers is 15.(2)\nQuick Tip:\n\\textbf{Average Problems. Remember that the sum of a ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q13",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A railway half-ticket costs half the full ticket. However the reservation charge for all the tickets is constant. One full reserved ticket for a journey is Rupees 525. If the cost of one full and one half reserved ticket for the same journey is Rupees 850, then what is the reservation charge per ticket?",
+          "options": [
+            "Rupees 120",
+            "Rupees 150",
+            "Rupees 125",
+            "Rupees 115"
+          ],
+          "correct": 2,
+          "explanation": "Let the cost of a full unreserved ticket be \\(F\\) and the reservation charge per ticket be \\(R\\).\nThe cost of one full reserved ticket is the sum of the full unreserved ticket cost and the reservation charge: \\(\\) F + R = 525 \\quad \\cdots (1) \\(\\)\nThe cost of a half unreserved ticket is \\( \\frac{F}{2} \\). The cost of one half reserved ticket is the sum of the half unreserved ticket cost and the reservation charge: \\(\\) \\frac{F{2 + R \\(\\)\nThe cost of one full reserved ticket and one half reserved ticket is given as Rupees 850: \\(\\) (F + R) + \\left( \\frac{F{2 + R \\right) = 850 \\(\\) \\(\\) F + R + \\frac{F{2 + R = 850 \\(\\) \\(\\) \\frac{3F{2 + 2R = 850 \\quad \\cdots (2) \\(\\)\nFrom equation (1), we have \\( F = 525 - R \\). Substitute this into equation (2): \\(\\) \\frac{3(525 - R){2 + 2R = 850 \\(\\) \\(\\) \\frac{1575 - 3R{2 + 2R = 850 \\(\\)\nMultiply the entire equation by 2 to eliminate the fraction: \\(\\) 1575 - 3R + 4R = 1700 \\(\\) \\(\\) 1575 + R = 1700 \\(\\) \\(\\) R = 1700 - 1575 \\(\\) \\(\\) R = 125 \\(\\)\nSo, the reservation charge per ticket is Rupees 125.\nWe can also find the cost of the full unreserved ticket using equation (1): \\(\\) F + 125 = 525 \\(\\) \\(\\) F = 525 - 125 = 400 \\(\\)\nThe cost of a half u",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q14",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the angle of elevation of the Sun, when the length of the shadow of a tree is \\( \\frac{1}{\\sqrt{3}} \\) times the height of the tree.",
+          "options": [
+            "\\( 30^\\circ \\)",
+            "\\( 45^\\circ \\)",
+            "\\( 60^\\circ \\)",
+            "\\( 90^\\circ \\)"
+          ],
+          "correct": 2,
+          "explanation": "Let the height of the tree be \\(h\\) and the length of the shadow of the tree be \\(s\\).\nAccording to the problem, the length of the shadow is \\( \\frac{1}{\\sqrt{3}} \\) times the height of the tree: \\(\\) s = \\frac{1{\\sqrt{3 h \\(\\)\nLet \\( \\theta \\) be the angle of elevation of the Sun. We can consider a right-angled triangle formed by the tree (perpendicular), its shadow (base), and the line from the top of the tree to the end of the shadow (hypotenuse).\nThe angle of elevation \\( \\theta \\) is the angle between the ground (shadow) and the line of sight to the top of the tree.\nWe can use the tangent function, which relates the angle \\( \\theta \\) to the opposite side (height of the tree) and the adjacent side (length of the shadow): \\(\\) \\tan(\\theta) = \\frac{height of the tree{\\text{length of the shadow = \\frac{h{s \\(\\)\nSubstitute the given relationship between \\(s\\) and \\(h\\): \\(\\) \\tan(\\theta) = \\frac{h{\\frac{1{\\sqrt{3 h \\(\\) \\(\\) \\tan(\\theta) = \\frac{h \\times \\sqrt{3{h \\(\\) \\(\\) \\tan(\\theta) = \\sqrt{3 \\(\\)\nWe need to find the angle \\( \\theta \\) whose tangent is \\( \\sqrt{3 \\). We know from trigonometric values that: \\(\\) \\tan(60^\\circ) = \\sqrt{3 \\(\\)\nTherefore, the angle of elevation of",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q15",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the angle of elevation of the Sun, when the length of the shadow of a tree is \\( \\sqrt{3} \\) times the height of the tree.",
+          "options": [
+            "\\( 30^\\circ \\)",
+            "\\( 45^\\circ \\)",
+            "\\( 60^\\circ \\)",
+            "\\( 90^\\circ \\)"
+          ],
+          "correct": 0,
+          "explanation": "Let the height of the tree be \\(h\\) and the length of the shadow of the tree be \\(s\\).\nAccording to the problem, the length of the shadow is \\( \\sqrt{3} \\) times the height of the tree: \\(\\) s = \\sqrt{3 h \\(\\)\nLet \\( \\theta \\) be the angle of elevation of the Sun. We can consider a right-angled triangle formed by the tree (perpendicular), its shadow (base), and the line from the top of the tree to the end of the shadow (hypotenuse).\nThe angle of elevation \\( \\theta \\) is the angle between the ground (shadow) and the line of sight to the top of the tree.\nWe can use the tangent function: \\(\\) \\tan(\\theta) = \\frac{height of the tree{\\text{length of the shadow = \\frac{h{s \\(\\)\nSubstitute the given relationship between \\(s\\) and \\(h\\): \\(\\) \\tan(\\theta) = \\frac{h{\\sqrt{3 h \\(\\) \\(\\) \\tan(\\theta) = \\frac{1{\\sqrt{3 \\(\\)\nWe need to find the angle \\( \\theta \\) whose tangent is \\( \\frac{1{\\sqrt{3}} \\). We know from trigonometric values that: \\(\\) \\tan(30^\\circ) = \\frac{1{\\sqrt{3 \\(\\)\nTherefore, the angle of elevation of the Sun is \\( 30^\\circ \\).\nQuick Tip:\n\\textbf{Trigonometric Ratios.} Remember the values of trigonometric ratios for standard angles. For tangent: \\( \\tan(30^\\circ) = \\frac{1",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q16",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A and B can do a work in 9 days and 12 days respectively. If they work on alternate days starting with A, then in how many days will the work be completed?",
+          "options": [
+            "\\( 36 days \\)",
+            "\\( 10 days \\)",
+            "\\( 10\\frac{1}{4} days \\)",
+            "\\( 13 days \\)"
+          ],
+          "correct": 2,
+          "explanation": "A can complete the work in 9 days, so A's work per day \\( = \\frac{1}{9} \\).\nB can complete the work in 12 days, so B's work per day \\( = \\frac{1}{12} \\).\nThey work on alternate days starting with A.\nWork done on the 1st day (by A) \\( = \\frac{1}{9} \\)\nWork done on the 2nd day (by B) \\( = \\frac{1}{12} \\)\nWork done in the first 2 days \\( = \\frac{1}{9} + \\frac{1}{12} = \\frac{4 + 3}{36} = \\frac{7}{36} \\)\nIn 10 days (5 pairs of days), the work done \\( = 5 \\times \\frac{7}{36} = \\frac{35}{36} \\)\nRemaining work \\( = 1 - \\frac{35}{36} = \\frac{1}{36} \\)\nOn the 11th day, A will work. A's work per day is \\( \\frac{1}{9} \\).\nSince the remaining work is \\( \\frac{1}{36} \\), which is less than \\( \\frac{1}{9} \\), A will finish the remaining work on the 11th day.\nLet the number of days A works on the 11th day be \\(d\\).\nWork done by A on the 11th day \\( = d \\times \\frac{1}{9} \\) \\(\\) d \\times \\frac{1{9 = \\frac{1{36 \\(\\) \\(\\) d = \\frac{1{36 \\times 9 = \\frac{9{36 = \\frac{1{4 day \\(\\)\nSo, the total time taken to complete the work is 10 full days + \\( \\frac{1{4} \\) day \\( = 10\\frac{1}{4} \\) days.\nQuick Tip:\n\\textbf{Time and Work - Alternate Days.} When two people work on alternate days, calculate the work ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q17",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following speeds is the least?",
+          "options": [
+            "\\( 50 meter / second \\)",
+            "\\( 50 meter / minute \\)",
+            "\\( 70 km / hour \\)",
+            "\\( 5 km / minute \\)"
+          ],
+          "correct": 1,
+          "explanation": "To compare the speeds, we need to convert them to the same units, for example, meters per second (m/s).\n(1) \\( 50 meter / second = 50 m/s \\)\n(2) \\( 50 meter / minute = \\frac{50 meter}{60 second} = \\frac{5}{6} m/s \\approx 0.83 m/s \\)\n(3) \\( 70 km / hour = 70 \\times \\frac{1000 meter}{3600 second} = \\frac{70000}{3600} m/s = \\frac{700}{36} m/s = \\frac{175}{9} m/s \\approx 19.44 m/s \\)\n(4) \\( 5 km / minute = 5 \\times \\frac{1000 meter}{60 second} = \\frac{5000}{60} m/s = \\frac{500}{6} m/s = \\frac{250}{3} m/s \\approx 8(3)33 m/s \\)\nNow, let's compare the values in m/s:\n(1) \\( 50 m/s \\)\n(2) \\( \\approx 0.83 m/s \\)\n(3) \\( \\approx 19.44 m/s \\)\n(4) \\( \\approx 8(3)33 m/s \\)\nThe least speed is \\( \\approx 0.83 m/s \\), which corresponds to \\( 50 meter / minute \\).\nTherefore, the least speed is option (2)\nQuick Tip:\n\\textbf{Unit Conversion for Speed.} When comparing speeds given in different units, it is essential to convert them to a common unit. Common conversions include: - \\( 1 km = 1000 meters \\) - \\( 1 hour = 60 minutes \\) - \\( 1 minute = 60 seconds \\) To convert km/hour to m/s, multiply by \\( \\frac{1000}{3600} = \\frac{5}{18} \\). To convert km/minute to m/s, multiply by \\( \\frac{1000}{60} = \\fra",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q18",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the smallest square number which is divisible by 4, 6 and 32?",
+          "options": [
+            "\\( 100 \\)",
+            "\\( 196 \\)",
+            "\\( 96 \\)",
+            "\\( 576 \\)"
+          ],
+          "correct": 3,
+          "explanation": "We need to find the smallest square number that is divisible by 4, 6, and 3(2)\nFirst, find the least common multiple (LCM) of 4, 6, and 3(2)\nPrime factorization of the numbers: \\( 4 = 2^2 \\) \\( 6 = 2 \\times 3 \\) \\( 32 = 2^5 \\)\nThe LCM is the product of the highest powers of all prime factors involved:\nLCM(4, 6, 32) \\( = 2^5 \\times 3^1 = 32 \\times 3 = 96 \\)\nNow, we need to find the smallest square number that is a multiple of 96.\nPrime factorization of 96 is \\( 2^5 \\times 3^1 \\).\nFor a number to be a perfect square, all the exponents in its prime factorization must be even.\nIn the prime factorization of 96, the exponent of 2 is 5 (odd) and the exponent of 3 is 1 (odd).\nTo make this number a perfect square, we need to multiply it by the smallest number that will make all the exponents even. We need to multiply by \\( 2^{6-5} = 2^1 \\) and \\( 3^{2-1} = 3^1 \\).\nSo, the required multiplier is \\( 2 \\times 3 = 6 \\).\nThe smallest square number divisible by 4, 6, and 32 is \\( 96 \\times 6 \\): \\( 96 \\times 6 = (2^5 \\times 3^1) \\times (2^1 \\times 3^1) = 2^{5+1} \\times 3^{1+1} = 2^6 \\times 3^2 = 64 \\times 9 = 576 \\)\nWe can check if 576 is a perfect square: \\( \\sqrt{576} = 24 \\).\nWe can also check",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q19",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "From the figure, what is the value of x?",
+          "options": [
+            "\\( 50^\\circ \\)",
+            "\\( 120^\\circ \\)",
+            "\\( 60^\\circ \\)",
+            "\\( 70^\\circ \\)"
+          ],
+          "correct": 3,
+          "explanation": "In the given figure, we have a triangle ABC. The angle at vertex A is given as \\( 50^\\circ \\). The exterior angle at vertex C, \\( \\angle ACD \\), is given as \\( 120^\\circ \\). We need to find the value of the interior angle at vertex B, which is labeled as \\( x \\).\nAccording to the Exterior Angle Theorem, the exterior angle of a triangle is equal to the sum of the two opposite interior angles. In triangle ABC, the exterior angle at C (\\( \\angle ACD \\)) is equal to the sum of the interior angles at A (\\( \\angle BAC \\)) and B (\\( \\angle ABC \\)).\nSo, we have: \\(\\) \\angle ACD = \\angle BAC + \\angle ABC \\(\\)\nSubstituting the given values: \\(\\) 120^\\circ = 50^\\circ + x \\(\\)\nTo find the value of \\( x \\), we can rearrange the equation: \\(\\) x = 120^\\circ - 50^\\circ \\(\\) \\(\\) x = 70^\\circ \\(\\)\nTherefore, the value of \\( x \\) is \\( 70^\\circ \\).\nQuick Tip:\n\\textbf{Exterior Angle Theorem.} The Exterior Angle Theorem is a fundamental concept in geometry related to triangles. It states that the measure of an exterior angle of a triangle is equal to the sum of the measures of the two nonadjacent interior angles.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q20",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "How many terms are there in the A. P. 3, 7, 11, ......... 407 ?",
+          "options": [
+            "\\( 100 \\)",
+            "\\( 101 \\)",
+            "\\( 99 \\)",
+            "\\( 102 \\)"
+          ],
+          "correct": 3,
+          "explanation": "The given sequence is an arithmetic progression (A.P.) with the first term \\(a = 3\\) and the common difference \\(d = 7 - 3 = 4\\).\nThe last term of the A.P. is given as \\(l = 407\\).\nWe need to find the number of terms \\(n\\) in this A.P.\nThe formula for the \\(n^{th}\\) term of an A.P. is: \\(\\) a_n = a + (n - 1)d \\(\\)\nIn this case, \\(a_n\\) is the last term \\(l\\). So, we have: \\(\\) l = a + (n - 1)d \\(\\)\nSubstitute the given values: \\(\\) 407 = 3 + (n - 1)4 \\(\\)\nNow, we need to solve for \\(n\\): \\(\\) 407 - 3 = (n - 1)4 \\(\\) \\(\\) 404 = 4(n - 1) \\(\\)\nDivide both sides by 4: \\(\\) \\frac{404{4 = n - 1 \\(\\) \\(\\) 101 = n - 1 \\(\\)\nAdd 1 to both sides: \\(\\) n = 101 + 1 \\(\\) \\(\\) n = 102 \\(\\)\nTherefore, there are 102 terms in the given arithmetic progression.\nQuick Tip:\n\\textbf{Arithmetic Progression.} An arithmetic progression is a sequence of numbers such that the difference between the consecutive terms is constant. The \\(n^{th}\\) term of an A.P. is given by \\(a_n = a + (n - 1)d\\), where \\(a\\) is the first term, \\(d\\) is the common difference, and \\(n\\) is the number of terms.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q21",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II\nLIST I",
+          "options": [
+            "Blue Revolution",
+            "White Revolution",
+            "Yellow Revolution",
+            "Green Revolution"
+          ],
+          "correct": 1,
+          "explanation": "Let's match the revolutions listed in List I with their corresponding areas of increase in List II:\n(A) Blue Revolution: The Blue Revolution in India refers to the remarkable increase in fish production (III).\n(B) White Revolution: The White Revolution, also known as Operation Flood, is associated with a significant increase in the field of milk production (IV).\n(C) Yellow Revolution: The Yellow Revolution in India is related to the increased production of oil-seeds (II), such as mustard and sunflower.\n(D) Green Revolution: The Green Revolution in India is well-known for its focus on achieving a significant increase in crop yield and agricultural products (I) through the adoption of high-yielding varieties, fertilizers, and irrigation.\nTherefore, the correct matching is:\nA - III\nB - IV\nC - II\nD - I\nThis corresponds to option (2)\nQuick Tip:\n\\textbf{Agricultural Revolutions in India.} Remembering the colors associated with different agricultural revolutions can be helpful. Blue for water (fish), White for milk, Yellow for oilseeds, and Green for crops are common associations.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q22",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The relationship between the values of a country's imports and its exports is called.",
+          "options": [
+            "\\( Balance of Trade \\)",
+            "\\( Balance of Payment \\)",
+            "\\( Balance of currency \\)",
+            "\\( Bill of exchange \\)"
+          ],
+          "correct": 0,
+          "explanation": "The relationship between the value of a country's imports and its exports over a period of time is known as the Balance of Trade (BOT). It represents the difference between the monetary value of a nation's exports and imports.\nLet's briefly look at the other options to understand why they are not the correct answer:\nBalance of Payment (BOP): The Balance of Payment is a broader statement that records all economic transactions between the residents of a country and the rest of the world over a specific period. It includes the balance of trade, net income from abroad, net current transfers, and capital account transactions.\nBalance of currency: This term is not a standard economic term used to describe the relationship between imports and exports.\nBill of exchange: A bill of exchange is a written order by a drawer to a drawee to pay a certain sum of money to a payee on a specified date or on demand. It is a financial instrument used in international trade but does not represent the overall relationship between a country's imports and exports.\nTherefore, the correct answer is Balance of Trade, which specifically focuses on the value of imports and exports of a country.\nQuick Tip:\n\\text",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q23",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following players didn't receive a Medal in Tokyo Olympics 2020?",
+          "options": [
+            "\\( PV Sindhu \\)",
+            "\\( Neeraj Chopra \\)",
+            "\\( Abhinav Bindra \\)",
+            "\\( Ravi Kumar Dahiya \\)"
+          ],
+          "correct": 2,
+          "explanation": "Let's review the performance of the given Indian athletes at the Tokyo Olympics 2020:\nPV Sindhu: She won a bronze medal in Badminton at the Tokyo Olympics 2020.\nNeeraj Chopra: He won a gold medal in Javelin Throw at the Tokyo Olympics 2020.\nAbhinav Bindra: Abhinav Bindra won India's first individual gold medal at the Beijing Olympics in 2008 in shooting. He did not participate in the Tokyo Olympics 2020 as an active player.\nRavi Kumar Dahiya: He won a silver medal in Wrestling at the Tokyo Olympics 2020.\nTherefore, Abhinav Bindra did not receive a medal at the Tokyo Olympics 2020 as he was not an active participant in that edition of the games.\nQuick Tip:\n\\textbf{Indian Medal Winners at Tokyo 2020.} India had a successful campaign at the Tokyo Olympics 2020, winning a total of 7 medals (1 gold, 2 silver, and 4 bronze). Remembering the prominent medal winners can be helpful for such questions.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q24",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following is a metal?",
+          "options": [
+            "\\( Carbon \\)",
+            "\\( Mercury \\)",
+            "\\( Sulphur \\)",
+            "\\( Iodine \\)"
+          ],
+          "correct": 1,
+          "explanation": "Let's examine each of the given options to determine which one is a metal:\nCarbon: Carbon is a non-metal. It exists in various allotropic forms like diamond, graphite, and fullerenes, all of which exhibit properties characteristic of non-metals.\nMercury: Mercury (Hg) is a chemical element that is a heavy, silvery-white liquid metal at standard temperature and pressure. It is unique as it is the only common metal that is liquid under these conditions.\nSulphur: Sulphur (S) is a non-metal. It is a yellow crystalline solid at room temperature and exhibits properties typical of non-metals.\nIodine: Iodine (I) is a non-metal belonging to the halogen group. It is a dark-purple solid at room temperature and sublimes to a violet gas.\nBased on these properties, Mercury is the only metal among the given options.\nQuick Tip:\n\\textbf{Properties of Metals.} Metals generally possess properties such as being lustrous, malleable, ductile, good conductors of heat and electricity, and are solid at room temperature (except for mercury). Recognizing these general properties helps in identifying metals from a list of elements.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q25",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II\nLIST I",
+          "options": [
+            "Deficiency of Vitamin B",
+            "Deficiency of Vitamin A",
+            "Deficiency of Iron",
+            "Deficiency of Iodine"
+          ],
+          "correct": 1,
+          "explanation": "Let's match the vitamin and mineral deficiencies in List I with the diseases they cause in List II:\n(A) Deficiency of Vitamin B: Deficiency of Vitamin B1 (Thiamine) causes Beri-Beri (II), a disease affecting the heart, nerves, and digestive system.\n(B) Deficiency of Vitamin A: Deficiency of Vitamin A is well-known to cause Night blindness (IV), an early symptom characterized by difficulty seeing in low light conditions.\n(C) Deficiency of Iron: Iron is essential for the production of hemoglobin in red blood cells. Deficiency of iron leads to Anaemia (I), a condition characterized by a reduced number of red blood cells or hemoglobin, resulting in fatigue and weakness.\n(D) Deficiency of Iodine: Iodine is crucial for the proper functioning of the thyroid gland. Deficiency of iodine can lead to the enlargement of the thyroid gland, a condition known as Goitre (III).\nTherefore, the correct matching is:\nA - II\nB - IV\nC - I\nD - III\nThis corresponds to option (2)\nQuick Tip:\n\\textbf{Nutrient Deficiencies and Diseases.} Understanding the roles of different vitamins and minerals in the body and the diseases that result from their deficiency is important in biology and health-related studies.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q26",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Major Constituent of natural gas is.",
+          "options": [
+            "\\( Propane \\)",
+            "\\( Butane \\)",
+            "\\( Methane \\)",
+            "\\( Carbon \\)"
+          ],
+          "correct": 2,
+          "explanation": "Natural gas is a naturally occurring hydrocarbon gas mixture consisting primarily of methane (CH\\( _4 \\)), usually with varying amounts of other higher alkanes, and sometimes a small percentage of non-hydrocarbon gases like carbon dioxide, nitrogen, hydrogen sulfide, or helium.\nThe major constituent of natural gas is Methane. It typically makes up 70% to 90% of the volume of natural gas.\nThe other options are incorrect:\nPropane (C\\( _3 \\)H\\( _8 \\)) and Butane (C\\( _4 \\)H\\( _{10} \\)) are also components of natural gas, but they are present in much smaller percentages compared to methane. They are often separated from natural gas for use as liquefied petroleum gas (LPG).\nCarbon (C) is an element, and while it is the central atom in methane, propane, and butane, it does not exist as a major constituent in its elemental form in natural gas.\nTherefore, the major constituent of natural gas is methane.\nQuick Tip:\n\\textbf{Composition of Natural Gas.} Remember that natural gas is primarily composed of methane, with smaller amounts of other hydrocarbons. This understanding is fundamental in chemistry and energy-related topics.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q27",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II\nLIST I",
+          "options": [
+            "Electric charge",
+            "Force",
+            "Power",
+            "Energy"
+          ],
+          "correct": 1,
+          "explanation": "Let's match the physical quantities in List I with their corresponding units in List II:\n(A) Electric charge: The SI unit of electric charge is the Coulomb (II).\n(B) Force: The SI unit of force is the Newton (I).\n(C) Power: Power is the rate at which energy is transferred or converted. The SI unit of power is the Watt (IV) (which is equivalent to Joule per second).\n(D) Energy: Energy is the capacity to do work. The SI unit of energy is the Joule (III).\nTherefore, the correct matching is:\nA - II\nB - I\nC - IV\nD - III\nThis corresponds to option (2)\nQuick Tip:\n\\textbf{Fundamental Units in Physics.} Remembering the SI units for fundamental physical quantities is crucial in physics. This matching exercise tests the knowledge of these basic units.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q28",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II\nLIST I",
+          "options": [
+            "Insulin",
+            "Protein",
+            "Thyroxin",
+            "Vitamin C"
+          ],
+          "correct": 0,
+          "explanation": "Let's match the deficiencies in List I with the diseases in List II:\n(A) Insulin: Insulin is a hormone that regulates blood sugar levels. A deficiency of insulin leads to Diabetes (III).\n(B) Protein: Protein deficiency, especially in children, can lead to a condition called Kwashiorkor (I), characterized by edema, irritability, anorexia, and skin changes.\n(C) Thyroxin: Thyroxin is a hormone produced by the thyroid gland. Its deficiency can cause Goitre (IV), an enlargement of the thyroid gland.\n(D) Vitamin C: Deficiency of Vitamin C (Ascorbic acid) leads to Scurvy (II), a disease characterized by weakness, bleeding gums, and skin hemorrhages.\nTherefore, the correct matching is:\nA - III\nB - I\nC - IV\nD - II\nThis corresponds to option (1)\nQuick Tip:\n\\textbf{Hormones, Nutrients, and Diseases.} Understanding the functions of key hormones and nutrients and the diseases associated with their deficiencies is fundamental in biology and medicine.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q29",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Statement I : Constitution is the frame work for the governance of a country which delegates power and authority to the executive, legislative and judiciary.\nStatement II : It serves a country in maintaining good relationships with her neighboring countries.\nIn the light of the above statements, choose the most appropriate answer from the options below:",
+          "options": [
+            "\\( Both Statement I and Statement II are correct \\)",
+            "\\( Both Statement I and Statement II are incorrect \\)",
+            "\\( Statement I is correct but Statement II is incorrect \\)",
+            "\\( Statement I is incorrect but Statement II is correct \\)"
+          ],
+          "correct": 2,
+          "explanation": "Let's analyze each statement:\nStatement I: Constitution is the frame work for the governance of a country which delegates power and authority to the executive, legislative and judiciary.\nThis statement is correct. A constitution serves as the fundamental legal framework of a country. It outlines the structure of the government, including the three main branches: the executive, the legislature, and the judiciary, and defines the powers and authorities of each. It also establishes the relationship between these branches and the citizens, and often includes fundamental rights and duties.\nStatement II: It serves a country in maintaining good relationships with her neighboring countries.\nThis statement is incorrect. While a country's constitution may reflect its values and principles, which can indirectly influence its foreign policy and relationships with neighboring countries, the primary role of a constitution is internal governance. Maintaining good relationships with neighboring countries is primarily the domain of a country's foreign policy, which is formulated and implemented by the executive branch, often guided by international laws, treaties, and strategic interests, not direc",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q30",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The only Indian who received noble prize in literature is.",
+          "options": [
+            "\\( Bankim Chandra Chatterjee \\)",
+            "\\( Torudutt \\)",
+            "\\( R.K. Narayan \\)",
+            "\\( Rabindra Nath Tagore \\)"
+          ],
+          "correct": 3,
+          "explanation": "The first Asian and the only Indian to receive the Nobel Prize in Literature is Rabindranath Tagore. He was awarded the prize in 1913 \"because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West.\" His notable works include \"Gitanjali.\"\nLet's briefly look at the other options:\nBankim Chandra Chatterjee was a prominent Indian novelist, poet, and journalist, known for his novel \"Anandamath,\" which includes the song \"Vande Mataram.\" He was a significant figure in Bengali literature but did not receive the Nobel Prize.\nTorudutt was a Bengali poet and writer who wrote in English and French. She is considered one of the first Indian women writers in English, but she passed away at a young age and did not receive the Nobel Prize.\nR.K. Narayan was a renowned Indian author known for his works set in the fictional South Indian town of Malgudi. He was a leading figure in early Indian English literature but did not receive the Nobel Prize.\nTherefore, Rabindranath Tagore remains the only Indian to have been awarded the Nobel Prize in Literature.\nQuick Tip:",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q31",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "which book is Written by Dr.S.Radha Krishnan ?",
+          "options": [
+            "\\( The world's largest democracy \\)",
+            "\\( India divided \\)",
+            "\\( Indian Philosophy \\)",
+            "\\( India Priceless heritage \\)"
+          ],
+          "correct": 2,
+          "explanation": "Dr. Sarvepalli Radhakrishnan was a renowned philosopher, academician, and statesman who served as the first Vice President and the second President of India. He was also a prolific writer whose works significantly contributed to the understanding of Indian philosophy and religion in the West.\nAmong the given options, the book written by Dr. S. Radhakrishnan is Indian Philosophy. This is a comprehensive two-volume work that explores the history and development of philosophical thought in India. It is considered a seminal work in the field of Indian philosophy.\nLet's briefly look at the other options:\nThe world's largest democracy: This is a descriptive term often used for India but is not a specific book title by Dr. Radhakrishnan.\nIndia divided: This book was written by Dr. Rajendra Prasad, who was the first President of India.\nIndia Priceless heritage: While Dr. Radhakrishnan was deeply interested in Indian culture and heritage, this is not a widely recognized title of a book authored by him.\nTherefore, the correct answer is Indian Philosophy.\nQuick Tip:\n\\textbf{Important Works by Indian Philosophers.} Remembering the key works of prominent Indian thinkers like Dr. S. Radhakrishna",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q32",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II\nLIST I",
+          "options": [
+            "India wins freedom",
+            "The guide",
+            "India from midnight to Millennium",
+            "Conquest of self"
+          ],
+          "correct": 1,
+          "explanation": "Let's match the books in List I with their respective authors in List II:\n(A) India wins freedom: This book is an autobiographical account by Abdul Kalam Azad (III), a prominent leader of the Indian independence movement and India's first Minister of Education.\n(B) The guide: This famous novel is written by the acclaimed Indian author R. K. Narayan (I), known for his works set in the fictional town of Malgudi.\n(C) India from midnight to Millennium: This non-fiction work analyzing India's history and its journey into the modern era is authored by Shashi Tharoor (IV), an Indian politician, writer, and former international diplomat.\n(D) Conquest of self: This book, focusing on self-discipline and inner strength, is written by Mahatma Gandhi (II), the iconic leader of India's independence movement.\nTherefore, the correct matching is:\nA - III\nB - I\nC - IV\nD - II\nThis corresponds to option (2)\nQuick Tip:\n\\textbf{Important Indian Authors and Their Works.} Remembering significant literary works and their authors is important for general knowledge, especially in the context of Indian literature and history.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q33",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II\nLIST I",
+          "options": [
+            "Mahanadi",
+            "Godavari",
+            "Sutlej",
+            "Gomti"
+          ],
+          "correct": 1,
+          "explanation": "Let's match the rivers in List I with the cities located on their banks in List II:\n(A) Mahanadi: The city of Cuttack (II) in Odisha is located on the banks of the Mahanadi River.\n(B) Godavari: The city of Nashik (IV) in Maharashtra is situated on the banks of the Godavari River.\n(C) Sutlej: The city of Ludhiana (I) in Punjab is located on the banks of the Sutlej River.\n(D) Gomti: The city of Lucknow (III), the capital of Uttar Pradesh, is located on the banks of the Gomti River.\nTherefore, the correct matching is:\nA - II\nB - IV\nC - I\nD - III\nThis corresponds to option (2)\nQuick Tip:\n\\textbf{Rivers and Cities in India.} Remembering the major rivers of India and the important cities located along their banks is a key aspect of Indian geography.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q34",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II Cities with their nicknames\nLIST I",
+          "options": [
+            "Nagpur",
+            "Surat",
+            "Jaisalmer",
+            "Jaipur"
+          ],
+          "correct": 0,
+          "explanation": "Let's match the cities in List I with their popular nicknames in List II:\n(A) Nagpur: Nagpur is widely known as the Orange City (III) due to the large cultivation and trade of oranges in the region.\n(B) Surat: Surat is famous as the Diamond City (I) of India because it is a major hub for diamond processing and trade.\n(C) Jaisalmer: Jaisalmer, with its yellow sandstone architecture, is popularly called the Golden City (IV).\n(D) Jaipur: Jaipur, known for its pink-colored buildings, especially within the old city walls, is famously nicknamed the Pink City (II).\nTherefore, the correct matching is:\nA - III\nB - I\nC - IV\nD - II\nThis corresponds to option (1)\nQuick Tip:\n\\textbf{Nicknames of Indian Cities.} Remembering the popular nicknames of major Indian cities is a common topic in general knowledge and can be helpful in various competitive exams.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q35",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following is not a 'state'?",
+          "options": [
+            "\\( Nagaland \\)",
+            "\\( Manipur \\)",
+            "\\( Laddakh \\)",
+            "\\( Meghalaya \\)"
+          ],
+          "correct": 2,
+          "explanation": "Let's examine each of the options to determine if it is a state in India:\nNagaland: Nagaland is a state in Northeast India.\nManipur: Manipur is a state in Northeast India.\nLaddakh: Ladakh is a Union Territory in India. It was formerly part of the state of Jammu and Kashmir but was reorganized into a separate Union Territory in August 2019.\nMeghalaya: Meghalaya is a state in Northeast India.\nTherefore, Ladakh is not a state; it is a Union Territory.\nQuick Tip:\n\\textbf{States and Union Territories of India.} It is important to have an updated understanding of the states and Union Territories of India, as their status can change over time due to political and administrative decisions. Currently, India has 28 states and 8 Union Territories.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q36",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II\nLIST I",
+          "options": [
+            "Har Gobind Khorana",
+            "C.V. Raman",
+            "Jagdish Chandra Bose",
+            "Aryabhata"
+          ],
+          "correct": 2,
+          "explanation": "Let's match the scientists in List I with their notable discoveries or contributions in List II:\n(A) Har Gobind Khorana: He is known for his research on the genetic composition of the cell (II) and his work on the interpretation of the genetic code and its function in protein synthesis. He received the Nobel Prize in Physiology or Medicine in 1968.\n(B) C.V. Raman: Sir C.V. Raman was awarded the Nobel Prize in Physics in 1930 for his discovery of the scattering of light (III), now known as the Raman Effect.\n(C) Jagdish Chandra Bose: He was a pioneer in biophysics and is credited with the invention of the crescograph, an instrument for measurement of plant growth (IV). He also made significant contributions to the field of radio waves.\n(D) Aryabhata: He was a prominent mathematician and astronomer from the classical age of Indian mathematics and astronomy. His major work, Aryabhatiya, includes significant contributions to mathematics, including the introduction of Zero (I) as a place-value system and also approximations for pi.\nTherefore, the correct matching is:\nA - II\nB - III\nC - IV\nD - I\nThis corresponds to option (3)\nQuick Tip:\n\\textbf{Indian Scientists and Their Contributions.} ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q37",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Who won the 'Noble Prize' for in the field of \"physiology or medicine\"?",
+          "options": [
+            "\\( C.V. Raman \\)",
+            "\\( Jagdish Chandra Bose \\)",
+            "\\( Homi Jehangir Bhabha \\)",
+            "\\( Har Gobind Khorana \\)"
+          ],
+          "correct": 3,
+          "explanation": "The Nobel Prize in Physiology or Medicine was awarded to Har Gobind Khorana in 1968. He shared the prize with Marshall W. Nirenberg and Robert W. Holley for their interpretation of the genetic code and its function in protein synthesis.\nLet's look at why the other options are incorrect:\nC.V. Raman won the Nobel Prize in Physics in 1930 for his work on the scattering of light (Raman Effect).\nJagdish Chandra Bose made significant contributions to plant physiology and biophysics, but he did not receive the Nobel Prize.\nHomi Jehangir Bhabha was a prominent Indian nuclear physicist and played a key role in the development of India's nuclear program. He was not awarded the Nobel Prize.\nTherefore, the correct answer is Har Gobind Khorana.\nQuick Tip:\n\\textbf{Nobel Prize Winners in Science.} Remembering the fields in which Indian scientists have received the Nobel Prize is important. Har Gobind Khorana's work was in the area of physiology or medicine, while C.V. Raman's was in physics.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q38",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following is not the satellite launched by India?",
+          "options": [
+            "\\( Explorer \\)",
+            "\\( APPLE \\)",
+            "\\( Bhaskar \\)",
+            "\\( INSAT \\)"
+          ],
+          "correct": 0,
+          "explanation": "Let's examine each of the options to determine if it is a satellite launched by India:\nExplorer: The Explorer program was a series of over 90 United States spacecraft launched from 1958 to 2015. Explorer 1 was the first artificial satellite launched by the United States.\nAPPLE (Ariane Passenger Payload Experiment): APPLE was India's first experimental communication satellite, launched by the European Space Agency's Ariane rocket in 198(1) It was a significant step in India's space program.\nBhaskar: The Bhaskar series consisted of two low-orbit experimental remote sensing satellites launched by India in 1979 and 198(1) They provided valuable data for earth observation.\nINSAT (Indian National Satellite System): INSAT is a series of multipurpose geostationary satellites launched by India for telecommunications, broadcasting, meteorology, and search and rescue operations. The INSAT system is one of the largest domestic communication satellite systems in the Asia-Pacific region.\nTherefore, Explorer is not a satellite launched by India; it is a program of the United States.\nQuick Tip:\n\\textbf{Indian Space Program.} Knowing about India's major satellite programs and significant satellites",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q39",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II\nLIST I",
+          "options": [
+            "Quit India Movement",
+            "Civil Disobedience Movement",
+            "Non Cooperation Movement",
+            "Home rule league Movement"
+          ],
+          "correct": 3,
+          "explanation": "Let's match the Indian independence movements in List I with their primary purposes or characteristics in List II:\n(A) Quit India Movement: Launched in 1942, its main aim was to compel the British to leave India (II) immediately. The slogan \"Quit India\" encapsulates this objective.\n(B) Civil Disobedience Movement: Started by Mahatma Gandhi in 1930 with the Salt Satyagraha, this movement was characterized by the refusal to obey certain laws, orders, or commands of the government (III) as a form of nonviolent protest.\n(C) Non Cooperation Movement: Launched in 1920, this movement involved Indians resigning their titles, boycotting foreign goods and government institutions, and refusing to pay taxes (IV) as a means of protesting British rule.\n(D) Home Rule League Movement: Initiated around 1916 by Annie Besant and Bal Gangadhar Tilak, the primary goal of the Home Rule League Movement was to achieve self-government in India (I) within the British Empire, advocating for greater Indian political representation and autonomy.\nTherefore, the correct matching is:\nA - II\nB - III\nC - IV\nD - I\nThis corresponds to option (4)\nQuick Tip:\n\\textbf{Indian Independence Movements.} Understanding the key",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q40",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Bhoodan-Gram Dan Movement was initiated by:",
+          "options": [
+            "\\( Mahatma Gandhi \\)",
+            "\\( Vinoba Bhave \\)",
+            "\\( Shri Ram Chandra Reddy \\)",
+            "\\( Sardar Patel \\)"
+          ],
+          "correct": 1,
+          "explanation": "The Bhoodan-Gramdan Movement was initiated by Vinoba Bhave in 195(1) It was a voluntary land reform movement that aimed to persuade wealthy landowners to voluntarily give a portion of their land to landless people. The movement later expanded to include the donation of entire villages (Gramdan).\nLet's look at why the other options are incorrect:\nMahatma Gandhi was a key figure in India's independence movement and advocated for various social reforms, but the Bhoodan-Gramdan Movement was specifically started by Vinoba Bhave after Gandhi's assassination.\nShri Ram Chandra Reddy was the first landowner to donate land under the Bhoodan Movement, inspired by Vinoba Bhave's appeal. He was a participant in the movement, not its initiator.\nSardar Patel played a crucial role in the integration of princely states into independent India. While he was involved in post-independence nation-building, he was not the initiator of the Bhoodan-Gramdan Movement.\nTherefore, the Bhoodan-Gramdan Movement was initiated by Vinoba Bhave.\nQuick Tip:\n\\textbf{Bhoodan-Gramdan Movement.} Remembering the key figures associated with important socio-political movements in India, like Vinoba Bhave with the Bhoodan-Gr",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q41",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Major is related to Lieutenant in the same way as 'Squadron Leader' is Related to ______ ?",
+          "options": [
+            "\\( Pilot officer \\)",
+            "\\( Flying Attendant \\)",
+            "\\( Group captain \\)",
+            "\\( Flying officer \\)"
+          ],
+          "correct": 3,
+          "explanation": "The question presents an analogy based on military ranks. We need to identify the relationship between Major and Lieutenant and apply the same relationship to Squadron Leader to find the corresponding rank.\nMajor and Lieutenant are ranks in many armed forces, including the Indian Army. Lieutenant is a junior rank to Major. Specifically, in a typical hierarchy, a Major is senior to a Captain, who is senior to a Lieutenant. So, Lieutenant is two ranks below Major.\nNow, let's consider the ranks in the Indian Air Force. Squadron Leader is a rank equivalent to a Major in the Army. We need to find the rank that is two levels below Squadron Leader. The ranks in the Indian Air Force, in ascending order, are generally:\nFlying Officer\nFlight Lieutenant\nSquadron Leader\nWing Commander\nGroup Captain\n...\nFollowing this hierarchy, Flight Lieutenant is one rank below Squadron Leader, and Flying Officer is two ranks below Squadron Leader.\nTherefore, Major is related to Lieutenant in the same way as Squadron Leader is related to Flying Officer.\nQuick Tip:\n\\textbf{Military Rank Equivalency.} Understanding the equivalency of ranks across different branches of the armed forces (Army, Air Force, Navy) i",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q44",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If today is Saturday then what will be the day on \\( 363^{rd} \\) day?",
+          "options": [
+            "\\( Sunday \\)",
+            "\\( Monday \\)",
+            "\\( Thursday \\)",
+            "\\( Friday \\)"
+          ],
+          "correct": 2,
+          "explanation": "The days of the week repeat in a cycle of 7 days. To find the day on the \\( 363^{rd} \\) day from Saturday, we need to determine how many full cycles of 7 days are there in 363 days and what the remainder is.\nDivide 363 by 7: \\(\\) 363 \\div 7 \\(\\) \\(\\) 363 = 7 \\times 51 + 6 \\(\\)\nThis means that there are 51 full weeks and 6 extra days after the \\( 363^{rd} \\) day.\nIf today is Saturday, then after 7 days it will again be Saturday. After 14 days, it will again be Saturday, and so on. After \\( 7 \\times 51 = 357 \\) days, it will still be Saturday.\nNow, we need to count forward 6 more days from Saturday:\n1st day after Saturday: Sunday\n2nd day after Saturday: Monday\n3rd day after Saturday: Tuesday\n4th day after Saturday: Wednesday\n5th day after Saturday: Thursday\n6th day after Saturday: Friday\nWait, I made a mistake in counting. Let's restart the counting of the 6 extra days from Saturday.\nIf today is Saturday (Day 0), then:\nDay 1: Sunday\nDay 2: Monday\nDay 3: Tuesday\nDay 4: Wednesday\nDay 5: Thursday\nDay 6: Friday\nSo, the day on the \\( 363^{rd} \\) day will be Friday.\nLet's re-check the calculation. \\( 363 \\div 7 \\) gives a remainder of 6.\nIf today is Saturday, we need to find the day that i",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q45",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A is 3 years younger than C but one year older than D. D is one year older than B but 4 years younger than C. C is 15 years old. What is the age of B in years?",
+          "options": [
+            "\\( 13 \\)",
+            "\\( 12 \\)",
+            "\\( 11 \\)",
+            "\\( 10 \\)"
+          ],
+          "correct": 3,
+          "explanation": "We are given the following information about the ages of A, B, C, and D:\nA is 3 years younger than C.\nA is one year older than D.\nD is one year older than B.\nD is 4 years younger than C.\nC is 15 years old.\nWe need to find the age of B. Let's use the given information step by step:\nFrom statement 5, we know that the age of C is 15 years.\nFrom statement 1, A is 3 years younger than C:\nAge of A \\( = Age of C - 3 = 15 - 3 = 12 \\) years.\nFrom statement 2, A is one year older than D:\nAge of D \\( = Age of A - 1 = 12 - 1 = 11 \\) years.\nWe can verify this with statement 4, D is 4 years younger than C:\nAge of D \\( = Age of C - 4 = 15 - 4 = 11 \\) years. This is consistent.\nNow, from statement 3, D is one year older than B:\nAge of B \\( = Age of D - 1 = 11 - 1 = 10 \\) years.\nTherefore, the age of B is 10 years.\nQuick Tip:\n\\textbf{Age-Related Problems.} When solving problems involving ages and relationships between them, it is helpful to translate the given statements into algebraic equations. By substituting the known values, you can systematically find the unknown ages.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q46",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "When seen through a mirror, a clock shows 3:30. what is the correct time .",
+          "options": [
+            "\\( 2:30 \\)",
+            "\\( 8:30 \\)",
+            "\\( 5:30 \\)",
+            "\\( 4:30 \\)"
+          ],
+          "correct": 1,
+          "explanation": "When a clock is seen through a mirror, the image shows lateral inversion. This means that the left and right sides are reversed.\nTo find the actual time when the mirror image time is given, we can use the following approach:\nFor times less than 12:00, subtract the given time from 11:60.\nGiven mirror image time = 3:30\nActual time = 11:60 - 3:30\nSubtract the minutes: \\( 60 - 30 = 30 \\) minutes.\nSubtract the hours: \\( 11 - 3 = 8 \\) hours.\nSo, the actual time is 8:30.\nAlternatively, we can visualize the clock face.\nAt 3:30, the minute hand is at 6. Its mirror image will also be at 6.\nAt 3:30, the hour hand is halfway between 3 and (4) Its mirror image will be halfway between the mirror images of 3 and (4) The mirror image of 3 is 9, and the mirror image of 4 is 8. Halfway between 9 and 8 is 8:30.\nTherefore, the correct time is 8:30.\nQuick Tip:\n\\textbf{Mirror Images of Clocks.} To find the actual time from a mirror image of a clock, subtract the given time from 11:60. This works for times between 1:00 and 11:59. For times like 12:xx, you might need to consider subtracting from 23:60 or visualizing the clock face.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q47",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the angle traced by hour hand of a correct clock between 7 pm 0' clock and 2 am 0' clock.",
+          "options": [
+            "\\( 200^\\circ \\)",
+            "\\( 210^\\circ \\)",
+            "\\( 310^\\circ \\)",
+            "\\( 290^\\circ \\)"
+          ],
+          "correct": 1,
+          "explanation": "The time interval is from 7 pm to 2 am.\nFrom 7 pm to 12 am (midnight), the number of hours is \\( 12 - 7 = 5 \\) hours.\nFrom 12 am to 2 am, the number of hours is 2 hours.\nThe total number of hours between 7 pm and 2 am is \\( 5 + 2 = 7 \\) hours.\nIn a 12-hour clock, the hour hand moves \\( 360^\\circ \\) in 12 hours.\nTherefore, the angle moved by the hour hand in one hour is \\( \\frac{360^\\circ}{12} = 30^\\circ \\).\nThe total angle traced by the hour hand in 7 hours is \\( 7 \\times 30^\\circ = 210^\\circ \\).\nThus, the angle traced by the hour hand of a correct clock between 7 pm 0' clock and 2 am 0' clock is \\( 210^\\circ \\).\nQuick Tip:\n\\textbf{Angle Traced by Clock Hands.} Remember that the hour hand moves \\( 360^\\circ \\) in 12 hours (or \\( 30^\\circ \\) per hour), and the minute hand moves \\( 360^\\circ \\) in 60 minutes (or \\( 6^\\circ \\) per minute). To find the angle traced over a specific time interval, calculate the number of hours (for the hour hand) or minutes (for the minute hand) and multiply by the respective degrees per unit time.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q48",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the word 'LEADER' is coded as 20-13-9-12-13-26. How would you write \"LIGHT\"",
+          "options": [
+            "\\( 20-16-15-17-22 \\)",
+            "\\( 20-17-15-16-28 \\)",
+            "\\( 20-15-16-18-23 \\)",
+            "\\( 20-16-17-15-27 \\)"
+          ],
+          "correct": 1,
+          "explanation": "First, let's analyze the coding of the word 'LEADER':\nL (12) is coded as 20\nE (5) is coded as 13\nA (1) is coded as 9\nD (4) is coded as 12\nE (5) is coded as 13\nR (18) is coded as 26\nLet's find the pattern in the coding. We can observe the difference between the position of the letter in the alphabet and its code: \\( 20 - 12 = 8 \\) \\( 13 - 5 = 8 \\) \\( 9 - 1 = 8 \\) \\( 12 - 4 = 8 \\) \\( 13 - 5 = 8 \\) \\( 26 - 18 = 8 \\)\nIt appears that each letter is coded by adding 8 to its position in the alphabet.\nNow, let's apply the same logic to code the word \"LIGHT\":\nL is the 12th letter. Code for L \\( = 12 + 8 = 20 \\)\nI is the 9th letter. Code for I \\( = 9 + 8 = 17 \\)\nG is the 7th letter. Code for G \\( = 7 + 8 = 15 \\)\nH is the 8th letter. Code for H \\( = 8 + 8 = 16 \\)\nT is the 20th letter. Code for T \\( = 20 + 8 = 28 \\)\nSo, the code for \"LIGHT\" is 20-17-15-16-28.\nThis matches option (2)\nQuick Tip:\n\\textbf{Coding-Decoding.} In coding-decoding problems, the first step is to identify the pattern or rule used to encode the given word. This often involves finding the relationship between the position of the letters in the alphabet and their corresponding codes. Once the pattern is identified, apply the",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q49",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the \\( 2^{nd} \\) half of the letters of the word INTERMEDIATE are reversed and placed before \\( 1^{st} \\) half of the letters, which letter will be \\( 2^{nd} \\) to the right of \\( 10^{th} \\) letter from the right?",
+          "options": [
+            "\\( A \\)",
+            "\\( D \\)",
+            "\\( E \\)",
+            "\\( I \\)"
+          ],
+          "correct": 1,
+          "explanation": "The word is INTERMEDIATE, which has 12 letters.\nThe first half consists of the first 6 letters: INTERM\nThe second half consists of the next 6 letters: EDIATE\nAccording to the question, the second half is reversed and placed before the first half.\nReversed second half: ETAIDE\nNew arrangement: ETAIDE INTERM\nNow, we need to find the \\( 10^{th} \\) letter from the right in this new arrangement.\nThe letters from the right are: M, R, E, T, N, I, E, D, I, A, T, E\nThe \\( 1^{st} \\) letter from the right is M.\nThe \\( 2^{nd} \\) letter from the right is R.\nThe \\( 3^{rd} \\) letter from the right is E.\nThe \\( 4^{th} \\) letter from the right is T.\nThe \\( 5^{th} \\) letter from the right is N.\nThe \\( 6^{th} \\) letter from the right is I.\nThe \\( 7^{th} \\) letter from the right is E.\nThe \\( 8^{th} \\) letter from the right is D.\nThe \\( 9^{th} \\) letter from the right is I.\nThe \\( 10^{th} \\) letter from the right is A.\nThe \\( 10^{th} \\) letter from the right is A.\nNow, we need to find the letter that is \\( 2^{nd} \\) to the right of this \\( 10^{th} \\) letter from the right (which is A).\nStarting from A and moving two positions to the right:\n1st to the right of A is T.\n2nd to the right of A is E.\nWait, I ",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q50",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Here are some words translated from an artificial language\nHolo polo means base ball\nMoto prot means my India\nProt shot means India won\nWhich word could be mean \"All India Radio\"",
+          "options": [
+            "\\( Holo polo prot \\)",
+            "\\( Kud prot nid \\)",
+            "\\( Prot polo nid \\)",
+            "\\( Polo nid prot \\)"
+          ],
+          "correct": 1,
+          "explanation": "We are given the following translations:\nHolo polo means base ball\nMoto prot means my India\nProt shot means India won\nFrom (2) and (3), we can see that the common word 'prot' means 'India'.\nMoto prot = my India\nProt shot = India won\nNow we need to find the meaning of \"All India Radio\". We know the code for \"India\" is \"prot\". We need to find the codes for \"All\" and \"Radio\".\nThere is no direct translation given for \"All\" or \"Radio\". We need to look for clues or patterns.\nLet's analyze the given options:\nHolo polo prot: This translates to \"base ball India\". It doesn't contain \"All\" or \"Radio\".\nKud prot nid: This contains \"prot\" for \"India\". \"Kud\" and \"nid\" might represent \"All\" and \"Radio\" in some order.\nProt polo nid: This translates to \"India ball nid\". It doesn't contain \"All\" or \"Radio\" in the correct context.\nPolo nid prot: This translates to \"ball nid India\". It doesn't contain \"All\" or \"Radio\" in the correct context.\nSince \"prot\" means \"India\", the correct option must contain \"prot\". Options 1, 2, 3, and 4 all contain \"prot\".\nWe need to deduce the words for \"All\" and \"Radio\". There is no direct way to find these from the given translations. However, since option 2 is the correc",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q51",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A man walks 2 km towards East and then he turns to South and walks 6 km. Again he turns to East and walks 4 km, after this he turns to North and walk 14 km. How far is he from his starting point?",
+          "options": [
+            "\\( 10 \\) km",
+            "\\( 15 \\) km",
+            "\\( 20 \\) km",
+            "\\( 25 \\) km"
+          ],
+          "correct": 0,
+          "explanation": "Let the starting point of the man be O. We can visualize his movements on a coordinate plane.\nHe walks 2 km towards East. Let this point be A. The displacement is (2, 0).\nHe turns to South and walks 6 km. Let this point be B. The change in displacement is (0, -6). His position is (2, -6).\nHe turns to East and walks 4 km. Let this point be C. The change in displacement is (4, 0). His position is (2 + 4, -6) = (6, -6).\nHe turns to North and walks 14 km. Let this point be D. The change in displacement is (0, 14). His position is (6, -6 + 14) = (6, 8).\nThe final position of the man is at coordinates (6, 8) with respect to his starting point (0, 0). The distance from his starting point can be calculated using the distance formula: \\(\\) Distance = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 \\(\\)\nHere, \\( (x_1, y_1) = (0, 0) \\) and \\( (x_2, y_2) = (6, 8) \\). \\(\\) \\text{Distance = \\sqrt{(6 - 0)^2 + (8 - 0)^2 \\(\\) \\(\\) \\text{Distance = \\sqrt{6^2 + 8^2 \\(\\) \\(\\) \\text{Distance = \\sqrt{36 + 64 \\(\\) \\(\\) \\text{Distance = \\sqrt{100 \\(\\) \\(\\) \\text{Distance = 10 \\text{ km \\(\\)\nThe man is 10 km away from his starting point.\nQuick Tip:\n\\textbf{Direction and Distance Problems. To solve these problems, it i",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q52",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In figure out which Number indicate doctors who are not married",
+          "options": [
+            "\\( 2 \\)",
+            "\\( 4 \\)",
+            "\\( 1 \\)",
+            "\\( 6 \\)"
+          ],
+          "correct": 2,
+          "explanation": "The Venn diagram shows the relationship between three categories: Doctors (represented by the triangle), Professors (represented by the circle), and Married People (represented by the rectangle). The numbers in the different regions indicate the individuals belonging to specific combinations of these categories.\nWe need to find the number that indicates doctors who are not married.\nThe triangle represents Doctors. The numbers within the triangle are 1, 5, 6, and (2) These represent individuals who are doctors.\nThe rectangle represents Married People. The numbers within the rectangle are 5, 6, 2, and (3) These represent individuals who are married.\nDoctors who are married are represented by the region where the triangle and the rectangle overlap. This region contains the numbers 5, 6, and (2)\nDoctors who are not married are represented by the region within the triangle but outside the rectangle. This region contains the number (1)\nTherefore, the number that indicates doctors who are not married is (1)\nQuick Tip:\n\\textbf{Venn Diagrams.} Venn diagrams are used to represent sets and their relationships. To answer questions based on Venn diagrams, identify the regions that correspond to",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q53",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The minimum number of colours to required paint all sides of a cube that no two adjacent faces may have the same colour is.",
+          "options": [
+            "\\( 5 \\)",
+            "\\( 4 \\)",
+            "\\( 3 \\)",
+            "\\( 6 \\)"
+          ],
+          "correct": 2,
+          "explanation": "Consider a cube. It has 6 faces. Each face is adjacent to 4 other faces and opposite to 1 face. We want to find the minimum number of colors required to paint all the faces such that no two adjacent faces have the same color.\nLet's try to paint the cube with the minimum number of colors:\nPaint one face with Color (1)\nThe four faces adjacent to the first face must have a different color from Color (1) Let's paint them with Color (2)\nNow consider the face opposite to the first face (painted with Color 1). This face is adjacent to the four faces painted with Color (2) Therefore, it cannot be painted with Color (2) However, it is not adjacent to the first face (painted with Color 1), so it can be painted with Color (1)\nSo far, we have used 2 colors. Let's see if this works for all adjacent faces.\n- The first face (Color 1) is adjacent to four faces (Color 2). The condition is satisfied.\n- Each of the four faces (Color 2) is adjacent to the first face (Color 1) and two other faces (also Color 2). This violates the condition that no two adjacent faces have the same color.\nTherefore, 2 colors are not sufficient.\nLet's try with 3 colors: Color A, Color B, and Color C.\nPaint the top face wi",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q54",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Arrange the following in meaningful sequence:\nA. Key\nB. Door\nC. Lock\nD. Room\nChoose the most appropriate answer from the options given below:",
+          "options": [
+            "\\( A, C, B, D \\)",
+            "\\( D, C, A, B \\)",
+            "\\( B, A, D, C \\)",
+            "\\( C, B, D, A \\)"
+          ],
+          "correct": 0,
+          "explanation": "We need to arrange the given items (Key, Door, Lock, Room) in a logical and meaningful sequence. Let's consider the steps one would typically take to enter a room:\nFirst, you would need a Key (A) to open the lock.\nNext, you would use the key to open the Lock (C) on the door.\nAfter unlocking, you would open the Door (B).\nFinally, after opening the door, you can enter the Room (D).\nTherefore, the meaningful sequence is A, C, B, D.\nLet's check the other options:\nD, C, A, B (Room, Lock, Key, Door): This sequence is illogical as you would need the key before the lock and the door before the room.\nB, A, D, C (Door, Key, Room, Lock): This sequence is also illogical as you would need the key to open the lock on the door before entering the room.\nC, B, D, A (Lock, Door, Room, Key): This sequence is illogical as you would need the key to open the lock.\nThe only logical sequence is A, C, B, D.\nQuick Tip:\n\\textbf{Meaningful Sequence Problems.} In these types of questions, the goal is to arrange a given set of items in a logical order based on a common process, relationship, or hierarchy. Think about the natural or typical progression involving these items.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q55",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Choose the one which is different from the rest three:",
+          "options": [
+            "\\( 431 \\)",
+            "\\( 162 \\)",
+            "\\( 831 \\)",
+            "\\( 232 \\)"
+          ],
+          "correct": 3,
+          "explanation": "Aakash CUET UG 2023 General Test solutions mark option 4. The sum of digits of 232 is prime, while the sums of the other options are not prime.",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q56",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the next term in the alpha-numeric series D4T, F9R, H20P, J43N.",
+          "options": [
+            "\\( L90M \\)",
+            "\\( N90N \\)",
+            "\\( L90L \\)",
+            "\\( J90L \\)"
+          ],
+          "correct": 2,
+          "explanation": "The given alpha-numeric series is D4T, F9R, H20P, J43N. Let's analyze the pattern in the letters and the numbers separately.\nLetters:\nThe first letters are D, F, H, J. These are the 4th, 6th, 8th, and 10th letters of the alphabet, respectively. The pattern is \\( +2 \\) in the position of the letter. The next letter should be the 12th letter, which is L.\nThe last letters are T, R, P, N. These are the 20th, 18th, 16th, and 14th letters of the alphabet, respectively. The pattern is \\( -2 \\) in the position of the letter. The next letter should be the 12th letter, which is L.\nSo, the next term should start with L and end with L.\nNumbers:\nThe numbers are 4, 9, 20, 4(3) Let's find the pattern in this sequence: \\( 9 - 4 = 5 \\) \\( 20 - 9 = 11 \\) \\( 43 - 20 = 23 \\)\nThe differences are 5, 11, 2(3) Let's look at the differences between these differences: \\( 11 - 5 = 6 \\) \\( 23 - 11 = 12 \\)\nThe differences between the differences are 6, 1(2) This suggests that the next difference might be \\( 12 \\times 2 = 24 \\).\nSo, the next difference in the number sequence would be \\( 23 + 24 = 47 \\).\nTherefore, the next number in the sequence would be \\( 43 + 47 = 90 \\).\nCombining the letter and number patte",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q57",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Consider the Diagram.\n500 Candidates appeared in an Examination comprising test in English, Hindi and Maths. The Diagram gives number of students who failed in different tests. What is the % percentage of student who failed at least two subjects?",
+          "options": [
+            "\\( 6.8% \\)",
+            "\\( 7.8% \\)",
+            "\\( (1)0% \\)",
+            "\\( 0.078% \\)"
+          ],
+          "correct": 1,
+          "explanation": "The Venn diagram shows the number of students who failed in different combinations of English, Hindi, and Maths. We need to find the percentage of students who failed in at least two subjects. This means we need to count the number of students who failed in exactly two subjects or in all three subjects.\nFrom the Venn diagram:\nStudents who failed in English and Hindi only: 10\nStudents who failed in Hindi and Maths only: 12\nStudents who failed in English and Maths only: 12\nStudents who failed in English, Hindi, and Maths: 5\nThe number of students who failed in at least two subjects is the sum of those who failed in exactly two subjects and those who failed in all three subjects:\nNumber of students failed in at least two subjects \\( = (English and Hindi only) + (Hindi and Maths only) + (English and Maths only) + (English, Hindi, and Maths) \\)\nNumber of students failed in at least two subjects \\( = 10 + 12 + 12 + 5 = 39 \\)\nThe total number of candidates who appeared in the examination is 500.\nThe percentage of students who failed in at least two subjects is: \\(\\) Percentage = \\frac{\\text{Number of students failed in at least two subjects{\\text{Total number of candidates \\times 100 \\(\\)",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q58",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In a class boys stand in a single line. One of the boys is seventeenth in order from both the ends. How many boys are in the class?",
+          "options": [
+            "\\( 34 \\)",
+            "\\( 33 \\)",
+            "\\( 32 \\)",
+            "\\( 27 \\)"
+          ],
+          "correct": 1,
+          "explanation": "Let the total number of boys in the class be \\( N \\).\nWe are given that one boy is seventeenth in order from both the ends.\nIf a boy is seventeenth from the front, it means there are \\( 17 - 1 = 16 \\) boys standing before him.\nIf the same boy is seventeenth from the back, it means there are \\( 17 - 1 = 16 \\) boys standing after him.\nThe total number of boys in the class is the number of boys before him, plus the boy himself, plus the number of boys after him. \\(\\) N = (Number of boys before him) + (\\text{The boy himself) + (\\text{Number of boys after him) \\(\\) \\(\\) N = 16 + 1 + 16 \\(\\) \\(\\) N = 33 \\(\\)\nTherefore, there are 33 boys in the class.\nWe can also think of this as:\nPosition from the front + Position from the back - 1 = Total number of items.\nHere, the position from the front is 17, and the position from the back is 17.\nTotal number of boys \\( = 17 + 17 - 1 = 34 - 1 = 33 \\).\nQuick Tip:\n\\textbf{Ranking Problems. In ranking problems where the position of an item is given from both ends of a line, the total number of items can be found by adding the two positions and subtracting 1 (because the item is counted twice).",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q59",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In a row of 40 children, A is 13th from the left end and B is ninth from the right end. How many children are there between A and C if C is fourth to the left of B.",
+          "options": [
+            "\\( 13 \\)",
+            "\\( 14 \\)",
+            "\\( 15 \\)",
+            "\\( 16 \\)"
+          ],
+          "correct": 1,
+          "explanation": "Total number of children in the row = 40.\nPosition of A from the left end = 13th.\nPosition of B from the right end = 9th.\nTo find the position of B from the left end, we use the formula:\nPosition from left = Total number of children - Position from right + 1\nPosition of B from the left end \\( = 40 - 9 + 1 = 31 + 1 = 32 \\)nd.\nC is fourth to the left of B. Since we are considering the positions from the left end, moving to the left means decreasing the position number.\nPosition of C from the left end \\( = Position of B from the left end - 4 \\)\nPosition of C from the left end \\( = 32 - 4 = 28 \\)th.\nNow we have the positions of A and C from the left end:\nPosition of A from the left = 13th.\nPosition of C from the left = 28th.\nSince the position of A is less than the position of C, A is to the left of C. The number of children between A and C can be found by subtracting their positions and then subtracting 1:\nNumber of children between A and C \\( = (Position of C from left - Position of A from left) - 1 \\)\nNumber of children between A and C \\( = (28 - 13) - 1 \\)\nNumber of children between A and C \\( = 15 - 1 \\)\nNumber of children between A and C \\( = 14 \\)\nTherefore, there are 14 childre",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        },
+        {
+          "id": "501-2023-Q60",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Statements:\nI. Some cars are black\nII. Some lions are cars\nConclusion\nI. Some blacks are Lions\nII. No black is Lion",
+          "options": [
+            "Only I follow",
+            "Only II follow",
+            "Either I or II follows",
+            "None follows"
+          ],
+          "correct": 2,
+          "explanation": "We are given two statements and two conclusions, and we need to determine which conclusion logically follows from the statements. We can use a Venn diagram to visualize the relationships described in the statements.\nStatement I: Some cars are black.\nThis implies that there is an intersection between the set of cars and the set of black things.\nStatement II: Some lions are cars.\nThis implies that there is an intersection between the set of lions and the set of cars.\nCombining these two statements, we can draw several possible Venn diagrams. One possibility is where the set of black things and the set of lions also have some overlap, and another possibility is where they do not overlap at all.\nPossibility 1: Some blacks are lions.\nIn this case, Conclusion I (Some blacks are Lions) is true.\nPossibility 2: No blacks are lions.\nIn this case, Conclusion II (No black is Lion) is true.\nIt is also possible to have a scenario where some but not all blacks are lions.\nNow let's analyze the conclusions:\nConclusion I: Some blacks are Lions.\nThis conclusion is possible but not necessarily true based on the given statements.\nConclusion II: No black is Lion.\nThis conclusion is also possible but not",
+          "source": "Collegedunia CUET question-with-solutions HTML page"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "archive_root": "past year paper",
+  "pdf_count": 180,
+  "json_count": 140,
+  "main_year_subject_json_files": 20,
+  "individual_pdf_json_files": 91,
+  "ready_rows": 13,
+  "needs_review_rows": 7,
+  "total_main_questions": 946,
+  "total_main_answers_mapped": 932,
+  "total_individual_pdf_questions": 2752,
+  "total_individual_pdf_answers_mapped": 786,
+  "needs_review": [
+    {
+      "year": "2022",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2022/business-studies/json/2022-business-studies.json",
+      "questions": 37,
+      "answers_mapped": 37,
+      "needs_review": true,
+      "weak_options": 28
+    },
+    {
+      "year": "2024",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2024/accountancy/json/2024-accountancy.json",
+      "questions": 50,
+      "answers_mapped": 50,
+      "needs_review": true,
+      "weak_options": 31
+    },
+    {
+      "year": "2024",
+      "subject": "Business Studies",
+      "json_path": "past year paper/2024/business-studies/json/2024-business-studies.json",
+      "questions": 50,
+      "answers_mapped": 49,
+      "needs_review": true,
+      "weak_options": 34
+    },
+    {
+      "year": "2024",
+      "subject": "Economics",
+      "json_path": "past year paper/2024/economics/json/2024-economics.json",
+      "questions": 49,
+      "answers_mapped": 49,
+      "needs_review": true,
+      "weak_options": 33
+    },
+    {
+      "year": "2024",
+      "subject": "General Test",
+      "json_path": "past year paper/2024/general-test/json/2024-general-test.json",
+      "questions": 52,
+      "answers_mapped": 52,
+      "needs_review": true,
+      "weak_options": 17
+    },
+    {
+      "year": "2025",
+      "subject": "Accountancy",
+      "json_path": "past year paper/2025/accountancy/json/2025-accountancy.json",
+      "questions": 50,
+      "answers_mapped": 42,
+      "needs_review": true,
+      "weak_options": 48
+    },
+    {
+      "year": "2025",
+      "subject": "Economics",
+      "json_path": "past year paper/2025/economics/json/2025-economics.json",
+      "questions": 50,
+      "answers_mapped": 45,
+      "needs_review": true,
+      "weak_options": 50
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "subject": "General Test",
+  "subject_code": "501",
+  "year": "2023",
+  "paper": "2023-general-test-02-question-paper",
+  "total_questions": 28,
+  "chapters": [
+    {
+      "chapter_id": "5012023uestionpaper",
+      "chapter": "General Test CUET 2023 Past Year Paper - 2023-general-test-02-question-paper",
+      "questions": [
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q07",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "After 2 years, the ratio of their ages will become 5:9. The ratio of their ages after 10 years will be",
+          "options": [
+            "15 : 16",
+            "5 : 17",
+            "17 : 18",
+            "13 : 17"
+          ],
+          "correct": 3,
+          "explanation": "Let the present ages of the two boys be 3x and 7x years. After 2 years, their ages will be 3x + 2 and 7x + 2 years respectively. According to the problem, the ratio of their ages after 2 years will be 5:9. Therefore, we can write the equation: 3x + 2 7x + 2 = 5 9 Cross-multiplying, we get: 9(3x + 2) = 5(7 x + 2) 27x + 18 = 35 x + 10 18 − 10 = 35 x − 27x 8 = 8 x x = 1 So, the present ages of the two boys are 3 × 1 = 3 years and 7 × 1 = 7 years. We need to find the ratio of their ages after 10 years. After 10 years, their ages will be 3 + 10 = 13 years and 7 + 10 = 17 years respectively. The ratio of their ages after 10 years will be 13 : 17 . Therefore, the correct option is (4)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q08",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The point (−2, 3) lies in which quadrant?",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "correct": 1,
+          "explanation": "In a Cartesian coordinate system, the plane is divided into four quadrants based on the signs of the x-coordinate (abscissa) and the y-coordinate (ordinate) of a point (x, y): • Quadrant I: x > 0 and y > 0 (both coordinates are positive). • Quadrant II: x < 0 and y > 0 (x-coordinate is negative, y-coordinate is positive). • Quadrant III: x < 0 and y < 0 (both coordinates are negative). • Quadrant IV: x > 0 and y < 0 (x-coordinate is positive, y-coordinate is negative). The given point is (−2, 3). Here, the x-coordinate is -2, which is less than 0 (x < 0), and the y-coordinate is 3, which is greater than 0 (y > 0). According to the rules above, a point with a negative x-coordinate and a positive y-coordinate lies in Quadrant II. 10 Therefore, the point (−2, 3) lies in Quadrant II.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q09",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the median of x 5 , x, x 4 , x 2 and x 3 (where x > 0) is 8, then the value of x will be",
+          "options": [
+            "24",
+            "32",
+            "8",
+            "16"
+          ],
+          "correct": 0,
+          "explanation": "First, we need to arrange the given values in ascending order. Since x > 0, we can compare the fractions by comparing their denominators: 2, 3, 4, 5. The order of the fractions will be inversely proportional to the denominators. So, the order is: x 5 < x 4 < x 3 < x 2 < x The given set of values in ascending order is: x 5 , x 4 , x 3 , x 2 , x There are 5 values in the set, which is an odd number. The median of a set with an odd number of values is the middle value when the values are arranged in ascending order. In this case, the middle value is the\u0000 5+1 2 \u0001th = 3 rd value, which is x 3. We are given that the median of the set is 8. Therefore, x 3 = 8 Multiplying both sides by 3, we get: x = 8 × 3 11 x = 24 So, the value of x is 2(4)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the probability that any non-leap year will have 53 Sundays?",
+          "options": [
+            "1 53",
+            "2 53",
+            "1 7",
+            "2 7"
+          ],
+          "correct": 2,
+          "explanation": "A non-leap year has 365 days. We know that there are 52 weeks in a year, which accounts for 52 × 7 = 364 days. So, a non-leap year has 52 full weeks and 1 extra day. For a non-leap year to have 53 Sundays, this extra day must be a Sunday. The extra day can be any one of the 7 days of the week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, or Saturday. Each of these 7 days has an equal probability of being the extra day. The probability that the extra day is a Sunday is 1 out of 7 possible days. Therefore, the probability that a non-leap year will have 53 Sundays is 1 7.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q15",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A railway half-ticket costs half the full ticket. However, the reservation charge for all tickets is constant. One full reserved ticket for a journey is Rupees 525. If the cost of one full and one half reserved ticket for the same journey is Rupees 850, then what is the reservation charge per ticket?",
+          "options": [
+            "Rupees 120",
+            "Rupees 150",
+            "Rupees 125",
+            "Rupees 115"
+          ],
+          "correct": 2,
+          "explanation": "Let the full unreserved ticket cost be F and the reservation charge per ticket be R. The full reserved ticket gives F + R = 525. The half reserved ticket costs F/2 + R, and one full plus one half reserved ticket costs 850, so (F + R) + (F/2 + R) = 850. Using F = 525 - R gives 3(525 - R)/2 + 2R = 850. Multiplying by 2 gives 1575 - 3R + 4R = 1700, so R = 125. Therefore, the reservation charge per ticket is Rupees 125.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q16",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A and B can do a work in 9 days and 12 days respectively. If they work on alternate days starting with A, then in how many days will the work be completed?",
+          "options": [
+            "36 days",
+            "10 days",
+            "10 1 4 days",
+            "13 days"
+          ],
+          "correct": 2,
+          "explanation": "A can complete the work in 9 days, so A’s work per day= 1 9. B can complete the work in 12 days, so B’s work per day= 1 12. They work on alternate days starting with A. Work done on the 1st day (by A) = 1 9 Work done on the 2nd day (by B) = 1 12 19 Work done in the first 2 days = 1 9 + 1 12 = 4+3 36 = 7 36 In 10 days (5 pairs of days), the work done = 5 × 7 36 = 35 36 Remaining work = 1 − 35 36 = 1 36 On the 11th day, A will work. A’s work per day is1 9. Since the remaining work is 1 36, which is less than 1 9, A will finish the remaining work on the 11th day. Let the number of days A works on the 11th day be d. Work done by A on the 11th day = d × 1 9 d × 1 9 = 1 36 d = 1 36 × 9 = 9 36 = 1 4 day So, the total time taken to complete the work is 10 full days + 1 4 day = 10 1 4 days.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q17",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following speeds is the least?",
+          "options": [
+            "50 meter / second",
+            "50 meter / minute",
+            "70 km / hour",
+            "5 km / minute"
+          ],
+          "correct": 1,
+          "explanation": "To compare the speeds, we need to convert them to the same units, for example, meters per second (m/s). (1) 50 meter / second = 50 m/s (2) 50 meter / minute = 50 meter 60 second = 5 6 m/s ≈ 0.83 m/s 20 (3) 70 km / hour = 70 × 1000 meter 3600 second = 70000 3600 m/s = 700 36 m/s = 175 9 m/s ≈ 19.44 m/s (4) 5 km / minute = 5 × 1000 meter 60 second = 5000 60 m/s = 500 6 m/s = 250 3 m/s ≈ 8(3)33 m/s Now, let’s compare the values in m/s: (1)50 m/s (2) ≈ 0.83 m/s (3) ≈ 19.44 m/s (4) ≈ 8(3)33 m/s The least speed is ≈ 0.83 m/s, which corresponds to 50 meter / minute. Therefore, the least speed is option (2)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q18",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "To convert km/minute to m/s, multiply by 1000 60 = 50 3 . 18. What is the smallest square number which is divisible by 4, 6 and 32?",
+          "options": [
+            "100",
+            "196",
+            "96",
+            "576"
+          ],
+          "correct": 3,
+          "explanation": "We need to find the smallest square number that is divisible by 4, 6, and 3(2) First, find the least common multiple (LCM) of 4, 6, and 3(2) Prime factorization of the numbers: 4 = 2 2 6 = 2 × 3 32 = 2 5 The LCM is the product of the highest powers of all prime factors involved: LCM(4, 6, 32) = 2 5 × 31 = 32 × 3 = 96 Now, we need to find the smallest square number that is a multiple of 96. Prime factorization of 96 is 25 × 31. For a number to be a perfect square, all the exponents in its prime factorization must be even. In the prime factorization of 96, the exponent of 2 is 5 (odd) and the exponent of 3 is 1 (odd). 21 To make this number a perfect square, we need to multiply it by the smallest number that will make all the exponents even. We need to multiply by 26−5 = 2 1 and 32−1 = 3 1. So, the required multiplier is 2 × 3 = 6 . The smallest square number divisible by 4, 6, and 32 is 96 × 6: 96 × 6 = (2 5 × 31) × (21 × 31) = 2 5+1 × 31+1 = 2 6 × 32 = 64 × 9 = 576 We can check if 576 is a perfect square: √ 576 = 24 . We can also check if 576 is divisible by 4, 6, and 32: 576 ÷ 4 = 144 576 ÷ 6 = 96 576 ÷ 32 = 18 Therefore, the smallest square number which is divisible by 4, 6, and 32 is 576.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q19",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "From the figure, what is the value of x?",
+          "options": [
+            "50◦",
+            "120◦ 22",
+            "60◦",
+            "70◦"
+          ],
+          "correct": 3,
+          "explanation": "In the given figure, we have a triangle ABC. The angle at vertex A is given as50◦. The exterior angle at vertex C, ∠ACD, is given as 120◦. We need to find the value of the interior angle at vertex B, which is labeled as x. According to the Exterior Angle Theorem, the exterior angle of a triangle is equal to the sum of the two opposite interior angles. In triangle ABC, the exterior angle at C (∠ACD) is equal to the sum of the interior angles at A (∠BAC) and B (∠ABC). So, we have: ∠ACD = ∠BAC + ∠ABC Substituting the given values: 120◦ = 50 ◦ + x To find the value ofx, we can rearrange the equation: x = 120 ◦ − 50◦ x = 70 ◦ Therefore, the value of x is 70◦.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q20",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "How many terms are there in the A. P. 3, 7, 11, ......... 407 ?",
+          "options": [
+            "100",
+            "101",
+            "99 23",
+            "102"
+          ],
+          "correct": 3,
+          "explanation": "The given sequence is an arithmetic progression (A.P.) with the first terma = 3 and the common difference d = 7 − 3 = 4 . The last term of the A.P. is given as l = 407. We need to find the number of terms n in this A.P. The formula for the nth term of an A.P. is: an = a + (n − 1)d In this case, an is the last term l. So, we have: l = a + (n − 1)d Substitute the given values: 407 = 3 + ( n − 1)4 Now, we need to solve for n: 407 − 3 = ( n − 1)4 404 = 4( n − 1) Divide both sides by 4: 404 4 = n − 1 101 = n − 1 Add 1 to both sides: n = 101 + 1 n = 102 Therefore, there are 102 terms in the given arithmetic progression.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q25",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II LIST I (A) Deficiency of Vitamin B (B) Deficiency of Vitamin A (C) Deficiency of Iron (D) Deficiency of Iodine LIST II (I) Anaemia (II) Beri-Beri (III) Goitre (IV) Night blindness Choose the most appropriate answer from the options given below:",
+          "options": [
+            "A-IV , B-III, C-II, D-I",
+            "A-II, B-IV , C-I, D-III",
+            "A-I, B-III, C-IV , D-II",
+            "A-III, B-I, C-II, D-IV"
+          ],
+          "correct": 1,
+          "explanation": "Let’s match the vitamin and mineral deficiencies in List I with the diseases they cause in List II: • (A) Deficiency of Vitamin B: Deficiency of Vitamin B1 (Thiamine) causesBeri-Beri (II), a disease affecting the heart, nerves, and digestive system. • (B) Deficiency of Vitamin A: Deficiency of Vitamin A is well-known to causeNight blindness (IV), an early symptom characterized by difficulty seeing in low light conditions. • (C) Deficiency of Iron: Iron is essential for the production of hemoglobin in red blood cells. Deficiency of iron leads to Anaemia (I), a condition characterized by a reduced number of red blood cells or hemoglobin, resulting in fatigue and weakness. • (D) Deficiency of Iodine: Iodine is crucial for the proper functioning of the thyroid gland. Deficiency of iodine can lead to the enlargement of the thyroid gland, a condition known as Goitre (III). Therefore, the correct matching is: A - II B - IV C - I D - III This corresponds to option (2)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q26",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Major Constituent of natural gas is.",
+          "options": [
+            "Propane",
+            "Butane",
+            "Methane",
+            "Carbon"
+          ],
+          "correct": 2,
+          "explanation": "Natural gas is a naturally occurring hydrocarbon gas mixture consisting primarily of methane (CH4), usually with varying amounts of other higher alkanes, and sometimes a small percentage of non-hydrocarbon gases like carbon dioxide, nitrogen, hydrogen sulfide, or helium. The major constituent of natural gas is Methane. It typically makes up 70 The other options are incorrect: • Propane (C3H8) and Butane (C4H10) are also components of natural gas, but they are present in much smaller percentages compared to methane. They are often separated from natural gas for use as liquefied petroleum gas (LPG). • Carbon (C) is an element, and while it is the central atom in methane, propane, and butane, it does not exist as a major constituent in its elemental form in natural gas. Therefore, the major constituent of natural gas is methane.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q27",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II LIST I (A) Electric charge (B) Force (C) Power (D) Energy LIST II (I) Newton 31 (II) Coulomb (III) Joule (IV) Watt Choose the most appropriate answer from the options given below:",
+          "options": [
+            "A-I, B-II, C-IV , D-III",
+            "A-II, B-I, C-IV , D-III",
+            "A-II, B-IV , C-I, D-III",
+            "A-III, B-II, C-IV , D-I"
+          ],
+          "correct": 1,
+          "explanation": "Let’s match the physical quantities in List I with their corresponding units in List II: • (A) Electric charge: The SI unit of electric charge is the Coulomb (II). • (B) Force: The SI unit of force is the Newton (I). • (C) Power: Power is the rate at which energy is transferred or converted. The SI unit of power is the Watt (IV) (which is equivalent to Joule per second). • (D) Energy: Energy is the capacity to do work. The SI unit of energy is the Joule (III). Therefore, the correct matching is: A - II B - I C - IV D - III This corresponds to option (2)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q28",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II LIST I 32 (A) Insulin (B) Protein (C) Thyroxin (D) Vitamin C LIST II (I) Kwashiorkor (II) Scurvy (III) Diabetes (IV) Goitre Choose the most appropriate answer from the options given below:",
+          "options": [
+            "A-III, B-I, C-IV , D-II",
+            "A-I, B-III, C-IV , D-II",
+            "A-II, B-I, C-IV , D-III",
+            "A-IV , B-III, C-II, D-I"
+          ],
+          "correct": 0,
+          "explanation": "Let’s match the deficiencies in List I with the diseases in List II: • (A) Insulin: Insulin is a hormone that regulates blood sugar levels. A deficiency of insulin leads to Diabetes (III). • (B) Protein: Protein deficiency, especially in children, can lead to a condition called Kwashiorkor (I), characterized by edema, irritability, anorexia, and skin changes. • (C) Thyroxin: Thyroxin is a hormone produced by the thyroid gland. Its deficiency can cause Goitre (IV), an enlargement of the thyroid gland. • (D) Vitamin C: Deficiency of Vitamin C (Ascorbic acid) leads toScurvy (II), a disease characterized by weakness, bleeding gums, and skin hemorrhages. 33 Therefore, the correct matching is: A - III B - I C - IV D - II This corresponds to option (1)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q29",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Statement I : Constitution is the frame work for the governance of a country which delegates power and authority to the executive, legislative and judiciary. Statement II : It serves a country in maintaining good relationships with her neighboring countries. In the light of the above statements, choose the most appropriate answer from the options below:",
+          "options": [
+            "Both Statement I and Statement II are correct",
+            "Both Statement I and Statement II are incorrect",
+            "Statement I is correct but Statement II is incorrect",
+            "Statement I is incorrect but Statement II is correct"
+          ],
+          "correct": 2,
+          "explanation": "Let’s analyze each statement: Statement I: Constitution is the frame work for the governance of a country which delegates power and authority to the executive, legislative and judiciary. This statement is correct. A constitution serves as the fundamental legal framework of a country. It outlines the structure of the government, including the three main branches: the executive, the legislature, and the judiciary, and defines the powers and authorities of each. It also establishes the relationship between these branches and the citizens, and often includes fundamental rights and duties. Statement II: It serves a country in maintaining good relationships with her neighboring countries. This statement is incorrect. While a country’s constitution may 34 reflect its values and principles, which can indirectly influence its foreign policy and relationships with neighboring countries, the primary role of a constitution is internal governance. Maintaining good relationships with neighboring countries is primarily the domain of a country’s foreign policy, which is formulated and implemented by the executive branch, often guided by international laws, treaties, and strategic interests, not directly by the constitution itself. Therefore, Statement I is correct, but Statement II is incorrect.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q30",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The only Indian who received noble prize in literature is.",
+          "options": [
+            "Bankim Chandra Chatterjee",
+            "Torudutt",
+            "R.K. Narayan",
+            "Rabindra Nath Tagore"
+          ],
+          "correct": 3,
+          "explanation": "The first Asian and the only Indian to receive the Nobel Prize in Literature is Rabindranath Tagore. He was awarded the prize in 1913 ”because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West.” His notable works include ”Gitanjali.” Let’s briefly look at the other options: • Bankim Chandra Chatterjee was a prominent Indian novelist, poet, and journalist, known for his novel ”Anandamath,” which includes the song ”Vande Mataram.” He was a significant figure in Bengali literature but did not receive the Nobel Prize. 35 • Torudutt was a Bengali poet and writer who wrote in English and French. She is considered one of the first Indian women writers in English, but she passed away at a young age and did not receive the Nobel Prize. • R.K. Narayan was a renowned Indian author known for his works set in the fictional South Indian town of Malgudi. He was a leading figure in early Indian English literature but did not receive the Nobel Prize. Therefore, Rabindranath Tagore remains the only Indian to have been awarded the Nobel Prize in Literature.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q35",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following is not a ’state’?",
+          "options": [
+            "Nagaland",
+            "Manipur",
+            "Laddakh",
+            "Meghalaya"
+          ],
+          "correct": 2,
+          "explanation": "Let’s examine each of the options to determine if it is a state in India: • Nagaland: Nagaland is a state in Northeast India. • Manipur: Manipur is a state in Northeast India. 41 • Laddakh: Ladakh is a Union Territory in India. It was formerly part of the state of Jammu and Kashmir but was reorganized into a separate Union Territory in August 2019. • Meghalaya: Meghalaya is a state in Northeast India. Therefore, Ladakh is not a state; it is a Union Territory.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q36",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II LIST I (A) Har Gobind Khorana (B) C.V . Raman (C) Jagdish Chandra Bose (D) Aryabhata LIST II (I) Discovery of Zero (II) Genetic composition of cell (III) Scattering of light (IV) Measurement of plant growth Choose the most appropriate answer from the options given below:",
+          "options": [
+            "A-II, B-III, C-I, D-IV 42",
+            "A-III, B-II, C-IV , D-I",
+            "A-II, B-III, C-IV , D-I",
+            "A-I, B-III, C-II, D-IV"
+          ],
+          "correct": 2,
+          "explanation": "Let’s match the scientists in List I with their notable discoveries or contributions in List II: • (A) Har Gobind Khorana: He is known for his research on the genetic composition of the cell (II) and his work on the interpretation of the genetic code and its function in protein synthesis. He received the Nobel Prize in Physiology or Medicine in 1968. • (B) C.V . Raman:Sir C.V . Raman was awarded the Nobel Prize in Physics in 1930 for his discovery of the scattering of light (III), now known as the Raman Effect. • (C) Jagdish Chandra Bose: He was a pioneer in biophysics and is credited with the invention of the crescograph, an instrument for measurement of plant growth (IV). He also made significant contributions to the field of radio waves. • (D) Aryabhata: He was a prominent mathematician and astronomer from the classical age of Indian mathematics and astronomy. His major work, Aryabhatiya, includes significant contributions to mathematics, including the introduction of Zero (I) as a place-value system and also approximations for pi. Therefore, the correct matching is: A - II B - III C - IV D - I This corresponds to option (3)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q37",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Who won the ’Noble Prize’ for in the field of ”physiology or medicine”?",
+          "options": [
+            "C.V . Raman",
+            "Jagdish Chandra Bose",
+            "Homi Jehangir Bhabha",
+            "Har Gobind Khorana"
+          ],
+          "correct": 3,
+          "explanation": "The Nobel Prize in Physiology or Medicine was awarded to Har Gobind Khorana in 1968. He shared the prize with Marshall W. Nirenberg and Robert W. Holley for their interpretation of the genetic code and its function in protein synthesis. Let’s look at why the other options are incorrect: • C.V . Ramanwon the Nobel Prize in Physics in 1930 for his work on the scattering of light (Raman Effect). • Jagdish Chandra Bose made significant contributions to plant physiology and biophysics, but he did not receive the Nobel Prize. • Homi Jehangir Bhabha was a prominent Indian nuclear physicist and played a key role in the development of India’s nuclear program. He was not awarded the Nobel Prize. Therefore, the correct answer is Har Gobind Khorana.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q38",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which of the following is not the satellite launched by India?",
+          "options": [
+            "Explorer",
+            "APPLE",
+            "Bhaskar",
+            "INSAT 44"
+          ],
+          "correct": 0,
+          "explanation": "Let’s examine each of the options to determine if it is a satellite launched by India: • Explorer: The Explorer program was a series of over 90 United States spacecraft launched from 1958 to 2015. Explorer 1 was the first artificial satellite launched by the United States. • APPLE (Ariane Passenger Payload Experiment): APPLE was India’s first experimental communication satellite, launched by the European Space Agency’s Ariane rocket in 198(1) It was a significant step in India’s space program. • Bhaskar: The Bhaskar series consisted of two low-orbit experimental remote sensing satellites launched by India in 1979 and 198(1) They provided valuable data for earth observation. • INSAT (Indian National Satellite System): INSAT is a series of multipurpose geostationary satellites launched by India for telecommunications, broadcasting, meteorology, and search and rescue operations. The INSAT system is one of the largest domestic communication satellite systems in the Asia-Pacific region. Therefore, Explorer is not a satellite launched by India; it is a program of the United States.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q39",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List II LIST I (A) Quit India Movement (B) Civil Disobedience Movement (C) Non Cooperation Movement 45 (D) Home rule league Movement LIST II (I) To achieve self Government in India (II) Compelled British’s to leave India (III) Refusal to obey certain laws orders or Commands of the Government (IV) Indians resigning their title boycotting foreign goods and Government institutions refused to pay taxes Choose the most appropriate answer from the options given below:",
+          "options": [
+            "A-I, B-III, C-II, D-IV",
+            "A-II, B-III, C-I, D-IV",
+            "A-III, B-II, C-IV , D-I",
+            "A-II, B-III, C-IV , D-I"
+          ],
+          "correct": 3,
+          "explanation": "Let’s match the Indian independence movements in List I with their primary purposes or characteristics in List II: • (A) Quit India Movement: Launched in 1942, its main aim was to compel the British to leave India (II) immediately. The slogan ”Quit India” encapsulates this objective. • (B) Civil Disobedience Movement: Started by Mahatma Gandhi in 1930 with the Salt Satyagraha, this movement was characterized by the refusal to obey certain laws, orders, or commands of the government (III) as a form of nonviolent protest. • (C) Non Cooperation Movement: Launched in 1920, this movement involved Indians resigning their titles, boycotting foreign goods and government institutions, and refusing to pay taxes (IV) as a means of protesting British rule. • (D) Home Rule League Movement: Initiated around 1916 by Annie Besant and Bal Gangadhar Tilak, the primary goal of the Home Rule League Movement was to achieve self-government in India (I) within the British Empire, advocating for greater Indian political representation and autonomy. 46 Therefore, the correct matching is: A - II B - III C - IV D - I This corresponds to option (4)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q40",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Bhoodan-Gram Dan Movement was initiated by:",
+          "options": [
+            "Mahatma Gandhi",
+            "Vinoba Bhave",
+            "Shri Ram Chandra Reddy",
+            "Sardar Patel"
+          ],
+          "correct": 1,
+          "explanation": "The Bhoodan-Gramdan Movement was initiated by Vinoba Bhave in 195(1) It was a voluntary land reform movement that aimed to persuade wealthy landowners to voluntarily give a portion of their land to landless people. The movement later expanded to include the donation of entire villages (Gramdan). Let’s look at why the other options are incorrect: • Mahatma Gandhi was a key figure in India’s independence movement and advocated for various social reforms, but the Bhoodan-Gramdan Movement was specifically started by Vinoba Bhave after Gandhi’s assassination. • Shri Ram Chandra Reddy was the first landowner to donate land under the Bhoodan Movement, inspired by Vinoba Bhave’s appeal. He was a participant in the movement, not its initiator. • Sardar Patel played a crucial role in the integration of princely states into independent India. While he was involved in post-independence nation-building, he was not the initiator of the Bhoodan-Gramdan Movement. 47 Therefore, the Bhoodan-Gramdan Movement was initiated by Vinoba Bhave.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q45",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "A is 3 years younger than C but one year older than D. D is one year older than B but 4 years younger than C. C is 15 years old. What is the age of B in years?",
+          "options": [
+            "13",
+            "12",
+            "11",
+            "10"
+          ],
+          "correct": 3,
+          "explanation": "We are given the following information about the ages of A, B, C, and D: 1. A is 3 years younger than C. 2. A is one year older than D. 3. D is one year older than B. 4. D is 4 years younger than C. 5. C is 15 years old. We need to find the age of B. Let’s use the given information step by step: From statement 5, we know that the age of C is 15 years. From statement 1, A is 3 years younger than C: Age of A = Age of C − 3 = 15 − 3 = 12 years. From statement 2, A is one year older than D: Age of D = Age of A − 1 = 12 − 1 = 11 years. We can verify this with statement 4, D is 4 years younger than C: Age of D = Age of C − 4 = 15 − 4 = 11 years. This is consistent. Now, from statement 3, D is one year older than B: Age of B = Age of D − 1 = 11 − 1 = 10 years. Therefore, the age of B is 10 years. 54",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q46",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "When seen through a mirror, a clock shows 3:30. what is the correct time .",
+          "options": [
+            "2 : 30",
+            "8 : 30",
+            "5 : 30",
+            "4 : 30"
+          ],
+          "correct": 1,
+          "explanation": "When a clock is seen through a mirror, the image shows lateral inversion. This means that the left and right sides are reversed. To find the actual time when the mirror image time is given, we can use the following approach: For times less than 12:00, subtract the given time from 11:60. Given mirror image time = 3:30 Actual time = 11:60 - 3:30 Subtract the minutes: 60 − 30 = 30 minutes. Subtract the hours: 11 − 3 = 8 hours. So, the actual time is 8:30. Alternatively, we can visualize the clock face. At 3:30, the minute hand is at 6. Its mirror image will also be at 6. At 3:30, the hour hand is halfway between 3 and (4) Its mirror image will be halfway between the mirror images of 3 and (4) The mirror image of 3 is 9, and the mirror image of 4 is 8. Halfway between 9 and 8 is 8:30. Therefore, the correct time is 8:30. 55",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q47",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Find the angle traced by hour hand of a correct clock between 7 pm 0’ clock and 2 am 0’ clock.",
+          "options": [
+            "200◦",
+            "210◦",
+            "310◦",
+            "290◦"
+          ],
+          "correct": 1,
+          "explanation": "The time interval is from 7 pm to 2 am. From 7 pm to 12 am (midnight), the number of hours is 12 − 7 = 5 hours. From 12 am to 2 am, the number of hours is 2 hours. The total number of hours between 7 pm and 2 am is 5 + 2 = 7 hours. In a 12-hour clock, the hour hand moves 360◦ in 12 hours. Therefore, the angle moved by the hour hand in one hour is 360◦ 12 = 30 ◦. The total angle traced by the hour hand in 7 hours is 7 × 30◦ = 210 ◦. Thus, the angle traced by the hour hand of a correct clock between 7 pm 0’ clock and 2 am 0’ clock is 210◦.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q48",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the word ’LEADER’ is coded as 20-13-9-12-13-26. How would you write ”LIGHT”",
+          "options": [
+            "20 − 16 − 15 − 17 − 22",
+            "20 − 17 − 15 − 16 − 28",
+            "20 − 15 − 16 − 18 − 23",
+            "20 − 16 − 17 − 15 − 27"
+          ],
+          "correct": 1,
+          "explanation": "First, let’s analyze the coding of the word ’LEADER’: L (12) is coded as 20 E (5) is coded as 13 A (1) is coded as 9 D (4) is coded as 12 E (5) is coded as 13 R (18) is coded as 26 Let’s find the pattern in the coding. We can observe the difference between the position of the letter in the alphabet and its code: 20 − 12 = 8 13 − 5 = 8 9 − 1 = 8 12 − 4 = 8 13 − 5 = 8 26 − 18 = 8 It appears that each letter is coded by adding 8 to its position in the alphabet. Now, let’s apply the same logic to code the word ”LIGHT”: L is the 12th letter. Code for L = 12 + 8 = 20 I is the 9th letter. Code for I = 9 + 8 = 17 G is the 7th letter. Code for G = 7 + 8 = 15 H is the 8th letter. Code for H = 8 + 8 = 16 T is the 20th letter. Code for T = 20 + 8 = 28 So, the code for ”LIGHT” is 20-17-15-16-28. This matches option (2)",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q49",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the 2nd half of the letters of the word INTERMEDIATE are reversed and placed before 1st half of the letters, which letter will be 2nd to the right of 10th letter from the right?",
+          "options": [
+            "A",
+            "D",
+            "E",
+            "I"
+          ],
+          "correct": 1,
+          "explanation": "The word is INTERMEDIATE, which has 12 letters. The first half consists of the first 6 letters: INTERM The second half consists of the next 6 letters: EDIATE According to the question, the second half is reversed and placed before the first half. Reversed second half: ETAIDE New arrangement: ETAIDE INTERM Now, we need to find the 10th letter from the right in this new arrangement. The letters from the right are: M, R, E, T, N, I, E, D, I, A, T, E The1st letter from the right is M. The 2nd letter from the right is R. The 3rd letter from the right is E. The 4th letter from the right is T. The 5th letter from the right is N. The 6th letter from the right is I. The 7th letter from the right is E. The 8th letter from the right is D. The 9th letter from the right is I. The 10th letter from the right is A. The 10th letter from the right is A. Now, we need to find the letter that is 2nd to the right of this 10th letter from the right (which is A). Starting from A and moving two positions to the right: 1st to the right of A is T. 2nd to the right of A is E. Wait, I misread the question. ”which letter will be 2nd to the right of 10th letter from the right?” The 10th letter from the right is A. We need to find the letter that is two positions to the right of A in the arrangement ETAIDE INTERM. Position of A in the arrangement is 9 (from the left). The letter two positions to the right of A will be at position 9 + 2 = 11 from the left. The 11th letter in ETAIDE INTERM is R. Let me re-read the question carefully again. 58 ”which letter will be 2nd to the right of 10th letter from the right?” 10th letter from the right: A (at position 9 from the left) 1st to the right of A: T (at position 10 from the left) 2nd to the right of A: E (at position 11 from the left) There is still a mismatch with the correct option. Let’s try counting from the right again. The 10th letter from the right is A. Moving to the right means moving towards the left of the arrangement. The letter immediately to the right of A (when looking from right to left) is I (the 9th letter from the left, or 4th from the right). The second letter to the right of A is D (the 8th letter from the left, or 5th from the right). So, the letter 2nd to the right of the 10th letter from the right is D.",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        },
+        {
+          "id": "501-2023-2023-general-test-02-question-paper-Q50",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Here are some words translated from an artificial language Holo polo means base ball Moto prot means my India Prot shot means India won Which word could be mean ”All India Radio”",
+          "options": [
+            "Holo polo prot",
+            "Kud prot nid",
+            "Prot polo nid",
+            "Polo nid prot"
+          ],
+          "correct": 1,
+          "explanation": "We are given the following translations: 1. Holo polo means base ball 2. Moto prot means my India 59 3. Prot shot means India won From (2) and (3), we can see that the common word ’prot’ means ’India’. Moto prot = my India Prot shot = India won Now we need to find the meaning of ”All India Radio”. We know the code for ”India” is ”prot”. We need to find the codes for ”All” and ”Radio”. There is no direct translation given for ”All” or ”Radio”. We need to look for clues or patterns. Let’s analyze the given options: 1. Holo polo prot: This translates to ”base ball India”. It doesn’t contain ”All” or ”Radio”. 2. Kud prot nid: This contains ”prot” for ”India”. ”Kud” and ”nid” might represent ”All” and ”Radio” in some order. 3. Prot polo nid: This translates to ”India ball nid”. It doesn’t contain ”All” or ”Radio” in the correct context. 4. Polo nid prot: This translates to ”ball nid India”. It doesn’t contain ”All” or ”Radio” in the correct context. Since ”prot” means ”India”, the correct option must contain ”prot”. Options 1, 2, 3, and 4 all contain ”prot”. We need to deduce the words for ”All” and ”Radio”. There is no direct way to find these from the given translations. However, since option 2 is the correct answer, it implies that ”Kud” and ”nid” correspond to ”All” and ”Radio” in some order. Without more information, we cannot definitively say which is which, but the combination ”Kud prot nid” is the correct code for ”All India Radio”. The question implies that there is enough information to deduce the answer, even if indirectly. Since ”prot” is ”India”, the remaining words ”Kud” and ”nid” must correspond to ”All” and ”Radio”. Therefore, ”Kud prot nid” or ”nid prot Kud” would mean ”All India Radio”. Only ”Kud prot nid” is given as an option. 60",
+          "source": "Individual PDF extraction: 2023-general-test-02-question-paper.pdf"
+        }
+      ]
+    }
+  ]
+}

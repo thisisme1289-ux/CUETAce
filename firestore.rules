@@ -1,0 +1,47 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function owns(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    match /users/{uid} {
+      allow create: if owns(uid);
+      allow read, update: if owns(uid);
+      allow delete: if false;
+
+      match /bookmarks/{bookmarkId} {
+        allow read, write: if owns(uid);
+      }
+
+      match /results/{resultId} {
+        allow read: if owns(uid);
+        allow write: if false;
+      }
+    }
+
+    match /attempts/{attemptId} {
+      allow read: if signedIn() && resource.data.uid == request.auth.uid;
+      allow write: if false;
+    }
+
+    match /questionIndexes/{docId} {
+      allow read: if signedIn();
+      allow write: if false;
+    }
+
+    match /payments/{paymentId} {
+      allow read: if signedIn() && resource.data.uid == request.auth.uid;
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

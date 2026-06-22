@@ -1,0 +1,140 @@
+[
+  {
+    "year": "2023",
+    "subject": "Accountancy",
+    "subject_code": "301",
+    "kind": "individual-pdf",
+    "json_path": "past year paper/2023/accountancy/json/individual-pdfs/2023-accountancy-02-solutions.json",
+    "question_id": "301-2023-2023-accountancy-02-solutions-Q13",
+    "type": "mcq",
+    "correct": 1,
+    "prompt_preview": "The need of codification is :",
+    "option_previews": [
+      "To secure the account, reports etc.",
+      "Easy to process data, keeping proper records",
+      "The encryption of data",
+      "The generation of mnemonic code 12"
+    ],
+    "best_match_score": 1,
+    "best_match_id": "301-2025-Q12",
+    "best_match_path": "questions/2025-questions.json",
+    "best_match_prompt_preview": "The need for Codification is",
+    "status": "covered_by_generated_bank",
+    "recommended_action": "do_not_add_duplicate_without_subject_review"
+  },
+  {
+    "year": "2024",
+    "subject": "Economics",
+    "subject_code": "309",
+    "kind": "individual-pdf",
+    "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-02-solutions.json",
+    "question_id": "309-2024-2024-economics-02-solutions-Q06",
+    "type": "mcq",
+    "correct": 2,
+    "prompt_preview": "Which of the following is not a function of Central Bank?",
+    "option_previews": [
+      "It controls the money supply in the economy through different rates.",
+      "It acts as a banker to the government.",
+      "It accepts deposits and gives loans to people.",
+      "It issues the currency of the country."
+    ],
+    "best_match_score": 0.8,
+    "best_match_id": "EC08Q50",
+    "best_match_path": "questions/economics/EC08.json",
+    "best_match_prompt_preview": "Which of the following is NOT a function of the Central Bank (RBI)?",
+    "status": "possible_duplicate",
+    "recommended_action": "manual_compare_before_adding"
+  },
+  {
+    "year": "2024",
+    "subject": "Economics",
+    "subject_code": "309",
+    "kind": "individual-pdf",
+    "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-04-question-paper.json",
+    "question_id": "309-2024-2024-economics-04-question-paper-Q19",
+    "type": "mcq",
+    "correct": 2,
+    "prompt_preview": "Which of the following is not a function of Central Bank?",
+    "option_previews": [
+      "It controls the money supply in the economy through different rates.",
+      "It acts as a banker to the government.",
+      "It accepts deposits and gives loans to people.",
+      "It issues the currency of the country."
+    ],
+    "best_match_score": 0.8,
+    "best_match_id": "EC08Q50",
+    "best_match_path": "questions/economics/EC08.json",
+    "best_match_prompt_preview": "Which of the following is NOT a function of the Central Bank (RBI)?",
+    "status": "possible_duplicate",
+    "recommended_action": "manual_compare_before_adding"
+  },
+  {
+    "year": "2024",
+    "subject": "Economics",
+    "subject_code": "309",
+    "kind": "individual-pdf",
+    "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-06-solutions.json",
+    "question_id": "309-2024-2024-economics-06-solutions-Q47",
+    "type": "mcq",
+    "correct": 2,
+    "prompt_preview": "Which of the following is not a function of Central Bank?",
+    "option_previews": [
+      "It controls the money supply in the economy through different rates.",
+      "It acts as a banker to the government.",
+      "It accepts deposits and gives loans to people.",
+      "It issues the currency of the country."
+    ],
+    "best_match_score": 0.8,
+    "best_match_id": "EC08Q50",
+    "best_match_path": "questions/economics/EC08.json",
+    "best_match_prompt_preview": "Which of the following is NOT a function of the Central Bank (RBI)?",
+    "status": "possible_duplicate",
+    "recommended_action": "manual_compare_before_adding"
+  },
+  {
+    "year": "2024",
+    "subject": "Economics",
+    "subject_code": "309",
+    "kind": "individual-pdf",
+    "json_path": "past year paper/2024/economics/json/individual-pdfs/2024-economics-08-solutions.json",
+    "question_id": "309-2024-2024-economics-08-solutions-Q38",
+    "type": "mcq",
+    "correct": 2,
+    "prompt_preview": "Which of the following is not a function of Central Bank?",
+    "option_previews": [
+      "It controls the money supply in the economy through different rates.",
+      "It acts as a banker to the government.",
+      "It accepts deposits and gives loans to people.",
+      "It issues the currency of the country."
+    ],
+    "best_match_score": 0.8,
+    "best_match_id": "EC08Q50",
+    "best_match_path": "questions/economics/EC08.json",
+    "best_match_prompt_preview": "Which of the following is NOT a function of the Central Bank (RBI)?",
+    "status": "possible_duplicate",
+    "recommended_action": "manual_compare_before_adding"
+  },
+  {
+    "year": "2025",
+    "subject": "Accountancy",
+    "subject_code": "301",
+    "kind": "individual-pdf",
+    "json_path": "past year paper/2025/accountancy/json/individual-pdfs/2025-accountancy-02-solutions.json",
+    "question_id": "301-2025-2025-accountancy-02-solutions-Q09",
+    "type": "mcq",
+    "correct": 3,
+    "prompt_preview": "On the death of a partner, his capital account is credited with:",
+    "option_previews": [
+      "Share of profit",
+      "Share of goodwill",
+      "Share of accumulated profits",
+      "All of the above"
+    ],
+    "best_match_score": 0.714,
+    "best_match_id": "AC06Q45",
+    "best_match_path": "questions/accountancy/AC06.json",
+    "best_match_prompt_preview": "On death of a partner, which of the following is credited to the deceased partner's capital account?",
+    "status": "possible_duplicate",
+    "recommended_action": "manual_compare_before_adding"
+  }
+]

@@ -77,8 +77,9 @@
         "Assuring satisfaction and repeat purchase",
         "Eliminating the need for product planning"
       ],
-      "correct": 4,
-      "explanation": "Marketing helps create value, manage exchanges and build satisfaction.\nIt does not remove the need for product planning; in fact, it supports it.\nA firm must plan the offering before marketing it effectively."
+      "correct": 3,
+      "explanation": "Marketing helps create value, manage exchanges and build satisfaction.\nIt does not remove the need for product planning; in fact, it supports it.\nA firm must plan the offering before marketing it effectively.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q06",
@@ -92,8 +93,9 @@
         "It treats selling and marketing as the same",
         "It ignores the customer relationship after sale"
       ],
-      "correct": 4,
-      "explanation": "Selling ends with transfer of ownership, but marketing does not.\nMarketing also cares about satisfaction, repeat purchase and relationship building.\nThat is why the statement is too narrow."
+      "correct": 3,
+      "explanation": "Selling ends with transfer of ownership, but marketing does not.\nMarketing also cares about satisfaction, repeat purchase and relationship building.\nThat is why the statement is too narrow.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q07",
@@ -197,8 +199,9 @@
         "Risk bearing",
         "Manufacturing raw materials"
       ],
-      "correct": 4,
-      "explanation": "Market information, financing and risk bearing are recognized marketing functions.\nManufacturing raw materials is a production activity, not a marketing function.\nThe question checks the boundary between production and marketing."
+      "correct": 3,
+      "explanation": "Market information, financing and risk bearing are recognized marketing functions.\nManufacturing raw materials is a production activity, not a marketing function.\nThe question checks the boundary between production and marketing.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q14",
@@ -422,8 +425,9 @@
         "Only financing",
         "Information and consumer protection"
       ],
-      "correct": 4,
-      "explanation": "Labelling is not just decoration; it provides important product information.\nExpiry date and storage instructions help consumers use the product safely.\nRegulatory details also build trust and compliance."
+      "correct": 3,
+      "explanation": "Labelling is not just decoration; it provides important product information.\nExpiry date and storage instructions help consumers use the product safely.\nRegulatory details also build trust and compliance.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q29",
@@ -572,8 +576,9 @@
         "Improved shelf appeal",
         "Guaranteed zero competition"
       ],
-      "correct": 4,
-      "explanation": "Good packaging can protect the product and improve presentation.\nIt can also aid convenience and differentiation.\nBut it cannot guarantee the absence of competition in the market."
+      "correct": 3,
+      "explanation": "Good packaging can protect the product and improve presentation.\nIt can also aid convenience and differentiation.\nBut it cannot guarantee the absence of competition in the market.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q39",
@@ -692,8 +697,9 @@
         "Inventory control",
         "Brand name creation"
       ],
-      "correct": 4,
-      "explanation": "Transportation, warehousing and inventory control are distribution activities.\nBrand name creation belongs to branding, a product decision.\nThe question checks the boundary between place and product."
+      "correct": 3,
+      "explanation": "Transportation, warehousing and inventory control are distribution activities.\nBrand name creation belongs to branding, a product decision.\nThe question checks the boundary between place and product.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q47",
@@ -857,8 +863,9 @@
         "Agent",
         "Manufacturer"
       ],
-      "correct": 4,
-      "explanation": "Wholesalers, retailers and agents connect producers with buyers.\nThe manufacturer is the source of the product, not an intermediary.\nThis distinction is important in channel structure."
+      "correct": 3,
+      "explanation": "Wholesalers, retailers and agents connect producers with buyers.\nThe manufacturer is the source of the product, not an intermediary.\nThis distinction is important in channel structure.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q58",
@@ -1007,8 +1014,9 @@
         "Sales promotion",
         "Warehousing"
       ],
-      "correct": 4,
-      "explanation": "Warehousing is part of physical distribution.\nAdvertising, personal selling and sales promotion are promotion tools.\nThe question checks the mix of marketing activities."
+      "correct": 3,
+      "explanation": "Warehousing is part of physical distribution.\nAdvertising, personal selling and sales promotion are promotion tools.\nThe question checks the mix of marketing activities.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q68",
@@ -1172,8 +1180,9 @@
         "Building immediate customer interest",
         "Preparing annual financial statements"
       ],
-      "correct": 4,
-      "explanation": "Sales promotion aims to create quick buying response and trial.\nFinancial statement preparation belongs to accounting, not marketing.\nThe objective of promotion is customer action, not bookkeeping."
+      "correct": 3,
+      "explanation": "Sales promotion aims to create quick buying response and trial.\nFinancial statement preparation belongs to accounting, not marketing.\nThe objective of promotion is customer action, not bookkeeping.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q79",
@@ -1277,8 +1286,9 @@
         "Supporting sales,",
         "Guaranteeing zero customer complaints"
       ],
-      "correct": 4,
-      "explanation": "Advertising can create awareness and help differentiate the brand.\nIt may also support sales and remind buyers.\nBut it cannot guarantee that complaints will never happen."
+      "correct": 3,
+      "explanation": "Advertising can create awareness and help differentiate the brand.\nIt may also support sales and remind buyers.\nBut it cannot guarantee that complaints will never happen.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q86",
@@ -1457,8 +1467,9 @@
         "Market share growth",
         "Warehouse expansion"
       ],
-      "correct": 4,
-      "explanation": "Survival, profit and market share are common pricing objectives.\nWarehouse expansion is a distribution or capacity decision.\nIt is not a direct objective of price setting."
+      "correct": 3,
+      "explanation": "Survival, profit and market share are common pricing objectives.\nWarehouse expansion is a distribution or capacity decision.\nIt is not a direct objective of price setting.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q98",
@@ -1577,8 +1588,9 @@
         "Customer value perception",
         "The colour of the warehouse gate"
       ],
-      "correct": 4,
-      "explanation": "Pricing uses economic and market variables.\nWarehouse gate colour does not affect the price decision.\nThe other three are standard inputs in pricing."
+      "correct": 3,
+      "explanation": "Pricing uses economic and market variables.\nWarehouse gate colour does not affect the price decision.\nThe other three are standard inputs in pricing.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q106",
@@ -1727,8 +1739,9 @@
         "Change in perceived value",
         "Change in the product's physical colour"
       ],
-      "correct": 4,
-      "explanation": "Price changes can affect demand, revenue and perceived value.\nBut they do not change the physical colour of the product.\nThat belongs to product design, not pricing."
+      "correct": 3,
+      "explanation": "Price changes can affect demand, revenue and perceived value.\nBut they do not change the physical colour of the product.\nThat belongs to product design, not pricing.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q116",
@@ -1982,8 +1995,9 @@
         "Labelling",
         "Transportation route"
       ],
-      "correct": 4,
-      "explanation": "Branding, packaging and labelling are product decisions.\nTransportation route is part of place or distribution decisions.\nThe question distinguishes product from channel management."
+      "correct": 3,
+      "explanation": "Branding, packaging and labelling are product decisions.\nTransportation route is part of place or distribution decisions.\nThe question distinguishes product from channel management.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q133",
@@ -2132,8 +2146,9 @@
         "Identification",
         "Determining factory wage rates"
       ],
-      "correct": 4,
-      "explanation": "Packaging protects, identifies and adds convenience.\nIt does not decide wages or labour policy.\nThat belongs to human resource management."
+      "correct": 3,
+      "explanation": "Packaging protects, identifies and adds convenience.\nIt does not decide wages or labour policy.\nThat belongs to human resource management.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q143",
@@ -2282,8 +2297,9 @@
         "Expected demand",
         "Warehouse wall paint"
       ],
-      "correct": 4,
-      "explanation": "Price is affected by cost, demand and competition.\nWarehouse wall paint has no direct connection with pricing.\nThe question checks whether the pricing decision is linked to business variables."
+      "correct": 3,
+      "explanation": "Price is affected by cost, demand and competition.\nWarehouse wall paint has no direct connection with pricing.\nThe question checks whether the pricing decision is linked to business variables.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q153",
@@ -2477,8 +2493,9 @@
         "Sales promotion",
         "Warehouse stacking"
       ],
-      "correct": 4,
-      "explanation": "Advertising, branding and sales promotion can all support awareness.\nWarehouse stacking is a storage activity, not a communication activity.\nIt does not directly inform the market."
+      "correct": 3,
+      "explanation": "Advertising, branding and sales promotion can all support awareness.\nWarehouse stacking is a storage activity, not a communication activity.\nIt does not directly inform the market.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q166",
@@ -2762,8 +2779,9 @@
         "Relationship building",
         "Automatic mass reach at zero cost"
       ],
-      "correct": 4,
-      "explanation": "Personal selling offers customization and feedback but not mass reach.\nIt is also not zero cost because salespeople need training and support.\nThe question checks the limits of each promotional tool."
+      "correct": 3,
+      "explanation": "Personal selling offers customization and feedback but not mass reach.\nIt is also not zero cost because salespeople need training and support.\nThe question checks the limits of each promotional tool.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q185",
@@ -2912,8 +2930,9 @@
         "Reminding buyers",
         "Physically transporting goods"
       ],
-      "correct": 4,
-      "explanation": "Advertising communicates; it does not move goods physically.\nTransport is a distribution function.\nThe other three are classic communication roles of advertising."
+      "correct": 3,
+      "explanation": "Advertising communicates; it does not move goods physically.\nTransport is a distribution function.\nThe other three are classic communication roles of advertising.",
+      "correct_original": 4
     },
     {
       "id": "BS11Q195",

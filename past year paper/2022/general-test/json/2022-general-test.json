@@ -1,0 +1,541 @@
+{
+  "subject": "General Test",
+  "subject_code": "501",
+  "year": "2022",
+  "total_questions": 31,
+  "chapters": [
+    {
+      "chapter_id": "5012022",
+      "chapter": "General Test CUET 2022 Past Year Paper",
+      "questions": [
+        {
+          "id": "501-2022-Q01",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Actress and Model \"Hamaaz Sandhu\" was crowned as in Dec 2021.",
+          "options": [
+            "Miss World 2021",
+            "Miss India 2021",
+            "Miss Universe 2021",
+            "Miss Earth 2021"
+          ],
+          "correct": 2,
+          "explanation": "Sandhu was announced Miss Universe 2021 by host SteveHarveyandcrownedbytheoutgoingtitleholder AndreaMezaof Mexico.",
+          "source_question_id": "654701",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q03",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If * is an operation such that a * b = 3a—4b. find the value of 3*4",
+          "options": [
+            "0",
+            "-7",
+            "7",
+            "-1"
+          ],
+          "correct": 1,
+          "explanation": "To find the valueof 3* 4usingthegivenoperation, wesubstitutea=3andb=4intotheexpression3a- 4b:\n3* 4=3(3) - 4(4)=9- 16=-7\nTherefore, 3* 4=-7usingthegivenoperation.",
+          "source_question_id": "654703",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q04",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In a certain language TRIANGLE is written as VTKCPING. How RECTANGLE 3 3 Qu will be written",
+          "options": [
+            "TGEUCPING",
+            "TGEVCPKNG",
+            "TGEVCPING",
+            "GTEVCPING"
+          ],
+          "correct": 2,
+          "explanation": "TRIANGLE to VTKCPING shifts each letter forward by 2. Applying the same pattern to RECTANGLE gives TGEVCPING.",
+          "source_question_id": "654704",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q10",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "\"Neeraj Chopra’ is associated with which sports event?",
+          "options": [
+            "[Wrestling |",
+            "Boxing",
+            "Shooting",
+            "Javelin Throw _"
+          ],
+          "correct": 3,
+          "explanation": "JavelinThrow",
+          "source_question_id": "6547010",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q12",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "What is the full form of NABARD?",
+          "options": [
+            "National Bank for Agriculture and Resource Development",
+            "National Bank for Agriculture and Rural Development",
+            "National Bank for Asian Research Development",
+            "National Bank for Agriculture Related Development"
+          ],
+          "correct": 1,
+          "explanation": "National Bankfor AgricultureandRural Development.",
+          "source_question_id": "6547012",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q13",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List IT LISTI LISTII (Equations) rE 2x-4=2-x Choose the correct answer from the options given below:",
+          "options": [
+            "EEE I EE",
+            "A-IL B-1V, CII, D-1",
+            "A-1, BIL C-1V, D-II",
+            "A-IL BIL, C-1V, D-1"
+          ],
+          "correct": 1,
+          "explanation": "Solving the equations gives the matching sequence shown in option B.",
+          "source_question_id": "6547013",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q14",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List IT LISTI LISTII (Crematoriums (samadhi sthal) (Person) Ekta sthal | I [Jawahar Lal Nehru Quesion: |B [Vay Ghar | 1 [Raj Gants | C[NeerBhums | TL Boar Shae [D [Shamnvn | [Gian Zo Sug Choose the correct answer from the option given below:",
+          "options": [
+            "A-L BIL. C-IIL D-1V",
+            "A-II, B-1V, CI. D-III",
+            "A-1V, BIL CII, D-1",
+            "A-IIL BL. CIV, D-II"
+          ],
+          "correct": 2,
+          "explanation": "Ekta Sthal is associated with Giani Zail Singh, Vijay Ghat with Lal Bahadur Shastri, Veer Bhumi with Rajiv Gandhi, and Shanti Van with Jawaharlal Nehru.",
+          "source_question_id": "6547014",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q19",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "tion: Which of the following standing committee of parliament has no member from Rajya Sabha?",
+          "options": [
+            "Public Account committee",
+            "Estimate Committee",
+            "Committee on public undertaking",
+            "Committee on government assurance"
+          ],
+          "correct": 1,
+          "explanation": "The correct answer is the Estimates Committee. The EstimatesCommittee has 30 members and all these members are from LokSabha(Lower House). ThereisnorepresentationfromRajyaSabha(UpperHouse).",
+          "source_question_id": "6547019",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q26",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "[oie [Which ofthe folowing sea has higheet saliy the worl?",
+          "options": [
+            "Dead sea",
+            "Black sea",
+            "Red sea",
+            "Mediterranean sea"
+          ],
+          "correct": 0,
+          "explanation": "TheDeadSeaislandlockedandinthelowest valleyonearth. Allthe minerals of the surrounding countryside get washed into one pool,\nwww.collegedunia.com\nwhich in turn gets baked by the sun. This concentrates the salts so muchthat theDeadSeais10timesassaltyastheocean.",
+          "source_question_id": "6547026",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q27",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the price of sugar is increased by 25%, by how much percent should consumption be reduced so that the expenditure remains the same?",
+          "options": [
+            "25%",
+            "20%",
+            "30%",
+            "35%"
+          ],
+          "correct": 1,
+          "explanation": "Assume the original sugar price is 100 and original consumption is 1 unit, so expenditure is 100. After a 25% price increase, the new price is 125. To keep expenditure at 100, consumption must become 100/125 = 0.8 of the original consumption. Therefore consumption must be reduced by 20%.",
+          "source_question_id": "6547027",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q28",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "[ Mohan's Mother is three times as old as Mohan. After 6 years, his mother will be | two times as old as he will be them. find the age of Mohan.",
+          "options": [
+            "eyes",
+            "6 years",
+            "3 years",
+            "16 years"
+          ],
+          "correct": 1,
+          "explanation": "Let'sassumeMohan'sageas\"x\" years.\nAccording to thegiveninformation, Mohan'smother isthreetimesasoldasMohan, soher agewouldbe3xyears.\nAfter 6 years, Mohan's age will be x + 6, and his mother's age will be 3x +6.\nTheproblemstatesthat after 6years, hismother will betwotimesasoldasMohanwill beat that time. Mathematically, wecanexpressthisas:\nwww.collegedunia.com\n3x+6=2(x+6)\nNow, let's solve this equation to find the value of x, which representsMohan'scurrent age:\n3x+6=2x+12\nSubtracting2xfrombothsides:\n3x- 2x+6=12\nSimplifying:\nx+6=12\nSubtracting6frombothsides:\nx=6\nTherefore, Mohaniscurrently6yearsold.",
+          "source_question_id": "6547028",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q31",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "In a row of 35 students, Ramesh is 24th from the front. If two students from the end leave the row, what is Ramesh's position from the back?",
+          "options": [
+            "12th",
+            "10th",
+            "14th",
+            "11th"
+          ],
+          "correct": 1,
+          "explanation": "After two students from the last leave, 33 students remain. Ramesh is still 24th from the front, so his position from the back is 33 - 24 + 1 = 10th.",
+          "source_question_id": "6547031",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q32",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "contribution of different sources to the gross domestic product (GDP) in India.",
+          "options": [
+            "[Service Industry-Agricultore ~~ |",
+            "Service-Agriculture-Industry",
+            "Industry-Service-Agriculture",
+            "Agriculture-Industry-service"
+          ],
+          "correct": 1,
+          "explanation": "Industry-Agriculture-Services",
+          "source_question_id": "6547032",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q34",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": ". Which one of the following bills must be passed by each house of the India parliament separately by special majority?",
+          "options": [
+            "Money Bill",
+            "Finance Bill",
+            "Ordinary Bill",
+            "Constitutional Amendment Bill"
+          ],
+          "correct": 3,
+          "explanation": "Constitution Amendment Bills have to be passed in each Houseof Parliament by a special majority i.e. by a majority of the totalmembership of that House and by a majority of not less than two-thirds ofthemembersof theHouse“present andvoting”.",
+          "source_question_id": "6547034",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q37",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "At hill station. the boiling point of water will be :",
+          "options": [
+            "Same as at sea level",
+            "More than that at sea level",
+            "Less than that at sea level",
+            "Equal to the melting point of Ice"
+          ],
+          "correct": 2,
+          "explanation": "Theboilingpoint isthetemperatureat whichthevapour pressureof the liquid equals the environmental pressure surrounding the liquid.Atmospheric pressure is due toair aboveanygivenpoint. Theatmosphericpressure at high altitudes like hill station is less than at the sea level.Thus,vapour pressure will equal atmospheric pressure at a comparatively lowtemperature. Thus, the boiling point of water is reduced less than at sealevel.",
+          "source_question_id": "6547037",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q38",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The radius of the cylinder is-",
+          "options": [
+            "rectangular paper of width 8cm and length 22cm rolled along it width and a Passage: cylinder is formed. On the above Intimation. Solve the question given below 2",
+            "Zcom 7",
+            "7 em 7",
+            "— cm © 2"
+          ],
+          "correct": 3,
+          "explanation": "Area of a trapezium = 1/2 x sum of parallel sides x distance. So 48 = 1/2 x 48 x distance, giving distance = 2 cm.",
+          "source_question_id": "6547038",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q40",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The volume of cylinder is",
+          "options": [
+            "rectangular paper of width 8cm and length 22cm rolled along it width and a p . cylinder is formed. assage: On the above Intimation. Solve the question given below",
+            "98cm’",
+            "497em’",
+            "49cm’"
+          ],
+          "correct": 2,
+          "explanation": "EVM stands for Electronic Voting Machine.",
+          "source_question_id": "6547040",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q41",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List IT (Movement/organization) (Founder) || 5 [Surya shodhak sam | 11_|Gopal Kishan Gokhale Choose the correct answer from the options given below:",
+          "options": [
+            "[BamoSumy | T [Henry Vivian Deore | —C[Young Bengal Movement | 1IL_|Raja Ram Vihan Roy | [> [Servmtof nd sociery | IV [rvoubaPhute |",
+            "A-L BIL. C-IIL D-1V",
+            "A-II, B-1V, CI. D-III",
+            "A-III, B-1V. CII D-1"
+          ],
+          "correct": 3,
+          "explanation": "An atoll is a ring-shaped coral island or reef with a lagoon at the centre.",
+          "source_question_id": "6547041",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q42",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The headquarters of RBI is situated at:",
+          "options": [
+            "Delhi",
+            "Kolkata",
+            "Chennai",
+            "Mumbai"
+          ],
+          "correct": 3,
+          "explanation": "Mumbai, Maharashtra, India.",
+          "source_question_id": "6547042",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q46",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "The deepest oceanic trench, Mariana Trench, is located in:",
+          "options": [
+            "Atlantic Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean",
+            "Indian Ocean"
+          ],
+          "correct": 2,
+          "explanation": "The Mariana Trench is an oceanic trench located in the westernPacificOcean.",
+          "source_question_id": "6547046",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q48",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "If the area and sum of parallel side of a trapezium are 48 cm? and 48cm ’ respectively. Then the distance between the parallel sides is",
+          "options": [
+            "ee —",
+            "3 cm",
+            "1 cm",
+            "2cm"
+          ],
+          "correct": 3,
+          "explanation": "India hosted the G20 summit in 2023.",
+          "source_question_id": "6547048",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q51",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "[Who is known as 'Nightingle of India’ ? |",
+          "options": [
+            "[Vijaya Laxmi Pandit |",
+            "Indira Gandhi",
+            "[Sarojini Naidu |",
+            "[Lata Mangeshkar |"
+          ],
+          "correct": 2,
+          "explanation": "Sarojini Chattopadhyay Naidu was a key figure during India'sindependence struggle. Her work as a poet earned her the title of'Nightingaleof India' fromMahatmaGandhi.",
+          "source_question_id": "6547051",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q56",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List IT LISTI LISTII Vr a , (Stata S| — Choose the correct answer from the options given below:",
+          "options": [
+            "fzomn |W [Huaipien |",
+            "CT A R—",
+            "AIL B-IV, C1 D-III",
+            "A-IIL B-II, C-1V, D-1"
+          ],
+          "correct": 1,
+          "explanation": "Weight is maximum at the poles because effective gravity is greatest there.",
+          "source_question_id": "6547056",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q59",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "[EVM Stands for |",
+          "options": [
+            "[Electric Vending Machine |",
+            "[ Electronic Vending Machine |",
+            "[ Electronic Voting Machine |",
+            "[Electric Voting Machine | rr a — (2-7) -@-2f 2-77 +2-7x2-2+(2-2)"
+          ],
+          "correct": 1,
+          "explanation": "The Indian National Congress was founded by A.O. Hume.",
+          "source_question_id": "6547059",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q61",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "An Atoll is :",
+          "options": [
+            "A lake in the Crates",
+            "[ALagoon along the shores |",
+            "A lake in Glaciated mountains",
+            "[ A ring shaped island with a lagoon at the Centre |"
+          ],
+          "correct": 2,
+          "explanation": "Article 368 concerns constitutional amendment, Article 40 concerns Panchayati Raj, Article 61 concerns impeachment of the President, and Article 352 concerns emergency provisions.",
+          "source_question_id": "6547061",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q62",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Dr Passage: Study the adjoining picture and answer the following questions: The area of A ABF is.",
+          "options": [
+            "180 m”",
+            "90 m?",
+            "125m’",
+            "60 m?"
+          ],
+          "correct": 3,
+          "explanation": "From the figure, triangle ABF has base 10 m and height 12 m. Area = 1/2 x 10 x 12 = 60 m2.",
+          "source_question_id": "6547062",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q63",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Passage: Study the adjoining picture and answer the following questions: The area of Trapezum DGCE is.",
+          "options": [
+            "100 m?",
+            "260 m?",
+            "70 m?",
+            "130 m?"
+          ],
+          "correct": 2,
+          "explanation": "From the figure, trapezium DGCE has parallel sides 5 m and 15 m with height 7 m. Area = 1/2 x (5 + 15) x 7 = 70 m2.",
+          "source_question_id": "6547063",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q65",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Which country will host the G-20 summit in 2023 ?",
+          "options": [
+            "Italy",
+            "Germany",
+            "Japan I ——.—.- ii HE idi iS EEEE-ABeMiS -s iiiiihiiivh",
+            "India"
+          ],
+          "correct": 3,
+          "explanation": "India hosted the G20 summit in 2023.",
+          "source_question_id": "6547065",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q69",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "At which of the following place. weight of an object is maximum?",
+          "options": [
+            "At equator",
+            "At poles",
+            "At tropic of Cancer",
+            "At tropic of Capricorn"
+          ],
+          "correct": 1,
+          "explanation": "Weight is maximum at the poles because effective gravity is greatest there.",
+          "source_question_id": "6547069",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q71",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "|| Indian National Congress was foundedby |",
+          "options": [
+            "[W.CBaneiee |",
+            "A.O Hume",
+            "MK Gandhi",
+            "IL Nehru"
+          ],
+          "correct": 1,
+          "explanation": "The Indian National Congress was founded by A.O. Hume.",
+          "source_question_id": "6547071",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        },
+        {
+          "id": "501-2022-Q75",
+          "type": "mcq",
+          "level": "L2",
+          "difficulty": "medium",
+          "question": "Match List I with List IT LISTI LISTII (Artical) (Provision) : | 5 [amie i semana Choose the correct answer from the option given below :",
+          "options": [
+            "Je TT [achat | 4 icle onstitution amendment CG Article 61 Constituti dm | D. | Article 352 Impeachment of President",
+            "A-II, B-1, C-1V, D-III",
+            "A-IIL B-1, C-1V, D-II",
+            "A-IIL, B-1V. C1. D-II"
+          ],
+          "correct": 2,
+          "explanation": "Article 368 concerns constitutional amendment, Article 40 concerns Panchayati Raj, Article 61 concerns impeachment of the President, and Article 352 concerns emergency provisions.",
+          "source_question_id": "6547075",
+          "source": "CareerIndia CUET PDF OCR with NTA/solution answer mapping"
+        }
+      ]
+    }
+  ]
+}

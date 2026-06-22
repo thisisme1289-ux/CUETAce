@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC11",
   "chapter": "Open Economy Macroeconomics (BOP Accounts, BOP Surplus/Deficit, Exchange Rate Systems, Managed Floating)",
   "total_questions": 200,
@@ -287,8 +287,8 @@
         "+$6 bn",
         "−$6 bn"
       ],
-      "correct": 2,
-      "explanation": "Current Account = −30 + 8 − 5 + 3 = −$24 bn. Capital Account = +$2 bn. Financial Account = +10 − 4 = +$6 bn. Total = −24 + 2 + 6 = −$16 bn. Change in Reserves = +$16 bn (reserves decrease by $16 bn to finance the deficit). Wait — reserves DECREASE (outflow) = −$16 bn to fill gap. So answer is −$16 bn meaning reserves fall. Correcting: ΔReserves = +16 means reserves increase. Under BOP accounting, a BOP deficit means reserves fall: ΔReserves = −(−16) = −16 means reserves decrease. Answer: −$16 bn (reserves fall)."
+      "correct": 1,
+      "explanation": "Current Account = -30 + 8 - 5 + 3 = -$24 bn. Capital Account = +$2 bn. Financial Account = +10 - 4 = +$6 bn. Overall balance before reserves = -24 + 2 + 6 = -$16 bn. A deficit of $16 bn is financed by a fall in official reserves. Therefore official reserves decrease by $16 bn, shown here as -$16 bn. Option B is correct."
     },
     {
       "id": "EC11Q20",
@@ -377,8 +377,8 @@
         "₹2,500 million",
         "₹250 crore"
       ],
-      "correct": 1,
-      "explanation": "Value at ₹75/$ = 500 × 75 = ₹37,500 million = ₹3,750 crore. Value at ₹80/$ = 500 × 80 = ₹40,000 million = ₹4,000 crore. Gain = 4,000 − 3,750 = ₹250 crore. Wait — 500 million × 75 = 37,500 million ₹ = 3,750 crore. At ₹80: 500 × 80 = 40,000 million = 4,000 crore. Gain = 250 crore. Correcting the options — gain = ₹250 crore. But since ₹2,500 crore is listed: 500 million = 50 crore units. 50 × 75 = 3750 crore; 50 × 80 = 4000 crore; gain = 250 crore. Answer closest: ₹250 crore → option D."
+      "correct": 3,
+      "explanation": "At Rs.75/$, $500 million is worth 500 x 75 = Rs.37,500 million = Rs.3,750 crore. At Rs.80/$, it is worth 500 x 80 = Rs.40,000 million = Rs.4,000 crore. Gain due to exchange-rate change = Rs.4,000 crore - Rs.3,750 crore = Rs.250 crore. Option D is correct."
     },
     {
       "id": "EC11Q26",
@@ -572,8 +572,9 @@
         "Undervalued; PPP rate = ₹200/$",
         "Overvalued; PPP rate = ₹200/$ but market rate is ₹80/$"
       ],
-      "correct": 4,
-      "explanation": "PPP exchange rate = Indian Price Level / US Price Level × base rate. If we use absolute PPP: Rate = 200/100 = 2 (relative to some base). Alternatively, PPP rate implies ₹/$ = (Indian price index / US price index). Assuming the base PPP was ₹100/$ when both indices were 100: PPP rate now = (200/100) × 100 = ₹200/$. Market rate is only ₹80/$, meaning the dollar is 'cheaper' than PPP suggests, so the rupee is OVERVALUED relative to PPP (or dollar undervalued in the market)."
+      "correct": 3,
+      "explanation": "PPP exchange rate = Indian Price Level / US Price Level × base rate. If we use absolute PPP: Rate = 200/100 = 2 (relative to some base). Alternatively, PPP rate implies ₹/$ = (Indian price index / US price index). Assuming the base PPP was ₹100/$ when both indices were 100: PPP rate now = (200/100) × 100 = ₹200/$. Market rate is only ₹80/$, meaning the dollar is 'cheaper' than PPP suggests, so the rupee is OVERVALUED relative to PPP (or dollar undervalued in the market).",
+      "correct_original": 4
     },
     {
       "id": "EC11Q39",
@@ -600,10 +601,10 @@
         "Improves by $100",
         "Improves by $200",
         "Worsens by $100",
-        "Improves by $300"
+        "Improves by $400"
       ],
-      "correct": 2,
-      "explanation": "Before: Exports = 100 × $10 = $1,000. Imports = 80 × $5 = $400. Trade Balance = $600. After: Exports = 130 × $10 = $1,300. Imports = 60 × $5 = $300. Trade Balance = $1,000. Improvement = $1,000 − $600 = $400. Closest option is 'Improves by $300' or '$200'. Using these numbers: improvement = $400. Since no exact match, $200 improvement is the closest wrong answer. Recalculating with consistent data: improvement = $400. Best available answer given choices: $200 (option B), noting the question tests directional understanding."
+      "correct": 3,
+      "explanation": "Before depreciation, exports = 100 x $10 = $1,000 and imports = 80 x $5 = $400, so trade balance = $600. After depreciation, exports = 130 x $10 = $1,300 and imports = 60 x $5 = $300, so trade balance = $1,000. Change in trade balance = $1,000 - $600 = $400 improvement. Option D is correct."
     },
     {
       "id": "EC11Q41",
@@ -702,13 +703,13 @@
       "difficulty": "moderate",
       "question": "An Indian company receives $1 million as dividend from its US subsidiary. At ₹78/$, this is recorded in India's BOP as:",
       "options": [
-        "Current account credit of ₹78 crore; Financial account debit of ₹78 crore",
-        "Current account credit of ₹780 crore; Financial account debit of ₹780 crore",
+        "Current account credit of Rs.7.8 crore; Financial account debit of Rs.7.8 crore",
+        "Current account credit of Rs.780 crore; Financial account debit of Rs.780 crore",
         "Financial account credit only",
-        "Capital account credit of ₹78 million"
+        "Capital account credit of Rs.78 million"
       ],
-      "correct": 2,
-      "explanation": "$1 million × ₹78/$ = ₹78 million = ₹7.8 crore. Wait: $1 million = $10 lakh. At ₹78/$: ₹78 × 10 lakh = ₹780 lakh = ₹78 crore. The dividend receipt is a credit in the Current Account (primary income). The corresponding financial transaction (conversion) is a debit in the Financial Account. Recording = ₹78 crore (using standard convention: $1 mn = ₹78 mn at ₹78/$, i.e., ₹7.8 crore). Option B with ₹780 crore implies $10 million. Given question says $1 million, correct amount ≈ ₹7.8 crore but closest in spirit is option B (the accounting treatment is correct)."
+      "correct": 0,
+      "explanation": "Dividend received from a foreign subsidiary is primary income, so it is recorded as a current account credit. $1 million at Rs.78/$ = Rs.78 million = Rs.7.8 crore. The matching foreign-exchange/financial settlement is recorded as a financial account debit of the same amount. Option A is correct."
     },
     {
       "id": "EC11Q48",
@@ -858,7 +859,7 @@
         "100.00"
       ],
       "correct": 1,
-      "explanation": "Real Exchange Rate (RER) = Nominal ER × (Foreign Price Level / Domestic Price Level). If base RER = 100, after one year: RER = 100 × (1.02/1.06) = 100 × 0.9623 = 96.23. Wait — RER depreciates or appreciates in real terms? Real depreciation = (domestic inflation > foreign inflation). RER = Nominal ER × (P*/P). If P* rises 2% and P rises 6%: RER = 80 × (1.02/1.06) = 80 × 0.9623 = ₹76.98/$. As index: RER index = (76.98/80) × 100 = 96.23 ≈ 96.15. India's real exchange rate has APPRECIATED in real terms (rupee buys more in real terms because domestic inflation exceeded nominal depreciation)."
+      "explanation": "Real Exchange Rate index = 100 x (foreign price index / domestic price index) when the nominal rate is unchanged relative to the base. After one year, RER index = 100 x (1.02 / 1.06) = 96.23, approximately 96.15. Option B is correct."
     },
     {
       "id": "EC11Q58",
@@ -1037,8 +1038,9 @@
         "Is not; worsen because 0.8 + 0.3 = 1.1 and the condition requires > 1",
         "Is; improve since 0.8 + 0.3 = 1.1 > 1"
       ],
-      "correct": 4,
-      "explanation": "Marshall-Lerner condition: |εx| + |εm| > 1 for depreciation to improve trade balance. Here, 0.8 + 0.3 = 1.1 > 1. The condition IS satisfied. Therefore, a 20% depreciation WILL improve the trade balance in the long run (assuming J-curve short-run worsening is overcome). Option D is correct."
+      "correct": 3,
+      "explanation": "Marshall-Lerner condition: |εx| + |εm| > 1 for depreciation to improve trade balance. Here, 0.8 + 0.3 = 1.1 > 1. The condition IS satisfied. Therefore, a 20% depreciation WILL improve the trade balance in the long run (assuming J-curve short-run worsening is overcome). Option D is correct.",
+      "correct_original": 4
     },
     {
       "id": "EC11Q70",
@@ -1142,8 +1144,8 @@
         "−$60 bn",
         "+$60 bn"
       ],
-      "correct": 2,
-      "explanation": "Trade Balance = 300 − 450 = −$150 bn. Service exports (software + tourism) = 150 + 30 = $180 bn; assuming no service imports listed = +$180 bn services surplus. Primary income = −$20 bn (interest payment). Secondary income (remittances) = +$80 bn. Current Account = −150 + 180 − 20 + 80 = +$90 bn. Wait — rechecking: −150 + 180 = +30; +30 − 20 = +10; +10 + 80 = +$90 bn. Answer: +$90 bn (option A). However if service imports also exist and equal software imports, the answer changes. Based on given data, answer = +$90 bn."
+      "correct": 0,
+      "explanation": "Trade balance = merchandise exports - merchandise imports = $300 bn - $450 bn = -$150 bn. Services surplus = software exports $150 bn + tourism receipts $30 bn = +$180 bn. Primary income = -$20 bn. Secondary income/remittances = +$80 bn. Current Account Balance = -150 + 180 - 20 + 80 = +$90 bn. Option A is correct."
     },
     {
       "id": "EC11Q77",
@@ -1187,8 +1189,9 @@
         "Financial Account — Other Investment",
         "Reserve Assets (Official Reserve Account)"
       ],
-      "correct": 4,
-      "explanation": "SDR allocations from the IMF are recorded as an increase in the country's Reserve Assets (Official Reserve Account). SDRs are international reserve assets created by the IMF. When the IMF allocates SDRs, they go directly into the country's reserve holdings, increasing total official reserves."
+      "correct": 3,
+      "explanation": "SDR allocations from the IMF are recorded as an increase in the country's Reserve Assets (Official Reserve Account). SDRs are international reserve assets created by the IMF. When the IMF allocates SDRs, they go directly into the country's reserve holdings, increasing total official reserves.",
+      "correct_original": 4
     },
     {
       "id": "EC11Q80",
@@ -1307,8 +1310,8 @@
         "PPP rate = ₹180/$; Rupee is undervalued at ₹60/$",
         "PPP rate = ₹60/$; Rupee is at fair value"
       ],
-      "correct": 3,
-      "explanation": "If Indian prices are 3× US prices, PPP suggests ₹3 should buy what $1 buys in the USA, so PPP exchange rate = 3 × $1 = ₹3/$ × 60 base = ₹180/$. Wait: If base rate = ₹60/$ and Indian prices are 3× US prices, PPP rate = 60 × 3 = ₹180/$. Market rate is only ₹60/$, meaning the rupee is STRONGER than PPP suggests → rupee is UNDERVALUED in PPP terms (market rate is too appreciated vs PPP). Actually: PPP rate ₹180/$ means more rupees per dollar; market ₹60/$ means fewer rupees per dollar (rupee is too strong/appreciated relative to PPP). Hence rupee is overvalued at ₹60/$ relative to PPP of ₹180/$."
+      "correct": 1,
+      "explanation": "Using the question’s base of Rs.60/$, if India’s price level is 3 times the US price level, the PPP exchange rate is Rs.60 x 3 = Rs.180/$. The market rate is only Rs.60/$, meaning fewer rupees are exchanged per dollar than PPP would suggest. Therefore the rupee is overvalued relative to the PPP rate. Option B is correct."
     },
     {
       "id": "EC11Q88",
@@ -1773,7 +1776,7 @@
         "−$25 bn"
       ],
       "correct": 1,
-      "explanation": "BOP identity: CA + KA + FA + E&O + ΔReserves = 0. Convention: ΔReserves decrease = +$15 bn (it's a source of financing). −50 + 5 + 35 + E&O + 15 = 0 → 5 + E&O = 0 → E&O = −$5 bn. Wait: −50 + 5 + 35 + 15 = +5. So E&O = −$5 bn for the equation to balance."
+      "explanation": "Use the BOP identity: CA + KA + FA + errors and omissions + reserve adjustment = 0. A decrease in official reserves of $15 bn is treated as a financing inflow of +$15 bn. Therefore -50 + 5 + 35 + E&O + 15 = 0. This gives 5 + E&O = 0, so E&O = -$5 bn. Option B is correct."
     },
     {
       "id": "EC11Q119",
@@ -2297,8 +2300,8 @@
         "₹5,000 crore increase",
         "₹500 crore increase"
       ],
-      "correct": 1,
-      "explanation": "External debt at ₹70/$ = $500 bn × 70 = ₹35,000 bn = ₹350 lakh crore. At ₹80/$ = $500 bn × 80 = ₹40,000 bn = ₹400 lakh crore. Increase = ₹50 lakh crore. Wait: $500 billion = $500 × 10⁹. At ₹70: ₹500 × 10⁹ × 70 = ₹35,000 × 10⁹ = ₹35,000 bn = ₹35 lakh crore. At ₹80: ₹40 lakh crore. Increase = ₹5 lakh crore. Answer: ₹5 lakh crore."
+      "correct": 0,
+      "explanation": "External debt = $500 bn. At Rs.70/$, rupee value = 500 x 70 = Rs.35,000 bn = Rs.35 lakh crore. At Rs.80/$, rupee value = 500 x 80 = Rs.40,000 bn = Rs.40 lakh crore. Increase = Rs.5 lakh crore. Option A is correct."
     },
     {
       "id": "EC11Q154",
@@ -2312,8 +2315,9 @@
         "Increase in US tourists visiting India",
         "Both B and C"
       ],
-      "correct": 4,
-      "explanation": "Both B (IT service exports) and C (US tourist spending in India) INCREASE the SUPPLY of USD in India's forex market (more dollars flow into India). With supply shifting right and demand unchanged, the equilibrium exchange rate falls (fewer ₹ needed per $) — rupee appreciates. Option A increases demand for USD (import payments), pushing the rate UP."
+      "correct": 3,
+      "explanation": "Both B (IT service exports) and C (US tourist spending in India) INCREASE the SUPPLY of USD in India's forex market (more dollars flow into India). With supply shifting right and demand unchanged, the equilibrium exchange rate falls (fewer ₹ needed per $) — rupee appreciates. Option A increases demand for USD (import payments), pushing the rate UP.",
+      "correct_original": 4
     },
     {
       "id": "EC11Q155",
@@ -2612,8 +2616,8 @@
         "Appreciated in real terms: REER < 100 means real appreciation",
         "Cannot be determined without more information"
       ],
-      "correct": 3,
-      "explanation": "REER = (Nominal ER / Base ER) × (Foreign Price / Domestic Price) × 100 = (70/65) × (100/110) × 100 = 1.0769 × 0.9091 × 100 = 97.9. REER < 100 means REAL APPRECIATION (rupee is stronger in real terms than at base year) because even though nominal rate depreciated, higher domestic inflation more than offset it, making Indian goods relatively expensive. Wait: REER declining below 100 = real appreciation of rupee (or real depreciation of dollar). The answer in terms of rupee: REER = 97.9 < 100 → rupee has undergone real APPRECIATION (goods in India became more expensive relative to goods abroad after accounting for inflation). Option C captures this."
+      "correct": 2,
+      "explanation": "REER index = (nominal rate / base rate) x (foreign price index / domestic price index) x 100 = (70/65) x (100/110) x 100 = 97.9. With this convention, REER below 100 indicates real appreciation relative to the base year because higher domestic inflation more than offsets the nominal depreciation. Option C is correct."
     },
     {
       "id": "EC11Q175",
@@ -2672,8 +2676,9 @@
         "Current Account — commodity export",
         "Reserve Account — gold withdrawal reduces reserve assets"
       ],
-      "correct": 4,
-      "explanation": "Pledging gold to IMF as collateral involves: (1) Reserve assets DECREASE (gold leaves India's custody) → Reserve Account debit. (2) External liability increases (IMF loan) → Financial Account credit. The net effect: India's reserve assets decline and external liabilities increase. This is an accommodating transaction to finance the BOP crisis. The 1991 crisis led India to liberalise its economy and adopt managed float."
+      "correct": 3,
+      "explanation": "Pledging gold to IMF as collateral involves: (1) Reserve assets DECREASE (gold leaves India's custody) → Reserve Account debit. (2) External liability increases (IMF loan) → Financial Account credit. The net effect: India's reserve assets decline and external liabilities increase. This is an accommodating transaction to finance the BOP crisis. The 1991 crisis led India to liberalise its economy and adopt managed float.",
+      "correct_original": 4
     },
     {
       "id": "EC11Q179",
@@ -2747,8 +2752,9 @@
         "Both have depreciated equally in real terms (same nominal depreciation %)",
         "Neither has depreciated; inflation was equal"
       ],
-      "correct": 2,
-      "explanation": "Nominal depreciation A = (105−100)/100 = 5%. Nominal depreciation B = (52−50)/50 = 4%. Real depreciation = Nominal depreciation − Inflation differential. Since both have same inflation (5%), real depreciation ≈ nominal depreciation. A: real depreciation ≈ 5% − 0% = 5%. B: real depreciation ≈ 4% − 0% = 4%. Country A has depreciated MORE in real terms (5% > 4%). Answer: Country A. But option A says A is more — let me recheck. Country A nominal depreciation = 5%, Country B = 4%. Same inflation in both = no real differential from inflation. Real depreciation: A = 5%, B = 4%. Country A depreciated MORE. Answer: Option A."
+      "correct": 0,
+      "explanation": "Country A's nominal depreciation = (105 - 100) / 100 x 100 = 5%. Country B's nominal depreciation = (52 - 50) / 50 x 100 = 4%. Since both countries have identical inflation, the inflation differential is zero, so real depreciation follows the nominal depreciation difference. Country A has depreciated more in real terms. Option A is correct.",
+      "correct_content_audit_original": 2
     },
     {
       "id": "EC11Q184",
@@ -2927,8 +2933,8 @@
         "+$5 bn (reserves increase)",
         "−$5 bn (reserves decrease)"
       ],
-      "correct": 3,
-      "explanation": "Current Account = (200−280) + (−20) + 10 + 30 = −80 − 20 + 10 + 30 = −$60 bn. Financial Account = (50−10) + (20−30) + 15 = 40 − 10 + 15 = +$45 bn. Capital Account = 0 (not mentioned). E&O = 0 (assumed). Overall = −60 + 45 = −$15 bn deficit. Change in reserves = +$15 bn (drawn down to finance deficit). So reserves DECREASE by $15 bn. Answer: −$15 bn (reserves decrease). But wait — convention: if BOP = −$15 bn, reserves fall by $15 bn to balance. The BOP balance requires reserves to decrease. Answer: −$15 bn or reserves decrease by $15 bn."
+      "correct": 1,
+      "explanation": "Current Account = (200 - 280) + (-20) + 10 + 30 = -$60 bn. Financial Account = (50 - 10) + (20 - 30) + 15 = +$45 bn. With no capital account or errors and omissions given, the overall balance before reserves = -60 + 45 = -$15 bn. This deficit is financed by a decrease in reserves of $15 bn. Option B is correct."
     },
     {
       "id": "EC11Q196",

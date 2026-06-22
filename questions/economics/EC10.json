@@ -1,6 +1,6 @@
 {
   "subject": "Economics",
-  "subject_code": "302",
+  "subject_code": "309",
   "chapter_id": "EC10",
   "chapter": "Government Budget (Meaning, Objectives, Components, Revenue vs Capital, Budget Deficits)",
   "total_questions": 200,
@@ -190,15 +190,15 @@
       "type": "numerical",
       "level": "L2",
       "difficulty": "moderate",
-      "question": "Revenue Expenditure = ₹8,000 crore, Capital Expenditure = ₹3,000 crore, Revenue Receipts = ₹6,500 crore, Borrowings = ₹2,800 crore (only capital receipt). Calculate the Primary Deficit if interest payments included in revenue expenditure = ₹1,500 crore.",
+      "question": "Revenue Expenditure = Rs.8,000 crore, Capital Expenditure = Rs.3,000 crore, Revenue Receipts = Rs.6,500 crore, and the budget statement shows Borrowings = Rs.2,800 crore. If interest payments included in revenue expenditure are Rs.1,500 crore, calculate Primary Deficit using borrowings as the fiscal deficit figure.",
       "options": [
         "₹1,300 crore",
         "₹2,800 crore",
         "₹4,300 crore",
         "₹800 crore"
       ],
-      "correct": 1,
-      "explanation": "Step 1: Fiscal Deficit = Total Expenditure − Revenue Receipts − Non-debt Capital Receipts. Non-debt capital receipts = 0 (only borrowings given). FD = (8,000 + 3,000) − 6,500 = 11,000 − 6,500 = ₹4,500 crore. Wait — borrowings = 2,800 IS the fiscal deficit if borrowings = FD (standard definition). FD = Borrowings = ₹2,800 crore. Step 2: Primary Deficit = Fiscal Deficit − Interest Payments = 2,800 − 1,500 = ₹1,300 crore."
+      "correct": 0,
+      "explanation": "In budget accounting, fiscal deficit is financed through borrowings. The question directly gives borrowings as Rs.2,800 crore, so Fiscal Deficit = Rs.2,800 crore. Primary Deficit = Fiscal Deficit - Interest Payments = Rs.2,800 crore - Rs.1,500 crore = Rs.1,300 crore. Option A is correct."
     },
     {
       "id": "EC10Q14",
@@ -302,8 +302,9 @@
         "Dividends from PSUs — Revenue Receipt",
         "Repayment of loans by government — Capital Receipt"
       ],
-      "correct": 4,
-      "explanation": "Repayment of loans BY the government is Capital Expenditure (not receipt), as it reduces government liabilities. Recovery of loans (repayment TO the government) is a capital receipt. All other options are correctly matched."
+      "correct": 3,
+      "explanation": "Repayment of loans BY the government is Capital Expenditure (not receipt), as it reduces government liabilities. Recovery of loans (repayment TO the government) is a capital receipt. All other options are correctly matched.",
+      "correct_original": 4
     },
     {
       "id": "EC10Q21",
@@ -327,13 +328,13 @@
       "difficulty": "difficult",
       "question": "If Primary Deficit = ₹800 crore, Interest Payments = ₹1,200 crore, Revenue Receipts = ₹5,000 crore, Capital Expenditure = ₹2,000 crore, and Non-debt Capital Receipts = ₹300 crore, find Revenue Expenditure.",
       "options": [
-        "₹6,700 crore",
-        "₹5,700 crore",
-        "₹4,700 crore",
-        "₹7,700 crore"
+        "Rs.6,700 crore",
+        "Rs.5,300 crore",
+        "Rs.4,700 crore",
+        "Rs.7,700 crore"
       ],
       "correct": 1,
-      "explanation": "Fiscal Deficit = Primary Deficit + Interest Payments = 800 + 1,200 = ₹2,000 crore. Fiscal Deficit = Total Expenditure − Revenue Receipts − Non-debt Capital Receipts. 2,000 = (Revenue Expenditure + 2,000) − 5,000 − 300. 2,000 = Revenue Expenditure − 3,300. Revenue Expenditure = 2,000 + 3,300 = ₹5,300 crore. Re-check: FD = (5,300 + 2,000) − 5,000 − 300 = 7,300 − 5,300 = 2,000 ✓. Wait: 5,000 + 300 = 5,300. 7,300 − 5,300 = 2,000 ✓. So Revenue Expenditure = ₹5,300 crore. Closest option by re-verification: Option B ₹5,700 needs re-check. Let me recalculate: FD = TE − RR − Non-debt CR → 2000 = (RE + 2000) − 5000 − 300 → 2000 = RE + 2000 − 5300 → 2000 = RE − 3300 → RE = 5300. Correct answer should be ₹5,300 but closest is B. Adjusted: Revenue Expenditure = ₹5,700 crore if non-debt CR = 0. With non-debt CR=300: RE = 5,300. Given options, answer = B (₹5,700 is approximately correct with rounding or different non-debt treatment). Standard answer: ₹5,300 crore — option closest is B."
+      "explanation": "Fiscal Deficit = Primary Deficit + Interest Payments = Rs.800 crore + Rs.1,200 crore = Rs.2,000 crore. Fiscal Deficit = Total Expenditure - Revenue Receipts - Non-debt Capital Receipts. Therefore 2,000 = (Revenue Expenditure + 2,000) - 5,000 - 300. This gives 2,000 = Revenue Expenditure - 3,300, so Revenue Expenditure = Rs.5,300 crore. Option B is correct."
     },
     {
       "id": "EC10Q23",
@@ -393,7 +394,7 @@
         "Fiscal Deficit = ₹6,000 crore; Revenue Deficit = ₹2,000 crore"
       ],
       "correct": 1,
-      "explanation": "(i) Fiscal Deficit = Borrowings = ₹3,500 crore (standard: FD = Total Expenditure − Revenue Receipts − Non-debt Capital Receipts = (12,000+4,000) − 10,000 − 500 = 16,000 − 10,500 = ₹5,500 crore). Hmm — recalculate: Total Exp = 16,000; Revenue Receipts = 10,000; Non-debt CR = Recovery of loans = 500; FD = 16,000 − 10,000 − 500 = ₹5,500 crore. (ii) Revenue Deficit = Revenue Expenditure − Revenue Receipts = 12,000 − 10,000 = ₹2,000 crore. Correct answer: B."
+      "explanation": "Total expenditure = Revenue Expenditure + Capital Expenditure = Rs.12,000 crore + Rs.4,000 crore = Rs.16,000 crore. Non-debt capital receipts include recovery of loans = Rs.500 crore. Fiscal Deficit = Total Expenditure - Revenue Receipts - Non-debt Capital Receipts = Rs.16,000 crore - Rs.10,000 crore - Rs.500 crore = Rs.5,500 crore. Revenue Deficit = Revenue Expenditure - Revenue Receipts = Rs.12,000 crore - Rs.10,000 crore = Rs.2,000 crore. Option B is correct."
     },
     {
       "id": "EC10Q27",
@@ -437,8 +438,9 @@
         "Expenditure on defence equipment",
         "Pension payments to retired government employees"
       ],
-      "correct": 4,
-      "explanation": "Pension payments are recurring and do not create assets — they are Revenue Expenditure. Construction of highways and purchase of machinery create tangible assets (Capital Expenditure). Defence equipment is capital expenditure in most classifications. Pensions are definitely revenue expenditure."
+      "correct": 3,
+      "explanation": "Pension payments are recurring and do not create assets — they are Revenue Expenditure. Construction of highways and purchase of machinery create tangible assets (Capital Expenditure). Defence equipment is capital expenditure in most classifications. Pensions are definitely revenue expenditure.",
+      "correct_original": 4
     },
     {
       "id": "EC10Q30",
@@ -452,8 +454,9 @@
         "Grants given to state governments for development projects",
         "Loans given by central government to state governments"
       ],
-      "correct": 4,
-      "explanation": "Loans given by the central government to state governments create a financial asset (loan receivable) for the central government — hence Capital Expenditure. Salaries and interest payments are Revenue Expenditure. Grants (non-repayable) are also Revenue Expenditure."
+      "correct": 3,
+      "explanation": "Loans given by the central government to state governments create a financial asset (loan receivable) for the central government — hence Capital Expenditure. Salaries and interest payments are Revenue Expenditure. Grants (non-repayable) are also Revenue Expenditure.",
+      "correct_original": 4
     },
     {
       "id": "EC10Q31",
@@ -527,8 +530,9 @@
         "Fiscal deficit with balanced total budget — an impossibility",
         "Revenue deficit existing alongside an overall balanced total budget (achieved through borrowings)"
       ],
-      "correct": 4,
-      "explanation": "When Revenue Expenditure > Revenue Receipts, there IS a Revenue Deficit. However, if Total Receipts (including borrowings as capital receipts) = Total Expenditure, the overall budget appears balanced only because borrowings are included. This reveals a Revenue Deficit financed by borrowings (Capital Receipts), which is a common fiscal pattern."
+      "correct": 3,
+      "explanation": "When Revenue Expenditure > Revenue Receipts, there IS a Revenue Deficit. However, if Total Receipts (including borrowings as capital receipts) = Total Expenditure, the overall budget appears balanced only because borrowings are included. This reveals a Revenue Deficit financed by borrowings (Capital Receipts), which is a common fiscal pattern.",
+      "correct_original": 4
     },
     {
       "id": "EC10Q36",
@@ -1187,8 +1191,9 @@
         "Wealth Tax",
         "Goods and Services Tax (GST)"
       ],
-      "correct": 4,
-      "explanation": "GST is an indirect tax — the burden can be shifted (the seller collects it from the buyer). Personal Income Tax, Corporate Tax, and Wealth Tax are direct taxes where the burden falls directly on the person assessed and cannot be shifted."
+      "correct": 3,
+      "explanation": "GST is an indirect tax — the burden can be shifted (the seller collects it from the buyer). Personal Income Tax, Corporate Tax, and Wealth Tax are direct taxes where the burden falls directly on the person assessed and cannot be shifted.",
+      "correct_original": 4
     },
     {
       "id": "EC10Q80",
@@ -1468,12 +1473,13 @@
       "question": "Country Q data: GDP = ₹50,000 crore; Fiscal Deficit = 6% of GDP; Revenue Deficit = 4% of GDP; Interest Payments = ₹1,200 crore. Calculate: (i) Primary Deficit in ₹ crore (ii) Primary Deficit as % of GDP.",
       "options": [
         "(i) ₹1,800 crore; (ii) 3.6%",
-        "(i) ₹1,800 crore; (ii) 3.6%",
+        "(i) ₹2,200 crore; (ii) 4.4%",
         "(i) ₹3,000 crore; (ii) 6%",
         "(i) ₹1,800 crore; (ii) 2.4%"
       ],
-      "correct": 1,
-      "explanation": "Fiscal Deficit = 6% × 50,000 = ₹3,000 crore. Primary Deficit = FD − Interest Payments = 3,000 − 1,200 = ₹1,800 crore. Primary Deficit as % of GDP = 1,800/50,000 × 100 = 3.6%."
+      "correct": 0,
+      "explanation": "Fiscal Deficit = 6% × 50,000 = ₹3,000 crore. Primary Deficit = FD − Interest Payments = 3,000 − 1,200 = ₹1,800 crore. Primary Deficit as % of GDP = 1,800/50,000 × 100 = 3.6%.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC10Q99",
@@ -1677,13 +1683,13 @@
       "difficulty": "moderate",
       "question": "Revenue Receipts = ₹7,000 crore; Revenue Expenditure = ₹8,500 crore; Capital Receipts (non-debt) = ₹600 crore; Capital Expenditure = ₹2,400 crore. If government wants Fiscal Deficit ≤ ₹4,000 crore, what is the maximum additional capital expenditure it can undertake?",
       "options": [
-        "₹100 crore",
-        "₹600 crore",
-        "₹500 crore",
-        "₹0 crore (current FD already exceeds limit)"
+        "Rs.700 crore",
+        "Rs.600 crore",
+        "Rs.500 crore",
+        "Rs.0 crore (current FD already exceeds limit)"
       ],
-      "correct": 1,
-      "explanation": "Current Fiscal Deficit = (8,500 + 2,400) − 7,000 − 600 = 10,900 − 7,600 = ₹3,300 crore. Maximum FD allowed = ₹4,000 crore. Room for additional FD = 4,000 − 3,300 = ₹700 crore. But wait — additional capital expenditure increases FD by same amount. Maximum additional CE = ₹700 crore. Hmm, options show ₹100 crore. Re-check: (8,500 + 2,400) − 7,000 − 600 = 10,900 − 7,600 = 3,300. Room = 700. Answer should be ₹700 crore. Closest option = B ₹600 if non-debt CR grows. With standard calculation, answer = ₹700 crore. Given options: re-calibrate as ₹100 if problem intended FD limit = ₹3,400 crore. As given: answer = B ₹600 (room = 4,000 − 3,400 = 600 if FD = 3,400)."
+      "correct": 0,
+      "explanation": "Current Fiscal Deficit = (Revenue Expenditure + Capital Expenditure) - Revenue Receipts - Non-debt Capital Receipts = (Rs.8,500 crore + Rs.2,400 crore) - Rs.7,000 crore - Rs.600 crore = Rs.3,300 crore. The maximum allowed fiscal deficit is Rs.4,000 crore. Additional capital expenditure can increase the deficit by Rs.4,000 crore - Rs.3,300 crore = Rs.700 crore. Option A is correct."
     },
     {
       "id": "EC10Q113",
@@ -1787,8 +1793,9 @@
         "3.3%",
         "5.3%"
       ],
-      "correct": 4,
-      "explanation": "Fiscal Deficit % of GDP = (15,87,000 / 3,01,75,000) × 100 = 5.26% ≈ 5.3%. In India's actual budget context, the fiscal deficit target has been around 5-6% in recent years. The 2023-24 revised estimate was approximately 5.8-6% before consolidation. The closest answer is D (5.3%)."
+      "correct": 3,
+      "explanation": "Fiscal Deficit as a percentage of GDP = (Rs.15,87,000 crore / Rs.3,01,75,000 crore) x 100 = 5.26%, approximately 5.3%. Option D is correct.",
+      "correct_original": 4
     },
     {
       "id": "EC10Q120",
@@ -1903,12 +1910,13 @@
       "question": "If Corporate Tax = ₹5,000 crore, GST = ₹8,000 crore, Customs = ₹2,000 crore, Excise = ₹1,500 crore, Income Tax = ₹4,500 crore. Calculate: (i) Direct Taxes (ii) Indirect Taxes (iii) Tax Revenue.",
       "options": [
         "Direct = ₹9,500; Indirect = ₹11,500; Total = ₹21,000 crore",
-        "Direct = ₹9,500; Indirect = ₹11,500; Total = ₹21,000 crore",
+        "Direct = ₹11,500; Indirect = ₹9,500; Total = ₹21,000 crore",
         "Direct = ₹8,000; Indirect = ₹13,000; Total = ₹21,000 crore",
         "Direct = ₹9,500; Indirect = ₹9,500; Total = ₹19,000 crore"
       ],
-      "correct": 1,
-      "explanation": "(i) Direct Taxes = Corporate Tax + Income Tax = 5,000 + 4,500 = ₹9,500 crore. (ii) Indirect Taxes = GST + Customs + Excise = 8,000 + 2,000 + 1,500 = ₹11,500 crore. (iii) Total Tax Revenue = 9,500 + 11,500 = ₹21,000 crore."
+      "correct": 0,
+      "explanation": "(i) Direct Taxes = Corporate Tax + Income Tax = 5,000 + 4,500 = ₹9,500 crore. (ii) Indirect Taxes = GST + Customs + Excise = 8,000 + 2,000 + 1,500 = ₹11,500 crore. (iii) Total Tax Revenue = 9,500 + 11,500 = ₹21,000 crore.",
+      "correct_content_review_original": 1
     },
     {
       "id": "EC10Q128",
@@ -1922,8 +1930,9 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "correct": 4,
-      "explanation": "A is FALSE — capital expenditure is not ALWAYS preferable from a fiscal deficit perspective (both types add to fiscal deficit equally). However, R is TRUE — capital expenditure creating productive assets is more justifiable economically as assets can generate future revenues. From deficit management alone, both add to FD equally, but the QUALITY of deficit differs. A is incorrect as an absolute statement."
+      "correct": 3,
+      "explanation": "A is FALSE — capital expenditure is not ALWAYS preferable from a fiscal deficit perspective (both types add to fiscal deficit equally). However, R is TRUE — capital expenditure creating productive assets is more justifiable economically as assets can generate future revenues. From deficit management alone, both add to FD equally, but the QUALITY of deficit differs. A is incorrect as an absolute statement.",
+      "correct_original": 4
     },
     {
       "id": "EC10Q129",
@@ -2052,13 +2061,13 @@
       "difficulty": "difficult",
       "question": "The government raises income tax by 5 percentage points for the top bracket (earning >₹10 lakh). This generates ₹4,000 crore additional revenue. It uses ₹2,500 crore for food subsidy and ₹1,500 crore to repay old loans. Calculate the change in Revenue Deficit and Fiscal Deficit.",
       "options": [
-        "Revenue Deficit: −₹1,500 crore (improves); Fiscal Deficit: −₹4,000 crore (improves)",
-        "Revenue Deficit: −₹4,000 crore (improves); Fiscal Deficit: −₹2,500 crore (improves)",
-        "Revenue Deficit: −₹1,500 crore; Fiscal Deficit: −₹4,000 crore",
-        "Revenue Deficit: +₹1,500 crore; Fiscal Deficit: −₹1,500 crore"
+        "Revenue Deficit: -Rs.1,500 crore (improves); Fiscal Deficit: no change",
+        "Revenue Deficit: -Rs.4,000 crore (improves); Fiscal Deficit: -Rs.2,500 crore (improves)",
+        "Revenue Deficit: -Rs.1,500 crore; Fiscal Deficit: -Rs.4,000 crore",
+        "Revenue Deficit: +Rs.1,500 crore; Fiscal Deficit: -Rs.1,500 crore"
       ],
-      "correct": 1,
-      "explanation": "Additional Revenue Receipts = +₹4,000 crore (income tax = revenue receipt). Food Subsidy = +₹2,500 crore (revenue expenditure). Loan Repayment = +₹1,500 crore (capital expenditure). Revenue Deficit change = Revenue Expenditure increase − Revenue Receipts increase = +2,500 − 4,000 = −₹1,500 crore (IMPROVES by 1,500). Fiscal Deficit change = Total Expenditure − Revenue Receipts = (2,500 + 1,500) − 4,000 = 4,000 − 4,000 = ₹0. Fiscal Deficit UNCHANGED. Hmm — so best answer is A (−1,500 revenue deficit; 0 fiscal deficit change). Recalibrate: none match exactly. Closest = A."
+      "correct": 0,
+      "explanation": "Additional income tax is a revenue receipt of Rs.4,000 crore. Food subsidy increases revenue expenditure by Rs.2,500 crore. Loan repayment is capital expenditure of Rs.1,500 crore. Change in Revenue Deficit = +Rs.2,500 crore - Rs.4,000 crore = -Rs.1,500 crore, so revenue deficit improves by Rs.1,500 crore. Change in Fiscal Deficit = total additional expenditure Rs.4,000 crore - additional receipts Rs.4,000 crore = nil. Option A is correct."
     },
     {
       "id": "EC10Q138",
@@ -2112,13 +2121,13 @@
       "difficulty": "difficult",
       "question": "Budget Year T: FD = ₹5,000 crore; Interest Rate on all borrowings = 8%. Budget Year T+1: Government achieves Primary Surplus of ₹200 crore. What is Fiscal Deficit in Year T+1?",
       "options": [
-        "₹200 crore (primary surplus)",
-        "₹400 crore deficit",
-        "₹800 crore − ₹200 crore = ₹600 crore deficit",
-        "₹200 crore surplus"
+        "Rs.200 crore fiscal deficit",
+        "Rs.400 crore deficit",
+        "Rs.800 crore - Rs.200 crore = Rs.600 crore deficit",
+        "Rs.200 crore surplus"
       ],
-      "correct": 3,
-      "explanation": "Interest Payments in T+1 = FD from Year T × Interest Rate = 5,000 × 8% = ₹400 crore. Year T+1: Primary Surplus = ₹200 crore → Primary Deficit = −₹200 crore. Fiscal Deficit = Primary Deficit + Interest = −200 + 400 = ₹200 crore (fiscal deficit, not surplus). The government still runs a fiscal deficit due to interest payments despite primary surplus. Closest: None exactly match. Re-examine: answer = ₹200 crore deficit (which is not listed as option A which says ₹200 crore primary surplus). Answer = C ₹200 crore fiscal deficit. 400 − 200 = 200."
+      "correct": 0,
+      "explanation": "Interest payment in Year T+1 on Year T borrowing = Rs.5,000 crore x 8% = Rs.400 crore. A primary surplus of Rs.200 crore means Primary Deficit = -Rs.200 crore. Fiscal Deficit = Primary Deficit + Interest Payments = -Rs.200 crore + Rs.400 crore = Rs.200 crore deficit. Option A is correct."
     },
     {
       "id": "EC10Q142",
@@ -2410,15 +2419,15 @@
       "type": "numerical",
       "level": "L3",
       "difficulty": "difficult",
-      "question": "Year 1: Fiscal Deficit = ₹4,000 crore. Year 2 target: Reduce FD/GDP to 3% (GDP = ₹2,00,000 crore). Government plans to achieve this by increasing revenue by ₹X crore while increasing expenditure by ₹1,000 crore. Find X.",
+      "question": "Year 1: Fiscal Deficit = Rs.4,000 crore. Year 2 target: Reduce FD/GDP to 3% (GDP = Rs.1,00,000 crore). Government plans to achieve this by increasing revenue by Rs.X crore while increasing expenditure by Rs.1,000 crore. Find X.",
       "options": [
-        "₹5,000 crore",
-        "₹3,000 crore",
-        "₹4,000 crore",
-        "₹7,000 crore"
+        "Rs.5,000 crore",
+        "Rs.2,000 crore",
+        "Rs.4,000 crore",
+        "Rs.7,000 crore"
       ],
       "correct": 1,
-      "explanation": "Target FD = 3% × 2,00,000 = ₹6,000 crore. Year 1 FD = ₹4,000 crore. Year 2 FD = FD_Y1 − ΔRevenue + ΔExpenditure = 4,000 − X + 1,000. Setting equal to target: 4,000 − X + 1,000 = 6,000. 5,000 − X = 6,000. X = −₹1,000 (revenue must FALL by 1,000 or target needs re-reading). Wait: FD target is 6,000 (which is MORE than year 1's 4,000). Government wants FD to be 6,000 in Year 2? That seems expansionary. Let me re-read: To 'reduce FD/GDP to 3%' with GDP = 2,00,000 → FD target = 6,000. FD_Y2 = 4,000 + 1,000 − X = 6,000 → X = −1,000. This doesn't make sense. If target is to reduce to below current: maybe GDP = 1,00,000 → target = 3,000. Then: 4,000 + 1,000 − X = 3,000 → X = ₹2,000. Or more likely meant: GDP = 1,33,333 → FD = 4,000. Re-calibrate with answer A (₹5,000): 4,000 + 1,000 − 5,000 = 0 → FD_Y2 = 0. Answer A."
+      "explanation": "Target fiscal deficit = 3% of Rs.1,00,000 crore = Rs.3,000 crore. Year 2 fiscal deficit = Year 1 FD + increase in expenditure - increase in revenue = Rs.4,000 crore + Rs.1,000 crore - X. Set this equal to Rs.3,000 crore: Rs.5,000 crore - X = Rs.3,000 crore, so X = Rs.2,000 crore. Option B is correct."
     },
     {
       "id": "EC10Q162",
@@ -2988,7 +2997,7 @@
         "RD=2,500; FD=8,000; PD=6,000; ERD=1,300 crore"
       ],
       "correct": 1,
-      "explanation": "Revenue Receipts = (5,000+4,000+7,000) + (1,000+500) = 16,000 + 1,500 = ₹17,500 crore. Revenue Deficit = 19,000 − 17,500 = ₹1,500 crore. Hmm: re-check: 16,000 + 1,500 = 17,500. RD = 19,000 − 17,500 = 1,500. Non-debt CR = 2,000 + 800 = ₹2,800 crore. FD = (19,000 + 9,300) − 17,500 − 2,800 = 28,300 − 20,300 = ₹8,000 = Borrowings ✓. PD = 8,000 − 3,500 = ₹4,500 crore. ERD = 1,500 − 1,200 = ₹300 crore. Correct: B."
+      "explanation": "Revenue Receipts = tax revenue (Rs.5,000 + Rs.4,000 + Rs.7,000 crore) + non-tax revenue (Rs.1,000 + Rs.500 crore) = Rs.17,500 crore. Revenue Deficit = Revenue Expenditure - Revenue Receipts = Rs.19,000 crore - Rs.17,500 crore = Rs.1,500 crore. Non-debt capital receipts = disinvestment Rs.2,000 crore + recovery of loans Rs.800 crore = Rs.2,800 crore. Fiscal Deficit = (Rs.19,000 crore + Rs.9,300 crore) - Rs.17,500 crore - Rs.2,800 crore = Rs.8,000 crore. Primary Deficit = Rs.8,000 crore - interest Rs.3,500 crore = Rs.4,500 crore. Effective Revenue Deficit = Revenue Deficit - grants for capital formation = Rs.1,500 crore - Rs.1,200 crore = Rs.300 crore. Option B is correct."
     },
     {
       "id": "EC10Q200",
