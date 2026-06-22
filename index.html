@@ -3062,9 +3062,14 @@ function updateAuthUI() {
   if (closeBtn) closeBtn.style.display = profileModalRequired && !cuetaceUser ? 'none' : '';
   updateResendButton();
   if (loginBtn) loginBtn.style.display = !cuetaceUser ? '' : 'none';
+  if (loginBtn) loginBtn.disabled = !configured;
   if (resendBtn) resendBtn.style.display = !cuetaceUser && profileResendUntil > 0 ? '' : 'none';
+  if (resendBtn) resendBtn.disabled = !configured || resendBtn.disabled;
+  const googleBtn = document.getElementById('profileGoogleBtn');
+  if (googleBtn) googleBtn.disabled = !configured;
+  if (emailInput) emailInput.disabled = !configured && !cuetaceUser;
   if (devNote) devNote.style.display = configured ? 'none' : 'block';
-  if (devNote && !configured) devNote.textContent = 'Developer setup: add Firebase config and set enabled: true.';
+  if (devNote && !configured) devNote.textContent = 'Login service could not load. Check your internet connection or try again in a moment.';
   if (status) {
     if (!configured) status.textContent = 'Login is temporarily unavailable. Please try again later.';
     else if (!cuetaceUser) status.textContent = profileModalRequired
