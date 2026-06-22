@@ -1888,6 +1888,37 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   padding: 8px 18px; border-radius: 20px;
   display: flex; align-items: center; gap: 8px;
 }
+.profile-field {
+  width: 100%; height: 40px; border: 1px solid var(--border);
+  border-radius: var(--r); background: var(--bg-3); color: var(--cream);
+  padding: 0 12px; margin-bottom: 10px; font: inherit; font-size: 13px;
+}
+.profile-action {
+  width: 100%; height: 40px; border: none; border-radius: 20px;
+  background: var(--gold); color: #0d0a06; font-weight: 800; cursor: pointer;
+}
+.profile-action.secondary {
+  margin-bottom: 10px; background: transparent; color: var(--cream-muted);
+  border: 1px solid var(--border);
+}
+.profile-status {
+  font-size: 12px; color: var(--cream-muted); line-height: 1.6;
+  margin: 10px 0 14px; min-height: 18px;
+}
+.profile-panel { display: none; }
+.profile-panel.active { display: block; }
+.profile-privacy {
+  font-size: 10.5px; color: var(--cream-muted); line-height: 1.5; margin-top: 10px;
+}
+.profile-resend {
+  margin-top: 8px; background: transparent; border: none; color: var(--gold);
+  font-size: 12px; font-weight: 700; cursor: pointer;
+}
+.profile-resend:disabled { color: var(--cream-muted); cursor: default; }
+.profile-dev-note {
+  display: none; margin-top: 8px; font-family: var(--font-mono);
+  font-size: 10px; color: #6a5e52;
+}
 
 /* ── FAQ accordion ── */
 details summary::-webkit-details-marker { display: none; }
@@ -1907,6 +1938,11 @@ details[open] { border-color: var(--gold-border) !important; }
 }
 
 </style>
+<script defer src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.14.1/firebase-functions-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics-compat.js"></script>
 </head>
 <body>
 
@@ -1914,6 +1950,39 @@ details[open] { border-color: var(--gold-border) !important; }
 <nav class="nav" style="justify-content:center;">
   <div class="nav-logo" onclick="showView('dashboard')" style="cursor:pointer;">CUET<span>Ace</span></div>
 </nav>
+
+<!-- PROFILE / LOGIN MODAL -->
+<div class="support-modal-backdrop" id="profileModal" onclick="if(event.target===this)closeProfileModal()">
+  <div class="support-modal">
+    <button class="support-modal-close" id="profileCloseBtn" onclick="closeProfileModal()" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="profile-panel active" id="profileLoginPanel">
+      <div class="support-modal-title">Welcome to CUETAce</div>
+      <div class="support-modal-sub">Enter your email to continue to your dashboard.</div>
+      <input class="profile-field" id="profileEmail" type="email" placeholder="Email address" autocomplete="email">
+      <div class="profile-status" id="profileStatus">We will send you a secure login link.</div>
+      <button class="profile-action secondary" id="profileGoogleBtn" onclick="handleGoogleLogin()">Continue with Google</button>
+      <div class="profile-privacy">or</div>
+      <button class="profile-action" id="profileLoginBtn" onclick="handleProfileLogin()">Continue with Email</button>
+      <button class="profile-resend" id="profileResendBtn" onclick="handleProfileLogin()" style="display:none;">Resend link</button>
+      <div class="profile-privacy">We only use your email to save your CUETAce progress.</div>
+      <div class="profile-dev-note" id="profileDevNote"></div>
+    </div>
+    <div class="profile-panel" id="profileDetailsPanel">
+      <div class="support-modal-title">Complete Profile</div>
+      <div class="support-modal-sub">Save your student details so your progress stays with you.</div>
+      <input class="profile-field" id="profileName" type="text" placeholder="Full name" autocomplete="name">
+      <input class="profile-field" id="profilePhone" type="tel" placeholder="Phone number (optional)" autocomplete="tel">
+      <input class="profile-field" id="profileClass" type="text" placeholder="Class / Grade">
+      <input class="profile-field" id="profileTargetYear" type="number" placeholder="Target CUET year">
+      <input class="profile-field" id="profileCity" type="text" placeholder="City (optional)" autocomplete="address-level2">
+      <div class="profile-status" id="profileDetailsStatus"></div>
+      <button class="profile-action" id="profileSaveBtn" onclick="handleProfileSave()">Save profile</button>
+      <button class="profile-action secondary" id="profileLogoutBtn" onclick="handleProfileLogout()">Sign out</button>
+    </div>
+  </div>
+</div>
 
 <!-- ════════════════════════════════════
      UPGRADE MODAL
@@ -2822,6 +2891,299 @@ function getChapterUrl(subject, slug) {
   return `${BASE_URL}/${SUBJECT_FOLDERS[subject]}/${slug}.json`;
 }
 
+const CUETACE_FIREBASE_CONFIG = {
+  enabled: true,
+  apiKey: 'AIzaSyAXjgOir5uwur6GRB_h9z85bE-jKZC_rM8',
+  authDomain: 'cuet-d3dea.firebaseapp.com',
+  projectId: 'cuet-d3dea',
+  storageBucket: 'cuet-d3dea.firebasestorage.app',
+  messagingSenderId: '865036862060',
+  appId: '1:865036862060:web:30e5f7b951bdd346d50e49',
+  measurementId: 'G-Y7FBH2M636',
+  functionsRegion: 'asia-south1'
+};
+
+let firebaseApp = null;
+let firebaseAuth = null;
+let firebaseFns = null;
+let firebaseAnalytics = null;
+let cuetaceUser = null;
+let cuetaceProfile = null;
+let pendingAuthView = null;
+let profileModalRequired = false;
+let profileResendUntil = 0;
+let profileResendTimer = null;
+const PENDING_AUTH_KEY = 'cuetace_pending_auth_view';
+
+function isFirebaseReady() {
+  return !!(CUETACE_FIREBASE_CONFIG.enabled && window.firebase && CUETACE_FIREBASE_CONFIG.apiKey && !CUETACE_FIREBASE_CONFIG.apiKey.startsWith('YOUR_'));
+}
+
+function initFirebaseServices() {
+  if (!isFirebaseReady() || firebaseApp) return !!firebaseApp;
+  firebaseApp = firebase.initializeApp(CUETACE_FIREBASE_CONFIG);
+  firebaseAuth = firebase.auth();
+  firebaseFns = firebase.app().functions(CUETACE_FIREBASE_CONFIG.functionsRegion || 'asia-south1');
+  if (firebase.analytics && CUETACE_FIREBASE_CONFIG.measurementId) {
+    try { firebaseAnalytics = firebase.analytics(); } catch(e) { firebaseAnalytics = null; }
+  }
+  firebaseAuth.onAuthStateChanged(async user => {
+    cuetaceUser = user || null;
+    if (user) {
+      try {
+        const syncProfile = firebaseFns.httpsCallable('syncProfile');
+        const result = await syncProfile({});
+        cuetaceProfile = result.data.profile || null;
+      } catch (err) {
+        console.warn('[CUETAce] Profile sync failed', err);
+      }
+    } else {
+      cuetaceProfile = null;
+    }
+    updateAuthUI();
+    continuePendingAuthView();
+  });
+  return true;
+}
+
+function firebaseCallable(name) {
+  if (!initFirebaseServices()) return null;
+  return firebaseFns.httpsCallable(name);
+}
+
+function savePendingAuthView(view) {
+  pendingAuthView = view;
+  try { localStorage.setItem(PENDING_AUTH_KEY, JSON.stringify(view)); } catch(e) {}
+}
+
+function restorePendingAuthView() {
+  if (pendingAuthView) return pendingAuthView;
+  try {
+    const raw = localStorage.getItem(PENDING_AUTH_KEY);
+    pendingAuthView = raw ? JSON.parse(raw) : null;
+  } catch(e) { pendingAuthView = null; }
+  return pendingAuthView;
+}
+
+function clearPendingAuthView() {
+  pendingAuthView = null;
+  try { localStorage.removeItem(PENDING_AUTH_KEY); } catch(e) {}
+}
+
+async function sendMagicLink(email) {
+  initFirebaseServices();
+  if (!firebaseAuth) throw new Error('Firebase is not configured yet.');
+  await firebaseAuth.sendSignInLinkToEmail(email, {
+    url: window.location.origin + window.location.pathname + '?login=1',
+    handleCodeInApp: true
+  });
+  localStorage.setItem('cuetace_email_for_signin', email);
+}
+
+async function completeEmailLinkSignIn() {
+  if (!initFirebaseServices() || !firebaseAuth.isSignInWithEmailLink(window.location.href)) return;
+  const email = localStorage.getItem('cuetace_email_for_signin') || window.prompt('Confirm your email to finish sign in');
+  if (!email) return;
+  await firebaseAuth.signInWithEmailLink(email, window.location.href);
+  localStorage.removeItem('cuetace_email_for_signin');
+  history.replaceState(null, '', window.location.origin + window.location.pathname);
+}
+
+async function signInWithGoogle() {
+  initFirebaseServices();
+  if (!firebaseAuth) throw new Error('Firebase is not configured yet.');
+  const provider = new firebase.auth.GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: 'select_account' });
+  await firebaseAuth.signInWithPopup(provider);
+}
+
+function openProfileModal() {
+  const modal = document.getElementById('profileModal');
+  if (modal) modal.classList.add('open');
+  bindProfileLoginKeys();
+  updateAuthUI();
+}
+
+function openRequiredLoginModal(targetView, targetOpts) {
+  savePendingAuthView({ name: targetView, opts: targetOpts || null });
+  profileModalRequired = true;
+  const hasActiveView = Array.from(document.querySelectorAll('.view')).some(v => v.classList.contains('active') && v.style.display !== 'none');
+  if (!hasActiveView) {
+    const landing = document.getElementById('landing');
+    if (landing) {
+      landing.style.display = 'block';
+      landing.classList.add('active');
+    }
+  }
+  openProfileModal();
+}
+
+function closeProfileModal() {
+  if (profileModalRequired && !cuetaceUser) return;
+  const modal = document.getElementById('profileModal');
+  if (modal) modal.classList.remove('open');
+  profileModalRequired = false;
+}
+
+function shouldRequireLoginForView(name) {
+  if (name !== 'dashboard' && name !== 'examscreen') return false;
+  if (!isFirebaseReady()) return true;
+  return !cuetaceUser;
+}
+
+function continuePendingAuthView() {
+  const next = restorePendingAuthView();
+  if (!next || !cuetaceUser) return;
+  clearPendingAuthView();
+  profileModalRequired = false;
+  closeProfileModal();
+  showView(next.name, next.opts);
+}
+
+function updateAuthUI() {
+  const status = document.getElementById('profileStatus');
+  const detailsStatus = document.getElementById('profileDetailsStatus');
+  const loginBtn = document.getElementById('profileLoginBtn');
+  const resendBtn = document.getElementById('profileResendBtn');
+  const saveBtn = document.getElementById('profileSaveBtn');
+  const logoutBtn = document.getElementById('profileLogoutBtn');
+  const emailInput = document.getElementById('profileEmail');
+  const loginPanel = document.getElementById('profileLoginPanel');
+  const detailsPanel = document.getElementById('profileDetailsPanel');
+  const devNote = document.getElementById('profileDevNote');
+  const configured = isFirebaseReady();
+  if (emailInput && cuetaceUser?.email) emailInput.value = cuetaceUser.email;
+  fillProfileForm();
+  if (loginPanel) loginPanel.classList.toggle('active', !cuetaceUser);
+  if (detailsPanel) detailsPanel.classList.toggle('active', !!cuetaceUser);
+  if (saveBtn) saveBtn.style.display = configured && cuetaceUser ? '' : 'none';
+  if (logoutBtn) logoutBtn.style.display = configured && cuetaceUser ? '' : 'none';
+  const closeBtn = document.getElementById('profileCloseBtn');
+  if (closeBtn) closeBtn.style.display = profileModalRequired && !cuetaceUser ? 'none' : '';
+  updateResendButton();
+  if (loginBtn) loginBtn.style.display = !cuetaceUser ? '' : 'none';
+  if (resendBtn) resendBtn.style.display = !cuetaceUser && profileResendUntil > 0 ? '' : 'none';
+  if (devNote) devNote.style.display = configured ? 'none' : 'block';
+  if (devNote && !configured) devNote.textContent = 'Developer setup: add Firebase config and set enabled: true.';
+  if (status) {
+    if (!configured) status.textContent = 'Login is temporarily unavailable. Please try again later.';
+    else if (!cuetaceUser) status.textContent = profileModalRequired
+      ? 'Login is required to continue. Enter your email and open the secure link.'
+      : 'Enter your email and we will send a secure login link.';
+  }
+  if (detailsStatus && cuetaceUser) detailsStatus.textContent = 'Signed in as ' + cuetaceUser.email + '.';
+}
+
+function updateResendButton() {
+  const resendBtn = document.getElementById('profileResendBtn');
+  if (!resendBtn) return;
+  const remaining = Math.max(0, Math.ceil((profileResendUntil - Date.now()) / 1000));
+  if (remaining > 0) {
+    resendBtn.disabled = true;
+    resendBtn.textContent = 'Resend in ' + remaining + 's';
+  } else {
+    resendBtn.disabled = false;
+    resendBtn.textContent = 'Resend link';
+    if (profileResendUntil > 0 && profileResendTimer) {
+      clearInterval(profileResendTimer);
+      profileResendTimer = null;
+    }
+  }
+}
+
+function startResendCooldown() {
+  profileResendUntil = Date.now() + 30000;
+  updateResendButton();
+  if (profileResendTimer) clearInterval(profileResendTimer);
+  profileResendTimer = setInterval(updateResendButton, 1000);
+}
+
+function isValidEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function fillProfileForm() {
+  if (!cuetaceProfile) return;
+  const setValue = (id, value) => {
+    const el = document.getElementById(id);
+    if (el && !el.value) el.value = value || '';
+  };
+  setValue('profileName', cuetaceProfile.name);
+  setValue('profilePhone', cuetaceProfile.phone);
+  setValue('profileClass', cuetaceProfile.class);
+  setValue('profileTargetYear', cuetaceProfile.targetExamYear);
+  setValue('profileCity', cuetaceProfile.city);
+}
+
+async function handleProfileLogin() {
+  const email = (document.getElementById('profileEmail')?.value || '').trim();
+  const status = document.getElementById('profileStatus');
+  const loginBtn = document.getElementById('profileLoginBtn');
+  if (!email) { if (status) status.textContent = 'Enter your email address first.'; return; }
+  if (!isValidEmail(email)) { if (status) status.textContent = 'Please enter a valid email address.'; return; }
+  if (profileResendUntil > Date.now()) return;
+  try {
+    if (loginBtn) { loginBtn.disabled = true; loginBtn.textContent = 'Sending...'; }
+    await sendMagicLink(email);
+    startResendCooldown();
+    if (status) status.textContent = 'Check your inbox. We sent a secure login link to ' + email + '.';
+  } catch (err) {
+    if (status) status.textContent = isFirebaseReady() ? (err.message || 'Could not send login link.') : 'Login is temporarily unavailable. Please try again later.';
+  } finally {
+    if (loginBtn) { loginBtn.disabled = false; loginBtn.textContent = 'Continue with Email'; }
+  }
+}
+
+async function handleGoogleLogin() {
+  const status = document.getElementById('profileStatus');
+  const googleBtn = document.getElementById('profileGoogleBtn');
+  try {
+    if (googleBtn) { googleBtn.disabled = true; googleBtn.textContent = 'Opening Google...'; }
+    await signInWithGoogle();
+  } catch (err) {
+    if (status) status.textContent = isFirebaseReady() ? (err.message || 'Could not continue with Google.') : 'Login is temporarily unavailable. Please try again later.';
+  } finally {
+    if (googleBtn) { googleBtn.disabled = false; googleBtn.textContent = 'Continue with Google'; }
+  }
+}
+
+function bindProfileLoginKeys() {
+  const emailInput = document.getElementById('profileEmail');
+  if (!emailInput || emailInput.dataset.bound === '1') return;
+  emailInput.dataset.bound = '1';
+  emailInput.addEventListener('keydown', event => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      handleProfileLogin();
+    }
+  });
+}
+
+async function handleProfileSave() {
+  const status = document.getElementById('profileDetailsStatus');
+  try {
+    if (!cuetaceUser) throw new Error('Please sign in first.');
+    const syncProfile = firebaseCallable('syncProfile');
+    const result = await syncProfile({
+      name: (document.getElementById('profileName')?.value || '').trim(),
+      phone: (document.getElementById('profilePhone')?.value || '').trim(),
+      class: (document.getElementById('profileClass')?.value || '').trim(),
+      targetExamYear: (document.getElementById('profileTargetYear')?.value || '').trim(),
+      city: (document.getElementById('profileCity')?.value || '').trim()
+    });
+    cuetaceProfile = result.data.profile || cuetaceProfile;
+    if (status) status.textContent = 'Profile saved.';
+  } catch (err) {
+    if (status) status.textContent = err.message || 'Could not save profile.';
+  }
+}
+
+async function handleProfileLogout() {
+  if (!firebaseAuth) return;
+  await firebaseAuth.signOut();
+  updateAuthUI();
+}
+
 // Cache: individual chapter files { "Accountancy/AC01": {chapter, questions} }
 const CHAPTER_CACHE = {};
 
@@ -2921,6 +3283,11 @@ function buildPapers() {
 
 // ── VIEW SYSTEM ──
 function showView(name, opts) {
+  if (shouldRequireLoginForView(name)) {
+    openRequiredLoginModal(name, opts);
+    return;
+  }
+
   // Persist view so it survives page reload
   if (name === 'dashboard' || name === 'landing') {
     localStorage.setItem('cuetace_lastview', name);
@@ -4279,6 +4646,10 @@ function renderReviewQuestions(filter) {
 // showView handles exam startup directly — see VIEW SYSTEM above
 // ── INIT: show landing page correctly on load ──
 (function init() {
+  initFirebaseServices();
+  bindProfileLoginKeys();
+  completeEmailLinkSignIn().catch(err => console.warn('[CUETAce] Email link sign-in failed', err));
+  updateAuthUI();
   // Update plan indicator on load
   updatePlanUI();
   // Hide all views first
@@ -4292,13 +4663,14 @@ function renderReviewQuestions(filter) {
   const lastTab  = localStorage.getItem('cuetace_lasttab')  || 'tab-home';
 
   if (lastView === 'dashboard') {
-    const dash = document.getElementById('dashboard');
-    if (dash) {
-      dash.style.display = 'block';
-      dash.classList.add('active');
+    const landing = document.getElementById('landing');
+    if (landing) {
+      landing.style.display = 'block';
+      landing.classList.add('active');
     }
     // Restore last active tab within dashboard (never restore tab-ca on cold load — CA not ready yet)
-    switchTab(null, lastTab === 'tab-ca' ? 'tab-home' : lastTab);
+    openRequiredLoginModal('dashboard', null);
+    setTimeout(() => switchTab(null, lastTab === 'tab-ca' ? 'tab-home' : lastTab), 120);
   } else {
     const landing = document.getElementById('landing');
     if (landing) {
