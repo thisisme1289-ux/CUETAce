@@ -61,6 +61,7 @@ async function ensureProfile(uid, email, defaults = {}) {
     phone: defaults.phone || '',
     class: defaults.class || '',
     targetExamYear: defaults.targetExamYear || '',
+    photoDataUrl: defaults.photoDataUrl || '',
     selectedSubjects: Array.isArray(defaults.selectedSubjects) ? defaults.selectedSubjects : [],
     city: defaults.city || '',
     onboardingPreferences: defaults.onboardingPreferences || {},
@@ -81,7 +82,7 @@ async function ensureProfile(uid, email, defaults = {}) {
     email: email || snap.data().email || '',
     lastLoginAt: FieldValue.serverTimestamp()
   };
-  for (const field of ['name', 'phone', 'class', 'targetExamYear', 'city', 'onboardingPreferences']) {
+  for (const field of ['name', 'phone', 'class', 'targetExamYear', 'city', 'photoDataUrl', 'onboardingPreferences']) {
     if (defaults[field] !== undefined) updates[field] = defaults[field];
   }
   if (Array.isArray(defaults.selectedSubjects)) updates.selectedSubjects = defaults.selectedSubjects;

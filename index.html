@@ -240,6 +240,34 @@ body {
 .nav-links a:hover { color: var(--cream); background: var(--bg-3); }
 .nav-right { display: flex; align-items: center; gap: 10px; }
 
+.profile-chip {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(214,184,112,0.28);
+  background: rgba(255,255,255,0.04);
+  color: var(--gold);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 850;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform var(--t), border-color var(--t), background var(--t);
+}
+.profile-chip:hover {
+  transform: translateY(-1px);
+  border-color: var(--gold);
+  background: rgba(201,168,76,0.1);
+}
+.profile-chip img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .btn-nav-cta {
   font-family: var(--font); font-size: 13px; font-weight: 600;
   color: var(--bg); background: var(--gold);
@@ -1935,6 +1963,83 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   font-size: 10px; color: #6a5e52;
 }
 
+.profile-avatar-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 4px 0 18px;
+  padding: 12px;
+  border: 1px solid rgba(214,184,112,0.14);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.025);
+}
+.profile-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid rgba(214,184,112,0.34);
+  background: rgba(201,168,76,0.12);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 850;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.profile-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-avatar-copy {
+  flex: 1;
+  min-width: 0;
+}
+.profile-avatar-copy strong {
+  display: block;
+  color: var(--cream);
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.profile-avatar-copy span {
+  display: block;
+  color: var(--cream-muted);
+  font-size: 11px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.profile-photo-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(214,184,112,0.22);
+  color: var(--cream);
+  background: rgba(255,255,255,0.04);
+  font-size: 12px;
+  font-weight: 750;
+  cursor: pointer;
+}
+.profile-photo-btn:hover { border-color: var(--gold); }
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.profile-grid .profile-field { margin-bottom: 0; }
+.profile-grid .profile-field.profile-wide { grid-column: 1 / -1; }
+select.profile-field {
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--cream-muted) 50%), linear-gradient(135deg, var(--cream-muted) 50%, transparent 50%);
+  background-position: calc(100% - 18px) 20px, calc(100% - 13px) 20px;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
 #profileModal.support-modal-backdrop {
   position: fixed;
   inset: 0;
@@ -2009,6 +2114,16 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
     padding: 28px 20px 22px;
   }
   #profileModal .support-modal-title { font-size: 21px; }
+  .profile-grid { grid-template-columns: 1fr; }
+  .profile-avatar-row {
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .profile-avatar {
+    width: 58px;
+    height: 58px;
+    font-size: 18px;
+  }
 }
 
 /* ── FAQ accordion ── */
@@ -2038,8 +2153,9 @@ details[open] { border-color: var(--gold-border) !important; }
 <body>
 
 <!-- ── NAVIGATION ── -->
-<nav class="nav" style="justify-content:center;">
+<nav class="nav">
   <div class="nav-logo" onclick="showView('dashboard')" style="cursor:pointer;">CUET<span>Ace</span></div>
+  <button class="profile-chip" id="profileCornerBtn" onclick="openProfileModal()" aria-label="Open profile">U</button>
 </nav>
 
 <!-- PROFILE / LOGIN MODAL -->
@@ -2062,12 +2178,37 @@ details[open] { border-color: var(--gold-border) !important; }
     </div>
     <div class="profile-panel" id="profileDetailsPanel">
       <div class="support-modal-title">Complete Profile</div>
-      <div class="support-modal-sub">Save your student details so your progress stays with you.</div>
-      <input class="profile-field" id="profileName" type="text" placeholder="Full name" autocomplete="name">
-      <input class="profile-field" id="profilePhone" type="tel" placeholder="Phone number (optional)" autocomplete="tel">
-      <input class="profile-field" id="profileClass" type="text" placeholder="Class / Grade">
-      <input class="profile-field" id="profileTargetYear" type="number" placeholder="Target CUET year">
-      <input class="profile-field" id="profileCity" type="text" placeholder="City (optional)" autocomplete="address-level2">
+      <div class="support-modal-sub">Add your student details so CUETAce can save progress around your exam plan.</div>
+      <div class="profile-avatar-row">
+        <div class="profile-avatar" id="profileAvatarPreview">U</div>
+        <div class="profile-avatar-copy">
+          <strong>Profile picture</strong>
+          <span>Use a clear photo or avatar. We keep it small for fast loading.</span>
+          <label class="profile-photo-btn" for="profilePhotoInput">Choose picture</label>
+          <input id="profilePhotoInput" type="file" accept="image/*" style="display:none" onchange="handleProfilePhotoChange(event)">
+        </div>
+      </div>
+      <div class="profile-grid">
+        <input class="profile-field profile-wide" id="profileName" type="text" placeholder="Full name" autocomplete="name">
+        <input class="profile-field" id="profilePhone" type="tel" placeholder="Phone number (optional)" autocomplete="tel">
+        <input class="profile-field" id="profileCity" type="text" placeholder="City (optional)" autocomplete="address-level2">
+        <select class="profile-field" id="profileClass" aria-label="Class / Grade">
+          <option value="">Class / Grade</option>
+          <option value="Class 11">Class 11</option>
+          <option value="Class 12">Class 12</option>
+          <option value="Dropper - 1st year">Dropper - 1st year</option>
+          <option value="Dropper - 2nd year">Dropper - 2nd year</option>
+          <option value="Dropper - 3rd year">Dropper - 3rd year</option>
+        </select>
+        <select class="profile-field" id="profileTargetYear" aria-label="Target CUET year">
+          <option value="">Target CUET year</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+          <option value="2029">2029</option>
+          <option value="2030">2030</option>
+        </select>
+      </div>
       <div class="profile-status" id="profileDetailsStatus"></div>
       <button class="profile-action" id="profileSaveBtn" onclick="handleProfileSave()">Save profile</button>
       <button class="profile-action secondary" id="profileLogoutBtn" onclick="handleProfileLogout()">Sign out</button>
@@ -2997,6 +3138,7 @@ const CUETACE_FIREBASE_CONFIG = {
 let firebaseApp = null;
 let firebaseAuth = null;
 let firebaseFns = null;
+let firebaseDb = null;
 let firebaseAnalytics = null;
 let cuetaceUser = null;
 let cuetaceProfile = null;
@@ -3004,6 +3146,7 @@ let pendingAuthView = null;
 let profileModalRequired = false;
 let profileResendUntil = 0;
 let profileResendTimer = null;
+let profilePhotoDataUrl = '';
 const PENDING_AUTH_KEY = 'cuetace_pending_auth_view';
 
 function isFirebaseReady() {
@@ -3015,6 +3158,7 @@ function initFirebaseServices() {
   firebaseApp = firebase.initializeApp(CUETACE_FIREBASE_CONFIG);
   firebaseAuth = firebase.auth();
   firebaseFns = firebase.app().functions(CUETACE_FIREBASE_CONFIG.functionsRegion || 'asia-south1');
+  firebaseDb = firebase.firestore();
   if (firebase.analytics && CUETACE_FIREBASE_CONFIG.measurementId) {
     try { firebaseAnalytics = firebase.analytics(); } catch(e) { firebaseAnalytics = null; }
   }
@@ -3022,8 +3166,7 @@ function initFirebaseServices() {
     cuetaceUser = user || null;
     if (user) {
       try {
-        const syncProfile = firebaseFns.httpsCallable('syncProfile');
-        const result = await syncProfile({});
+        const result = await syncProfileData({});
         cuetaceProfile = result.data.profile || null;
       } catch (err) {
         console.warn('[CUETAce] Profile sync failed', err);
@@ -3040,6 +3183,44 @@ function initFirebaseServices() {
 function firebaseCallable(name) {
   if (!initFirebaseServices()) return null;
   return firebaseFns.httpsCallable(name);
+}
+
+async function syncProfileData(updates = {}) {
+  if (!cuetaceUser) throw new Error('Please sign in first.');
+  if (firebaseFns) {
+    try {
+      const syncProfile = firebaseFns.httpsCallable('syncProfile');
+      return await syncProfile(updates);
+    } catch (err) {
+      console.warn('[CUETAce] Function profile sync failed, using Firestore fallback', err);
+    }
+  }
+  if (!firebaseDb) throw new Error('Profile storage is not ready yet.');
+  const ref = firebaseDb.collection('users').doc(cuetaceUser.uid);
+  const snap = await ref.get();
+  const timestamp = firebase.firestore.FieldValue.serverTimestamp();
+  const base = {
+    uid: cuetaceUser.uid,
+    email: cuetaceUser.email || '',
+    name: '',
+    phone: '',
+    class: '',
+    targetExamYear: '',
+    city: '',
+    photoDataUrl: '',
+    selectedSubjects: [],
+    onboardingPreferences: {},
+    planStatus: 'free',
+    planExpiresAt: null,
+    razorpayCustomerId: '',
+    lastPaymentId: ''
+  };
+  const payload = snap.exists
+    ? { ...updates, email: cuetaceUser.email || '', lastLoginAt: timestamp }
+    : { ...base, ...updates, createdAt: timestamp, lastLoginAt: timestamp };
+  await ref.set(payload, { merge: true });
+  const fresh = await ref.get();
+  return { data: { profile: fresh.data() || { ...base, ...updates } } };
 }
 
 function savePendingAuthView(view) {
@@ -3145,6 +3326,7 @@ function updateAuthUI() {
   const configured = isFirebaseReady();
   if (emailInput && cuetaceUser?.email) emailInput.value = cuetaceUser.email;
   fillProfileForm();
+  updateProfileIdentityUI();
   if (loginPanel) loginPanel.classList.toggle('active', !cuetaceUser);
   if (detailsPanel) detailsPanel.classList.toggle('active', !!cuetaceUser);
   if (saveBtn) saveBtn.style.display = configured && cuetaceUser ? '' : 'none';
@@ -3168,6 +3350,27 @@ function updateAuthUI() {
       : 'Enter your email and we will send a secure login link.';
   }
   if (detailsStatus && cuetaceUser) detailsStatus.textContent = 'Signed in as ' + cuetaceUser.email + '.';
+}
+
+function profileInitials() {
+  const name = (cuetaceProfile?.name || cuetaceUser?.displayName || cuetaceUser?.email || 'U').trim();
+  if (name.includes('@')) return name.charAt(0).toUpperCase();
+  return name.split(/\s+/).slice(0, 2).map(part => part.charAt(0)).join('').toUpperCase() || 'U';
+}
+
+function updateProfileIdentityUI() {
+  const photo = profilePhotoDataUrl || cuetaceProfile?.photoDataUrl || cuetaceUser?.photoURL || '';
+  const initials = profileInitials();
+  const avatar = document.getElementById('profileAvatarPreview');
+  const corner = document.getElementById('profileCornerBtn');
+  const render = el => {
+    if (!el) return;
+    if (photo) el.innerHTML = '<img src="' + photo.replace(/"/g, '&quot;') + '" alt="">';
+    else el.textContent = initials;
+  };
+  render(avatar);
+  render(corner);
+  if (corner) corner.title = cuetaceUser ? 'Open profile' : 'Sign in';
 }
 
 function updateResendButton() {
@@ -3209,6 +3412,55 @@ function fillProfileForm() {
   setValue('profileClass', cuetaceProfile.class);
   setValue('profileTargetYear', cuetaceProfile.targetExamYear);
   setValue('profileCity', cuetaceProfile.city);
+  profilePhotoDataUrl = profilePhotoDataUrl || cuetaceProfile.photoDataUrl || '';
+  updateProfileIdentityUI();
+}
+
+function populateTargetYearOptions() {
+  const select = document.getElementById('profileTargetYear');
+  if (!select) return;
+  const selected = select.value || cuetaceProfile?.targetExamYear || '';
+  const currentYear = new Date().getFullYear();
+  select.innerHTML = '<option value="">Target CUET year</option>';
+  for (let year = currentYear; year <= currentYear + 5; year++) {
+    const option = document.createElement('option');
+    option.value = String(year);
+    option.textContent = String(year);
+    select.appendChild(option);
+  }
+  if (selected) select.value = selected;
+}
+
+function handleProfilePhotoChange(event) {
+  const file = event.target.files && event.target.files[0];
+  const status = document.getElementById('profileDetailsStatus');
+  if (!file) return;
+  if (!file.type.startsWith('image/')) {
+    if (status) status.textContent = 'Please choose an image file.';
+    return;
+  }
+  const reader = new FileReader();
+  reader.onload = () => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement('canvas');
+      const size = 180;
+      canvas.width = size;
+      canvas.height = size;
+      const ctx = canvas.getContext('2d');
+      const minSide = Math.min(img.width, img.height);
+      const sx = (img.width - minSide) / 2;
+      const sy = (img.height - minSide) / 2;
+      ctx.drawImage(img, sx, sy, minSide, minSide, 0, 0, size, size);
+      profilePhotoDataUrl = canvas.toDataURL('image/jpeg', 0.72);
+      updateProfileIdentityUI();
+      if (status) status.textContent = 'Picture selected. Save profile to keep it.';
+    };
+    img.onerror = () => { if (status) status.textContent = 'Could not read that image.'; };
+    img.src = reader.result;
+  };
+  reader.onerror = () => { if (status) status.textContent = 'Could not read that image.'; };
+  reader.readAsDataURL(file);
 }
 
 async function handleProfileLogin() {
@@ -3259,15 +3511,17 @@ async function handleProfileSave() {
   const status = document.getElementById('profileDetailsStatus');
   try {
     if (!cuetaceUser) throw new Error('Please sign in first.');
-    const syncProfile = firebaseCallable('syncProfile');
-    const result = await syncProfile({
+    const result = await syncProfileData({
       name: (document.getElementById('profileName')?.value || '').trim(),
       phone: (document.getElementById('profilePhone')?.value || '').trim(),
       class: (document.getElementById('profileClass')?.value || '').trim(),
       targetExamYear: (document.getElementById('profileTargetYear')?.value || '').trim(),
-      city: (document.getElementById('profileCity')?.value || '').trim()
+      city: (document.getElementById('profileCity')?.value || '').trim(),
+      photoDataUrl: profilePhotoDataUrl || cuetaceProfile?.photoDataUrl || ''
     });
     cuetaceProfile = result.data.profile || cuetaceProfile;
+    profilePhotoDataUrl = cuetaceProfile.photoDataUrl || profilePhotoDataUrl;
+    updateProfileIdentityUI();
     if (status) status.textContent = 'Profile saved.';
   } catch (err) {
     if (status) status.textContent = err.message || 'Could not save profile.';
@@ -3279,6 +3533,15 @@ async function handleProfileLogout() {
   await firebaseAuth.signOut();
   updateAuthUI();
 }
+
+window.openProfileModal = openProfileModal;
+window.closeProfileModal = closeProfileModal;
+window.handleProfileLogin = handleProfileLogin;
+window.handleGoogleLogin = handleGoogleLogin;
+window.handleProfileSave = handleProfileSave;
+window.handleProfileLogout = handleProfileLogout;
+window.handleProfilePhotoChange = handleProfilePhotoChange;
+window.populateTargetYearOptions = populateTargetYearOptions;
 
 // Cache: individual chapter files { "Accountancy/AC01": {chapter, questions} }
 const CHAPTER_CACHE = {};
@@ -4742,6 +5005,7 @@ function renderReviewQuestions(filter) {
 // showView handles exam startup directly — see VIEW SYSTEM above
 // ── INIT: show landing page correctly on load ──
 (function init() {
+  populateTargetYearOptions();
   initFirebaseServices();
   bindProfileLoginKeys();
   completeEmailLinkSignIn().catch(err => console.warn('[CUETAce] Email link sign-in failed', err));
