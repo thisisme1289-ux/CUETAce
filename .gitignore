@@ -14,3 +14,10 @@ past year paper/**/*.png
 past year paper/**/*.txt
 past year paper/**/*.html
 past year paper/**/*.csv
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
