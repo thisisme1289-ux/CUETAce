@@ -19,6 +19,7 @@ const QUESTION_PREFIX = process.env.QUESTION_BANK_PREFIX || 'question-bank';
 const QUESTION_BUCKET = process.env.QUESTION_BUCKET || undefined;
 const PUBLIC_APP_URL = process.env.PUBLIC_APP_URL || 'https://cuetace.fun';
 const FREE_SAMPLE_ATTEMPTS = String(process.env.FREE_SAMPLE_ATTEMPTS || 'true') === 'true';
+const ACTIVE_SESSION_TTL_MS = 5 * 60 * 1000;
 
 const SUBJECT_SLUGS = {
   Accountancy: 'accountancy',
@@ -45,6 +46,14 @@ function requireAuth(request) {
 
 function userRef(uid) {
   return db.collection('users').doc(uid);
+}
+
+function stableDocId(value) {
+  return crypto.createHash('sha256').update(String(value)).digest('hex');
+}
+
+function sessionExpiry() {
+  return Timestamp.fromMillis(Date.now() + ACTIVE_SESSION_TTL_MS);
 }
 
 function nowPlusDays(days) {
@@ -75,7 +84,7 @@ async function ensureProfile(uid, email, defaults = {}) {
 
   if (!snap.exists) {
     await ref.set(base);
-    return base;
+    return { ...base, createdAt: null, lastLoginAt: null };
   }
 
   const updates = {
@@ -87,7 +96,9 @@ async function ensureProfile(uid, email, defaults = {}) {
   }
   if (Array.isArray(defaults.selectedSubjects)) updates.selectedSubjects = defaults.selectedSubjects;
   await ref.set(updates, { merge: true });
-  return { ...snap.data(), ...updates, email: updates.email };
+  const response = { ...snap.data(), ...updates, email: updates.email };
+  delete response.lastLoginAt;
+  return response;
 }
 
 async function hasActivePlan(uid) {
@@ -208,6 +219,176 @@ export const syncProfile = onCall(async request => {
   const user = requireAuth(request);
   const profile = await ensureProfile(user.uid, user.token.email, request.data || {});
   return { profile };
+});
+
+export const claimUserSession = onCall(async request => {
+  const user = requireAuth(request);
+  const deviceId = String(request.data?.deviceId || '').slice(0, 120);
+  if (!deviceId) throw new HttpsError('invalid-argument', 'deviceId is required.');
+  const ref = userRef(user.uid);
+  const expiry = sessionExpiry();
+
+  await db.runTransaction(async tx => {
+    const snap = await tx.get(ref);
+    const data = snap.data() || {};
+    const active = data.activeSession || {};
+    const activeExpiry = active.expiresAt?.toMillis ? active.expiresAt.toMillis() : 0;
+    const isDifferentActiveDevice = active.deviceId && active.deviceId !== deviceId && activeExpiry > Date.now();
+    if (isDifferentActiveDevice) {
+      throw new HttpsError('already-exists', 'This email is already open on another device. Sign out there or wait a few minutes and try again.');
+    }
+    tx.set(ref, {
+      uid: user.uid,
+      email: user.token.email || data.email || '',
+      activeSession: {
+        deviceId,
+        claimedAt: active.deviceId === deviceId ? (active.claimedAt || FieldValue.serverTimestamp()) : FieldValue.serverTimestamp(),
+        lastSeenAt: FieldValue.serverTimestamp(),
+        expiresAt: expiry
+      },
+      lastLoginAt: FieldValue.serverTimestamp()
+    }, { merge: true });
+  });
+
+  return { ok: true, expiresAt: expiry.toMillis() };
+});
+
+export const heartbeatUserSession = onCall(async request => {
+  const user = requireAuth(request);
+  const deviceId = String(request.data?.deviceId || '').slice(0, 120);
+  if (!deviceId) throw new HttpsError('invalid-argument', 'deviceId is required.');
+  const ref = userRef(user.uid);
+  const snap = await ref.get();
+  const active = snap.data()?.activeSession || {};
+  if (active.deviceId && active.deviceId !== deviceId) {
+    throw new HttpsError('failed-precondition', 'This account session is active on another device.');
+  }
+  const expiry = sessionExpiry();
+  await ref.set({
+    activeSession: {
+      deviceId,
+      claimedAt: active.claimedAt || FieldValue.serverTimestamp(),
+      lastSeenAt: FieldValue.serverTimestamp(),
+      expiresAt: expiry
+    }
+  }, { merge: true });
+  return { ok: true, expiresAt: expiry.toMillis() };
+});
+
+export const releaseUserSession = onCall(async request => {
+  const user = requireAuth(request);
+  const deviceId = String(request.data?.deviceId || '').slice(0, 120);
+  const ref = userRef(user.uid);
+  const snap = await ref.get();
+  const active = snap.data()?.activeSession || {};
+  if (deviceId && active.deviceId === deviceId) {
+    await ref.set({ activeSession: FieldValue.delete() }, { merge: true });
+  }
+  return { ok: true };
+});
+
+export const saveUserResult = onCall(async request => {
+  const user = requireAuth(request);
+  await ensureProfile(user.uid, user.token.email);
+  const payload = request.data?.result || {};
+  const result = {
+    uid: user.uid,
+    testName: String(payload.testName || 'CUETAce Test').slice(0, 180),
+    subject: String(payload.subject || '').slice(0, 80),
+    mode: String(payload.mode || '').slice(0, 40),
+    date: String(payload.date || '').slice(0, 40),
+    time: String(payload.time || '').slice(0, 40),
+    timeTaken: String(payload.timeTaken || '').slice(0, 40),
+    total: Number(payload.total || 0),
+    correct: Number(payload.correct || 0),
+    wrong: Number(payload.wrong || 0),
+    skipped: Number(payload.skipped || 0),
+    marks: Number(payload.marks || 0),
+    pct: Number(payload.pct || 0),
+    avgTime: Number(payload.avgTime || 0),
+    chapterBreakdown: Array.isArray(payload.chapterBreakdown) ? payload.chapterBreakdown.slice(0, 100) : [],
+    questions: Array.isArray(payload.questions) ? payload.questions.slice(0, 250) : [],
+    createdAt: FieldValue.serverTimestamp()
+  };
+  const resultId = String(payload.id || '');
+  const resultRef = resultId
+    ? userRef(user.uid).collection('results').doc(resultId)
+    : userRef(user.uid).collection('results').doc();
+  await resultRef.set(result, { merge: true });
+  const response = { id: resultRef.id, ...result, createdAtMillis: Date.now() };
+  delete response.createdAt;
+  return response;
+});
+
+export const listUserResults = onCall(async request => {
+  const user = requireAuth(request);
+  const limit = Math.min(Number(request.data?.limit || 50), 100);
+  const snap = await userRef(user.uid).collection('results').orderBy('createdAt', 'desc').limit(limit).get();
+  return {
+    results: snap.docs.map(doc => {
+      const data = doc.data();
+      return {
+        id: doc.id,
+        ...data,
+        createdAtMillis: data.createdAt?.toMillis ? data.createdAt.toMillis() : 0
+      };
+    })
+  };
+});
+
+export const saveUserBookmark = onCall(async request => {
+  const user = requireAuth(request);
+  await ensureProfile(user.uid, user.token.email);
+  const payload = request.data?.bookmark || {};
+  const key = String(payload.key || payload.questionId || '').slice(0, 220);
+  if (!key) throw new HttpsError('invalid-argument', 'bookmark key is required.');
+  await userRef(user.uid).collection('bookmarks').doc(stableDocId(key)).set({
+    uid: user.uid,
+    key,
+    subject: String(payload.subject || '').slice(0, 80),
+    savedAt: String(payload.savedAt || '').slice(0, 40),
+    chapter_id: String(payload.chapter_id || '').slice(0, 80),
+    section: String(payload.section || '').slice(0, 140),
+    text: String(payload.text || ''),
+    options: Array.isArray(payload.options) ? payload.options.slice(0, 8) : [],
+    correct: payload.correct ?? -1,
+    explanation: String(payload.explanation || ''),
+    type: String(payload.type || 'mcq').slice(0, 40),
+    passage: String(payload.passage || ''),
+    sentence: String(payload.sentence || ''),
+    statements: payload.statements && typeof payload.statements === 'object' ? payload.statements : null,
+    column_i: payload.column_i && typeof payload.column_i === 'object' ? payload.column_i : null,
+    column_ii: payload.column_ii && typeof payload.column_ii === 'object' ? payload.column_ii : null,
+    image: String(payload.image || ''),
+    table: payload.table || null,
+    data: payload.data || null,
+    updatedAt: FieldValue.serverTimestamp()
+  }, { merge: true });
+  return { saved: true };
+});
+
+export const deleteUserBookmark = onCall(async request => {
+  const user = requireAuth(request);
+  const key = String(request.data?.key || '').slice(0, 220);
+  if (!key) throw new HttpsError('invalid-argument', 'bookmark key is required.');
+  await userRef(user.uid).collection('bookmarks').doc(stableDocId(key)).delete();
+  return { saved: false };
+});
+
+export const listUserBookmarks = onCall(async request => {
+  const user = requireAuth(request);
+  const limit = Math.min(Number(request.data?.limit || 200), 300);
+  const snap = await userRef(user.uid).collection('bookmarks').orderBy('updatedAt', 'desc').limit(limit).get();
+  return {
+    bookmarks: snap.docs.map(doc => {
+      const data = doc.data();
+      return {
+        id: doc.id,
+        ...data,
+        updatedAtMillis: data.updatedAt?.toMillis ? data.updatedAt.toMillis() : 0
+      };
+    })
+  };
 });
 
 export const createPaymentLink = onCall(async request => {

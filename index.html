@@ -787,20 +787,53 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 /* Mobile bottom nav */
 .dash-bottom-nav {
   display: none; position: fixed; bottom: 0; left: 0; right: 0;
-  height: 58px; background: var(--bg-2);
+  height: 64px; background: rgba(27,23,19,0.96);
   border-top: 1px solid var(--border); z-index: 500;
+  backdrop-filter: blur(14px);
 }
 .dash-bottom-nav ul { list-style: none; display: flex; height: 100%; }
 .dash-bottom-nav li { flex: 1; }
 .dash-bottom-nav li a {
   height: 100%; display: flex; flex-direction: column;
-  align-items: center; justify-content: center; gap: 3px;
-  text-decoration: none; font-size: 10px; font-weight: 600;
+  align-items: center; justify-content: center; gap: 4px;
+  text-decoration: none; font-size: 10.5px; font-weight: 650;
   color: var(--cream-faint); transition: color var(--t);
+  -webkit-tap-highlight-color: transparent;
 }
-.dash-bottom-nav .bnav-icon { font-size: 16px; line-height: 1; }
+.dash-bottom-nav .bnav-icon {
+  width: 22px; height: 22px; display: inline-flex;
+  align-items: center; justify-content: center; line-height: 1;
+  position: relative;
+}
+.dash-bottom-nav .bnav-icon svg { width: 20px; height: 20px; stroke-width: 2; }
 .dash-bottom-nav li.active a { color: var(--gold); }
 .dash-bottom-nav li a:hover { color: var(--cream-2); }
+.mobile-more-panel {
+  display: none; position: fixed; left: 12px; right: 12px; bottom: 72px;
+  background: var(--bg-2); border: 1px solid var(--border-light);
+  border-radius: 12px; z-index: 520; padding: 8px;
+  box-shadow: 0 18px 44px rgba(0,0,0,0.34);
+}
+.mobile-more-panel.open { display: block; }
+.mobile-more-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px; }
+.mobile-more-item {
+  font-family: var(--font); border: 1px solid var(--border);
+  background: var(--bg-3); color: var(--cream-2); border-radius: 8px;
+  min-height: 58px; padding: 10px; cursor: pointer;
+  display: flex; align-items: center; gap: 10px; text-align: left;
+  transition: border-color var(--t), color var(--t), background var(--t);
+}
+.mobile-more-item:hover, .mobile-more-item.active {
+  border-color: var(--gold-border); color: var(--gold); background: var(--gold-glow);
+}
+.mobile-more-icon { width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.mobile-more-icon svg { width: 20px; height: 20px; stroke-width: 2; }
+.mobile-more-label { font-size: 12px; font-weight: 650; line-height: 1.2; }
+.mobile-more-badge {
+  margin-left: auto; min-width: 18px; height: 18px; border-radius: 10px;
+  background: var(--gold); color: #0d0a06; font-size: 9px; font-weight: 800;
+  display: none; align-items: center; justify-content: center; padding: 0 5px;
+}
 
 
 /* ── Saved Questions tab ── */
@@ -882,17 +915,19 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   margin-top: 88px; /* topbar 52 + strip 36 */
   height: calc(100vh - 88px - 60px); /* fixed height so both panels scroll independently */
   overflow: hidden;
+  position: relative;
 }
 
 /* ── LEFT: QUESTION AREA ── */
 .exam-q-panel {
   flex: 1;
+  min-width: 0;
   height: 100%;          /* fill fixed container so overflow-y: auto works */
   overflow-y: auto;
-  padding: clamp(16px, 3vw, 36px) clamp(18px, 4vw, 48px) 32px;
+  padding: clamp(18px, 3vw, 40px) clamp(22px, 4.5vw, 72px) 32px;
   background: #1e1b18;
 }
-.exam-q-inner { max-width: 760px; }
+.exam-q-inner { max-width: 1120px; width: 100%; }
 
 .exam-section-label {
   display: inline-block;
@@ -1007,6 +1042,49 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   display: flex; flex-direction: column;
   height: 100%;
   overflow: hidden;
+  transition: width 220ms ease, min-width 220ms ease, border-color 220ms ease;
+}
+.exam-main.palette-collapsed .exam-palette-panel {
+  width: 0;
+  min-width: 0;
+  border-left-color: transparent;
+}
+.exam-main.palette-collapsed .exam-palette-panel > * {
+  visibility: hidden;
+}
+.exam-palette-collapse {
+  position: fixed;
+  top: 102px;
+  right: 260px;
+  width: 30px;
+  height: 48px;
+  border: 1px solid #3d3128;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  background: #2a2219;
+  color: #7a6e61;
+  cursor: pointer;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: right 220ms ease, background 200ms ease, color 200ms ease, border-color 200ms ease;
+}
+.exam-palette-collapse:hover {
+  background: #332a20;
+  color: #c9a84c;
+  border-color: #4a3c2f;
+}
+.exam-palette-collapse svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 220ms ease;
+}
+.exam-main.palette-collapsed .exam-palette-collapse {
+  right: 0;
+}
+.exam-main.palette-collapsed .exam-palette-collapse svg {
+  transform: rotate(180deg);
 }
 
 .palette-grid-wrap {
@@ -1443,6 +1521,12 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 .xbtn-review-short,
 .xbtn-save-short {
   display: none;
+}
+
+@media (max-width: 767px) {
+  .exam-palette-collapse {
+    display: none !important;
+  }
 }
 
 /* Scroll reveal */
@@ -1947,6 +2031,12 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   font-size: 12px; color: var(--cream-muted); line-height: 1.6;
   margin: 10px 0 16px; min-height: 18px; text-align: center;
 }
+.profile-status.success {
+  color: #82d48f;
+}
+.profile-status.error {
+  color: #ff9f8f;
+}
 .profile-panel { display: none; }
 .profile-panel.active { display: block; }
 .profile-privacy {
@@ -2166,9 +2256,9 @@ details[open] { border-color: var(--gold-border) !important; }
     </button>
     <div class="profile-panel active" id="profileLoginPanel">
       <div class="support-modal-title">Welcome to CUETAce</div>
-      <div class="support-modal-sub">Enter your email to continue to your dashboard.</div>
+      <div class="support-modal-sub">Enter your email to open your CUETAce profile.</div>
       <input class="profile-field" id="profileEmail" type="email" placeholder="Email address" autocomplete="email">
-      <div class="profile-status" id="profileStatus">We will send you a secure login link.</div>
+      <div class="profile-status" id="profileStatus">We will send you a secure CUETAce login link.</div>
       <button class="profile-action secondary" id="profileGoogleBtn" onclick="handleGoogleLogin()">Continue with Google</button>
       <div class="profile-privacy">or</div>
       <button class="profile-action" id="profileLoginBtn" onclick="handleProfileLogin()">Continue with Email</button>
@@ -2761,20 +2851,35 @@ details[open] { border-color: var(--gold-border) !important; }
       </div>
     </div>
 
+    <!-- SAVED QUESTIONS TAB -->
+    <div class="dash-tab" id="tab-saved">
+      <div class="dash-content">
+        <div class="dash-section-title">Saved Questions</div>
+        <div class="dash-section-sub">Questions you bookmark during tests for quick revision.</div>
+        <div id="savedContainer" style="margin-top:14px;max-width:760px;"></div>
+      </div>
+    </div>
+
   </div>
 
 
   <!-- Mobile bottom nav -->
   <nav class="dash-bottom-nav" id="dashBottomNav">
     <ul>
-      <li class="active" id="bnav-home"><a href="#" onclick="switchTab(null,'tab-home');setBottomNav('bnav-home')"><span class="bnav-icon">H</span>Home</a></li>
-      <li id="bnav-mock"><a href="#" onclick="switchTab(null,'tab-mock');setBottomNav('bnav-mock')"><span class="bnav-icon">M</span>Mock</a></li>
-      <li id="bnav-chapters"><a href="#" onclick="switchTab(null,'tab-chapters');setBottomNav('bnav-chapters')"><span class="bnav-icon">C</span>Chapters</a></li>
-      <li id="bnav-papers"><a href="#" onclick="switchTab(null,'tab-papers');setBottomNav('bnav-papers')"><span class="bnav-icon">P</span>Papers</a></li>
-      <li id="bnav-ca"><a href="#" onclick="switchTab(null,'tab-ca');setBottomNav('bnav-ca')"><span class="bnav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 0-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg></span>Affairs</a></li>
-      <li id="bnav-results"><a href="#" onclick="switchTab(null,'tab-results');setBottomNav('bnav-results')"><span class="bnav-icon">R</span>Results</a></li>
+      <li class="active" id="bnav-home"><a href="#" onclick="switchTab(null,'tab-home')"><span class="bnav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg></span>Home</a></li>
+      <li id="bnav-mock"><a href="#" onclick="switchTab(null,'tab-mock')"><span class="bnav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5h6"/><path d="M9 9h6"/><path d="M9 13h4"/><rect x="5" y="3" width="14" height="18" rx="2"/><path d="m15 17 1.5 1.5L20 15"/></svg></span>Mock</a></li>
+      <li id="bnav-chapters"><a href="#" onclick="switchTab(null,'tab-chapters')"><span class="bnav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/><path d="M8 7h8"/><path d="M8 11h6"/></svg></span>Chapters</a></li>
+      <li id="bnav-more"><a href="#" onclick="toggleMobileMore(event)"><span class="bnav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg></span>More</a></li>
     </ul>
   </nav>
+  <div class="mobile-more-panel" id="mobileMorePanel" aria-label="More dashboard options">
+    <div class="mobile-more-grid">
+      <button class="mobile-more-item" data-tab="tab-papers" onclick="mobileMoreSelect('tab-papers')"><span class="mobile-more-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h6"/></svg></span><span class="mobile-more-label">Past Papers</span></button>
+      <button class="mobile-more-item" data-tab="tab-results" onclick="mobileMoreSelect('tab-results')"><span class="mobile-more-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5"/><path d="M4 19h16"/><path d="M8 16v-5"/><path d="M12 16V8"/><path d="M16 16v-3"/></svg></span><span class="mobile-more-label">Results</span></button>
+      <button class="mobile-more-item" data-tab="tab-ca" onclick="mobileMoreSelect('tab-ca')"><span class="mobile-more-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h11v18H6a2 2 0 0 1-2-1.5Z"/><path d="M17 7h3v14h-3"/><path d="M8 8h5"/><path d="M8 12h5"/></svg></span><span class="mobile-more-label">Current Affairs</span></button>
+      <button class="mobile-more-item" data-tab="tab-saved" onclick="mobileMoreSelect('tab-saved')"><span class="mobile-more-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21 12 17 5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2Z"/></svg></span><span class="mobile-more-label">Saved</span><span class="mobile-more-badge" id="mobileSavedCountBadge"></span></button>
+    </div>
+  </div>
 </div>
 
 
@@ -2930,6 +3035,11 @@ details[open] { border-color: var(--gold-border) !important; }
         <div class="palette-grid" id="paletteGrid"></div>
       </div>
     </div>
+    <button class="exam-palette-collapse" id="examPaletteCollapseBtn" onclick="toggleExamPalette()" aria-label="Collapse question palette" title="Collapse question palette">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m15 18-6-6 6-6"/>
+      </svg>
+    </button>
 
   </div>
 
@@ -3148,6 +3258,30 @@ let profileResendUntil = 0;
 let profileResendTimer = null;
 let profilePhotoDataUrl = '';
 const PENDING_AUTH_KEY = 'cuetace_pending_auth_view';
+const SHOW_PROFILE_AFTER_LOGIN_KEY = 'cuetace_show_profile_after_login';
+const DEVICE_SESSION_KEY = 'cuetace_device_session_id';
+let cuetaceDeviceId = '';
+let sessionHeartbeatTimer = null;
+let sessionLockMessage = '';
+let cloudResultsCache = null;
+let cloudBookmarksCache = null;
+let cloudProgressMigrated = false;
+let visibleResultsCache = null;
+
+function setProfileAfterLoginIntent() {
+  try { localStorage.setItem(SHOW_PROFILE_AFTER_LOGIN_KEY, '1'); } catch(e) {}
+}
+
+function consumeProfileAfterLoginIntent() {
+  try {
+    const shouldShow = localStorage.getItem(SHOW_PROFILE_AFTER_LOGIN_KEY) === '1'
+      || new URLSearchParams(window.location.search).get('next') === 'profile';
+    localStorage.removeItem(SHOW_PROFILE_AFTER_LOGIN_KEY);
+    return shouldShow;
+  } catch(e) {
+    return false;
+  }
+}
 
 function isFirebaseReady() {
   return !!(CUETACE_FIREBASE_CONFIG.enabled && window.firebase && CUETACE_FIREBASE_CONFIG.apiKey && !CUETACE_FIREBASE_CONFIG.apiKey.startsWith('YOUR_'));
@@ -3164,17 +3298,36 @@ function initFirebaseServices() {
   }
   firebaseAuth.onAuthStateChanged(async user => {
     cuetaceUser = user || null;
+    const shouldShowProfile = !!user && consumeProfileAfterLoginIntent();
     if (user) {
       try {
         const result = await syncProfileData({});
         cuetaceProfile = result.data.profile || null;
+        const sessionOk = await claimActiveUserSession();
+        if (!sessionOk) {
+          cuetaceUser = null;
+          cuetaceProfile = null;
+          updateAuthUI();
+          openProfileModal();
+          return;
+        }
+        await migrateLocalProgressToCloud();
+        await refreshCloudProgress();
       } catch (err) {
         console.warn('[CUETAce] Profile sync failed', err);
       }
     } else {
+      stopSessionHeartbeat();
       cuetaceProfile = null;
+      cloudResultsCache = null;
+      cloudBookmarksCache = null;
+      cloudProgressMigrated = false;
     }
     updateAuthUI();
+    if (shouldShowProfile) {
+      profileModalRequired = false;
+      openProfileModal();
+    }
     continuePendingAuthView();
   });
   return true;
@@ -3183,6 +3336,69 @@ function initFirebaseServices() {
 function firebaseCallable(name) {
   if (!initFirebaseServices()) return null;
   return firebaseFns.httpsCallable(name);
+}
+
+function getDeviceSessionId() {
+  if (cuetaceDeviceId) return cuetaceDeviceId;
+  try {
+    cuetaceDeviceId = localStorage.getItem(DEVICE_SESSION_KEY) || '';
+    if (!cuetaceDeviceId) {
+      const random = window.crypto && crypto.getRandomValues
+        ? Array.from(crypto.getRandomValues(new Uint8Array(16))).map(n => n.toString(16).padStart(2, '0')).join('')
+        : String(Date.now()) + Math.random().toString(16).slice(2);
+      cuetaceDeviceId = 'web-' + random;
+      localStorage.setItem(DEVICE_SESSION_KEY, cuetaceDeviceId);
+    }
+  } catch(e) {
+    cuetaceDeviceId = cuetaceDeviceId || ('web-' + Date.now() + Math.random().toString(16).slice(2));
+  }
+  return cuetaceDeviceId;
+}
+
+async function claimActiveUserSession() {
+  if (!cuetaceUser || !firebaseFns) return true;
+  const claim = firebaseFns.httpsCallable('claimUserSession');
+  try {
+    await claim({ deviceId: getDeviceSessionId() });
+    sessionLockMessage = '';
+    startSessionHeartbeat();
+    return true;
+  } catch (err) {
+    sessionLockMessage = err.message || 'This email is already open on another device.';
+    stopSessionHeartbeat();
+    try { await firebaseAuth.signOut(); } catch(e) {}
+    return false;
+  }
+}
+
+function startSessionHeartbeat() {
+  stopSessionHeartbeat();
+  sessionHeartbeatTimer = setInterval(async () => {
+    if (!cuetaceUser || !firebaseFns) return;
+    try {
+      const heartbeat = firebaseFns.httpsCallable('heartbeatUserSession');
+      await heartbeat({ deviceId: getDeviceSessionId() });
+    } catch (err) {
+      sessionLockMessage = err.message || 'This email was opened on another device.';
+      stopSessionHeartbeat();
+      try { await firebaseAuth.signOut(); } catch(e) {}
+      updateAuthUI();
+      openProfileModal();
+    }
+  }, 60000);
+}
+
+function stopSessionHeartbeat() {
+  if (sessionHeartbeatTimer) clearInterval(sessionHeartbeatTimer);
+  sessionHeartbeatTimer = null;
+}
+
+async function releaseActiveUserSession() {
+  if (!cuetaceUser || !firebaseFns) return;
+  try {
+    const release = firebaseFns.httpsCallable('releaseUserSession');
+    await release({ deviceId: getDeviceSessionId() });
+  } catch(e) {}
 }
 
 async function syncProfileData(updates = {}) {
@@ -3245,8 +3461,9 @@ function clearPendingAuthView() {
 async function sendMagicLink(email) {
   initFirebaseServices();
   if (!firebaseAuth) throw new Error('Firebase is not configured yet.');
+  setProfileAfterLoginIntent();
   await firebaseAuth.sendSignInLinkToEmail(email, {
-    url: window.location.origin + window.location.pathname + '?login=1',
+    url: window.location.origin + window.location.pathname + '?login=1&next=profile',
     handleCodeInApp: true
   });
   localStorage.setItem('cuetace_email_for_signin', email);
@@ -3264,6 +3481,7 @@ async function completeEmailLinkSignIn() {
 async function signInWithGoogle() {
   initFirebaseServices();
   if (!firebaseAuth) throw new Error('Firebase is not configured yet.');
+  setProfileAfterLoginIntent();
   const provider = new firebase.auth.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: 'select_account' });
   await firebaseAuth.signInWithPopup(provider);
@@ -3344,12 +3562,15 @@ function updateAuthUI() {
   if (devNote) devNote.style.display = configured ? 'none' : 'block';
   if (devNote && !configured) devNote.textContent = 'Login service could not load. Check your internet connection or try again in a moment.';
   if (status) {
-    if (!configured) status.textContent = 'Login is temporarily unavailable. Please try again later.';
-    else if (!cuetaceUser) status.textContent = profileModalRequired
+    if (!configured) setProfileStatus(status, 'Login is temporarily unavailable. Please try again later.', 'error');
+    else if (sessionLockMessage && !cuetaceUser) setProfileStatus(status, sessionLockMessage, 'error');
+    else if (!cuetaceUser) setProfileStatus(status, profileModalRequired
       ? 'Login is required to continue. Enter your email and open the secure link.'
-      : 'Enter your email and we will send a secure login link.';
+      : 'Enter your email and we will send a secure CUETAce login link.');
   }
-  if (detailsStatus && cuetaceUser) detailsStatus.textContent = 'Signed in as ' + cuetaceUser.email + '.';
+  if (detailsStatus && cuetaceUser && !detailsStatus.dataset.keepMessage) {
+    setProfileStatus(detailsStatus, 'Signed in as ' + cuetaceUser.email + '.');
+  }
 }
 
 function profileInitials() {
@@ -3388,6 +3609,13 @@ function updateResendButton() {
       profileResendTimer = null;
     }
   }
+}
+
+function setProfileStatus(element, message, type = '') {
+  if (!element) return;
+  element.textContent = message;
+  element.classList.toggle('success', type === 'success');
+  element.classList.toggle('error', type === 'error');
 }
 
 function startResendCooldown() {
@@ -3436,7 +3664,7 @@ function handleProfilePhotoChange(event) {
   const status = document.getElementById('profileDetailsStatus');
   if (!file) return;
   if (!file.type.startsWith('image/')) {
-    if (status) status.textContent = 'Please choose an image file.';
+    setProfileStatus(status, 'Please choose an image file.', 'error');
     return;
   }
   const reader = new FileReader();
@@ -3454,12 +3682,12 @@ function handleProfilePhotoChange(event) {
       ctx.drawImage(img, sx, sy, minSide, minSide, 0, 0, size, size);
       profilePhotoDataUrl = canvas.toDataURL('image/jpeg', 0.72);
       updateProfileIdentityUI();
-      if (status) status.textContent = 'Picture selected. Save profile to keep it.';
+      setProfileStatus(status, 'Picture selected. Save profile to keep it.');
     };
-    img.onerror = () => { if (status) status.textContent = 'Could not read that image.'; };
+    img.onerror = () => { setProfileStatus(status, 'Could not read that image.', 'error'); };
     img.src = reader.result;
   };
-  reader.onerror = () => { if (status) status.textContent = 'Could not read that image.'; };
+  reader.onerror = () => { setProfileStatus(status, 'Could not read that image.', 'error'); };
   reader.readAsDataURL(file);
 }
 
@@ -3467,16 +3695,16 @@ async function handleProfileLogin() {
   const email = (document.getElementById('profileEmail')?.value || '').trim();
   const status = document.getElementById('profileStatus');
   const loginBtn = document.getElementById('profileLoginBtn');
-  if (!email) { if (status) status.textContent = 'Enter your email address first.'; return; }
-  if (!isValidEmail(email)) { if (status) status.textContent = 'Please enter a valid email address.'; return; }
+  if (!email) { setProfileStatus(status, 'Enter your email address first.', 'error'); return; }
+  if (!isValidEmail(email)) { setProfileStatus(status, 'Please enter a valid email address.', 'error'); return; }
   if (profileResendUntil > Date.now()) return;
   try {
     if (loginBtn) { loginBtn.disabled = true; loginBtn.textContent = 'Sending...'; }
     await sendMagicLink(email);
     startResendCooldown();
-    if (status) status.textContent = 'Check your inbox. We sent a secure login link to ' + email + '.';
+    setProfileStatus(status, 'Check your inbox. We sent a secure CUETAce login link to ' + email + '.', 'success');
   } catch (err) {
-    if (status) status.textContent = isFirebaseReady() ? (err.message || 'Could not send login link.') : 'Login is temporarily unavailable. Please try again later.';
+    setProfileStatus(status, isFirebaseReady() ? (err.message || 'Could not send login link.') : 'Login is temporarily unavailable. Please try again later.', 'error');
   } finally {
     if (loginBtn) { loginBtn.disabled = false; loginBtn.textContent = 'Continue with Email'; }
   }
@@ -3489,7 +3717,7 @@ async function handleGoogleLogin() {
     if (googleBtn) { googleBtn.disabled = true; googleBtn.textContent = 'Opening Google...'; }
     await signInWithGoogle();
   } catch (err) {
-    if (status) status.textContent = isFirebaseReady() ? (err.message || 'Could not continue with Google.') : 'Login is temporarily unavailable. Please try again later.';
+    setProfileStatus(status, isFirebaseReady() ? (err.message || 'Could not continue with Google.') : 'Login is temporarily unavailable. Please try again later.', 'error');
   } finally {
     if (googleBtn) { googleBtn.disabled = false; googleBtn.textContent = 'Continue with Google'; }
   }
@@ -3509,8 +3737,15 @@ function bindProfileLoginKeys() {
 
 async function handleProfileSave() {
   const status = document.getElementById('profileDetailsStatus');
+  const saveBtn = document.getElementById('profileSaveBtn');
   try {
     if (!cuetaceUser) throw new Error('Please sign in first.');
+    if (saveBtn) {
+      saveBtn.disabled = true;
+      saveBtn.textContent = 'Saving...';
+    }
+    if (status) status.dataset.keepMessage = '1';
+    setProfileStatus(status, 'Saving your profile...');
     const result = await syncProfileData({
       name: (document.getElementById('profileName')?.value || '').trim(),
       phone: (document.getElementById('profilePhone')?.value || '').trim(),
@@ -3522,14 +3757,29 @@ async function handleProfileSave() {
     cuetaceProfile = result.data.profile || cuetaceProfile;
     profilePhotoDataUrl = cuetaceProfile.photoDataUrl || profilePhotoDataUrl;
     updateProfileIdentityUI();
-    if (status) status.textContent = 'Profile saved.';
+    setProfileStatus(status, 'Profile saved successfully.', 'success');
+    if (saveBtn) saveBtn.textContent = 'Saved';
+    setTimeout(() => {
+      if (saveBtn) {
+        saveBtn.disabled = false;
+        saveBtn.textContent = 'Save profile';
+      }
+      if (status) delete status.dataset.keepMessage;
+    }, 1800);
   } catch (err) {
-    if (status) status.textContent = err.message || 'Could not save profile.';
+    setProfileStatus(status, err.message || 'Could not save profile.', 'error');
+    if (saveBtn) {
+      saveBtn.disabled = false;
+      saveBtn.textContent = 'Save profile';
+    }
+    if (status) delete status.dataset.keepMessage;
   }
 }
 
 async function handleProfileLogout() {
   if (!firebaseAuth) return;
+  await releaseActiveUserSession();
+  stopSessionHeartbeat();
   await firebaseAuth.signOut();
   updateAuthUI();
 }
@@ -3684,6 +3934,7 @@ function showView(name, opts) {
   // Dashboard bottom nav
   const bnav = document.getElementById('dashBottomNav');
   if (bnav) bnav.style.display = name === 'dashboard' ? 'block' : 'none';
+  if (name !== 'dashboard') closeMobileMore();
 
   // Dashboard lazy builds
   if (name === 'dashboard') {
@@ -3707,6 +3958,7 @@ function switchTab(btn, tabId) {
   if (!tabId) return;
   if (tabId === 'tab-results') setTimeout(renderResultsList, 60);
   localStorage.setItem('cuetace_lasttab', tabId);
+  closeMobileMore();
 
   // Always highlight by matching tabId string — works whether called from btn click or programmatically
   document.querySelectorAll('.inner-nav-btn').forEach(b => {
@@ -3722,6 +3974,7 @@ function switchTab(btn, tabId) {
   if (tabId === 'tab-papers')   buildPapers();
   if (tabId === 'tab-ca')       { if (typeof CA !== 'undefined') caInit(); }
   if (tabId === 'tab-saved')    renderSavedQuestions();
+  syncBottomNav(tabId);
 }
 
 // ── GO TO SUBJECT: switches to Chapter-wise tab and opens that subject's accordion ──
@@ -3754,6 +4007,47 @@ function setBottomNav(id) {
   const el = document.getElementById(id);
   if (el) el.classList.add('active');
 }
+
+function syncBottomNav(tabId) {
+  const directTabs = {
+    'tab-home': 'bnav-home',
+    'tab-mock': 'bnav-mock',
+    'tab-chapters': 'bnav-chapters'
+  };
+  setBottomNav(directTabs[tabId] || 'bnav-more');
+  document.querySelectorAll('.mobile-more-item').forEach(item => {
+    item.classList.toggle('active', item.dataset.tab === tabId);
+  });
+}
+
+function toggleMobileMore(event) {
+  if (event) event.preventDefault();
+  const panel = document.getElementById('mobileMorePanel');
+  if (!panel) return;
+  const willOpen = !panel.classList.contains('open');
+  panel.classList.toggle('open', willOpen);
+  if (willOpen) setBottomNav('bnav-more');
+  else syncBottomNav(localStorage.getItem('cuetace_lasttab') || 'tab-home');
+}
+
+function closeMobileMore() {
+  const panel = document.getElementById('mobileMorePanel');
+  if (panel) panel.classList.remove('open');
+}
+
+function mobileMoreSelect(tabId) {
+  closeMobileMore();
+  switchTab(null, tabId);
+}
+
+document.addEventListener('click', function(e) {
+  const panel = document.getElementById('mobileMorePanel');
+  const more = document.getElementById('bnav-more');
+  if (!panel || !panel.classList.contains('open')) return;
+  if (panel.contains(e.target) || (more && more.contains(e.target))) return;
+  closeMobileMore();
+  syncBottomNav(localStorage.getItem('cuetace_lasttab') || 'tab-home');
+});
 
 // ── CHAPTER ACCORDION ──
 function toggleChapters(header) {
@@ -4498,6 +4792,27 @@ function togglePaletteSheet() {
 }
 
 // ── SUBMIT MODAL ──
+function applyExamPaletteState() {
+  const main = document.querySelector('#examscreen .exam-main');
+  const btn = document.getElementById('examPaletteCollapseBtn');
+  if (!main) return;
+  let collapsed = false;
+  try { collapsed = localStorage.getItem('cuetace_exam_palette_collapsed') === '1'; } catch(e) {}
+  main.classList.toggle('palette-collapsed', collapsed);
+  if (btn) {
+    btn.setAttribute('aria-label', collapsed ? 'Open question palette' : 'Collapse question palette');
+    btn.title = collapsed ? 'Open question palette' : 'Collapse question palette';
+  }
+}
+
+function toggleExamPalette() {
+  const main = document.querySelector('#examscreen .exam-main');
+  if (!main) return;
+  const collapsed = !main.classList.contains('palette-collapsed');
+  try { localStorage.setItem('cuetace_exam_palette_collapsed', collapsed ? '1' : '0'); } catch(e) {}
+  applyExamPaletteState();
+}
+
 function openSubmitModal() {
   const answered = examState.status.filter(s => s === 'answered' || s === 'ans-marked').length;
   const marked = examState.status.filter(s => s === 'marked' || s === 'ans-marked').length;
@@ -4524,14 +4839,86 @@ function closeSubmitModal() {
 const RESULTS_KEY = 'cuetace_results';
 // No limit on stored results
 
+function normalizeCloudResult(result) {
+  if (!result) return result;
+  const created = result.createdAtMillis || (result.createdAt && result.createdAt.seconds ? result.createdAt.seconds * 1000 : 0);
+  return {
+    ...result,
+    date: result.date || (created ? new Date(created).toLocaleDateString('en-IN', {day:'2-digit', month:'short', year:'numeric'}) : ''),
+    time: result.time || (created ? new Date(created).toLocaleTimeString('en-IN', {hour:'2-digit', minute:'2-digit'}) : '')
+  };
+}
+
+function normalizeResultForSync(result) {
+  const id = result.id || ('result-' + Date.now() + '-' + Math.random().toString(16).slice(2));
+  return { ...result, id: String(id) };
+}
+
+function mergeUniqueByKey(primary, secondary, keyName) {
+  const seen = new Set();
+  const merged = [];
+  [...(primary || []), ...(secondary || [])].forEach(item => {
+    if (!item) return;
+    const key = String(item[keyName] || item.id || item.key || JSON.stringify(item));
+    if (seen.has(key)) return;
+    seen.add(key);
+    merged.push(item);
+  });
+  return merged;
+}
+
+async function saveResultToCloud(result) {
+  if (!cuetaceUser || !firebaseFns) return null;
+  const saveUserResult = firebaseFns.httpsCallable('saveUserResult');
+  const response = await saveUserResult({ result });
+  const saved = normalizeCloudResult(response.data);
+  if (cloudResultsCache) {
+    cloudResultsCache = [saved, ...cloudResultsCache.filter(item => String(item.id) !== String(saved.id))].slice(0, 50);
+  }
+  return response.data;
+}
+
+async function loadCloudResults() {
+  if (!cuetaceUser || !firebaseFns) return getStoredResults();
+  if (cloudResultsCache) return cloudResultsCache;
+  try {
+    const listUserResults = firebaseFns.httpsCallable('listUserResults');
+    const response = await listUserResults({ limit: 50 });
+    const cloudResults = (response.data.results || []).map(normalizeCloudResult);
+    cloudResultsCache = mergeUniqueByKey(cloudResults, getStoredResults(), 'id').slice(0, 50);
+    return cloudResultsCache;
+  } catch (err) {
+    console.warn('[CUETAce] Could not load cloud results', err);
+    return getStoredResults();
+  }
+}
+
+async function migrateLocalResultsToCloud() {
+  if (!cuetaceUser || !firebaseFns) return;
+  const localResults = getStoredResults().map(normalizeResultForSync);
+  if (!localResults.length) return;
+  try { localStorage.setItem(RESULTS_KEY, JSON.stringify(localResults.slice(0, 50))); } catch(e) {}
+  const saveUserResult = firebaseFns.httpsCallable('saveUserResult');
+  await Promise.all(localResults.slice(0, 50).map(result => saveUserResult({ result }).catch(err => {
+    console.warn('[CUETAce] Could not migrate result', err);
+  })));
+  cloudResultsCache = null;
+}
+
 function saveResult(result) {
-  let results = getStoredResults();
+  result = normalizeResultForSync(result);
+  let results = getStoredResults().filter(r => String(r.id) !== String(result.id));
   results.unshift(result); // newest first
   if (results.length > 50) results = results.slice(0, 50); // cap at 50
   try { localStorage.setItem(RESULTS_KEY, JSON.stringify(results)); } catch(e) {
     // localStorage full — trim aggressively and retry
     try { localStorage.setItem(RESULTS_KEY, JSON.stringify(results.slice(0, 20))); } catch(e2) {}
   }
+  if (cuetaceUser) {
+    cloudResultsCache = mergeUniqueByKey([result], cloudResultsCache || [], 'id').slice(0, 50);
+    visibleResultsCache = cloudResultsCache;
+  }
+  saveResultToCloud(result).catch(err => console.warn('[CUETAce] Could not save cloud result', err));
 }
 
 function getStoredResults() {
@@ -4647,10 +5034,11 @@ function submitTest() {
 }
 
 // ── RENDER RESULTS LIST ──
-function renderResultsList() {
+async function renderResultsList() {
   const container = document.getElementById('resultsContainer');
   if (!container) return;
-  const results = getStoredResults();
+  const results = await loadCloudResults();
+  visibleResultsCache = results;
 
   if (results.length === 0) {
     container.innerHTML = `<div class="empty-state" style="margin-top:40px;">
@@ -4693,7 +5081,7 @@ let currentReviewResult = null;
 let currentReviewFilter = 'all';
 
 function openReview(idx) {
-  const results = getStoredResults();
+  const results = visibleResultsCache || cloudResultsCache || getStoredResults();
   if (!results[idx]) return;
   currentReviewResult = results[idx];
   currentReviewFilter = 'all';
@@ -4736,7 +5124,7 @@ function buildReviewAnalytics(r) {
   const container = document.getElementById('reviewAnalytics');
   if (!container) return;
 
-  const allResults = getStoredResults();
+  const allResults = cloudResultsCache || getStoredResults();
   const sameSubject = allResults.filter(x => x.subject === r.subject && x.pct !== undefined).reverse();
 
   // ── SWOT ──
@@ -5290,6 +5678,66 @@ function caOnSearch(v) { CA.state.search = v.trim().toLowerCase(); CA.renderFeed
 // ════════════════════════════════════
 const BOOKMARKS_KEY = 'cuetace_bookmarks';
 
+function getActiveBookmarks() {
+  return cloudBookmarksCache || getBookmarks();
+}
+
+function normalizeBookmarkForSync(bookmark) {
+  const key = String(bookmark.key || bookmark.questionId || bookmark.text || ('bookmark-' + Date.now()));
+  return { ...bookmark, key };
+}
+
+async function saveBookmarkToCloud(bookmark) {
+  if (!cuetaceUser || !firebaseFns) return;
+  const saveUserBookmark = firebaseFns.httpsCallable('saveUserBookmark');
+  await saveUserBookmark({ bookmark });
+  cloudBookmarksCache = null;
+}
+
+async function deleteBookmarkFromCloud(key) {
+  if (!cuetaceUser || !firebaseFns) return;
+  const deleteUserBookmark = firebaseFns.httpsCallable('deleteUserBookmark');
+  await deleteUserBookmark({ key });
+  cloudBookmarksCache = null;
+}
+
+async function loadCloudBookmarks() {
+  if (!cuetaceUser || !firebaseFns) return getBookmarks();
+  if (cloudBookmarksCache) return cloudBookmarksCache;
+  try {
+    const listUserBookmarks = firebaseFns.httpsCallable('listUserBookmarks');
+    const response = await listUserBookmarks({ limit: 200 });
+    cloudBookmarksCache = mergeUniqueByKey(response.data.bookmarks || [], getBookmarks(), 'key').slice(0, 200);
+    return cloudBookmarksCache;
+  } catch (err) {
+    console.warn('[CUETAce] Could not load cloud bookmarks', err);
+    return getBookmarks();
+  }
+}
+
+async function migrateLocalBookmarksToCloud() {
+  if (!cuetaceUser || !firebaseFns) return;
+  const localBookmarks = getBookmarks();
+  if (!localBookmarks.length) return;
+  const saveUserBookmark = firebaseFns.httpsCallable('saveUserBookmark');
+  await Promise.all(localBookmarks.slice(0, 200).map(bookmark => saveUserBookmark({ bookmark }).catch(err => {
+    console.warn('[CUETAce] Could not migrate bookmark', err);
+  })));
+  cloudBookmarksCache = null;
+}
+
+async function refreshCloudProgress() {
+  if (!cuetaceUser || !firebaseFns) return;
+  await Promise.all([loadCloudResults(), loadCloudBookmarks()]);
+  updateSavedBadge();
+}
+
+async function migrateLocalProgressToCloud() {
+  if (cloudProgressMigrated || !cuetaceUser || !firebaseFns) return;
+  cloudProgressMigrated = true;
+  await Promise.all([migrateLocalResultsToCloud(), migrateLocalBookmarksToCloud()]);
+}
+
 function getBookmarks() {
   try { return JSON.parse(localStorage.getItem(BOOKMARKS_KEY) || '[]'); }
   catch(e) { return []; }
@@ -5297,29 +5745,36 @@ function getBookmarks() {
 function saveBookmarks(arr) {
   try { localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(arr)); }
   catch(e) { try { localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(arr.slice(0,50))); } catch(e2) {} }
+  if (cuetaceUser) cloudBookmarksCache = mergeUniqueByKey(arr, cloudBookmarksCache || [], 'key').slice(0, 200);
   updateSavedBadge();
 }
-function isBookmarked(key) { return getBookmarks().some(b => b.key === key); }
+function isBookmarked(key) { return getActiveBookmarks().some(b => b.key === key); }
 
 function toggleBookmark() {
   const q = EXAM_QUESTIONS[examState.currentQ];
   if (!q) return;
   const key = q.id || q.text || String(examState.currentQ);
-  const bookmarks = getBookmarks();
+  const bookmarks = [...getActiveBookmarks()];
   const existing = bookmarks.findIndex(b => b.key === key);
   if (existing >= 0) {
     bookmarks.splice(existing, 1);
+    deleteBookmarkFromCloud(key).catch(err => console.warn('[CUETAce] Could not delete cloud bookmark', err));
   } else {
-    bookmarks.unshift({
+    const bookmark = normalizeBookmarkForSync({
       key, subject: examState.subject,
       savedAt: new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}),
       chapter_id: q.chapter_id || '', section: q.section || '',
       text: q.text || '', options: q.options || [],
       correct: q.correct, explanation: q.explanation || '',
-      type: q.type || 'mcq', passage: q.passage || '', sentence: q.sentence || ''
+      type: q.type || 'mcq', passage: q.passage || '', sentence: q.sentence || '',
+      statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
+      image: q.image || '', table: q.table || null, data: q.data || null
     });
+    bookmarks.unshift(bookmark);
+    saveBookmarkToCloud(bookmark).catch(err => console.warn('[CUETAce] Could not save cloud bookmark', err));
     if (bookmarks.length > 200) bookmarks.splice(200);
   }
+  cloudBookmarksCache = cuetaceUser ? bookmarks : cloudBookmarksCache;
   saveBookmarks(bookmarks);
   updateBookmarkBtn();
 }
@@ -5339,17 +5794,24 @@ function updateBookmarkBtn() {
 }
 
 function updateSavedBadge() {
-  const count = getBookmarks().length;
+  const count = getActiveBookmarks().length;
   const badge = document.getElementById('savedCountBadge');
-  if (!badge) return;
-  badge.textContent = count > 99 ? '99+' : count;
-  badge.style.display = count > 0 ? '' : 'none';
+  const mobileBadge = document.getElementById('mobileSavedCountBadge');
+  const text = count > 99 ? '99+' : count;
+  if (badge) {
+    badge.textContent = text;
+    badge.style.display = count > 0 ? '' : 'none';
+  }
+  if (mobileBadge) {
+    mobileBadge.textContent = text;
+    mobileBadge.style.display = count > 0 ? 'inline-flex' : 'none';
+  }
 }
 
-function renderSavedQuestions() {
+async function renderSavedQuestions() {
   const container = document.getElementById('savedContainer');
   if (!container) return;
-  const bookmarks = getBookmarks();
+  const bookmarks = await loadCloudBookmarks();
   updateSavedBadge();
   if (bookmarks.length === 0) {
     container.innerHTML = '<div class="empty-state" style="margin-top:40px;"><div class="empty-line"></div><div class="empty-title">No saved questions yet</div><div class="empty-desc">Tap the bookmark icon during any test to save tricky questions for later review.</div><button class="empty-btn" onclick="switchTab(null,\'tab-mock\')">Start a Test</button></div>';
@@ -5357,16 +5819,76 @@ function renderSavedQuestions() {
   }
   let html = '';
   bookmarks.forEach((b, i) => {
-    const opts = (b.options||[]).map((o,oi) => {
+    try {
+    const opts = savedOptionsList(b.options).map((o,oi) => {
       const ltr = ['A','B','C','D'][oi] || oi;
-      const isCorrect = oi === b.correct;
+      const isCorrect = oi === savedCorrectIndex(b.correct);
       return '<div class="saved-q-opt'+(isCorrect?' correct':'')+'">'+ltr+'. '+esc(o)+'</div>';
     }).join('');
+    const body = renderSavedQuestionBody(b);
     const exp = b.explanation ? '<div class="saved-q-exp">'+esc(b.explanation)+'</div>' : '';
     const expBtn = b.explanation ? '<button class="inner-nav-btn" onclick="toggleSavedExp('+i+')" style="font-size:10px;margin-top:6px;padding:4px 10px;">Show Explanation</button>' : '';
-    html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">'+esc(b.subject)+' &middot; '+esc(b.section||b.chapter_id||'')+' &middot; '+esc(b.savedAt)+'</div><div class="saved-q-text">'+esc(b.text)+'</div></div><button class="saved-q-remove" onclick="removeBookmark('+i+')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class="saved-q-opts">'+opts+'</div>'+exp+expBtn+'</div>';
+    html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">'+esc(b.subject||'Saved')+' &middot; '+esc(b.section||b.chapter_id||'Practice')+' &middot; '+esc(b.savedAt||'')+'</div>'+body+'</div><button class="saved-q-remove" onclick="removeBookmark('+i+')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class="saved-q-opts">'+opts+'</div>'+exp+expBtn+'</div>';
+    } catch(e) {
+      console.warn('[CUETAce] Could not render saved question', i, e, b);
+      html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">Saved question</div><div class="saved-q-text">This saved question uses an older format. Remove it and save it again from the test screen.</div></div><button class="saved-q-remove" onclick="removeBookmark('+i+')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div></div>';
+    }
   });
   container.innerHTML = html;
+}
+
+function savedOptionsList(options) {
+  if (Array.isArray(options)) return options.map(savedOptionText);
+  if (options && typeof options === 'object') return Object.values(options).map(savedOptionText);
+  return [];
+}
+
+function savedOptionText(option) {
+  if (option == null) return '';
+  if (typeof option === 'string' || typeof option === 'number') return String(option);
+  if (typeof option === 'object') return option.text || option.label || option.value || JSON.stringify(option);
+  return String(option);
+}
+
+function savedCorrectIndex(correct) {
+  if (typeof correct === 'number') return correct;
+  if (typeof correct === 'string') {
+    const n = Number(correct);
+    if (!Number.isNaN(n)) return n;
+    const letter = correct.trim().toUpperCase();
+    const idx = ['A','B','C','D'].indexOf(letter);
+    if (idx >= 0) return idx;
+  }
+  return -1;
+}
+
+function renderSavedQuestionBody(b) {
+  let html = '';
+  if (b.passage) {
+    html += '<div class="saved-q-text" style="font-size:12px;color:var(--cream-muted);margin-bottom:8px;">'+esc(b.passage)+'</div>';
+  }
+  if (b.sentence) {
+    html += '<div class="saved-q-text" style="font-size:12px;color:var(--cream-muted);margin-bottom:8px;font-style:italic;">'+esc(b.sentence)+'</div>';
+  }
+  html += '<div class="saved-q-text">'+esc(b.text || b.question || 'Saved question')+'</div>';
+  if (b.statements && typeof b.statements === 'object') {
+    html += '<div class="saved-q-opts" style="margin-top:8px;">';
+    Object.entries(b.statements).forEach(([key, val]) => {
+      html += '<div class="saved-q-opt">'+esc(key)+'. '+esc(val)+'</div>';
+    });
+    html += '</div>';
+  }
+  if (b.column_i && b.column_ii) {
+    html += '<div class="saved-q-opts" style="margin-top:8px;">';
+    Object.entries(b.column_i).forEach(([key, val]) => {
+      html += '<div class="saved-q-opt">I '+esc(key)+'. '+esc(val)+'</div>';
+    });
+    Object.entries(b.column_ii).forEach(([key, val]) => {
+      html += '<div class="saved-q-opt">II '+esc(key)+'. '+esc(val)+'</div>';
+    });
+    html += '</div>';
+  }
+  return html;
 }
 
 function toggleSavedExp(i) {
@@ -5378,7 +5900,12 @@ function toggleSavedExp(i) {
 }
 
 function removeBookmark(i) {
-  const b = getBookmarks(); b.splice(i,1); saveBookmarks(b); renderSavedQuestions();
+  const b = [...getActiveBookmarks()];
+  const removed = b.splice(i,1)[0];
+  cloudBookmarksCache = cuetaceUser ? b : cloudBookmarksCache;
+  saveBookmarks(b);
+  if (removed?.key) deleteBookmarkFromCloud(removed.key).catch(err => console.warn('[CUETAce] Could not delete cloud bookmark', err));
+  renderSavedQuestions();
 }
 
 window.addEventListener('load', function() { updateSavedBadge(); });

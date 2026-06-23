@@ -12,7 +12,15 @@ service cloud.firestore {
 
     match /users/{uid} {
       allow create: if owns(uid);
-      allow read, update: if owns(uid);
+      allow read: if owns(uid);
+      allow update: if owns(uid)
+        && !request.resource.data.diff(resource.data).affectedKeys().hasAny([
+          'activeSession',
+          'planStatus',
+          'planExpiresAt',
+          'razorpayCustomerId',
+          'lastPaymentId'
+        ]);
       allow delete: if false;
 
       match /bookmarks/{bookmarkId} {
