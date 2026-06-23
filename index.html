@@ -901,9 +901,37 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   font-family: var(--font-mono); font-size: 12px; font-weight: 500;
   color: #b8a990;
 }
+.exam-qstrip-tools {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+}
+.exam-tool-btn {
+  height: 24px;
+  padding: 0 10px;
+  border-radius: 999px;
+  border: 1px solid #3d3128;
+  background: #1e1b18;
+  color: #9d907d;
+  font-family: var(--font);
+  font-size: 10.5px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: border-color 180ms ease, color 180ms ease, background 180ms ease;
+}
+.exam-tool-btn:hover {
+  border-color: rgba(201,168,76,0.45);
+  color: #c9a84c;
+  background: rgba(201,168,76,0.06);
+}
+.exam-tool-btn:focus-visible {
+  outline: 2px solid rgba(201,168,76,0.55);
+  outline-offset: 2px;
+}
 .exam-qstrip-marks {
   display: flex; gap: 14px; font-size: 11px; font-weight: 600;
-  margin-left: auto;
 }
 .exam-qstrip-marks .mpos { color: #4a9268; }
 .exam-qstrip-marks .mneg { color: #c0544a; }
@@ -1339,8 +1367,19 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    overflow-x: auto;
   }
   .exam-qstrip-num { font-size: 10px; white-space: nowrap; }
+  .exam-qstrip-tools {
+    gap: 4px;
+    margin-left: 0;
+    flex-shrink: 0;
+  }
+  .exam-tool-btn {
+    height: 23px;
+    padding: 0 8px;
+    font-size: 9.5px;
+  }
   .exam-qstrip-marks { gap: 8px; font-size: 10px; margin-left: auto; }
 
   /* ── Mobile progress bar sits below qstrip ── */
@@ -2979,6 +3018,11 @@ details[open] { border-color: var(--gold-border) !important; }
   <!-- QUESTION NUMBER STRIP — desktop -->
   <div class="exam-qstrip">
     <span class="exam-qstrip-num" id="examQNum">Question 1 of 60</span>
+    <div class="exam-qstrip-tools" aria-label="Exam tools">
+      <button class="exam-tool-btn" type="button" onclick="handleExamTool('accessibility')">Accessibility</button>
+      <button class="exam-tool-btn" type="button" onclick="handleExamTool('magnification')">Magnification</button>
+      <button class="exam-tool-btn" type="button" onclick="handleExamTool('information')">Information</button>
+    </div>
     <div class="exam-qstrip-marks">
       <span class="mpos">+5 Correct</span>
       <span class="mneg">-1 Wrong</span>
@@ -3949,6 +3993,7 @@ function showView(name, opts) {
     const mode     = (opts && opts.mode)       || 'mock';
     const pypUrl   = (opts && opts.pypUrl)     || null;
     const qCount   = (opts && opts.qCount)     || null;
+    applyExamPaletteState();
     startExam(testName, subject, mode, pypUrl, qCount);
   }
 }
@@ -4811,6 +4856,10 @@ function toggleExamPalette() {
   const collapsed = !main.classList.contains('palette-collapsed');
   try { localStorage.setItem('cuetace_exam_palette_collapsed', collapsed ? '1' : '0'); } catch(e) {}
   applyExamPaletteState();
+}
+
+function handleExamTool(tool) {
+  console.log('[CUETAce] Exam tool clicked:', tool);
 }
 
 function openSubmitModal() {
