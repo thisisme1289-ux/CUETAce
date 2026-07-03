@@ -2612,14 +2612,18 @@ async function saveBookmarkToCloud(bookmark) {
   if (!cuetaceUser || !firebaseFns) return;
   const saveUserBookmark = firebaseFns.httpsCallable('saveUserBookmark');
   await saveUserBookmark({ bookmark });
-  cloudBookmarksCache = null;
+  if (cloudBookmarksCache) {
+    cloudBookmarksCache = mergeUniqueByKey([bookmark], cloudBookmarksCache, 'key').slice(0, 200);
+  }
 }
 
 async function deleteBookmarkFromCloud(key) {
   if (!cuetaceUser || !firebaseFns) return;
   const deleteUserBookmark = firebaseFns.httpsCallable('deleteUserBookmark');
   await deleteUserBookmark({ key });
-  cloudBookmarksCache = null;
+  if (cloudBookmarksCache) {
+    cloudBookmarksCache = cloudBookmarksCache.filter(item => String(item.key) !== String(key));
+  }
 }
 
 async function loadCloudBookmarks() {
@@ -2671,39 +2675,68 @@ function saveBookmarks(arr) {
 }
 function isBookmarked(key) { return getActiveBookmarks().some(b => b.key === key); }
 
-function toggleBookmark() {
+function getQuestionBookmarkKey(q) {
+  return String(q.id || q.text || ('question-' + examState.currentQ));
+}
+
+function buildBookmarkFromCurrentQuestion() {
   const q = EXAM_QUESTIONS[examState.currentQ];
-  if (!q) return;
-  const key = q.id || q.text || String(examState.currentQ);
+  if (!q) return null;
+  return normalizeBookmarkForSync({
+    key: getQuestionBookmarkKey(q),
+    subject: examState.subject,
+    savedAt: new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}),
+    chapter_id: q.chapter_id || '',
+    section: q.section || '',
+    text: q.text || '',
+    options: q.options || [],
+    correct: q.correct,
+    explanation: q.explanation || '',
+    type: q.type || 'mcq',
+    passage: q.passage || '',
+    sentence: q.sentence || '',
+    statements: q.statements || null,
+    column_i: q.column_i || null,
+    column_ii: q.column_ii || null,
+    image: q.image || '',
+    table: q.table || null,
+    data: q.data || null
+  });
+}
+
+function renderSavedTabIfOpen() {
+  const tab = document.getElementById('tab-saved');
+  if (tab && tab.classList.contains('active')) {
+    renderSavedQuestions();
+  }
+}
+
+function toggleBookmark() {
+  const bookmark = buildBookmarkFromCurrentQuestion();
+  if (!bookmark) return;
+  const key = bookmark.key;
   const bookmarks = [...getActiveBookmarks()];
-  const existing = bookmarks.findIndex(b => b.key === key);
+  const existing = bookmarks.findIndex(b => String(b.key) === String(key));
   if (existing >= 0) {
     bookmarks.splice(existing, 1);
     deleteBookmarkFromCloud(key).catch(err => console.warn('[CUETAce] Could not delete cloud bookmark', err));
+    showAppToast('Removed from Saved Questions.', 'success');
   } else {
-    const bookmark = normalizeBookmarkForSync({
-      key, subject: examState.subject,
-      savedAt: new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}),
-      chapter_id: q.chapter_id || '', section: q.section || '',
-      text: q.text || '', options: q.options || [],
-      correct: q.correct, explanation: q.explanation || '',
-      type: q.type || 'mcq', passage: q.passage || '', sentence: q.sentence || '',
-      statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
-      image: q.image || '', table: q.table || null, data: q.data || null
-    });
     bookmarks.unshift(bookmark);
     saveBookmarkToCloud(bookmark).catch(err => console.warn('[CUETAce] Could not save cloud bookmark', err));
     if (bookmarks.length > 200) bookmarks.splice(200);
+    showAppToast('Saved for revision.', 'success');
   }
   cloudBookmarksCache = cuetaceUser ? bookmarks : cloudBookmarksCache;
   saveBookmarks(bookmarks);
   updateBookmarkBtn();
+  renderSavedTabIfOpen();
 }
 
 function updateBookmarkBtn() {
   const q = EXAM_QUESTIONS[examState.currentQ];
   if (!q) return;
-  const key = q.id || q.text || String(examState.currentQ);
+  const key = getQuestionBookmarkKey(q);
   const btn = document.getElementById('btnBookmark');
   if (!btn) return;
   const saved = isBookmarked(key);
@@ -2729,14 +2762,9 @@ function updateSavedBadge() {
   }
 }
 
-async function renderSavedQuestions() {
-  const container = document.getElementById('savedContainer');
-  if (!container) return;
-  const bookmarks = await loadCloudBookmarks();
-  updateSavedBadge();
-  if (bookmarks.length === 0) {
-    container.innerHTML = '<div class="empty-state" style="margin-top:40px;"><div class="empty-line"></div><div class="empty-title">No saved questions yet</div><div class="empty-desc">Tap the bookmark icon during any test to save tricky questions for later review.</div><button class="empty-btn" onclick="switchTab(null,\'tab-mock\')">Start a Test</button></div>';
-    return;
+function renderSavedQuestionsHtml(bookmarks) {
+  if (!bookmarks.length) {
+    return '<div class="empty-state" style="margin-top:40px;"><div class="empty-line"></div><div class="empty-title">No saved questions yet</div><div class="empty-desc">Tap the bookmark icon during any test to save tricky questions for later review.</div><button class="empty-btn" onclick="switchTab(null,\'tab-mock\')">Start a Test</button></div>';
   }
   let html = '';
   bookmarks.forEach((b, i) => {
@@ -2755,7 +2783,19 @@ async function renderSavedQuestions() {
       html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">Saved question</div><div class="saved-q-text">This saved question uses an older format. Remove it and save it again from the test screen.</div></div><button class="saved-q-remove" onclick="removeBookmark('+i+')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div></div>';
     }
   });
-  container.innerHTML = html;
+  return html;
+}
+
+async function renderSavedQuestions() {
+  const container = document.getElementById('savedContainer');
+  if (!container) return;
+  const immediateBookmarks = getActiveBookmarks();
+  if (immediateBookmarks.length) {
+    container.innerHTML = renderSavedQuestionsHtml(immediateBookmarks);
+  }
+  const bookmarks = await loadCloudBookmarks();
+  updateSavedBadge();
+  container.innerHTML = renderSavedQuestionsHtml(bookmarks);
 }
 
 function savedOptionsList(options) {
