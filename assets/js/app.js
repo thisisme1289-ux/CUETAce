@@ -151,6 +151,14 @@ function setProfileAfterLoginIntent() {
   try { localStorage.setItem(SHOW_PROFILE_AFTER_LOGIN_KEY, '1'); } catch(e) {}
 }
 
+function setLoginCompletionIntent() {
+  if (restorePendingAuthView()) {
+    try { localStorage.removeItem(SHOW_PROFILE_AFTER_LOGIN_KEY); } catch(e) {}
+    return;
+  }
+  setProfileAfterLoginIntent();
+}
+
 function consumeProfileAfterLoginIntent() {
   try {
     const shouldShow = localStorage.getItem(SHOW_PROFILE_AFTER_LOGIN_KEY) === '1'
@@ -177,7 +185,8 @@ function initFirebaseServices() {
   }
   firebaseAuth.onAuthStateChanged(async user => {
     cuetaceUser = user || null;
-    const shouldShowProfile = !!user && consumeProfileAfterLoginIntent();
+    const hasPendingAuthView = !!(user && restorePendingAuthView());
+    const shouldShowProfile = !!user && !hasPendingAuthView && consumeProfileAfterLoginIntent();
     if (user) {
       try {
         const result = await syncProfileData({});
@@ -341,7 +350,7 @@ function clearPendingAuthView() {
 async function sendMagicLink(email) {
   initFirebaseServices();
   if (!firebaseAuth) throw new Error('Firebase is not configured yet.');
-  setProfileAfterLoginIntent();
+  setLoginCompletionIntent();
   await firebaseAuth.sendSignInLinkToEmail(email, {
     url: window.location.origin + window.location.pathname + '?login=1&next=profile',
     handleCodeInApp: true
@@ -361,7 +370,7 @@ async function completeEmailLinkSignIn() {
 async function signInWithGoogle() {
   initFirebaseServices();
   if (!firebaseAuth) throw new Error('Firebase is not configured yet.');
-  setProfileAfterLoginIntent();
+  setLoginCompletionIntent();
   const provider = new firebase.auth.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: 'select_account' });
   await firebaseAuth.signInWithPopup(provider);
