@@ -68,7 +68,7 @@ requirements = [
         "requirement": "Make generated PYP JSON available to the website/index/upload workflow",
         "status": "complete",
         "evidence": {
-            "question_bank_index": "question-bank-index.json",
+            "question_bank_index": "questions/question-bank-index.json",
             "pyp_entries": 35,
             "pyp_questions": import_index.get("total_questions"),
             "import_index": "past year paper/import-index.json",

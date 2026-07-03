@@ -4,7 +4,7 @@ import path from 'node:path';
 const root = process.cwd();
 const questionRoot = path.join(root, 'questions');
 const pypRoot = path.join(root, 'past year paper');
-const outFile = path.join(root, 'question-bank-index.json');
+const outFile = path.join(root, 'questions', 'question-bank-index.json');
 const pypImportIndexFile = path.join(pypRoot, 'import-index.json');
 const pypReadinessAuditFile = path.join(pypRoot, 'source-readiness-audit.json');
 const pypImportPackDir = path.join(pypRoot, 'import-packs');

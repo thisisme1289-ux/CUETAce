@@ -8,11 +8,8 @@
       "functions/**",
       "scripts/**",
       "questions/**",
-      "past year paper/**",
-      "question-bank-index.json",
+      "config/**",
       ".codex-tools/**",
-      "QUESTION_CLEANUP_PLAN.md",
-      "question-audit.json",
       "*.traineddata"
     ],
     "headers": [
@@ -49,11 +46,11 @@
     }
   ],
   "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
+    "rules": "config/firebase/firestore.rules",
+    "indexes": "config/firebase/firestore.indexes.json"
   },
   "storage": {
-    "rules": "storage.rules"
+    "rules": "config/firebase/storage.rules"
   },
   "emulators": {
     "auth": {

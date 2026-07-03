@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
-const indexPath = path.join(root, 'question-bank-index.json');
+const indexPath = path.join(root, 'questions', 'question-bank-index.json');
 
 function docIdFor(entry) {
   return `${entry.mode}_${entry.subjectSlug}_${entry.chapterId || entry.paper || entry.year}`;
@@ -32,7 +32,7 @@ const storagePaths = new Map();
 const docIds = new Map();
 
 if (!Array.isArray(index.entries)) {
-  errors.push('question-bank-index.json must contain an entries array');
+  errors.push('questions/question-bank-index.json must contain an entries array');
 } else {
   for (const [i, entry] of index.entries.entries()) {
     const label = `entries[${i}]`;

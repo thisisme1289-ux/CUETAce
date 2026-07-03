@@ -8,7 +8,7 @@ node_modules
 functions
 scripts
 questions
-past year paper
+config
 
 *.traineddata
 dashboard-*.png
@@ -16,14 +16,9 @@ cuet-content-audit.json
 CUET_AUDIT_REPORT.md
 question-audit.json
 QUESTION_CLEANUP_PLAN.md
-question-bank-index.json
 FIREBASE_IMPLEMENTATION.md
 
 firebase.json
-firestore.indexes.json
-firestore.rules
-storage.rules
 package.json
 package-lock.json
 .firebaserc
-.firebaserc.example

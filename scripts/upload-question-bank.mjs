@@ -6,7 +6,7 @@ import { getFirestore, FieldValue } from 'firebase-admin/firestore';
 import { getStorage } from 'firebase-admin/storage';
 
 const root = process.cwd();
-const indexPath = path.join(root, 'question-bank-index.json');
+const indexPath = path.join(root, 'questions', 'question-bank-index.json');
 const bucketName = process.env.QUESTION_BUCKET;
 const serviceAccountPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
 
@@ -28,7 +28,7 @@ async function ensureIndex() {
   try {
     return JSON.parse(await fs.readFile(indexPath, 'utf8'));
   } catch {
-    console.error('Missing question-bank-index.json. Run npm run build:question-index first.');
+    console.error('Missing questions/question-bank-index.json. Run npm run build:question-index first.');
     process.exit(1);
   }
 }
