@@ -75,6 +75,9 @@ const YEARS = [2025, 2024, 2023, 2022];
 
 // ── QUESTION BANK: Chapter file URL builder ──
 const BASE_URL = 'https://raw.githubusercontent.com/thisisme1289-ux/CUETAce/main/questions';
+const REPO_RAW_BASE_URL = 'https://raw.githubusercontent.com/thisisme1289-ux/CUETAce/main';
+const QUESTION_BANK_INDEX_URL = BASE_URL + '/question-bank-index.json';
+let QUESTION_BANK_INDEX_CACHE = null;
 
 // Maps each subject to its chapter file slugs (filename without .json)
 // File path pattern: questions/{subject-folder}/{chapter-slug}.json
@@ -747,19 +750,78 @@ function handleChapterClick(testName, subject) {
   showView('examscreen', { testName, subject, mode: 'chapter', qCount: 200 });
 }
 
-function handlePYPClick(testName, subject, year) {
-  const slugMap = {
-    'Accountancy':'accountancy','Business Studies':'business-studies',
-    'Economics':'economics','General Test':'general-test','English':'english'
-  };
-  const slug   = slugMap[subject] || subject.toLowerCase().replace(/\s+/g,'-');
-  const pypUrl = `https://raw.githubusercontent.com/thisisme1289-ux/CUETAce/main/questions/${year}-${slug}.json`;
-  showView('examscreen', { testName, subject, mode: 'pyp', pypUrl });
+function repoRawUrl(sourcePath) {
+  return REPO_RAW_BASE_URL + '/' + String(sourcePath || '').replace(/^\/+/, '').split('/').map(encodeURIComponent).join('/');
+}
+
+async function loadQuestionBankIndex() {
+  if (QUESTION_BANK_INDEX_CACHE) return QUESTION_BANK_INDEX_CACHE;
+  const res = await fetch(QUESTION_BANK_INDEX_URL + '?v=' + Date.now());
+  if (!res.ok) throw new Error('HTTP ' + res.status + ' — Question bank index not found.');
+  QUESTION_BANK_INDEX_CACHE = await res.json();
+  return QUESTION_BANK_INDEX_CACHE;
+}
+
+function pypEntriesFromIndex(index) {
+  const entries = Array.isArray(index?.entries) ? index.entries : [];
+  return entries.filter(entry =>
+    entry &&
+    entry.readyForStudentUse === true &&
+    typeof entry.mode === 'string' &&
+    entry.mode.startsWith('pyp') &&
+    entry.sourcePath
+  );
+}
+
+function entryCoversYear(entry, year) {
+  const entryYear = String(entry.year || '');
+  const target = String(year);
+  if (entryYear === target) return true;
+  if (!entryYear.includes('-')) return false;
+  const [start, end] = entryYear.split('-').map(Number);
+  const numericYear = Number(target);
+  return Number.isFinite(start) && Number.isFinite(end) && Number.isFinite(numericYear) && numericYear >= start && numericYear <= end;
+}
+
+function selectPypEntry(entries, subject, year) {
+  const subjectMatches = entries.filter(entry => entry.subject === subject && entryCoversYear(entry, year));
+  if (!subjectMatches.length) return null;
+  const exactYear = String(year);
+  return subjectMatches.find(entry => entry.mode === 'pyp' && String(entry.year) === exactYear)
+    || subjectMatches.find(entry => entry.mode === 'pyp-import-pack' && String(entry.year) === exactYear)
+    || subjectMatches.find(entry => entry.mode === 'pyp-import-pack')
+    || subjectMatches.find(entry => entry.mode === 'pyp-individual' && String(entry.year) === exactYear)
+    || subjectMatches[0];
+}
+
+function pypDisplayName(entry, year, subject) {
+  if (entry.mode === 'pyp-individual' && entry.paper) {
+    return 'CUET ' + year + ' — ' + subject + ' (' + String(entry.paper).replace(/-/g, ' ') + ')';
+  }
+  return 'CUET ' + year + ' — ' + subject;
+}
+
+async function handlePYPClick(testName, subject, year) {
+  try {
+    const index = await loadQuestionBankIndex();
+    const entry = selectPypEntry(pypEntriesFromIndex(index), subject, year);
+    if (!entry) throw new Error('No ready past-year paper is available for ' + subject + ' ' + year + '.');
+    showView('examscreen', {
+      testName: testName || pypDisplayName(entry, year, subject),
+      subject,
+      mode: 'pyp',
+      pypUrl: repoRawUrl(entry.sourcePath)
+    });
+  } catch (err) {
+    console.warn('[CUETAce] Could not open past-year paper', err);
+    showAppToast(err.message || 'Could not open this past-year paper.', 'error');
+  }
 }
 
 // ── BUILD CHAPTER TAB ──
 let _chaptersBuilt = false;
 let _papersBuilt   = false;
+let _papersIndexRenderStarted = false;
 
 function buildChapters() {
   if (_chaptersBuilt) return;
@@ -790,7 +852,70 @@ function buildChapters() {
 }
 
 // ── BUILD PAPERS TAB ──
+async function renderIndexedPapers() {
+  if (_papersIndexRenderStarted) return;
+  const container = document.getElementById('papers-content');
+  if (!container) return;
+  _papersIndexRenderStarted = true;
+  container.innerHTML = '<div class="empty-state" style="margin-top:24px;"><div class="empty-title">Loading past year papers...</div></div>';
+  try {
+    const index = await loadQuestionBankIndex();
+    const entries = pypEntriesFromIndex(index);
+    container.innerHTML = '';
+    let rendered = 0;
+    YEARS.forEach((year, i) => {
+      const available = SUBJECTS.map(subj => ({
+        subject: subj,
+        entry: selectPypEntry(entries, subj, year)
+      })).filter(item => item.entry);
+      if (!available.length) return;
+      const group = document.createElement('div');
+      group.className = 'year-group';
+      if (i === 0) group.style.marginTop = '20px';
+      const list = document.createElement('div');
+      list.className = 'test-list';
+      available.forEach(({ subject: subj, entry }) => {
+        const testName = pypDisplayName(entry, year, subj);
+        const item = document.createElement('div');
+        item.className = 'test-item pyp-item';
+        item.addEventListener('click', () => handlePYPClick(testName, subj, year));
+        item.innerHTML = `
+          <div class="test-icon-box">${ABBR[subj]}</div>
+          <div class="test-info">
+            <div class="test-name">${esc(testName)}</div>
+            <div class="test-meta">${Number(entry.count || 0) || 'Ready'} Questions · Attempt mode · With solutions</div>
+          </div>
+          <div class="test-right">
+            <div class="test-status status-new">${esc(String(year))}</div>
+            <button class="test-btn btn-gold" type="button">Attempt</button>
+          </div>`;
+        const button = item.querySelector('button');
+        if (button) {
+          button.addEventListener('click', event => {
+            event.stopPropagation();
+            handlePYPClick(testName, subj, year);
+          });
+        }
+        list.appendChild(item);
+        rendered++;
+      });
+      group.innerHTML = `<div class="year-badge">${year}</div>`;
+      group.appendChild(list);
+      container.appendChild(group);
+    });
+    if (!rendered) {
+      container.innerHTML = '<div class="empty-state" style="margin-top:40px;"><div class="empty-line"></div><div class="empty-title">No ready past year papers yet</div><div class="empty-desc">Ready papers will appear here after they are added to the question bank index.</div></div>';
+    }
+  } catch (err) {
+    console.warn('[CUETAce] Could not build past-year papers', err);
+    _papersIndexRenderStarted = false;
+    container.innerHTML = '<div class="empty-state" style="margin-top:40px;"><div class="empty-line"></div><div class="empty-title">Could not load past year papers</div><div class="empty-desc">' + esc(err.message || 'Please try again in a moment.') + '</div></div>';
+  }
+}
+
 function buildPapers() {
+  renderIndexedPapers();
+  return;
   if (_papersBuilt) return;
   const container = document.getElementById('papers-content');
   if (!container) return;
@@ -1293,6 +1418,16 @@ async function startExam(testName, subject, mode, pypUrl, qCount) {
       const res = await fetch(pypUrl + '?v=' + Date.now());
       if (!res.ok) throw new Error('HTTP ' + res.status + ' — Past Year Paper not found at: ' + pypUrl);
       bank = await res.json();
+      if (bank && Array.isArray(bank.questions) && !Array.isArray(bank.chapters)) {
+        bank = {
+          ...bank,
+          chapters: [{
+            chapter_id: bank.chapter_id || 'PYP',
+            chapter: bank.chapter || bank.subject || 'Past Year Paper',
+            questions: bank.questions
+          }]
+        };
+      }
       if (!bank || !bank.chapters || bank.chapters.length === 0) {
         throw new Error('PYP JSON loaded but has no chapters.');
       }
