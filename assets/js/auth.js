@@ -39,10 +39,6 @@ function setProfileAfterLoginIntent() {
 }
 
 function setLoginCompletionIntent() {
-  if (restorePendingAuthView()) {
-    try { localStorage.removeItem(SHOW_PROFILE_AFTER_LOGIN_KEY); } catch(e) {}
-    return;
-  }
   setProfileAfterLoginIntent();
 }
 
@@ -72,8 +68,7 @@ function initFirebaseServices() {
   }
   firebaseAuth.onAuthStateChanged(async user => {
     cuetaceUser = user || null;
-    const hasPendingAuthView = !!(user && restorePendingAuthView());
-    const shouldShowProfile = !!user && !hasPendingAuthView && consumeProfileAfterLoginIntent();
+    const shouldShowProfile = !!user && consumeProfileAfterLoginIntent();
     if (user) {
       try {
         const result = await syncProfileData({});
@@ -238,10 +233,8 @@ async function sendMagicLink(email) {
   initFirebaseServices();
   if (!firebaseAuth) throw new Error('Firebase is not configured yet.');
   setLoginCompletionIntent();
-  const pending = restorePendingAuthView();
-  const next = pending ? 'continue' : 'profile';
   await firebaseAuth.sendSignInLinkToEmail(email, {
-    url: window.location.origin + window.location.pathname + '?login=1&next=' + encodeURIComponent(next),
+    url: window.location.origin + window.location.pathname + '?login=1&next=profile',
     handleCodeInApp: true
   });
   localStorage.setItem('cuetace_email_for_signin', email);
@@ -263,7 +256,6 @@ async function signInWithGoogle() {
   const provider = new firebase.auth.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: 'select_account' });
   await firebaseAuth.signInWithPopup(provider);
-  setTimeout(continuePendingAuthView, 250);
 }
 
 function openProfileModal() {
