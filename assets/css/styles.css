@@ -790,13 +790,6 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   outline: 2px solid rgba(201,168,76,0.55);
   outline-offset: 2px;
 }
-.exam-qstrip-marks {
-  display: flex; gap: 14px; font-size: 11px; font-weight: 600;
-}
-.exam-qstrip-marks .mpos { color: #4a9268; }
-.exam-qstrip-marks .mneg { color: #c0544a; }
-.exam-qstrip-marks .mzero { color: #4a4138; }
-
 /* ── MAIN BODY: Question area + Palette side by side ── */
 .exam-main {
   --palette-width: 300px;
@@ -1246,7 +1239,7 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   .exam-qstrip-num { font-size: 10px; white-space: nowrap; }
   .exam-qstrip-tools {
     gap: 4px;
-    margin-left: 0;
+    margin-left: auto;
     flex-shrink: 0;
   }
   .exam-tool-btn {
@@ -1254,8 +1247,6 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
     padding: 0 8px;
     font-size: 9.5px;
   }
-  .exam-qstrip-marks { gap: 8px; font-size: 10px; margin-left: auto; }
-
   /* ── Mobile progress bar sits below qstrip ── */
   .exam-mobile-progress {
     display: flex !important;
