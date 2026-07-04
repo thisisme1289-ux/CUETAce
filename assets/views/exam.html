@@ -155,5 +155,64 @@
     </div>
   </div>
 
-</div>
+  <!-- EXAM INFORMATION MODAL -->
+  <div class="exam-modal-overlay" id="examInfoModal">
+    <div class="exam-modal exam-info-modal" role="dialog" aria-modal="true" aria-labelledby="examInfoTitle">
+      <button class="exam-info-close" type="button" onclick="closeExamInfoModal()" aria-label="Close information">×</button>
+      <h3 id="examInfoTitle">Exam Information</h3>
+      <p class="exam-info-lead">Read the instructions carefully before continuing the test.</p>
 
+      <div class="exam-info-summary">
+        <div><span id="infoTotalQuestions">0</span><label>Total Questions</label></div>
+        <div><span id="infoPositiveMarks">+5</span><label>Correct Answer</label></div>
+        <div><span id="infoNegativeMarks">-1</span><label>Wrong Answer</label></div>
+        <div><span>0</span><label>Unanswered</label></div>
+      </div>
+
+      <div class="exam-info-grid">
+        <section>
+          <h4>Question Palette</h4>
+          <ul class="exam-info-list">
+            <li><span class="info-dot ng"></span>Not Visited means you have not opened the question yet.</li>
+            <li><span class="info-dot nr"></span>Not Answered means you have viewed the question but not saved an answer.</li>
+            <li><span class="info-dot ans"></span>Answered means your selected option has been saved.</li>
+            <li><span class="info-dot rev"></span>Marked for Review means you want to revisit the question.</li>
+            <li><span class="info-dot arm"></span>Answered and Marked for Review will be considered for evaluation.</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Answering Questions</h4>
+          <ul class="exam-info-list">
+            <li>Select an option by clicking on it.</li>
+            <li>Use Clear Response to remove the selected option.</li>
+            <li>Use Save & Next to save your answer and move ahead.</li>
+            <li>Use Mark for Review & Next to mark the current question for review.</li>
+            <li>You may return to any question from the palette during the test.</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Navigation</h4>
+          <ul class="exam-info-list">
+            <li>The timer at the top right shows the remaining test time.</li>
+            <li>The question palette can be collapsed to increase question viewing space.</li>
+            <li>Clicking a question number opens that question directly.</li>
+            <li>When the timer reaches zero, the test is submitted automatically.</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Marking Scheme</h4>
+          <ul class="exam-info-list">
+            <li>Correct answer: <strong>+5 marks</strong>.</li>
+            <li>Wrong answer: <strong>-1 mark</strong>.</li>
+            <li>Unanswered or skipped question: <strong>0 marks</strong>.</li>
+            <li>Only saved answers are counted in the final result.</li>
+          </ul>
+        </section>
+      </div>
+      <div class="exam-modal-btns">
+        <button class="modal-btn-submit" type="button" onclick="closeExamInfoModal()">I Understand</button>
+      </div>
+    </div>
+  </div>
+
+</div>

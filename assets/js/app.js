@@ -352,6 +352,10 @@ function showView(name, opts) {
     clearInterval(examState.timerInterval);
     examState.timerInterval = null;
   }
+  if (name !== 'examscreen') {
+    closeExamMagnifier();
+    closeExamInfoModal();
+  }
   // Hide all views
   document.querySelectorAll('.view').forEach(v => {
     v.classList.remove('active');
@@ -1285,9 +1289,161 @@ function toggleExamPalette() {
   applyExamPaletteState();
 }
 
+let examMagnifierState = {
+  active: false,
+  el: null,
+  body: null,
+  source: null,
+  scale: 1.85,
+  drag: null
+};
+
 function handleExamTool(tool) {
-  console.log('[CUETAce] Exam tool clicked:', tool);
+  if (tool === 'information' || tool === 'accessibility') {
+    openExamInfoModal();
+    return;
+  }
+  if (tool === 'magnification') {
+    toggleExamMagnifier();
+  }
 }
+
+function openExamInfoModal() {
+  const modal = document.getElementById('examInfoModal');
+  const total = document.getElementById('infoTotalQuestions');
+  if (total) total.textContent = examState.totalQ || EXAM_QUESTIONS.length || 0;
+  if (modal) modal.classList.add('open');
+}
+
+function closeExamInfoModal() {
+  const modal = document.getElementById('examInfoModal');
+  if (modal) modal.classList.remove('open');
+}
+
+function toggleExamMagnifier() {
+  if (examMagnifierState.active) {
+    closeExamMagnifier();
+  } else {
+    openExamMagnifier();
+  }
+}
+
+function openExamMagnifier() {
+  closeExamMagnifier();
+  const lens = document.createElement('div');
+  lens.className = 'exam-magnifier';
+  lens.innerHTML = `
+    <div class="exam-magnifier-head">
+      <span>Magnifier</span>
+      <button class="exam-magnifier-close" type="button" aria-label="Close magnifier">×</button>
+    </div>
+    <div class="exam-magnifier-body"></div>
+  `;
+  document.body.appendChild(lens);
+  examMagnifierState = {
+    ...examMagnifierState,
+    active: true,
+    el: lens,
+    body: lens.querySelector('.exam-magnifier-body'),
+    source: null,
+    drag: null
+  };
+  lens.querySelector('.exam-magnifier-close')?.addEventListener('click', closeExamMagnifier);
+  lens.querySelector('.exam-magnifier-head')?.addEventListener('pointerdown', startExamMagnifierDrag);
+  lens.addEventListener('pointerdown', startExamMagnifierDrag);
+  document.addEventListener('pointermove', moveExamMagnifier);
+  document.addEventListener('pointerup', endExamMagnifierDrag);
+  window.addEventListener('resize', refreshExamMagnifier);
+  refreshExamMagnifier();
+}
+
+function closeExamMagnifier() {
+  if (examMagnifierState.el) examMagnifierState.el.remove();
+  document.removeEventListener('pointermove', moveExamMagnifier);
+  document.removeEventListener('pointerup', endExamMagnifierDrag);
+  window.removeEventListener('resize', refreshExamMagnifier);
+  examMagnifierState = {
+    active: false,
+    el: null,
+    body: null,
+    source: null,
+    scale: examMagnifierState.scale || 1.85,
+    drag: null
+  };
+}
+
+function refreshExamMagnifier() {
+  if (!examMagnifierState.active || !examMagnifierState.body) return;
+  const screen = document.getElementById('examscreen');
+  if (!screen) return;
+  const clone = screen.cloneNode(true);
+  clone.querySelectorAll('[id]').forEach(node => node.removeAttribute('id'));
+  clone.querySelectorAll('.exam-modal-overlay, .exam-magnifier').forEach(node => node.remove());
+  const source = document.createElement('div');
+  source.className = 'exam-magnifier-source';
+  source.style.width = window.innerWidth + 'px';
+  source.style.height = window.innerHeight + 'px';
+  source.appendChild(clone);
+  examMagnifierState.body.innerHTML = '';
+  examMagnifierState.body.appendChild(source);
+  examMagnifierState.source = source;
+  updateExamMagnifierView();
+}
+
+function updateExamMagnifierView() {
+  const { el, body, source, scale } = examMagnifierState;
+  if (!el || !body || !source) return;
+  const lensRect = el.getBoundingClientRect();
+  const bodyRect = body.getBoundingClientRect();
+  const centerX = lensRect.left + lensRect.width / 2;
+  const centerY = lensRect.top + lensRect.height / 2;
+  const x = bodyRect.width / 2 - centerX * scale;
+  const y = bodyRect.height / 2 - centerY * scale;
+  source.style.transform = `translate(${x}px, ${y}px) scale(${scale})`;
+}
+
+function startExamMagnifierDrag(event) {
+  const lens = examMagnifierState.el;
+  if (!lens || event.target.closest('.exam-magnifier-close')) return;
+  const rect = lens.getBoundingClientRect();
+  examMagnifierState.drag = {
+    x: event.clientX - rect.left,
+    y: event.clientY - rect.top
+  };
+  lens.classList.add('dragging');
+  lens.setPointerCapture?.(event.pointerId);
+  event.preventDefault();
+}
+
+function moveExamMagnifier(event) {
+  const { el, drag } = examMagnifierState;
+  if (!el || !drag) return;
+  const maxX = Math.max(0, window.innerWidth - el.offsetWidth);
+  const maxY = Math.max(0, window.innerHeight - el.offsetHeight);
+  const nextX = Math.min(maxX, Math.max(0, event.clientX - drag.x));
+  const nextY = Math.min(maxY, Math.max(0, event.clientY - drag.y));
+  el.style.left = nextX + 'px';
+  el.style.top = nextY + 'px';
+  updateExamMagnifierView();
+}
+
+function endExamMagnifierDrag() {
+  if (examMagnifierState.el) examMagnifierState.el.classList.remove('dragging');
+  examMagnifierState.drag = null;
+}
+
+document.addEventListener('keydown', function(event) {
+  if (event.key !== 'Escape') return;
+  closeExamInfoModal();
+  closeExamMagnifier();
+});
+
+document.addEventListener('click', function(event) {
+  const modal = document.getElementById('examInfoModal');
+  if (modal && modal.classList.contains('open') && event.target === modal) {
+    closeExamInfoModal();
+  }
+});
 
 function openSubmitModal() {
   const answered = examState.status.filter(s => s === 'answered' || s === 'ans-marked').length;
