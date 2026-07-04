@@ -34,6 +34,13 @@ let cloudBookmarksCache = null;
 let cloudProgressMigrated = false;
 let visibleResultsCache = null;
 
+function shouldOpenProfileAfterLogin(profile) {
+  if (!profile) return true;
+  return !String(profile.name || '').trim()
+    || !String(profile.class || '').trim()
+    || !String(profile.targetExamYear || '').trim();
+}
+
 function setProfileAfterLoginIntent() {
   try { localStorage.setItem(SHOW_PROFILE_AFTER_LOGIN_KEY, '1'); } catch(e) {}
 }
@@ -68,11 +75,12 @@ function initFirebaseServices() {
   }
   firebaseAuth.onAuthStateChanged(async user => {
     cuetaceUser = user || null;
-    const shouldShowProfile = !!user && consumeProfileAfterLoginIntent();
+    let shouldShowProfile = !!user && consumeProfileAfterLoginIntent();
     if (user) {
       try {
         const result = await syncProfileData({});
         cuetaceProfile = result.data.profile || null;
+        if (shouldOpenProfileAfterLogin(cuetaceProfile)) shouldShowProfile = true;
         const sessionOk = await claimActiveUserSession();
         if (!sessionOk) {
           cuetaceUser = null;
@@ -244,9 +252,14 @@ async function completeEmailLinkSignIn() {
   if (!initFirebaseServices() || !firebaseAuth.isSignInWithEmailLink(window.location.href)) return;
   const email = localStorage.getItem('cuetace_email_for_signin') || window.prompt('Confirm your email to finish sign in');
   if (!email) return;
-  await firebaseAuth.signInWithEmailLink(email, window.location.href);
+  const credential = await firebaseAuth.signInWithEmailLink(email, window.location.href);
   localStorage.removeItem('cuetace_email_for_signin');
   history.replaceState(null, '', window.location.origin + window.location.pathname);
+  if (credential.user) {
+    cuetaceUser = credential.user;
+    profileModalRequired = false;
+    openProfileModal();
+  }
 }
 
 async function signInWithGoogle() {
@@ -255,7 +268,12 @@ async function signInWithGoogle() {
   setLoginCompletionIntent();
   const provider = new firebase.auth.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: 'select_account' });
-  await firebaseAuth.signInWithPopup(provider);
+  const credential = await firebaseAuth.signInWithPopup(provider);
+  if (credential.user) {
+    cuetaceUser = credential.user;
+    profileModalRequired = false;
+    openProfileModal();
+  }
 }
 
 function openProfileModal() {
@@ -433,10 +451,18 @@ function isValidEmail(email) {
 }
 
 function fillProfileForm() {
-  if (!cuetaceProfile) return;
+  if (!cuetaceProfile) {
+    ['profileName','profilePhone','profileClass','profileTargetYear','profileCity'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.value = '';
+    });
+    profilePhotoDataUrl = '';
+    updateProfileIdentityUI();
+    return;
+  }
   const setValue = (id, value) => {
     const el = document.getElementById(id);
-    if (el && !el.value) el.value = value || '';
+    if (el && document.activeElement !== el) el.value = value || '';
   };
   setValue('profileName', cuetaceProfile.name);
   setValue('profilePhone', cuetaceProfile.phone);

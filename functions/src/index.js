@@ -84,7 +84,8 @@ async function ensureProfile(uid, email, defaults = {}) {
 
   if (!snap.exists) {
     await ref.set(base);
-    return { ...base, createdAt: null, lastLoginAt: null };
+    const fresh = await ref.get();
+    return fresh.data() || { ...base, createdAt: null, lastLoginAt: null };
   }
 
   const updates = {
@@ -96,9 +97,8 @@ async function ensureProfile(uid, email, defaults = {}) {
   }
   if (Array.isArray(defaults.selectedSubjects)) updates.selectedSubjects = defaults.selectedSubjects;
   await ref.set(updates, { merge: true });
-  const response = { ...snap.data(), ...updates, email: updates.email };
-  delete response.lastLoginAt;
-  return response;
+  const fresh = await ref.get();
+  return fresh.data() || { ...snap.data(), ...defaults, email: updates.email };
 }
 
 async function hasActivePlan(uid) {

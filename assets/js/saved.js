@@ -12,44 +12,102 @@ function normalizeBookmarkForSync(bookmark) {
   return { ...bookmark, key };
 }
 
+async function bookmarkDocId(key) {
+  const text = String(key || '');
+  if (window.crypto?.subtle) {
+    const bytes = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+    return Array.from(new Uint8Array(bytes)).map(n => n.toString(16).padStart(2, '0')).join('');
+  }
+  return text.replace(/[/.#[\]$]/g, '_').slice(0, 180) || ('bookmark-' + Date.now());
+}
+
+function cloudBookmarkPayload(bookmark) {
+  return {
+    ...bookmark,
+    updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+  };
+}
+
 async function saveBookmarkToCloud(bookmark) {
-  if (!cuetaceUser || !firebaseFns) return;
-  const saveUserBookmark = firebaseFns.httpsCallable('saveUserBookmark');
-  await saveUserBookmark({ bookmark });
+  if (!cuetaceUser) return;
+  if (firebaseFns) {
+    try {
+      const saveUserBookmark = firebaseFns.httpsCallable('saveUserBookmark');
+      await saveUserBookmark({ bookmark });
+    } catch (err) {
+      console.warn('[CUETAce] Bookmark callable save failed, using Firestore fallback', err);
+      if (!firebaseDb) throw err;
+      await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('bookmarks')
+        .doc(await bookmarkDocId(bookmark.key)).set(cloudBookmarkPayload(bookmark), { merge: true });
+    }
+  } else if (firebaseDb) {
+    await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('bookmarks')
+      .doc(await bookmarkDocId(bookmark.key)).set(cloudBookmarkPayload(bookmark), { merge: true });
+  }
   if (cloudBookmarksCache) {
     cloudBookmarksCache = mergeUniqueByKey([bookmark], cloudBookmarksCache, 'key').slice(0, 200);
   }
 }
 
 async function deleteBookmarkFromCloud(key) {
-  if (!cuetaceUser || !firebaseFns) return;
-  const deleteUserBookmark = firebaseFns.httpsCallable('deleteUserBookmark');
-  await deleteUserBookmark({ key });
+  if (!cuetaceUser) return;
+  if (firebaseFns) {
+    try {
+      const deleteUserBookmark = firebaseFns.httpsCallable('deleteUserBookmark');
+      await deleteUserBookmark({ key });
+    } catch (err) {
+      console.warn('[CUETAce] Bookmark callable delete failed, using Firestore fallback', err);
+      if (!firebaseDb) throw err;
+      await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('bookmarks')
+        .doc(await bookmarkDocId(key)).delete();
+    }
+  } else if (firebaseDb) {
+    await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('bookmarks')
+      .doc(await bookmarkDocId(key)).delete();
+  }
   if (cloudBookmarksCache) {
     cloudBookmarksCache = cloudBookmarksCache.filter(item => String(item.key) !== String(key));
   }
 }
 
 async function loadCloudBookmarks() {
-  if (!cuetaceUser || !firebaseFns) return getBookmarks();
+  if (!cuetaceUser) return getBookmarks();
   if (cloudBookmarksCache) return cloudBookmarksCache;
   try {
-    const listUserBookmarks = firebaseFns.httpsCallable('listUserBookmarks');
-    const response = await listUserBookmarks({ limit: 200 });
-    cloudBookmarksCache = mergeUniqueByKey(response.data.bookmarks || [], getBookmarks(), 'key').slice(0, 200);
+    let bookmarks = [];
+    if (firebaseFns) {
+      const listUserBookmarks = firebaseFns.httpsCallable('listUserBookmarks');
+      const response = await listUserBookmarks({ limit: 200 });
+      bookmarks = response.data.bookmarks || [];
+    } else if (firebaseDb) {
+      const snap = await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('bookmarks')
+        .orderBy('updatedAt', 'desc').limit(200).get();
+      bookmarks = snap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+    }
+    cloudBookmarksCache = mergeUniqueByKey(bookmarks, getBookmarks(), 'key').slice(0, 200);
     return cloudBookmarksCache;
   } catch (err) {
-    console.warn('[CUETAce] Could not load cloud bookmarks', err);
+    if (firebaseFns && firebaseDb) {
+      try {
+        const snap = await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('bookmarks')
+          .orderBy('updatedAt', 'desc').limit(200).get();
+        cloudBookmarksCache = mergeUniqueByKey(snap.docs.map(doc => ({ id: doc.id, ...doc.data() })), getBookmarks(), 'key').slice(0, 200);
+        return cloudBookmarksCache;
+      } catch (fallbackErr) {
+        console.warn('[CUETAce] Could not load cloud bookmarks', fallbackErr);
+      }
+    } else {
+      console.warn('[CUETAce] Could not load cloud bookmarks', err);
+    }
     return getBookmarks();
   }
 }
 
 async function migrateLocalBookmarksToCloud() {
-  if (!cuetaceUser || !firebaseFns) return;
+  if (!cuetaceUser || (!firebaseFns && !firebaseDb)) return;
   const localBookmarks = getBookmarks();
   if (!localBookmarks.length) return;
-  const saveUserBookmark = firebaseFns.httpsCallable('saveUserBookmark');
-  await Promise.all(localBookmarks.slice(0, 200).map(bookmark => saveUserBookmark({ bookmark }).catch(err => {
+  await Promise.all(localBookmarks.slice(0, 200).map(bookmark => saveBookmarkToCloud(normalizeBookmarkForSync(bookmark)).catch(err => {
     console.warn('[CUETAce] Could not migrate bookmark', err);
   })));
   cloudBookmarksCache = null;
@@ -74,7 +132,7 @@ function getBookmarks() {
 function saveBookmarks(arr) {
   try { localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(arr)); }
   catch(e) { try { localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(arr.slice(0,50))); } catch(e2) {} }
-  if (cuetaceUser) cloudBookmarksCache = mergeUniqueByKey(arr, cloudBookmarksCache || [], 'key').slice(0, 200);
+  if (cuetaceUser) cloudBookmarksCache = arr.slice(0, 200);
   updateSavedBadge();
 }
 function isBookmarked(key) { return getActiveBookmarks().some(b => b.key === key); }
