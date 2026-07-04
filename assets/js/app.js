@@ -1276,8 +1276,8 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
   examState.pypMeta   = pypMeta || null;
   examState.apiAttempt = null;
   examState.resumeId  = buildExamResumeId(examState.testName, examState.subject, examState.mode, pypUrl);
-  // Only show explanations for premium users (or mock tests)
-  examState.showExplanations = true;
+  // Live exams should only record the selected answer. Feedback appears after submit.
+  examState.showExplanations = false;
 
   const savedAttempt = !forceNew ? loadActiveExamAttempt(examState.resumeId) : null;
   if (savedAttempt && window.confirm('Resume your in-progress attempt for this test?')) {
@@ -1595,11 +1595,8 @@ async function loadQuestion(index) {
         const st = examState.status[index];
         div.classList.add(st === 'ans-marked' ? 'answered-marked' : 'selected');
       }
-      // Show correct/wrong classes if already answered
       if (alreadyAnswered) {
-        if (i === q.correct) div.classList.add('opt-correct');
-        else if (i === examState.answers[index] && i !== q.correct) div.classList.add('opt-wrong');
-        div.style.pointerEvents = 'none'; // lock — already answered
+        div.style.pointerEvents = 'none';
       }
       div.innerHTML = '<span class="opt-bubble">' + labels[i] + '</span>' + esc(opt);
       div.addEventListener('click', () => selectOption(i));
@@ -1607,16 +1604,11 @@ async function loadQuestion(index) {
     });
   }
 
-  // Show explanation if already answered AND plan allows it
+  // Keep feedback hidden during the live attempt.
   const expEl = document.getElementById('examExplanation');
   if (expEl) {
-    const ans = examState.answers[index];
-    if (ans !== null && q.explanation && examState.showExplanations) {
-      expEl.style.display = 'block';
-      expEl.innerHTML = '<strong>Explanation</strong>' + esc(q.explanation);
-    } else {
-      expEl.style.display = 'none';
-    }
+    expEl.style.display = 'none';
+    expEl.innerHTML = '';
   }
 
   // Refresh palette highlight
@@ -1633,29 +1625,22 @@ function selectOption(optIndex) {
   } else {
     examState.status[examState.currentQ] = 'answered';
   }
-  // Show explanation immediately after selection — only if plan allows
-  const q = EXAM_QUESTIONS[examState.currentQ];
+  // Keep feedback hidden during the live attempt.
   const expEl = document.getElementById('examExplanation');
-  if (expEl && q && q.explanation && examState.showExplanations) {
-    expEl.style.display = 'block';
-    expEl.innerHTML = '<strong>Explanation</strong>' + esc(q.explanation);
+  if (expEl) {
+    expEl.style.display = 'none';
+    expEl.innerHTML = '';
   }
   // Re-render options
   const optsEl = document.getElementById('examOpts');
   if (optsEl) {
-    const q2 = EXAM_QUESTIONS[examState.currentQ];
     optsEl.querySelectorAll('.exam-opt').forEach((el, i) => {
       el.classList.remove('selected','answered-marked','opt-correct','opt-wrong');
       el.style.pointerEvents = '';
       if (i === optIndex) {
         el.classList.add(examState.status[examState.currentQ] === 'ans-marked' ? 'answered-marked' : 'selected');
       }
-      // Show correct/wrong highlight
-      if (q2 && q2.correct !== undefined) {
-        if (i === q2.correct) el.classList.add('opt-correct');
-        else if (i === optIndex && i !== q2.correct) el.classList.add('opt-wrong');
-        el.style.pointerEvents = 'none'; // lock options after answering
-      }
+      el.style.pointerEvents = 'none';
     });
   }
   refreshPalette();
