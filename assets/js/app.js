@@ -1484,6 +1484,64 @@ function tickTimer() {
 }
 
 // ── LOAD QUESTION ──
+function buildQuestionContextHtml(q) {
+  if (!q) return '';
+
+  if (q.passage) {
+    return esc(q.passage);
+  }
+
+  if (q.statements) {
+    let html = '<div class="exam-context-title">Statements</div>';
+    html += '<div class="exam-context-block">';
+    Object.entries(q.statements).forEach(([key, val]) => {
+      html += '<div><strong>' + esc(key) + '.</strong> ' + esc(val) + '</div>';
+    });
+    html += '</div>';
+    return html;
+  }
+
+  if (q.column_i && q.column_ii) {
+    let html = '<div class="exam-context-title">Match the Following</div>';
+    html += '<div class="exam-context-columns">';
+    html += '<div><div class="exam-context-subtitle">Column I</div>';
+    Object.entries(q.column_i).forEach(([key, val]) => {
+      html += '<div><strong>' + esc(key) + '.</strong> ' + esc(val) + '</div>';
+    });
+    html += '</div><div><div class="exam-context-subtitle">Column II</div>';
+    Object.entries(q.column_ii).forEach(([key, val]) => {
+      html += '<div><strong>' + esc(key) + '.</strong> ' + esc(val) + '</div>';
+    });
+    html += '</div></div>';
+    return html;
+  }
+
+  if (q.sentence) {
+    return '<div class="exam-context-title">Sentence</div><div class="exam-context-block">' + esc(q.sentence) + '</div>';
+  }
+
+  return '';
+}
+
+function updateQuestionSplitLayout(q) {
+  const main = document.querySelector('#examscreen .exam-main');
+  const passageEl = document.getElementById('examPassage');
+  if (!main || !passageEl) return;
+
+  const contextHtml = buildQuestionContextHtml(q);
+  const useSplit = Boolean(contextHtml);
+  main.classList.toggle('split-question', useSplit);
+
+  if (useSplit) {
+    passageEl.innerHTML = contextHtml;
+    passageEl.classList.add('visible');
+    passageEl.scrollTop = 0;
+  } else {
+    passageEl.innerHTML = '';
+    passageEl.classList.remove('visible');
+  }
+}
+
 async function loadQuestion(index) {
   // Record time spent on previous question
   const now = Date.now();
@@ -1527,17 +1585,7 @@ async function loadQuestion(index) {
   if (topSec) topSec.textContent = 'Section: ' + q.section;
 
   // Show passage box — stays visible for all questions sharing same passage
-  const passageEl = document.getElementById('examPassage');
-  if (passageEl) {
-    if (q.passage) {
-      passageEl.textContent = q.passage;
-      passageEl.classList.add('visible');
-      passageEl.scrollTop = 0;
-    } else {
-      passageEl.textContent = '';
-      passageEl.classList.remove('visible');
-    }
-  }
+  updateQuestionSplitLayout(q);
 
   // Build question body HTML
   const qt = document.getElementById('examQText');
@@ -1545,7 +1593,7 @@ async function loadQuestion(index) {
     let html = '';
 
     // EN-S2 Para Jumble — show statements A B C D
-    if (q.statements) {
+    if (false && q.statements) {
       html += '<div style="margin-bottom:10px;">' + esc(q.text) + '</div>';
       html += '<div style="background:var(--bg-3);border:1px solid var(--border);border-radius:8px;padding:12px 14px;margin-bottom:4px;font-size:13px;line-height:1.8;">';
       Object.entries(q.statements).forEach(([key, val]) => {
@@ -1555,7 +1603,7 @@ async function loadQuestion(index) {
       qt.innerHTML = html;
 
     // EN-S3 Match the Following — show Column I and Column II side by side
-    } else if (q.column_i && q.column_ii) {
+    } else if (false && q.column_i && q.column_ii) {
       html += '<div style="margin-bottom:10px;">' + esc(q.text) + '</div>';
       html += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;background:var(--bg-3);border:1px solid var(--border);border-radius:8px;padding:12px 14px;">';
       html += '<div><div style="font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Column I</div>';
@@ -1571,7 +1619,7 @@ async function loadQuestion(index) {
       qt.innerHTML = html;
 
     // EN-S4 / EN-S5 — show sentence above question
-    } else if (q.sentence) {
+    } else if (false && q.sentence) {
       html += '<div style="background:var(--bg-3);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:10px 14px;margin-bottom:10px;font-size:13px;color:var(--cream-2);line-height:1.6;font-style:italic;">' + esc(q.sentence) + '</div>';
       html += '<div>' + esc(q.text) + '</div>';
       qt.innerHTML = html;
