@@ -77,6 +77,8 @@ const YEARS = [2025, 2024, 2023, 2022];
 const BASE_URL = 'https://raw.githubusercontent.com/thisisme1289-ux/CUETAce/main/questions';
 const REPO_RAW_BASE_URL = 'https://raw.githubusercontent.com/thisisme1289-ux/CUETAce/main';
 const QUESTION_BANK_INDEX_URL = BASE_URL + '/question-bank-index.json';
+const QUESTION_API_BASE_URL = 'https://question.thisisme1289.workers.dev';
+const QUESTION_API_WINDOW_SIZE = 9;
 let QUESTION_BANK_INDEX_CACHE = null;
 const ACTIVE_EXAM_KEY = 'cuetace_active_exam_attempt';
 const QUESTION_REPORTS_KEY = 'cuetace_question_reports';
@@ -178,6 +180,117 @@ function handleChapterClick(testName, subject) {
 
 function buildExamResumeId(testName, subject, mode, pypUrl) {
   return [mode || 'mock', subject || '', testName || '', pypUrl || ''].join('|');
+}
+
+function getChapterSlugFromTestName(testName, subject) {
+  const slugs = CHAPTER_SLUGS[subject] || [];
+  return slugs.find(slug => String(testName || '').startsWith(slug)) || '';
+}
+
+function buildQuestionApiUrl(params) {
+  const url = new URL(QUESTION_API_BASE_URL + '/questions');
+  Object.entries(params || {}).forEach(([key, value]) => {
+    if (value !== undefined && value !== null && value !== '') url.searchParams.set(key, String(value));
+  });
+  return url.toString();
+}
+
+function normalizeApiQuestion(q) {
+  if (!q) return null;
+  return {
+    ...q,
+    section: q.section || q.chapter || q.chapter_name || q.chapter_id || 'General',
+    text: q.text || q.question || 'Question',
+    options: Array.isArray(q.options) ? q.options : [],
+    correct: q.correct
+  };
+}
+
+function buildApiAttempt(testName, subject, mode, pypMeta, pypUrl, qCount) {
+  const seed = Math.floor(Date.now() + Math.random() * 1000000).toString(36);
+  const attempt = {
+    source: 'worker-api',
+    seed,
+    mode: mode || 'mock',
+    subject,
+    testName,
+    count: mode === 'mock' ? 50 : mode === 'chapter' ? (qCount || 200) : (qCount || ''),
+    chapter: mode === 'chapter' ? getChapterSlugFromTestName(testName, subject) : '',
+    year: pypMeta?.year || '',
+    paper: pypMeta?.paper || '',
+    packId: pypMeta?.packId || '',
+    sourcePath: pypMeta?.sourcePath || '',
+    pypUrl: pypUrl || ''
+  };
+  attempt.key = [
+    attempt.mode, attempt.subject, attempt.chapter, attempt.year,
+    attempt.paper, attempt.packId, attempt.sourcePath, attempt.count, attempt.seed
+  ].join('|');
+  return attempt;
+}
+
+async function fetchApiQuestionWindow(attempt, centerIndex) {
+  if (!attempt || attempt.source !== 'worker-api') return null;
+  const windowSize = QUESTION_API_WINDOW_SIZE;
+  const start = Math.max(0, Number(centerIndex || 0) - Math.floor(windowSize / 2));
+  const url = buildQuestionApiUrl({
+    mode: attempt.mode,
+    subject: attempt.subject,
+    chapter: attempt.chapter,
+    year: attempt.year,
+    paper: attempt.paper,
+    packId: attempt.packId,
+    sourcePath: attempt.sourcePath,
+    count: attempt.count,
+    seed: attempt.seed,
+    windowStart: start,
+    windowSize
+  });
+  const res = await fetch(url, { cache: 'no-store' });
+  if (!res.ok) throw new Error('Question API HTTP ' + res.status);
+  const data = await res.json();
+  if (!data || !data.window || !Array.isArray(data.questions)) {
+    throw new Error('Question API is not updated for windowed loading yet.');
+  }
+  const actualStart = Number(data.window.start || 0);
+  data.questions.forEach((question, offset) => {
+    EXAM_QUESTIONS[actualStart + offset] = normalizeApiQuestion(question);
+  });
+  if (Number(data.total) > 0) examState.totalQ = Number(data.total);
+  return data;
+}
+
+async function tryStartExamFromQuestionApi(testName, subject, mode, pypUrl, qCount, pypMeta) {
+  if (mode !== 'mock' && mode !== 'chapter' && mode !== 'pyp') return false;
+  const attempt = buildApiAttempt(testName, subject, mode, pypMeta, pypUrl, qCount);
+  if (mode === 'chapter' && !attempt.chapter) return false;
+  const data = await fetchApiQuestionWindow(attempt, 0);
+  if (!data || !Array.isArray(data.questions)) return false;
+  examState.apiAttempt = attempt;
+  examState.totalQ = Number(data.total || data.questions.length || 0);
+  if (!examState.totalQ) return false;
+  EXAM_QUESTIONS = new Array(examState.totalQ).fill(null);
+  const start = Number(data.window.start || 0);
+  data.questions.forEach((question, offset) => {
+    EXAM_QUESTIONS[start + offset] = normalizeApiQuestion(question);
+  });
+  return true;
+}
+
+async function ensureQuestionLoaded(index) {
+  if (EXAM_QUESTIONS[index]) return EXAM_QUESTIONS[index];
+  if (!examState.apiAttempt) return null;
+  await fetchApiQuestionWindow(examState.apiAttempt, index);
+  return EXAM_QUESTIONS[index] || null;
+}
+
+async function ensureAllExamQuestionsLoaded() {
+  if (!examState.apiAttempt) return;
+  for (let i = 0; i < examState.totalQ; i += QUESTION_API_WINDOW_SIZE) {
+    if (!EXAM_QUESTIONS[i]) {
+      await fetchApiQuestionWindow(examState.apiAttempt, i);
+    }
+  }
 }
 
 function repoRawUrl(sourcePath) {
@@ -1049,17 +1162,18 @@ let examState = {
   mode: 'mock',
   pypMeta: null,
   resumeId: '',
+  apiAttempt: null,
   questionTimes: [],
   questionStartTime: Date.now()
 };
 
 function saveActiveExamAttempt() {
-  if (!EXAM_QUESTIONS.length || !examState.totalQ) return;
+  if (!examState.totalQ) return;
   try {
     localStorage.setItem(ACTIVE_EXAM_KEY, JSON.stringify({
       savedAt: Date.now(),
       resumeId: examState.resumeId,
-      questions: EXAM_QUESTIONS,
+      questions: examState.apiAttempt ? [] : EXAM_QUESTIONS,
       state: {
         currentQ: examState.currentQ,
         totalQ: examState.totalQ,
@@ -1070,6 +1184,7 @@ function saveActiveExamAttempt() {
         subject: examState.subject,
         mode: examState.mode,
         pypMeta: examState.pypMeta || null,
+        apiAttempt: examState.apiAttempt || null,
         questionTimes: examState.questionTimes
       }
     }));
@@ -1084,7 +1199,8 @@ function loadActiveExamAttempt(resumeId) {
     if (!raw) return null;
     const attempt = JSON.parse(raw);
     if (!attempt || attempt.resumeId !== resumeId) return null;
-    if (!Array.isArray(attempt.questions) || !attempt.state) return null;
+    if (!attempt.state) return null;
+    if (!attempt.state.apiAttempt && !Array.isArray(attempt.questions)) return null;
     if (Date.now() - Number(attempt.savedAt || 0) > 12 * 60 * 60 * 1000) return null;
     return attempt;
   } catch(e) {
@@ -1110,7 +1226,9 @@ function updateExamHeaderLabels() {
 }
 
 function hydrateExamFromAttempt(attempt) {
-  EXAM_QUESTIONS = attempt.questions;
+  EXAM_QUESTIONS = attempt.state.apiAttempt
+    ? new Array(Number(attempt.state.totalQ || 0)).fill(null)
+    : attempt.questions;
   Object.assign(examState, {
     currentQ: Number(attempt.state.currentQ || 0),
     totalQ: Number(attempt.state.totalQ || attempt.questions.length),
@@ -1121,6 +1239,7 @@ function hydrateExamFromAttempt(attempt) {
     subject: attempt.state.subject || 'Accountancy',
     mode: attempt.state.mode || 'mock',
     pypMeta: attempt.state.pypMeta || null,
+    apiAttempt: attempt.state.apiAttempt || null,
     resumeId: attempt.resumeId || '',
     questionTimes: Array.isArray(attempt.state.questionTimes) ? attempt.state.questionTimes : [],
     questionStartTime: Date.now()
@@ -1155,6 +1274,7 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
   examState.subject   = subject  || 'Accountancy';
   examState.mode      = mode || 'mock';
   examState.pypMeta   = pypMeta || null;
+  examState.apiAttempt = null;
   examState.resumeId  = buildExamResumeId(examState.testName, examState.subject, examState.mode, pypUrl);
   // Only show explanations for premium users (or mock tests)
   examState.showExplanations = true;
@@ -1200,9 +1320,21 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
   // ── 3. Fetch JSON ──
   try {
     let bank;
+    let loadedFromApi = false;
+
+    if (!Array.isArray(providedQuestions) || !providedQuestions.length) {
+      try {
+        loadedFromApi = await tryStartExamFromQuestionApi(examState.testName, subject, mode, pypUrl, qCount, pypMeta);
+      } catch (apiErr) {
+        console.warn('[CUETAce] Question API unavailable, falling back to GitHub raw files', apiErr);
+      }
+    }
 
     // PYP mode — single file per year/subject (unchanged)
-    if (Array.isArray(providedQuestions) && providedQuestions.length) {
+    if (loadedFromApi) {
+      bank = null;
+
+    } else if (Array.isArray(providedQuestions) && providedQuestions.length) {
       bank = {
         chapters: [{
           chapter_id: mode || 'Practice',
@@ -1292,11 +1424,14 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
 
     // Build questions with qCount limit
     // mock = fixed 50 | chapter = all available up to 200 | pyp = all questions in the file
+    if (!loadedFromApi) {
     const limit = mode === 'mock' ? 50 : mode === 'chapter' ? (qCount || 200) : null;
     EXAM_QUESTIONS = buildQuestionsFromBank(bank, examState.testName, mode, limit);
     console.log('[CUETAce] Loaded', EXAM_QUESTIONS.length, 'questions |', subject, '| mode:', mode);
+    examState.totalQ = EXAM_QUESTIONS.length;
+    }
 
-    if (EXAM_QUESTIONS.length === 0) {
+    if (!examState.totalQ || EXAM_QUESTIONS.length === 0) {
       throw new Error('No questions found for "' + examState.testName + '" — chapter name may not match.');
     }
   } catch (err) {
@@ -1311,7 +1446,6 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
   }
 
   // ── 4. Ready — start exam ──
-  examState.totalQ  = EXAM_QUESTIONS.length;
   examState.answers = new Array(examState.totalQ).fill(null);
   examState.status  = new Array(examState.totalQ).fill('not-visited');
   examState.questionTimes = new Array(examState.totalQ).fill(0);
@@ -1350,7 +1484,7 @@ function tickTimer() {
 }
 
 // ── LOAD QUESTION ──
-function loadQuestion(index) {
+async function loadQuestion(index) {
   // Record time spent on previous question
   const now = Date.now();
   const prev = examState.currentQ;
@@ -1360,7 +1494,18 @@ function loadQuestion(index) {
   }
   examState.questionStartTime = now;
   examState.currentQ = index;
-  const q = EXAM_QUESTIONS[index];
+  let q = EXAM_QUESTIONS[index];
+  if (!q && examState.apiAttempt) {
+    const qt = document.getElementById('examQText');
+    const optsEl = document.getElementById('examOpts');
+    if (qt) qt.textContent = 'Loading question...';
+    if (optsEl) optsEl.innerHTML = '';
+    try {
+      q = await ensureQuestionLoaded(index);
+    } catch (err) {
+      console.warn('[CUETAce] Could not load question window', err);
+    }
+  }
 
   // Guard — should never happen but prevents silent crash
   if (!q) {

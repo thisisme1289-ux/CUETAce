@@ -93,9 +93,16 @@ function getStoredResults() {
   } catch(e) { return []; }
 }
 
-function submitTest() {
+async function submitTest() {
   clearInterval(examState.timerInterval);
   closeSubmitModal();
+  if (typeof ensureAllExamQuestionsLoaded === 'function') {
+    try {
+      await ensureAllExamQuestionsLoaded();
+    } catch (err) {
+      console.warn('[CUETAce] Could not prefetch all questions before submit', err);
+    }
+  }
 
   // Record time on last question
   const now = Date.now();
@@ -110,6 +117,10 @@ function submitTest() {
   for (let i = 0; i < examState.totalQ; i++) {
     const q   = EXAM_QUESTIONS[i];
     const ans = examState.answers[i];
+    if (!q) {
+      skipped++;
+      continue;
+    }
     let status = 'skipped';
     if (ans === null) {
       skipped++;
