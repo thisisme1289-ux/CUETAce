@@ -19,7 +19,7 @@ Example:
 Response:
 
 ```json
-{ "ok": true, "ts": 1783163129220, "version": "2026-07-windowed" }
+{ "ok": true, "ts": 1783163129220, "version": "2026-07-secure-windowed" }
 ```
 
 ### `GET /manifest`
@@ -32,7 +32,7 @@ Example:
 
 ### `GET /questions`
 
-Returns a deterministic window of questions.
+Returns a deterministic live-exam window of questions. This endpoint intentionally does **not** return `correct` or `explanation`.
 
 Common query parameters:
 
@@ -72,6 +72,10 @@ Response shape:
     "mode": "mock",
     "subject": "Accountancy"
   },
+  "access": {
+    "solutionsIncluded": false,
+    "solutionEndpoint": "/solutions"
+  },
   "window": {
     "start": 0,
     "size": 9,
@@ -82,6 +86,43 @@ Response shape:
 }
 ```
 
+### `GET /solutions`
+
+Returns the answer key and explanations for a submitted Worker-powered attempt. This endpoint is protected and requires:
+
+`Authorization: Bearer <Firebase ID token>`
+
+Use the same attempt parameters as `/questions`:
+
+- `mode`
+- `subject`
+- `chapter`, `year`, `paper`, `packId`, or `sourcePath` when applicable
+- `count`
+- `seed`
+- `solutionStart`
+- `solutionSize`
+
+Example:
+
+`/solutions?mode=mock&subject=Accountancy&count=50&seed=abc123&solutionStart=0&solutionSize=50`
+
+Response shape:
+
+```json
+{
+  "ok": true,
+  "total": 50,
+  "window": { "start": 0, "size": 50 },
+  "solutions": [
+    { "index": 0, "id": "123", "correct": 2, "explanation": "..." }
+  ]
+}
+```
+
+Cloudflare environment variable:
+
+- `FIREBASE_PROJECT_ID=cuet-d3dea`
+
 ## How Website Fetching Works
 
 1. When an exam starts, the website builds an attempt seed.
@@ -89,8 +130,8 @@ Response shape:
 3. As the student moves through the exam, missing nearby questions are fetched from the Worker.
 4. Answers, status, timer, and the API attempt metadata are saved locally.
 5. The browser does not store the full question bank for Worker-powered exams.
-6. On submit, the website fetches any missing questions needed for scoring and review.
-7. If the Worker is unavailable or not updated yet, the website falls back to the older GitHub raw loading path.
+6. On submit, the website fetches any missing question text windows, then requests `/solutions` with the Firebase ID token for scoring and review.
+7. The frontend no longer falls back to raw GitHub question files for normal exams, because those files include answer keys.
 
 ## Current Repo Structure Used By Worker
 

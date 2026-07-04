@@ -24,10 +24,12 @@ const CHAPTER_SLUGS = {
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Authorization, Content-Type',
   'Access-Control-Max-Age': '86400'
 };
+
+const RATE_BUCKETS = new Map();
 
 export default {
   async fetch(request, env, ctx) {
@@ -35,9 +37,10 @@ export default {
     const url = new URL(request.url);
 
     try {
-      if (url.pathname === '/health') return json({ ok: true, ts: Date.now(), version: '2026-07-windowed' });
+      if (url.pathname === '/health') return json({ ok: true, ts: Date.now(), version: '2026-07-secure-windowed' });
       if (url.pathname === '/manifest') return json({ subjects: Object.keys(SUBJECT_FOLDER), chapters: CHAPTER_SLUGS });
-      if (url.pathname === '/questions') return handleQuestions(url, ctx);
+      if (url.pathname === '/questions') return handleQuestions(request, url, env, ctx);
+      if (url.pathname === '/solutions') return handleSolutions(request, url, env, ctx);
       return json({ error: 'Not found' }, 404);
     } catch (err) {
       return json({ error: err.message || 'Worker error' }, 500);
@@ -45,11 +48,65 @@ export default {
   }
 };
 
-async function handleQuestions(url, ctx) {
+async function handleQuestions(request, url, env, ctx) {
+  const rate = checkRateLimit(request, 'questions', 160, 60_000);
+  if (!rate.ok) return json({ error: 'Too many requests. Please slow down.' }, 429);
+
+  const selection = await resolveQuestionSelection(url, ctx);
+  if (selection.response) return selection.response;
+  const { mode, subject, meta, selected, start, windowStart, windowSize } = selection;
+  const windowQuestions = selected.slice(start, start + windowSize).map(q => normalizeQuestion(q, { includeSolution: false }));
+
+  return json({
+    ok: true,
+    total: selected.length,
+    mode,
+    subject,
+    meta,
+    access: { solutionsIncluded: false, solutionEndpoint: '/solutions' },
+    window: { start, size: windowQuestions.length, requestedStart: windowStart, requestedSize: windowSize },
+    questions: windowQuestions
+  });
+}
+
+async function handleSolutions(request, url, env, ctx) {
+  const auth = await requireAuthorizedRequest(request, env);
+  if (!auth.ok) return json({ error: auth.error }, auth.status);
+
+  const rate = checkRateLimit(request, 'solutions:' + auth.uid, 45, 60_000);
+  if (!rate.ok) return json({ error: 'Too many solution requests. Please slow down.' }, 429);
+
+  const selection = await resolveQuestionSelection(url, ctx);
+  if (selection.response) return selection.response;
+  const { mode, subject, meta, selected } = selection;
+  const start = Math.max(0, toInt(url.searchParams.get('solutionStart'), 0));
+  const size = clamp(toInt(url.searchParams.get('solutionSize'), selected.length), 1, 500);
+  const solutions = selected.slice(start, start + size).map((question, offset) => {
+    const q = normalizeQuestion(question, { includeSolution: true });
+    return {
+      index: start + offset,
+      id: q.id,
+      correct: q.correct,
+      explanation: q.explanation || ''
+    };
+  });
+
+  return json({
+    ok: true,
+    total: selected.length,
+    mode,
+    subject,
+    meta,
+    window: { start, size: solutions.length },
+    solutions
+  });
+}
+
+async function resolveQuestionSelection(url, ctx) {
   const mode = url.searchParams.get('mode') || 'chapter';
   const subject = url.searchParams.get('subject') || '';
   const folder = SUBJECT_FOLDER[subject];
-  if (!folder) return json({ error: 'Unknown subject: ' + subject }, 400);
+  if (!folder) return { response: json({ error: 'Unknown subject: ' + subject }, 400) };
 
   const seed = url.searchParams.get('seed') || 'cuetace';
   const countParam = toInt(url.searchParams.get('count'), mode === 'mock' ? 50 : 200);
@@ -63,7 +120,7 @@ async function handleQuestions(url, ctx) {
 
   if (mode === 'chapter') {
     const chapter = url.searchParams.get('chapter') || '';
-    if (!chapter) return json({ error: 'chapter required for chapter mode' }, 400);
+    if (!chapter) return { response: json({ error: 'chapter required for chapter mode' }, 400) };
     const data = await fetchJson(`${QUESTIONS_BASE}/${folder}/${chapter}.json`, ctx);
     questions = extractQuestions(data);
     meta.chapter = chapter;
@@ -73,12 +130,12 @@ async function handleQuestions(url, ctx) {
     questions = adaptivePick(all, weights, count, seed);
   } else if (mode === 'pyp') {
     const entry = await selectPypEntry(url, subject, ctx);
-    if (!entry) return json({ error: 'No ready past-year paper found for this request.' }, 404);
+    if (!entry) return { response: json({ error: 'No ready past-year paper found for this request.' }, 404) };
     const data = await fetchJson(REPO_BASE + '/' + entry.sourcePath.replace(/^\/+/, ''), ctx);
     questions = extractQuestions(data);
     meta = { ...meta, year: entry.year || '', paper: entry.paper || '', packId: entry.packId || '', sourcePath: entry.sourcePath };
   } else {
-    return json({ error: 'Unsupported mode: ' + mode }, 400);
+    return { response: json({ error: 'Unsupported mode: ' + mode }, 400) };
   }
 
   const ordered = shuffle ? seededShuffle(questions, seed) : questions.slice();
@@ -86,17 +143,7 @@ async function handleQuestions(url, ctx) {
     ? ordered.slice(0, Math.min(count || ordered.length, ordered.length))
     : ordered.slice(0, count);
   const start = Math.min(windowStart, Math.max(0, selected.length - 1));
-  const windowQuestions = selected.slice(start, start + windowSize).map(normalizeQuestion);
-
-  return json({
-    ok: true,
-    total: selected.length,
-    mode,
-    subject,
-    meta,
-    window: { start, size: windowQuestions.length, requestedStart: windowStart, requestedSize: windowSize },
-    questions: windowQuestions
-  });
+  return { mode, subject, meta, selected, start, windowStart, windowSize };
 }
 
 async function selectPypEntry(url, subject, ctx) {
@@ -163,8 +210,8 @@ function extractQuestions(data) {
   return [];
 }
 
-function normalizeQuestion(q) {
-  return {
+function normalizeQuestion(q, options = {}) {
+  const normalized = {
     id: q.id || q.question_id || hashString(q.question || q.text || ''),
     type: q.type || 'MCQ',
     level: (q.level || 'L1').toUpperCase(),
@@ -177,17 +224,20 @@ function normalizeQuestion(q) {
     column_i: q.column_i || null,
     column_ii: q.column_ii || null,
     options: Array.isArray(q.options) ? q.options : [],
-    correct: q.correct,
-    explanation: q.explanation || '',
     chapter_id: q.chapter_id || '',
     chapter: q.chapter || q.chapter_name || q.section || 'General'
   };
+  if (options.includeSolution) {
+    normalized.correct = q.correct;
+    normalized.explanation = q.explanation || '';
+  }
+  return normalized;
 }
 
 function adaptivePick(allQuestions, weights, total, seed) {
   const byChapter = {};
   allQuestions.forEach(question => {
-    const q = normalizeQuestion(question);
+    const q = normalizeQuestion(question, { includeSolution: true });
     const chapter = q.chapter || q.chapter_id || 'General';
     if (!byChapter[chapter]) byChapter[chapter] = [];
     byChapter[chapter].push(q);
@@ -212,7 +262,7 @@ function adaptivePick(allQuestions, weights, total, seed) {
   });
 
   if (picked.length < total) {
-    seededShuffle(allQuestions.map(normalizeQuestion), seed + '|fill').forEach(q => {
+    seededShuffle(allQuestions.map(q => normalizeQuestion(q, { includeSolution: true })), seed + '|fill').forEach(q => {
       const key = q.id || q.question;
       if (!used.has(key) && picked.length < total) {
         used.add(key);
@@ -240,6 +290,102 @@ async function fetchJson(url, ctx) {
     headers: { 'Content-Type': 'application/json', 'Cache-Control': 'max-age=300' }
   })));
   return data;
+}
+
+function checkRateLimit(request, bucketName, limit, windowMs) {
+  const ip = request.headers.get('CF-Connecting-IP') || request.headers.get('X-Forwarded-For') || 'unknown';
+  const key = bucketName + ':' + ip;
+  const now = Date.now();
+  const current = RATE_BUCKETS.get(key);
+  if (!current || now > current.resetAt) {
+    RATE_BUCKETS.set(key, { count: 1, resetAt: now + windowMs });
+    return { ok: true };
+  }
+  current.count += 1;
+  if (current.count > limit) return { ok: false, resetAt: current.resetAt };
+
+  if (RATE_BUCKETS.size > 2000) {
+    for (const [storedKey, bucket] of RATE_BUCKETS.entries()) {
+      if (now > bucket.resetAt) RATE_BUCKETS.delete(storedKey);
+    }
+  }
+  return { ok: true };
+}
+
+async function requireAuthorizedRequest(request, env) {
+  const projectId = env.FIREBASE_PROJECT_ID || env.FIREBASE_PROJECT || 'cuet-d3dea';
+  const token = getBearerToken(request);
+  if (!token) return { ok: false, status: 401, error: 'Firebase sign-in required for solutions.' };
+
+  try {
+    const payload = await verifyFirebaseIdToken(token, projectId);
+    return { ok: true, uid: payload.sub || payload.user_id || '', payload };
+  } catch (err) {
+    return { ok: false, status: 401, error: 'Invalid or expired Firebase session.' };
+  }
+}
+
+function getBearerToken(request) {
+  const header = request.headers.get('Authorization') || '';
+  const match = header.match(/^Bearer\s+(.+)$/i);
+  return match ? match[1].trim() : '';
+}
+
+async function verifyFirebaseIdToken(token, projectId) {
+  const parts = String(token || '').split('.');
+  if (parts.length !== 3) throw new Error('Malformed token');
+
+  const header = JSON.parse(base64UrlDecode(parts[0]));
+  const payload = JSON.parse(base64UrlDecode(parts[1]));
+  const now = Math.floor(Date.now() / 1000);
+
+  if (header.alg !== 'RS256' || !header.kid) throw new Error('Unsupported token header');
+  if (payload.aud !== projectId) throw new Error('Invalid audience');
+  if (payload.iss !== `https://securetoken.google.com/${projectId}`) throw new Error('Invalid issuer');
+  if (!payload.sub || typeof payload.sub !== 'string') throw new Error('Missing subject');
+  if (payload.exp <= now || payload.iat > now + 300) throw new Error('Expired token');
+
+  const jwk = await getFirebaseJwk(header.kid);
+  const key = await crypto.subtle.importKey(
+    'jwk',
+    jwk,
+    { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' },
+    false,
+    ['verify']
+  );
+  const verified = await crypto.subtle.verify(
+    { name: 'RSASSA-PKCS1-v1_5' },
+    key,
+    base64UrlToBytes(parts[2]),
+    new TextEncoder().encode(parts[0] + '.' + parts[1])
+  );
+  if (!verified) throw new Error('Bad signature');
+  return payload;
+}
+
+async function getFirebaseJwk(kid) {
+  const res = await fetch('https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com', {
+    cf: { cacheTtl: 3600, cacheEverything: true }
+  });
+  if (!res.ok) throw new Error('Could not load Firebase keys');
+  const data = await res.json();
+  const jwk = (data.keys || []).find(key => key.kid === kid);
+  if (!jwk) throw new Error('Firebase key not found');
+  return jwk;
+}
+
+function base64UrlDecode(value) {
+  const bytes = base64UrlToBytes(value);
+  return new TextDecoder().decode(bytes);
+}
+
+function base64UrlToBytes(value) {
+  const base64 = String(value || '').replace(/-/g, '+').replace(/_/g, '/');
+  const padded = base64 + '='.repeat((4 - base64.length % 4) % 4);
+  const binary = atob(padded);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  return bytes;
 }
 
 function parseWeights(value) {

@@ -187,23 +187,38 @@ function getChapterSlugFromTestName(testName, subject) {
   return slugs.find(slug => String(testName || '').startsWith(slug)) || '';
 }
 
-function buildQuestionApiUrl(params) {
-  const url = new URL(QUESTION_API_BASE_URL + '/questions');
+function buildQuestionApiUrl(params, path = '/questions') {
+  const url = new URL(QUESTION_API_BASE_URL + path);
   Object.entries(params || {}).forEach(([key, value]) => {
     if (value !== undefined && value !== null && value !== '') url.searchParams.set(key, String(value));
   });
   return url.toString();
 }
 
+async function getQuestionApiAuthHeaders() {
+  const headers = {};
+  try {
+    if (!firebaseAuth && typeof initFirebaseServices === 'function') initFirebaseServices();
+    if (firebaseAuth && firebaseAuth.currentUser) {
+      headers.Authorization = 'Bearer ' + await firebaseAuth.currentUser.getIdToken();
+    }
+  } catch (err) {
+    console.warn('[CUETAce] Could not attach question API auth token', err);
+  }
+  return headers;
+}
+
 function normalizeApiQuestion(q) {
   if (!q) return null;
-  return {
+  const normalized = {
     ...q,
     section: q.section || q.chapter || q.chapter_name || q.chapter_id || 'General',
     text: q.text || q.question || 'Question',
-    options: Array.isArray(q.options) ? q.options : [],
-    correct: q.correct
+    options: Array.isArray(q.options) ? q.options : []
   };
+  if (Object.prototype.hasOwnProperty.call(q, 'correct')) normalized.correct = q.correct;
+  if (Object.prototype.hasOwnProperty.call(q, 'explanation')) normalized.explanation = q.explanation || '';
+  return normalized;
 }
 
 function buildApiAttempt(testName, subject, mode, pypMeta, pypUrl, qCount) {
@@ -260,6 +275,35 @@ async function fetchApiQuestionWindow(attempt, centerIndex) {
   return data;
 }
 
+async function fetchApiSolutions(attempt, solutionStart, solutionSize) {
+  if (!attempt || attempt.source !== 'worker-api') return null;
+  const url = buildQuestionApiUrl({
+    mode: attempt.mode,
+    subject: attempt.subject,
+    chapter: attempt.chapter,
+    year: attempt.year,
+    paper: attempt.paper,
+    packId: attempt.packId,
+    sourcePath: attempt.sourcePath,
+    count: attempt.count,
+    seed: attempt.seed,
+    solutionStart,
+    solutionSize
+  }, '/solutions');
+  const headers = await getQuestionApiAuthHeaders();
+  const res = await fetch(url, { cache: 'no-store', headers });
+  if (!res.ok) throw new Error('Question solutions API HTTP ' + res.status);
+  const data = await res.json();
+  if (!data || !Array.isArray(data.solutions)) throw new Error('Question solutions API returned no solutions.');
+  data.solutions.forEach(solution => {
+    const index = Number(solution.index);
+    if (!Number.isInteger(index) || !EXAM_QUESTIONS[index]) return;
+    EXAM_QUESTIONS[index].correct = solution.correct;
+    EXAM_QUESTIONS[index].explanation = solution.explanation || '';
+  });
+  return data;
+}
+
 async function tryStartExamFromQuestionApi(testName, subject, mode, pypUrl, qCount, pypMeta) {
   if (mode !== 'mock' && mode !== 'chapter' && mode !== 'pyp') return false;
   const attempt = buildApiAttempt(testName, subject, mode, pypMeta, pypUrl, qCount);
@@ -291,6 +335,15 @@ async function ensureAllExamQuestionsLoaded() {
       await fetchApiQuestionWindow(examState.apiAttempt, i);
     }
   }
+}
+
+async function ensureApiSolutionsLoaded() {
+  if (!examState.apiAttempt) return true;
+  const chunkSize = 100;
+  for (let i = 0; i < examState.totalQ; i += chunkSize) {
+    await fetchApiSolutions(examState.apiAttempt, i, Math.min(chunkSize, examState.totalQ - i));
+  }
+  return true;
 }
 
 function repoRawUrl(sourcePath) {
@@ -1326,7 +1379,7 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
       try {
         loadedFromApi = await tryStartExamFromQuestionApi(examState.testName, subject, mode, pypUrl, qCount, pypMeta);
       } catch (apiErr) {
-        console.warn('[CUETAce] Question API unavailable, falling back to GitHub raw files', apiErr);
+        console.warn('[CUETAce] Secure question API unavailable', apiErr);
       }
     }
 
@@ -1343,7 +1396,7 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
         }]
       };
 
-    } else if (mode === 'pyp' && pypUrl) {
+    } else if (false && mode === 'pyp' && pypUrl) {
       const res = await fetch(pypUrl + '?v=' + Date.now());
       if (!res.ok) throw new Error('HTTP ' + res.status + ' — Past Year Paper not found at: ' + pypUrl);
       bank = await res.json();
@@ -1361,7 +1414,7 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
         throw new Error('PYP JSON loaded but has no chapters.');
       }
 
-    } else if (mode === 'chapter') {
+    } else if (false && mode === 'chapter') {
       // ── CHAPTER MODE: fetch only the single chapter file needed ──
       const slugs = CHAPTER_SLUGS[subject] || [];
       // Find which slug matches the testName (chapter string)
@@ -1386,6 +1439,7 @@ async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, provi
 
     } else {
       // ── MOCK MODE: fetch all chapter files for this subject in parallel ──
+      throw new Error('Secure question API is unavailable. Please try again in a moment.');
       if (MOCK_BANK_CACHE[subject]) {
         bank = MOCK_BANK_CACHE[subject];
       } else {

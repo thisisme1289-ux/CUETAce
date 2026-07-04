@@ -103,6 +103,18 @@ async function submitTest() {
       console.warn('[CUETAce] Could not prefetch all questions before submit', err);
     }
   }
+  if (typeof ensureApiSolutionsLoaded === 'function') {
+    try {
+      await ensureApiSolutionsLoaded();
+    } catch (err) {
+      console.warn('[CUETAce] Could not load protected solutions before submit', err);
+      alert('Please sign in again before submitting. Your answers are still on this screen, but results need a secure session to load the answer key.');
+      if (examState.timerSecs > 0 && !examState.timerInterval) {
+        examState.timerInterval = setInterval(tickTimer, 1000);
+      }
+      return;
+    }
+  }
 
   // Record time on last question
   const now = Date.now();
@@ -124,7 +136,7 @@ async function submitTest() {
     let status = 'skipped';
     if (ans === null) {
       skipped++;
-    } else if (ans === q.correct) {
+    } else if (q.correct !== undefined && ans === q.correct) {
       correct++;
       status = 'correct';
     } else {
