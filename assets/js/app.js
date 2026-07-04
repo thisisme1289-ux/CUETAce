@@ -355,6 +355,7 @@ function showView(name, opts) {
   if (name !== 'examscreen') {
     closeExamMagnifier();
     closeExamInfoModal();
+    closeExamAccessibilityModal();
   }
   // Hide all views
   document.querySelectorAll('.view').forEach(v => {
@@ -1295,11 +1296,16 @@ let examMagnifierState = {
   body: null,
   source: null,
   scale: 1.85,
+  pointerId: null,
   drag: null
 };
 
 function handleExamTool(tool) {
-  if (tool === 'information' || tool === 'accessibility') {
+  if (tool === 'accessibility') {
+    openExamAccessibilityModal();
+    return;
+  }
+  if (tool === 'information') {
     openExamInfoModal();
     return;
   }
@@ -1318,6 +1324,93 @@ function openExamInfoModal() {
 function closeExamInfoModal() {
   const modal = document.getElementById('examInfoModal');
   if (modal) modal.classList.remove('open');
+}
+
+let examAccessibilitySettings = {
+  theme: 'dark',
+  cursor: 'default'
+};
+
+function loadExamAccessibilitySettings() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('cuetace_exam_accessibility') || '{}');
+    examAccessibilitySettings = {
+      theme: ['dark', 'light', 'contrast'].includes(saved.theme) ? saved.theme : 'dark',
+      cursor: ['default', 'large', 'contrast', 'crosshair'].includes(saved.cursor) ? saved.cursor : 'default'
+    };
+  } catch(e) {
+    examAccessibilitySettings = { theme: 'dark', cursor: 'default' };
+  }
+}
+
+function saveExamAccessibilitySettings() {
+  try {
+    localStorage.setItem('cuetace_exam_accessibility', JSON.stringify(examAccessibilitySettings));
+  } catch(e) {}
+}
+
+function applyExamAccessibilitySettings() {
+  document.body.classList.remove(
+    'exam-theme-light',
+    'exam-theme-contrast',
+    'exam-cursor-large',
+    'exam-cursor-contrast',
+    'exam-cursor-crosshair'
+  );
+
+  if (examAccessibilitySettings.theme === 'light') {
+    document.body.classList.add('exam-theme-light');
+  } else if (examAccessibilitySettings.theme === 'contrast') {
+    document.body.classList.add('exam-theme-contrast');
+  }
+
+  if (examAccessibilitySettings.cursor !== 'default') {
+    document.body.classList.add('exam-cursor-' + examAccessibilitySettings.cursor);
+  }
+
+  updateExamAccessibilityChoices();
+  refreshExamMagnifier();
+}
+
+function updateExamAccessibilityChoices() {
+  document.querySelectorAll('[data-theme]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.theme === examAccessibilitySettings.theme);
+  });
+  document.querySelectorAll('[data-cursor]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.cursor === examAccessibilitySettings.cursor);
+  });
+}
+
+function openExamAccessibilityModal() {
+  closeExamInfoModal();
+  const modal = document.getElementById('examAccessibilityModal');
+  updateExamAccessibilityChoices();
+  if (modal) modal.classList.add('open');
+}
+
+function closeExamAccessibilityModal() {
+  const modal = document.getElementById('examAccessibilityModal');
+  if (modal) modal.classList.remove('open');
+}
+
+function setExamAccessibilityTheme(theme) {
+  if (!['dark', 'light', 'contrast'].includes(theme)) return;
+  examAccessibilitySettings.theme = theme;
+  saveExamAccessibilitySettings();
+  applyExamAccessibilitySettings();
+}
+
+function setExamAccessibilityCursor(cursor) {
+  if (!['default', 'large', 'contrast', 'crosshair'].includes(cursor)) return;
+  examAccessibilitySettings.cursor = cursor;
+  saveExamAccessibilitySettings();
+  applyExamAccessibilitySettings();
+}
+
+function resetExamAccessibility() {
+  examAccessibilitySettings = { theme: 'dark', cursor: 'default' };
+  saveExamAccessibilitySettings();
+  applyExamAccessibilitySettings();
 }
 
 function toggleExamMagnifier() {
@@ -1349,10 +1442,10 @@ function openExamMagnifier() {
     drag: null
   };
   lens.querySelector('.exam-magnifier-close')?.addEventListener('click', closeExamMagnifier);
-  lens.querySelector('.exam-magnifier-head')?.addEventListener('pointerdown', startExamMagnifierDrag);
   lens.addEventListener('pointerdown', startExamMagnifierDrag);
   document.addEventListener('pointermove', moveExamMagnifier);
   document.addEventListener('pointerup', endExamMagnifierDrag);
+  document.addEventListener('pointercancel', endExamMagnifierDrag);
   window.addEventListener('resize', refreshExamMagnifier);
   refreshExamMagnifier();
 }
@@ -1361,6 +1454,7 @@ function closeExamMagnifier() {
   if (examMagnifierState.el) examMagnifierState.el.remove();
   document.removeEventListener('pointermove', moveExamMagnifier);
   document.removeEventListener('pointerup', endExamMagnifierDrag);
+  document.removeEventListener('pointercancel', endExamMagnifierDrag);
   window.removeEventListener('resize', refreshExamMagnifier);
   examMagnifierState = {
     active: false,
@@ -1368,6 +1462,7 @@ function closeExamMagnifier() {
     body: null,
     source: null,
     scale: examMagnifierState.scale || 1.85,
+    pointerId: null,
     drag: null
   };
 }
@@ -1405,19 +1500,22 @@ function updateExamMagnifierView() {
 function startExamMagnifierDrag(event) {
   const lens = examMagnifierState.el;
   if (!lens || event.target.closest('.exam-magnifier-close')) return;
+  if (event.pointerType && event.isPrimary === false) return;
   const rect = lens.getBoundingClientRect();
   examMagnifierState.drag = {
     x: event.clientX - rect.left,
     y: event.clientY - rect.top
   };
+  examMagnifierState.pointerId = event.pointerId;
   lens.classList.add('dragging');
-  lens.setPointerCapture?.(event.pointerId);
+  try { lens.setPointerCapture?.(event.pointerId); } catch(e) {}
   event.preventDefault();
 }
 
 function moveExamMagnifier(event) {
-  const { el, drag } = examMagnifierState;
+  const { el, drag, pointerId } = examMagnifierState;
   if (!el || !drag) return;
+  if (pointerId !== null && event.pointerId !== pointerId) return;
   const maxX = Math.max(0, window.innerWidth - el.offsetWidth);
   const maxY = Math.max(0, window.innerHeight - el.offsetHeight);
   const nextX = Math.min(maxX, Math.max(0, event.clientX - drag.x));
@@ -1425,16 +1523,23 @@ function moveExamMagnifier(event) {
   el.style.left = nextX + 'px';
   el.style.top = nextY + 'px';
   updateExamMagnifierView();
+  event.preventDefault();
 }
 
-function endExamMagnifierDrag() {
-  if (examMagnifierState.el) examMagnifierState.el.classList.remove('dragging');
+function endExamMagnifierDrag(event) {
+  if (event && examMagnifierState.pointerId !== null && event.pointerId !== examMagnifierState.pointerId) return;
+  if (examMagnifierState.el) {
+    try { examMagnifierState.el.releasePointerCapture?.(examMagnifierState.pointerId); } catch(e) {}
+    examMagnifierState.el.classList.remove('dragging');
+  }
+  examMagnifierState.pointerId = null;
   examMagnifierState.drag = null;
 }
 
 document.addEventListener('keydown', function(event) {
   if (event.key !== 'Escape') return;
   closeExamInfoModal();
+  closeExamAccessibilityModal();
   closeExamMagnifier();
 });
 
@@ -1442,6 +1547,10 @@ document.addEventListener('click', function(event) {
   const modal = document.getElementById('examInfoModal');
   if (modal && modal.classList.contains('open') && event.target === modal) {
     closeExamInfoModal();
+  }
+  const accessModal = document.getElementById('examAccessibilityModal');
+  if (accessModal && accessModal.classList.contains('open') && event.target === accessModal) {
+    closeExamAccessibilityModal();
   }
 });
 
@@ -1473,6 +1582,8 @@ async function initApp() {
   if (window.cuetaceViewsReady) {
     await window.cuetaceViewsReady;
   }
+  loadExamAccessibilitySettings();
+  applyExamAccessibilitySettings();
   populateTargetYearOptions();
   initFirebaseServices();
   bindProfileLoginKeys();

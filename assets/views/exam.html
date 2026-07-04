@@ -215,4 +215,65 @@
     </div>
   </div>
 
+  <!-- ACCESSIBILITY SETTINGS MODAL -->
+  <div class="exam-modal-overlay" id="examAccessibilityModal">
+    <div class="exam-modal exam-info-modal exam-accessibility-modal" role="dialog" aria-modal="true" aria-labelledby="examAccessibilityTitle">
+      <button class="exam-info-close" type="button" onclick="closeExamAccessibilityModal()" aria-label="Close accessibility settings">&times;</button>
+      <h3 id="examAccessibilityTitle">Accessibility Settings</h3>
+      <p class="exam-info-lead">Adjust the exam display and pointer visibility for better readability.</p>
+
+      <div class="accessibility-section">
+        <h4>Display Mode</h4>
+        <div class="accessibility-choice-grid" data-accessibility-group="theme">
+          <button class="accessibility-choice" type="button" data-theme="dark" onclick="setExamAccessibilityTheme('dark')">
+            <span class="theme-preview dark-preview"></span>
+            <strong>Dark</strong>
+            <small>Default exam view</small>
+          </button>
+          <button class="accessibility-choice" type="button" data-theme="light" onclick="setExamAccessibilityTheme('light')">
+            <span class="theme-preview light-preview"></span>
+            <strong>Light</strong>
+            <small>Bright background</small>
+          </button>
+          <button class="accessibility-choice" type="button" data-theme="contrast" onclick="setExamAccessibilityTheme('contrast')">
+            <span class="theme-preview contrast-preview"></span>
+            <strong>High Contrast</strong>
+            <small>Sharper text contrast</small>
+          </button>
+        </div>
+      </div>
+
+      <div class="accessibility-section">
+        <h4>Cursor Style</h4>
+        <div class="accessibility-choice-grid cursor-grid" data-accessibility-group="cursor">
+          <button class="accessibility-choice" type="button" data-cursor="default" onclick="setExamAccessibilityCursor('default')">
+            <span class="cursor-preview default-cursor-preview"></span>
+            <strong>Default</strong>
+            <small>Standard pointer</small>
+          </button>
+          <button class="accessibility-choice" type="button" data-cursor="large" onclick="setExamAccessibilityCursor('large')">
+            <span class="cursor-preview large-cursor-preview"></span>
+            <strong>Large</strong>
+            <small>Bigger pointer</small>
+          </button>
+          <button class="accessibility-choice" type="button" data-cursor="contrast" onclick="setExamAccessibilityCursor('contrast')">
+            <span class="cursor-preview contrast-cursor-preview"></span>
+            <strong>High Contrast</strong>
+            <small>Yellow pointer</small>
+          </button>
+          <button class="accessibility-choice" type="button" data-cursor="crosshair" onclick="setExamAccessibilityCursor('crosshair')">
+            <span class="cursor-preview crosshair-cursor-preview"></span>
+            <strong>Crosshair</strong>
+            <small>Precision pointer</small>
+          </button>
+        </div>
+      </div>
+
+      <div class="exam-modal-btns">
+        <button class="modal-btn-cancel" type="button" onclick="resetExamAccessibility()">Reset</button>
+        <button class="modal-btn-submit" type="button" onclick="closeExamAccessibilityModal()">Apply</button>
+      </div>
+    </div>
+  </div>
+
 </div>
