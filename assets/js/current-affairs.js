@@ -218,7 +218,11 @@ var CA = {
     }
     var categories = this.CATS.filter(function(c) { return c !== 'All'; });
     var questions = arts.map(function(a) {
-      var opts = [a.category].concat(categories.filter(function(c) { return c !== a.category; }).slice(0, 3));
+      var distractors = categories.filter(function(c) { return c !== a.category; });
+      distractors.sort(function() { return Math.random() - 0.5; });
+      var opts = [a.category].concat(distractors.slice(0, 3));
+      opts = opts.filter(function(opt, idx, arr) { return opt && arr.indexOf(opt) === idx; });
+      if (opts.length < 4) return null;
       opts.sort(function() { return Math.random() - 0.5; });
       return {
         section: 'Current Affairs',
@@ -228,7 +232,11 @@ var CA = {
         explanation: a.description || (a.source ? 'Source: ' + a.source : ''),
         type: 'MCQ'
       };
-    }).filter(function(q) { return q.correct >= 0; });
+    }).filter(function(q) { return q && q.correct >= 0; });
+    if (!questions.length) {
+      showAppToast('Not enough categorized current-affairs items to build a quiz.', 'error');
+      return;
+    }
     startExamFromQuestionSet('Current Affairs Quiz', 'General Test', questions, 'current-affairs');
   },
 

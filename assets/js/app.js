@@ -446,7 +446,10 @@ function switchTab(btn, tabId) {
   if (tabId === 'tab-chapters') buildChapters();
   if (tabId === 'tab-papers')   buildPapers();
   if (tabId === 'tab-ca')       { if (typeof CA !== 'undefined') caInit(); }
-  if (tabId === 'tab-saved')    renderSavedQuestions();
+  if (tabId === 'tab-saved')    {
+    if (typeof renderSavedQuestions === 'function') renderSavedQuestions();
+    renderQuestionReportsPanel();
+  }
   syncBottomNav(tabId);
 }
 
@@ -550,6 +553,36 @@ function saveQuestionReports(reports) {
   try { localStorage.setItem(QUESTION_REPORTS_KEY, JSON.stringify(reports.slice(0, 100))); } catch(e) {}
 }
 
+function renderQuestionReportsPanel() {
+  const panel = document.getElementById('questionReportsPanel');
+  if (!panel) return;
+  const reports = getQuestionReports();
+  if (!reports.length) {
+    panel.innerHTML = '';
+    return;
+  }
+  panel.innerHTML = `
+    <div style="border-top:1px solid var(--border);padding-top:16px;">
+      <div class="dash-section-title" style="font-size:16px;">Reported Issues</div>
+      <div class="dash-section-sub">${reports.length} locally saved report${reports.length === 1 ? '' : 's'} from exam, saved, and review screens.</div>
+      <div style="margin-top:10px;">
+        ${reports.slice(0, 5).map(report => `
+          <div style="background:var(--bg-2);border:1px solid var(--border);border-radius:7px;padding:10px 12px;margin-bottom:8px;">
+            <div style="font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);">${esc(report.source || 'question')} · ${esc(report.subject || 'Subject')}</div>
+            <div style="font-size:12px;color:var(--cream-2);line-height:1.6;margin-top:4px;">${esc(report.reason || '')}</div>
+            <div style="font-size:11px;color:var(--cream-muted);margin-top:4px;">${esc(report.testName || '')}${report.questionIndex != null ? ' · Q' + (Number(report.questionIndex) + 1) : ''}</div>
+          </div>`).join('')}
+      </div>
+      <button class="inner-nav-btn" type="button" onclick="clearQuestionReports()" style="font-size:10px;padding:5px 10px;">Clear Reports</button>
+    </div>`;
+}
+
+function clearQuestionReports() {
+  if (!window.confirm('Clear all locally saved question reports?')) return;
+  saveQuestionReports([]);
+  renderQuestionReportsPanel();
+}
+
 function reportQuestionIssue(payload) {
   const reason = window.prompt('What is wrong with this question? Example: wrong answer, typo, incomplete options, bad explanation.');
   if (!reason || !reason.trim()) return;
@@ -565,6 +598,7 @@ function reportQuestionIssue(payload) {
     question: payload?.question || EXAM_QUESTIONS[examState.currentQ] || null
   });
   saveQuestionReports(reports);
+  renderQuestionReportsPanel();
   showAppToast('Thanks, this question issue was saved locally.', 'success');
 }
 
@@ -627,13 +661,13 @@ function renderGlobalSearch(query) {
   if (typeof getActiveBookmarks === 'function') {
     getActiveBookmarks().forEach(b => {
       const hay = [b.subject, b.section, b.text, b.explanation].join(' ').toLowerCase();
-      if (!q || hay.includes(q)) rows.push({ type: 'Saved', title: b.text || 'Saved question', meta: [b.subject, b.section].filter(Boolean).join(' - '), action: "closeGlobalSearch();switchTab(null,'tab-saved')" });
+      if (!q || hay.includes(q)) rows.push({ type: 'Saved', title: b.text || 'Saved question', meta: [b.subject, b.section].filter(Boolean).join(' - '), action: "closeGlobalSearch();focusSavedQuestion('" + escJs(b.key) + "')" });
     });
   }
   if (typeof getStoredResults === 'function') {
     getStoredResults().forEach((r, idx) => {
       const hay = [r.subject, r.testName, r.date].join(' ').toLowerCase();
-      if (!q || hay.includes(q)) rows.push({ type: 'Result', title: r.testName || 'Result', meta: (r.subject || '') + ' - ' + (r.correct || 0) + '/' + (r.total || 0), action: "closeGlobalSearch();switchTab(null,'tab-results')" });
+      if (!q || hay.includes(q)) rows.push({ type: 'Result', title: r.testName || 'Result', meta: (r.subject || '') + ' - ' + (r.correct || 0) + '/' + (r.total || 0), action: "closeGlobalSearch();openResultFromSearch('" + escJs(r.id || '') + "')" });
     });
   }
   if (typeof CA !== 'undefined' && CA.state?.allArticles?.length) {
@@ -974,7 +1008,10 @@ function clearActiveExamAttempt() {
 }
 
 function updateExamHeaderLabels() {
-  updateExamHeaderLabels();
+  const tl = document.getElementById('examTestLabel');
+  if (tl) tl.textContent = examState.testName;
+  const ps = document.getElementById('paletteSubject');
+  if (ps) ps.textContent = examState.subject;
   const timerEl = document.getElementById('examTimer');
   if (timerEl) {
     const m = String(Math.floor(examState.timerSecs / 60)).padStart(2,'0');

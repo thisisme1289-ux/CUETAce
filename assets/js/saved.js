@@ -214,7 +214,7 @@ function renderSavedQuestionsHtml(bookmarks) {
     const body = renderSavedQuestionBody(b);
     const exp = b.explanation ? '<div class="saved-q-exp">'+esc(b.explanation)+'</div>' : '';
     const expBtn = b.explanation ? '<button class="inner-nav-btn" onclick="toggleSavedExp('+i+')" style="font-size:10px;margin-top:6px;padding:4px 10px;">Show Explanation</button>' : '';
-    html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">'+esc(b.subject||'Saved')+' &middot; '+esc(b.section||b.chapter_id||'Practice')+' &middot; '+esc(b.savedAt||'')+'</div>'+body+'</div><button class="saved-q-remove" onclick="removeBookmarkByKey(\''+escJs(b.key)+'\')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class="saved-q-opts">'+opts+'</div><div style="display:flex;gap:8px;flex-wrap:wrap;">'+expBtn+'<button class="inner-nav-btn" onclick="reportSavedQuestion(\''+escJs(b.key)+'\')" style="font-size:10px;margin-top:6px;padding:4px 10px;">Report Issue</button></div>'+exp+'</div>';
+    html += '<div class="saved-q-item" id="savedItem'+i+'" data-bookmark-key="'+esc(b.key || '')+'"><div class="saved-q-header"><div><div class="saved-q-meta">'+esc(b.subject||'Saved')+' &middot; '+esc(b.section||b.chapter_id||'Practice')+' &middot; '+esc(b.savedAt||'')+'</div>'+body+'</div><button class="saved-q-remove" onclick="removeBookmarkByKey(\''+escJs(b.key)+'\')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class="saved-q-opts">'+opts+'</div><div style="display:flex;gap:8px;flex-wrap:wrap;">'+expBtn+'<button class="inner-nav-btn" onclick="reportSavedQuestion(\''+escJs(b.key)+'\')" style="font-size:10px;margin-top:6px;padding:4px 10px;">Report Issue</button></div>'+exp+'</div>';
     } catch(e) {
       console.warn('[CUETAce] Could not render saved question', i, e, b);
       html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">Saved question</div><div class="saved-q-text">This saved question uses an older format. Remove it and save it again from the test screen.</div></div><button class="saved-q-remove" onclick="removeBookmarkByKey(\''+escJs(b.key)+'\')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div></div>';
@@ -234,6 +234,7 @@ async function renderSavedQuestions() {
   updateSavedSubjectFilter(bookmarks);
   updateSavedBadge();
   container.innerHTML = renderSavedQuestionsHtml(filterSavedQuestions(bookmarks));
+  if (typeof renderQuestionReportsPanel === 'function') renderQuestionReportsPanel();
 }
 
 function savedOptionsList(options) {
@@ -365,4 +366,23 @@ function reportSavedQuestion(key) {
   });
 }
 
-window.addEventListener('load', function() { updateSavedBadge(); });
+function focusSavedQuestion(key) {
+  savedQuestionFilters.search = '';
+  savedQuestionFilters.subject = 'All';
+  showView('dashboard');
+  switchTab(null, 'tab-saved');
+  setTimeout(() => {
+    const item = Array.from(document.querySelectorAll('[data-bookmark-key]'))
+      .find(el => String(el.dataset.bookmarkKey) === String(key));
+    if (!item) return;
+    item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    item.style.boxShadow = '0 0 0 2px rgba(201,168,76,.65)';
+    setTimeout(() => { item.style.boxShadow = ''; }, 1800);
+  }, 350);
+}
+
+window.addEventListener('load', function() {
+  updateSavedBadge();
+  const savedTab = document.getElementById('tab-saved');
+  if (savedTab && savedTab.classList.contains('active')) renderSavedQuestions();
+});

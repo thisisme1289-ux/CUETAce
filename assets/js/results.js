@@ -289,6 +289,19 @@ function openReview(idx) {
   window.scrollTo(0, 0);
 }
 
+async function openResultFromSearch(resultId) {
+  showView('dashboard');
+  switchTab(null, 'tab-results');
+  const results = await loadCloudResults();
+  visibleResultsCache = results;
+  const idx = results.findIndex(r => String(r.id) === String(resultId));
+  if (idx >= 0) {
+    setTimeout(() => openReview(idx), 80);
+  } else {
+    showAppToast('Result list opened. That older result was not found in synced history.', 'error');
+  }
+}
+
 function buildReviewAnalytics(r) {
   const container = document.getElementById('reviewAnalytics');
   if (!container) return;
