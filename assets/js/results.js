@@ -135,6 +135,7 @@ function submitTest() {
       explanation: q.explanation || '',
       userAnswer:  ans,
       status:      status,
+      reviewStatus: examState.status[i] || '',
       timeSpent:   examState.questionTimes[i] || 0
     });
   }
@@ -180,11 +181,14 @@ function submitTest() {
     marks:            marks,
     pct:              pct,
     avgTime:          avgTime,
+    mode:             examState.mode || 'mock',
+    pypMeta:          examState.pypMeta || null,
     chapterBreakdown: chapterBreakdown,
     questions:        snapshot
   };
 
   saveResult(result);
+  if (typeof clearActiveExamAttempt === 'function') clearActiveExamAttempt();
 
   // Update adaptive performance profile (mock tests only)
   if (examState.mode === 'mock') {
@@ -433,7 +437,28 @@ function buildReviewAnalytics(r) {
       </div>`;
   }
 
-  container.innerHTML = swotHtml + chartHtml + chBreakHtml + timeHtml;
+  const weakChapters = (r.chapterBreakdown || [])
+    .filter(ch => ch.total >= 2 && ch.pct < 70)
+    .sort((a, b) => a.pct - b.pct)
+    .slice(0, 3);
+  const markedCount = (r.questions || []).filter(q => q.reviewStatus === 'marked' || q.reviewStatus === 'ans-marked').length;
+  const nextHtml = `
+    <div style="margin-bottom:24px;background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;">
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--cream-muted);margin-bottom:10px;">Recommended Next Step</div>
+      <div style="font-size:13px;color:var(--cream-2);line-height:1.7;">
+        ${weakChapters.length
+          ? 'Revise: ' + weakChapters.map(ch => esc(ch.name) + ' (' + ch.pct + '%)').join(', ') + '.'
+          : 'Accuracy is steady. Retake a full mock or review slow questions for speed.'}
+        ${markedCount ? ' You also marked ' + markedCount + ' question' + (markedCount === 1 ? '' : 's') + ' for review.' : ''}
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;">
+        <button class="inner-nav-btn" type="button" onclick="filterReview('wrong')">Review Wrong</button>
+        <button class="inner-nav-btn" type="button" onclick="filterReview('skipped')">Review Skipped</button>
+        ${markedCount ? '<button class="inner-nav-btn" type="button" onclick="filterReview(&quot;marked&quot;)">Review Marked</button>' : ''}
+      </div>
+    </div>`;
+
+  container.innerHTML = swotHtml + nextHtml + chartHtml + chBreakHtml + timeHtml;
 }
 
 function closeReview() {
@@ -464,7 +489,9 @@ function renderReviewQuestions(filter) {
   let shown = 0;
 
   currentReviewResult.questions.forEach((q, i) => {
-    if (filter !== 'all' && q.status !== filter) return;
+    if (filter === 'marked') {
+      if (q.reviewStatus !== 'marked' && q.reviewStatus !== 'ans-marked') return;
+    } else if (filter !== 'all' && q.status !== filter) return;
     shown++;
 
     // Card left border colour by status
@@ -542,6 +569,7 @@ function renderReviewQuestions(filter) {
 
         <!-- Explanation -->
         ${expHtml}
+        <button class="inner-nav-btn" type="button" onclick="reportReviewQuestionIssue(${i})" style="font-size:10px;margin-top:12px;padding:5px 10px;">Report Issue</button>
       </div>`;
   });
 
@@ -553,4 +581,15 @@ function renderReviewQuestions(filter) {
   }
 
   list.innerHTML = html;
+}
+
+function reportReviewQuestionIssue(index) {
+  if (!currentReviewResult || !currentReviewResult.questions[index]) return;
+  reportQuestionIssue({
+    source: 'review',
+    subject: currentReviewResult.subject || '',
+    testName: currentReviewResult.testName || '',
+    questionIndex: index,
+    question: currentReviewResult.questions[index]
+  });
 }

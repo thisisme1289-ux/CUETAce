@@ -78,6 +78,8 @@ const BASE_URL = 'https://raw.githubusercontent.com/thisisme1289-ux/CUETAce/main
 const REPO_RAW_BASE_URL = 'https://raw.githubusercontent.com/thisisme1289-ux/CUETAce/main';
 const QUESTION_BANK_INDEX_URL = BASE_URL + '/question-bank-index.json';
 let QUESTION_BANK_INDEX_CACHE = null;
+const ACTIVE_EXAM_KEY = 'cuetace_active_exam_attempt';
+const QUESTION_REPORTS_KEY = 'cuetace_question_reports';
 
 // Maps each subject to its chapter file slugs (filename without .json)
 // File path pattern: questions/{subject-folder}/{chapter-slug}.json
@@ -141,6 +143,10 @@ function handleChapterClick(testName, subject) {
   showView('examscreen', { testName, subject, mode: 'chapter', qCount: 200 });
 }
 
+function buildExamResumeId(testName, subject, mode, pypUrl) {
+  return [mode || 'mock', subject || '', testName || '', pypUrl || ''].join('|');
+}
+
 function repoRawUrl(sourcePath) {
   return REPO_RAW_BASE_URL + '/' + String(sourcePath || '').replace(/^\/+/, '').split('/').map(encodeURIComponent).join('/');
 }
@@ -201,7 +207,14 @@ async function handlePYPClick(testName, subject, year) {
       testName: testName || pypDisplayName(entry, year, subject),
       subject,
       mode: 'pyp',
-      pypUrl: repoRawUrl(entry.sourcePath)
+      pypUrl: repoRawUrl(entry.sourcePath),
+      pypMeta: {
+        year: entry.year || year,
+        paper: entry.paper || '',
+        packId: entry.packId || '',
+        sourcePath: entry.sourcePath || '',
+        count: entry.count || 0
+      }
     });
   } catch (err) {
     console.warn('[CUETAce] Could not open past-year paper', err);
@@ -399,8 +412,11 @@ function showView(name, opts) {
     const mode     = (opts && opts.mode)       || 'mock';
     const pypUrl   = (opts && opts.pypUrl)     || null;
     const qCount   = (opts && opts.qCount)     || null;
+    const pypMeta  = (opts && opts.pypMeta)    || null;
+    const providedQuestions = (opts && opts.providedQuestions) || null;
+    const forceNew = !!(opts && opts.forceNew);
     applyExamPaletteState();
-    startExam(testName, subject, mode, pypUrl, qCount);
+    startExam(testName, subject, mode, pypUrl, qCount, pypMeta, providedQuestions, forceNew);
   }
 }
 
@@ -519,6 +535,140 @@ document.addEventListener('DOMContentLoaded', syncMobileNavVisibility);
 
 function toggleChapters(header) {
   header.closest('.chapter-group').classList.toggle('open');
+}
+
+function escJs(str) {
+  return String(str ?? '').replace(/\\/g, '\\\\').replace(/"/g, '&quot;').replace(/'/g, "\\'").replace(/\r?\n/g, ' ');
+}
+
+function getQuestionReports() {
+  try { return JSON.parse(localStorage.getItem(QUESTION_REPORTS_KEY) || '[]'); }
+  catch(e) { return []; }
+}
+
+function saveQuestionReports(reports) {
+  try { localStorage.setItem(QUESTION_REPORTS_KEY, JSON.stringify(reports.slice(0, 100))); } catch(e) {}
+}
+
+function reportQuestionIssue(payload) {
+  const reason = window.prompt('What is wrong with this question? Example: wrong answer, typo, incomplete options, bad explanation.');
+  if (!reason || !reason.trim()) return;
+  const reports = getQuestionReports();
+  reports.unshift({
+    id: Date.now(),
+    date: new Date().toISOString(),
+    reason: reason.trim(),
+    source: payload?.source || 'exam',
+    subject: payload?.subject || examState.subject || '',
+    testName: payload?.testName || examState.testName || '',
+    questionIndex: payload?.questionIndex ?? examState.currentQ,
+    question: payload?.question || EXAM_QUESTIONS[examState.currentQ] || null
+  });
+  saveQuestionReports(reports);
+  showAppToast('Thanks, this question issue was saved locally.', 'success');
+}
+
+function reportCurrentQuestionIssue() {
+  reportQuestionIssue({
+    source: examState.mode || 'exam',
+    subject: examState.subject,
+    testName: examState.testName,
+    questionIndex: examState.currentQ,
+    question: EXAM_QUESTIONS[examState.currentQ]
+  });
+}
+
+function ensureGlobalSearchModal() {
+  let modal = document.getElementById('globalSearchModal');
+  if (modal) return modal;
+  modal = document.createElement('div');
+  modal.id = 'globalSearchModal';
+  modal.className = 'exam-modal-overlay';
+  modal.innerHTML = `
+    <div class="exam-modal" style="max-width:720px;width:min(92vw,720px);max-height:82vh;overflow:auto;">
+      <button class="exam-info-close" type="button" onclick="closeGlobalSearch()" aria-label="Close search">&times;</button>
+      <h3>Search CUETAce</h3>
+      <input id="globalSearchInput" type="text" placeholder="Search chapters, papers, saved questions, results..." oninput="renderGlobalSearch(this.value)" style="width:100%;padding:11px 12px;background:var(--bg-3);border:1px solid var(--border);border-radius:7px;color:var(--cream);font-family:var(--font);font-size:13px;outline:none;margin:10px 0 14px;">
+      <div id="globalSearchResults"></div>
+    </div>`;
+  document.body.appendChild(modal);
+  return modal;
+}
+
+function openGlobalSearch() {
+  const modal = ensureGlobalSearchModal();
+  modal.classList.add('open');
+  setTimeout(() => {
+    const input = document.getElementById('globalSearchInput');
+    if (input) {
+      input.focus();
+      renderGlobalSearch(input.value || '');
+    }
+  }, 40);
+}
+
+function closeGlobalSearch() {
+  const modal = document.getElementById('globalSearchModal');
+  if (modal) modal.classList.remove('open');
+}
+
+function renderGlobalSearch(query) {
+  const q = String(query || '').trim().toLowerCase();
+  const target = document.getElementById('globalSearchResults');
+  if (!target) return;
+  const rows = [];
+  SUBJECTS.forEach(subject => {
+    (CHAPTERS[subject] || []).forEach(ch => {
+      if (!q || (subject + ' ' + ch).toLowerCase().includes(q)) {
+        rows.push({ type: 'Chapter', title: ch, meta: subject, action: "closeGlobalSearch();handleChapterClick('" + escJs(ch) + "','" + escJs(subject) + "')" });
+      }
+    });
+  });
+  if (typeof getActiveBookmarks === 'function') {
+    getActiveBookmarks().forEach(b => {
+      const hay = [b.subject, b.section, b.text, b.explanation].join(' ').toLowerCase();
+      if (!q || hay.includes(q)) rows.push({ type: 'Saved', title: b.text || 'Saved question', meta: [b.subject, b.section].filter(Boolean).join(' - '), action: "closeGlobalSearch();switchTab(null,'tab-saved')" });
+    });
+  }
+  if (typeof getStoredResults === 'function') {
+    getStoredResults().forEach((r, idx) => {
+      const hay = [r.subject, r.testName, r.date].join(' ').toLowerCase();
+      if (!q || hay.includes(q)) rows.push({ type: 'Result', title: r.testName || 'Result', meta: (r.subject || '') + ' - ' + (r.correct || 0) + '/' + (r.total || 0), action: "closeGlobalSearch();switchTab(null,'tab-results')" });
+    });
+  }
+  if (typeof CA !== 'undefined' && CA.state?.allArticles?.length) {
+    CA.state.allArticles.forEach(a => {
+      const hay = [a.headline, a.description, a.category].join(' ').toLowerCase();
+      if (!q || hay.includes(q)) rows.push({ type: 'Current Affairs', title: a.headline, meta: a.category + ' - ' + a.displayDate, action: "closeGlobalSearch();switchTab(null,'tab-ca')" });
+    });
+  }
+  target.innerHTML = globalSearchHtml(rows.slice(0, 30), q);
+  if (q && QUESTION_BANK_INDEX_CACHE) appendPypSearchRows(q, rows);
+  else if (q) loadQuestionBankIndex().then(() => appendPypSearchRows(q, rows)).catch(() => {});
+}
+
+function appendPypSearchRows(q, existingRows) {
+  const rows = existingRows.slice();
+  pypEntriesFromIndex(QUESTION_BANK_INDEX_CACHE).forEach(entry => {
+    const year = entry.year || '';
+    const title = pypDisplayName(entry, year, entry.subject || 'Past Paper');
+    const hay = [title, entry.subject, entry.year, entry.paper, entry.sourcePath].join(' ').toLowerCase();
+    const searchYear = Number.parseInt(String(year), 10) || new Date().getFullYear();
+    if (hay.includes(q)) rows.push({ type: 'Past Paper', title, meta: entry.count ? entry.count + ' questions' : 'Ready paper', action: "closeGlobalSearch();handlePYPClick('" + escJs(title) + "','" + escJs(entry.subject || '') + "'," + searchYear + ")" });
+  });
+  const target = document.getElementById('globalSearchResults');
+  if (target) target.innerHTML = globalSearchHtml(rows.slice(0, 30), q);
+}
+
+function globalSearchHtml(rows, q) {
+  if (!q) return '<div style="font-size:12px;color:var(--cream-muted);line-height:1.7;">Type to search chapters, past papers, saved questions, results, and current affairs.</div>';
+  if (!rows.length) return '<div style="padding:28px 0;text-align:center;color:var(--cream-muted);font-size:13px;">No matches found.</div>';
+  return rows.map(row => `
+    <button type="button" onclick="${row.action}" style="width:100%;text-align:left;background:var(--bg-2);border:1px solid var(--border);border-radius:7px;padding:10px 12px;margin-bottom:8px;color:var(--cream);font-family:var(--font);cursor:pointer;">
+      <div style="font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);">${esc(row.type)}</div>
+      <div style="font-size:13px;font-weight:600;line-height:1.5;margin-top:2px;">${esc(row.title).slice(0, 220)}</div>
+      <div style="font-size:11px;color:var(--cream-muted);margin-top:3px;">${esc(row.meta || '')}</div>
+    </button>`).join('');
 }
 
 // ── HAMBURGER ──
@@ -648,7 +798,7 @@ function buildQuestionsFromBank(bank, testName, mode, limit) {
       const chName = ch.chapter || ch.chapter_name || ch.section || 'General';
       if (!ch.questions || !Array.isArray(ch.questions)) return;
       ch.questions.forEach(q => all.push({
-        section: chName, text: q.question, passage: q.passage || '', sentence: q.sentence || '', statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
+        section: chName, text: q.question || q.text, passage: q.passage || '', sentence: q.sentence || '', statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
         options: q.options, correct: q.correct, explanation: q.explanation || '',
         type: q.type || 'MCQ', level: q.level || 'L1'
       }));
@@ -656,7 +806,7 @@ function buildQuestionsFromBank(bank, testName, mode, limit) {
     if (matched) {
       const matchedName = matched.chapter || matched.chapter_name || matched.section;
       const chQs = shuffleArray(matched.questions.map(q => ({
-        section: matchedName, text: q.question, passage: q.passage || '', sentence: q.sentence || '', statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
+        section: matchedName, text: q.question || q.text, passage: q.passage || '', sentence: q.sentence || '', statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
         options: q.options, correct: q.correct, explanation: q.explanation || '',
         type: q.type || 'MCQ', level: q.level || 'L1'
       })));
@@ -679,7 +829,7 @@ function buildQuestionsFromBank(bank, testName, mode, limit) {
     ch.questions.forEach(q => {
       const lvl = (q.level || 'L1').toUpperCase();
       const obj = {
-        section: chName, text: q.question, passage: q.passage || '', sentence: q.sentence || '', statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
+        section: chName, text: q.question || q.text, passage: q.passage || '', sentence: q.sentence || '', statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
         options: q.options, correct: q.correct, explanation: q.explanation || '',
         type: q.type || 'MCQ', level: lvl
       };
@@ -746,8 +896,9 @@ function buildQuestionsFromBank(bank, testName, mode, limit) {
       const chName = ch.chapter || ch.chapter_name || ch.section || 'General';
       if (!ch.questions || !Array.isArray(ch.questions)) return;
       ch.questions.forEach(q => {
-        if (!usedIds.has(q.question)) allQ.push({
-          section: chName, text: q.question, passage: q.passage || '', sentence: q.sentence || '', statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
+        const qText = q.question || q.text;
+        if (!usedIds.has(qText)) allQ.push({
+          section: chName, text: qText, passage: q.passage || '', sentence: q.sentence || '', statements: q.statements || null, column_i: q.column_i || null, column_ii: q.column_ii || null,
           options: q.options, correct: q.correct, explanation: q.explanation || '',
           type: q.type || 'MCQ', level: (q.level || 'L1').toUpperCase()
         });
@@ -772,12 +923,102 @@ let examState = {
   timerInterval: null,
   testName: 'Mock Test',
   subject: 'Accountancy',
+  mode: 'mock',
+  pypMeta: null,
+  resumeId: '',
   questionTimes: [],
   questionStartTime: Date.now()
 };
 
+function saveActiveExamAttempt() {
+  if (!EXAM_QUESTIONS.length || !examState.totalQ) return;
+  try {
+    localStorage.setItem(ACTIVE_EXAM_KEY, JSON.stringify({
+      savedAt: Date.now(),
+      resumeId: examState.resumeId,
+      questions: EXAM_QUESTIONS,
+      state: {
+        currentQ: examState.currentQ,
+        totalQ: examState.totalQ,
+        answers: examState.answers,
+        status: examState.status,
+        timerSecs: examState.timerSecs,
+        testName: examState.testName,
+        subject: examState.subject,
+        mode: examState.mode,
+        pypMeta: examState.pypMeta || null,
+        questionTimes: examState.questionTimes
+      }
+    }));
+  } catch(e) {
+    console.warn('[CUETAce] Could not save active attempt', e);
+  }
+}
+
+function loadActiveExamAttempt(resumeId) {
+  try {
+    const raw = localStorage.getItem(ACTIVE_EXAM_KEY);
+    if (!raw) return null;
+    const attempt = JSON.parse(raw);
+    if (!attempt || attempt.resumeId !== resumeId) return null;
+    if (!Array.isArray(attempt.questions) || !attempt.state) return null;
+    if (Date.now() - Number(attempt.savedAt || 0) > 12 * 60 * 60 * 1000) return null;
+    return attempt;
+  } catch(e) {
+    return null;
+  }
+}
+
+function clearActiveExamAttempt() {
+  try { localStorage.removeItem(ACTIVE_EXAM_KEY); } catch(e) {}
+}
+
+function updateExamHeaderLabels() {
+  updateExamHeaderLabels();
+  const timerEl = document.getElementById('examTimer');
+  if (timerEl) {
+    const m = String(Math.floor(examState.timerSecs / 60)).padStart(2,'0');
+    const s = String(examState.timerSecs % 60).padStart(2,'0');
+    timerEl.textContent = m + ':' + s;
+  }
+}
+
+function hydrateExamFromAttempt(attempt) {
+  EXAM_QUESTIONS = attempt.questions;
+  Object.assign(examState, {
+    currentQ: Number(attempt.state.currentQ || 0),
+    totalQ: Number(attempt.state.totalQ || attempt.questions.length),
+    answers: Array.isArray(attempt.state.answers) ? attempt.state.answers : [],
+    status: Array.isArray(attempt.state.status) ? attempt.state.status : [],
+    timerSecs: Number(attempt.state.timerSecs || 60 * 60),
+    testName: attempt.state.testName || 'Mock Test',
+    subject: attempt.state.subject || 'Accountancy',
+    mode: attempt.state.mode || 'mock',
+    pypMeta: attempt.state.pypMeta || null,
+    resumeId: attempt.resumeId || '',
+    questionTimes: Array.isArray(attempt.state.questionTimes) ? attempt.state.questionTimes : [],
+    questionStartTime: Date.now()
+  });
+  buildExamPalette();
+  if (examState.timerInterval) clearInterval(examState.timerInterval);
+  examState.timerInterval = setInterval(tickTimer, 1000);
+  updateExamHeaderLabels();
+  loadQuestion(Math.min(examState.currentQ, examState.totalQ - 1));
+  showAppToast('Resumed your in-progress attempt.', 'success');
+}
+
+function startExamFromQuestionSet(testName, subject, questions, mode) {
+  showView('examscreen', {
+    testName,
+    subject,
+    mode: mode || 'practice-set',
+    providedQuestions: questions,
+    forceNew: true
+  });
+}
+
 // ── START EXAM (async — fetches JSON from GitHub) ──
-async function startExam(testName, subject, mode, pypUrl, qCount) {
+async function startExam(testName, subject, mode, pypUrl, qCount, pypMeta, providedQuestions, forceNew) {
   examState.currentQ  = 0;
   examState.answers   = [];
   examState.status    = [];
@@ -787,8 +1028,17 @@ async function startExam(testName, subject, mode, pypUrl, qCount) {
   examState.testName  = testName || 'Mock Test';
   examState.subject   = subject  || 'Accountancy';
   examState.mode      = mode || 'mock';
+  examState.pypMeta   = pypMeta || null;
+  examState.resumeId  = buildExamResumeId(examState.testName, examState.subject, examState.mode, pypUrl);
   // Only show explanations for premium users (or mock tests)
   examState.showExplanations = true;
+
+  const savedAttempt = !forceNew ? loadActiveExamAttempt(examState.resumeId) : null;
+  if (savedAttempt && window.confirm('Resume your in-progress attempt for this test?')) {
+    hydrateExamFromAttempt(savedAttempt);
+    return;
+  }
+  if (savedAttempt) clearActiveExamAttempt();
 
   // ── 1. Update header labels immediately (no flicker) ──
   const tl = document.getElementById('examTestLabel');
@@ -826,7 +1076,16 @@ async function startExam(testName, subject, mode, pypUrl, qCount) {
     let bank;
 
     // PYP mode — single file per year/subject (unchanged)
-    if (mode === 'pyp' && pypUrl) {
+    if (Array.isArray(providedQuestions) && providedQuestions.length) {
+      bank = {
+        chapters: [{
+          chapter_id: mode || 'Practice',
+          chapter: testName || 'Practice Set',
+          questions: providedQuestions
+        }]
+      };
+
+    } else if (mode === 'pyp' && pypUrl) {
       const res = await fetch(pypUrl + '?v=' + Date.now());
       if (!res.ok) throw new Error('HTTP ' + res.status + ' — Past Year Paper not found at: ' + pypUrl);
       bank = await res.json();
@@ -940,6 +1199,7 @@ async function startExam(testName, subject, mode, pypUrl, qCount) {
   examState.timerInterval = setInterval(tickTimer, 1000);
 
   loadQuestion(0);
+  saveActiveExamAttempt();
 }
 
 
@@ -960,6 +1220,7 @@ function tickTimer() {
     wrap.className = 'exam-timer-wrap' +
       (examState.timerSecs < 180 ? ' critical' : examState.timerSecs < 600 ? ' warning' : '');
   }
+  if (examState.timerSecs % 15 === 0) saveActiveExamAttempt();
 }
 
 // ── LOAD QUESTION ──
@@ -1089,6 +1350,7 @@ function loadQuestion(index) {
 
   // Refresh palette highlight
   refreshPalette();
+  saveActiveExamAttempt();
 }
 
 // ── SELECT OPTION ──
@@ -1127,6 +1389,7 @@ function selectOption(optIndex) {
   }
   refreshPalette();
   setTimeout(updateBookmarkBtn, 10);
+  saveActiveExamAttempt();
 }
 
 // ── SAVE AND NEXT ──
@@ -1145,6 +1408,7 @@ function examMarkReview() {
     examState.status[cur] = 'marked';
   }
   refreshPalette();
+  saveActiveExamAttempt();
   goToNext();
 }
 
@@ -1158,6 +1422,7 @@ function examClear() {
   const expEl = document.getElementById('examExplanation');
   if (expEl) expEl.style.display = 'none';
   loadQuestion(cur); // re-render options
+  saveActiveExamAttempt();
 }
 
 // ── NAVIGATE ──

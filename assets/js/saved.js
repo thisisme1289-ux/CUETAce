@@ -1,6 +1,7 @@
 // BOOKMARK / SAVED QUESTIONS
 // ════════════════════════════════════
 const BOOKMARKS_KEY = 'cuetace_bookmarks';
+const savedQuestionFilters = { search: '', subject: 'All' };
 
 function getActiveBookmarks() {
   return mergeUniqueByKey(cloudBookmarksCache || [], getBookmarks(), 'key').slice(0, 200);
@@ -169,9 +170,38 @@ function mergeBookmarkSources(...sources) {
   return sources.reduce((merged, source) => mergeUniqueByKey(merged, source || [], 'key'), []).slice(0, 200);
 }
 
+function filterSavedQuestions(bookmarks) {
+  const q = savedQuestionFilters.search.trim().toLowerCase();
+  return bookmarks.filter(b => {
+    if (savedQuestionFilters.subject !== 'All' && (b.subject || 'Saved') !== savedQuestionFilters.subject) return false;
+    if (!q) return true;
+    return [
+      b.subject,
+      b.section,
+      b.chapter_id,
+      b.text,
+      b.question,
+      b.explanation
+    ].join(' ').toLowerCase().includes(q);
+  });
+}
+
+function updateSavedSubjectFilter(bookmarks) {
+  const select = document.getElementById('savedSubjectFilter');
+  if (!select) return;
+  const current = savedQuestionFilters.subject;
+  const subjects = [...new Set(bookmarks.map(b => b.subject || 'Saved'))].sort();
+  select.innerHTML = '<option value="All">All subjects</option>' + subjects.map(s =>
+    '<option value="' + esc(s) + '">' + esc(s) + '</option>'
+  ).join('');
+  select.value = subjects.includes(current) ? current : 'All';
+  savedQuestionFilters.subject = select.value;
+}
+
 function renderSavedQuestionsHtml(bookmarks) {
   if (!bookmarks.length) {
-    return '<div class="empty-state" style="margin-top:40px;"><div class="empty-line"></div><div class="empty-title">No saved questions yet</div><div class="empty-desc">Tap the bookmark icon during any test to save tricky questions for later review.</div><button class="empty-btn" onclick="switchTab(null,\'tab-mock\')">Start a Test</button></div>';
+    const hasFilters = savedQuestionFilters.search || savedQuestionFilters.subject !== 'All';
+    return '<div class="empty-state" style="margin-top:40px;"><div class="empty-line"></div><div class="empty-title">' + (hasFilters ? 'No saved questions match' : 'No saved questions yet') + '</div><div class="empty-desc">' + (hasFilters ? 'Clear the search or subject filter to see more saved questions.' : 'Tap the bookmark icon during any test to save tricky questions for later review.') + '</div><button class="empty-btn" onclick="switchTab(null,\'tab-mock\')">Start a Test</button></div>';
   }
   let html = '';
   bookmarks.forEach((b, i) => {
@@ -184,10 +214,10 @@ function renderSavedQuestionsHtml(bookmarks) {
     const body = renderSavedQuestionBody(b);
     const exp = b.explanation ? '<div class="saved-q-exp">'+esc(b.explanation)+'</div>' : '';
     const expBtn = b.explanation ? '<button class="inner-nav-btn" onclick="toggleSavedExp('+i+')" style="font-size:10px;margin-top:6px;padding:4px 10px;">Show Explanation</button>' : '';
-    html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">'+esc(b.subject||'Saved')+' &middot; '+esc(b.section||b.chapter_id||'Practice')+' &middot; '+esc(b.savedAt||'')+'</div>'+body+'</div><button class="saved-q-remove" onclick="removeBookmark('+i+')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class="saved-q-opts">'+opts+'</div>'+exp+expBtn+'</div>';
+    html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">'+esc(b.subject||'Saved')+' &middot; '+esc(b.section||b.chapter_id||'Practice')+' &middot; '+esc(b.savedAt||'')+'</div>'+body+'</div><button class="saved-q-remove" onclick="removeBookmarkByKey(\''+escJs(b.key)+'\')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class="saved-q-opts">'+opts+'</div><div style="display:flex;gap:8px;flex-wrap:wrap;">'+expBtn+'<button class="inner-nav-btn" onclick="reportSavedQuestion(\''+escJs(b.key)+'\')" style="font-size:10px;margin-top:6px;padding:4px 10px;">Report Issue</button></div>'+exp+'</div>';
     } catch(e) {
       console.warn('[CUETAce] Could not render saved question', i, e, b);
-      html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">Saved question</div><div class="saved-q-text">This saved question uses an older format. Remove it and save it again from the test screen.</div></div><button class="saved-q-remove" onclick="removeBookmark('+i+')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div></div>';
+      html += '<div class="saved-q-item" id="savedItem'+i+'"><div class="saved-q-header"><div><div class="saved-q-meta">Saved question</div><div class="saved-q-text">This saved question uses an older format. Remove it and save it again from the test screen.</div></div><button class="saved-q-remove" onclick="removeBookmarkByKey(\''+escJs(b.key)+'\')" title="Remove"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div></div>';
     }
   });
   return html;
@@ -197,11 +227,13 @@ async function renderSavedQuestions() {
   const container = document.getElementById('savedContainer');
   if (!container) return;
   const immediateBookmarks = mergeBookmarkSources(getActiveBookmarks(), getBookmarks());
-  container.innerHTML = renderSavedQuestionsHtml(immediateBookmarks);
+  updateSavedSubjectFilter(immediateBookmarks);
+  container.innerHTML = renderSavedQuestionsHtml(filterSavedQuestions(immediateBookmarks));
   const loadedBookmarks = await loadCloudBookmarks();
   const bookmarks = mergeBookmarkSources(loadedBookmarks, immediateBookmarks, getBookmarks());
+  updateSavedSubjectFilter(bookmarks);
   updateSavedBadge();
-  container.innerHTML = renderSavedQuestionsHtml(bookmarks);
+  container.innerHTML = renderSavedQuestionsHtml(filterSavedQuestions(bookmarks));
 }
 
 function savedOptionsList(options) {
@@ -273,6 +305,64 @@ function removeBookmark(i) {
   saveBookmarks(b);
   if (removed?.key) deleteBookmarkFromCloud(removed.key).catch(err => console.warn('[CUETAce] Could not delete cloud bookmark', err));
   renderSavedQuestions();
+}
+
+function removeBookmarkByKey(key) {
+  const bookmarks = [...getActiveBookmarks()];
+  const index = bookmarks.findIndex(b => String(b.key) === String(key));
+  if (index < 0) return;
+  removeBookmark(index);
+}
+
+function setSavedSearch(value) {
+  savedQuestionFilters.search = String(value || '');
+  renderSavedQuestions();
+}
+
+function setSavedSubject(value) {
+  savedQuestionFilters.subject = value || 'All';
+  renderSavedQuestions();
+}
+
+function savedBookmarkToQuestion(bookmark) {
+  return {
+    section: bookmark.section || bookmark.chapter_id || 'Saved Questions',
+    text: bookmark.text || bookmark.question || 'Saved question',
+    passage: bookmark.passage || '',
+    sentence: bookmark.sentence || '',
+    statements: bookmark.statements || null,
+    column_i: bookmark.column_i || null,
+    column_ii: bookmark.column_ii || null,
+    options: savedOptionsList(bookmark.options),
+    correct: savedCorrectIndex(bookmark.correct),
+    explanation: bookmark.explanation || '',
+    type: bookmark.type || 'MCQ'
+  };
+}
+
+function startSavedPractice() {
+  const bookmarks = filterSavedQuestions(getActiveBookmarks());
+  if (!bookmarks.length) {
+    showAppToast('Save a few questions first, or clear the current filter.', 'error');
+    return;
+  }
+  const questions = bookmarks.map(savedBookmarkToQuestion).filter(q => q.options.length && q.correct >= 0);
+  if (!questions.length) {
+    showAppToast('Saved questions need options and an answer to become a practice set.', 'error');
+    return;
+  }
+  startExamFromQuestionSet('Saved Questions Practice', bookmarks[0].subject || 'Saved', questions, 'saved');
+}
+
+function reportSavedQuestion(key) {
+  const bookmark = getActiveBookmarks().find(b => String(b.key) === String(key));
+  if (!bookmark) return;
+  reportQuestionIssue({
+    source: 'saved',
+    subject: bookmark.subject || '',
+    testName: 'Saved Questions',
+    question: savedBookmarkToQuestion(bookmark)
+  });
 }
 
 window.addEventListener('load', function() { updateSavedBadge(); });

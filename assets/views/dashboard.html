@@ -8,6 +8,7 @@
     <button class="inner-nav-btn" onclick="switchTab(this,'tab-results')">Results</button>
     <button class="inner-nav-btn" onclick="switchTab(this,'tab-ca')">Current Affairs</button>
     <button class="inner-nav-btn" onclick="switchTab(this,'tab-saved')" id="savedNavBtn">Saved<span class="saved-count-badge" id="savedCountBadge" style="display:none;margin-left:4px;"></span></button>
+    <button class="inner-nav-btn" onclick="openGlobalSearch()">Search</button>
   </div>
 
   <div class="dash-body">
@@ -167,6 +168,8 @@
               <input id="ca-search" type="text" placeholder="Search current affairs…" style="width:100%;padding:6px 10px 6px 30px;font-family:var(--font);font-size:12px;background:var(--bg-3);border:1px solid var(--border);border-radius:var(--r-sm);color:var(--cream);outline:none;" autocomplete="off" oninput="caOnSearch(this.value)">
             </div>
             <div id="ca-cat-filters" style="display:flex;gap:3px;flex-wrap:wrap;"></div>
+            <button class="ca-cat-btn" type="button" id="ca-important-toggle" onclick="CA.toggleImportant()">Important only</button>
+            <button class="test-btn btn-gold" type="button" onclick="CA.startQuiz()">Quiz Current View</button>
           </div>
 
         </div>
@@ -185,6 +188,13 @@
       <div class="dash-content">
         <div class="dash-section-title">Saved Questions</div>
         <div class="dash-section-sub">Questions you bookmark during tests for quick revision.</div>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px;max-width:760px;">
+          <input id="savedSearch" type="text" placeholder="Search saved questions..." oninput="setSavedSearch(this.value)" style="flex:1;min-width:190px;padding:8px 10px;background:var(--bg-3);border:1px solid var(--border);border-radius:7px;color:var(--cream);font-family:var(--font);font-size:12px;outline:none;">
+          <select id="savedSubjectFilter" onchange="setSavedSubject(this.value)" style="padding:8px 10px;background:var(--bg-3);border:1px solid var(--border);border-radius:7px;color:var(--cream);font-family:var(--font);font-size:12px;outline:none;">
+            <option value="All">All subjects</option>
+          </select>
+          <button class="test-btn btn-gold" type="button" onclick="startSavedPractice()">Practice Saved</button>
+        </div>
         <div id="savedContainer" style="margin-top:14px;max-width:760px;"></div>
       </div>
     </div>

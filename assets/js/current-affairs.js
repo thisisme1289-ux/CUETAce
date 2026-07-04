@@ -10,8 +10,10 @@ var CA = {
     month:       new Date().getMonth(),
     cat:         'All',
     search:      '',
+    importantOnly: false,
     allArticles: [],
     articles:    [],
+    visibleArticles: [],
     loaded:      false
   },
 
@@ -141,15 +143,24 @@ var CA = {
     this.renderFeed();
   },
 
+  toggleImportant() {
+    this.state.importantOnly = !this.state.importantOnly;
+    var btn = document.getElementById('ca-important-toggle');
+    if (btn) btn.classList.toggle('ca-active', this.state.importantOnly);
+    this.renderFeed();
+  },
+
   renderFeed() {
     var arts = this.state.articles.slice();
     if (this.state.cat !== 'All') arts = arts.filter(function(a) { return a.category === CA.state.cat; });
+    if (this.state.importantOnly) arts = arts.filter(function(a) { return !!a.important; });
     if (this.state.search) {
       var q = this.state.search;
       arts = arts.filter(function(a) {
         return a.headline.toLowerCase().indexOf(q) !== -1 || a.description.toLowerCase().indexOf(q) !== -1;
       });
     }
+    this.state.visibleArticles = arts.slice();
 
     var feed = document.getElementById('ca-feed');
     if (!feed) return;
@@ -197,6 +208,28 @@ var CA = {
 
     feed.innerHTML = html;
     this.updateSub(arts.length);
+  },
+
+  startQuiz() {
+    var arts = (this.state.visibleArticles && this.state.visibleArticles.length ? this.state.visibleArticles : this.state.articles).slice(0, 25);
+    if (!arts.length) {
+      showAppToast('No current affairs are visible for this filter.', 'error');
+      return;
+    }
+    var categories = this.CATS.filter(function(c) { return c !== 'All'; });
+    var questions = arts.map(function(a) {
+      var opts = [a.category].concat(categories.filter(function(c) { return c !== a.category; }).slice(0, 3));
+      opts.sort(function() { return Math.random() - 0.5; });
+      return {
+        section: 'Current Affairs',
+        text: 'Which category best matches this current-affairs item? ' + a.headline,
+        options: opts,
+        correct: opts.indexOf(a.category),
+        explanation: a.description || (a.source ? 'Source: ' + a.source : ''),
+        type: 'MCQ'
+      };
+    }).filter(function(q) { return q.correct >= 0; });
+    startExamFromQuestionSet('Current Affairs Quiz', 'General Test', questions, 'current-affairs');
   },
 
   showSkeleton() {
