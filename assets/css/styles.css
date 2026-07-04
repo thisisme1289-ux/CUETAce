@@ -688,6 +688,15 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 
 
 /* ── Saved Questions tab ── */
+
+@media (min-width: 768px) {
+  .dash-bottom-nav,
+  .mobile-more-panel,
+  .mobile-more-panel.open {
+    display: none !important;
+  }
+}
+
 .saved-q-item { background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r-lg);padding:16px 18px;margin-bottom:8px;transition:border-color var(--t); }
 .saved-q-item:hover { border-color:var(--border-light); }
 .saved-q-header { display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px; }
@@ -970,13 +979,14 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 .exam-palette-collapse svg {
   width: 16px;
   height: 16px;
+  transform: rotate(180deg);
   transition: transform 220ms ease;
 }
 .exam-main.palette-collapsed .exam-palette-collapse {
   right: 0;
 }
 .exam-main.palette-collapsed .exam-palette-collapse svg {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 .palette-grid-wrap {

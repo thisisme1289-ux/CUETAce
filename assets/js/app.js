@@ -487,6 +487,12 @@ function closeMobileMore() {
   if (panel) panel.classList.remove('open');
 }
 
+function syncMobileNavVisibility() {
+  if (window.matchMedia('(min-width: 768px)').matches) {
+    closeMobileMore();
+  }
+}
+
 function mobileMoreSelect(tabId) {
   closeMobileMore();
   switchTab(null, tabId);
@@ -502,6 +508,10 @@ document.addEventListener('click', function(e) {
 });
 
 // ── CHAPTER ACCORDION ──
+window.addEventListener('resize', syncMobileNavVisibility);
+window.addEventListener('orientationchange', syncMobileNavVisibility);
+document.addEventListener('DOMContentLoaded', syncMobileNavVisibility);
+
 function toggleChapters(header) {
   header.closest('.chapter-group').classList.toggle('open');
 }
@@ -1354,4 +1364,3 @@ initApp()
 // Current affairs logic lives in assets/js/current-affairs.js
 
 // Saved questions logic lives in assets/js/saved.js
-
