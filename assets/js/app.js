@@ -1073,7 +1073,7 @@ function syncBottomNav(tabId) {
   const directTabs = {
     'tab-home': 'bnav-home',
     'tab-mock': 'bnav-mock',
-    'tab-chapters': 'bnav-chapters'
+    'tab-results': 'bnav-results'
   };
   setBottomNav(directTabs[tabId] || 'bnav-more');
   document.querySelectorAll('.mobile-more-item').forEach(item => {
