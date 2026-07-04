@@ -1,0 +1,72 @@
+<div id="reviewscreen" style="display:none; min-height:100vh; background:var(--bg);">
+
+  <!-- Sticky header -->
+  <div class="review-header">
+    <button class="review-back-btn" onclick="closeReview()">&#8592; Back</button>
+    <div class="review-header-info">
+      <div class="review-test-name" id="reviewTestName">—</div>
+      <div class="review-meta" id="reviewMeta">—</div>
+    </div>
+    <div class="review-score-badge" id="reviewScoreBadge">—</div>
+  </div>
+
+  <!-- Score summary card -->
+  <div style="max-width:720px;margin:24px auto 0;padding:0 16px;">
+    <div style="background:var(--bg-2);border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+      <!-- Big 4 stats -->
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);">
+        <div style="padding:20px 10px;text-align:center;border-right:1px solid var(--border);">
+          <div id="rv-correct" style="font-size:clamp(20px,3vw,30px);font-weight:700;color:#4ade80;line-height:1;">0</div>
+          <div style="font-size:10px;color:var(--cream-muted);margin-top:5px;text-transform:uppercase;letter-spacing:0.07em;">Correct</div>
+        </div>
+        <div style="padding:20px 10px;text-align:center;border-right:1px solid var(--border);">
+          <div id="rv-wrong" style="font-size:clamp(20px,3vw,30px);font-weight:700;color:#f87171;line-height:1;">0</div>
+          <div style="font-size:10px;color:var(--cream-muted);margin-top:5px;text-transform:uppercase;letter-spacing:0.07em;">Wrong</div>
+        </div>
+        <div style="padding:20px 10px;text-align:center;border-right:1px solid var(--border);">
+          <div id="rv-skipped" style="font-size:clamp(20px,3vw,30px);font-weight:700;color:#94a3b8;line-height:1;">0</div>
+          <div style="font-size:10px;color:var(--cream-muted);margin-top:5px;text-transform:uppercase;letter-spacing:0.07em;">Skipped</div>
+        </div>
+        <div style="padding:20px 10px;text-align:center;">
+          <div id="rv-marks" style="font-size:clamp(20px,3vw,30px);font-weight:700;color:var(--gold);line-height:1;">0</div>
+          <div style="font-size:10px;color:var(--cream-muted);margin-top:5px;text-transform:uppercase;letter-spacing:0.07em;">Marks</div>
+        </div>
+      </div>
+      <!-- Secondary stats -->
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--border);">
+        <div style="padding:12px 10px;text-align:center;border-right:1px solid var(--border);">
+          <div id="rv-pct" style="font-size:14px;font-weight:600;color:var(--cream);">0%</div>
+          <div style="font-size:10px;color:var(--cream-muted);margin-top:2px;">Accuracy</div>
+        </div>
+        <div style="padding:12px 10px;text-align:center;border-right:1px solid var(--border);">
+          <div id="rv-time" style="font-size:14px;font-weight:600;color:var(--cream);">—</div>
+          <div style="font-size:10px;color:var(--cream-muted);margin-top:2px;">Time Taken</div>
+        </div>
+        <div style="padding:12px 10px;text-align:center;">
+          <div id="rv-total" style="font-size:14px;font-weight:600;color:var(--cream);">0</div>
+          <div style="font-size:10px;color:var(--cream-muted);margin-top:2px;">Total Qs</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Analytics: SWOT + Chart + Chapter breakdown + Time -->
+  <div id="reviewAnalytics" style="max-width:720px;margin:20px auto 0;padding:0 16px;"></div>
+
+  <!-- Filter bar -->
+  <div class="review-filter-bar" style="max-width:720px;margin:16px auto 0;padding:10px 16px;">
+    <button class="review-filter active" id="rf-all"     onclick="filterReview('all')">All</button>
+    <button class="review-filter"        id="rf-wrong"   onclick="filterReview('wrong')">&#10007; Wrong</button>
+    <button class="review-filter"        id="rf-correct" onclick="filterReview('correct')">&#10003; Correct</button>
+    <button class="review-filter"        id="rf-skipped" onclick="filterReview('skipped')">&#8213; Skipped</button>
+  </div>
+
+  <!-- Questions list -->
+  <div id="reviewQuestionsList" style="max-width:720px;margin:0 auto;padding:12px 16px 60px;"></div>
+
+</div>
+
+
+<!-- ════════════════════════════════════
+     EXAM SCREEN — Full NTA CBT Interface
+════════════════════════════════════ -->

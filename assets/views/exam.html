@@ -1,0 +1,165 @@
+<div id="examscreen" class="view">
+
+  <!-- TOP BAR -->
+  <div class="exam-topbar">
+    <div class="exam-topbar-left">
+      <div class="exam-brand">CUETAce</div>
+      <div class="exam-sep"></div>
+      <div class="exam-test-label" id="examTestLabel">Accountancy — Mock Test</div>
+    </div>
+    <div class="exam-topbar-center" id="examSectionLabel">Section: All Questions | All Compulsory</div>
+    <div class="exam-topbar-right">
+      <div class="exam-timer-wrap" id="examTimerWrap">
+        <span class="exam-timer-label">Time Left</span>
+        <span class="exam-timer-digits" id="examTimer">60:00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUESTION NUMBER STRIP — desktop -->
+  <div class="exam-qstrip">
+    <span class="exam-qstrip-num" id="examQNum">Question 1 of 60</span>
+    <div class="exam-qstrip-tools" aria-label="Exam tools">
+      <button class="exam-tool-btn" type="button" onclick="handleExamTool('accessibility')">Accessibility</button>
+      <button class="exam-tool-btn" type="button" onclick="handleExamTool('magnification')">Magnification</button>
+      <button class="exam-tool-btn" type="button" onclick="handleExamTool('information')">Information</button>
+    </div>
+    <div class="exam-qstrip-marks">
+      <span class="mpos">+5 Correct</span>
+      <span class="mneg">-1 Wrong</span>
+      <span class="mzero">0 Skipped</span>
+    </div>
+  </div>
+
+  <!-- MOBILE PROGRESS BAR -->
+  <div class="exam-mobile-progress" id="examMobileProgress">
+    <div class="exam-mobile-progress-fill" id="examProgressFill" style="width:2%"></div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="exam-main">
+
+    <!-- LEFT: Question Panel -->
+    <div class="exam-q-panel" id="examQPanel">
+      <div class="exam-q-inner">
+
+        <!-- Mobile: prev/next swipe nav -->
+        <div class="exam-swipe-nav" id="examSwipeNav">
+          <button class="swipe-btn" id="swipePrev" onclick="examNav(-1)">&#8592; Prev</button>
+          <span class="swipe-btn-center" id="swipeCenterLabel">1 / 50</span>
+          <button class="swipe-btn" id="swipeNext" onclick="examNav(1)">Next &#8594;</button>
+        </div>
+
+        <div class="exam-section-label" id="examQSection">General Section</div>
+        <div class="exam-passage" id="examPassage"></div>
+        <p class="exam-qtext" id="examQText">Loading question...</p>
+        <div class="exam-opts" id="examOpts"></div>
+        <div class="exam-explanation" id="examExplanation" style="display:none;"></div>
+
+      </div>
+    </div>
+
+    <!-- RIGHT: Palette Panel — desktop only -->
+    <div class="exam-palette-panel" id="examPalettePanel">
+      <div class="palette-candidate">
+        <div class="palette-candidate-label">Subject</div>
+        <div class="palette-subject-name" id="paletteSubject">Accountancy</div>
+      </div>
+      <div class="palette-legend-wrap">
+        <div class="palette-legend-title">Legend</div>
+        <div class="palette-legend-items">
+          <div class="pal-legend-item"><div class="pal-dot ng">1</div>Not Visited</div>
+          <div class="pal-legend-item"><div class="pal-dot nr">1</div>Not Answered</div>
+          <div class="pal-legend-item"><div class="pal-dot ans">1</div>Answered</div>
+          <div class="pal-legend-item"><div class="pal-dot rev">1</div>For Review</div>
+          <div class="pal-legend-item"><div class="pal-dot arm">1</div>Ans + Marked</div>
+        </div>
+      </div>
+      <div class="palette-grid-wrap">
+        <div class="palette-grid-title">Questions</div>
+        <div class="palette-grid" id="paletteGrid"></div>
+      </div>
+    </div>
+    <button class="exam-palette-collapse" id="examPaletteCollapseBtn" onclick="toggleExamPalette()" aria-label="Collapse question palette" title="Collapse question palette">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m15 18-6-6 6-6"/>
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- BOTTOM ACTION BAR -->
+  <div class="exam-actionbar">
+    <div class="exam-actionbar-left">
+      <button class="xbtn xbtn-back" onclick="examNav(-1)">&#8592; Back</button>
+      <button class="xbtn xbtn-clear" onclick="examClear()">Clear Response</button>
+      <button class="xbtn" id="btnBookmark" onclick="toggleBookmark()" title="Save question" style="display:inline-flex;align-items:center;justify-content:center;padding:0 12px;background:transparent;border:1px solid #2e2418;color:#5a5048;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      </button>
+      <!-- Mobile only: palette trigger button -->
+      <button class="exam-palette-trigger" onclick="togglePaletteSheet()">
+        <div class="palette-trigger-dot" id="paletteStatusDot"></div>
+        <span id="paletteTriggerLabel">Q 1</span>
+      </button>
+    </div>
+    <div class="exam-actionbar-right">
+      <button class="xbtn xbtn-review" onclick="examMarkReview()">
+        <span class="xbtn-review-text">Mark for Review &amp; Next</span>
+        <span class="xbtn-review-short">Review</span>
+      </button>
+      <button class="xbtn xbtn-save" onclick="examSaveNext()">
+        <span class="xbtn-save-text">Save &amp; Next &#8594;</span>
+        <span class="xbtn-save-short">Save &#8594;</span>
+      </button>
+      <button class="xbtn xbtn-submit" onclick="openSubmitModal()">Submit</button>
+    </div>
+  </div>
+
+  <!-- MOBILE: Palette bottom sheet -->
+  <div class="palette-sheet-overlay" id="paletteOverlay" onclick="togglePaletteSheet()"></div>
+  <div class="exam-palette-sheet" id="examPaletteSheet">
+    <div class="sheet-handle-wrap" onclick="togglePaletteSheet()">
+      <div class="sheet-handle"></div>
+    </div>
+    <div class="sheet-header">
+      <span class="sheet-title">Question Palette</span>
+      <button class="sheet-close-btn" onclick="togglePaletteSheet()">&#x2715;</button>
+    </div>
+    <div class="sheet-legend">
+      <div class="sheet-legend-item"><div class="sheet-legend-dot" style="background:#3d3128;border:1px solid #4a3c2f"></div>Not Visited</div>
+      <div class="sheet-legend-item"><div class="sheet-legend-dot" style="background:#c0544a"></div>Not Answered</div>
+      <div class="sheet-legend-item"><div class="sheet-legend-dot" style="background:#4a9268"></div>Answered</div>
+      <div class="sheet-legend-item"><div class="sheet-legend-dot" style="background:#7c5cbf"></div>For Review</div>
+    </div>
+    <div class="sheet-grid" id="sheetGrid"></div>
+  </div>
+
+  <!-- SUBMIT CONFIRM MODAL -->
+  <div class="exam-modal-overlay" id="submitModal">
+    <div class="exam-modal">
+      <h3>Submit Test?</h3>
+      <p>Once submitted, you cannot change your answers.</p>
+      <div class="exam-modal-stats">
+        <div class="modal-stat">
+          <div class="modal-stat-num green" id="modalAnswered">0</div>
+          <div class="modal-stat-label">Answered</div>
+        </div>
+        <div class="modal-stat">
+          <div class="modal-stat-num red" id="modalUnanswered">0</div>
+          <div class="modal-stat-label">Not Answered</div>
+        </div>
+        <div class="modal-stat">
+          <div class="modal-stat-num" id="modalMarked">0</div>
+          <div class="modal-stat-label">For Review</div>
+        </div>
+      </div>
+      <div class="exam-modal-btns">
+        <button class="modal-btn-cancel" onclick="closeSubmitModal()">Go Back</button>
+        <button class="modal-btn-submit" onclick="submitTest()">Submit Now</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

@@ -1,0 +1,353 @@
+<div id="landing" class="view active">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="CUET Mock Test Platform">
+    <div class="hero-left">
+      <div class="hero-tag">CUET 2026 — Commerce Stream</div>
+      <h1 class="hero-h1">CUETAce — Best Free<br><span class="hl">CUET Mock Test</span> Platform</h1>
+      <p class="hero-sub">India's most focused CUET Commerce preparation platform. Practice CUET 2026 with subject-wise mock tests, chapter-wise questions, and past year papers — all in the exact NTA CBT exam interface.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="showView('dashboard')" aria-label="Start free CUET mock test">Start Free CUET Mock Test</button>
+        <button class="btn-outline" onclick="showView('examscreen')" aria-label="Try a sample CUET practice test">Try a Sample Test</button>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><div class="trust-check"></div>10,000+ CUET Questions</div>
+        <div class="trust-item"><div class="trust-check"></div>4 Years of PYQs</div>
+        <div class="trust-item"><div class="trust-check"></div>Free to Start</div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hcard-top">
+          <span class="hcard-label">Mock Test — Accountancy</span>
+          <span class="hcard-timer" id="heroTimer">45:22</span>
+        </div>
+        <div class="hcard-body">
+          <div class="hcard-qmeta">Q. 12 of 50 &nbsp;·&nbsp; +5 / -1</div>
+          <p class="hcard-q">In the absence of a Partnership Deed, interest on a partner's loan to the firm is paid at ______ per annum as per the Indian Partnership Act 1932.</p>
+          <div class="hcard-opts">
+            <div class="hopt" onclick="selectHeroOpt(this)"><span class="hopt-ltr">A</span>No interest is paid</div>
+            <div class="hopt selected" onclick="selectHeroOpt(this)"><span class="hopt-ltr">B</span>6% per annum</div>
+            <div class="hopt" onclick="selectHeroOpt(this)"><span class="hopt-ltr">C</span>12% per annum</div>
+            <div class="hopt" onclick="selectHeroOpt(this)"><span class="hopt-ltr">D</span>As per mutual agreement</div>
+          </div>
+        </div>
+        <div class="hcard-foot">
+          <div class="hcard-prog"><div class="hcard-prog-fill"></div></div>
+          <span class="hcard-prog-txt">24% complete</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat-item"><div class="stat-num">10K+</div><div class="stat-label">Practice Questions</div></div>
+      <div class="stat-item"><div class="stat-num">6</div><div class="stat-label">Commerce Subjects</div></div>
+      <div class="stat-item"><div class="stat-num">50+</div><div class="stat-label">Full Mock Tests</div></div>
+      <div class="stat-item"><div class="stat-num">4 Yrs</div><div class="stat-label">Past Year Papers</div></div>
+    </div>
+  </div>
+
+  <!-- SUBJECTS -->
+  <section class="section subjects-bg" id="cuet-subjects" aria-label="CUET Commerce Subjects">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-tag">Commerce Curriculum</div>
+        <h2 class="section-heading">Practice CUET Commerce Mock Tests Online</h2>
+        <p class="section-sub">Complete CUET Commerce syllabus — chapter-wise practice tests and full subject mock tests for all 6 subjects. Covers every topic from Class 12 Commerce for CUET 2026.</p>
+      </div>
+      <div class="subjects-grid">
+        <div class="subj-card reveal" onclick="showView('dashboard');setTimeout(()=>goToSubject('Accountancy'),80)">
+          <div class="subj-icon-line"></div>
+          <div class="subj-name">Accountancy</div>
+          <div class="subj-desc">Partnership accounts, company accounts, financial statement analysis, ratios, and cash flow statements.</div>
+          <div class="subj-tags"><span class="tag">1,800 Questions</span><span class="tag">28 Chapters</span></div>
+        </div>
+        <div class="subj-card reveal" onclick="showView('dashboard');setTimeout(()=>goToSubject('Business Studies'),80)">
+          <div class="subj-icon-line"></div>
+          <div class="subj-name">Business Studies</div>
+          <div class="subj-desc">Management principles — Fayol, Taylor — organising, staffing, directing, marketing mix, and consumer protection.</div>
+          <div class="subj-tags"><span class="tag">1,600 Questions</span><span class="tag">52 Chapters</span></div>
+        </div>
+        <div class="subj-card reveal" onclick="showView('dashboard');setTimeout(()=>goToSubject('Economics'),80)">
+          <div class="subj-icon-line"></div>
+          <div class="subj-name">Economics</div>
+          <div class="subj-desc">Micro and macro economics, national income, money and banking, government budget, balance of payments.</div>
+          <div class="subj-tags"><span class="tag">1,900 Questions</span><span class="tag">58 Chapters</span></div>
+        </div>
+
+        <div class="subj-card reveal" onclick="showView('dashboard');setTimeout(()=>goToSubject('General Test'),80)">
+          <div class="subj-icon-line"></div>
+          <div class="subj-name">General Test</div>
+          <div class="subj-desc">Quantitative reasoning, logical and analytical reasoning, general awareness, and data interpretation.</div>
+          <div class="subj-tags"><span class="tag">1,500 Questions</span><span class="tag">43 Chapters</span></div>
+        </div>
+        <div class="subj-card reveal" onclick="showView('dashboard');setTimeout(()=>goToSubject('English'),80)">
+          <div class="subj-icon-line"></div>
+          <div class="subj-name">English</div>
+          <div class="subj-desc">Reading comprehension — three passage types — grammar, vocabulary, sentence rearrangement, and cloze tests.</div>
+          <div class="subj-tags"><span class="tag">1,200 Questions</span><span class="tag">26 Chapters</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-tag">Platform Features</div>
+        <h2 class="section-heading">Why CUETAce is the Best CUET Practice Platform</h2>
+        <p class="section-sub">Every feature mirrors the real NTA exam — the interface, the marking scheme, and the question types. No surprises on exam day.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feat-card reveal">
+          <div class="feat-num">01</div>
+          <div class="feat-title">CUET-Style Mock Tests</div>
+          <div class="feat-desc">Full-length 60-question tests in the exact NTA CBT interface. Same +5 / -1 marking, same timer, same question palette colours. Practice until the screen is familiar.</div>
+          <div class="feat-link">50+ Tests Available</div>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-num">02</div>
+          <div class="feat-title">Past Year Papers</div>
+          <div class="feat-desc">All official CUET papers from 2022 to 2025 — fully solved with detailed explanations. Understand exactly how NTA frames questions and what it repeats every year.</div>
+          <div class="feat-link">Fully Solved</div>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-num">03</div>
+          <div class="feat-title">Chapter-wise Practice</div>
+          <div class="feat-desc">262 chapters across 6 subjects — broken into focused practice sets. Drill any single chapter until it is exam-ready before moving to the next.</div>
+          <div class="feat-link">262 Chapters</div>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-num">04</div>
+          <div class="feat-title">Instant Results</div>
+          <div class="feat-desc">After every test, see your score, correct answers, and detailed explanations for each question. Track every attempt in your results history.</div>
+          <div class="feat-link">Per-Question Breakdown</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section how-bg">
+    <div class="section-inner">
+      <div style="text-align:center" class="reveal">
+        <div class="section-tag">How It Works</div>
+        <h2 class="section-heading">How to Prepare for CUET 2026 with CUETAce</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-num">STEP 01</div>
+          <div class="step-line"></div>
+          <div class="step-title">Pick a Subject or Test</div>
+          <div class="step-desc">Choose from subject-wise mock tests, past year papers, or focused chapter-wise practice. Every test uses the same CUET exam screen.</div>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">STEP 02</div>
+          <div class="step-line"></div>
+          <div class="step-title">Attempt in the Real CUET Interface</div>
+          <div class="step-desc">The exact NTA CBT screen — question palette, timer, Save and Next, Mark for Review. Practice until it becomes second nature.</div>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">STEP 03</div>
+          <div class="step-line"></div>
+          <div class="step-title">Review and Improve</div>
+          <div class="step-desc">Instant results with full explanations for every question. Your complete history is saved so you can track improvement over time.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO CONTENT BLOCK -->
+  <section class="section" id="about-cuetace" style="background:var(--bg);">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-tag">About CUETAce</div>
+        <h2 class="section-heading">The Best CUET Mock Test Platform for Commerce Students</h2>
+        <p style="font-size:15px;color:var(--cream-3);line-height:1.9;max-width:780px;margin-top:16px;">
+          CUETAce is built exclusively for Class 12 Commerce students preparing for <strong style="color:var(--cream-2);">CUET 2026</strong>. Unlike general platforms, every feature here mirrors the real NTA Computer Based Test — the same interface, the same +5/−1 marking scheme, the same question palette. When you sit for the actual CUET exam, the screen will feel familiar.
+        </p>
+        <p style="font-size:15px;color:var(--cream-3);line-height:1.9;max-width:780px;margin-top:14px;">
+          Our <strong style="color:var(--cream-2);">CUET mock tests</strong> cover all five Commerce subjects: Accountancy, Business Studies, Economics, General Test, and English. Each subject has 10,000+ practice questions organised by chapter, so you can drill any weak area before moving to full mock tests. After every test, you get a detailed <strong style="color:var(--cream-2);">SWOT analysis</strong> showing your strong and weak chapters, a performance history chart, and time-per-question breakdown.
+        </p>
+        <p style="font-size:15px;color:var(--cream-3);line-height:1.9;max-width:780px;margin-top:14px;">
+          <strong style="color:var(--cream-2);">CUET Commerce preparation</strong> requires consistent, focused practice. CUETAce gives you 3 free mock tests to start — no registration required. For full access including chapter-wise practice, past year papers (2022–2025), and detailed explanations, plans start at just ₹100 one-time with no subscription or renewal.
+        </p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
+          <button class="btn-primary" onclick="showView('dashboard');setTimeout(()=>switchTab(null,'tab-mock'),80)" style="min-height:44px;">
+            Attempt CUET Mock Test Free
+          </button>
+          <button class="btn-outline" onclick="showView('dashboard');setTimeout(()=>switchTab(null,'tab-chapters'),80)" style="min-height:44px;">
+            Practice Subject-wise Tests
+          </button>
+        </div>
+      </div>
+
+      <!-- Subject-wise links for SEO -->
+      <div style="margin-top:48px;" class="reveal">
+        <h3 style="font-size:18px;font-weight:700;color:var(--cream);margin-bottom:20px;letter-spacing:-0.01em;">Subject-wise CUET Mock Tests for Class 12 Commerce</h3>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;">
+          <a href="#" onclick="event.preventDefault();showView('dashboard');setTimeout(()=>handleMockStart('Accountancy Mock Test','Accountancy'),80)" style="background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:16px;text-decoration:none;transition:border-color 200ms;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">
+            <div style="font-size:11px;font-weight:700;color:var(--gold);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px;">Mock Test</div>
+            <div style="font-size:13px;font-weight:600;color:var(--cream);">CUET Accountancy Mock Test</div>
+            <div style="font-size:11px;color:var(--cream-muted);margin-top:3px;">60 Questions · NTA Pattern</div>
+          </a>
+          <a href="#" onclick="event.preventDefault();showView('dashboard');setTimeout(()=>handleMockStart('Business Studies Mock Test','Business Studies'),80)" style="background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:16px;text-decoration:none;transition:border-color 200ms;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">
+            <div style="font-size:11px;font-weight:700;color:var(--gold);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px;">Mock Test</div>
+            <div style="font-size:13px;font-weight:600;color:var(--cream);">CUET Business Studies Mock Test</div>
+            <div style="font-size:11px;color:var(--cream-muted);margin-top:3px;">60 Questions · NTA Pattern</div>
+          </a>
+          <a href="#" onclick="event.preventDefault();showView('dashboard');setTimeout(()=>handleMockStart('Economics Mock Test','Economics'),80)" style="background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:16px;text-decoration:none;transition:border-color 200ms;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">
+            <div style="font-size:11px;font-weight:700;color:var(--gold);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px;">Mock Test</div>
+            <div style="font-size:13px;font-weight:600;color:var(--cream);">CUET Economics Mock Test</div>
+            <div style="font-size:11px;color:var(--cream-muted);margin-top:3px;">60 Questions · NTA Pattern</div>
+          </a>
+
+          <a href="#" onclick="event.preventDefault();showView('dashboard');setTimeout(()=>handleMockStart('General Test Mock Test','General Test'),80)" style="background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:16px;text-decoration:none;transition:border-color 200ms;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">
+            <div style="font-size:11px;font-weight:700;color:var(--gold);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px;">Mock Test</div>
+            <div style="font-size:13px;font-weight:600;color:var(--cream);">CUET General Test Mock Test</div>
+            <div style="font-size:11px;color:var(--cream-muted);margin-top:3px;">60 Questions · GK + Reasoning</div>
+          </a>
+          <a href="#" onclick="event.preventDefault();showView('dashboard');setTimeout(()=>handleMockStart('English Mock Test','English'),80)" style="background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:16px;text-decoration:none;transition:border-color 200ms;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">
+            <div style="font-size:11px;font-weight:700;color:var(--gold);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px;">Mock Test</div>
+            <div style="font-size:13px;font-weight:600;color:var(--cream);">CUET English Mock Test</div>
+            <div style="font-size:11px;color:var(--cream-muted);margin-top:3px;">60 Questions · RC + Grammar</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section" id="faq" style="background:var(--bg-2);border-top:1px solid var(--border);" aria-label="Frequently Asked Questions about CUET">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-tag">FAQ</div>
+        <h2 class="section-heading">Frequently Asked Questions</h2>
+        <p class="section-sub">Everything you need to know about CUET preparation and CUETAce.</p>
+      </div>
+      <div style="margin-top:32px;max-width:760px;display:flex;flex-direction:column;gap:12px;" class="reveal">
+
+        <details style="background:var(--bg-3);border:1px solid var(--border);border-radius:8px;padding:0;overflow:hidden;">
+          <summary style="padding:18px 20px;font-size:15px;font-weight:600;color:var(--cream);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            What is a CUET mock test?
+            <span style="color:var(--gold);font-size:18px;flex-shrink:0;margin-left:12px;">+</span>
+          </summary>
+          <div style="padding:0 20px 18px;font-size:14px;color:var(--cream-3);line-height:1.8;border-top:1px solid var(--border);">
+            A CUET mock test is a full-length practice exam that replicates the actual NTA CUET CBT interface — with the same timer, question palette colours, and +5/−1 marking scheme. CUETAce mock tests have 50 questions per subject, matching the actual CUET exam pattern. Each test is followed by detailed results, SWOT analysis, and chapter-wise performance breakdown.
+          </div>
+        </details>
+
+        <details style="background:var(--bg-3);border:1px solid var(--border);border-radius:8px;padding:0;overflow:hidden;">
+          <summary style="padding:18px 20px;font-size:15px;font-weight:600;color:var(--cream);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            How to prepare for CUET Commerce 2026?
+            <span style="color:var(--gold);font-size:18px;flex-shrink:0;margin-left:12px;">+</span>
+          </summary>
+          <div style="padding:0 20px 18px;font-size:14px;color:var(--cream-3);line-height:1.8;border-top:1px solid var(--border);">
+            The most effective CUET Commerce preparation strategy is: (1) Complete your NCERT Class 12 syllabus first. (2) Practice chapter-wise on CUETAce to identify weak areas. (3) Attempt full subject-wise mock tests under timed conditions. (4) Review your SWOT analysis after each test and revisit weak chapters. (5) Attempt past year papers (2022–2025) in the last 30 days before the exam. Consistency of 2–3 hours daily for 3 months is sufficient for most Commerce students.
+          </div>
+        </details>
+
+        <details style="background:var(--bg-3);border:1px solid var(--border);border-radius:8px;padding:0;overflow:hidden;">
+          <summary style="padding:18px 20px;font-size:15px;font-weight:600;color:var(--cream);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            Is CUETAce free? What's included in the free plan?
+            <span style="color:var(--gold);font-size:18px;flex-shrink:0;margin-left:12px;">+</span>
+          </summary>
+          <div style="padding:0 20px 18px;font-size:14px;color:var(--cream-3);line-height:1.8;border-top:1px solid var(--border);">
+            Yes — CUETAce is free to start with no registration required. The free plan includes 3 full mock tests (60 questions each) for any subject. After the free tests, you can upgrade: Basic plan (₹100 one-time) gives unlimited mock tests and 30-question chapter-wise practice. Premium plan (₹200 one-time) gives everything — 200 questions per chapter, past year papers in attempt mode, and detailed explanations for every question.
+          </div>
+        </details>
+
+        <details style="background:var(--bg-3);border:1px solid var(--border);border-radius:8px;padding:0;overflow:hidden;">
+          <summary style="padding:18px 20px;font-size:15px;font-weight:600;color:var(--cream);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            Which subjects are covered for CUET Commerce?
+            <span style="color:var(--gold);font-size:18px;flex-shrink:0;margin-left:12px;">+</span>
+          </summary>
+          <div style="padding:0 20px 18px;font-size:14px;color:var(--cream-3);line-height:1.8;border-top:1px solid var(--border);">
+            CUETAce covers all 5 Commerce stream subjects for CUET 2026: Accountancy (16 chapters, 1,800+ questions), Business Studies (12 chapters, 1,600+ questions), Economics (15 chapters, 1,900+ questions), General Test (9 chapters, 1,500+ questions), and English (5 chapters, 1,200+ questions).
+          </div>
+        </details>
+
+        <details style="background:var(--bg-3);border:1px solid var(--border);border-radius:8px;padding:0;overflow:hidden;">
+          <summary style="padding:18px 20px;font-size:15px;font-weight:600;color:var(--cream);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            What is the CUET marking scheme?
+            <span style="color:var(--gold);font-size:18px;flex-shrink:0;margin-left:12px;">+</span>
+          </summary>
+          <div style="padding:0 20px 18px;font-size:14px;color:var(--cream-3);line-height:1.8;border-top:1px solid var(--border);">
+            The official NTA CUET marking scheme is +5 marks for every correct answer and −1 mark for every wrong answer. Unattempted questions carry 0 marks. CUETAce mock tests use this exact marking scheme so your practice scores accurately reflect your expected CUET performance.
+          </div>
+        </details>
+
+        <details style="background:var(--bg-3);border:1px solid var(--border);border-radius:8px;padding:0;overflow:hidden;">
+          <summary style="padding:18px 20px;font-size:15px;font-weight:600;color:var(--cream);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            Are CUET past year papers available on CUETAce?
+            <span style="color:var(--gold);font-size:18px;flex-shrink:0;margin-left:12px;">+</span>
+          </summary>
+          <div style="padding:0 20px 18px;font-size:14px;color:var(--cream-3);line-height:1.8;border-top:1px solid var(--border);">
+            Yes — CUETAce Premium includes official CUET past year papers from 2022 to 2025 for all 6 Commerce subjects. Premium users can attempt these papers in the full NTA CBT exam mode with timer and marking, and review answers with detailed explanations afterwards.
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <div class="cta-banner" id="mock-tests">
+    <h2>Start Your CUET Mock Test Preparation Today</h2>
+    <p>Practice CUET Commerce 2026 with free mock tests, chapter-wise questions, and past year papers. No registration required.</p>
+    <button class="btn-primary" onclick="showView('dashboard')" aria-label="Start free CUET mock test preparation">Start Free CUET Preparation</button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-cols">
+        <div>
+          <div class="footer-brand">CUET<span>Ace</span></div>
+          <p class="footer-tagline">The focused CUET Commerce preparation platform. Built for Class 12 students serious about their exam.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Subjects</div>
+          <ul class="footer-links">
+            <li><a href="#">Accountancy</a></li>
+            <li><a href="#">Business Studies</a></li>
+            <li><a href="#">Economics</a></li>
+
+            <li><a href="#">General Test</a></li>
+            <li><a href="#">English</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Practice</div>
+          <ul class="footer-links">
+            <li><a href="#">Mock Tests</a></li>
+            <li><a href="#">Past Year Papers</a></li>
+            <li><a href="#">Chapter Practice</a></li>
+            <li><a href="#">My Results</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 CUETAce. All rights reserved.</span>
+        <span>Built for CUET Commerce students.</span>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- ════════════════════════════════════
+     DASHBOARD
+════════════════════════════════════ -->

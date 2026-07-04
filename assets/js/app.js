@@ -2467,7 +2467,10 @@ function renderReviewQuestions(filter) {
 
 // showView handles exam startup directly — see VIEW SYSTEM above
 // ── INIT: show landing page correctly on load ──
-(function init() {
+async function initApp() {
+  if (window.cuetaceViewsReady) {
+    await window.cuetaceViewsReady;
+  }
   populateTargetYearOptions();
   initFirebaseServices();
   bindProfileLoginKeys();
@@ -2488,18 +2491,23 @@ function renderReviewQuestions(filter) {
     landing.style.display = 'block';
     landing.classList.add('active');
   }
-})();
+}
 
-// ── SCROLL REVEAL ──
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.1 });
-document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+function initScrollReveal() {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+}
+
+initApp()
+  .then(initScrollReveal)
+  .catch(err => console.warn('[CUETAce] App init failed', err));
 
 // ══════════════════════════════════════════════════════════
 // ══════════════════════════════════════════════════════════
