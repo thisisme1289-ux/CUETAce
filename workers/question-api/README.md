@@ -122,6 +122,10 @@ Response shape:
 Cloudflare environment variable:
 
 - `FIREBASE_PROJECT_ID=cuet-d3dea`
+- `QUESTION_API_SECRET=<long random secret>`
+- Optional: `ALLOWED_ORIGINS=https://cuetace.fun,https://www.cuetace.fun`
+
+`QUESTION_API_SECRET` signs attempt metadata. `/solutions` refuses to serve answers without it.
 
 ## How Website Fetching Works
 
@@ -132,6 +136,10 @@ Cloudflare environment variable:
 5. The browser does not store the full question bank for Worker-powered exams.
 6. On submit, the website fetches any missing question text windows, then requests `/solutions` with the Firebase ID token for scoring and review.
 7. The frontend no longer falls back to raw GitHub question files for normal exams, because those files include answer keys.
+
+## Security Limits
+
+This Worker prevents live exam windows from exposing answer keys and protects `/solutions` with Firebase auth plus signed attempt metadata. It does not make a public GitHub question bank private. For full content protection, move `questions/` to a private backend store such as Cloudflare R2/KV/D1 or a private repository accessible only by the Worker.
 
 ## Current Repo Structure Used By Worker
 

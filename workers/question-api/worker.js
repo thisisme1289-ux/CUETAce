@@ -22,28 +22,33 @@ const CHAPTER_SLUGS = {
   english: ['EN-S1','EN-S2','EN-S3','EN-S4','EN-S5']
 };
 
-const CORS = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Authorization, Content-Type',
-  'Access-Control-Max-Age': '86400'
-};
+const DEFAULT_ALLOWED_ORIGINS = [
+  'https://cuetace.fun',
+  'https://www.cuetace.fun',
+  'https://cuetace.thisisme1289.workers.dev',
+  'http://localhost:8787',
+  'http://127.0.0.1:8787',
+  'http://localhost:5173',
+  'http://127.0.0.1:5173'
+];
 
 const RATE_BUCKETS = new Map();
 
 export default {
   async fetch(request, env, ctx) {
-    if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS });
+    if (request.method === 'OPTIONS') return withCors(new Response(null, { status: 204 }), request, env);
     const url = new URL(request.url);
 
     try {
-      if (url.pathname === '/health') return json({ ok: true, ts: Date.now(), version: '2026-07-secure-windowed' });
-      if (url.pathname === '/manifest') return json({ subjects: Object.keys(SUBJECT_FOLDER), chapters: CHAPTER_SLUGS });
-      if (url.pathname === '/questions') return handleQuestions(request, url, env, ctx);
-      if (url.pathname === '/solutions') return handleSolutions(request, url, env, ctx);
-      return json({ error: 'Not found' }, 404);
+      let response;
+      if (url.pathname === '/health') response = json({ ok: true, ts: Date.now(), version: '2026-07-secure-windowed-v2' });
+      else if (url.pathname === '/manifest') response = json({ subjects: Object.keys(SUBJECT_FOLDER), chapters: CHAPTER_SLUGS });
+      else if (url.pathname === '/questions') response = await handleQuestions(request, url, env, ctx);
+      else if (url.pathname === '/solutions') response = await handleSolutions(request, url, env, ctx);
+      else response = json({ error: 'Not found' }, 404);
+      return withCors(response, request, env);
     } catch (err) {
-      return json({ error: err.message || 'Worker error' }, 500);
+      return withCors(json({ error: err.message || 'Worker error' }, 500), request, env);
     }
   }
 };
@@ -56,6 +61,7 @@ async function handleQuestions(request, url, env, ctx) {
   if (selection.response) return selection.response;
   const { mode, subject, meta, selected, start, windowStart, windowSize } = selection;
   const windowQuestions = selected.slice(start, start + windowSize).map(q => normalizeQuestion(q, { includeSolution: false }));
+  const attemptToken = await signAttemptToken(buildAttemptClaims(url), env);
 
   return json({
     ok: true,
@@ -63,7 +69,7 @@ async function handleQuestions(request, url, env, ctx) {
     mode,
     subject,
     meta,
-    access: { solutionsIncluded: false, solutionEndpoint: '/solutions' },
+    access: { solutionsIncluded: false, solutionEndpoint: '/solutions', attemptToken },
     window: { start, size: windowQuestions.length, requestedStart: windowStart, requestedSize: windowSize },
     questions: windowQuestions
   });
@@ -72,6 +78,8 @@ async function handleQuestions(request, url, env, ctx) {
 async function handleSolutions(request, url, env, ctx) {
   const auth = await requireAuthorizedRequest(request, env);
   if (!auth.ok) return json({ error: auth.error }, auth.status);
+  const tokenCheck = await verifyAttemptToken(url, env);
+  if (!tokenCheck.ok) return json({ error: tokenCheck.error }, tokenCheck.status);
 
   const rate = checkRateLimit(request, 'solutions:' + auth.uid, 45, 60_000);
   if (!rate.ok) return json({ error: 'Too many solution requests. Please slow down.' }, 429);
@@ -121,6 +129,9 @@ async function resolveQuestionSelection(url, ctx) {
   if (mode === 'chapter') {
     const chapter = url.searchParams.get('chapter') || '';
     if (!chapter) return { response: json({ error: 'chapter required for chapter mode' }, 400) };
+    if (!(CHAPTER_SLUGS[folder] || []).includes(chapter)) {
+      return { response: json({ error: 'Unknown chapter for subject.' }, 400) };
+    }
     const data = await fetchJson(`${QUESTIONS_BASE}/${folder}/${chapter}.json`, ctx);
     questions = extractQuestions(data);
     meta.chapter = chapter;
@@ -325,6 +336,85 @@ async function requireAuthorizedRequest(request, env) {
   }
 }
 
+function buildAttemptClaims(url) {
+  return {
+    mode: url.searchParams.get('mode') || 'chapter',
+    subject: url.searchParams.get('subject') || '',
+    chapter: url.searchParams.get('chapter') || '',
+    year: url.searchParams.get('year') || '',
+    paper: url.searchParams.get('paper') || '',
+    packId: url.searchParams.get('packId') || '',
+    sourcePath: url.searchParams.get('sourcePath') || '',
+    count: String(clamp(toInt(url.searchParams.get('count'), (url.searchParams.get('mode') || 'chapter') === 'mock' ? 50 : 200), 1, 500)),
+    seed: url.searchParams.get('seed') || 'cuetace'
+  };
+}
+
+async function signAttemptToken(claims, env) {
+  const secret = env.QUESTION_API_SECRET || '';
+  if (!secret) return '';
+  const body = { ...claims, iat: Math.floor(Date.now() / 1000) };
+  const payload = base64UrlEncode(new TextEncoder().encode(JSON.stringify(body)));
+  const signature = await hmacSha256(payload, secret);
+  return payload + '.' + signature;
+}
+
+async function verifyAttemptToken(url, env) {
+  const secret = env.QUESTION_API_SECRET || '';
+  if (!secret) {
+    return { ok: false, status: 503, error: 'QUESTION_API_SECRET is required before solutions can be served.' };
+  }
+
+  const token = url.searchParams.get('attemptToken') || '';
+  const [payloadPart, signaturePart] = token.split('.');
+  if (!payloadPart || !signaturePart) return { ok: false, status: 401, error: 'Valid attempt token required.' };
+
+  const expectedSignature = await hmacSha256(payloadPart, secret);
+  if (!constantTimeEqual(signaturePart, expectedSignature)) {
+    return { ok: false, status: 401, error: 'Invalid attempt token.' };
+  }
+
+  let claims;
+  try {
+    claims = JSON.parse(base64UrlDecode(payloadPart));
+  } catch (err) {
+    return { ok: false, status: 401, error: 'Invalid attempt token payload.' };
+  }
+
+  const now = Math.floor(Date.now() / 1000);
+  if (!claims.iat || claims.iat < now - 6 * 60 * 60 || claims.iat > now + 300) {
+    return { ok: false, status: 401, error: 'Expired attempt token.' };
+  }
+
+  const expected = buildAttemptClaims(url);
+  const mismatch = Object.keys(expected).some(key => String(claims[key] || '') !== String(expected[key] || ''));
+  if (mismatch) return { ok: false, status: 401, error: 'Attempt token does not match this request.' };
+  return { ok: true, claims };
+}
+
+async function hmacSha256(payload, secret) {
+  const key = await crypto.subtle.importKey(
+    'raw',
+    new TextEncoder().encode(secret),
+    { name: 'HMAC', hash: 'SHA-256' },
+    false,
+    ['sign']
+  );
+  const signature = await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(payload));
+  return base64UrlEncode(new Uint8Array(signature));
+}
+
+function constantTimeEqual(a, b) {
+  const left = String(a || '');
+  const right = String(b || '');
+  let diff = left.length ^ right.length;
+  const max = Math.max(left.length, right.length);
+  for (let i = 0; i < max; i++) {
+    diff |= (left.charCodeAt(i) || 0) ^ (right.charCodeAt(i) || 0);
+  }
+  return diff === 0;
+}
+
 function getBearerToken(request) {
   const header = request.headers.get('Authorization') || '';
   const match = header.match(/^Bearer\s+(.+)$/i);
@@ -388,6 +478,12 @@ function base64UrlToBytes(value) {
   return bytes;
 }
 
+function base64UrlEncode(bytes) {
+  let binary = '';
+  for (const byte of bytes) binary += String.fromCharCode(byte);
+  return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/g, '');
+}
+
 function parseWeights(value) {
   if (!value) return {};
   try { return JSON.parse(decodeURIComponent(value)); } catch (err) { return {}; }
@@ -426,6 +522,28 @@ function clamp(value, min, max) {
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { 'Content-Type': 'application/json', ...CORS }
+    headers: { 'Content-Type': 'application/json' }
   });
+}
+
+function withCors(response, request, env) {
+  const headers = new Headers(response.headers);
+  const origin = request.headers.get('Origin') || '';
+  const allowed = getAllowedOrigins(env);
+  if (origin && allowed.includes(origin)) {
+    headers.set('Access-Control-Allow-Origin', origin);
+    headers.set('Vary', 'Origin');
+  }
+  headers.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  headers.set('Access-Control-Allow-Headers', 'Authorization, Content-Type');
+  headers.set('Access-Control-Max-Age', '86400');
+  return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+}
+
+function getAllowedOrigins(env) {
+  const configured = String(env.ALLOWED_ORIGINS || '')
+    .split(',')
+    .map(origin => origin.trim())
+    .filter(Boolean);
+  return configured.length ? configured : DEFAULT_ALLOWED_ORIGINS;
 }

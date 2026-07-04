@@ -235,7 +235,8 @@ function buildApiAttempt(testName, subject, mode, pypMeta, pypUrl, qCount) {
     paper: pypMeta?.paper || '',
     packId: pypMeta?.packId || '',
     sourcePath: pypMeta?.sourcePath || '',
-    pypUrl: pypUrl || ''
+    pypUrl: pypUrl || '',
+    attemptToken: ''
   };
   attempt.key = [
     attempt.mode, attempt.subject, attempt.chapter, attempt.year,
@@ -267,6 +268,7 @@ async function fetchApiQuestionWindow(attempt, centerIndex) {
   if (!data || !data.window || !Array.isArray(data.questions)) {
     throw new Error('Question API is not updated for windowed loading yet.');
   }
+  if (data.access && data.access.attemptToken) attempt.attemptToken = data.access.attemptToken;
   const actualStart = Number(data.window.start || 0);
   data.questions.forEach((question, offset) => {
     EXAM_QUESTIONS[actualStart + offset] = normalizeApiQuestion(question);
@@ -287,6 +289,7 @@ async function fetchApiSolutions(attempt, solutionStart, solutionSize) {
     sourcePath: attempt.sourcePath,
     count: attempt.count,
     seed: attempt.seed,
+    attemptToken: attempt.attemptToken,
     solutionStart,
     solutionSize
   }, '/solutions');
