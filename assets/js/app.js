@@ -1021,9 +1021,15 @@ function switchTab(btn, tabId) {
     if ((b.getAttribute('onclick') || '').includes(tabId)) b.classList.add('active');
   });
 
-  document.querySelectorAll('.dash-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.dash-tab').forEach(t => {
+    t.classList.remove('active');
+    t.style.display = 'none';
+  });
   const tab = document.getElementById(tabId);
-  if (tab) tab.classList.add('active');
+  if (tab) {
+    tab.classList.add('active');
+    tab.style.display = 'block';
+  }
   window.scrollTo(0, 0);
   if (tabId === 'tab-chapters') buildChapters();
   if (tabId === 'tab-papers')   buildPapers();
@@ -2735,7 +2741,7 @@ function caOnSearch(v) { CA.state.search = v.trim().toLowerCase(); CA.renderFeed
 const BOOKMARKS_KEY = 'cuetace_bookmarks';
 
 function getActiveBookmarks() {
-  return cloudBookmarksCache || getBookmarks();
+  return mergeUniqueByKey(cloudBookmarksCache || [], getBookmarks(), 'key').slice(0, 200);
 }
 
 function normalizeBookmarkForSync(bookmark) {
@@ -2897,6 +2903,10 @@ function updateSavedBadge() {
   }
 }
 
+function mergeBookmarkSources(...sources) {
+  return sources.reduce((merged, source) => mergeUniqueByKey(merged, source || [], 'key'), []).slice(0, 200);
+}
+
 function renderSavedQuestionsHtml(bookmarks) {
   if (!bookmarks.length) {
     return '<div class="empty-state" style="margin-top:40px;"><div class="empty-line"></div><div class="empty-title">No saved questions yet</div><div class="empty-desc">Tap the bookmark icon during any test to save tricky questions for later review.</div><button class="empty-btn" onclick="switchTab(null,\'tab-mock\')">Start a Test</button></div>';
@@ -2924,11 +2934,10 @@ function renderSavedQuestionsHtml(bookmarks) {
 async function renderSavedQuestions() {
   const container = document.getElementById('savedContainer');
   if (!container) return;
-  const immediateBookmarks = getActiveBookmarks();
-  if (immediateBookmarks.length) {
-    container.innerHTML = renderSavedQuestionsHtml(immediateBookmarks);
-  }
-  const bookmarks = await loadCloudBookmarks();
+  const immediateBookmarks = mergeBookmarkSources(getActiveBookmarks(), getBookmarks());
+  container.innerHTML = renderSavedQuestionsHtml(immediateBookmarks);
+  const loadedBookmarks = await loadCloudBookmarks();
+  const bookmarks = mergeBookmarkSources(loadedBookmarks, immediateBookmarks, getBookmarks());
   updateSavedBadge();
   container.innerHTML = renderSavedQuestionsHtml(bookmarks);
 }
