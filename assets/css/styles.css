@@ -1445,8 +1445,6 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
   .dash-content { padding: 20px 16px 80px; }
   .quickstart-grid { grid-template-columns: repeat(2,1fr); }
   .dash-stats { grid-template-columns: repeat(2,1fr); }
-  .dash-bottom-nav { display: block; }
-  .inner-nav { display: none; }
 }
 
 /* ── Mobile (≤767px) ── */
@@ -1486,6 +1484,8 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 
   /* Dashboard */
   .exam-mobile-blocker { display: flex; }
+  .dash-bottom-nav { display: block; }
+  .inner-nav { display: none; }
   .dash-content { padding: 16px 14px 76px; }
   .quickstart-grid { grid-template-columns: repeat(2,1fr); gap: 8px; }
   .dash-stats { grid-template-columns: repeat(2,1fr); gap: 8px; }
