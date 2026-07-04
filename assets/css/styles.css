@@ -790,23 +790,34 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 
 /* ── MAIN BODY: Question area + Palette side by side ── */
 .exam-main {
-  display: flex;
+  --palette-width: 300px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--palette-width);
   margin-top: 88px; /* topbar 52 + strip 36 */
   height: calc(100vh - 88px - 60px); /* fixed height so both panels scroll independently */
   overflow: hidden;
   position: relative;
+  transition: grid-template-columns 220ms ease;
+}
+.exam-main.palette-collapsed {
+  grid-template-columns: minmax(0, 1fr) 0;
 }
 
 /* ── LEFT: QUESTION AREA ── */
 .exam-q-panel {
-  flex: 1;
   min-width: 0;
   height: 100%;          /* fill fixed container so overflow-y: auto works */
   overflow-y: auto;
-  padding: clamp(18px, 3vw, 40px) clamp(22px, 4.5vw, 72px) 32px;
+  padding: clamp(18px, 3vw, 40px) clamp(28px, 5vw, 96px) 32px;
   background: #1e1b18;
+  scrollbar-width: thin;
+  scrollbar-color: #4a3c2f #1e1b18;
 }
-.exam-q-inner { max-width: 1120px; width: 100%; }
+.exam-q-panel::-webkit-scrollbar { width: 8px; }
+.exam-q-panel::-webkit-scrollbar-track { background: #1e1b18; }
+.exam-q-panel::-webkit-scrollbar-thumb { background: #4a3c2f; border-radius: 999px; }
+.exam-q-panel::-webkit-scrollbar-thumb:hover { background: #5d4d3d; }
+.exam-q-inner { max-width: none; width: 100%; }
 
 .exam-section-label {
   display: inline-block;
@@ -915,18 +926,20 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 
 /* ── RIGHT: QUESTION PALETTE PANEL ── */
 .exam-palette-panel {
-  width: 260px; min-width: 260px;
+  width: 300px;
+  min-width: 0;
   background: #221c17;
   border-left: 1px solid #3d3128;
   display: flex; flex-direction: column;
   height: 100%;
   overflow: hidden;
-  transition: width 220ms ease, min-width 220ms ease, border-color 220ms ease;
+  transition: width 220ms ease, opacity 180ms ease, border-color 220ms ease;
 }
 .exam-main.palette-collapsed .exam-palette-panel {
   width: 0;
-  min-width: 0;
+  opacity: 0;
   border-left-color: transparent;
+  pointer-events: none;
 }
 .exam-main.palette-collapsed .exam-palette-panel > * {
   visibility: hidden;
@@ -934,7 +947,7 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 .exam-palette-collapse {
   position: fixed;
   top: 102px;
-  right: 260px;
+  right: var(--palette-width);
   width: 30px;
   height: 48px;
   border: 1px solid #3d3128;
@@ -1241,7 +1254,7 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 
   /* ── Main layout: stack vertically on mobile ── */
   .exam-main {
-    flex-direction: column;
+    display: block;
     margin-top: 83px; /* 44 topbar + 36 qstrip + 3px progress */
     height: auto;
     min-height: calc(100vh - 83px - 56px);
