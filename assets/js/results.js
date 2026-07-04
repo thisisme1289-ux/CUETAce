@@ -33,23 +33,31 @@ function mergeUniqueByKey(primary, secondary, keyName) {
 }
 
 async function saveResultToCloud(result) {
-  if (!cuetaceUser || !firebaseFns) return null;
-  const saveUserResult = firebaseFns.httpsCallable('saveUserResult');
-  const response = await saveUserResult({ result });
-  const saved = normalizeCloudResult(response.data);
+  if (!cuetaceUser || !firebaseDb) return null;
+  const normalized = normalizeResultForSync(result);
+  const payload = {
+    ...normalized,
+    uid: cuetaceUser.uid,
+    email: cuetaceUser.email || '',
+    createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+    updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+  };
+  await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('results')
+    .doc(String(normalized.id)).set(payload, { merge: true });
+  const saved = normalizeCloudResult({ ...payload, createdAtMillis: Date.now() });
   if (cloudResultsCache) {
     cloudResultsCache = [saved, ...cloudResultsCache.filter(item => String(item.id) !== String(saved.id))].slice(0, 50);
   }
-  return response.data;
+  return saved;
 }
 
 async function loadCloudResults() {
-  if (!cuetaceUser || !firebaseFns) return getStoredResults();
+  if (!cuetaceUser || !firebaseDb) return getStoredResults();
   if (cloudResultsCache) return cloudResultsCache;
   try {
-    const listUserResults = firebaseFns.httpsCallable('listUserResults');
-    const response = await listUserResults({ limit: 50 });
-    const cloudResults = (response.data.results || []).map(normalizeCloudResult);
+    const snap = await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('results')
+      .orderBy('createdAt', 'desc').limit(50).get();
+    const cloudResults = snap.docs.map(doc => normalizeCloudResult({ id: doc.id, ...doc.data() }));
     cloudResultsCache = mergeUniqueByKey(cloudResults, getStoredResults(), 'id').slice(0, 50);
     return cloudResultsCache;
   } catch (err) {
@@ -59,12 +67,11 @@ async function loadCloudResults() {
 }
 
 async function migrateLocalResultsToCloud() {
-  if (!cuetaceUser || !firebaseFns) return;
+  if (!cuetaceUser || !firebaseDb) return;
   const localResults = getStoredResults().map(normalizeResultForSync);
   if (!localResults.length) return;
   try { localStorage.setItem(RESULTS_KEY, JSON.stringify(localResults.slice(0, 50))); } catch(e) {}
-  const saveUserResult = firebaseFns.httpsCallable('saveUserResult');
-  await Promise.all(localResults.slice(0, 50).map(result => saveUserResult({ result }).catch(err => {
+  await Promise.all(localResults.slice(0, 50).map(result => saveResultToCloud(result).catch(err => {
     console.warn('[CUETAce] Could not migrate result', err);
   })));
   cloudResultsCache = null;

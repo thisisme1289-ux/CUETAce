@@ -68,7 +68,7 @@ function initFirebaseServices() {
   if (!isFirebaseReady() || firebaseApp) return !!firebaseApp;
   firebaseApp = firebase.initializeApp(CUETACE_FIREBASE_CONFIG);
   firebaseAuth = firebase.auth();
-  firebaseFns = firebase.app().functions(CUETACE_FIREBASE_CONFIG.functionsRegion || 'asia-south1');
+  firebaseFns = null;
   firebaseDb = firebase.firestore();
   if (firebase.analytics && CUETACE_FIREBASE_CONFIG.measurementId) {
     try { firebaseAnalytics = firebase.analytics(); } catch(e) { firebaseAnalytics = null; }
@@ -81,14 +81,6 @@ function initFirebaseServices() {
         const result = await syncProfileData({});
         cuetaceProfile = result.data.profile || null;
         if (shouldOpenProfileAfterLogin(cuetaceProfile)) shouldShowProfile = true;
-        const sessionOk = await claimActiveUserSession();
-        if (!sessionOk) {
-          cuetaceUser = null;
-          cuetaceProfile = null;
-          updateAuthUI();
-          openProfileModal();
-          return;
-        }
         await migrateLocalProgressToCloud();
         await refreshCloudProgress();
       } catch (err) {
@@ -113,8 +105,7 @@ function initFirebaseServices() {
 }
 
 function firebaseCallable(name) {
-  if (!initFirebaseServices()) return null;
-  return firebaseFns.httpsCallable(name);
+  return null;
 }
 
 function getDeviceSessionId() {
@@ -135,36 +126,12 @@ function getDeviceSessionId() {
 }
 
 async function claimActiveUserSession() {
-  if (!cuetaceUser || !firebaseFns) return true;
-  const claim = firebaseFns.httpsCallable('claimUserSession');
-  try {
-    await claim({ deviceId: getDeviceSessionId() });
-    sessionLockMessage = '';
-    startSessionHeartbeat();
-    return true;
-  } catch (err) {
-    sessionLockMessage = err.message || 'This email is already open on another device.';
-    stopSessionHeartbeat();
-    try { await firebaseAuth.signOut(); } catch(e) {}
-    return false;
-  }
+  sessionLockMessage = '';
+  return true;
 }
 
 function startSessionHeartbeat() {
   stopSessionHeartbeat();
-  sessionHeartbeatTimer = setInterval(async () => {
-    if (!cuetaceUser || !firebaseFns) return;
-    try {
-      const heartbeat = firebaseFns.httpsCallable('heartbeatUserSession');
-      await heartbeat({ deviceId: getDeviceSessionId() });
-    } catch (err) {
-      sessionLockMessage = err.message || 'This email was opened on another device.';
-      stopSessionHeartbeat();
-      try { await firebaseAuth.signOut(); } catch(e) {}
-      updateAuthUI();
-      openProfileModal();
-    }
-  }, 60000);
 }
 
 function stopSessionHeartbeat() {
@@ -173,23 +140,11 @@ function stopSessionHeartbeat() {
 }
 
 async function releaseActiveUserSession() {
-  if (!cuetaceUser || !firebaseFns) return;
-  try {
-    const release = firebaseFns.httpsCallable('releaseUserSession');
-    await release({ deviceId: getDeviceSessionId() });
-  } catch(e) {}
+  return;
 }
 
 async function syncProfileData(updates = {}) {
   if (!cuetaceUser) throw new Error('Please sign in first.');
-  if (firebaseFns) {
-    try {
-      const syncProfile = firebaseFns.httpsCallable('syncProfile');
-      return await syncProfile(updates);
-    } catch (err) {
-      console.warn('[CUETAce] Function profile sync failed, using Firestore fallback', err);
-    }
-  }
   if (!firebaseDb) throw new Error('Profile storage is not ready yet.');
   const ref = firebaseDb.collection('users').doc(cuetaceUser.uid);
   const snap = await ref.get();

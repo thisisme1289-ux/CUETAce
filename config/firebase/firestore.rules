@@ -28,8 +28,7 @@ service cloud.firestore {
       }
 
       match /results/{resultId} {
-        allow read: if owns(uid);
-        allow write: if false;
+        allow read, create, update, delete: if owns(uid);
       }
     }
 
