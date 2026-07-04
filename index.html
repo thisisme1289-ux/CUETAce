@@ -3,6 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="/">
+<script>
+  (function () {
+    var params = new URLSearchParams(window.location.search || '');
+    var spaPath = params.get('spaPath');
+    if (!spaPath) return;
+    var nextPath = spaPath;
+    if (!nextPath || nextPath.charAt(0) !== '/') nextPath = '/';
+    window.history.replaceState(null, '', nextPath);
+  })();
+</script>
 
 <!-- ── PRIMARY SEO ── -->
 <title>CUETAce – Free CUET Mock Test 2026 | CUET Commerce Preparation</title>
