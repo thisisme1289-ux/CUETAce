@@ -339,6 +339,11 @@ async function ensureAllExamQuestionsLoaded() {
 
 async function ensureApiSolutionsLoaded() {
   if (!examState.apiAttempt) return true;
+  const alreadyHasSolutions = EXAM_QUESTIONS
+    .slice(0, examState.totalQ)
+    .every(q => q && Object.prototype.hasOwnProperty.call(q, 'correct'));
+  if (alreadyHasSolutions) return true;
+
   const chunkSize = 100;
   for (let i = 0; i < examState.totalQ; i += chunkSize) {
     await fetchApiSolutions(examState.apiAttempt, i, Math.min(chunkSize, examState.totalQ - i));
