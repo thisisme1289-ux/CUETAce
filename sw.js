@@ -1,5 +1,5 @@
 // CUETAce Service Worker
-const CACHE = 'cuetace-v3';
+const CACHE = 'cuetace-v4';
 const STATIC = ['/', '/index.html'];
 
 self.addEventListener('install', e => {
