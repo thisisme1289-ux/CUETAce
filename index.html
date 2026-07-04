@@ -158,7 +158,13 @@
 <!-- ── NAVIGATION ── -->
 <nav class="nav">
   <div class="nav-logo" onclick="showView('landing')" style="cursor:pointer;">CUET<span>Ace</span></div>
-  <button class="profile-chip" id="profileCornerBtn" onclick="openProfileModal()" aria-label="Open profile">U</button>
+  <button class="profile-chip" id="profileCornerBtn" onclick="openProfileModal()" aria-label="Sign in">
+    <span class="profile-chip-avatar" id="profileCornerAvatar">U</span>
+    <span class="profile-chip-copy">
+      <span class="profile-chip-label" id="profileCornerLabel">Sign in</span>
+      <span class="profile-chip-sub" id="profileCornerSub">Save progress</span>
+    </span>
+  </button>
 </nav>
 
 <div data-view-src="assets/views/auth.html"></div>

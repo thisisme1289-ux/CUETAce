@@ -295,9 +295,12 @@ function updateAuthUI() {
   const devNote = document.getElementById('profileDevNote');
   const loginTitle = document.getElementById('profileLoginTitle');
   const loginSub = document.getElementById('profileLoginSub');
+  const detailsTitle = document.getElementById('profileDetailsTitle');
+  const detailsSub = document.getElementById('profileDetailsSub');
   const gateNote = document.getElementById('profileGateNote');
   const savedCard = document.getElementById('profileSavedCard');
   const configured = isFirebaseReady();
+  const needsProfile = !!cuetaceUser && shouldOpenProfileAfterLogin(cuetaceProfile);
   if (emailInput && cuetaceUser?.email) emailInput.value = cuetaceUser.email;
   fillProfileForm();
   updateProfileIdentityUI();
@@ -307,6 +310,10 @@ function updateAuthUI() {
   if (loginSub) loginSub.textContent = profileModalRequired
     ? 'Sign in to open the dashboard and save your test progress.'
     : 'Sign in whenever you want to save progress or manage your profile.';
+  if (detailsTitle) detailsTitle.textContent = needsProfile ? 'Complete Profile' : 'Your CUETAce Profile';
+  if (detailsSub) detailsSub.textContent = needsProfile
+    ? 'Add your student details so CUETAce can save progress around your exam plan.'
+    : 'Your profile, saved questions, results, and progress are connected to this login.';
   if (gateNote) gateNote.classList.toggle('active', !!profileModalRequired && !cuetaceUser);
   if (savedCard && !savedCard.dataset.keepVisible) savedCard.classList.remove('active');
   if (saveBtn) saveBtn.style.display = configured && cuetaceUser ? '' : 'none';
@@ -346,14 +353,30 @@ function updateProfileIdentityUI() {
   const initials = profileInitials();
   const avatar = document.getElementById('profileAvatarPreview');
   const corner = document.getElementById('profileCornerBtn');
+  const cornerAvatar = document.getElementById('profileCornerAvatar');
+  const cornerLabel = document.getElementById('profileCornerLabel');
+  const cornerSub = document.getElementById('profileCornerSub');
+  const displayName = (cuetaceProfile?.name || cuetaceUser?.displayName || '').trim();
+  const email = cuetaceUser?.email || '';
+  const isSignedIn = !!cuetaceUser;
+  const isIncomplete = isSignedIn && shouldOpenProfileAfterLogin(cuetaceProfile);
   const render = el => {
     if (!el) return;
     if (photo) el.innerHTML = '<img src="' + photo.replace(/"/g, '&quot;') + '" alt="">';
     else el.textContent = initials;
   };
   render(avatar);
-  render(corner);
-  if (corner) corner.title = cuetaceUser ? 'Open profile' : 'Sign in';
+  render(cornerAvatar || corner);
+  if (cornerLabel) cornerLabel.textContent = isSignedIn ? (displayName || 'Profile') : 'Sign in';
+  if (cornerSub) cornerSub.textContent = isSignedIn
+    ? (isIncomplete ? 'Complete details' : (email || 'Saved online'))
+    : 'Save progress';
+  if (corner) {
+    corner.classList.toggle('signed-in', isSignedIn);
+    corner.classList.toggle('profile-incomplete', isIncomplete);
+    corner.title = isSignedIn ? 'Open your CUETAce profile' : 'Sign in to save progress';
+    corner.setAttribute('aria-label', isSignedIn ? 'Open your CUETAce profile' : 'Sign in to CUETAce');
+  }
 }
 
 function updateResendButton() {
