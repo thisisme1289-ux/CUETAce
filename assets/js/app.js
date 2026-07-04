@@ -80,6 +80,39 @@ const QUESTION_BANK_INDEX_URL = BASE_URL + '/question-bank-index.json';
 let QUESTION_BANK_INDEX_CACHE = null;
 const ACTIVE_EXAM_KEY = 'cuetace_active_exam_attempt';
 const QUESTION_REPORTS_KEY = 'cuetace_question_reports';
+const ROUTE_TO_TAB = {
+  '/dashboard': 'tab-home',
+  '/mock-tests': 'tab-mock',
+  '/chapter-wise': 'tab-chapters',
+  '/past-papers': 'tab-papers',
+  '/results': 'tab-results',
+  '/current-affairs': 'tab-ca',
+  '/saved': 'tab-saved'
+};
+const TAB_TO_ROUTE = Object.entries(ROUTE_TO_TAB).reduce((map, pair) => {
+  map[pair[1]] = pair[0];
+  return map;
+}, {});
+const ROUTE_ALIASES = {
+  '/home': '/dashboard',
+  '/mock': '/mock-tests',
+  '/chapters': '/chapter-wise',
+  '/papers': '/past-papers',
+  '/past-year-papers': '/past-papers',
+  '/current-affairs/': '/current-affairs',
+  '/saved/': '/saved',
+  '/results/': '/results',
+  '/dashboard/': '/dashboard',
+  '/login/': '/login'
+};
+const HASH_TO_ROUTE = {
+  '#mock-tests': '/mock-tests',
+  '#chapter-wise': '/chapter-wise',
+  '#past-papers': '/past-papers',
+  '#current-affairs': '/current-affairs',
+  '#results': '/results',
+  '#saved': '/saved'
+};
 
 // Maps each subject to its chapter file slugs (filename without .json)
 // File path pattern: questions/{subject-folder}/{chapter-slug}.json
@@ -349,16 +382,67 @@ function buildPapers() {
 }
 
 // ── VIEW SYSTEM ──
+function normalizeAppPath(pathname) {
+  let path = String(pathname || '/').split('?')[0].split('#')[0];
+  if (!path.startsWith('/')) path = '/' + path;
+  if (path.length > 1 && path.endsWith('/')) path = path.slice(0, -1);
+  return ROUTE_ALIASES[path] || path;
+}
+
+function setAppPath(path, replace) {
+  const cleanPath = normalizeAppPath(path);
+  if (window.location.pathname === cleanPath && !window.location.search && !window.location.hash) return;
+  const method = replace ? 'replaceState' : 'pushState';
+  window.history[method]({ cuetacePath: cleanPath }, '', cleanPath);
+}
+
+function routeToPath(pathname, options) {
+  const opts = options || {};
+  const path = normalizeAppPath(pathname);
+
+  if (path === '/' || path === '/index.html') {
+    showView('landing', { routeUpdate: false });
+    if (path === '/index.html') setAppPath('/', true);
+    return true;
+  }
+
+  if (path === '/login') {
+    showView('landing', { routeUpdate: false });
+    openProfileModal();
+    return true;
+  }
+
+  const tabId = ROUTE_TO_TAB[path];
+  if (tabId) {
+    showView('dashboard', { routeUpdate: false, initialTab: tabId });
+    if (ROUTE_ALIASES[window.location.pathname]) setAppPath(path, true);
+    return true;
+  }
+
+  if (!opts.silent) showView('landing', { routeUpdate: false });
+  return false;
+}
+
+function routeCurrentPath() {
+  if ((window.location.pathname === '/' || window.location.pathname === '/index.html') && HASH_TO_ROUTE[window.location.hash]) {
+    setAppPath(HASH_TO_ROUTE[window.location.hash], true);
+  }
+  return routeToPath(window.location.pathname);
+}
+
 function showView(name, opts) {
   if (shouldRequireLoginForView(name)) {
     openRequiredLoginModal(name, opts);
     return;
   }
+  const routeUpdate = !opts || opts.routeUpdate !== false;
 
   // Persist view so it survives page reload
   if (name === 'dashboard' || name === 'landing') {
     localStorage.setItem('cuetace_lastview', name);
   }
+  if (routeUpdate && name === 'landing') setAppPath('/', false);
+  if (routeUpdate && name === 'dashboard') setAppPath('/dashboard', false);
 
   // Stop exam timer if navigating away from exam
   if (name !== 'examscreen' && examState.timerInterval) {
@@ -403,6 +487,9 @@ function showView(name, opts) {
   if (name === 'dashboard') {
     buildChapters();
     buildPapers();
+    if (opts && opts.initialTab) {
+      setTimeout(() => switchTab(null, opts.initialTab, { routeUpdate: false }), 80);
+    }
   }
 
   // Exam screen setup — always start exam on both desktop and mobile
@@ -421,10 +508,12 @@ function showView(name, opts) {
 }
 
 // ── TAB SYSTEM ──
-function switchTab(btn, tabId) {
+function switchTab(btn, tabId, options) {
   if (!tabId) return;
+  const opts = options || {};
   if (tabId === 'tab-results') setTimeout(renderResultsList, 60);
   localStorage.setItem('cuetace_lasttab', tabId);
+  if (opts.routeUpdate !== false && TAB_TO_ROUTE[tabId]) setAppPath(TAB_TO_ROUTE[tabId], false);
   closeMobileMore();
 
   // Always highlight by matching tabId string — works whether called from btn click or programmatically
@@ -1906,6 +1995,7 @@ async function initApp() {
     landing.style.display = 'block';
     landing.classList.add('active');
   }
+  routeCurrentPath();
 }
 
 function initScrollReveal() {
@@ -1923,6 +2013,8 @@ function initScrollReveal() {
 initApp()
   .then(initScrollReveal)
   .catch(err => console.warn('[CUETAce] App init failed', err));
+
+window.addEventListener('popstate', routeCurrentPath);
 
 // ══════════════════════════════════════════════════════════
 // ══════════════════════════════════════════════════════════
