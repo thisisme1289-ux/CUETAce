@@ -922,7 +922,7 @@ function ensureGlobalSearchModal() {
   modal.className = 'exam-modal-overlay';
   modal.innerHTML = `
     <div class="exam-modal" style="max-width:720px;width:min(92vw,720px);max-height:82vh;overflow:auto;">
-      <button class="exam-info-close" type="button" onclick="closeGlobalSearch()" aria-label="Close search">&times;</button>
+      <button class="exam-info-close close-danger" type="button" onclick="closeGlobalSearch()" aria-label="Close search">&times;</button>
       <h3>Search CUETAce</h3>
       <input id="globalSearchInput" type="text" placeholder="Search chapters, papers, saved questions, results..." oninput="renderGlobalSearch(this.value)" style="width:100%;padding:11px 12px;background:var(--bg-3);border:1px solid var(--border);border-radius:7px;color:var(--cream);font-family:var(--font);font-size:13px;outline:none;margin:10px 0 14px;">
       <div id="globalSearchResults"></div>
