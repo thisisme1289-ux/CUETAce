@@ -32,10 +32,15 @@ let sessionHeartbeatTimer = null;
 let sessionUnsubscribe = null;
 let sessionSignOutInProgress = false;
 let sessionLockMessage = '';
+let authStateResolved = false;
+let authStateResolve = null;
+let authFlowLoading = false;
+let pendingProtectedView = null;
 let cloudResultsCache = null;
 let cloudBookmarksCache = null;
 let cloudProgressMigrated = false;
 let visibleResultsCache = null;
+const authReadyPromise = new Promise(resolve => { authStateResolve = resolve; });
 
 function shouldOpenProfileAfterLogin(profile) {
   if (!profile) return true;
@@ -78,9 +83,12 @@ function initFirebaseServices() {
   }
   firebaseAuth.onAuthStateChanged(async user => {
     cuetaceUser = user || null;
+    const wasResolved = authStateResolved;
     let shouldShowProfile = !!user && consumeProfileAfterLoginIntent();
     if (user) {
       try {
+        authFlowLoading = true;
+        updateAuthUI();
         await claimActiveUserSession();
         startSessionHeartbeat();
         const result = await syncProfileData({});
@@ -90,14 +98,21 @@ function initFirebaseServices() {
         await refreshCloudProgress();
       } catch (err) {
         console.warn('[CUETAce] Profile sync failed', err);
+      } finally {
+        authFlowLoading = false;
       }
     } else {
+      authFlowLoading = false;
       stopSessionHeartbeat();
       stopSessionWatcher();
       cuetaceProfile = null;
       cloudResultsCache = null;
       cloudBookmarksCache = null;
       cloudProgressMigrated = false;
+    }
+    if (!authStateResolved) {
+      authStateResolved = true;
+      if (authStateResolve) authStateResolve(cuetaceUser);
     }
     updateAuthUI();
     if (shouldShowProfile) {
@@ -106,8 +121,33 @@ function initFirebaseServices() {
     } else {
       continuePendingAuthView();
     }
+    if (!wasResolved && pendingProtectedView) {
+      const next = pendingProtectedView;
+      pendingProtectedView = null;
+      if (cuetaceUser) showView(next.name, next.opts);
+      else openRequiredLoginModal(next.name, next.opts);
+    }
   });
   return true;
+}
+
+function isAuthStateReady() {
+  return authStateResolved || !isFirebaseReady();
+}
+
+function waitForAuthState() {
+  return authReadyPromise;
+}
+
+function showProfileLoading(title, sub) {
+  authFlowLoading = true;
+  const modal = document.getElementById('profileModal');
+  if (modal) modal.classList.add('open');
+  const titleEl = document.getElementById('profileLoadingTitle');
+  const subEl = document.getElementById('profileLoadingSub');
+  if (titleEl && title) titleEl.textContent = title;
+  if (subEl && sub) subEl.textContent = sub;
+  updateAuthUI();
 }
 
 function firebaseCallable(name) {
@@ -307,6 +347,7 @@ async function completeEmailLinkSignIn() {
   if (!initFirebaseServices() || !firebaseAuth.isSignInWithEmailLink(window.location.href)) return;
   const email = localStorage.getItem('cuetace_email_for_signin') || window.prompt('Confirm your email to finish sign in');
   if (!email) return;
+  showProfileLoading('Signing you in', 'Your secure email link worked. Loading your profile now...');
   const credential = await firebaseAuth.signInWithEmailLink(email, window.location.href);
   localStorage.removeItem('cuetace_email_for_signin');
   history.replaceState(null, '', window.location.origin + window.location.pathname);
@@ -321,12 +362,14 @@ async function signInWithGoogle() {
   initFirebaseServices();
   if (!firebaseAuth) throw new Error('Firebase is not configured yet.');
   setLoginCompletionIntent();
+  showProfileLoading('Opening Google', 'Choose your Google account. We will load your profile right after that.');
   const provider = new firebase.auth.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: 'select_account' });
   const credential = await firebaseAuth.signInWithPopup(provider);
   if (credential.user) {
     cuetaceUser = credential.user;
     profileModalRequired = false;
+    showProfileLoading('Loading your profile', 'You are signed in. Preparing your CUETAce dashboard...');
     openProfileModal();
   }
 }
@@ -361,8 +404,18 @@ function closeProfileModal() {
 
 function shouldRequireLoginForView(name) {
   if (name !== 'dashboard' && name !== 'examscreen') return false;
+  if (!isAuthStateReady()) return false;
   if (!isFirebaseReady()) return true;
   return !cuetaceUser;
+}
+
+function shouldWaitForAuthForView(name) {
+  return (name === 'dashboard' || name === 'examscreen') && isFirebaseReady() && !isAuthStateReady();
+}
+
+function deferProtectedViewUntilAuth(name, opts) {
+  pendingProtectedView = { name, opts: opts || null };
+  waitForAuthState().catch(err => console.warn('[CUETAce] Auth restore failed', err));
 }
 
 function continuePendingAuthView() {
@@ -391,6 +444,7 @@ function updateAuthUI() {
   const logoutBtn = document.getElementById('profileLogoutBtn');
   const emailInput = document.getElementById('profileEmail');
   const loginPanel = document.getElementById('profileLoginPanel');
+  const loadingPanel = document.getElementById('profileLoadingPanel');
   const detailsPanel = document.getElementById('profileDetailsPanel');
   const devNote = document.getElementById('profileDevNote');
   const loginTitle = document.getElementById('profileLoginTitle');
@@ -404,8 +458,9 @@ function updateAuthUI() {
   if (emailInput && cuetaceUser?.email) emailInput.value = cuetaceUser.email;
   fillProfileForm();
   updateProfileIdentityUI();
-  if (loginPanel) loginPanel.classList.toggle('active', !cuetaceUser);
-  if (detailsPanel) detailsPanel.classList.toggle('active', !!cuetaceUser);
+  if (loadingPanel) loadingPanel.classList.toggle('active', !!authFlowLoading);
+  if (loginPanel) loginPanel.classList.toggle('active', !authFlowLoading && !cuetaceUser);
+  if (detailsPanel) detailsPanel.classList.toggle('active', !authFlowLoading && !!cuetaceUser);
   if (loginTitle) loginTitle.textContent = profileModalRequired ? 'Create your CUETAce profile' : 'Welcome to CUETAce';
   if (loginSub) loginSub.textContent = profileModalRequired
     ? 'Sign in to open the dashboard and save your test progress.'
@@ -419,15 +474,15 @@ function updateAuthUI() {
   if (saveBtn) saveBtn.style.display = configured && cuetaceUser ? '' : 'none';
   if (logoutBtn) logoutBtn.style.display = configured && cuetaceUser ? '' : 'none';
   const closeBtn = document.getElementById('profileCloseBtn');
-  if (closeBtn) closeBtn.style.display = profileModalRequired && !cuetaceUser ? 'none' : '';
+  if (closeBtn) closeBtn.style.display = (authFlowLoading || (profileModalRequired && !cuetaceUser)) ? 'none' : '';
   updateResendButton();
   if (loginBtn) loginBtn.style.display = !cuetaceUser ? '' : 'none';
-  if (loginBtn) loginBtn.disabled = !configured;
+  if (loginBtn) loginBtn.disabled = !configured || authFlowLoading;
   if (resendBtn) resendBtn.style.display = !cuetaceUser && profileResendUntil > 0 ? '' : 'none';
-  if (resendBtn) resendBtn.disabled = !configured || resendBtn.disabled;
+  if (resendBtn) resendBtn.disabled = !configured || authFlowLoading || resendBtn.disabled;
   const googleBtn = document.getElementById('profileGoogleBtn');
-  if (googleBtn) googleBtn.disabled = !configured;
-  if (emailInput) emailInput.disabled = !configured && !cuetaceUser;
+  if (googleBtn) googleBtn.disabled = !configured || authFlowLoading;
+  if (emailInput) emailInput.disabled = authFlowLoading || (!configured && !cuetaceUser);
   if (devNote) devNote.style.display = configured ? 'none' : 'block';
   if (devNote && !configured) devNote.textContent = 'Login service could not load. Check your internet connection or try again in a moment.';
   if (status) {
@@ -625,6 +680,8 @@ async function handleGoogleLogin() {
     if (googleBtn) { googleBtn.disabled = true; googleBtn.textContent = 'Opening Google...'; }
     await signInWithGoogle();
   } catch (err) {
+    authFlowLoading = false;
+    updateAuthUI();
     setProfileStatus(status, isFirebaseReady() ? (err.message || 'Could not continue with Google.') : 'Login is temporarily unavailable. Please try again later.', 'error');
   } finally {
     if (googleBtn) { googleBtn.disabled = false; googleBtn.textContent = 'Continue with Google'; }

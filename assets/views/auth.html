@@ -4,6 +4,11 @@
     <button class="support-modal-close" id="profileCloseBtn" onclick="closeProfileModal()" aria-label="Close">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </button>
+    <div class="profile-panel profile-loading-panel" id="profileLoadingPanel">
+      <div class="profile-loading-spinner" aria-hidden="true"></div>
+      <div class="support-modal-title" id="profileLoadingTitle">Signing you in</div>
+      <div class="support-modal-sub" id="profileLoadingSub">Your account is connected. Loading your profile now...</div>
+    </div>
     <div class="profile-panel active" id="profileLoginPanel">
       <div class="support-modal-title" id="profileLoginTitle">Welcome to CUETAce</div>
       <div class="support-modal-sub" id="profileLoginSub">Enter your email to open your CUETAce profile.</div>

@@ -605,6 +605,10 @@ function routeCurrentPath() {
 }
 
 function showView(name, opts) {
+  if (typeof shouldWaitForAuthForView === 'function' && shouldWaitForAuthForView(name)) {
+    if (typeof deferProtectedViewUntilAuth === 'function') deferProtectedViewUntilAuth(name, opts);
+    return;
+  }
   if (shouldRequireLoginForView(name)) {
     openRequiredLoginModal(name, opts);
     return;
@@ -2227,7 +2231,12 @@ async function initApp() {
   populateTargetYearOptions();
   initFirebaseServices();
   bindProfileLoginKeys();
-  completeEmailLinkSignIn().catch(err => console.warn('[CUETAce] Email link sign-in failed', err));
+  completeEmailLinkSignIn().catch(err => {
+    console.warn('[CUETAce] Email link sign-in failed', err);
+    authFlowLoading = false;
+    updateAuthUI();
+    setProfileStatus(document.getElementById('profileStatus'), err.message || 'Could not finish email sign in.', 'error');
+  });
   updateAuthUI();
   // Update plan indicator on load
   updatePlanUI();

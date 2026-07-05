@@ -2472,6 +2472,25 @@ body.exam-cursor-crosshair #examscreen * {
 }
 .profile-panel { display: none; }
 .profile-panel.active { display: block; }
+.profile-loading-panel.active {
+  display: flex;
+  min-height: 220px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-loading-spinner {
+  width: 42px;
+  height: 42px;
+  margin: 4px 0 18px;
+  border-radius: 50%;
+  border: 3px solid rgba(214,184,112,0.18);
+  border-top-color: var(--gold);
+  animation: profileSpin 780ms linear infinite;
+}
+@keyframes profileSpin {
+  to { transform: rotate(360deg); }
+}
 .profile-gate-note {
   display: none;
   align-items: flex-start;
