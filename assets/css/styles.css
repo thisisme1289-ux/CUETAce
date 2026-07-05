@@ -1263,8 +1263,10 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 /* ── BOTTOM ACTION BAR ── */
 .exam-actionbar {
   position: fixed; bottom: 0; left: 0; right: 0;
-  height: 60px; background: #221c17;
-  border-top: 1px solid #3d3128;
+  height: 64px; background: rgba(34,28,23,0.98);
+  border-top: 1px solid #4a3c2f;
+  box-shadow: 0 -10px 28px rgba(0,0,0,0.28);
+  backdrop-filter: blur(12px);
   display: flex; align-items: center; justify-content: space-between;
   padding: 0 20px; z-index: 1000; gap: 10px;
 }
@@ -1272,36 +1274,67 @@ footer { background: var(--bg); border-top: 1px solid var(--border); padding: 52
 .exam-actionbar-right { display: flex; gap: 8px; }
 
 .xbtn {
-  font-family: var(--font); font-size: 12px; font-weight: 600;
-  padding: 0 16px; height: 36px; border-radius: 5px;
+  font-family: var(--font); font-size: 12px; font-weight: 750;
+  padding: 0 16px; min-height: 38px; border-radius: 7px;
   cursor: pointer; white-space: nowrap;
-  transition: background 200ms ease, color 200ms ease, border-color 200ms ease;
-  border: none; display: inline-flex; align-items: center; gap: 6px;
+  transition: background 200ms ease, color 200ms ease, border-color 200ms ease, box-shadow 200ms ease, transform 160ms ease;
+  border: 1px solid #4a3c2f;
+  background: #2a2219;
+  color: #d9cdba;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 1px 2px rgba(0,0,0,0.22);
+}
+.xbtn:hover {
+  border-color: #6a5540;
+  background: #30271d;
+  color: #f2ead8;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 3px 10px rgba(0,0,0,0.24);
+}
+.xbtn:active {
+  transform: translateY(1px);
+}
+.xbtn:focus-visible {
+  outline: 2px solid #c9a84c;
+  outline-offset: 2px;
 }
 .xbtn-back {
-  background: transparent; color: #7a6e61;
-  border: 1px solid #3d3128;
+  background: #241d17; color: #d9cdba;
+  border-color: #6a5540;
 }
-.xbtn-back:hover { border-color: #4a3c2f; color: #b8a990; }
+.xbtn-back:hover { border-color: #8a7258; color: #f2ead8; }
 .xbtn-clear {
-  background: transparent; color: #7a6e61; border: none;
+  background: rgba(192,84,74,0.08); color: #d9a59d; border-color: rgba(192,84,74,0.38);
 }
-.xbtn-clear:hover { color: #c0544a; }
+.xbtn-clear:hover { color: #fecaca; border-color: rgba(248,113,113,0.7); background: rgba(192,84,74,0.14); }
+.xbtn-bookmark {
+  min-width: 42px;
+  padding: 0 12px;
+  color: #d9cdba;
+  border-color: #5f4b35;
+  background: #241d17;
+}
+.xbtn-bookmark:hover,
+.xbtn-bookmark.bookmarked {
+  color: #c9a84c;
+  border-color: #c9a84c;
+  background: rgba(201,168,76,0.12);
+}
 .xbtn-review {
-  background: transparent; color: #9a7fd4;
-  border: 1px solid rgba(124,92,191,0.35);
+  background: rgba(124,92,191,0.1); color: #c7b6f2;
+  border-color: rgba(124,92,191,0.58);
 }
-.xbtn-review:hover { background: rgba(124,92,191,0.1); border-color: #7c5cbf; color: #b09ae4; }
+.xbtn-review:hover { background: rgba(124,92,191,0.17); border-color: #9d7ff0; color: #e4dcff; }
 .xbtn-save {
-  background: #2a2219; color: #d9cdba;
-  border: 1px solid #4a3c2f;
+  background: rgba(201,168,76,0.1); color: #f2ead8;
+  border-color: rgba(201,168,76,0.55);
 }
-.xbtn-save:hover { border-color: #c9a84c; color: #c9a84c; background: rgba(201,168,76,0.06); }
+.xbtn-save:hover { border-color: #c9a84c; color: #fff5d8; background: rgba(201,168,76,0.17); }
 .xbtn-submit {
   background: #c9a84c; color: #1a1410;
-  border: none; font-weight: 700;
+  border-color: #e0c263; font-weight: 850;
+  box-shadow: 0 6px 18px rgba(201,168,76,0.22);
 }
-.xbtn-submit:hover { background: #a8883a; }
+.xbtn-submit:hover { background: #d8bb62; color: #120d07; border-color: #f0d57b; }
 
 /* Arrow icons on btns */
 .xbtn-arrow { font-size: 11px; opacity: 0.7; }
@@ -1900,12 +1933,13 @@ body.exam-cursor-crosshair #examscreen * {
 
   /* ── Mobile action bar — smaller, 56px ── */
   .exam-actionbar {
-    height: 56px; padding: 0 10px; gap: 6px;
+    height: 60px; padding: 0 10px; gap: 6px;
   }
   .exam-actionbar-left { gap: 4px; }
   .exam-actionbar-right { gap: 4px; }
-  .xbtn { font-size: 11px; padding: 0 10px; height: 32px; }
+  .xbtn { font-size: 11px; padding: 0 10px; min-height: 36px; border-radius: 7px; }
   .xbtn-back { padding: 0 8px; }
+  .xbtn-bookmark { min-width: 36px; padding: 0 9px; }
   /* Hide "Clear Response" text on mobile — show as icon */
   .xbtn-clear { display: none; }
   /* Shorten label text on mobile */
