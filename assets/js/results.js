@@ -9,6 +9,7 @@ function normalizeCloudResult(result) {
   const created = result.createdAtMillis || (result.createdAt && result.createdAt.seconds ? result.createdAt.seconds * 1000 : 0);
   return {
     ...result,
+    questions: Array.isArray(result.questions) ? result.questions : (Array.isArray(result.answers) ? result.answers : []),
     date: result.date || (created ? new Date(created).toLocaleDateString('en-IN', {day:'2-digit', month:'short', year:'numeric'}) : ''),
     time: result.time || (created ? new Date(created).toLocaleTimeString('en-IN', {hour:'2-digit', minute:'2-digit'}) : '')
   };
@@ -17,6 +18,46 @@ function normalizeCloudResult(result) {
 function normalizeResultForSync(result) {
   const id = result.id || ('result-' + Date.now() + '-' + Math.random().toString(16).slice(2));
   return { ...result, id: String(id) };
+}
+
+function compactResultQuestion(question, index) {
+  const q = question || {};
+  return {
+    questionId: q.questionId || q.id || '',
+    questionIndex: Number.isFinite(Number(q.questionIndex)) ? Number(q.questionIndex) : index,
+    section: q.section || '',
+    chapter_id: q.chapter_id || '',
+    userAnswer: q.userAnswer ?? null,
+    correct: q.correct ?? null,
+    status: q.status || 'skipped',
+    reviewStatus: q.reviewStatus || '',
+    timeSpent: Number(q.timeSpent || 0)
+  };
+}
+
+function cloudResultPayload(normalized) {
+  const questions = Array.isArray(normalized.questions) ? normalized.questions : [];
+  return {
+    schemaVersion: 2,
+    id: String(normalized.id),
+    testName: normalized.testName || '',
+    subject: normalized.subject || '',
+    date: normalized.date || '',
+    time: normalized.time || '',
+    timeTaken: normalized.timeTaken || '',
+    total: Number(normalized.total || 0),
+    correct: Number(normalized.correct || 0),
+    wrong: Number(normalized.wrong || 0),
+    skipped: Number(normalized.skipped || 0),
+    marks: Number(normalized.marks || 0),
+    pct: Number(normalized.pct || 0),
+    avgTime: Number(normalized.avgTime || 0),
+    mode: normalized.mode || 'mock',
+    pypMeta: normalized.pypMeta || null,
+    chapterBreakdown: normalized.chapterBreakdown || [],
+    answers: questions.map(compactResultQuestion),
+    hasCompactQuestions: true
+  };
 }
 
 function mergeUniqueByKey(primary, secondary, keyName) {
@@ -36,7 +77,7 @@ async function saveResultToCloud(result) {
   if (!cuetaceUser || !firebaseDb) return null;
   const normalized = normalizeResultForSync(result);
   const payload = {
-    ...normalized,
+    ...cloudResultPayload(normalized),
     uid: cuetaceUser.uid,
     email: cuetaceUser.email || '',
     createdAt: firebase.firestore.FieldValue.serverTimestamp(),
@@ -44,7 +85,7 @@ async function saveResultToCloud(result) {
   };
   await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('results')
     .doc(String(normalized.id)).set(payload, { merge: true });
-  const saved = normalizeCloudResult({ ...payload, createdAtMillis: Date.now() });
+  const saved = normalizeCloudResult({ ...normalized, schemaVersion: 2, createdAtMillis: Date.now() });
   if (cloudResultsCache) {
     cloudResultsCache = [saved, ...cloudResultsCache.filter(item => String(item.id) !== String(saved.id))].slice(0, 50);
   }
@@ -58,7 +99,7 @@ async function loadCloudResults() {
     const snap = await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('results')
       .orderBy('createdAt', 'desc').limit(50).get();
     const cloudResults = snap.docs.map(doc => normalizeCloudResult({ id: doc.id, ...doc.data() }));
-    cloudResultsCache = mergeUniqueByKey(cloudResults, getStoredResults(), 'id').slice(0, 50);
+    cloudResultsCache = mergeUniqueByKey(getStoredResults(), cloudResults, 'id').slice(0, 50);
     return cloudResultsCache;
   } catch (err) {
     console.warn('[CUETAce] Could not load cloud results', err);
@@ -441,11 +482,12 @@ function buildReviewAnalytics(r) {
   }
 
   // ── TIME PER QUESTION ──
-  const hasTime = r.questions && r.questions.some(q => q.timeSpent > 0);
+  const reviewQuestions = Array.isArray(r.questions) ? r.questions : [];
+  const hasTime = reviewQuestions.some(q => q.timeSpent > 0);
   let timeHtml = '';
   if (hasTime) {
     const avgT = r.avgTime || 0;
-    const slowQs = r.questions
+    const slowQs = reviewQuestions
       .map((q, i) => ({ ...q, idx: i }))
       .filter(q => q.timeSpent > avgT * 2 && q.timeSpent > 30)
       .sort((a, b) => b.timeSpent - a.timeSpent)
@@ -484,7 +526,7 @@ function buildReviewAnalytics(r) {
     .filter(ch => ch.total >= 2 && ch.pct < 70)
     .sort((a, b) => a.pct - b.pct)
     .slice(0, 3);
-  const markedCount = (r.questions || []).filter(q => q.reviewStatus === 'marked' || q.reviewStatus === 'ans-marked').length;
+  const markedCount = reviewQuestions.filter(q => q.reviewStatus === 'marked' || q.reviewStatus === 'ans-marked').length;
   const nextHtml = `
     <div style="margin-bottom:24px;background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;">
       <div style="font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--cream-muted);margin-bottom:10px;">Recommended Next Step</div>
@@ -531,7 +573,8 @@ function renderReviewQuestions(filter) {
   let html = '';
   let shown = 0;
 
-  currentReviewResult.questions.forEach((q, i) => {
+  const reviewQuestions = Array.isArray(currentReviewResult.questions) ? currentReviewResult.questions : [];
+  reviewQuestions.forEach((q, i) => {
     if (filter === 'marked') {
       if (q.reviewStatus !== 'marked' && q.reviewStatus !== 'ans-marked') return;
     } else if (filter !== 'all' && q.status !== filter) return;
@@ -545,7 +588,8 @@ function renderReviewQuestions(filter) {
 
     // Build options
     let optsHtml = '';
-    q.options.forEach((opt, oi) => {
+    const options = Array.isArray(q.options) ? q.options : [];
+    options.forEach((opt, oi) => {
       const isCorrect    = oi === q.correct;
       const isUserWrong  = oi === q.userAnswer && q.userAnswer !== q.correct;
       const isUserAnswer = oi === q.userAnswer;
@@ -605,10 +649,10 @@ function renderReviewQuestions(filter) {
 
         <!-- Question text -->
         <div style="font-size:clamp(13px,1.3vw,15px);font-weight:500;color:#f2ead8;
-          line-height:1.75;margin-bottom:14px;">${q.text}</div>
+          line-height:1.75;margin-bottom:14px;">${q.text || q.question || ('Question reference: ' + esc(q.questionId || ('Q' + (i + 1))))}</div>
 
         <!-- Options -->
-        <div>${optsHtml}</div>
+        <div>${optsHtml || '<div style="font-size:12px;color:var(--cream-muted);line-height:1.7;">Full question text and options are stored in the question bank, not in this compact cloud result.</div>'}</div>
 
         <!-- Explanation -->
         ${expHtml}

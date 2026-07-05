@@ -4,7 +4,7 @@ const BOOKMARKS_KEY = 'cuetace_bookmarks';
 const savedQuestionFilters = { search: '', subject: 'All' };
 
 function getActiveBookmarks() {
-  return mergeUniqueByKey(cloudBookmarksCache || [], getBookmarks(), 'key').slice(0, 200);
+  return mergeUniqueByKey(getBookmarks(), cloudBookmarksCache || [], 'key').slice(0, 200);
 }
 
 function normalizeBookmarkForSync(bookmark) {
@@ -21,9 +21,35 @@ async function bookmarkDocId(key) {
   return text.replace(/[/.#[\]$]/g, '_').slice(0, 180) || ('bookmark-' + Date.now());
 }
 
-function cloudBookmarkPayload(bookmark) {
+function bookmarkQuestionRef(bookmark) {
   return {
-    ...bookmark,
+    questionId: bookmark.questionId || bookmark.key || '',
+    subject: bookmark.subject || '',
+    mode: bookmark.mode || bookmark.source || 'exam',
+    testName: bookmark.testName || '',
+    questionIndex: Number.isFinite(Number(bookmark.questionIndex)) ? Number(bookmark.questionIndex) : null,
+    chapter_id: bookmark.chapter_id || '',
+    section: bookmark.section || '',
+    sourcePath: bookmark.sourcePath || '',
+    year: bookmark.year || '',
+    paper: bookmark.paper || '',
+    packId: bookmark.packId || ''
+  };
+}
+
+function cloudBookmarkPayload(bookmark) {
+  const ref = bookmarkQuestionRef(bookmark);
+  return {
+    schemaVersion: 2,
+    key: String(bookmark.key || ref.questionId || ''),
+    savedAt: bookmark.savedAt || '',
+    subject: ref.subject,
+    section: ref.section,
+    chapter_id: ref.chapter_id,
+    mode: ref.mode,
+    testName: ref.testName,
+    questionIndex: ref.questionIndex,
+    questionRef: ref,
     updatedAt: firebase.firestore.FieldValue.serverTimestamp()
   };
 }
@@ -56,7 +82,7 @@ async function loadCloudBookmarks() {
     const snap = await firebaseDb.collection('users').doc(cuetaceUser.uid).collection('bookmarks')
       .orderBy('updatedAt', 'desc').limit(200).get();
     const bookmarks = snap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-    cloudBookmarksCache = mergeUniqueByKey(bookmarks, getBookmarks(), 'key').slice(0, 200);
+    cloudBookmarksCache = mergeUniqueByKey(getBookmarks(), bookmarks, 'key').slice(0, 200);
     return cloudBookmarksCache;
   } catch (err) {
     console.warn('[CUETAce] Could not load cloud bookmarks', err);
@@ -105,9 +131,19 @@ function getQuestionBookmarkKey(q) {
 function buildBookmarkFromCurrentQuestion() {
   const q = EXAM_QUESTIONS[examState.currentQ];
   if (!q) return null;
+  const attempt = examState.apiAttempt || {};
+  const pypMeta = examState.pypMeta || {};
   return normalizeBookmarkForSync({
     key: getQuestionBookmarkKey(q),
+    questionId: q.id || getQuestionBookmarkKey(q),
     subject: examState.subject,
+    mode: examState.mode || 'exam',
+    testName: examState.testName || '',
+    questionIndex: examState.currentQ,
+    sourcePath: attempt.sourcePath || pypMeta.sourcePath || '',
+    year: attempt.year || pypMeta.year || '',
+    paper: attempt.paper || pypMeta.paper || '',
+    packId: attempt.packId || pypMeta.packId || '',
     savedAt: new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}),
     chapter_id: q.chapter_id || '',
     section: q.section || '',
