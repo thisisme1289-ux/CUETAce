@@ -65,4 +65,19 @@
     </div>
   </div>
 </div>
+<div class="support-modal-backdrop" id="welcomeNoticeModal" onclick="if(event.target===this)closeWelcomeNotice()">
+  <div class="support-modal welcome-notice">
+    <button class="support-modal-close" onclick="closeWelcomeNotice()" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="welcome-notice-mark">CUETAce</div>
+    <div class="support-modal-title">Thank you for your patience</div>
+    <div class="support-modal-sub">CUETAce is still growing. We are improving the question experience, saved progress, results, and account features so the platform can help every student better.</div>
+    <div class="welcome-notice-body">
+      <p>Some features may continue to change as we refine the website. Your feedback, patience, and support help us make CUETAce more useful with every update.</p>
+      <p>We will keep adding improvements and making the experience smoother for all of you.</p>
+    </div>
+    <button class="profile-action" type="button" onclick="closeWelcomeNotice()">Continue to CUETAce</button>
+  </div>
+</div>
 <div class="app-toast" id="appToast" role="status" aria-live="polite"></div>

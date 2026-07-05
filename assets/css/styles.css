@@ -2628,6 +2628,18 @@ select.profile-field {
   backdrop-filter: blur(10px);
 }
 #profileModal.support-modal-backdrop.open { display: flex; }
+#welcomeNoticeModal.support-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 5100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(13,10,7,0.76);
+  backdrop-filter: blur(10px);
+}
+#welcomeNoticeModal.support-modal-backdrop.open { display: flex; }
 #profileModal .support-modal {
   position: relative;
   width: min(92vw, 420px);
@@ -2641,6 +2653,81 @@ select.profile-field {
   box-shadow: 0 28px 90px rgba(0,0,0,0.58), 0 0 0 1px rgba(255,255,255,0.03) inset;
   text-align: left;
 }
+#welcomeNoticeModal .support-modal {
+  position: relative;
+  width: min(92vw, 440px);
+  margin: 0;
+  padding: 30px 28px 26px;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(38,30,22,0.98), rgba(22,17,12,0.98));
+  border: 1px solid rgba(214,184,112,0.22);
+  box-shadow: 0 28px 90px rgba(0,0,0,0.58), 0 0 0 1px rgba(255,255,255,0.03) inset;
+  text-align: left;
+}
+#welcomeNoticeModal .support-modal-title {
+  color: var(--cream);
+  font-size: 24px;
+  font-weight: 850;
+  line-height: 1.15;
+  text-align: center;
+  margin: 8px 0;
+}
+#welcomeNoticeModal .support-modal-sub {
+  color: var(--cream-muted);
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 0 18px;
+}
+#welcomeNoticeModal .support-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(214,184,112,0.14);
+  background: rgba(255,255,255,0.04);
+  color: var(--cream-muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.welcome-notice-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 0 12px;
+  margin: 0 auto 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(214,184,112,0.24);
+  background: rgba(214,184,112,0.1);
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.welcome-notice {
+  display: flex;
+  flex-direction: column;
+}
+.welcome-notice-body {
+  margin: 0 0 18px;
+  padding: 14px;
+  border: 1px solid rgba(214,184,112,0.14);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.025);
+}
+.welcome-notice-body p {
+  margin: 0 0 10px;
+  color: var(--cream-2);
+  font-size: 13px;
+  line-height: 1.65;
+}
+.welcome-notice-body p:last-child { margin-bottom: 0; }
 #profileModal .support-modal-title {
   color: var(--cream);
   font-size: 24px;

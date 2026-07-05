@@ -26,6 +26,7 @@ let appToastTimer = null;
 const PENDING_AUTH_KEY = 'cuetace_pending_auth_view';
 const SHOW_PROFILE_AFTER_LOGIN_KEY = 'cuetace_show_profile_after_login';
 const DEVICE_SESSION_KEY = 'cuetace_device_session_id';
+const WELCOME_NOTICE_KEY_PREFIX = 'cuetace_welcome_notice_seen_v1_';
 const SESSION_HEARTBEAT_MS = 30000;
 let cuetaceDeviceId = '';
 let sessionHeartbeatTimer = null;
@@ -127,6 +128,7 @@ function initFirebaseServices() {
       if (cuetaceUser) showView(next.name, next.opts);
       else openRequiredLoginModal(next.name, next.opts);
     }
+    maybeShowWelcomeNotice();
   });
   return true;
 }
@@ -400,6 +402,40 @@ function closeProfileModal() {
   const modal = document.getElementById('profileModal');
   if (modal) modal.classList.remove('open');
   profileModalRequired = false;
+}
+
+function welcomeNoticeKey() {
+  return WELCOME_NOTICE_KEY_PREFIX + (cuetaceUser?.uid || 'guest');
+}
+
+function hasSeenWelcomeNotice() {
+  try { return localStorage.getItem(welcomeNoticeKey()) === '1'; }
+  catch(e) { return false; }
+}
+
+function markWelcomeNoticeSeen() {
+  try { localStorage.setItem(welcomeNoticeKey(), '1'); } catch(e) {}
+}
+
+function maybeShowWelcomeNotice() {
+  if (!cuetaceUser || authFlowLoading || profileModalRequired || shouldOpenProfileAfterLogin(cuetaceProfile)) return;
+  if (hasSeenWelcomeNotice()) return;
+  const profileModal = document.getElementById('profileModal');
+  if (profileModal && profileModal.classList.contains('open')) return;
+  const modal = document.getElementById('welcomeNoticeModal');
+  if (!modal) return;
+  setTimeout(() => {
+    if (!cuetaceUser || hasSeenWelcomeNotice()) return;
+    const profileModalAfterDelay = document.getElementById('profileModal');
+    if (profileModalAfterDelay && profileModalAfterDelay.classList.contains('open')) return;
+    modal.classList.add('open');
+  }, 350);
+}
+
+function closeWelcomeNotice() {
+  markWelcomeNoticeSeen();
+  const modal = document.getElementById('welcomeNoticeModal');
+  if (modal) modal.classList.remove('open');
 }
 
 function shouldRequireLoginForView(name) {
@@ -770,6 +806,7 @@ async function handleProfileLogout() {
 
 window.openProfileModal = openProfileModal;
 window.closeProfileModal = closeProfileModal;
+window.closeWelcomeNotice = closeWelcomeNotice;
 window.handleProfileLogin = handleProfileLogin;
 window.handleGoogleLogin = handleGoogleLogin;
 window.handleProfileSave = handleProfileSave;
