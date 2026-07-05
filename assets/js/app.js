@@ -610,6 +610,7 @@ function routeToPath(pathname, options) {
 
   const tabId = ROUTE_TO_TAB[path];
   if (tabId) {
+    try { localStorage.setItem('cuetace_lasttab', tabId); } catch(e) {}
     showView('dashboard', { routeUpdate: false, initialTab: tabId });
     if (ROUTE_ALIASES[window.location.pathname]) setAppPath(path, true);
     return true;
@@ -689,6 +690,7 @@ function showView(name, opts) {
     buildPapers();
     if (typeof maybeShowWelcomeNotice === 'function') setTimeout(maybeShowWelcomeNotice, 500);
     if (opts && opts.initialTab) {
+      switchTab(null, opts.initialTab, { routeUpdate: false });
       setTimeout(() => switchTab(null, opts.initialTab, { routeUpdate: false }), 80);
     }
   }
