@@ -26,8 +26,11 @@ let appToastTimer = null;
 const PENDING_AUTH_KEY = 'cuetace_pending_auth_view';
 const SHOW_PROFILE_AFTER_LOGIN_KEY = 'cuetace_show_profile_after_login';
 const DEVICE_SESSION_KEY = 'cuetace_device_session_id';
+const SESSION_HEARTBEAT_MS = 30000;
 let cuetaceDeviceId = '';
 let sessionHeartbeatTimer = null;
+let sessionUnsubscribe = null;
+let sessionSignOutInProgress = false;
 let sessionLockMessage = '';
 let cloudResultsCache = null;
 let cloudBookmarksCache = null;
@@ -78,6 +81,8 @@ function initFirebaseServices() {
     let shouldShowProfile = !!user && consumeProfileAfterLoginIntent();
     if (user) {
       try {
+        await claimActiveUserSession();
+        startSessionHeartbeat();
         const result = await syncProfileData({});
         cuetaceProfile = result.data.profile || null;
         if (shouldOpenProfileAfterLogin(cuetaceProfile)) shouldShowProfile = true;
@@ -88,6 +93,7 @@ function initFirebaseServices() {
       }
     } else {
       stopSessionHeartbeat();
+      stopSessionWatcher();
       cuetaceProfile = null;
       cloudResultsCache = null;
       cloudBookmarksCache = null;
@@ -126,12 +132,30 @@ function getDeviceSessionId() {
 }
 
 async function claimActiveUserSession() {
+  if (!cuetaceUser || !firebaseDb) return false;
   sessionLockMessage = '';
+  sessionSignOutInProgress = false;
+  const deviceId = getDeviceSessionId();
+  const ref = firebaseDb.collection('users').doc(cuetaceUser.uid);
+  await ref.set({
+    uid: cuetaceUser.uid,
+    email: cuetaceUser.email || '',
+    activeSession: {
+      deviceId,
+      userAgent: navigator.userAgent || 'web',
+      claimedAt: firebase.firestore.FieldValue.serverTimestamp(),
+      lastSeenAt: firebase.firestore.FieldValue.serverTimestamp()
+    },
+    lastLoginAt: firebase.firestore.FieldValue.serverTimestamp()
+  }, { merge: true });
+  startSessionWatcher(ref, deviceId);
   return true;
 }
 
 function startSessionHeartbeat() {
   stopSessionHeartbeat();
+  sessionHeartbeatTimer = setInterval(sendSessionHeartbeat, SESSION_HEARTBEAT_MS);
+  sendSessionHeartbeat().catch(err => console.warn('[CUETAce] Session heartbeat failed', err));
 }
 
 function stopSessionHeartbeat() {
@@ -139,8 +163,84 @@ function stopSessionHeartbeat() {
   sessionHeartbeatTimer = null;
 }
 
+function startSessionWatcher(ref, deviceId) {
+  stopSessionWatcher();
+  sessionUnsubscribe = ref.onSnapshot(snapshot => {
+    if (!cuetaceUser || sessionSignOutInProgress || !snapshot.exists) return;
+    const active = snapshot.data()?.activeSession;
+    if (!active || !active.deviceId) return;
+    if (active.deviceId !== deviceId) handleSessionTakenOver();
+  }, err => {
+    console.warn('[CUETAce] Session watcher failed', err);
+  });
+}
+
+function stopSessionWatcher() {
+  if (sessionUnsubscribe) {
+    try { sessionUnsubscribe(); } catch(e) {}
+  }
+  sessionUnsubscribe = null;
+}
+
+async function sendSessionHeartbeat() {
+  if (!cuetaceUser || !firebaseDb) return;
+  const deviceId = getDeviceSessionId();
+  const ref = firebaseDb.collection('users').doc(cuetaceUser.uid);
+  let lostSession = false;
+  await firebaseDb.runTransaction(async tx => {
+    const snap = await tx.get(ref);
+    const active = snap.exists ? snap.data()?.activeSession : null;
+    if (!active || active.deviceId !== deviceId) {
+      lostSession = true;
+      return;
+    }
+    tx.update(ref, {
+      'activeSession.lastSeenAt': firebase.firestore.FieldValue.serverTimestamp()
+    });
+  });
+  if (lostSession) handleSessionTakenOver();
+}
+
+async function handleSessionTakenOver() {
+  if (sessionSignOutInProgress) return;
+  sessionSignOutInProgress = true;
+  sessionLockMessage = 'This account was opened on another device, so this device was signed out.';
+  stopSessionHeartbeat();
+  stopSessionWatcher();
+  cuetaceUser = null;
+  cuetaceProfile = null;
+  cloudResultsCache = null;
+  cloudBookmarksCache = null;
+  cloudProgressMigrated = false;
+  profileModalRequired = false;
+  try {
+    if (firebaseAuth?.currentUser) await firebaseAuth.signOut();
+  } catch (err) {
+    console.warn('[CUETAce] Could not sign out stale session', err);
+  }
+  updateAuthUI();
+  showAppToast(sessionLockMessage, 'error');
+  openProfileModal();
+  sessionSignOutInProgress = false;
+}
+
 async function releaseActiveUserSession() {
-  return;
+  if (!cuetaceUser || !firebaseDb) return;
+  const deviceId = getDeviceSessionId();
+  const ref = firebaseDb.collection('users').doc(cuetaceUser.uid);
+  try {
+    await firebaseDb.runTransaction(async tx => {
+      const snap = await tx.get(ref);
+      const active = snap.exists ? snap.data()?.activeSession : null;
+      if (active && active.deviceId === deviceId) {
+        tx.update(ref, {
+          activeSession: firebase.firestore.FieldValue.delete()
+        });
+      }
+    });
+  } catch (err) {
+    console.warn('[CUETAce] Could not release active session', err);
+  }
 }
 
 async function syncProfileData(updates = {}) {
@@ -600,9 +700,13 @@ async function handleProfileSave() {
 
 async function handleProfileLogout() {
   if (!firebaseAuth) return;
+  sessionSignOutInProgress = true;
   await releaseActiveUserSession();
   stopSessionHeartbeat();
+  stopSessionWatcher();
   await firebaseAuth.signOut();
+  sessionLockMessage = '';
+  sessionSignOutInProgress = false;
   updateAuthUI();
   showAppToast('Signed out of CUETAce.', 'success');
 }
