@@ -665,6 +665,7 @@ function showView(name, opts) {
   if (name === 'dashboard') {
     buildChapters();
     buildPapers();
+    if (typeof maybeShowWelcomeNotice === 'function') setTimeout(maybeShowWelcomeNotice, 500);
     if (opts && opts.initialTab) {
       setTimeout(() => switchTab(null, opts.initialTab, { routeUpdate: false }), 80);
     }
@@ -718,6 +719,7 @@ function switchTab(btn, tabId, options) {
     renderQuestionReportsPanel();
   }
   syncBottomNav(tabId);
+  if (typeof maybeShowWelcomeNotice === 'function') setTimeout(maybeShowWelcomeNotice, 350);
 }
 
 // ── GO TO SUBJECT: switches to Chapter-wise tab and opens that subject's accordion ──

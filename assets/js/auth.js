@@ -26,7 +26,7 @@ let appToastTimer = null;
 const PENDING_AUTH_KEY = 'cuetace_pending_auth_view';
 const SHOW_PROFILE_AFTER_LOGIN_KEY = 'cuetace_show_profile_after_login';
 const DEVICE_SESSION_KEY = 'cuetace_device_session_id';
-const WELCOME_NOTICE_KEY_PREFIX = 'cuetace_welcome_notice_seen_v2_';
+const WELCOME_NOTICE_KEY_PREFIX = 'cuetace_welcome_notice_seen_v3_';
 const SESSION_HEARTBEAT_MS = 30000;
 let cuetaceDeviceId = '';
 let sessionHeartbeatTimer = null;
@@ -820,6 +820,7 @@ async function handleProfileLogout() {
 window.openProfileModal = openProfileModal;
 window.closeProfileModal = closeProfileModal;
 window.closeWelcomeNotice = closeWelcomeNotice;
+window.maybeShowWelcomeNotice = maybeShowWelcomeNotice;
 window.handleProfileLogin = handleProfileLogin;
 window.handleGoogleLogin = handleGoogleLogin;
 window.handleProfileSave = handleProfileSave;
