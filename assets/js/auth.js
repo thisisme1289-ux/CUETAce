@@ -142,6 +142,15 @@ function waitForAuthState() {
   return authReadyPromise;
 }
 
+async function getCurrentFirebaseIdToken(forceRefresh = false) {
+  if (!isFirebaseReady()) return '';
+  initFirebaseServices();
+  if (!isAuthStateReady()) await waitForAuthState();
+  const user = firebaseAuth?.currentUser || cuetaceUser;
+  if (!user || typeof user.getIdToken !== 'function') return '';
+  return user.getIdToken(forceRefresh);
+}
+
 function showProfileLoading(title, sub) {
   authFlowLoading = true;
   const modal = document.getElementById('profileModal');
@@ -855,6 +864,7 @@ window.openProfileModal = openProfileModal;
 window.closeProfileModal = closeProfileModal;
 window.closeWelcomeNotice = closeWelcomeNotice;
 window.maybeShowWelcomeNotice = maybeShowWelcomeNotice;
+window.getCurrentFirebaseIdToken = getCurrentFirebaseIdToken;
 window.handleProfileLogin = handleProfileLogin;
 window.handleGoogleLogin = handleGoogleLogin;
 window.handleProfileSave = handleProfileSave;

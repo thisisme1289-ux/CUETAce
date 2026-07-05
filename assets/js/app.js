@@ -198,9 +198,14 @@ function buildQuestionApiUrl(params, path = '/questions') {
 async function getQuestionApiAuthHeaders() {
   const headers = {};
   try {
-    if (!firebaseAuth && typeof initFirebaseServices === 'function') initFirebaseServices();
-    if (firebaseAuth && firebaseAuth.currentUser) {
-      headers.Authorization = 'Bearer ' + await firebaseAuth.currentUser.getIdToken();
+    if (typeof getCurrentFirebaseIdToken === 'function') {
+      const token = await getCurrentFirebaseIdToken(true);
+      if (token) headers.Authorization = 'Bearer ' + token;
+    } else {
+      if (!firebaseAuth && typeof initFirebaseServices === 'function') initFirebaseServices();
+      if (firebaseAuth && firebaseAuth.currentUser) {
+        headers.Authorization = 'Bearer ' + await firebaseAuth.currentUser.getIdToken(true);
+      }
     }
   } catch (err) {
     console.warn('[CUETAce] Could not attach question API auth token', err);
@@ -294,8 +299,16 @@ async function fetchApiSolutions(attempt, solutionStart, solutionSize) {
     solutionSize
   }, '/solutions');
   const headers = await getQuestionApiAuthHeaders();
+  if (!headers.Authorization) throw new Error('Firebase sign-in token was not ready. Please wait a moment and submit again.');
   const res = await fetch(url, { cache: 'no-store', headers });
-  if (!res.ok) throw new Error('Question solutions API HTTP ' + res.status);
+  if (!res.ok) {
+    let message = 'Question solutions API HTTP ' + res.status;
+    try {
+      const body = await res.json();
+      if (body?.error) message = body.error;
+    } catch(e) {}
+    throw new Error(message);
+  }
   const data = await res.json();
   if (!data || !Array.isArray(data.solutions)) throw new Error('Question solutions API returned no solutions.');
   data.solutions.forEach(solution => {
