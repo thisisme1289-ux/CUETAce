@@ -213,6 +213,13 @@ async function getQuestionApiAuthHeaders() {
   return headers;
 }
 
+function buildQuestionApiError(message, status, authRequired = false) {
+  const error = new Error(message);
+  error.status = status || 0;
+  error.authRequired = Boolean(authRequired || status === 401 || /firebase|sign-?in|auth|session|token/i.test(message || ''));
+  return error;
+}
+
 function normalizeApiQuestion(q) {
   if (!q) return null;
   const normalized = {
@@ -299,7 +306,9 @@ async function fetchApiSolutions(attempt, solutionStart, solutionSize) {
     solutionSize
   }, '/solutions');
   const headers = await getQuestionApiAuthHeaders();
-  if (!headers.Authorization) throw new Error('Firebase sign-in token was not ready. Please wait a moment and submit again.');
+  if (!headers.Authorization) {
+    throw buildQuestionApiError('Firebase sign-in token was not ready. Please wait a moment and submit again.', 401, true);
+  }
   const res = await fetch(url, { cache: 'no-store', headers });
   if (!res.ok) {
     let message = 'Question solutions API HTTP ' + res.status;
@@ -307,7 +316,7 @@ async function fetchApiSolutions(attempt, solutionStart, solutionSize) {
       const body = await res.json();
       if (body?.error) message = body.error;
     } catch(e) {}
-    throw new Error(message);
+    throw buildQuestionApiError(message, res.status);
   }
   const data = await res.json();
   if (!data || !Array.isArray(data.solutions)) throw new Error('Question solutions API returned no solutions.');

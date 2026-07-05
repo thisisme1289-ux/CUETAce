@@ -156,7 +156,13 @@ async function submitTest() {
       await ensureApiSolutionsLoaded();
     } catch (err) {
       console.warn('[CUETAce] Could not load protected solutions before submit', err);
-      alert('Please sign in again before submitting. Your answers are still on this screen, but results need a secure session to load the answer key.');
+      const rawMessage = err && err.message ? err.message : 'Could not load the secure answer key.';
+      const canRetry = err && err.authRequired;
+      const submitMessage = canRetry
+        ? 'Your login is active, but the secure answer key could not verify your session yet. Please wait a moment and submit again. If it repeats, sign out and sign in once.'
+        : 'Could not submit yet because the secure answer key failed to load: ' + rawMessage;
+      if (typeof showAppToast === 'function') showAppToast(submitMessage, 'error');
+      alert(submitMessage);
       if (examState.timerSecs > 0 && !examState.timerInterval) {
         examState.timerInterval = setInterval(tickTimer, 1000);
       }
