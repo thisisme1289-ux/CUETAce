@@ -26,7 +26,7 @@ let appToastTimer = null;
 const PENDING_AUTH_KEY = 'cuetace_pending_auth_view';
 const SHOW_PROFILE_AFTER_LOGIN_KEY = 'cuetace_show_profile_after_login';
 const DEVICE_SESSION_KEY = 'cuetace_device_session_id';
-const WELCOME_NOTICE_KEY_PREFIX = 'cuetace_welcome_notice_seen_v3_';
+const WELCOME_NOTICE_KEY_PREFIX = 'cuetace_welcome_notice_seen_v4_';
 const SESSION_HEARTBEAT_MS = 30000;
 let cuetaceDeviceId = '';
 let sessionHeartbeatTimer = null;
@@ -440,15 +440,49 @@ function maybeShowWelcomeNotice() {
       welcomeNoticePending = true;
       return;
     }
+    prepareWelcomeNoticeModal();
     modal.classList.add('open');
+    modal.style.display = 'flex';
   }, 350);
+}
+
+function prepareWelcomeNoticeModal() {
+  const modal = document.getElementById('welcomeNoticeModal');
+  if (!modal) return;
+  Object.assign(modal.style, {
+    position: 'fixed',
+    inset: '0',
+    zIndex: '5100',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: '18px',
+    background: 'rgba(13,10,7,0.76)',
+    backdropFilter: 'blur(10px)'
+  });
+  const card = modal.querySelector('.support-modal');
+  if (card) {
+    Object.assign(card.style, {
+      position: 'relative',
+      width: 'min(92vw, 440px)',
+      margin: '0',
+      padding: '30px 28px 26px',
+      borderRadius: '14px',
+      background: 'linear-gradient(180deg, rgba(38,30,22,0.98), rgba(22,17,12,0.98))',
+      border: '1px solid rgba(214,184,112,0.22)',
+      boxShadow: '0 28px 90px rgba(0,0,0,0.58), 0 0 0 1px rgba(255,255,255,0.03) inset',
+      textAlign: 'left'
+    });
+  }
 }
 
 function closeWelcomeNotice() {
   welcomeNoticePending = false;
   markWelcomeNoticeSeen();
   const modal = document.getElementById('welcomeNoticeModal');
-  if (modal) modal.classList.remove('open');
+  if (modal) {
+    modal.classList.remove('open');
+    modal.style.display = 'none';
+  }
 }
 
 function shouldRequireLoginForView(name) {
