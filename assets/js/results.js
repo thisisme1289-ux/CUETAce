@@ -553,11 +553,15 @@ function buildReviewAnalytics(r) {
 }
 
 function closeReview() {
-  document.getElementById('reviewscreen').style.display = 'none';
+  const reviewScreen = document.getElementById('reviewscreen');
+  if (reviewScreen) reviewScreen.style.display = 'none';
+  currentReviewResult = null;
+  currentReviewFilter = 'all';
   showView('dashboard');
   setTimeout(() => {
     switchTab(null, 'tab-results');
     renderResultsList();
+    window.scrollTo(0, 0);
   }, 80);
 }
 

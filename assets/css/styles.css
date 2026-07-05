@@ -2198,6 +2198,11 @@ body.exam-cursor-crosshair #examscreen * {
   flex-shrink: 0;
 }
 .review-back-btn:hover { border-color: var(--gold); color: var(--cream); }
+.review-back-btn:focus-visible,
+.review-bottom-back:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
 .review-header-info { flex: 1; min-width: 0; }
 .review-test-name {
   font-size: 1rem;
@@ -2277,6 +2282,29 @@ body.exam-cursor-crosshair #examscreen * {
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
+}
+.review-bottom-actions {
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px 88px;
+  box-sizing: border-box;
+}
+.review-bottom-back {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--surface2);
+  color: var(--cream);
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color var(--t), background var(--t), color var(--t);
+}
+.review-bottom-back:hover {
+  border-color: var(--gold);
+  background: #261f17;
+  color: var(--gold);
 }
 .review-q-card {
   background: var(--surface2);
