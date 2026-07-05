@@ -747,6 +747,15 @@ function setBottomNav(id) {
   if (el) el.classList.add('active');
 }
 
+function handleBottomNavClick(event, tabId) {
+  if (event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+  closeMobileMore();
+  switchTab(null, tabId);
+}
+
 function syncBottomNav(tabId) {
   const directTabs = {
     'tab-home': 'bnav-home',
