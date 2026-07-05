@@ -26,7 +26,7 @@ let appToastTimer = null;
 const PENDING_AUTH_KEY = 'cuetace_pending_auth_view';
 const SHOW_PROFILE_AFTER_LOGIN_KEY = 'cuetace_show_profile_after_login';
 const DEVICE_SESSION_KEY = 'cuetace_device_session_id';
-const WELCOME_NOTICE_KEY_PREFIX = 'cuetace_welcome_notice_seen_v1_';
+const WELCOME_NOTICE_KEY_PREFIX = 'cuetace_welcome_notice_seen_v2_';
 const SESSION_HEARTBEAT_MS = 30000;
 let cuetaceDeviceId = '';
 let sessionHeartbeatTimer = null;
@@ -37,6 +37,7 @@ let authStateResolved = false;
 let authStateResolve = null;
 let authFlowLoading = false;
 let pendingProtectedView = null;
+let welcomeNoticePending = false;
 let cloudResultsCache = null;
 let cloudBookmarksCache = null;
 let cloudProgressMigrated = false;
@@ -402,6 +403,7 @@ function closeProfileModal() {
   const modal = document.getElementById('profileModal');
   if (modal) modal.classList.remove('open');
   profileModalRequired = false;
+  maybeShowWelcomeNotice();
 }
 
 function welcomeNoticeKey() {
@@ -418,21 +420,32 @@ function markWelcomeNoticeSeen() {
 }
 
 function maybeShowWelcomeNotice() {
-  if (!cuetaceUser || authFlowLoading || profileModalRequired || shouldOpenProfileAfterLogin(cuetaceProfile)) return;
-  if (hasSeenWelcomeNotice()) return;
+  if (!cuetaceUser || authFlowLoading || profileModalRequired) return;
+  if (hasSeenWelcomeNotice()) {
+    welcomeNoticePending = false;
+    return;
+  }
   const profileModal = document.getElementById('profileModal');
-  if (profileModal && profileModal.classList.contains('open')) return;
+  if (profileModal && profileModal.classList.contains('open')) {
+    welcomeNoticePending = true;
+    return;
+  }
   const modal = document.getElementById('welcomeNoticeModal');
   if (!modal) return;
+  welcomeNoticePending = false;
   setTimeout(() => {
     if (!cuetaceUser || hasSeenWelcomeNotice()) return;
     const profileModalAfterDelay = document.getElementById('profileModal');
-    if (profileModalAfterDelay && profileModalAfterDelay.classList.contains('open')) return;
+    if (profileModalAfterDelay && profileModalAfterDelay.classList.contains('open')) {
+      welcomeNoticePending = true;
+      return;
+    }
     modal.classList.add('open');
   }, 350);
 }
 
 function closeWelcomeNotice() {
+  welcomeNoticePending = false;
   markWelcomeNoticeSeen();
   const modal = document.getElementById('welcomeNoticeModal');
   if (modal) modal.classList.remove('open');
