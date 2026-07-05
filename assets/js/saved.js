@@ -213,10 +213,12 @@ function updateSavedBadge() {
   const text = count > 99 ? '99+' : count;
   if (badge) {
     badge.textContent = text;
+    badge.setAttribute('aria-label', count + ' saved question' + (count === 1 ? '' : 's'));
     badge.style.display = count > 0 ? '' : 'none';
   }
   if (mobileBadge) {
     mobileBadge.textContent = text;
+    mobileBadge.setAttribute('aria-label', count + ' saved question' + (count === 1 ? '' : 's'));
     mobileBadge.style.display = count > 0 ? 'inline-flex' : 'none';
   }
 }
