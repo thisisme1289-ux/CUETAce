@@ -91,6 +91,7 @@ const ROUTE_TO_TAB = {
   '/current-affairs': 'tab-ca',
   '/saved': 'tab-saved'
 };
+const PREDICTOR_ROUTE = '/predictor';
 const TAB_TO_ROUTE = Object.entries(ROUTE_TO_TAB).reduce((map, pair) => {
   map[pair[1]] = pair[0];
   return map;
@@ -105,7 +106,9 @@ const ROUTE_ALIASES = {
   '/saved/': '/saved',
   '/results/': '/results',
   '/dashboard/': '/dashboard',
-  '/login/': '/login'
+  '/login/': '/login',
+  '/college-predictor': '/predictor',
+  '/college-predictor/': '/predictor'
 };
 const HASH_TO_ROUTE = {
   '#mock-tests': '/mock-tests',
@@ -608,6 +611,12 @@ function routeToPath(pathname, options) {
     return true;
   }
 
+  if (path === PREDICTOR_ROUTE) {
+    showView('predictor', { routeUpdate: false });
+    if (ROUTE_ALIASES[window.location.pathname]) setAppPath(path, true);
+    return true;
+  }
+
   const tabId = ROUTE_TO_TAB[path];
   if (tabId) {
     try { localStorage.setItem('cuetace_lasttab', tabId); } catch(e) {}
@@ -644,6 +653,7 @@ function showView(name, opts) {
   }
   if (routeUpdate && name === 'landing') setAppPath('/', false);
   if (routeUpdate && name === 'dashboard') setAppPath('/dashboard', false);
+  if (routeUpdate && name === 'predictor') setAppPath(PREDICTOR_ROUTE, false);
 
   // Stop exam timer if navigating away from exam
   if (name !== 'examscreen' && examState.timerInterval) {
@@ -693,6 +703,10 @@ function showView(name, opts) {
       switchTab(null, opts.initialTab, { routeUpdate: false });
       setTimeout(() => switchTab(null, opts.initialTab, { routeUpdate: false }), 80);
     }
+  }
+
+  if (name === 'predictor' && typeof initPredictor === 'function') {
+    initPredictor();
   }
 
   // Exam screen setup — always start exam on both desktop and mobile

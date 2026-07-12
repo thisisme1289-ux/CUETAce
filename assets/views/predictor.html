@@ -1,0 +1,68 @@
+<div id="predictor" class="view predictor-view">
+  <main class="predictor-shell">
+    <section class="predictor-hero">
+      <div>
+        <div class="section-tag">CUET Course & College Predictor</div>
+        <h1 class="predictor-title">Turn your subjects and score into a realistic college shortlist.</h1>
+        <p class="predictor-lede">Check what you can study, where you can apply, and how past official admission evidence compares. Eligibility comes first; historical cutoffs are guidance, never guarantees.</p>
+      </div>
+      <div class="predictor-proof">
+        <strong>244</strong>
+        <span>official CUET institutions in the 2026 NTA catalogue</span>
+        <a href="https://cuet.nta.nic.in/participating-universities/" target="_blank" rel="noopener">View NTA source ↗</a>
+      </div>
+    </section>
+
+    <section class="predictor-card" aria-label="Predictor inputs">
+      <div class="predictor-mode" role="tablist" aria-label="Choose score status">
+        <button class="predictor-mode-btn active" id="predictorModeScore" type="button" role="tab" aria-selected="true" onclick="setPredictorMode('score')"><strong>I have my CUET score</strong><span>Enter the subject-wise marks from your scorecard.</span></button>
+        <button class="predictor-mode-btn" id="predictorModeNoScore" type="button" role="tab" aria-selected="false" onclick="setPredictorMode('no-score')"><strong>I don't have my CUET score</strong><span>See eligible courses and required papers only.</span></button>
+      </div>
+
+      <div class="predictor-form-grid">
+        <div class="predictor-field predictor-fixed-field"><span>Current release</span><strong>Commerce-first</strong><small>Other streams will appear after their institutions and programmes are verified.</small></div>
+        <label class="predictor-field">
+          <span>Category</span>
+          <select id="predictorCategory">
+            <option value="UR">General / UR</option>
+            <option value="OBC">OBC-NCL</option>
+            <option value="EWS">EWS</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+          </select>
+        </label>
+        <label class="predictor-field">
+          <span>Class 12th marks (%)</span>
+          <input id="predictorAggregate" type="number" min="0" max="100" step="0.1" placeholder="e.g. 82" />
+        </label>
+      </div>
+
+      <div class="predictor-subject-block">
+        <div class="predictor-label-row"><span class="predictor-label">Subjects selected</span><span class="predictor-help">Used to check eligibility and show matching CUET score fields</span></div>
+        <div id="predictorClassSubjects" class="predictor-check-grid"></div>
+      </div>
+
+      <div id="predictorScoresBlock" class="predictor-subject-block">
+        <div class="predictor-label-row"><span class="predictor-label">CUET subject scores</span><span class="predictor-help">Enter official scorecard scores; leave unattempted subjects blank</span></div>
+        <div id="predictorScores" class="predictor-score-grid"></div>
+      </div>
+
+      <div class="predictor-actions">
+        <button class="btn-primary" type="button" onclick="runPredictor()">Show my options</button>
+        <button class="btn-outline" type="button" onclick="resetPredictor()">Reset</button>
+      </div>
+      <p class="predictor-form-note">Current release: verified commerce-first programme records. Institution-level catalogue coverage is shown separately until each programme and college is verified.</p>
+    </section>
+
+    <section id="predictorResults" class="predictor-results" aria-live="polite"></section>
+
+    <section class="predictor-method">
+      <div class="section-tag">How the result is built</div>
+      <div class="predictor-method-grid">
+        <div><strong>1. Eligibility gate</strong><span>Class XII subjects, stream, minimum marks, age and additional tests are checked before any score comparison.</span></div>
+        <div><strong>2. University formula</strong><span>DU, BHU, Allahabad and other institutions use different CUET combinations and score scales.</span></div>
+        <div><strong>3. Evidence label</strong><span>Every result keeps its source, year, category, round and freshness status visible.</span></div>
+      </div>
+    </section>
+  </main>
+</div>
