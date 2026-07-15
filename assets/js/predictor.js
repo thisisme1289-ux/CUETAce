@@ -92,21 +92,22 @@
 
   function sourceLine(programme) {
     const source = programme.historical?.[0]?.source || programme.evidence;
-    return `<a href="${esc(source)}" target="_blank" rel="noopener">${esc(programme.evidenceLabel)} ↗</a><span>Verified ${esc(data.metadata.verifiedOn)}</span>`;
+    if (!source) return `<span>Official source link unavailable in this release.</span><span>Verified ${esc(data.metadata.verifiedOn)}</span>`;
+    return `<a href="${esc(source)}" target="_blank" rel="noopener">${esc(programme.evidenceLabel || 'Official source')} ↗</a><span>Verified ${esc(data.metadata.verifiedOn)}</span>`;
   }
 
   function renderCard(result, profile) {
     const { programme, eligibility: check, score } = result;
     const band = mode === 'score' && check.eligible ? bandFor(programme, score, profile.category) : { label: check.eligible ? 'Eligible' : 'Not eligible', className: check.eligible ? 'band-neutral' : 'band-blocked', detail: check.eligible ? 'No score-based allocation prediction is shown.' : check.reasons.join(' · ') };
-    const historical = programme.historical?.length ? programme.historical.map(item => `${item.year} R${item.round} ${item.category}: ${item.score}`).join(' · ') : 'No public historical cutoff stored';
+    const historical = programme.historical?.length ? programme.historical.map(item => `${item.year}${item.round ? ` R${item.round}` : ''} ${item.category}: ${item.score}`).join(' · ') : 'No public historical cutoff stored';
     const reasons = check.eligible ? `<div class="predictor-card-note">${esc(band.detail)}${check.warnings?.length ? ` ${esc(check.warnings.join(' '))}` : ''}</div>` : `<ul class="predictor-reasons">${check.reasons.map(reason => `<li>${esc(reason)}</li>`).join('')}</ul>`;
     return `
       <article class="predictor-result-card ${check.eligible ? '' : 'is-blocked'}">
         <div class="predictor-result-main">
-          <div class="predictor-result-top"><span class="predictor-pill">${esc(band.label)}</span><span class="predictor-status">${esc(programme.status.replace('-', ' '))}</span></div>
+          <div class="predictor-result-top"><span class="predictor-pill">${esc(band.label)}</span><span class="predictor-status">${esc(String(programme.status || '').replace('-', ' '))}</span></div>
           <h3>${esc(programme.programme)}</h3>
           <p class="predictor-result-place">${esc(programme.institution)} · ${esc(programme.college)} · ${esc(programme.city)}</p>
-          <div class="predictor-result-tags"><span>CUET: ${programme.cuet.alternatives.map(combo => combo.join(' + ')).join(' OR ')}</span><span>Route: ${esc(programme.route)}</span></div>
+          <div class="predictor-result-tags"><span>CUET: ${programme.cuet.alternatives.map(combo => combo.join(' + ')).join(' OR ')}</span><span>Route: ${esc(programme.route)}</span><span>${esc(programme.collegeType || 'college')}</span></div>
           ${reasons}
         </div>
         <div class="predictor-result-evidence">
@@ -131,7 +132,25 @@
       <div class="predictor-results-head"><div><div class="section-tag">${mode === 'score' ? 'Score available' : 'Score not available'}</div><h2>${title}</h2><p>${intro}</p></div><div class="predictor-result-count"><strong>${eligible.length}</strong><span>eligible pilot options</span></div></div>
       <div class="predictor-warning"><strong>Important:</strong> These are programme-level recommendations, not guaranteed admissions. Category, seat availability, preference order and counselling rounds can change the outcome.</div>
       <div class="predictor-result-list">${ordered.map(result => renderCard(result, profile)).join('')}</div>
-      <div class="predictor-coverage"><strong>Coverage note:</strong> This result contains ${data.programmes.length} verified commerce-first programme records from the ${data.metadata.institutionTotal}-institution NTA scope. Colleges and criteria without verified programme evidence are intentionally excluded until they are researched.</div>`;
+      <div class="predictor-coverage"><strong>Coverage note:</strong> This result uses ${data.programmes.length} live recommendation records with verified Class XII and CUET-subject evidence. The wider audited inventory contains ${data.metadata.inventory?.programmeRowsFound || 0} programme rows and ${data.collegeCoverage?.length || 0} named college/campus/institute entities; incomplete records are shown in the coverage directory and are not used for predictions.</div>`;
+  }
+
+  function renderCoverage(query = '') {
+    const container = el('predictorCoverageList');
+    if (!container) return;
+    const needle = String(query || '').trim().toLowerCase();
+    const rows = (data.collegeCoverage || []).filter(item => !needle || `${item.college} ${item.institution} ${item.city} ${item.entityType}`.toLowerCase().includes(needle));
+    container.innerHTML = rows.length ? rows.map(item => {
+      const programmeText = item.programmes.length ? item.programmes.slice(0, 4).join(', ') + (item.programmes.length > 4 ? ` +${item.programmes.length - 4} more` : '') : 'No programme row connected yet';
+      const evidenceText = item.verifiedProgrammeCount ? `${item.verifiedProgrammeCount} programme row${item.verifiedProgrammeCount === 1 ? '' : 's'} ready for live recommendations` : 'College/entity name verified; programme evidence incomplete';
+      return `<article class="predictor-coverage-row"><div><strong>${esc(item.college)}</strong><span>${esc(item.institution)} · ${esc(item.city)} · ${esc(item.collegeType || item.entityType || 'institution-level only')}</span></div><div><small>${esc(evidenceText)}</small><p>${esc(programmeText)}</p></div></article>`;
+    }).join('') : '<div class="predictor-score-empty">No college or campus matched that search.</div>';
+    const count = el('predictorCoverageCount');
+    if (count) count.textContent = `${rows.length} of ${data.collegeCoverage?.length || 0} named entities`;
+    const summary = el('predictorCoverageSummary');
+    if (summary) summary.textContent = `${data.metadata.inventory?.individualCollegesOrAffiliatedInstitutesFound || 0} colleges/affiliated institutes and ${data.metadata.inventory?.campusesOrLocationsFound || 0} campuses/faculty locations are in the audited pack. Search results are evidence coverage, not guaranteed admission. Parent institutions are not shown as colleges.`;
+    const institutionCount = el('predictorInstitutionCount');
+    if (institutionCount) institutionCount.textContent = data.metadata.institutionTotal || 244;
   }
 
   window.setPredictorMode = function (nextMode) {
@@ -158,6 +177,12 @@
 
   window.initPredictor = function () {
     renderInputs();
+    const coverageSearch = el('predictorCoverageSearch');
+    if (coverageSearch && !coverageSearch.dataset.bound) {
+      coverageSearch.addEventListener('input', () => renderCoverage(coverageSearch.value));
+      coverageSearch.dataset.bound = 'true';
+    }
+    renderCoverage(coverageSearch?.value || '');
     setPredictorMode(mode);
   };
 })();

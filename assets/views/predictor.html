@@ -7,7 +7,7 @@
         <p class="predictor-lede">Check what you can study, where you can apply, and how past official admission evidence compares. Eligibility comes first; historical cutoffs are guidance, never guarantees.</p>
       </div>
       <div class="predictor-proof">
-        <strong>244</strong>
+        <strong id="predictorInstitutionCount">244</strong>
         <span>official CUET institutions in the 2026 NTA catalogue</span>
         <a href="https://cuet.nta.nic.in/participating-universities/" target="_blank" rel="noopener">View NTA source ↗</a>
       </div>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="predictor-form-grid">
-        <div class="predictor-field predictor-fixed-field"><span>Current release</span><strong>Commerce-first</strong><small>Other streams will appear after their institutions and programmes are verified.</small></div>
+        <div class="predictor-field predictor-fixed-field"><span>Current release</span><strong>Evidence-gated</strong><small>Only records with verified Class XII and CUET-subject evidence are used for live recommendations.</small></div>
         <label class="predictor-field">
           <span>Category</span>
           <select id="predictorCategory">
@@ -51,10 +51,20 @@
         <button class="btn-primary" type="button" onclick="runPredictor()">Show my options</button>
         <button class="btn-outline" type="button" onclick="resetPredictor()">Reset</button>
       </div>
-      <p class="predictor-form-note">Current release: verified commerce-first programme records. Institution-level catalogue coverage is shown separately until each programme and college is verified.</p>
+      <p class="predictor-form-note">Current release: verified programme recommendations plus a separate college-level research directory. Historical cutoffs are guidance only.</p>
     </section>
 
     <section id="predictorResults" class="predictor-results" aria-live="polite"></section>
+
+    <section class="predictor-card predictor-coverage-directory" aria-label="College-level research coverage">
+      <div class="section-tag">College-level research coverage</div>
+      <div class="predictor-results-head">
+        <div><h2>Find the actual college or campus name</h2><p id="predictorCoverageSummary">Search the audited institution → college/campus → programme inventory. Parent universities are not shown as colleges.</p></div>
+        <div class="predictor-result-count"><strong id="predictorCoverageCount">0</strong><span>named entities</span></div>
+      </div>
+      <label class="predictor-field"><span>Search college, university, campus or city</span><input id="predictorCoverageSearch" type="search" placeholder="Try Shri Ram College of Commerce or Miranda House" /></label>
+      <div id="predictorCoverageList" class="predictor-coverage-list"></div>
+    </section>
 
     <section class="predictor-method">
       <div class="section-tag">How the result is built</div>
