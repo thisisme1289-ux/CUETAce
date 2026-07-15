@@ -1,0 +1,49 @@
+{
+  "generatedOn": "2026-07-14",
+  "cases": [
+    {
+      "name": "DU SRCC B.Com (Hons.)",
+      "recordId": "du-srcc-bcom-hons-2025",
+      "expected": {
+        "institution": "University of Delhi",
+        "collegeOrCampus": "Shri Ram College of Commerce",
+        "separateClassXIIAndCuetFields": true,
+        "historicalCutoffGuidanceOnly": true,
+        "seatStatus": "unavailable"
+      }
+    },
+    {
+      "name": "DU Miranda House B.A. (Hons.) English",
+      "recordId": "du-miranda-ba-hons-english-2025",
+      "expected": {
+        "seatStatus": "verified",
+        "historicalCutoffGuidanceOnly": true,
+        "seatUR": 3,
+        "cutoffUR": 863.0249541
+      }
+    },
+    {
+      "name": "BHU B.Com. (Hons.)",
+      "recordId": "bhu-bcom-hons-2025",
+      "expected": {
+        "minimumMarks": 50,
+        "cuetPaperCodes": [
+          "301",
+          "305",
+          "501"
+        ],
+        "route": "CAP-UG",
+        "seatStatus": "verified"
+      }
+    },
+    {
+      "name": "Allahabad B.Com.",
+      "recordId": "au-bcom-2026",
+      "expected": {
+        "verificationStatus": "incomplete",
+        "minimumMarks": null,
+        "noInventedCutoff": true
+      }
+    }
+  ]
+}
